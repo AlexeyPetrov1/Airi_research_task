@@ -1,0 +1,278 @@
+{
+  "source_clip": "adt_mini/Apartment_release_clean_seq131_0_clip02_obj1_t108-149",
+  "source_file": "adt_mini/Apartment_release_clean_seq131_0.npz",
+  "caption": "switch the banana to the left hand and put it down on the cutting board",
+  "fps": 30.0,
+  "clip_frames": [
+    108,
+    149
+  ],
+  "history_frames": [
+    110,
+    111,
+    112
+  ],
+  "future_frames": [
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
+  ],
+  "source_point_ids": [
+    0,
+    14,
+    1,
+    26,
+    13,
+    21,
+    23,
+    19
+  ],
+  "object_candidates_visible_in_history": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    9,
+    13,
+    14,
+    19,
+    21,
+    23,
+    26
+  ],
+  "future_visible_pairs": 240,
+  "future_total_pairs": 240,
+  "image_size_wh": [
+    512,
+    512
+  ],
+  "intrinsics": [
+    280.0,
+    280.0,
+    256.0,
+    256.0
+  ],
+  "no_distortion_fields_in_source": true,
+  "pose_convention": "source extrinsics_w2c is world-to-camera; source tracks_XYZ is per-frame camera XYZ",
+  "rotation_orthogonality_fro": 1.759906251989415e-16,
+  "rotation_determinant": 1.0,
+  "w2c_t0": [
+    [
+      -0.618058493751358,
+      -0.03552450343039373,
+      -0.7853290443870178,
+      2.4258612555284587
+    ],
+    [
+      0.38459807357802533,
+      -0.8849286848469415,
+      -0.2626509937828795,
+      1.415706878923595
+    ],
+    [
+      -0.6856296522918728,
+      -0.4643697151958624,
+      0.5606003456180162,
+      0.44459709118141344
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "c2w_t0": [
+    [
+      -0.6180584937513579,
+      0.3845980735780254,
+      -0.6856296522918728,
+      1.2596749642932141
+    ],
+    [
+      -0.03552450343039372,
+      -0.8849286848469415,
+      -0.4643697151958624,
+      1.5454345675971268
+    ],
+    [
+      -0.7853290443870177,
+      -0.2626509937828795,
+      0.5606003456180162,
+      2.027694837297131
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "max_source_camera_world_camera_roundtrip_m": 1.1102230246251565e-15,
+  "max_history_camera_world_inverse_m": 4.440892098500626e-16,
+  "max_history_delta_difference_m": 0.15925103425979614,
+  "max_A_quantization_error_m": 0.0004930123686790466,
+  "max_B_quantization_error_m": 0.0004942287923768163,
+  "input_token_shapes": [
+    [
+      588
+    ],
+    [
+      589
+    ]
+  ],
+  "input_token_differences": 273,
+  "visual_inputs_equal": true,
+  "processor_B_methods_exactly_equal": true,
+  "query_uv_checks": [
+    {
+      "source_id": 0,
+      "query_frame": 119,
+      "query_uv": [
+        335.5,
+        435.5
+      ],
+      "projected_uv": [
+        335.5,
+        435.4999999999999
+      ],
+      "error_px": 1.1368683772161603e-13
+    },
+    {
+      "source_id": 14,
+      "query_frame": 154,
+      "query_uv": [
+        263.5,
+        493.5
+      ],
+      "projected_uv": [
+        263.5,
+        493.5
+      ],
+      "error_px": 0.0
+    },
+    {
+      "source_id": 1,
+      "query_frame": 237,
+      "query_uv": [
+        363.5,
+        504.5
+      ],
+      "projected_uv": [
+        363.50000000000006,
+        504.5000000000001
+      ],
+      "error_px": 1.2710574864626038e-13
+    },
+    {
+      "source_id": 26,
+      "query_frame": 6,
+      "query_uv": [
+        311.5,
+        314.5
+      ],
+      "projected_uv": [
+        311.5,
+        314.5
+      ],
+      "error_px": 0.0
+    },
+    {
+      "source_id": 13,
+      "query_frame": 222,
+      "query_uv": [
+        330.5,
+        497.5
+      ],
+      "projected_uv": [
+        330.5,
+        497.5
+      ],
+      "error_px": 0.0
+    },
+    {
+      "source_id": 21,
+      "query_frame": 163,
+      "query_uv": [
+        205.5,
+        485.5
+      ],
+      "projected_uv": [
+        205.5,
+        485.50000000000006
+      ],
+      "error_px": 5.684341886080802e-14
+    },
+    {
+      "source_id": 23,
+      "query_frame": 234,
+      "query_uv": [
+        371.5,
+        511.5
+      ],
+      "projected_uv": [
+        371.5,
+        511.50000000000006
+      ],
+      "error_px": 5.684341886080802e-14
+    },
+    {
+      "source_id": 19,
+      "query_frame": 133,
+      "query_uv": [
+        273.5,
+        465.5
+      ],
+      "projected_uv": [
+        273.5,
+        465.5
+      ],
+      "error_px": 0.0
+    }
+  ],
+  "source_sha256": "05d3c40e0fc76073899a58a6dba520c7fb3889eb9bcf3f9fd9224287d50bd323",
+  "index_sha256": "9a3649138ad6493104ed3e1b1be8091086115f3ca7d1eea5df31c0c82d7c7668",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "input_token_differences_aligned": 273,
+  "input_token_equal_count_aligned": 441,
+  "token_difference_method": "SequenceMatcher alignment; sum max(replaced/deleted A span, replaced/inserted B span)",
+  "processor_image_shape": [
+    1,
+    3,
+    729,
+    588
+  ],
+  "processor_image_sha256": "ae3dc2d6c39a5c5aa5f3e70a3634522cbf89a1c16894abb766ba79acbb56e5a8",
+  "processor_image_size_wh": [
+    378,
+    378
+  ]
+}

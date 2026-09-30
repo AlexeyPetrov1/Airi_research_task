@@ -1,0 +1,94 @@
+{
+    "success":  true,
+    "git_commit":  "73f51c846822c211b544fc0c60728d50844fcee8",
+    "episode":  "adt_mini/Apartment_release_clean_seq131_0_clip02_obj1_t108-149",
+    "history_frames":  [
+                           110,
+                           111,
+                           112
+                       ],
+    "future_frames":  [
+                          113,
+                          114,
+                          115,
+                          116,
+                          117,
+                          118,
+                          119,
+                          120,
+                          121,
+                          122,
+                          123,
+                          124,
+                          125,
+                          126,
+                          127,
+                          128,
+                          129,
+                          130,
+                          131,
+                          132,
+                          133,
+                          134,
+                          135,
+                          136,
+                          137,
+                          138,
+                          139,
+                          140,
+                          141,
+                          142
+                      ],
+    "source_point_ids":  [
+                             0,
+                             14,
+                             1,
+                             26,
+                             13,
+                             21,
+                             23,
+                             19
+                         ],
+    "horizon":  30,
+    "labels_run":  [
+                       "A",
+                       "B"
+                   ],
+    "checkpoint_config_sha256":  "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+    "checkpoint_model_bytes":  17847894425,
+    "checkpoint_hf_revision":  "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+    "torch_version":  "2.9.1+cu128",
+    "numpy_version":  "2.4.6",
+    "processor_inputs_sha256":  {
+                                    "A":  "c6dda6bdfcbbe76f0ff5a46997e16e6ea41ccd4d4b60e73d9475f792ffdf2226",
+                                    "B":  "44fca3125d5be8d49a936c4329354c2ea55d7e19a21f64a9d23637d42ab13db2"
+                                },
+    "per_run":  {
+                    "A":  {
+                              "seconds":  160.17,
+                              "raw_chars":  3023,
+                              "strict_positions":  240,
+                              "peak_cuda_allocated_gib":  9.606,
+                              "peak_cuda_reserved_gib":  10.59,
+                              "process_peak_ram_gib":  22.477,
+                              "raw_sha256":  "c48981d756bbd21da2951f1d2d11bc84768313162276bb9499f07fa6a64fe15d",
+                              "prediction_sha256":  "14872d26f155af41bde437b8ac1beedfef634348f0172ba0bd06896c554e80df"
+                          },
+                    "B":  {
+                              "seconds":  219.16,
+                              "raw_chars":  3273,
+                              "strict_positions":  240,
+                              "peak_cuda_allocated_gib":  9.632,
+                              "peak_cuda_reserved_gib":  10.59,
+                              "process_peak_ram_gib":  22.477,
+                              "raw_sha256":  "1712828b171a5b1b2661c117dfa0c804703b6e8136e71700167a4b614572ecf0",
+                              "prediction_sha256":  "6dd86f510cf3a7d0658fad3deeb4bc9a9f25d4b31d7ce19612c65e0c4f07b8a3"
+                          }
+                },
+    "stage":  "complete",
+    "process_peak_ram_gib":  22.477,
+    "cuda_peak_allocated_gib":  9.632,
+    "cuda_peak_reserved_gib":  10.59,
+    "elapsed_seconds":  456.05,
+    "checkpoint_model_sha256":  "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205"
+}
