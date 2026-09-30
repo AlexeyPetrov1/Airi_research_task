@@ -1,0 +1,16 @@
+{
+  "actual_upstream_indexing": "tracks[chosen_indices, t] on a (T,N,2) array",
+  "correct_source_indexing": "tracks[t, chosen_indices]",
+  "per_point_pixel_difference": [
+    88.7630615234375,
+    164.46908569335938,
+    100.60466003417969,
+    93.94123077392578,
+    116.27437591552734,
+    138.93699645996094,
+    135.2125244140625,
+    127.24921417236328
+  ],
+  "mean_pixel_difference": 120.681396484375,
+  "affects_saved_checkpoint": false
+}

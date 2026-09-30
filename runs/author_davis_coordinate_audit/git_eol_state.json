@@ -1,0 +1,6 @@
+{
+  "head": "93bbebeaa809102d34ab01873b9200eb910fde3f",
+  "windows_git_core_autocrlf": true,
+  "wsl_git_with_matching_autocrlf_status": "",
+  "interpretation": "Native Windows git is clean; Linux git without the Windows autocrlf setting reports CRLF text differences. No files changed to hide those differences."
+}

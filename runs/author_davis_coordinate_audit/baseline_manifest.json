@@ -1,0 +1,385 @@
+{
+  "git_head": "93bbebeaa809102d34ab01873b9200eb910fde3f",
+  "git_status": " M .gitignore\n M LICENSE\n M README.md\n M THIRD-PARTY-NOTICES\n M configs/installed-packages-wsl.txt\n M data_generation/.gitignore\n M data_generation/README.md\n M data_generation/configs/default.yaml\n M data_generation/configs/human_manipulation.yaml\n M data_generation/configs/in_the_wild.yaml\n M data_generation/configs/robot.yaml\n M data_generation/examples/tasks_example.json\n M data_generation/pipeline/__init__.py\n M data_generation/pipeline/clip_segments.py\n M data_generation/pipeline/grounding_worker.py\n M data_generation/requirements.txt\n M data_generation/run_pipeline.py\n M data_generation/scripts/check_env.py\n M data_generation/scripts/download_models.sh\n M data_generation/scripts/install.sh\n M data_generation/scripts/run_example.sh\n M data_generation/third_party/README.md\n M data_generation/third_party/alltracker/.gitignore\n M data_generation/third_party/alltracker/LICENSE\n M data_generation/third_party/alltracker/README.md\n M data_generation/third_party/alltracker/datasets/exportdataset.py\n M data_generation/third_party/alltracker/datasets/kubric_movif_dataset.py\n M data_generation/third_party/alltracker/datasets/metaflowdataset.py\n M data_generation/third_party/alltracker/datasets/pointdataset.py\n M data_generation/third_party/alltracker/demo.py\n M data_generation/third_party/alltracker/download_reference_model.sh\n M data_generation/third_party/alltracker/nets/alltracker.py\n M data_generation/third_party/alltracker/nets/blocks.py\n M data_generation/third_party/alltracker/requirements.txt\n M data_generation/third_party/alltracker/run-query-points.py\n M data_generation/third_party/alltracker/train_stage1.py\n M data_generation/third_party/alltracker/train_stage2.py\n M data_generation/third_party/alltracker/utils/basic.py\n M data_generation/third_party/alltracker/utils/data.py\n M data_generation/third_party/alltracker/utils/improc.py\n M data_generation/third_party/alltracker/utils/loss.py\n M data_generation/third_party/alltracker/utils/misc.py\n M data_generation/third_party/alltracker/utils/py.py\n M data_generation/third_party/alltracker/utils/samp.py\n M data_generation/third_party/alltracker/utils/saveload.py\n M data_generation/third_party/sam3/.github/workflows/format.yml\n M data_generation/third_party/sam3/.gitignore\n M data_generation/third_party/sam3/CODE_OF_CONDUCT.md\n M data_generation/third_party/sam3/CONTRIBUTING.md\n M data_generation/third_party/sam3/LICENSE\n M data_generation/third_party/sam3/MANIFEST.in\n M data_generation/third_party/sam3/README.md\n M data_generation/third_party/sam3/README_TRAIN.md\n M data_generation/third_party/sam3/molmo2_pointing.py\n M data_generation/third_party/sam3/pyproject.toml\n M data_generation/third_party/sam3/querypoints_from_video.py\n M data_generation/third_party/sam3/sam3/__init__.py\n M data_generation/third_party/sam3/sam3/agent/__init__.py\n M data_generation/third_party/sam3/sam3/agent/agent_core.py\n M data_generation/third_party/sam3/sam3/agent/client_llm.py\n M data_generation/third_party/sam3/sam3/agent/client_sam3.py\n M data_generation/third_party/sam3/sam3/agent/helpers/__init__.py\n M data_generation/third_party/sam3/sam3/agent/helpers/boxes.py\n M data_generation/third_party/sam3/sam3/agent/helpers/color_map.py\n M data_generation/third_party/sam3/sam3/agent/helpers/keypoints.py\n M data_generation/third_party/sam3/sam3/agent/helpers/mask_overlap_removal.py\n M data_generation/third_party/sam3/sam3/agent/helpers/masks.py\n M data_generation/third_party/sam3/sam3/agent/helpers/memory.py\n M data_generation/third_party/sam3/sam3/agent/helpers/rle.py\n M data_generation/third_party/sam3/sam3/agent/helpers/roi_align.py\n M data_generation/third_party/sam3/sam3/agent/helpers/rotated_boxes.py\n M data_generation/third_party/sam3/sam3/agent/helpers/som_utils.py\n M data_generation/third_party/sam3/sam3/agent/helpers/visualizer.py\n M data_generation/third_party/sam3/sam3/agent/helpers/zoom_in.py\n M data_generation/third_party/sam3/sam3/agent/inference.py\n M data_generation/third_party/sam3/sam3/agent/system_prompts/system_prompt.txt\n M data_generation/third_party/sam3/sam3/agent/system_prompts/system_prompt_iterative_checking.txt\n M data_generation/third_party/sam3/sam3/agent/viz.py\n M data_generation/third_party/sam3/sam3/eval/__init__.py\n M data_generation/third_party/sam3/sam3/eval/cgf1_eval.py\n M data_generation/third_party/sam3/sam3/eval/coco_eval.py\n M data_generation/third_party/sam3/sam3/eval/coco_eval_offline.py\n M data_generation/third_party/sam3/sam3/eval/coco_reindex.py\n M data_generation/third_party/sam3/sam3/eval/coco_writer.py\n M data_generation/third_party/sam3/sam3/eval/conversion_util.py\n M data_generation/third_party/sam3/sam3/eval/demo_eval.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/__init__.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/run_ytvis_eval.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/__init__.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/_timing.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/datasets/__init__.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/datasets/_base_dataset.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/datasets/tao_ow.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/datasets/youtube_vis.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/eval.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/__init__.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/_base_metric.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/count.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/metrics/hota.py\n M data_generation/third_party/sam3/sam3/eval/hota_eval_toolkit/trackeval/utils.py\n M data_generation/third_party/sam3/sam3/eval/postprocessors.py\n M data_generation/third_party/sam3/sam3/eval/saco_veval_eval.py\n M data_generation/third_party/sam3/sam3/eval/saco_veval_evaluators.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/__init__.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/_timing.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/config.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/datasets/__init__.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/datasets/_base_dataset.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/datasets/coco.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/datasets/tao.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/eval.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/metrics/__init__.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/metrics/_base_metric.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/metrics/teta.py\n M data_generation/third_party/sam3/sam3/eval/teta_eval_toolkit/utils.py\n M data_generation/third_party/sam3/sam3/eval/ytvis_coco_wrapper.py\n M data_generation/third_party/sam3/sam3/eval/ytvis_eval.py\n M data_generation/third_party/sam3/sam3/logger.py\n M data_generation/third_party/sam3/sam3/model/__init__.py\n M data_generation/third_party/sam3/sam3/model/act_ckpt_utils.py\n M data_generation/third_party/sam3/sam3/model/box_ops.py\n M data_generation/third_party/sam3/sam3/model/data_misc.py\n M data_generation/third_party/sam3/sam3/model/decoder.py\n M data_generation/third_party/sam3/sam3/model/edt.py\n M data_generation/third_party/sam3/sam3/model/encoder.py\n M data_generation/third_party/sam3/sam3/model/geometry_encoders.py\n M data_generation/third_party/sam3/sam3/model/io_utils.py\n M data_generation/third_party/sam3/sam3/model/maskformer_segmentation.py\n M data_generation/third_party/sam3/sam3/model/memory.py\n M data_generation/third_party/sam3/sam3/model/model_misc.py\n M data_generation/third_party/sam3/sam3/model/necks.py\n M data_generation/third_party/sam3/sam3/model/position_encoding.py\n M data_generation/third_party/sam3/sam3/model/sam1_task_predictor.py\n M data_generation/third_party/sam3/sam3/model/sam3_image.py\n M data_generation/third_party/sam3/sam3/model/sam3_image_processor.py\n M data_generation/third_party/sam3/sam3/model/sam3_tracker_base.py\n M data_generation/third_party/sam3/sam3/model/sam3_tracker_utils.py\n M data_generation/third_party/sam3/sam3/model/sam3_tracking_predictor.py\n M data_generation/third_party/sam3/sam3/model/sam3_video_base.py\n M data_generation/third_party/sam3/sam3/model/sam3_video_inference.py\n M data_generation/third_party/sam3/sam3/model/sam3_video_predictor.py\n M data_generation/third_party/sam3/sam3/model/text_encoder_ve.py\n M data_generation/third_party/sam3/sam3/model/tokenizer_ve.py\n M data_generation/third_party/sam3/sam3/model/utils/__init__.py\n M data_generation/third_party/sam3/sam3/model/utils/misc.py\n M data_generation/third_party/sam3/sam3/model/utils/sam1_utils.py\n M data_generation/third_party/sam3/sam3/model/utils/sam2_utils.py\n M data_generation/third_party/sam3/sam3/model/vitdet.py\n M data_generation/third_party/sam3/sam3/model/vl_combiner.py\n M data_generation/third_party/sam3/sam3/model_builder.py\n M data_generation/third_party/sam3/sam3/perflib/__init__.py\n M data_generation/third_party/sam3/sam3/perflib/associate_det_trk.py\n M data_generation/third_party/sam3/sam3/perflib/compile.py\n M data_generation/third_party/sam3/sam3/perflib/connected_components.py\n M data_generation/third_party/sam3/sam3/perflib/fa3.py\n M data_generation/third_party/sam3/sam3/perflib/masks_ops.py\n M data_generation/third_party/sam3/sam3/perflib/nms.py\n M data_generation/third_party/sam3/sam3/perflib/tests/tests.py\n M data_generation/third_party/sam3/sam3/perflib/triton/connected_components.py\n M data_generation/third_party/sam3/sam3/perflib/triton/nms.py\n M data_generation/third_party/sam3/sam3/sam/__init__.py\n M data_generation/third_party/sam3/sam3/sam/common.py\n M data_generation/third_party/sam3/sam3/sam/mask_decoder.py\n M data_generation/third_party/sam3/sam3/sam/prompt_encoder.py\n M data_generation/third_party/sam3/sam3/sam/rope.py\n M data_generation/third_party/sam3/sam3/sam/transformer.py\n M data_generation/third_party/sam3/sam3/train/__init__.py\n M data_generation/third_party/sam3/sam3/train/configs/eval_base.yaml\n M data_generation/third_party/sam3/sam3/train/configs/gold_image_evals/sam3_gold_image_attributes.yaml\n M data_generation/third_party/sam3/sam3/train/configs/gold_image_evals/sam3_gold_image_crowded.yaml\n M data_generation/third_party/sam3/sam3/train/configs/gold_image_evals/sam3_gold_image_fg_food.yaml\n M data_generation/third_party/sam3/sam3/train/configs/gold_image_evals/sam3_gold_image_fg_sports.yaml\n M data_generation/third_party/sam3/sam3/train/configs/gold_image_evals/sam3_gold_image_metaclip_nps.yaml\n M data_generation/third_party/sam3/sam3/train/configs/gold_image_evals/sam3_gold_image_sa1b_nps.yaml\n M data_generation/third_party/sam3/sam3/train/configs/gold_image_evals/sam3_gold_image_wiki_common.yaml\n M data_generation/third_party/sam3/sam3/train/configs/odinw13/odinw_text_and_visual.yaml\n M data_generation/third_party/sam3/sam3/train/configs/odinw13/odinw_text_only.yaml\n M data_generation/third_party/sam3/sam3/train/configs/odinw13/odinw_text_only_positive.yaml\n M data_generation/third_party/sam3/sam3/train/configs/odinw13/odinw_text_only_train.yaml\n M data_generation/third_party/sam3/sam3/train/configs/odinw13/odinw_visual_only.yaml\n M data_generation/third_party/sam3/sam3/train/configs/roboflow_v100/roboflow_v100_eval.yaml\n M data_generation/third_party/sam3/sam3/train/configs/roboflow_v100/roboflow_v100_full_ft_100_images.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_sav_test.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_sav_test_noheur.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_sav_val.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_sav_val_noheur.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_test.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_test_noheur.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_val.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_smartglasses_val_noheur.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_test.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_test_noheur.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_val.yaml\n M data_generation/third_party/sam3/sam3/train/configs/saco_video_evals/saco_veval_yt1b_val_noheur.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_bdd100k.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_droid.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_ego4d.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_fathomnet.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_food_rec.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_geode.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_inaturalist.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_nga.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_sav.yaml\n M data_generation/third_party/sam3/sam3/train/configs/silver_image_evals/sam3_silver_image_yt1b.yaml\n M data_generation/third_party/sam3/sam3/train/data/__init__.py\n M data_generation/third_party/sam3/sam3/train/data/coco_json_loaders.py\n M data_generation/third_party/sam3/sam3/train/data/collator.py\n M data_generation/third_party/sam3/sam3/train/data/sam3_image_dataset.py\n M data_generation/third_party/sam3/sam3/train/data/sam3_video_dataset.py\n M data_generation/third_party/sam3/sam3/train/data/torch_dataset.py\n M data_generation/third_party/sam3/sam3/train/loss/__init__.py\n M data_generation/third_party/sam3/sam3/train/loss/loss_fns.py\n M data_generation/third_party/sam3/sam3/train/loss/mask_sampling.py\n M data_generation/third_party/sam3/sam3/train/loss/sam3_loss.py\n M data_generation/third_party/sam3/sam3/train/loss/sigmoid_focal_loss.py\n M data_generation/third_party/sam3/sam3/train/masks_ops.py\n M data_generation/third_party/sam3/sam3/train/matcher.py\n M data_generation/third_party/sam3/sam3/train/nms_helper.py\n M data_generation/third_party/sam3/sam3/train/optim/__init__.py\n M data_generation/third_party/sam3/sam3/train/optim/optimizer.py\n M data_generation/third_party/sam3/sam3/train/optim/schedulers.py\n M data_generation/third_party/sam3/sam3/train/train.py\n M data_generation/third_party/sam3/sam3/train/trainer.py\n M data_generation/third_party/sam3/sam3/train/transforms/__init__.py\n M data_generation/third_party/sam3/sam3/train/transforms/basic.py\n M data_generation/third_party/sam3/sam3/train/transforms/basic_for_api.py\n M data_generation/third_party/sam3/sam3/train/transforms/filter_query_transforms.py\n M data_generation/third_party/sam3/sam3/train/transforms/point_sampling.py\n M data_generation/third_party/sam3/sam3/train/transforms/segmentation.py\n M data_generation/third_party/sam3/sam3/train/utils/__init__.py\n M data_generation/third_party/sam3/sam3/train/utils/checkpoint_utils.py\n M data_generation/third_party/sam3/sam3/train/utils/distributed.py\n M data_generation/third_party/sam3/sam3/train/utils/logger.py\n M data_generation/third_party/sam3/sam3/train/utils/train_utils.py\n M data_generation/third_party/sam3/sam3/visualization_utils.py\n M data_generation/third_party/sam3/scripts/extract_odinw_results.py\n M data_generation/third_party/sam3/scripts/extract_roboflow_vl100_results.py\n M data_generation/third_party/vipe/.clang-format\n M data_generation/third_party/vipe/.gitignore\n M data_generation/third_party/vipe/CONTRIBUTING.md\n M data_generation/third_party/vipe/LICENSE\n M data_generation/third_party/vipe/README.md\n M data_generation/third_party/vipe/THIRD_PARTY_LICENSES.md\n M data_generation/third_party/vipe/configs/default.yaml\n M data_generation/third_party/vipe/configs/pipeline/default.yaml\n M data_generation/third_party/vipe/configs/pipeline/lyra.yaml\n M data_generation/third_party/vipe/configs/pipeline/no_vda.yaml\n M data_generation/third_party/vipe/configs/pipeline/static_vda.yaml\n M data_generation/third_party/vipe/configs/pipeline/wide_angle.yaml\n M data_generation/third_party/vipe/configs/slam/default.yaml\n M data_generation/third_party/vipe/configs/streams/frame_dir_stream.yaml\n M data_generation/third_party/vipe/configs/streams/raw_mp4_stream.yaml\n M data_generation/third_party/vipe/csrc/bind.cpp\n M data_generation/third_party/vipe/csrc/corr_ext/correlation.cpp\n M data_generation/third_party/vipe/csrc/corr_ext/correlation_cuda_kernel.cu\n M data_generation/third_party/vipe/csrc/corr_ext/correlation_sampler.cpp\n M data_generation/third_party/vipe/csrc/droid_net_ext/altcorr_kernel.cu\n M data_generation/third_party/vipe/csrc/droid_net_ext/correlation_kernels.cu\n M data_generation/third_party/vipe/csrc/droid_net_ext/droid.cpp\n M data_generation/third_party/vipe/csrc/grounding_dino_ext/ms_deform_attn_cuda.cu\n M data_generation/third_party/vipe/csrc/grounding_dino_ext/ms_deform_attn_cuda.h\n M data_generation/third_party/vipe/csrc/grounding_dino_ext/ms_deform_im2col_cuda.cuh\n M data_generation/third_party/vipe/csrc/grounding_dino_ext/vision.cpp\n M data_generation/third_party/vipe/csrc/lietorch_ext/common.h\n M data_generation/third_party/vipe/csrc/lietorch_ext/dispatch.h\n M data_generation/third_party/vipe/csrc/lietorch_ext/lietorch.cpp\n M data_generation/third_party/vipe/csrc/lietorch_ext/lietorch_cpu.cpp\n M data_generation/third_party/vipe/csrc/lietorch_ext/lietorch_cpu.h\n M data_generation/third_party/vipe/csrc/lietorch_ext/lietorch_gpu.cu\n M data_generation/third_party/vipe/csrc/lietorch_ext/lietorch_gpu.h\n M data_generation/third_party/vipe/csrc/lietorch_ext/rxso3.h\n M data_generation/third_party/vipe/csrc/lietorch_ext/se3.h\n M data_generation/third_party/vipe/csrc/lietorch_ext/sim3.h\n M data_generation/third_party/vipe/csrc/lietorch_ext/so3.h\n M data_generation/third_party/vipe/csrc/scatter_ext/cuda/atomics.cuh\n M data_generation/third_party/vipe/csrc/scatter_ext/cuda/reducer.cuh\n M data_generation/third_party/vipe/csrc/scatter_ext/cuda/scatter_cuda.cu\n M data_generation/third_party/vipe/csrc/scatter_ext/cuda/scatter_cuda.h\n M data_generation/third_party/vipe/csrc/scatter_ext/cuda/utils.cuh\n M data_generation/third_party/vipe/csrc/scatter_ext/scatter.cpp\n M data_generation/third_party/vipe/csrc/slam_ext/geom_kernels.cu\n M data_generation/third_party/vipe/csrc/slam_ext/slam.cpp\n M data_generation/third_party/vipe/csrc/utils_ext/cuda_kdtree.cu\n M data_generation/third_party/vipe/csrc/utils_ext/cuda_kdtree.cuh\n M data_generation/third_party/vipe/csrc/utils_ext/knn.cu\n M data_generation/third_party/vipe/csrc/utils_ext/math_util.h\n M data_generation/third_party/vipe/csrc/utils_ext/platform.h\n M data_generation/third_party/vipe/csrc/utils_ext/utils_bind.cpp\n M data_generation/third_party/vipe/envs/base.yml\n M data_generation/third_party/vipe/envs/requirements.in\n M data_generation/third_party/vipe/envs/requirements.txt\n M data_generation/third_party/vipe/motion-filter-meanshift.py\n M data_generation/third_party/vipe/motion-filter-rb.py\n M data_generation/third_party/vipe/pyproject.toml\n M data_generation/third_party/vipe/run.py\n M data_generation/third_party/vipe/scripts/download_dataset.py\n M data_generation/third_party/vipe/scripts/vipe_to_colmap.py\n M data_generation/third_party/vipe/scripts/vipe_to_colmap_general.py\n M data_generation/third_party/vipe/setup.py\n M data_generation/third_party/vipe/track-filter-smooth.py\n M data_generation/third_party/vipe/vipe/__init__.py\n M data_generation/third_party/vipe/vipe/cli/__init__.py\n M data_generation/third_party/vipe/vipe/cli/main.py\n M data_generation/third_party/vipe/vipe/ext/__init__.py\n M data_generation/third_party/vipe/vipe/ext/corr/__init__.py\n M data_generation/third_party/vipe/vipe/ext/corr/spatial_correlation_sampler.py\n M data_generation/third_party/vipe/vipe/ext/lietorch/__init__.py\n M data_generation/third_party/vipe/vipe/ext/lietorch/broadcasting.py\n M data_generation/third_party/vipe/vipe/ext/lietorch/group_ops.py\n M data_generation/third_party/vipe/vipe/ext/lietorch/groups.py\n M data_generation/third_party/vipe/vipe/ext/scatter.py\n M data_generation/third_party/vipe/vipe/ext/specs.py\n M data_generation/third_party/vipe/vipe/ext/xformers.py\n M data_generation/third_party/vipe/vipe/pipeline/__init__.py\n M data_generation/third_party/vipe/vipe/pipeline/default.py\n M data_generation/third_party/vipe/vipe/pipeline/processors.py\n M data_generation/third_party/vipe/vipe/priors/depth/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/adapter.py\n M data_generation/third_party/vipe/vipe/priors/depth/alignment.py\n M data_generation/third_party/vipe/vipe/priors/depth/base.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/attention.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/block.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/drop_path.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/layer_scale.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/mlp.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/patch_embed.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dinov2_layers/swiglu_ffn.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/dpt.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/util/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/util/blocks.py\n M data_generation/third_party/vipe/vipe/priors/depth/dav2/util/transform.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/backbones/ConvNeXt.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/backbones/ViT_DINO_reg.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/backbones/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/configs/convlarge.0.3_150.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/configs/convtiny.0.3_150.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/configs/vit.raft5.giant2.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/configs/vit.raft5.large.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/configs/vit.raft5.small.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/decode_heads/HourGlassDecoder.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/decode_heads/RAFTDepthNormalDPTDecoder5.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/decode_heads/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/dense_pipeline.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model/monodepth_model.py\n M data_generation/third_party/vipe/vipe/priors/depth/metric3d/model_fn.py\n M data_generation/third_party/vipe/vipe/priors/depth/moge.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/dav2/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/dav2/dinov2.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/dav2/dpt.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/dav2/transform.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/depth_completion.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/priorda.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/sparse_sampler.py\n M data_generation/third_party/vipe/vipe/priors/depth/priorda/utils.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/layers.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/models/encoder.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/models/unidepthv2/decoder.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/models/unidepthv2/unidepthv2.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/utils/camera.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/utils/constants.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/utils/coordinate.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/utils/geometric.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/utils/misc.py\n M data_generation/third_party/vipe/vipe/priors/depth/unidepth/utils/positional_embedding.py\n M data_generation/third_party/vipe/vipe/priors/depth/videodepthanything/__init__.py\n M data_generation/third_party/vipe/vipe/priors/depth/videodepthanything/dpt_temporal.py\n M data_generation/third_party/vipe/vipe/priors/depth/videodepthanything/motion_module/attention.py\n M data_generation/third_party/vipe/vipe/priors/depth/videodepthanything/motion_module/motion_module.py\n M data_generation/third_party/vipe/vipe/priors/depth/videodepthanything/util.py\n M data_generation/third_party/vipe/vipe/priors/depth/videodepthanything/video_depth.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/__init__.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/camera.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/extractor.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/geocalib.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/gravity.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/lm_optimizer.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/misc.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/modules.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/perspective_fields.py\n M data_generation/third_party/vipe/vipe/priors/geocalib/utils.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/config.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/decoders/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/decoders/fpn.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/encoders/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/encoders/resnet.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/engines/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/engines/aot_engine.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/engines/deaot_engine.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/layers/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/layers/attention.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/layers/basic.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/layers/normalization.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/layers/position.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/layers/transformer.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/models/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/models/aot.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/networks/models/deaot.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/transforms/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/transforms/image_transforms.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/transforms/video_transforms.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/utils/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/utils/checkpoint.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/utils/ema.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/utils/image.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/utils/learning.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot/utils/math.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/aot_tracker.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/detector.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/config.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/datasets/transforms.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/backbone/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/backbone/backbone.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/backbone/position_encoding.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/backbone/swin_transformer.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/bertwarper.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/fuse_modules.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/groundingdino.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/ms_deform_attn.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/transformer.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/transformer_vanilla.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/main/utils.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/models/registry.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/util/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/util/box_ops.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/util/get_tokenlizer.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/util/inference.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/util/misc.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/groundingdino/util/utils.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/automatic_mask_generator.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/build_sam.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/modeling/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/modeling/common.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/modeling/image_encoder.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/modeling/mask_decoder.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/modeling/prompt_encoder.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/modeling/sam.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/modeling/transformer.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/predictor.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/utils/__init__.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/utils/amg.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/utils/onnx.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/sam/utils/transforms.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/seg_tracker.py\n M data_generation/third_party/vipe/vipe/priors/track_anything/segmentor.py\n M data_generation/third_party/vipe/vipe/slam/__init__.py\n M data_generation/third_party/vipe/vipe/slam/ba/__init__.py\n M data_generation/third_party/vipe/vipe/slam/ba/kernel.py\n M data_generation/third_party/vipe/vipe/slam/ba/solver.py\n M data_generation/third_party/vipe/vipe/slam/ba/terms.py\n M data_generation/third_party/vipe/vipe/slam/components/__init__.py\n M data_generation/third_party/vipe/vipe/slam/components/backend.py\n M data_generation/third_party/vipe/vipe/slam/components/buffer.py\n M data_generation/third_party/vipe/vipe/slam/components/factor_graph.py\n M data_generation/third_party/vipe/vipe/slam/components/frontend.py\n M data_generation/third_party/vipe/vipe/slam/components/inner_filler.py\n M data_generation/third_party/vipe/vipe/slam/components/motion_filter.py\n M data_generation/third_party/vipe/vipe/slam/components/sparse_tracks/__init__.py\n M data_generation/third_party/vipe/vipe/slam/components/sparse_tracks/cuvslam.py\n M data_generation/third_party/vipe/vipe/slam/interface.py\n M data_generation/third_party/vipe/vipe/slam/maths/__init__.py\n M data_generation/third_party/vipe/vipe/slam/maths/geom.py\n M data_generation/third_party/vipe/vipe/slam/maths/matrix.py\n M data_generation/third_party/vipe/vipe/slam/maths/retractor.py\n M data_generation/third_party/vipe/vipe/slam/maths/vector.py\n M data_generation/third_party/vipe/vipe/slam/networks/__init__.py\n M data_generation/third_party/vipe/vipe/slam/networks/droid_net.py\n M data_generation/third_party/vipe/vipe/slam/networks/superpoint.py\n M data_generation/third_party/vipe/vipe/slam/system.py\n M data_generation/third_party/vipe/vipe/streams/__init__.py\n M data_generation/third_party/vipe/vipe/streams/base.py\n M data_generation/third_party/vipe/vipe/streams/frame_dir_stream.py\n M data_generation/third_party/vipe/vipe/streams/raw_mp4_stream.py\n M data_generation/third_party/vipe/vipe/utils/__init__.py\n M data_generation/third_party/vipe/vipe/utils/cameras.py\n M data_generation/third_party/vipe/vipe/utils/depth.py\n M data_generation/third_party/vipe/vipe/utils/geometry.py\n M data_generation/third_party/vipe/vipe/utils/io.py\n M data_generation/third_party/vipe/vipe/utils/logging.py\n M data_generation/third_party/vipe/vipe/utils/misc.py\n M data_generation/third_party/vipe/vipe/utils/morph.py\n M data_generation/third_party/vipe/vipe/utils/viser.py\n M data_generation/third_party/vipe/vipe/utils/visualization.py\n M dataset_recipes/README.md\n M examples/01_quickstart.py\n M examples/README.md\n M examples/data/davis_bmx_trees/caption.txt\n M examples/data/davis_bmx_trees/meta.json\n M examples/data/davis_car_turn/caption.txt\n M examples/data/davis_car_turn/meta.json\n M examples/data/davis_flamingo/caption.txt\n M examples/data/davis_flamingo/meta.json\n M examples/data/egodex_ball_base/caption.txt\n M examples/data/egodex_ball_base/meta.json\n M examples/data/egodex_clean_surface/caption.txt\n M examples/data/egodex_clean_surface/meta.json\n M examples/data/predictions_h3.jsonl\n M launch_scripts/eval.py\n M launch_scripts/eval_pointmotionbench.py\n M launch_scripts/sft.py\n M launch_scripts/train.py\n M pointmotionbench/.gitignore\n M pointmotionbench/README.md\n M pointmotionbench/davis/davis_captions.json\n M pointmotionbench/hot3d/download_train_aria.py\n M pointmotionbench/hot3d/extract_rgbs.py\n M pointmotionbench/hot3d/hot3d_annotations.json\n M pointmotionbench/hot3d/trim_hot3d_clips.py\n M pointmotionbench/worldtrack/extract_worldtrack_clips.py\n M pyproject.toml\n M robotics/README.md\n M robotics/configs/molmobot_pickplace.yaml\n M robotics/launch_scripts/eval.sh\n M robotics/launch_scripts/train.sh\n M robotics/molmobot_traj/README.md\n M robotics/molmobot_traj/overlay/olmo/data/droid_dataset.py\n M robotics/molmobot_traj/overlay/olmo/data/synthmanip_tracks_dataset.py\n M robotics/molmobot_traj/overlay/olmo/eval/mesh_surface_sampler.py\n M robotics/molmobot_traj/trajectory_conditioning.patch\n M robotics/scripts/build_eval_subset.py\n M robotics/scripts/eval_sidecar.py\n M robotics/scripts/prepare_training_data.py\n M robotics/scripts/scan_train_signatures.py\n M robotics/scripts/unshard_pretrained.py\n M runs/author_davis_bmx_trees_f30/correction_baseline_hashes.json\n M runs/author_davis_bmx_trees_f30/inputs/caption.txt\n M runs/author_davis_bmx_trees_f30/inputs/meta.json\n M runs/author_davis_bmx_trees_f30/metrics.csv\n M runs/author_davis_bmx_trees_f30/provenance.json\n M scripts/build_track_keys_cache.py\n M scripts/visualize_trajectory.py\n M src/molmo_motion/__init__.py\n M src/molmo_motion/_optional.py\n M src/molmo_motion/_version.py\n M src/molmo_motion/cli/__init__.py\n M src/molmo_motion/cli/eval.py\n M src/molmo_motion/cli/train.py\n M src/molmo_motion/config.py\n M src/molmo_motion/data/data_loader.py\n M src/molmo_motion/data/dataset.py\n M src/molmo_motion/data/dynamic_packer.py\n M src/molmo_motion/data/get_dataset.py\n M src/molmo_motion/data/iterable_dataset_mixture.py\n M src/molmo_motion/data/trajectory_3d_dataset.py\n M src/molmo_motion/data/types.py\n M src/molmo_motion/data/utils.py\n M src/molmo_motion/data/video_loader.py\n M src/molmo_motion/dist_util.py\n M src/molmo_motion/eval/egodex_3d_evaluator.py\n M src/molmo_motion/eval/eval_utils.py\n M src/molmo_motion/eval/evaluators.py\n M src/molmo_motion/eval/full_rollout.py\n M src/molmo_motion/eval/inf_evaluator.py\n M src/molmo_motion/eval/loss_evaluator.py\n M src/molmo_motion/eval/model_evaluator.py\n M src/molmo_motion/eval/object_tracking_utils.py\n M src/molmo_motion/eval/point_tracking_utils.py\n M src/molmo_motion/eval/save_eval_data_config.py\n M src/molmo_motion/exceptions.py\n M src/molmo_motion/hf_model/__init__.py\n M src/molmo_motion/hf_model/configuration_molmo_motion.py\n M src/molmo_motion/hf_model/convert_molmo_motion_to_hf.py\n M src/molmo_motion/hf_model/image_processing_molmo_motion.py\n M src/molmo_motion/hf_model/modeling_molmo_motion.py\n M src/molmo_motion/hf_model/processing_molmo_motion.py\n M src/molmo_motion/hf_model/video_processing_molmo_motion.py\n M src/molmo_motion/html_utils.py\n M src/molmo_motion/io.py\n M src/molmo_motion/model_configs.py\n M src/molmo_motion/modeling.py\n M src/molmo_motion/models/model.py\n M src/molmo_motion/models/model_config.py\n M src/molmo_motion/models/molmo/molmo.py\n M src/molmo_motion/models/molmo/molmo_preprocessor.py\n M src/molmo_motion/models/molmo2/molmo2.py\n M src/molmo_motion/models/molmo2/molmo2_preprocessor.py\n M src/molmo_motion/models/molmo2/molmo2_trajectory.py\n M src/molmo_motion/models/molmo_point/modules.py\n M src/molmo_motion/models/molmo_point/molmo_point.py\n M src/molmo_motion/models/molmo_point/molmo_point_connector.py\n M src/molmo_motion/models/molmo_point/molmo_point_data_formatter.py\n M src/molmo_motion/models/molmo_point/molmo_point_example_preprocessor.py\n M src/molmo_motion/models/molmo_point/molmo_point_text_preprocessor.py\n M src/molmo_motion/nn/__init__.py\n M src/molmo_motion/nn/beam_search.py\n M src/molmo_motion/nn/cp_load_balancer.py\n M src/molmo_motion/nn/flash_attention_api.py\n M src/molmo_motion/nn/image_vit.py\n M src/molmo_motion/nn/legacy_config.py\n M src/molmo_motion/nn/llm.py\n M src/molmo_motion/nn/point_features.py\n M src/molmo_motion/nn/ulysses.py\n M src/molmo_motion/nn/vision_backbone.py\n M src/molmo_motion/preprocessing/data_formatter.py\n M src/molmo_motion/preprocessing/detect_counting_question.py\n M src/molmo_motion/preprocessing/image_preprocessor.py\n M src/molmo_motion/preprocessing/multicrop_preprocessor.py\n M src/molmo_motion/preprocessing/multimodal_collator.py\n M src/molmo_motion/preprocessing/multimodal_preprocessor.py\n M src/molmo_motion/preprocessing/multiple_choice_templates.py\n M src/molmo_motion/preprocessing/point_formatter.py\n M src/molmo_motion/preprocessing/preprocessor_utils.py\n M src/molmo_motion/preprocessing/text_preprocessor.py\n M src/molmo_motion/preprocessing/video_preprocessor.py\n M src/molmo_motion/processor.py\n M src/molmo_motion/public_config.py\n M src/molmo_motion/registry.py\n M src/molmo_motion/safetensors_util.py\n M src/molmo_motion/tokenizer.py\n M src/molmo_motion/torch_util.py\n M src/molmo_motion/train/checkpointer.py\n M src/molmo_motion/train/distributed_checkpointing.py\n M src/molmo_motion/train/optim.py\n M src/molmo_motion/train/remote_filesystem.py\n M src/molmo_motion/train/run_trainer.py\n M src/molmo_motion/train/trainer.py\n M src/molmo_motion/train/trainer_config.py\n M src/molmo_motion/util.py\n M src/molmo_motion/version.py\n M src/molmo_motion/viz.py\n M tests/test_import_surface.py\n M tests/test_numerical_equivalence_model.py\n M tests/test_numerical_equivalence_preproc.py\n",
+  "files": {
+    "runs/author_davis_bmx_trees_f30/correction_baseline_hashes.json": {
+      "sha256": "14b27fba983d39da29156670e5502ba78d8a2a7ab80674eb327a6d706f0b377d",
+      "bytes": 1181,
+      "sha256_lf": "5b58864ba2d5750c090efdff3f530449a0e38ae6821e4bba06313c39d841f5f3",
+      "crlf": 14,
+      "bare_lf": 0
+    },
+    "runs/author_davis_bmx_trees_f30/correction_validation.json": {
+      "sha256": "af4228f6de4b464e97105bab0c9c90d3770c0e46193769b6e6c7ffc895b0b2be",
+      "bytes": 1350,
+      "sha256_lf": "af4228f6de4b464e97105bab0c9c90d3770c0e46193769b6e6c7ffc895b0b2be",
+      "crlf": 0,
+      "bare_lf": 80
+    },
+    "runs/author_davis_bmx_trees_f30/dataset_info.json": {
+      "sha256": "fa65c8a133802e3568751b7ea4d3d6a63d1b795fd3a6afd2beb9d93a51e8a3dd",
+      "bytes": 817,
+      "sha256_lf": "fa65c8a133802e3568751b7ea4d3d6a63d1b795fd3a6afd2beb9d93a51e8a3dd",
+      "crlf": 0,
+      "bare_lf": 61
+    },
+    "runs/author_davis_bmx_trees_f30/error_vs_horizon.png": {
+      "sha256": "23772d2d05dc47abe6f0e385ecc702867ef79b3973f7868f7af72d71e6e003c8",
+      "bytes": 89805
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00000.jpg": {
+      "sha256": "64d01a321146130b47a751da835ff244b8065148e3a75763d4cc6e2287f2f47f",
+      "bytes": 95499
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00001.jpg": {
+      "sha256": "d69f3f678057384ecb2fb142476c63bc069886be5a928eef2b582f8fe13d7308",
+      "bytes": 95906
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00002.jpg": {
+      "sha256": "b4fa8849780df467870f569e959ac221fff7886a5ce1b476349ee95d9e744497",
+      "bytes": 95954
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00003.jpg": {
+      "sha256": "aa176ce5fbc91ff3385d4f31aa8344e72fbd2eb7351938ed7176a9650446cc33",
+      "bytes": 98358
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00004.jpg": {
+      "sha256": "d38b64c8d905212d78d69ed3d9e6229912335eb22aca7eea7ba93d5f10890a2e",
+      "bytes": 99202
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00005.jpg": {
+      "sha256": "98330afa015d2d89735fc39c954f40f2de35097919011455cb30eb45697afdb4",
+      "bytes": 99537
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00006.jpg": {
+      "sha256": "53633c42c3ece996d8ee4d20aa52ff966161e262884ffc4f90ff1368b01751f8",
+      "bytes": 99374
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00007.jpg": {
+      "sha256": "79b5a448d8e523ad2cfcb00c46f0900d95d5010f9606525b3c48d3c6b1e31f47",
+      "bytes": 100359
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00008.jpg": {
+      "sha256": "c8549b64e890ceb2b35b35922e0f7b63c46befa08eb0510cf1baf0249126dba5",
+      "bytes": 99266
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00009.jpg": {
+      "sha256": "862337906c37bdeec2e9108385990de78ab27550869c6c197d2858edee097185",
+      "bytes": 90389
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00010.jpg": {
+      "sha256": "8d657d97eb763361cbf9972ccbe9d18714083aefdb79723f77106b398a23af58",
+      "bytes": 94459
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00011.jpg": {
+      "sha256": "481f9d70d14b43ec7954678cc4a4b5b9742465f4bbabcd1d6f6ed914aaf0bb70",
+      "bytes": 89364
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00012.jpg": {
+      "sha256": "f5494a3c26aa719074d2de67c1baa0cf2e8eeb67b9a276afb741e29a07a2c769",
+      "bytes": 91612
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00013.jpg": {
+      "sha256": "04f3d551129ad6c3e38b7c902473e120797735a8fa0c99a4533ab627991c6b6f",
+      "bytes": 94794
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00014.jpg": {
+      "sha256": "4d97e141b0620214136a42d53ac940c8eba50b384cf0f9f723a42c68a59f2712",
+      "bytes": 92736
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00015.jpg": {
+      "sha256": "c88775721733b4e87c781617bb74d1434343dc46d554708150080f8342fd2ad5",
+      "bytes": 92350
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00016.jpg": {
+      "sha256": "c60cd05b8af8b55b0f560b0c3b29f7ac61379e6f1255cfeb3d2f6ab22bfde690",
+      "bytes": 92935
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00017.jpg": {
+      "sha256": "f98748465828713f70758d5393fa11dcdd7d76de86dfe53bd2bead888b77cbd7",
+      "bytes": 89588
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00018.jpg": {
+      "sha256": "9c86304608b1ab3596db591e9d45eed4bc54512fb778556d1fcd3737a03e590d",
+      "bytes": 87045
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00019.jpg": {
+      "sha256": "ba9cc974dda99b882e9c5fb469b0e2f2d334810973b3e2b8ca2018ca4291c312",
+      "bytes": 87250
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00020.jpg": {
+      "sha256": "7022d5408bef73d7f3d3b1a0e973844794f0ffafdf5c45fe71416274d2c0f5ed",
+      "bytes": 89031
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00021.jpg": {
+      "sha256": "c50491eb8adbda20c58fb3c69945c58b7754cdc80f801609e3bc49e5c143d339",
+      "bytes": 93289
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00022.jpg": {
+      "sha256": "c1b83df284e2fb438ed9b9d9f78fd8561c72257eaff87f7b6d4de7937da6f73c",
+      "bytes": 98494
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00023.jpg": {
+      "sha256": "26e94c78735c73b2dd0e7d2ab302166060ca7d7a7c5fa88ee285a02f5280cd9c",
+      "bytes": 98466
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00024.jpg": {
+      "sha256": "bae8c3aeea54c6209f54e033db2e222d1d5a704c2b7a8b8ab0f3454f26026a68",
+      "bytes": 100393
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00025.jpg": {
+      "sha256": "61d42ff2262c05f5c0909920e58e2d176d5cd6faffd417db4511b07891105ba5",
+      "bytes": 102695
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00026.jpg": {
+      "sha256": "ba014c105ab89f7523b04d48743d7d458616c2684ff35dfc3ccdb391c26ccecd",
+      "bytes": 104252
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00027.jpg": {
+      "sha256": "2408e4418067560f768a805004afd68c88dbd95d262bd9e724d7cc96de16f3c3",
+      "bytes": 106900
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00028.jpg": {
+      "sha256": "2baa1d766e3b3266b11f030c751723cd7fae77694d50801755bbd4a2c9fe8b96",
+      "bytes": 111561
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00029.jpg": {
+      "sha256": "94dbd6610e8e58703c7d76c36551b103d821e9f81c8b46b3b0024abed08c081e",
+      "bytes": 111826
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00030.jpg": {
+      "sha256": "5fa9fc78815ec3c7356df16fe1bc44b5cb47f148e36104581278a9433061ef61",
+      "bytes": 107467
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00031.jpg": {
+      "sha256": "6fe62da593f47cbb74d2c4e4a0c55e7ed4f60e9042c54382780f008c0069a6d4",
+      "bytes": 101787
+    },
+    "runs/author_davis_bmx_trees_f30/frames/00032.jpg": {
+      "sha256": "2c3aa4df2f147e4bf8d3f1f52a7e5ba373ae9e9cab2770cbade20837c80329ac",
+      "bytes": 103169
+    },
+    "runs/author_davis_bmx_trees_f30/ground_truth.npz": {
+      "sha256": "61dc848d1566a04e137e4f87f000dabd061f087b3cae839bfbe43095819a7559",
+      "bytes": 6692
+    },
+    "runs/author_davis_bmx_trees_f30/input_history_points.png": {
+      "sha256": "0485cde193559481594ef81890bf8ab73701620d918c41dbfa88455216f19d8e",
+      "bytes": 1549303
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/caption.txt": {
+      "sha256": "6cb867801b7be44924475e3440fb1893c1525cea511498559c4bc2fa35760cc6",
+      "bytes": 37,
+      "sha256_lf": "d55bceef92f71fed92d8cd17dc5dfef2fd95d79cb27b1617f49470f902f4e358",
+      "crlf": 1,
+      "bare_lf": 0
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/frame_t+0.jpg": {
+      "sha256": "d0739527df4499edfae1245549757a2b375bcefcef6fdb94a6fc5730873570a1",
+      "bytes": 124185
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/frame_t-1.jpg": {
+      "sha256": "b11254687d7e89b23af556f0427aadad9a126e8340086b0ba3fd9b0a3feb479a",
+      "bytes": 123640
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/frame_t-2.jpg": {
+      "sha256": "3ffe0397dd72fbdbbd230ec34efc1ac991cc237916ca12b0e24fbed52e36b253",
+      "bytes": 119092
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/intrinsics_K.pt": {
+      "sha256": "452709a0d87840d7ef0be4f174b2ee312de621c4d6fb90ba629c2b8612fc8d46",
+      "bytes": 1205
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/meta.json": {
+      "sha256": "01494599627226839063d3d16a4a782896be259ece685bfcfca18b0051e5395c",
+      "bytes": 456,
+      "sha256_lf": "2db9a2437ffa2339a2a70c9f0d6b6abf08f9ebbdd04554c7d649f639cefd0af4",
+      "crlf": 30,
+      "bare_lf": 0
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/points_2d_at_t0.pt": {
+      "sha256": "fb295e45c0a0a12245266e4444d1745d131c95a26ead15d0ada5bba490390300",
+      "bytes": 1284
+    },
+    "runs/author_davis_bmx_trees_f30/inputs/points_3d_history.pt": {
+      "sha256": "f39fc2a9e33a56b9f3acc83235f36c856863f2c38650c9783e5f526e8042a053",
+      "bytes": 1486
+    },
+    "runs/author_davis_bmx_trees_f30/metrics.csv": {
+      "sha256": "b032c67440671c7d444788e2315230e13b826b77c86c7709fe310f84626a15fe",
+      "bytes": 253
+    },
+    "runs/author_davis_bmx_trees_f30/metrics.json": {
+      "sha256": "03fc490ab2874c1e94b5635438c8f4373da4496cc38c9c5679a959b1132f3573",
+      "bytes": 3899,
+      "sha256_lf": "03fc490ab2874c1e94b5635438c8f4373da4496cc38c9c5679a959b1132f3573",
+      "crlf": 0,
+      "bare_lf": 218
+    },
+    "runs/author_davis_bmx_trees_f30/model_output_raw.txt": {
+      "sha256": "86a8c3db43ef62c917e4a6704df645a998ee7baa629b3802e1aa0b13cca1afe2",
+      "bytes": 4112,
+      "sha256_lf": "86a8c3db43ef62c917e4a6704df645a998ee7baa629b3802e1aa0b13cca1afe2",
+      "crlf": 0,
+      "bare_lf": 0
+    },
+    "runs/author_davis_bmx_trees_f30/observed_and_future.png": {
+      "sha256": "d92fb45067a761018c3c2c2bc7584fb2450c273f70bdb7dc920cbfcf59868f4c",
+      "bytes": 3181448
+    },
+    "runs/author_davis_bmx_trees_f30/prediction.npz": {
+      "sha256": "0cd15e72f1a79e81f3c5e23292994354ff4d75f4a41f73b68d17929d396295b5",
+      "bytes": 2681
+    },
+    "runs/author_davis_bmx_trees_f30/processor_inputs.pt": {
+      "sha256": "3ff8a5d32db2640f52304ed3bdbeec2e3ea46ef4b80568174c7e1c61592fcf9a",
+      "bytes": 1327174
+    },
+    "runs/author_davis_bmx_trees_f30/projection_check.json": {
+      "sha256": "5c4e8f465f200693ca6e8beeaf50ed3735aa6184f5b366abb330249462569bbe",
+      "bytes": 1343,
+      "sha256_lf": "5c4e8f465f200693ca6e8beeaf50ed3735aa6184f5b366abb330249462569bbe",
+      "crlf": 0,
+      "bare_lf": 47
+    },
+    "runs/author_davis_bmx_trees_f30/provenance.json": {
+      "sha256": "0bc2e83cb50f05f121470c248081d2fa217bfbdb6eb50df50c74964ca489502c",
+      "bytes": 1398,
+      "sha256_lf": "1145caed79cd67529b4535ced7f420e6dd7d0f5544c42f2e56ed6682d4a6a4ef",
+      "crlf": 16,
+      "bare_lf": 0
+    },
+    "runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4": {
+      "sha256": "09a04a65b8bcbf21de58c6cac702278b393f2eb55aa23155367f735113bb9e59",
+      "bytes": 2367074
+    },
+    "runs/author_davis_bmx_trees_f30/run_status.json": {
+      "sha256": "5d3390cb66c9695f0c41608d27845b32279ba8fdfe85d461649537f66be508e3",
+      "bytes": 1133,
+      "sha256_lf": "5d3390cb66c9695f0c41608d27845b32279ba8fdfe85d461649537f66be508e3",
+      "crlf": 0,
+      "bare_lf": 59
+    },
+    "runs/author_davis_bmx_trees_f30/trajectory_comparison.png": {
+      "sha256": "1978b5ea9053d936a5ce75bb025759e6d580dd5f7760af02b3c0e6873ec9b881",
+      "bytes": 544535
+    },
+    "runs/author_davis_bmx_trees_f30/video_decoded_check.png": {
+      "sha256": "48fdd0c2533da14ff2086340381cdacc196cd01883311ab51da1dba4a7029d5b",
+      "bytes": 2085858
+    },
+    "examples/data/davis_bmx_trees/caption.txt": {
+      "sha256": "6cb867801b7be44924475e3440fb1893c1525cea511498559c4bc2fa35760cc6",
+      "bytes": 37,
+      "sha256_lf": "d55bceef92f71fed92d8cd17dc5dfef2fd95d79cb27b1617f49470f902f4e358",
+      "crlf": 1,
+      "bare_lf": 0
+    },
+    "examples/data/davis_bmx_trees/frame_t+0.jpg": {
+      "sha256": "d0739527df4499edfae1245549757a2b375bcefcef6fdb94a6fc5730873570a1",
+      "bytes": 124185
+    },
+    "examples/data/davis_bmx_trees/frame_t-1.jpg": {
+      "sha256": "b11254687d7e89b23af556f0427aadad9a126e8340086b0ba3fd9b0a3feb479a",
+      "bytes": 123640
+    },
+    "examples/data/davis_bmx_trees/frame_t-2.jpg": {
+      "sha256": "3ffe0397dd72fbdbbd230ec34efc1ac991cc237916ca12b0e24fbed52e36b253",
+      "bytes": 119092
+    },
+    "examples/data/davis_bmx_trees/intrinsics_K.pt": {
+      "sha256": "452709a0d87840d7ef0be4f174b2ee312de621c4d6fb90ba629c2b8612fc8d46",
+      "bytes": 1205
+    },
+    "examples/data/davis_bmx_trees/meta.json": {
+      "sha256": "01494599627226839063d3d16a4a782896be259ece685bfcfca18b0051e5395c",
+      "bytes": 456,
+      "sha256_lf": "2db9a2437ffa2339a2a70c9f0d6b6abf08f9ebbdd04554c7d649f639cefd0af4",
+      "crlf": 30,
+      "bare_lf": 0
+    },
+    "examples/data/davis_bmx_trees/points_2d_at_t0.pt": {
+      "sha256": "fb295e45c0a0a12245266e4444d1745d131c95a26ead15d0ada5bba490390300",
+      "bytes": 1284
+    },
+    "examples/data/davis_bmx_trees/points_3d_history.pt": {
+      "sha256": "f39fc2a9e33a56b9f3acc83235f36c856863f2c38650c9783e5f526e8042a053",
+      "bytes": 1486
+    },
+    "report/author_davis.md": {
+      "sha256": "15a699f0d9c60d886adcbd9b08d408cdf023cb811942ce527d23560c96598756",
+      "bytes": 16878,
+      "sha256_lf": "15a699f0d9c60d886adcbd9b08d408cdf023cb811942ce527d23560c96598756",
+      "crlf": 0,
+      "bare_lf": 73
+    },
+    "scripts/run_author_davis.py": {
+      "sha256": "01fe20c92f9949d062fe6384ce0167f5db2e679185e4bb26afdea32e9efbc08e",
+      "bytes": 5515,
+      "sha256_lf": "01fe20c92f9949d062fe6384ce0167f5db2e679185e4bb26afdea32e9efbc08e",
+      "crlf": 0,
+      "bare_lf": 126
+    },
+    "scripts/prepare_author_davis.py": {
+      "sha256": "ba41edffa0f931830de23f03e92a970b6c2f87b9cc85763d5a07d9b33ced48f1",
+      "bytes": 4552,
+      "sha256_lf": "ba41edffa0f931830de23f03e92a970b6c2f87b9cc85763d5a07d9b33ced48f1",
+      "crlf": 0,
+      "bare_lf": 97
+    },
+    "scripts/evaluate_author_davis.py": {
+      "sha256": "52e7c17daa8417aee480ca7ccbfc61faceeb3376d78b476d3c243f4a9b6d8a38",
+      "bytes": 20478,
+      "sha256_lf": "52e7c17daa8417aee480ca7ccbfc61faceeb3376d78b476d3c243f4a9b6d8a38",
+      "crlf": 0,
+      "bare_lf": 402
+    },
+    "src/molmo_motion/processor.py": {
+      "sha256": "499e900b64f0ad732f4f22b3ff50f5b1309d75bea83c7b331189f3b884a541c2",
+      "bytes": 11679,
+      "sha256_lf": "0155ba1f687ddfd00ff9582dd10d164c79a0f7b00a683eed23a468444fe9b14e",
+      "crlf": 251,
+      "bare_lf": 0
+    },
+    "src/molmo_motion/modeling.py": {
+      "sha256": "4d022b96f5cd995c12b462f09441d6c1b9afbb1e91bfb6d5be80bc74db939a42",
+      "bytes": 9086,
+      "sha256_lf": "5caf40a3541e2ae1b1be374638fb76567a550ab7afc726114315609f3a604a1c",
+      "crlf": 200,
+      "bare_lf": 0
+    },
+    "src/molmo_motion/data/trajectory_3d_dataset.py": {
+      "sha256": "a642c37383154639af96d58f50637c355140c8543038b3662fb5fad0b8b29c98",
+      "bytes": 114711,
+      "sha256_lf": "70cc1eb53e2faec0feaf46019c91aa1e854a881eb678a46ebd9f7588b58d7ed6",
+      "crlf": 2294,
+      "bare_lf": 0
+    },
+    "src/molmo_motion/models/molmo2/molmo2_trajectory.py": {
+      "sha256": "4cf3be8e1f9847ac2297a684d15cba90507c8619254d980b73fb0f246695a324",
+      "bytes": 11313,
+      "sha256_lf": "eeccde832fb1d8c1ee0982f166102f1138c3684641244f5c8985c11bce83a873",
+      "crlf": 265,
+      "bare_lf": 0
+    },
+    "data/checkpoints/MolmoMotion-4B-H3-F30/config.yaml": {
+      "sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "bytes": 5346,
+      "sha256_lf": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "crlf": 0,
+      "bare_lf": 195
+    },
+    "data/pointmotionbench/davis/DAVIS-2017-trainval-480p.zip": {
+      "sha256": "e3d0b5b77c3d031b000a19e0e25e3e2cac65d183755601bc2cf066df1a2aa492",
+      "bytes": 832766765
+    },
+    "data/pointmotionbench/davis/bmx-trees_2d.npz": {
+      "sha256": "224de769ba1dc09a27ef13cfe449ff2f104f3335f358940c97a8fc4fc7a8f532",
+      "bytes": 120852
+    },
+    "data/pointmotionbench/davis/bmx-trees_3d.npz": {
+      "sha256": "a95cefabc69c2bcbe60783147a60d7966cf4812592ce18ee8abeba9dc88e4e37",
+      "bytes": 159933
+    }
+  }
+}

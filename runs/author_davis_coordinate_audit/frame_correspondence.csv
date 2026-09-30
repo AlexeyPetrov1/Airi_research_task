@@ -1,0 +1,4 @@
+history_position_0based,history_position_1based,input_file,source_zip_member,source_frame_0based,time_in_24fps_reconstruction_s,time_relative_t0_s,model_nominal_timestamp,annotation_time_index,width,height,MAE_0_255,PSNR_dB,runner_up_frame,runner_up_MAE,source_vs_input_byte_equal,source_vs_saved_frame_byte_equal
+0,1,runs/author_davis_bmx_trees_f30/inputs/frame_t-2.jpg,DAVIS/JPEGImages/480p/bmx-trees/00000.jpg,0,0.0,-0.08333333333333333,0.0,0,854,480,2.605499447046578,37.22376679187972,1,22.690555880822274,False,True
+1,2,runs/author_davis_bmx_trees_f30/inputs/frame_t-1.jpg,DAVIS/JPEGImages/480p/bmx-trees/00001.jpg,1,0.041666666666666664,-0.041666666666666664,1.0,1,854,480,2.743042544886807,36.70018255817995,0,22.644882741347907,False,True
+2,3,runs/author_davis_bmx_trees_f30/inputs/frame_t+0.jpg,DAVIS/JPEGImages/480p/bmx-trees/00002.jpg,2,0.08333333333333333,0.0,2.0,2,854,480,2.824306368722352,36.479997233096064,3,22.97621731069477,False,True

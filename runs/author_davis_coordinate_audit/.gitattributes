@@ -1,0 +1,4 @@
+# Preserve the exact bytes of downloaded evidence, including source newlines.
+pointmotionbench_readme.md -text
+reconstruct_davis_source.py -text
+source_tree_davis.json -text

@@ -1,0 +1,53 @@
+{
+  "revision": "564ffa2e3cdb0ba443db8590b40e9691f487436c",
+  "upstream_revision": "61f5b21b694ad8f854ec7ecd2400005acc73f685",
+  "files": {
+    "pointmotionbench_readme.md": {
+      "url": "https://huggingface.co/datasets/allenai/PointMotionBench/resolve/564ffa2e3cdb0ba443db8590b40e9691f487436c/README.md",
+      "sha256": "bcfea5cd10f141eb6c6a23771282350285c10c42301aa74d87e6f7f357a724e7"
+    },
+    "reconstruct_davis_source.py": {
+      "url": "https://huggingface.co/datasets/allenai/PointMotionBench/resolve/564ffa2e3cdb0ba443db8590b40e9691f487436c/davis/reconstruct_davis.py",
+      "sha256": "b9ee924bee0e3d0eb602d88bb402ff11791d40a023e6d6fe339c51904960ca22"
+    },
+    "bmx-trees_filter_meta.npz": {
+      "url": "https://huggingface.co/datasets/allenai/PointMotionBench/resolve/564ffa2e3cdb0ba443db8590b40e9691f487436c/davis/tracks/bmx-trees_filter_meta.npz",
+      "sha256": "0d11c15b46dcdd968426a7448b2728d5c027c3825b4bbf5721bd0c4b0ae37a94",
+      "matches_pinned_hub_lfs_sha256": true
+    },
+    "source_tree_davis.json": {
+      "url": "https://huggingface.co/api/datasets/allenai/PointMotionBench/tree/564ffa2e3cdb0ba443db8590b40e9691f487436c/davis?recursive=true&limit=1000",
+      "sha256": "f2476ae60001df7f065bf06de25dfcb35d468223f3285a0c68e4995308c0034b",
+      "entries": 273,
+      "camera_files": []
+    },
+    "bmx-trees_2d.npz": {
+      "sha256": "224de769ba1dc09a27ef13cfe449ff2f104f3335f358940c97a8fc4fc7a8f532",
+      "matches_pinned_hub_lfs_sha256": true
+    },
+    "bmx-trees_3d.npz": {
+      "sha256": "a95cefabc69c2bcbe60783147a60d7966cf4812592ce18ee8abeba9dc88e4e37",
+      "matches_pinned_hub_lfs_sha256": true
+    },
+    "src/molmo_motion/processor.py": {
+      "sha256": "499e900b64f0ad732f4f22b3ff50f5b1309d75bea83c7b331189f3b884a541c2",
+      "equals_upstream_after_explicit_lf_normalization": true
+    },
+    "src/molmo_motion/modeling.py": {
+      "sha256": "4d022b96f5cd995c12b462f09441d6c1b9afbb1e91bfb6d5be80bc74db939a42",
+      "equals_upstream_after_explicit_lf_normalization": true
+    },
+    "src/molmo_motion/data/trajectory_3d_dataset.py": {
+      "sha256": "a642c37383154639af96d58f50637c355140c8543038b3662fb5fad0b8b29c98",
+      "equals_upstream_after_explicit_lf_normalization": true
+    },
+    "src/molmo_motion/models/molmo2/molmo2.py": {
+      "sha256": "fcbac58efc12404b55b2377408f9927af1489d9348794cca11af8a11b4c94109",
+      "equals_upstream_after_explicit_lf_normalization": true
+    },
+    "src/molmo_motion/models/molmo2/molmo2_trajectory.py": {
+      "sha256": "4cf3be8e1f9847ac2297a684d15cba90507c8619254d980b73fb0f246695a324",
+      "equals_upstream_after_explicit_lf_normalization": true
+    }
+  }
+}

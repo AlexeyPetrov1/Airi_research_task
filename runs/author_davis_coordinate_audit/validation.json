@@ -1,0 +1,15 @@
+{
+  "original_files_checked": 79,
+  "original_byte_differences_only_in_line_endings": [],
+  "original_binary_or_normalized_content_mismatches": [],
+  "processor_reproduced": true,
+  "model_loaded_or_run": false,
+  "geometry_numeric_tests": "PASS",
+  "source_revision": "564ffa2e3cdb0ba443db8590b40e9691f487436c",
+  "upstream_code_revision": "61f5b21b694ad8f854ec7ecd2400005acc73f685",
+  "audit_inputs_revision": "93bbebeaa809102d34ab01873b9200eb910fde3f",
+  "python_version": "3.11.16 (main, Sep 29 2026, 14:59:26) [Clang 22.1.3 ]",
+  "numpy_version": "2.4.6",
+  "opencv_version": "5.0.0",
+  "torch_version": "2.9.1+cu128"
+}

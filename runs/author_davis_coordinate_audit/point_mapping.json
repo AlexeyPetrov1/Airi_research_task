@@ -1,0 +1,186 @@
+{
+  "source_2d_axes": [
+    "time",
+    "point",
+    "xy_pixels"
+  ],
+  "source_3d_axes": [
+    "point",
+    "time",
+    "XYZ_meters"
+  ],
+  "source_shapes": {
+    "2d": [
+      80,
+      86,
+      2
+    ],
+    "3d": [
+      86,
+      80,
+      3
+    ]
+  },
+  "image_height_width": [
+    480,
+    854
+  ],
+  "K_saved": [
+    [
+      1821.5830078125,
+      0.0,
+      427.0000305175781
+    ],
+    [
+      0.0,
+      1821.8399658203125,
+      240.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "matches": [
+    {
+      "wire_id": 1,
+      "original_point_id": 9,
+      "exact_3d_matches_ID_start": [
+        [
+          9,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "wire_id": 2,
+      "original_point_id": 12,
+      "exact_3d_matches_ID_start": [
+        [
+          12,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          12
+        ]
+      ]
+    },
+    {
+      "wire_id": 3,
+      "original_point_id": 17,
+      "exact_3d_matches_ID_start": [
+        [
+          17,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "wire_id": 4,
+      "original_point_id": 18,
+      "exact_3d_matches_ID_start": [
+        [
+          18,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "wire_id": 5,
+      "original_point_id": 27,
+      "exact_3d_matches_ID_start": [
+        [
+          27,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          27
+        ]
+      ]
+    },
+    {
+      "wire_id": 6,
+      "original_point_id": 29,
+      "exact_3d_matches_ID_start": [
+        [
+          29,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          29
+        ]
+      ]
+    },
+    {
+      "wire_id": 7,
+      "original_point_id": 32,
+      "exact_3d_matches_ID_start": [
+        [
+          32,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          32
+        ]
+      ]
+    },
+    {
+      "wire_id": 8,
+      "original_point_id": 34,
+      "exact_3d_matches_ID_start": [
+        [
+          34,
+          0
+        ]
+      ],
+      "exact_2d_matches_frame_ID": [
+        [
+          2,
+          34
+        ]
+      ]
+    }
+  ],
+  "reference_checks": {
+    "history_3d": true,
+    "history_2d": true,
+    "future_3d": true,
+    "future_2d": true,
+    "mask": true,
+    "source_2d_visibility_alone_equals_mask": true,
+    "future_frame_indices": true,
+    "future_times": true,
+    "K": true
+  }
+}

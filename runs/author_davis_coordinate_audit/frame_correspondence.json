@@ -1,0 +1,190 @@
+{
+  "rows": [
+    {
+      "history_position_0based": 0,
+      "history_position_1based": 1,
+      "input_file": "runs/author_davis_bmx_trees_f30/inputs/frame_t-2.jpg",
+      "source_zip_member": "DAVIS/JPEGImages/480p/bmx-trees/00000.jpg",
+      "source_frame_0based": 0,
+      "time_in_24fps_reconstruction_s": 0.0,
+      "time_relative_t0_s": -0.08333333333333333,
+      "model_nominal_timestamp": 0.0,
+      "annotation_time_index": 0,
+      "width": 854,
+      "height": 480,
+      "MAE_0_255": 2.605499447046578,
+      "PSNR_dB": 37.22376679187972,
+      "runner_up_frame": 1,
+      "runner_up_MAE": 22.690555880822274,
+      "source_vs_input_byte_equal": false,
+      "source_vs_saved_frame_byte_equal": true
+    },
+    {
+      "history_position_0based": 1,
+      "history_position_1based": 2,
+      "input_file": "runs/author_davis_bmx_trees_f30/inputs/frame_t-1.jpg",
+      "source_zip_member": "DAVIS/JPEGImages/480p/bmx-trees/00001.jpg",
+      "source_frame_0based": 1,
+      "time_in_24fps_reconstruction_s": 0.041666666666666664,
+      "time_relative_t0_s": -0.041666666666666664,
+      "model_nominal_timestamp": 1.0,
+      "annotation_time_index": 1,
+      "width": 854,
+      "height": 480,
+      "MAE_0_255": 2.743042544886807,
+      "PSNR_dB": 36.70018255817995,
+      "runner_up_frame": 0,
+      "runner_up_MAE": 22.644882741347907,
+      "source_vs_input_byte_equal": false,
+      "source_vs_saved_frame_byte_equal": true
+    },
+    {
+      "history_position_0based": 2,
+      "history_position_1based": 3,
+      "input_file": "runs/author_davis_bmx_trees_f30/inputs/frame_t+0.jpg",
+      "source_zip_member": "DAVIS/JPEGImages/480p/bmx-trees/00002.jpg",
+      "source_frame_0based": 2,
+      "time_in_24fps_reconstruction_s": 0.08333333333333333,
+      "time_relative_t0_s": 0.0,
+      "model_nominal_timestamp": 2.0,
+      "annotation_time_index": 2,
+      "width": 854,
+      "height": 480,
+      "MAE_0_255": 2.824306368722352,
+      "PSNR_dB": 36.479997233096064,
+      "runner_up_frame": 3,
+      "runner_up_MAE": 22.97621731069477,
+      "source_vs_input_byte_equal": false,
+      "source_vs_saved_frame_byte_equal": true
+    }
+  ],
+  "neighbor_candidates": [
+    {
+      "history_position": 0,
+      "source_candidate": 0,
+      "MAE_0_255": 2.605499447046578,
+      "PSNR_dB": 37.22376679187972
+    },
+    {
+      "history_position": 0,
+      "source_candidate": 1,
+      "MAE_0_255": 22.690555880822274,
+      "PSNR_dB": 16.930546048543285
+    },
+    {
+      "history_position": 0,
+      "source_candidate": 2,
+      "MAE_0_255": 29.05449599921936,
+      "PSNR_dB": 15.275734458129822
+    },
+    {
+      "history_position": 0,
+      "source_candidate": 3,
+      "MAE_0_255": 31.57087968384075,
+      "PSNR_dB": 14.746703647249964
+    },
+    {
+      "history_position": 0,
+      "source_candidate": 4,
+      "MAE_0_255": 31.912040560759824,
+      "PSNR_dB": 14.686726290668453
+    },
+    {
+      "history_position": 0,
+      "source_candidate": 5,
+      "MAE_0_255": 35.717244828259176,
+      "PSNR_dB": 14.073167174059423
+    },
+    {
+      "history_position": 0,
+      "source_candidate": 6,
+      "MAE_0_255": 37.895242161072076,
+      "PSNR_dB": 13.709695595554637
+    },
+    {
+      "history_position": 1,
+      "source_candidate": 0,
+      "MAE_0_255": 22.644882741347907,
+      "PSNR_dB": 16.943383161674898
+    },
+    {
+      "history_position": 1,
+      "source_candidate": 1,
+      "MAE_0_255": 2.743042544886807,
+      "PSNR_dB": 36.70018255817995
+    },
+    {
+      "history_position": 1,
+      "source_candidate": 2,
+      "MAE_0_255": 23.524838179807443,
+      "PSNR_dB": 16.756400831002082
+    },
+    {
+      "history_position": 1,
+      "source_candidate": 3,
+      "MAE_0_255": 28.263395296643246,
+      "PSNR_dB": 15.512894662024618
+    },
+    {
+      "history_position": 1,
+      "source_candidate": 4,
+      "MAE_0_255": 30.781515905542545,
+      "PSNR_dB": 14.988084233275725
+    },
+    {
+      "history_position": 1,
+      "source_candidate": 5,
+      "MAE_0_255": 35.27396483866771,
+      "PSNR_dB": 14.191924736167536
+    },
+    {
+      "history_position": 1,
+      "source_candidate": 6,
+      "MAE_0_255": 37.8173131342701,
+      "PSNR_dB": 13.778701854328721
+    },
+    {
+      "history_position": 2,
+      "source_candidate": 0,
+      "MAE_0_255": 28.853814565443663,
+      "PSNR_dB": 15.30855520287681
+    },
+    {
+      "history_position": 2,
+      "source_candidate": 1,
+      "MAE_0_255": 23.383559393702836,
+      "PSNR_dB": 16.78534899984446
+    },
+    {
+      "history_position": 2,
+      "source_candidate": 2,
+      "MAE_0_255": 2.824306368722352,
+      "PSNR_dB": 36.479997233096064
+    },
+    {
+      "history_position": 2,
+      "source_candidate": 3,
+      "MAE_0_255": 22.97621731069477,
+      "PSNR_dB": 17.050542576773076
+    },
+    {
+      "history_position": 2,
+      "source_candidate": 4,
+      "MAE_0_255": 29.948958333333334,
+      "PSNR_dB": 15.281480041170788
+    },
+    {
+      "history_position": 2,
+      "source_candidate": 5,
+      "MAE_0_255": 35.53344636351809,
+      "PSNR_dB": 14.169217899224904
+    },
+    {
+      "history_position": 2,
+      "source_candidate": 6,
+      "MAE_0_255": 37.40162552042675,
+      "PSNR_dB": 13.855355879846414
+    }
+  ],
+  "time_basis": "24 fps is the released reconstruction convention; JPEGs have no measured camera clock."
+}
