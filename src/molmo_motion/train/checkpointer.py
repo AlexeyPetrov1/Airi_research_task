@@ -50,8 +50,10 @@ def load_model_state_unsharded(dir: PathOrStr, model: nn.Module):
     # the full state dict directly on the single rank instead of broadcasting.
     distributed = torch.distributed.is_available() and torch.distributed.is_initialized()
     if (not distributed) or get_global_rank() == 0:
+        # Map the large public checkpoint instead of materializing a second
+        # full CPU copy while assigning it to the model (useful on 24 GB WSL).
         state_dict = torch.load(resource_path(dir, MODEL_FILENAME),
-                                map_location="cpu", weights_only=True)
+                                map_location="cpu", weights_only=True, mmap=True)
     else:
         state_dict = {}
     dist_cp_sd.set_model_state_dict(

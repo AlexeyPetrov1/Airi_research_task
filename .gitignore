@@ -17,7 +17,6 @@ aws_credentials
 
 # Logs / scratch
 *.log
-runs/
 outputs/
 eval_out/
 checkpoints/
@@ -39,3 +38,10 @@ dataset_recipes/*
 
 # examples output mp4s
 *_2d.mp4
+
+# AIRI task: local inputs, checkpoints and generated artifacts
+/data/*
+!/data/README.md
+/runs/*
+!/runs/.gitkeep
+/report/artifacts/
