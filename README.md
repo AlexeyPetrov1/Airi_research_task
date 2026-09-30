@@ -3,6 +3,8 @@
   <h3>Forecasting Point Trajectories in 3D with Language Instruction</h3>
 </div>
 
+> **AIRI test task:** [setup](README_SETUP.md) · [DAVIS F=30 experiment and reproducible commands](report/author_davis.md) · [saved predictions, metrics and visuals](runs/author_davis_bmx_trees_f30/) · [data sources](DATA_SOURCES.md) · [assignment](docs/Тестовое%20задание%20MolmoMotion.docx). This work builds on the [Ai2 MolmoMotion repository](https://github.com/allenai/molmo-motion) at `61f5b21b694ad8f854ec7ecd2400005acc73f685`.
+
 <p align="center">
   <a href="https://github.com/allenai/molmo-motion/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-blue.svg">

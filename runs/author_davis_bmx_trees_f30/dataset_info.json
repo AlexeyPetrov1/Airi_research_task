@@ -1,0 +1,61 @@
+{
+  "dataset": "allenai/PointMotionBench",
+  "dataset_revision": "564ffa2e3cdb0ba443db8590b40e9691f487436c",
+  "source_video": "DAVIS-2017-trainval-480p.zip/JPEGImages/480p/bmx-trees",
+  "source_fps": 24,
+  "history_frame_indices": [
+    0,
+    1,
+    2
+  ],
+  "t0_frame_index": 2,
+  "future_frame_indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "point_indices": [
+    9,
+    12,
+    17,
+    18,
+    27,
+    29,
+    32,
+    34
+  ],
+  "valid_gt_count": 215,
+  "gt_count_at_fde_frame": 8,
+  "opening_frame_mean_absolute_pixel_differences": [
+    2.605499447046578,
+    2.743042544886807,
+    2.824306368722352
+  ]
+}

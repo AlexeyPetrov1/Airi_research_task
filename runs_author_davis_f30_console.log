@@ -1,0 +1,169 @@
+/mnt/f/AIRI_task/molmo-motion/src/molmo_motion/data/dataset.py:17: UserWarning: MOLMO_DATA_DIR is not set, data loading might fail
+  warnings.warn("MOLMO_DATA_DIR is not set, data loading might fail")
+{
+  "episode": "davis_bmx_trees/bike_rider/t0=2/point_indices=[9,12,17,18,27,29,32,34]",
+  "horizon": 30,
+  "success": false,
+  "stage": "processor",
+  "git_commit": "03609bc8d57782bf578e979519b55d86780828c9",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_bytes": 17847894425,
+  "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "torch_version": "2.9.1+cu128",
+  "elapsed_seconds": 0.04,
+  "peak_process_ram_gib": 0.84,
+  "peak_cuda_allocated_gib": 0.0,
+  "peak_cuda_reserved_gib": 0.0
+}
+{
+  "episode": "davis_bmx_trees/bike_rider/t0=2/point_indices=[9,12,17,18,27,29,32,34]",
+  "horizon": 30,
+  "success": false,
+  "stage": "construct_and_load_bf16_cpu",
+  "git_commit": "03609bc8d57782bf578e979519b55d86780828c9",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_bytes": 17847894425,
+  "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "torch_version": "2.9.1+cu128",
+  "elapsed_seconds": 4.2,
+  "peak_process_ram_gib": 1.04,
+  "peak_cuda_allocated_gib": 0.0,
+  "peak_cuda_reserved_gib": 0.0
+}
+{
+  "episode": "davis_bmx_trees/bike_rider/t0=2/point_indices=[9,12,17,18,27,29,32,34]",
+  "horizon": 30,
+  "success": false,
+  "stage": "move_to_gpu",
+  "git_commit": "03609bc8d57782bf578e979519b55d86780828c9",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_bytes": 17847894425,
+  "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "torch_version": "2.9.1+cu128",
+  "elapsed_seconds": 62.17,
+  "peak_process_ram_gib": 22.48,
+  "peak_cuda_allocated_gib": 0.0,
+  "peak_cuda_reserved_gib": 0.0
+}
+{
+  "episode": "davis_bmx_trees/bike_rider/t0=2/point_indices=[9,12,17,18,27,29,32,34]",
+  "horizon": 30,
+  "success": false,
+  "stage": "prepare_inputs",
+  "git_commit": "03609bc8d57782bf578e979519b55d86780828c9",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_bytes": 17847894425,
+  "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "torch_version": "2.9.1+cu128",
+  "elapsed_seconds": 82.78,
+  "peak_process_ram_gib": 22.48,
+  "peak_cuda_allocated_gib": 8.38,
+  "peak_cuda_reserved_gib": 8.4
+}
+{
+  "episode": "davis_bmx_trees/bike_rider/t0=2/point_indices=[9,12,17,18,27,29,32,34]",
+  "horizon": 30,
+  "success": false,
+  "stage": "predict_trajectory",
+  "git_commit": "03609bc8d57782bf578e979519b55d86780828c9",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_bytes": 17847894425,
+  "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "torch_version": "2.9.1+cu128",
+  "elapsed_seconds": 83.17,
+  "peak_process_ram_gib": 22.48,
+  "peak_cuda_allocated_gib": 8.38,
+  "peak_cuda_reserved_gib": 8.4,
+  "processor_input_shapes": {
+    "input_ids": [
+      1,
+      624
+    ],
+    "target_tokens": [
+      1,
+      624
+    ],
+    "loss_masks": [
+      1,
+      624
+    ],
+    "position_ids": [
+      1,
+      624
+    ],
+    "images": [
+      1,
+      3,
+      729,
+      588
+    ],
+    "token_pooling": [
+      1,
+      243,
+      9
+    ],
+    "anchor_3d": [
+      1,
+      3
+    ]
+  }
+}
+{
+  "episode": "davis_bmx_trees/bike_rider/t0=2/point_indices=[9,12,17,18,27,29,32,34]",
+  "horizon": 30,
+  "success": true,
+  "stage": "complete",
+  "git_commit": "03609bc8d57782bf578e979519b55d86780828c9",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_bytes": 17847894425,
+  "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "torch_version": "2.9.1+cu128",
+  "elapsed_seconds": 298.53,
+  "peak_process_ram_gib": 22.48,
+  "peak_cuda_allocated_gib": 9.74,
+  "peak_cuda_reserved_gib": 10.59,
+  "processor_input_shapes": {
+    "input_ids": [
+      1,
+      624
+    ],
+    "target_tokens": [
+      1,
+      624
+    ],
+    "loss_masks": [
+      1,
+      624
+    ],
+    "position_ids": [
+      1,
+      624
+    ],
+    "images": [
+      1,
+      3,
+      729,
+      588
+    ],
+    "token_pooling": [
+      1,
+      243,
+      9
+    ],
+    "anchor_3d": [
+      1,
+      3
+    ]
+  },
+  "raw_output_chars": 4112,
+  "parsed_visibility_count": 240,
+  "parsed_visibility_shape": [
+    8,
+    30
+  ],
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "gt_3d_to_2d_mean_error_px": 448.1734994472829,
+  "gt_3d_to_2d_max_error_px": 839.9000419608067,
+  "pred_positive_depth_count": 240,
+  "conclusion": "Future RGB frames use changing camera coordinates. No per-frame extrinsics are available; do not overlay fixed-t0 3D projections onto them."
+}

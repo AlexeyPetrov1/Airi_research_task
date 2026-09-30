@@ -1,0 +1,30 @@
+{
+  "id": "davis_bmx_trees",
+  "dataset": "davis_bench",
+  "video": "bmx-trees",
+  "obj": "bike_rider",
+  "t0_absolute": 2,
+  "history_frame_indices": [
+    0,
+    1,
+    2
+  ],
+  "point_indices": [
+    9,
+    12,
+    17,
+    18,
+    27,
+    29,
+    32,
+    34
+  ],
+  "n_points": 8,
+  "history_size": 3,
+  "image_size_wh": [
+    854,
+    480
+  ],
+  "has_intrinsics": true,
+  "caption": "A BMX rider rides through the trees"
+}

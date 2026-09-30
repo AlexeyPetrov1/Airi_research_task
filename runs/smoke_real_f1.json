@@ -1,0 +1,15 @@
+{
+  "checkpoint": "/mnt/f/AIRI_task/molmo-motion/data/checkpoints/MolmoMotion-4B-H3-F30",
+  "future_horizon": 1,
+  "stage": "complete",
+  "success": true,
+  "seconds": 68.35,
+  "peak_process_ram_gib": 22.32,
+  "peak_cuda_allocated_gib": 9.42,
+  "peak_cuda_reserved_gib": 9.86,
+  "prediction_shape": [
+    8,
+    1,
+    3
+  ]
+}
