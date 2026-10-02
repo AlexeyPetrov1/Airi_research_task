@@ -1,0 +1,78 @@
+{
+  "candidates": [
+    {
+      "t0": 120,
+      "history_steps": [
+        118,
+        119,
+        120
+      ],
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 110.60703525065347,
+      "reason": "peg upper body partly outside image; 126 has more interior area"
+    },
+    {
+      "t0": 124,
+      "history_steps": [
+        122,
+        123,
+        124
+      ],
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 98.61821946059146,
+      "reason": "less visible interior area than 126"
+    },
+    {
+      "t0": 126,
+      "history_steps": [
+        124,
+        125,
+        126
+      ],
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 89.96898982907202,
+      "reason": "selected: 24 positive local depth patches, visible upper face, 20-step future ending before gripper change"
+    },
+    {
+      "t0": 127,
+      "history_steps": [
+        125,
+        126,
+        127
+      ],
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 82.99844458753527,
+      "reason": "last future step 147 coincides with gripper-state change and possible timing pause"
+    }
+  ],
+  "final_t0": 126,
+  "history_steps": [
+    124,
+    125,
+    126
+  ],
+  "future_steps": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "window_selection_before_prediction": true,
+  "rule": "latest window with 24 usable interior depth points, visible peg, substantial insertion motion, and 20 native future steps before gripper-state change at 147"
+}

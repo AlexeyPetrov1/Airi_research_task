@@ -1,0 +1,52 @@
+[
+  {
+    "source_steps": [
+      0,
+      37
+    ],
+    "background_correspondences": 430,
+    "ransac_inliers": 391,
+    "median_background_displacement_px": 0.0,
+    "p95_background_displacement_px": 1.1999969482421875,
+    "displacement_over_diagonal": 0.0,
+    "affine_partial_2d": [
+      [
+        1.0001561549235558,
+        0.0008471345552538832,
+        -0.12773418435736475
+      ],
+      [
+        -0.0008471345552538832,
+        1.0001561549235558,
+        0.12376523806949052
+      ]
+    ],
+    "visualization": "camera_motion_0_37.png",
+    "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+  },
+  {
+    "source_steps": [
+      37,
+      74
+    ],
+    "background_correspondences": 624,
+    "ransac_inliers": 590,
+    "median_background_displacement_px": 0.0,
+    "p95_background_displacement_px": 1.2000045776367188,
+    "displacement_over_diagonal": 0.0,
+    "affine_partial_2d": [
+      [
+        0.9997599184087298,
+        -0.0004792385913364715,
+        0.07495513524695696
+      ],
+      [
+        0.0004792385913364715,
+        0.9997599184087298,
+        -0.03946655899721327
+      ]
+    ],
+    "visualization": "camera_motion_37_74.png",
+    "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+  }
+]

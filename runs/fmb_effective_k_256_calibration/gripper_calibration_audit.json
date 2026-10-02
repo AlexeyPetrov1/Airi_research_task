@@ -1,0 +1,139 @@
+{
+  "robot_pose_source": "F:\\AIRI_task\\molmo-motion\\runs\\sharerobot_fmb_episode_5201\\fmb_reference_code\\robot_infra\\franka_server.py",
+  "robot_pose_source_line": "_set_currpos reshapes msg.O_T_EE and exports translation plus quaternion",
+  "published_gripper_pose_is_binary": true,
+  "recorded_finger_joint_width": false,
+  "recorded_F_T_EE": false,
+  "known_physical_3d_gripper_landmarks_relative_to_recorded_EE": false,
+  "episodes": [
+    {
+      "name": "1_M_L_3_horizontal_n_0.npy",
+      "frames": 302,
+      "tail_20pct_frame_count": 61,
+      "tail_xyz_range_mm": [
+        26.452619226507878,
+        24.551372495256686,
+        94.19816517587485
+      ],
+      "tail_max_rotation_deg": 35.883047588760064,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    },
+    {
+      "name": "1_M_L_3_horizontal_n_4.npy",
+      "frames": 241,
+      "tail_20pct_frame_count": 49,
+      "tail_xyz_range_mm": [
+        46.988928532948336,
+        79.86648150243434,
+        187.46930206429764
+      ],
+      "tail_max_rotation_deg": 8.843340000208666,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    },
+    {
+      "name": "1_M_L_3_horizontal_n_8.npy",
+      "frames": 257,
+      "tail_20pct_frame_count": 52,
+      "tail_xyz_range_mm": [
+        102.04903141016052,
+        274.69479195450094,
+        191.89699995905684
+      ],
+      "tail_max_rotation_deg": 46.546434866221176,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    },
+    {
+      "name": "1_M_L_3_vertical_n_2.npy",
+      "frames": 148,
+      "tail_20pct_frame_count": 30,
+      "tail_xyz_range_mm": [
+        50.99840121676913,
+        46.09422475813826,
+        153.23751728214833
+      ],
+      "tail_max_rotation_deg": 5.767913459903847,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    },
+    {
+      "name": "1_M_L_3_vertical_n_3.npy",
+      "frames": 165,
+      "tail_20pct_frame_count": 33,
+      "tail_xyz_range_mm": [
+        21.63883217064533,
+        5.497252624694749,
+        69.7043307060973
+      ],
+      "tail_max_rotation_deg": 8.608160507234876,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    },
+    {
+      "name": "1_M_L_3_vertical_n_4.npy",
+      "frames": 190,
+      "tail_20pct_frame_count": 38,
+      "tail_xyz_range_mm": [
+        33.80785482331427,
+        34.739421510528615,
+        99.44110736147246
+      ],
+      "tail_max_rotation_deg": 59.37760326644759,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    },
+    {
+      "name": "1_M_L_3_vertical_n_5.npy",
+      "frames": 172,
+      "tail_20pct_frame_count": 35,
+      "tail_xyz_range_mm": [
+        41.750514763612244,
+        14.766989214180736,
+        112.79020601615028
+      ],
+      "tail_max_rotation_deg": 3.167905742254076,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    },
+    {
+      "name": "1_M_L_3_vertical_n_6.npy",
+      "frames": 160,
+      "tail_20pct_frame_count": 32,
+      "tail_xyz_range_mm": [
+        36.58095252700411,
+        20.900446044653464,
+        83.82873742578889
+      ],
+      "tail_max_rotation_deg": 9.396662177548905,
+      "published_gripper_pose_values": [
+        0,
+        1
+      ],
+      "raw_keys_containing_calibration": []
+    }
+  ],
+  "interpretation": "There is robot pose diversity in several episodes, but no recording-time EE-to-physical-gripper transform, finger width, or verified 3D-to-2D gripper landmarks. Standard URDF coordinates cannot be treated as measured FMB landmarks. No gripper-derived K is accepted."
+}

@@ -1,0 +1,68 @@
+{
+  "source_file": "1_M_L_3_vertical_n_2.npy",
+  "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+  "camera": "side_1",
+  "camera_serial": "128422270679",
+  "image_size": [
+    256,
+    256
+  ],
+  "source_hz_nominal": 10,
+  "history_dt_nominal_s": 0.1,
+  "model_prediction_hz_assumed": 15,
+  "model_future_steps": 30,
+  "history_steps": [
+    124,
+    125,
+    126
+  ],
+  "t0": 126,
+  "future_steps": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "history_point_selection": "fixed RGB mask row/fraction grid at t0; optical flow backward to history; selected by history local depth only",
+  "history_point_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "source_primitive_exact": "insert",
+  "source_object_info": {
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+  },
+  "action_text_exact_passed_to_model": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "action_text_derivation": "English description of source primitive insert, object_info rectangle/Jeans Red, and visible blue board; not a verbatim FMB metadata field",
+  "geometry_primary": "sensor Z16 5x5 positive median, 0.0001 m/raw, K_nominal",
+  "geometry_crosscheck": "planar CAD PnP plus RGB rounded-CAD silhouette/TCP diagnostic",
+  "calibration_status": "SUPPORTED_NOT_EXACT",
+  "future_not_used_for_3D_or_K": true
+}

@@ -1,0 +1,23 @@
+{
+  "source_file": "1_M_L_3_vertical_n_2.npy",
+  "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+  "source_shape": [
+    148,
+    256,
+    256,
+    3
+  ],
+  "previous_preflight_decision": "BLOCKED",
+  "previous_preflight_is_for_old_geometry": true,
+  "sampling_comparisons": 2368,
+  "interior_depth_valid_previous": [
+    41,
+    48
+  ],
+  "scale_fit_m_per_unit": 9.803859996587632e-05,
+  "previous_model_parse_status": "PASS_PARSE_AND_SHAPE_ONLY",
+  "prior_focal_factor_selected_using_depth": true,
+  "depth_model_comparison_status": "EXPLORATORY_PNP_K_AND_SENSOR_ALIGNMENT_UNVERIFIED",
+  "prior_silhouette_K_probe": "effective_k_rounded_cad_silhouette.json",
+  "contradiction_note": "Prior 5-point PnP correspondences used virtual rounded-CAD corners; not exact ground truth."
+}

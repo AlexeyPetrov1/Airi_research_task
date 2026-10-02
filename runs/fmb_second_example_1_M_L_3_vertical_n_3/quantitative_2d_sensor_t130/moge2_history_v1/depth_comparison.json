@@ -1,0 +1,85 @@
+{
+  "episode": "second",
+  "rows": [
+    {
+      "step": 128,
+      "interior_valid_pixels": 2582,
+      "median_abs_depth_gap_mm": 166.52013833522795,
+      "MAE_depth_gap_mm": 165.90237234111538,
+      "MoGe_output_K_px_given_candidate_FOV": [
+        [
+          152.0836181640625,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          202.77816772460938,
+          128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "step": 129,
+      "interior_valid_pixels": 2783,
+      "median_abs_depth_gap_mm": 149.45065636634826,
+      "MAE_depth_gap_mm": 151.63337017647703,
+      "MoGe_output_K_px_given_candidate_FOV": [
+        [
+          152.0836181640625,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          202.77816772460938,
+          128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "step": 130,
+      "interior_valid_pixels": 2780,
+      "median_abs_depth_gap_mm": 120.73653073310851,
+      "MAE_depth_gap_mm": 121.63794944567644,
+      "MoGe_output_K_px_given_candidate_FOV": [
+        [
+          152.0836181640625,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          202.77816772460938,
+          128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "comparison_mask": "eroded red object component, valid positive sensor and MoGe depth",
+  "sensor_is_imperfect_reference": true,
+  "RGB_depth_pixel_registration_unverified": true,
+  "depth_display_scale_m": [
+    0.1,
+    0.9
+  ],
+  "difference_display_scale_m": [
+    0,
+    0.2
+  ]
+}

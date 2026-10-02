@@ -1,0 +1,29 @@
+{
+  "episode": "first",
+  "methods": [
+    "Sensor",
+    "Planar PnP",
+    "CAD silhouette + TCP",
+    "MoGe-2 raw",
+    "MoGe-2 history scaled"
+  ],
+  "history_steps": [
+    124,
+    125,
+    126
+  ],
+  "common_X_m": [
+    0.051891064047813414,
+    0.1324699392914772
+  ],
+  "common_Y_m": [
+    -0.12335287243127822,
+    -0.0526811683177948
+  ],
+  "common_Z_m": [
+    0.15482819616794585,
+    0.2645677125453949
+  ],
+  "projection_K_status": "SUPPORTED_NOT_EXACT",
+  "MoGe_scale_caveat": "history-scaled variant uses one sensor-depth scale fitted on H3 only"
+}

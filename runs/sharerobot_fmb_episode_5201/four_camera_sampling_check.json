@@ -1,0 +1,337 @@
+{
+  "source_file": "1_M_L_3_vertical_n_2.npy",
+  "source_step_count": 148,
+  "camera_keys": [
+    "side_1",
+    "side_2",
+    "wrist_1",
+    "wrist_2"
+  ],
+  "available_share_png_count": 2,
+  "share_pngs_expected_by_description": 30,
+  "comparisons_per_share_png": 1184,
+  "total_comparisons": 2368,
+  "method": "Mean absolute pixel error for as-stored and BGR-to-RGB source channels; SSIM and pHash on best pair",
+  "matches": [
+    {
+      "share_frame_index": 0,
+      "share_file": "runs\\sharerobot_transfer_berkeley_ur5_episode_26\\reserve_fmb_episode_5201_frame_0.png",
+      "best_camera": "side_1",
+      "best_channel_mode": "as_stored",
+      "best_source_step": 0,
+      "best_pixel_mae": 2.87847900390625,
+      "global_top_5": [
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 0,
+          "pixel_mae": 2.87847900390625
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 1,
+          "pixel_mae": 3.20782470703125
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 2,
+          "pixel_mae": 3.336761474609375
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 3,
+          "pixel_mae": 3.4362996419270835
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 4,
+          "pixel_mae": 3.558100382486979
+        }
+      ],
+      "phash_distance": 0,
+      "ssim": 0.9526626316441734,
+      "by_camera": {
+        "side_1": {
+          "as_stored": {
+            "best_step": 0,
+            "best_mae": 2.87847900390625,
+            "second_step": 1,
+            "second_mae": 3.20782470703125,
+            "at_linspace_145_step": 2.87847900390625,
+            "at_linspace_148_step": 2.87847900390625
+          },
+          "bgr_to_rgb": {
+            "best_step": 0,
+            "best_mae": 22.499104817708332,
+            "second_step": 1,
+            "second_mae": 22.700347900390625,
+            "at_linspace_145_step": 22.499104817708332,
+            "at_linspace_148_step": 22.499104817708332
+          }
+        },
+        "side_2": {
+          "as_stored": {
+            "best_step": 127,
+            "best_mae": 37.93582661946615,
+            "second_step": 126,
+            "second_mae": 37.95333353678385,
+            "at_linspace_145_step": 45.25055948893229,
+            "at_linspace_148_step": 45.25055948893229
+          },
+          "bgr_to_rgb": {
+            "best_step": 127,
+            "best_mae": 37.26689147949219,
+            "second_step": 126,
+            "second_mae": 37.27393086751302,
+            "at_linspace_145_step": 43.896697998046875,
+            "at_linspace_148_step": 43.896697998046875
+          }
+        },
+        "wrist_1": {
+          "as_stored": {
+            "best_step": 72,
+            "best_mae": 47.11555480957031,
+            "second_step": 78,
+            "second_mae": 47.11992390950521,
+            "at_linspace_145_step": 51.401082356770836,
+            "at_linspace_148_step": 51.401082356770836
+          },
+          "bgr_to_rgb": {
+            "best_step": 72,
+            "best_mae": 43.94252014160156,
+            "second_step": 71,
+            "second_mae": 43.94402567545573,
+            "at_linspace_145_step": 50.86371866861979,
+            "at_linspace_148_step": 50.86371866861979
+          }
+        },
+        "wrist_2": {
+          "as_stored": {
+            "best_step": 67,
+            "best_mae": 45.47239685058594,
+            "second_step": 47,
+            "second_mae": 45.62773640950521,
+            "at_linspace_145_step": 51.70240783691406,
+            "at_linspace_148_step": 51.70240783691406
+          },
+          "bgr_to_rgb": {
+            "best_step": 67,
+            "best_mae": 43.10466003417969,
+            "second_step": 48,
+            "second_mae": 43.2301991780599,
+            "at_linspace_145_step": 50.66461690266927,
+            "at_linspace_148_step": 50.66461690266927
+          }
+        }
+      },
+      "hypotheses": {
+        "linspace_145": {
+          "predicted_step": 0,
+          "residual_steps": 0
+        },
+        "linspace_148": {
+          "predicted_step": 0,
+          "residual_steps": 0
+        }
+      }
+    },
+    {
+      "share_frame_index": 15,
+      "share_file": "runs\\sharerobot_transfer_berkeley_ur5_episode_26\\reserve_fmb_episode_5201_frame_15.png",
+      "best_camera": "side_1",
+      "best_channel_mode": "as_stored",
+      "best_source_step": 74,
+      "best_pixel_mae": 2.876805623372396,
+      "global_top_5": [
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 74,
+          "pixel_mae": 2.876805623372396
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 75,
+          "pixel_mae": 3.219731648763021
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 76,
+          "pixel_mae": 3.30047607421875
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 73,
+          "pixel_mae": 3.3106282552083335
+        },
+        {
+          "camera": "side_1",
+          "channel_mode": "as_stored",
+          "step": 72,
+          "pixel_mae": 3.3636271158854165
+        }
+      ],
+      "phash_distance": 2,
+      "ssim": 0.9534355598105129,
+      "by_camera": {
+        "side_1": {
+          "as_stored": {
+            "best_step": 74,
+            "best_mae": 2.876805623372396,
+            "second_step": 75,
+            "second_mae": 3.219731648763021,
+            "at_linspace_145_step": 2.876805623372396,
+            "at_linspace_148_step": 3.30047607421875
+          },
+          "bgr_to_rgb": {
+            "best_step": 94,
+            "best_mae": 22.243250528971355,
+            "second_step": 93,
+            "second_mae": 22.307785034179688,
+            "at_linspace_145_step": 22.598424275716145,
+            "at_linspace_148_step": 22.7645263671875
+          }
+        },
+        "side_2": {
+          "as_stored": {
+            "best_step": 127,
+            "best_mae": 38.887064615885414,
+            "second_step": 126,
+            "second_mae": 38.901397705078125,
+            "at_linspace_145_step": 43.69465128580729,
+            "at_linspace_148_step": 43.15367126464844
+          },
+          "bgr_to_rgb": {
+            "best_step": 127,
+            "best_mae": 38.39555867513021,
+            "second_step": 126,
+            "second_mae": 38.40729777018229,
+            "at_linspace_145_step": 42.959564208984375,
+            "at_linspace_148_step": 42.51886494954427
+          }
+        },
+        "wrist_1": {
+          "as_stored": {
+            "best_step": 67,
+            "best_mae": 46.909077962239586,
+            "second_step": 68,
+            "second_mae": 46.94915771484375,
+            "at_linspace_145_step": 47.31227111816406,
+            "at_linspace_148_step": 47.427398681640625
+          },
+          "bgr_to_rgb": {
+            "best_step": 67,
+            "best_mae": 43.449920654296875,
+            "second_step": 68,
+            "second_mae": 43.529998779296875,
+            "at_linspace_145_step": 43.90447489420573,
+            "at_linspace_148_step": 44.040445963541664
+          }
+        },
+        "wrist_2": {
+          "as_stored": {
+            "best_step": 67,
+            "best_mae": 45.262349446614586,
+            "second_step": 47,
+            "second_mae": 45.42054748535156,
+            "at_linspace_145_step": 48.46672566731771,
+            "at_linspace_148_step": 49.67046610514323
+          },
+          "bgr_to_rgb": {
+            "best_step": 67,
+            "best_mae": 42.88878377278646,
+            "second_step": 48,
+            "second_mae": 43.03315226236979,
+            "at_linspace_145_step": 45.999348958333336,
+            "at_linspace_148_step": 47.25544738769531
+          }
+        }
+      },
+      "hypotheses": {
+        "linspace_145": {
+          "predicted_step": 74,
+          "residual_steps": 0
+        },
+        "linspace_148": {
+          "predicted_step": 76,
+          "residual_steps": -2
+        }
+      }
+    }
+  ],
+  "matched_steps_monotonic": true,
+  "linspace_sequences": {
+    "linspace_145": [
+      0,
+      4,
+      9,
+      14,
+      19,
+      24,
+      29,
+      34,
+      39,
+      44,
+      49,
+      54,
+      59,
+      64,
+      69,
+      74,
+      79,
+      84,
+      89,
+      94,
+      99,
+      104,
+      109,
+      114,
+      119,
+      124,
+      129,
+      134,
+      139,
+      144
+    ],
+    "linspace_148": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      76,
+      81,
+      86,
+      91,
+      96,
+      101,
+      106,
+      111,
+      116,
+      121,
+      126,
+      131,
+      136,
+      141,
+      147
+    ]
+  },
+  "conclusion_limit": "Only the locally available ShareRobot PNGs are tested; these cannot establish the entire 30-frame sampling sequence or a true 145-frame source length."
+}

@@ -1,0 +1,59 @@
+{
+  "episode": "second",
+  "variant": "no_history",
+  "status": "COMPLETE",
+  "success": true,
+  "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "model_pt_sha256_previously_verified": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "manifest_sha256": "2a41b26867791c6eaa7e96b684fc9f9933b135c786b0251af1338fde2a5623a2",
+  "torch_version": "2.9.1+cu128",
+  "cuda_version": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "processor_shapes": {
+    "input_ids": [
+      1,
+      573
+    ],
+    "target_tokens": [
+      1,
+      573
+    ],
+    "loss_masks": [
+      1,
+      573
+    ],
+    "position_ids": [
+      1,
+      573
+    ],
+    "images": [
+      1,
+      3,
+      729,
+      588
+    ],
+    "token_pooling": [
+      1,
+      243,
+      9
+    ],
+    "anchor_3d": [
+      1,
+      3
+    ]
+  },
+  "stage": "complete",
+  "elapsed_seconds": 126.75,
+  "peak_ram_gib": 22.473,
+  "peak_cuda_allocated_gib": 9.633,
+  "raw_output_sha256": "f5d0ccf3dbd09d846610a9ad0f0f02f7689b872e4af7dffc0e63978e1e7a66e8",
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite_pairs": 240,
+  "all_positive_Z": true,
+  "all_zero_tensor": false
+}

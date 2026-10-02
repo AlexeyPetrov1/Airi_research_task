@@ -1,0 +1,43 @@
+{
+  "source_file": "1_M_L_3_vertical_n_2.npy",
+  "camera": "side_1",
+  "camera_serial": "128422270679",
+  "depth_scale_m_per_unit": 0.0001,
+  "depth_scale_geometry_probe": 9.804e-05,
+  "source_hz": 10,
+  "source_dt_s": 0.1,
+  "K_nominal": [
+    [
+      152.08360000000002,
+      0.0,
+      124.29079999999999
+    ],
+    [
+      0.0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "K_status": "SUPPORTED_NOT_EXACT",
+  "depth_rgb_alignment": "APPROXIMATE",
+  "exact_pixel_registration": false,
+  "geometry_method_primary": "SENSOR_DEPTH_K_NOMINAL",
+  "geometry_crosscheck": "CAD_PNP_AND_RGB_CAD_SILHOUETTE_TCP",
+  "history_points_valid": 24,
+  "history_points_total": 24,
+  "sensor_kabsch_max_rms_mm": 5.682691430396694,
+  "sensor_vs_cad_silhouette_tcp_median_XYZ_mm": 5.652138574980791,
+  "pnp_warning": "Planar KLT correspondences may drift; inspect sensor_vs_pnp separately.",
+  "decision": "PASS_WITH_CALIBRATION_UNCERTAINTY",
+  "remaining_uncertainties": [
+    "active color K and distortion unrecorded",
+    "published depth resize/registration unverified",
+    "featureless object surface limits point identity",
+    "source timestamps nominal; MolmoMotion temporal domain shift 15 Hz vs 10 Hz"
+  ]
+}

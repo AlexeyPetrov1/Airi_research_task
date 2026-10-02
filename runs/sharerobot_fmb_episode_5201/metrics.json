@@ -1,0 +1,42 @@
+{
+  "status": "NOT_EVALUATED_PREFLIGHT_BLOCKED",
+  "valid_pairs": 0,
+  "coverage": "0/240",
+  "visible_pairs": null,
+  "occluded_pairs": null,
+  "untrackable_pairs": null,
+  "validity_mask": null,
+  "molmo_motion": {
+    "ADE_3D_m": null,
+    "FDE_3D_m": null,
+    "ADE_2D_px": null,
+    "FDE_2D_px": null,
+    "ADE_2D_norm": null,
+    "FDE_2D_norm": null,
+    "mean_error_step_5": null,
+    "mean_error_step_15": null,
+    "mean_error_step_30": null
+  },
+  "stationary": {
+    "ADE_3D_m": null,
+    "FDE_3D_m": null,
+    "ADE_2D_px": null,
+    "FDE_2D_px": null,
+    "ADE_2D_norm": null,
+    "FDE_2D_norm": null,
+    "mean_error_step_5": null,
+    "mean_error_step_15": null,
+    "mean_error_step_30": null
+  },
+  "constant_velocity": {
+    "ADE_3D_m": null,
+    "FDE_3D_m": null,
+    "ADE_2D_px": null,
+    "FDE_2D_px": null,
+    "ADE_2D_norm": null,
+    "FDE_2D_norm": null,
+    "mean_error_step_5": null,
+    "mean_error_step_15": null,
+    "mean_error_step_30": null
+  }
+}

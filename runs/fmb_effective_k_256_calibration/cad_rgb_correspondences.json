@@ -1,0 +1,6 @@
+{
+  "status": "NO_VERIFIED_SIX_POINT_CAD_RGB_SET",
+  "correspondences": [],
+  "reason": "Silhouette extrema and bounding-box corners are viewpoint-dependent or virtual on the rounded CAD; they cannot be assigned persistent physical cad_point_id values.",
+  "alternative_observations": "Directional silhouette supports in tcp_cad_k_probe.json"
+}

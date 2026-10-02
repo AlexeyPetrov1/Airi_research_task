@@ -1,0 +1,221 @@
+{
+  "source": "F:\\AIRI_task\\data\\fmb\\single_object_manipulation_dataset\\1_M_L_3_vertical_n_3.npy",
+  "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "RGB_shape": [
+    165,
+    256,
+    256,
+    3
+  ],
+  "depth_shape": [
+    165,
+    256,
+    256
+  ],
+  "object_info": {
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+  },
+  "candidate_rows": [
+    {
+      "step": 100,
+      "primitive": "go_to_board",
+      "red_xywh_area": [
+        97,
+        0,
+        21,
+        33,
+        642
+      ],
+      "positive_depth_fraction_in_red": 0.9485981308411215,
+      "positive_depth_median_raw": 3467.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 183.91243891709908
+    },
+    {
+      "step": 110,
+      "primitive": "insert",
+      "red_xywh_area": [
+        117,
+        0,
+        28,
+        52,
+        1304
+      ],
+      "positive_depth_fraction_in_red": 0.5345092024539877,
+      "positive_depth_median_raw": 2523.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 126.34791021072792
+    },
+    {
+      "step": 118,
+      "primitive": "insert",
+      "red_xywh_area": [
+        139,
+        0,
+        39,
+        115,
+        3490
+      ],
+      "positive_depth_fraction_in_red": 0.729512893982808,
+      "positive_depth_median_raw": 2149.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 67.77569677079197
+    },
+    {
+      "step": 120,
+      "primitive": "insert",
+      "red_xywh_area": [
+        134,
+        0,
+        39,
+        131,
+        3991
+      ],
+      "positive_depth_fraction_in_red": 0.5534953645702831,
+      "positive_depth_median_raw": 2080.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 57.6388136205764
+    },
+    {
+      "step": 122,
+      "primitive": "insert",
+      "red_xywh_area": [
+        133,
+        0,
+        37,
+        138,
+        4151
+      ],
+      "positive_depth_fraction_in_red": 0.9050831125030113,
+      "positive_depth_median_raw": 2066.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 51.15482807342016
+    },
+    {
+      "step": 124,
+      "primitive": "insert",
+      "red_xywh_area": [
+        134,
+        0,
+        36,
+        140,
+        4213
+      ],
+      "positive_depth_fraction_in_red": 0.7661998575836696,
+      "positive_depth_median_raw": 2051.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 58.237549223068115
+    },
+    {
+      "step": 125,
+      "primitive": "insert",
+      "red_xywh_area": [
+        136,
+        0,
+        38,
+        140,
+        4136
+      ],
+      "positive_depth_fraction_in_red": 0.7659574468085106,
+      "positive_depth_median_raw": 2015.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 54.1465192971413
+    },
+    {
+      "step": 126,
+      "primitive": "insert",
+      "red_xywh_area": [
+        140,
+        6,
+        39,
+        136,
+        3993
+      ],
+      "positive_depth_fraction_in_red": 0.6679188580015026,
+      "positive_depth_median_raw": 1963.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 50.334300793396686
+    },
+    {
+      "step": 127,
+      "primitive": "insert",
+      "red_xywh_area": [
+        142,
+        7,
+        40,
+        135,
+        3955
+      ],
+      "positive_depth_fraction_in_red": 0.786346396965866,
+      "positive_depth_median_raw": 2066.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 56.581770961757115
+    },
+    {
+      "step": 132,
+      "primitive": "insert",
+      "red_xywh_area": [
+        141,
+        27,
+        37,
+        123,
+        3459
+      ],
+      "positive_depth_fraction_in_red": 0.7476149176062445,
+      "positive_depth_median_raw": 2091.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 43.08988848786518
+    },
+    {
+      "step": 137,
+      "primitive": "insert",
+      "red_xywh_area": [
+        151,
+        39,
+        37,
+        115,
+        3190
+      ],
+      "positive_depth_fraction_in_red": 0.8391849529780564,
+      "positive_depth_median_raw": 2116.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 42.38011572078724
+    },
+    {
+      "step": 142,
+      "primitive": "insert",
+      "red_xywh_area": [
+        145,
+        48,
+        36,
+        111,
+        2976
+      ],
+      "positive_depth_fraction_in_red": 0.9395161290322581,
+      "positive_depth_median_raw": 2225.0,
+      "future_20_available": true,
+      "tcp_motion_20_steps_mm": 52.33105176639148
+    },
+    {
+      "step": 146,
+      "primitive": "insert",
+      "red_xywh_area": [
+        146,
+        58,
+        36,
+        103,
+        2715
+      ],
+      "positive_depth_fraction_in_red": 0.9421731123388581,
+      "positive_depth_median_raw": 2155.0,
+      "future_20_available": false,
+      "tcp_motion_20_steps_mm": 40.601371296569674
+    }
+  ],
+  "huggingface_dataset_revision": "f99fd55c072eea5573523c96aa527aed3c665690"
+}

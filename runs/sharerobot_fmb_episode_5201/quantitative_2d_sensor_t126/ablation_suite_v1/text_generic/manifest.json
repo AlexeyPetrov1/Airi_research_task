@@ -1,0 +1,85 @@
+{
+  "suite": "ablation_suite_v1",
+  "variant": "text_generic",
+  "change": "text_generic",
+  "source_run": "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126",
+  "t0": 126,
+  "history_steps_original": [
+    124,
+    125,
+    126
+  ],
+  "future_steps_evaluation_only": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "source_file": "1_M_L_3_vertical_n_2.npy",
+  "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+  "frames": [
+    "frame_124.png",
+    "frame_125.png",
+    "frame_126.png"
+  ],
+  "frame_sha256": [
+    "320a2c84e749fb899f18738ab72b6d4b0d6d2a3460616d7b4ae20ad3a23d229a",
+    "2d1c16704c3c760f2e88679d283e49c62ef87c177dc0d5628ba7fe90abae5a54",
+    "587828d045c54004896f6d32d42b896722afced8a401ecccd6936d1c3966888a"
+  ],
+  "action": "Move the object to complete the task.",
+  "point_order_model_to_original": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "projection_K": [
+    [
+      152.08360000000002,
+      0.0,
+      124.29079999999999
+    ],
+    [
+      0.0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "K_status": "SUPPORTED_NOT_EXACT; focal changes are prescribed scenarios",
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "seed": 0,
+  "dtype": "bfloat16",
+  "future_horizon_steps": 30,
+  "model_hz_assumed": 15,
+  "source_hz_nominal": 10,
+  "input_only_uses_history": true,
+  "history_3d_sha256": "0f1f3a349245593df34a4642b7b57e8c7be9bb8cd4525af2846e5ecaccb8d50c",
+  "points_2d_at_t0_sha256": "b83618c1163cea63c5bce8c2c12ff62713ff7e01af192bc3bda342ef805121b8"
+}

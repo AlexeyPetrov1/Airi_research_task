@@ -1,0 +1,28 @@
+{
+  "finite": true,
+  "all_positive_Z": true,
+  "outside_image_pairs": 108,
+  "outside_image_by_time": [
+    0,
+    0,
+    0,
+    0,
+    4,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    6,
+    4,
+    2,
+    4,
+    8,
+    8,
+    8
+  ],
+  "coordinates_clipped_for_metric": false
+}

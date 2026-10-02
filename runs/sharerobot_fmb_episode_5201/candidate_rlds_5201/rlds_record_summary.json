@@ -1,0 +1,358 @@
+{
+  "steps/observation/joint_vel": {
+    "count": 1,
+    "first_lengths": [
+      4144
+    ]
+  },
+  "steps/observation/state_gripper_pose": {
+    "count": 1,
+    "first_lengths": [
+      592
+    ]
+  },
+  "steps/observation/eef_torque": {
+    "count": 1,
+    "first_lengths": [
+      1776
+    ]
+  },
+  "steps/action": {
+    "count": 1,
+    "first_lengths": [
+      4144
+    ]
+  },
+  "steps/observation/image_side_2_depth": {
+    "count": 1,
+    "first_lengths": [
+      38797312
+    ]
+  },
+  "steps/observation/shape_id": {
+    "count": 1,
+    "first_lengths": [
+      148
+    ]
+  },
+  "steps/observation/eef_vel": {
+    "count": 1,
+    "first_lengths": [
+      3552
+    ]
+  },
+  "episode_metadata/episode_language_embedding": {
+    "count": 1,
+    "first_lengths": [
+      2048
+    ]
+  },
+  "steps/observation/image_side_2": {
+    "count": 148,
+    "first_lengths": [
+      20710,
+      20603,
+      20515
+    ],
+    "sample_indices": [
+      0,
+      37,
+      74,
+      111,
+      147
+    ],
+    "samples": [
+      {
+        "step": 0,
+        "file": "image_side_2_000.jpg",
+        "sha256": "35070343f7927eb3444d3c9b69f9b3c499d2484dcee5de7e87bafbd6671c1b85"
+      },
+      {
+        "step": 37,
+        "file": "image_side_2_037.jpg",
+        "sha256": "bd10b240e5a6e44286ce287f1cdfe59f70d536d241c41bf4d3f3a1a081300976"
+      },
+      {
+        "step": 74,
+        "file": "image_side_2_074.jpg",
+        "sha256": "02d9eb5c489dc155529218f4bc9db67c46a2689f494b0104656a38e4db5e64a5"
+      },
+      {
+        "step": 111,
+        "file": "image_side_2_111.jpg",
+        "sha256": "6498c38f5895ff25ec447ce679764df6059b4997190b3b00e23196403fa89630"
+      },
+      {
+        "step": 147,
+        "file": "image_side_2_147.jpg",
+        "sha256": "dfbe8ef21b870dea0b774ba44526240257d7d643ceb2543997b9c8b7c8f960ba"
+      }
+    ]
+  },
+  "steps/is_terminal": {
+    "count": 1,
+    "first_lengths": [
+      148
+    ]
+  },
+  "steps/observation/color_id": {
+    "count": 1,
+    "first_lengths": [
+      148
+    ]
+  },
+  "steps/discount": {
+    "count": 1,
+    "first_lengths": [
+      592
+    ]
+  },
+  "steps/observation/eef_force": {
+    "count": 1,
+    "first_lengths": [
+      1776
+    ]
+  },
+  "steps/observation/image_wrist_1_depth": {
+    "count": 1,
+    "first_lengths": [
+      38797312
+    ]
+  },
+  "steps/observation/joint_pos": {
+    "count": 1,
+    "first_lengths": [
+      4144
+    ]
+  },
+  "steps/observation/eef_pose": {
+    "count": 1,
+    "first_lengths": [
+      4144
+    ]
+  },
+  "steps/observation/image_side_1_depth": {
+    "count": 1,
+    "first_lengths": [
+      38797312
+    ]
+  },
+  "steps/observation/image_wrist_2_depth": {
+    "count": 1,
+    "first_lengths": [
+      38797312
+    ]
+  },
+  "steps/is_first": {
+    "count": 1,
+    "first_lengths": [
+      148
+    ]
+  },
+  "steps/observation/image_side_1": {
+    "count": 148,
+    "first_lengths": [
+      21261,
+      21207,
+      21137
+    ],
+    "sample_indices": [
+      0,
+      37,
+      74,
+      111,
+      147
+    ],
+    "samples": [
+      {
+        "step": 0,
+        "file": "image_side_1_000.jpg",
+        "sha256": "4ff7589f93c4c7fc4feeb636d5137b56c9632c455ad28b91fb9ff192e4827428"
+      },
+      {
+        "step": 37,
+        "file": "image_side_1_037.jpg",
+        "sha256": "1ec3264b4622387ea4317d9b78e98f9c590d608460bdc21c5bb5f0c7ad0a4dc3"
+      },
+      {
+        "step": 74,
+        "file": "image_side_1_074.jpg",
+        "sha256": "863cd4095f2b4ac61dc72656db044d04990756eeb02356c68fe74c7e5fb68735"
+      },
+      {
+        "step": 111,
+        "file": "image_side_1_111.jpg",
+        "sha256": "95ea9a25502d9dbff7ce6f861bb259d1e878fdb37f7bf237a19adad923674b03"
+      },
+      {
+        "step": 147,
+        "file": "image_side_1_147.jpg",
+        "sha256": "b7033037e3e46f0c797e8f4f145edb95b277be4f1af18387ee0f536357b4f482"
+      }
+    ]
+  },
+  "steps/observation/primitive": {
+    "count": 148,
+    "first_lengths": [
+      5,
+      5,
+      5
+    ]
+  },
+  "steps/observation/image_wrist_1": {
+    "count": 148,
+    "first_lengths": [
+      19586,
+      18931,
+      17998
+    ],
+    "sample_indices": [
+      0,
+      37,
+      74,
+      111,
+      147
+    ],
+    "samples": [
+      {
+        "step": 0,
+        "file": "image_wrist_1_000.jpg",
+        "sha256": "2363209b32468b4ec689ecb4fc8d95c60a38c27f31f5579467e266e4d64e4e88"
+      },
+      {
+        "step": 37,
+        "file": "image_wrist_1_037.jpg",
+        "sha256": "101247804e48c3fdb780b63c3d93a7d8dfeb9ff05b1fd5d357aa7d01434caf28"
+      },
+      {
+        "step": 74,
+        "file": "image_wrist_1_074.jpg",
+        "sha256": "db44d4ed979918476fce1157f9b8ae4374acd258bd1cf49672de6b5d967e6fc3"
+      },
+      {
+        "step": 111,
+        "file": "image_wrist_1_111.jpg",
+        "sha256": "35b1c0d0f87d34bcb33d3dd48f1af46f330fbad5a81f51a7f354ad6ce9c2cfed"
+      },
+      {
+        "step": 147,
+        "file": "image_wrist_1_147.jpg",
+        "sha256": "c861fd3d8e4a63671a06e33867e435f74d6900aa61260c71c8132e0278268653"
+      }
+    ]
+  },
+  "steps/observation/object_id": {
+    "count": 1,
+    "first_lengths": [
+      296
+    ]
+  },
+  "steps/observation/length": {
+    "count": 148,
+    "first_lengths": [
+      4,
+      4,
+      4
+    ]
+  },
+  "steps/observation/size": {
+    "count": 148,
+    "first_lengths": [
+      6,
+      6,
+      6
+    ]
+  },
+  "steps/reward": {
+    "count": 1,
+    "first_lengths": [
+      592
+    ]
+  },
+  "episode_metadata/episode_language_instruction": {
+    "count": 1,
+    "first_lengths": [
+      43
+    ],
+    "value": [
+      "Pick up the rectangle object and insert it."
+    ]
+  },
+  "episode_metadata/episode_task": {
+    "count": 1,
+    "first_lengths": [
+      26
+    ]
+  },
+  "steps/is_last": {
+    "count": 1,
+    "first_lengths": [
+      148
+    ]
+  },
+  "episode_metadata/file_path": {
+    "count": 1,
+    "first_lengths": [
+      82
+    ],
+    "value": [
+      "/media/nvmep3p/fmb2/np_release/single_object_manipulation/1_M_L_3_vertical_n_2.npy"
+    ]
+  },
+  "steps/language_embedding": {
+    "count": 1,
+    "first_lengths": [
+      303104
+    ]
+  },
+  "steps/observation/image_wrist_2": {
+    "count": 148,
+    "first_lengths": [
+      21416,
+      21515,
+      19308
+    ],
+    "sample_indices": [
+      0,
+      37,
+      74,
+      111,
+      147
+    ],
+    "samples": [
+      {
+        "step": 0,
+        "file": "image_wrist_2_000.jpg",
+        "sha256": "d6cdd5f2ada5feb2eaa6cd758468b4954b5b43bae65531e23bf6968b07135a90"
+      },
+      {
+        "step": 37,
+        "file": "image_wrist_2_037.jpg",
+        "sha256": "80218340bb2128c92fe94325553878cbf66fe046b571192a2d99731e4ae2c866"
+      },
+      {
+        "step": 74,
+        "file": "image_wrist_2_074.jpg",
+        "sha256": "1510a1ebd7d1447bcd5d9a1a9eb0cf0fbd17d710078b636a14d76b0e09fe2328"
+      },
+      {
+        "step": 111,
+        "file": "image_wrist_2_111.jpg",
+        "sha256": "c392b01410ca1bb253acf060c3b777b3ca2173d2144100901986fdb55a7868c5"
+      },
+      {
+        "step": 147,
+        "file": "image_wrist_2_147.jpg",
+        "sha256": "62a8bb84379be02039d8db1017e8235d3ee9bbf686e518efb608ce215965208b"
+      }
+    ]
+  },
+  "steps/language_instruction": {
+    "count": 148,
+    "first_lengths": [
+      29,
+      29,
+      29
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "episode": "second",
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "history_steps_only": [
+    128,
+    129,
+    130
+  ],
+  "future_read": false,
+  "common_selected_fields": [
+    "history_steps",
+    "selected_uv_px",
+    "selected_XYZ_m",
+    "selected_depth_m",
+    "selected_valid_mask",
+    "projection_K_px"
+  ],
+  "methods": {
+    "sensor": {
+      "history_file": "history_sensor_3d.npy",
+      "history_file_sha256": "a838715aec628ebe038ad22ed0b628c6df01831af3cf9398209ea5a9109ee588",
+      "bundle_file": "sensor.npz",
+      "bundle_sha256": "fd043458aeb68eb40815b6b87a29bbb1a8b0244c09e073e1794781c02cbfe165",
+      "selected_XYZ_shape": [
+        3,
+        8,
+        3
+      ],
+      "dense_depth_kind": "sensor Z16, 0.0001 m/raw",
+      "dense_depth_available": true,
+      "confidence_available": false,
+      "K_status": "SUPPORTED_NOT_EXACT; only nominal projection K is used for this bundle",
+      "method_caveat": "RGB-depth registration of released 256x256 arrays unverified"
+    },
+    "planar_pnp": {
+      "history_file": "history_pnp_3d.npy",
+      "history_file_sha256": "9a4d2cf2b892ed81135e456485768f4d428eb366552b0f63698cc0c3e0401063",
+      "bundle_file": "planar_pnp.npz",
+      "bundle_sha256": "14ce9b10657b27e3b1e5dfcfa2cb543e3e27aa5df6a42413482ca90b7e9b59ca",
+      "selected_XYZ_shape": [
+        3,
+        8,
+        3
+      ],
+      "dense_depth_kind": "none",
+      "dense_depth_available": false,
+      "confidence_available": false,
+      "K_status": "SUPPORTED_NOT_EXACT; only nominal projection K is used for this bundle",
+      "method_caveat": "Approximate planar RGB/CAD correspondences, no dense depth map"
+    },
+    "cad_silhouette_tcp": {
+      "history_file": "history_cad_silhouette_tcp_3d.npy",
+      "history_file_sha256": "abd6347fbc7b2d27250278d1595015fe81e458f1dfe254af0c8da4d3cbd844f2",
+      "bundle_file": "cad_silhouette_tcp.npz",
+      "bundle_sha256": "4f0918d302dcf78ebb0f945f03b23323a5cac364085f34c2a324f0d5aaf696ae",
+      "selected_XYZ_shape": [
+        3,
+        8,
+        3
+      ],
+      "dense_depth_kind": "none",
+      "dense_depth_available": false,
+      "confidence_available": false,
+      "K_status": "SUPPORTED_NOT_EXACT; only nominal projection K is used for this bundle",
+      "method_caveat": "RGB/CAD and TCP derived point positions, no dense depth map"
+    },
+    "moge2_raw": {
+      "history_file": "history_moge2_raw_3d.npy",
+      "history_file_sha256": "36f28910fb2ccc1dabac6d7679caee52fc3405c1ec33b43e3c6269486a221798",
+      "bundle_file": "moge2_raw.npz",
+      "bundle_sha256": "82494800c3f078e41ff34f2f32a411d999c52d3a00c07827ad5a09063732b03c",
+      "selected_XYZ_shape": [
+        3,
+        8,
+        3
+      ],
+      "dense_depth_kind": "RGB-derived MoGe-2 depth, raw metric output",
+      "dense_depth_available": true,
+      "confidence_available": false,
+      "K_status": "SUPPORTED_NOT_EXACT; only nominal projection K is used for this bundle",
+      "method_caveat": "RGB-only predicted depth conditioned on candidate FOV"
+    },
+    "moge2_history_scaled": {
+      "history_file": "history_moge2_history_scaled_3d.npy",
+      "history_file_sha256": "e934c5099d030337fa37425e57cb483153e158b8ada83e0b6d4fdad6edf214b9",
+      "bundle_file": "moge2_history_scaled.npz",
+      "bundle_sha256": "366d9aa00744b8438d8a0b9d955101b38dfe88d6aaddde21e6b1f0316a8b88cd",
+      "selected_XYZ_shape": [
+        3,
+        8,
+        3
+      ],
+      "dense_depth_kind": "RGB-derived MoGe-2 depth, single H3 sensor-fitted scale",
+      "dense_depth_available": true,
+      "confidence_available": false,
+      "K_status": "SUPPORTED_NOT_EXACT; only nominal projection K is used for this bundle",
+      "method_caveat": "Scale fitted to historical sensor depth only"
+    }
+  }
+}

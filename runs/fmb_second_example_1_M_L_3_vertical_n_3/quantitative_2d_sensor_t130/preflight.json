@@ -1,0 +1,37 @@
+{
+  "decision": "PASS_WITH_CALIBRATION_UNCERTAINTY",
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "camera": "side_1",
+  "depth_scale_m_per_unit": 0.0001,
+  "source_hz": 10,
+  "K_nominal": [
+    [
+      152.08360000000002,
+      0.0,
+      124.29079999999999
+    ],
+    [
+      0.0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "K_status": "SUPPORTED_NOT_EXACT",
+  "depth_rgb_alignment": "APPROXIMATE",
+  "exact_pixel_registration": false,
+  "geometry_method_primary": "SENSOR_DEPTH_K_NOMINAL",
+  "history_points_valid": 24,
+  "history_points_total": 24,
+  "sensor_kabsch_max_rms_mm": 5.598111676152299,
+  "sensor_vs_cad_silhouette_tcp_median_XYZ_mm": 8.828071295861761,
+  "remaining_uncertainties": [
+    "active COLOR K and exact depth preprocessing unknown",
+    "object surface lacks distinctive fiducials",
+    "nominal 10 Hz versus model 15 Hz physical time assumption"
+  ]
+}

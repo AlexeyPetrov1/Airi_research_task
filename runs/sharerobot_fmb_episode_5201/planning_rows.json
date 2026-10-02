@@ -1,0 +1,791 @@
+[
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Discriminative_Affordance_(Negative)_Task",
+    "selected_step": 2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nAre you doing <move towards the closed box> at this very moment?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/discriminative_affordance_(negative)_task.json",
+    "_byte_offset": 214400809
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Discriminative_Affordance_(Negative)_Task",
+    "selected_step": 1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nAre you currently engaged in <pick up a stirrer>"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png"
+    ],
+    "_source_json": "planning/jsons/discriminative_affordance_(negative)_task.json",
+    "_byte_offset": 214403519
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Discriminative_Affordance_(Positive)_Task",
+    "selected_step": 3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nIs now a suitable time to carry out <insert the rectangular object into the square slot>?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/discriminative_affordance_(positive)_task.json",
+    "_byte_offset": 186042486
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Discriminative_Affordance_(Positive)_Task",
+    "selected_step": 2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nIs it feasible to begin <move the rectangular object towards the board> immediately?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png"
+    ],
+    "_source_json": "planning/jsons/discriminative_affordance_(positive)_task.json",
+    "_byte_offset": 186045222
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Future_Prediction_Task",
+    "selected_step": 4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nAfter <insert the rectangular object into the square slot>, what's the most probable next event?"
+      },
+      {
+        "from": "gpt",
+        "value": "<release the rectangular object>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_23.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_24.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_25.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_26.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_27.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_28.png"
+    ],
+    "_source_json": "planning/jsons/future_prediction_task.json",
+    "_byte_offset": 187822560
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Future_Prediction_Task",
+    "selected_step": 1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nBased on the current situation, what is expected to happen after <reach for the rectangular object>?"
+      },
+      {
+        "from": "gpt",
+        "value": "<pick up the rectangular object>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png"
+    ],
+    "_source_json": "planning/jsons/future_prediction_task.json",
+    "_byte_offset": 187825889
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Generative_Affordance_Task",
+    "selected_step": 1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nConsidering the circumstances, what task can you begin now?"
+      },
+      {
+        "from": "gpt",
+        "value": "<pick up the rectangular object>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png"
+    ],
+    "_source_json": "planning/jsons/generative_affordance_task.json",
+    "_byte_offset": 184563397
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Generative_Affordance_Task",
+    "selected_step": 3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWhich task is possible to start right now?"
+      },
+      {
+        "from": "gpt",
+        "value": "<insert the rectangular object into the square slot>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/generative_affordance_task.json",
+    "_byte_offset": 184565253
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Past_Description_Task",
+    "selected_step": 0,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWhat happened immediately before this?"
+      },
+      {
+        "from": "gpt",
+        "value": "<reach for the rectangular object>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png"
+    ],
+    "_source_json": "planning/jsons/past_description_task.json",
+    "_byte_offset": 211514870
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Past_Description_Task",
+    "selected_step": 2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWhat just occurred?"
+      },
+      {
+        "from": "gpt",
+        "value": "<move the rectangular object towards the board>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/past_description_task.json",
+    "_byte_offset": 211516702
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Planning_Remaining_Steps_Task",
+    "selected_step": 3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nHere's what's been done so far: 1-<reach for the rectangular object>, 2-<pick up the rectangular object>, 3-<move the rectangular object towards the board>. What are the next five tasks to take toward the goal of <inserting a rectangular object into its corresponding slot>?"
+      },
+      {
+        "from": "gpt",
+        "value": "4-<insert the rectangular object into the square slot>, 5-<release the rectangular object>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/planning_remaining_steps_task.json",
+    "_byte_offset": 200066109
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Planning_Remaining_Steps_Task",
+    "selected_step": 1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWith <inserting a rectangular object into its corresponding slot> as the goal and the steps 1-<reach for the rectangular object> completed, what are the next five things to do?"
+      },
+      {
+        "from": "gpt",
+        "value": "2-<pick up the rectangular object>, 3-<move the rectangular object towards the board>, 4-<insert the rectangular object into the square slot>, 5-<release the rectangular object>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png"
+    ],
+    "_source_json": "planning/jsons/planning_remaining_steps_task.json",
+    "_byte_offset": 200069105
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Planning_Task",
+    "selected_step": 3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWith the aim of <inserting a rectangular object into its corresponding slot>, what should you focus on next?"
+      },
+      {
+        "from": "gpt",
+        "value": "<insert the rectangular object into the square slot>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/planning_task.json",
+    "_byte_offset": 187753821
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Planning_Task",
+    "selected_step": 2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nThe objective is <inserting a rectangular object into its corresponding slot>. What should be the next step to move forward?"
+      },
+      {
+        "from": "gpt",
+        "value": "<move the rectangular object towards the board>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png"
+    ],
+    "_source_json": "planning/jsons/planning_task.json",
+    "_byte_offset": 187756597
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Planning_with_Context_Task",
+    "selected_step": 2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nYou are working towards <inserting a rectangular object into its corresponding slot>. After completing steps 1-<reach for the rectangular object>, 2-<pick up the rectangular object>, what's the next immediate task?"
+      },
+      {
+        "from": "gpt",
+        "value": "<move the rectangular object towards the board>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png"
+    ],
+    "_source_json": "planning/jsons/planning_with_context_task.json",
+    "_byte_offset": 195906296
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Planning_with_Context_Task",
+    "selected_step": 1,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nGiven your progress so far (1-<reach for the rectangular object>), what's the next step toward achieving <inserting a rectangular object into its corresponding slot>?"
+      },
+      {
+        "from": "gpt",
+        "value": "<pick up the rectangular object>"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png"
+    ],
+    "_source_json": "planning/jsons/planning_with_context_task.json",
+    "_byte_offset": 195908610
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Success_(Negative)_Task",
+    "selected_step": 4,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWas <release the rectangular object> completed successfully"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_23.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_24.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_25.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_26.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_27.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_28.png"
+    ],
+    "_source_json": "planning/jsons/success_(negative)_task.json",
+    "_byte_offset": 182848249
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Success_(Negative)_Task",
+    "selected_step": 3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nHas <insert the rectangular object into the square slot> reached completion?"
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/success_(negative)_task.json",
+    "_byte_offset": 182851512
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Success_(Positive)_Task",
+    "selected_step": 3,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nHas <insert the rectangular object into the square slot> reached completion?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_23.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_24.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_25.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_26.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_27.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_28.png"
+    ],
+    "_source_json": "planning/jsons/success_(positive)_task.json",
+    "_byte_offset": 211469112
+  },
+  {
+    "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+    "task": "Success_(Positive)_Task",
+    "selected_step": 2,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nHas <move the rectangular object towards the board> been fully carried out?"
+      },
+      {
+        "from": "gpt",
+        "value": "yes"
+      }
+    ],
+    "image": [
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_1.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_2.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_3.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_4.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_5.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_6.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_7.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_8.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_9.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_10.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_11.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_12.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_13.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_14.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_16.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_17.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_18.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_19.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_20.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_21.png",
+      "rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201/frame_22.png"
+    ],
+    "_source_json": "planning/jsons/success_(positive)_task.json",
+    "_byte_offset": 211472393
+  }
+]

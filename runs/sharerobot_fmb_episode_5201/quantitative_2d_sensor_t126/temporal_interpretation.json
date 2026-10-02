@@ -1,0 +1,17 @@
+{
+  "source_observation_rate_hz_nominal": 10,
+  "history_source_steps": [124, 125, 126],
+  "history_physical_spacing_s_nominal": 0.1,
+  "model_processor_video_timestamps": [0.0, 1.0, 2.0],
+  "model_processor_target_fps": 1.0,
+  "model_processor_source": "src/molmo_motion/processor.py",
+  "training_track_timestamps_are_frame_indices": true,
+  "training_track_timestamp_source": "src/molmo_motion/data/trajectory_3d_dataset.py:1955-1956",
+  "training_DROID_MP4_and_track_rate_hz": 15,
+  "training_rate_source": "src/molmo_motion/data/trajectory_3d_dataset.py:1563-1570",
+  "interpretation": "The public processor uses frame-index pseudo-time 0,1,2, as does the training text. It does not encode FMB's measured 0.1-second spacing. Mapping F30 to 2.0 seconds assumes a 15 Hz training-like physical cadence; FMB observations are nominally 10 Hz.",
+  "evaluation_prediction_grid_s": "j/15 for j=1..30",
+  "evaluation_GT_grid_s": "j/10 for j=1..20",
+  "physical_time_status": "ASSUMED_NOT_MEASURED",
+  "exact_source_timestamps_available": false
+}

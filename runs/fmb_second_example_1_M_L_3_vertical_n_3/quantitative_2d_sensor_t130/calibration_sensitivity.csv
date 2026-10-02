@@ -1,0 +1,4 @@
+K_variant,median_input_XYZ_shift_mm,p90_input_XYZ_shift_mm,max_input_XYZ_shift_mm,median_abs_delta_Z_mm,evaluation_mode,ADE_2D_px,FDE_2D_px,coverage
+K_nominal,0.0,0.0,0.0,0.0,full_inference,28.259729309485046,46.16124848672261,1.0
+K_simple,0.4251080406822512,0.46077920692160595,0.4703250119715886,0.0,full_inference,28.161038803402164,46.05834380945605,1.0
+K_focal_0925,7.251154307812,8.302920521322541,8.845698828152926,0.0,full_inference,28.082160740096537,45.98587084330633,1.0

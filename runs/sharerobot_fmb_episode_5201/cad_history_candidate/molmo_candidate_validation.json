@@ -1,0 +1,19 @@
+{
+  "parsed_visibility_shape": [
+    8,
+    30
+  ],
+  "parsed_visible_count": 240,
+  "expected_count": 240,
+  "future_shape": [
+    8,
+    30,
+    3
+  ],
+  "all_future_finite": true,
+  "all_future_positive_Z": true,
+  "max_abs_difference_raw_text_vs_future_m": 0.0,
+  "median_first_prediction_distance_from_t0_m": 0.001396935898810625,
+  "median_last_prediction_distance_from_t0_m": 0.0013804793125018477,
+  "status": "PASS_PARSE_AND_SHAPE_ONLY"
+}

@@ -1,0 +1,218 @@
+{
+  "status": "DESCRIPTIVE_TWO_TRIAL_COMPARISON",
+  "same_protocol_checks": {
+    "model_revision": true,
+    "checkpoint_config_sha256": true,
+    "model_pt_sha256_record": true,
+    "action_exact": true,
+    "camera_name": true,
+    "nominal_timeline_rates": true,
+    "tensor_shapes": true,
+    "GT_method": true,
+    "depth_aggregation_rule": true,
+    "K_nominal": true,
+    "depth_scale": true,
+    "prediction_shape_coverage": true,
+    "GT_coverage": true
+  },
+  "important_difference": "Trials differ in source episode, t0, object motion, point locations, and unverified effective camera/depth preprocessing. The additional raw FMB file has no verified ShareRobot episode mapping.",
+  "no_population_inference": true,
+  "trials": [
+    {
+      "trial": "ShareRobot episode_5201 / FMB trial 2",
+      "source": "1_M_L_3_vertical_n_2.npy",
+      "source_identity": "ShareRobot episode_5201 / FMB 1_M_L_3_vertical_n_2.npy",
+      "t0": 126,
+      "history_steps": [
+        124,
+        125,
+        126
+      ],
+      "future_steps": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ],
+      "action_exact": "Insert the red rectangular peg into the matching hole on the blue board.",
+      "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+      "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "model_pt_sha256_previously_verified": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+      "camera": "side_1",
+      "K_nominal": [
+        [
+          152.08360000000002,
+          0.0,
+          124.29079999999999
+        ],
+        [
+          0.0,
+          202.77813333333333,
+          129.29733333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_hz_nominal": 10,
+      "model_prediction_hz_assumed": 15,
+      "history_shape": [
+        3,
+        8,
+        3
+      ],
+      "forecast_shape": [
+        8,
+        30,
+        3
+      ],
+      "GT_shape": [
+        8,
+        20,
+        2
+      ],
+      "GT_method": "RGB_RED_MASK_SEQUENTIAL_AFFINE_ECC",
+      "depth_rule": "median of positive raw Z16 values in a 5x5 patch at rounded RGB pixel; require >=15 positive",
+      "depth_scale_m_per_unit": 0.0001,
+      "GT_coverage": 160,
+      "prediction_completeness": 1.0,
+      "metrics": {
+        "MolmoMotion": {
+          "ADE_px": 124.14220324136434,
+          "FDE_px": 225.40028066096016
+        },
+        "stationary": {
+          "ADE_px": 41.07227590683263,
+          "FDE_px": 74.0631416838566
+        },
+        "constant_velocity": {
+          "ADE_px": 72.39618578581303,
+          "FDE_px": 143.61571576249375
+        }
+      },
+      "model_minus_stationary_ADE_px": 83.06992733453171,
+      "model_minus_constant_velocity_ADE_px": 51.74601745555131,
+      "mean_GT_final_displacement_px": 74.06314086914062,
+      "mean_model_final_displacement_px": 154.50927734375,
+      "GT_ECC_vs_dense_flow_median_px": 13.938494682312012,
+      "sensor_vs_RGB_CAD_median_XYZ_mm": 5.652138574980791,
+      "model_outside_image_pairs": 108
+    },
+    {
+      "trial": "additional FMB trial 3",
+      "source": "1_M_L_3_vertical_n_3.npy",
+      "source_identity": "FMB raw 1_M_L_3_vertical_n_3.npy, independent trial; no verified ShareRobot mapping",
+      "t0": 130,
+      "history_steps": [
+        128,
+        129,
+        130
+      ],
+      "future_steps": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "action_exact": "Insert the red rectangular peg into the matching hole on the blue board.",
+      "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+      "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "model_pt_sha256_previously_verified": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+      "camera": "side_1",
+      "K_nominal": [
+        [
+          152.08360000000002,
+          0.0,
+          124.29079999999999
+        ],
+        [
+          0.0,
+          202.77813333333333,
+          129.29733333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_hz_nominal": 10,
+      "model_prediction_hz_assumed": 15,
+      "history_shape": [
+        3,
+        8,
+        3
+      ],
+      "forecast_shape": [
+        8,
+        30,
+        3
+      ],
+      "GT_shape": [
+        8,
+        20,
+        2
+      ],
+      "GT_method": "RGB_RED_MASK_SEQUENTIAL_AFFINE_ECC",
+      "depth_rule": "median of positive Z16 values in 5x5, require >=15 valid",
+      "depth_scale_m_per_unit": 0.0001,
+      "GT_coverage": 160,
+      "prediction_completeness": 1.0,
+      "metrics": {
+        "MolmoMotion": {
+          "ADE_px": 28.259729309485046,
+          "FDE_px": 46.16124848672261
+        },
+        "stationary": {
+          "ADE_px": 28.02778519616619,
+          "FDE_px": 45.94547784942059
+        },
+        "constant_velocity": {
+          "ADE_px": 24.85081641643654,
+          "FDE_px": 39.87733917424653
+        }
+      },
+      "model_minus_stationary_ADE_px": 0.2319441133188569,
+      "model_minus_constant_velocity_ADE_px": 3.4089128930485053,
+      "mean_GT_final_displacement_px": 45.94548034667969,
+      "mean_model_final_displacement_px": 0.6952747702598572,
+      "GT_ECC_vs_dense_flow_median_px": 4.592960357666016,
+      "sensor_vs_RGB_CAD_median_XYZ_mm": 8.828071295861761,
+      "model_outside_image_pairs": 0
+    }
+  ]
+}

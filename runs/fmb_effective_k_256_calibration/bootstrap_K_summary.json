@@ -1,0 +1,32 @@
+{
+  "method": "Resample the 10 training hole-center features with replacement; retain six outer/side anchors and all five board placements.",
+  "attempts": 100,
+  "successes": 100,
+  "parameter_order": [
+    "fx",
+    "fy",
+    "cx",
+    "cy"
+  ],
+  "percentiles_5_50_95": [
+    [
+      170.56664737848905,
+      217.97485885038955,
+      126.76939466232847,
+      93.75020674027913
+    ],
+    [
+      172.8046099598336,
+      219.97426962110012,
+      127.54727659601414,
+      97.5538228011176
+    ],
+    [
+      174.55974673814657,
+      221.54227595638827,
+      128.11273783367287,
+      100.96625462193397
+    ]
+  ],
+  "note": "Feature bootstrap does not model common systematic errors in virtual corners or hole-center semantics."
+}

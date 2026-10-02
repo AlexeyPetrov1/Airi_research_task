@@ -1,0 +1,75 @@
+{
+  "primary": "K_nominal",
+  "variants": {
+    "K_nominal": {
+      "K": [
+        [
+          152.08360000000002,
+          0.0,
+          124.29079999999999
+        ],
+        [
+          0.0,
+          202.77813333333333,
+          129.29733333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "median_input_XYZ_shift_mm": 0.0,
+      "p90_input_XYZ_shift_mm": 0.0,
+      "max_input_XYZ_shift_mm": 0.0,
+      "median_abs_delta_Z_mm": 0.0
+    },
+    "K_simple": {
+      "K": [
+        [
+          152.08360000000002,
+          0.0,
+          124.5908
+        ],
+        [
+          0.0,
+          202.77813333333333,
+          129.53066666666666
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "median_input_XYZ_shift_mm": 0.4251080406822512,
+      "p90_input_XYZ_shift_mm": 0.46077920692160595,
+      "max_input_XYZ_shift_mm": 0.4703250119715886,
+      "median_abs_delta_Z_mm": 0.0
+    },
+    "K_focal_0925": {
+      "K": [
+        [
+          140.67733,
+          0.0,
+          124.29079999999999
+        ],
+        [
+          0.0,
+          187.56977333333333,
+          129.29733333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "median_input_XYZ_shift_mm": 7.251154307812,
+      "p90_input_XYZ_shift_mm": 8.302920521322541,
+      "max_input_XYZ_shift_mm": 8.845698828152926,
+      "median_abs_delta_Z_mm": 0.0
+    }
+  },
+  "K_focal_0925_note": "depth-selected factor from prior trial; diagnostic only"
+}

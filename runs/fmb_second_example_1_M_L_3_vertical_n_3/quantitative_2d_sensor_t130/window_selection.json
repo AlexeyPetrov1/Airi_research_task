@@ -1,0 +1,67 @@
+{
+  "candidate_probe": "../window_point_search.json",
+  "final_t0": 130,
+  "history_steps": [
+    128,
+    129,
+    130
+  ],
+  "future_steps": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "selection_before_prediction": true,
+  "rule": "Choose a stable insert window with 20 future steps and many valid interior depth candidates; t0=130 has 75 such candidates and 55 mm TCP motion.",
+  "selected_row_alpha": [
+    [
+      28,
+      0.3
+    ],
+    [
+      28,
+      0.7
+    ],
+    [
+      44,
+      0.5
+    ],
+    [
+      44,
+      0.8
+    ],
+    [
+      60,
+      0.2
+    ],
+    [
+      60,
+      0.7
+    ],
+    [
+      76,
+      0.3
+    ],
+    [
+      76,
+      0.8
+    ]
+  ]
+}

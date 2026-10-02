@@ -1,0 +1,249 @@
+{
+  "status": "LOCAL_SENSITIVITY_ONLY_NOT_INTRINSIC_CALIBRATION",
+  "source": "manual planar RGB corners at FMB steps 130,135,140",
+  "focal_change": "fx and fy scaled jointly; cx and cy fixed",
+  "jitter": "independent zero-mean Gaussian noise per annotated coordinate",
+  "tcp_130_to_140_displacement_m": 0.04239834611312799,
+  "sensor_depth_used_in_fit": false,
+  "limitations": [
+    "Pixel jitter does not model systematic corner identification error or occlusion.",
+    "A good TCP displacement match alone does not identify the color intrinsic matrix or absolute Z.",
+    "The four landmarks on each frame are coplanar."
+  ],
+  "records": [
+    {
+      "focal_factor": 0.9,
+      "independent_corner_jitter_sigma_px": 0.0,
+      "attempted": 1,
+      "valid_positive_Z": 1,
+      "median_point_Z_m": {
+        "q05": 0.2305150605250127,
+        "median": 0.2305150605250127,
+        "q95": 0.2305150605250127
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.04133132866112789,
+        "median": 0.04133132866112789,
+        "q95": 0.04133132866112789
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.0010670174520001005,
+        "median": -0.0010670174520001005,
+        "q95": -0.0010670174520001005
+      },
+      "corner_rmse_px": {
+        "q05": 1.9925498125720524,
+        "median": 1.9925498125720524,
+        "q95": 1.9925498125720524
+      }
+    },
+    {
+      "focal_factor": 0.9,
+      "independent_corner_jitter_sigma_px": 1.0,
+      "attempted": 200,
+      "valid_positive_Z": 200,
+      "median_point_Z_m": {
+        "q05": 0.22537799711234296,
+        "median": 0.23042919333078718,
+        "q95": 0.23539538910271213
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.03911734549115086,
+        "median": 0.04148412781744003,
+        "q95": 0.043877550520216545
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.0032810006219771257,
+        "median": -0.0009142182956879616,
+        "q95": 0.001479204407088552
+      },
+      "corner_rmse_px": {
+        "q05": 1.6815877730656879,
+        "median": 2.086911630634955,
+        "q95": 2.428319336665189
+      }
+    },
+    {
+      "focal_factor": 0.9,
+      "independent_corner_jitter_sigma_px": 2.0,
+      "attempted": 200,
+      "valid_positive_Z": 200,
+      "median_point_Z_m": {
+        "q05": 0.22086052389087493,
+        "median": 0.23033499396930268,
+        "q95": 0.239331242041315
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.03777045292559457,
+        "median": 0.041238437863679006,
+        "q95": 0.04768674137163572
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.004627893187533422,
+        "median": -0.001159908249448987,
+        "q95": 0.005288395258507731
+      },
+      "corner_rmse_px": {
+        "q05": 1.810203191274512,
+        "median": 2.449574721199525,
+        "q95": 2.983367356468832
+      }
+    },
+    {
+      "focal_factor": 1.0,
+      "independent_corner_jitter_sigma_px": 0.0,
+      "attempted": 1,
+      "valid_positive_Z": 1,
+      "median_point_Z_m": {
+        "q05": 0.2473430465027009,
+        "median": 0.2473430465027009,
+        "q95": 0.2473430465027009
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.04197312633537709,
+        "median": 0.04197312633537709,
+        "q95": 0.04197312633537709
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.00042521977775090286,
+        "median": -0.00042521977775090286,
+        "q95": -0.00042521977775090286
+      },
+      "corner_rmse_px": {
+        "q05": 1.8593058572160264,
+        "median": 1.8593058572160264,
+        "q95": 1.8593058572160264
+      }
+    },
+    {
+      "focal_factor": 1.0,
+      "independent_corner_jitter_sigma_px": 1.0,
+      "attempted": 200,
+      "valid_positive_Z": 200,
+      "median_point_Z_m": {
+        "q05": 0.24254780245483226,
+        "median": 0.24743955050317495,
+        "q95": 0.2529631719695052
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.039535695161446095,
+        "median": 0.0418111989903564,
+        "q95": 0.04498469492871825
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.0028626509516818956,
+        "median": -0.0005871471227715912,
+        "q95": 0.002586348815590256
+      },
+      "corner_rmse_px": {
+        "q05": 1.6371633167125639,
+        "median": 1.9862596971416324,
+        "q95": 2.3350053273185116
+      }
+    },
+    {
+      "focal_factor": 1.0,
+      "independent_corner_jitter_sigma_px": 2.0,
+      "attempted": 200,
+      "valid_positive_Z": 200,
+      "median_point_Z_m": {
+        "q05": 0.23676150057047887,
+        "median": 0.24653443882413878,
+        "q95": 0.25794969457005623
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.03760099236198772,
+        "median": 0.041832870504412596,
+        "q95": 0.04850859784407185
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.004797353751140273,
+        "median": -0.0005654756087153934,
+        "q95": 0.006110251730943857
+      },
+      "corner_rmse_px": {
+        "q05": 1.7375604536396487,
+        "median": 2.3617665279570845,
+        "q95": 2.867678344047162
+      }
+    },
+    {
+      "focal_factor": 1.1,
+      "independent_corner_jitter_sigma_px": 0.0,
+      "attempted": 1,
+      "valid_positive_Z": 1,
+      "median_point_Z_m": {
+        "q05": 0.2644130264405581,
+        "median": 0.2644130264405581,
+        "q95": 0.2644130264405581
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.043216399865518236,
+        "median": 0.043216399865518236,
+        "q95": 0.043216399865518236
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": 0.0008180537523902465,
+        "median": 0.0008180537523902465,
+        "q95": 0.0008180537523902465
+      },
+      "corner_rmse_px": {
+        "q05": 1.7734812297718319,
+        "median": 1.7734812297718319,
+        "q95": 1.7734812297718319
+      }
+    },
+    {
+      "focal_factor": 1.1,
+      "independent_corner_jitter_sigma_px": 1.0,
+      "attempted": 200,
+      "valid_positive_Z": 200,
+      "median_point_Z_m": {
+        "q05": 0.25854118083975824,
+        "median": 0.2638126334490951,
+        "q95": 0.27069224048777296
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.04016630611840494,
+        "median": 0.043238222625131495,
+        "q95": 0.046905827684302855
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.0022320399947230495,
+        "median": 0.0008398765120035019,
+        "q95": 0.0045074815711748616
+      },
+      "corner_rmse_px": {
+        "q05": 1.5768544919473018,
+        "median": 1.920347468478243,
+        "q95": 2.2766712302260963
+      }
+    },
+    {
+      "focal_factor": 1.1,
+      "independent_corner_jitter_sigma_px": 2.0,
+      "attempted": 200,
+      "valid_positive_Z": 200,
+      "median_point_Z_m": {
+        "q05": 0.25288632345729284,
+        "median": 0.2656591734780817,
+        "q95": 0.2756242705016592
+      },
+      "center_130_to_140_displacement_m": {
+        "q05": 0.03805824209756644,
+        "median": 0.0440447691369279,
+        "q95": 0.05093961622099917
+      },
+      "difference_from_tcp_displacement_m": {
+        "q05": -0.0043401040155615495,
+        "median": 0.001646423023799904,
+        "q95": 0.008541270107871183
+      },
+      "corner_rmse_px": {
+        "q05": 1.6889478482461984,
+        "median": 2.243813914095277,
+        "q95": 2.7630482073078118
+      }
+    }
+  ]
+}

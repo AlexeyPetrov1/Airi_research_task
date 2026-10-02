@@ -1,0 +1,669 @@
+{
+  "status": "PASS",
+  "episodes": {
+    "first": {
+      "status": "PASS",
+      "checks": {
+        "base_model_success": true,
+        "GT_shape": true,
+        "GT_mask_shape_coverage": true,
+        "all_variant_inputs_pass": true,
+        "all_variant_results_pass": true,
+        "variant_count": true,
+        "media": true,
+        "rigid_result": true,
+        "geometry_bundle": true,
+        "moge2_history_hashes": true,
+        "moge2_depth_figure": true,
+        "common_axis_history_figure": true
+      },
+      "variants": [
+        {
+          "variant": "text_paraphrase",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "79fee4349bae9e73e37ecc99e0c3f104df8d5b0b13acc0cdb92be10478ec177f"
+        },
+        {
+          "variant": "text_generic",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "3d40995f604056df7d5e488e95a8703386c3226bef0ac388ab327349b9e74e48"
+        },
+        {
+          "variant": "text_counterfactual",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "9c3070ce1d856a9c48d0d2346f512e70d1ec65c0b3ac194ecc8501025dec8fd3"
+        },
+        {
+          "variant": "no_history",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "b99e863ccd271275169af10a628b509fd33e51a642a96c176244dac1fb938f7e"
+        },
+        {
+          "variant": "scale_090",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "2388ea3de2255e05242a1588883222300dff49fa4124dc40b99dd46689d7380b"
+        },
+        {
+          "variant": "scale_110",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "7b4061de4190dd62b92f1bd0d523f9b152a417b5e2ea70564aec5bf899177db8"
+        },
+        {
+          "variant": "perm_keep_anchor",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "ca619f4b077255f2e0849237c6a70ea8efd3f4c2702bb474a22c156f2f26db50"
+        },
+        {
+          "variant": "perm_new_anchor",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "08a6d8cb7504be327fa2ee19a822c3eac34aeb3540df763e0f34628be2e1a8e9"
+        },
+        {
+          "variant": "focal_090",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "0d1fadb5499fe1fd9a49dc9b721c4ee550bc11e97704c560bf6ada4927e532bd"
+        },
+        {
+          "variant": "focal_110",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "cdfb878da73809a572b4b609207b823d6d61656d56318541f5e62e7c60089971"
+        },
+        {
+          "variant": "moge2_raw",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "9cf367724b77ffb40d3e900cc48e323dcbb6001d9b3ecfc3aaebd4d9532a3d7d"
+        },
+        {
+          "variant": "moge2_scaled",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "812aca8fc818d8024909c26e73320398f527ed5b93817620439a4cd404212678"
+        },
+        {
+          "variant": "moge2_focal_090",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "8c08634187b0d7e7483e965e49f720049997c8ce72c71d796e4d89013bdb4db4"
+        }
+      ],
+      "media": {
+        "input_and_geometry.mp4": true,
+        "forecast_vs_observed.mp4": true,
+        "geometry_methods.mp4": true,
+        "all_overview_images": true,
+        "saved_outputs_only": true,
+        "moge2_comparison_video": true,
+        "moge2_comparison_overview": true
+      }
+    },
+    "second": {
+      "status": "PASS",
+      "checks": {
+        "base_model_success": true,
+        "GT_shape": true,
+        "GT_mask_shape_coverage": true,
+        "all_variant_inputs_pass": true,
+        "all_variant_results_pass": true,
+        "variant_count": true,
+        "media": true,
+        "rigid_result": true,
+        "geometry_bundle": true,
+        "moge2_history_hashes": true,
+        "moge2_depth_figure": true,
+        "common_axis_history_figure": true
+      },
+      "variants": [
+        {
+          "variant": "text_paraphrase",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "674e5c0688fc7dc171386db779611c098290637da0b72ba106f1e3f843c54a68"
+        },
+        {
+          "variant": "text_generic",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "87bf40a86bf7b48077604cde720350b205265cd58be1b6d1f3418c2733368521"
+        },
+        {
+          "variant": "text_counterfactual",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "87bf40a86bf7b48077604cde720350b205265cd58be1b6d1f3418c2733368521"
+        },
+        {
+          "variant": "no_history",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "f5d0ccf3dbd09d846610a9ad0f0f02f7689b872e4af7dffc0e63978e1e7a66e8"
+        },
+        {
+          "variant": "scale_090",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "72d165fc387aabe579c22d1a9c74d26d9887cc48c6fd7759bf95198a4aa7a25a"
+        },
+        {
+          "variant": "scale_110",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "83642eefeac79ce3dc9ee4a0612ee59aa8284f05b0a4c34b27dcf37fbada3db9"
+        },
+        {
+          "variant": "perm_keep_anchor",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "ac45439217b7dfb26668f2503f2ddc1ad38eee48df87c666a294e2ccab374a01"
+        },
+        {
+          "variant": "perm_new_anchor",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "387c7514d48dbb3b595845f31a287cbe9e8c052ab83b7972f81b799fac7fc23b"
+        },
+        {
+          "variant": "focal_090",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "9a6ea863ff48429c81c3b87d7ed64a51cdfae2f5c2efc0321417104d9ee717a8"
+        },
+        {
+          "variant": "focal_110",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "a8f36e52ecf1d968ac3e18e2bacab19a22921b5217355769b4329a7450cff06d"
+        },
+        {
+          "variant": "moge2_raw",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "370f2c5e40040be10a7550483abf8de0f9c1a9def6a1fe035a55add1c902973d"
+        },
+        {
+          "variant": "moge2_scaled",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "307aee980fcf284f1c2eb318cad876bee5bdcc8fd4a1d03a192a8cea4638a4bf"
+        },
+        {
+          "variant": "moge2_focal_090",
+          "status": "PASS",
+          "checks": {
+            "prepared_hashes": true,
+            "manifest_hash_in_run": true,
+            "model_success": true,
+            "model_revision": true,
+            "raw_sha256": true,
+            "official_parser_all_visible": true,
+            "official_parser_matches_model_order_tensor": true,
+            "saved_parser_pass": true,
+            "shape_finite_positive": true,
+            "permutation_reversed": true,
+            "common_coverage": true,
+            "recomputed_ADE": true,
+            "recomputed_FDE": true,
+            "GT_hash": true,
+            "mask_hash": true
+          },
+          "raw_sha256": "493c71151804007238a6abf96efb2bae739656a4ba63571eb41305075b41a5cf"
+        }
+      ],
+      "media": {
+        "input_and_geometry.mp4": true,
+        "forecast_vs_observed.mp4": true,
+        "geometry_methods.mp4": true,
+        "all_overview_images": true,
+        "saved_outputs_only": true,
+        "moge2_comparison_video": true,
+        "moge2_comparison_overview": true
+      }
+    }
+  },
+  "summary_row_count": 26,
+  "table_counts": {
+    "ablation_summary": {
+      "observed": 26,
+      "expected": 26,
+      "status": "PASS"
+    },
+    "geometry_vs_forecast": {
+      "observed": 10,
+      "expected": 10,
+      "status": "PASS"
+    },
+    "depth_K_factorial": {
+      "observed": 8,
+      "expected": 8,
+      "status": "PASS"
+    },
+    "GT_tracker_sensitivity": {
+      "observed": 28,
+      "expected": 28,
+      "status": "PASS"
+    },
+    "paired_ablation_effects": {
+      "observed": 26,
+      "expected": 26,
+      "status": "PASS"
+    }
+  },
+  "moge2_checkpoint_sha256": "3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5",
+  "report_links": {
+    "report_exists": true,
+    "local_link_count": 55,
+    "missing_local_links": [],
+    "all_local_links_resolve": true
+  },
+  "interpretation": "Checks artifact consistency only; does not establish physical 3D ground truth or camera calibration"
+}

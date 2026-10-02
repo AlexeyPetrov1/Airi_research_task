@@ -1,0 +1,41 @@
+{
+  "source_FMB_primitive_exact_at_t0": "insert",
+  "source_FMB_primitive_exact_over_evaluation_window": [
+    "insert"
+  ],
+  "source_FMB_object_info": {
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+  },
+  "ShareRobot_exact_prompts": [
+    {
+      "share_robot_row_id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+      "task": "Discriminative_Affordance_(Positive)_Task",
+      "prompt_exact_last_line": "Is now a suitable time to carry out <insert the rectangular object into the square slot>?"
+    },
+    {
+      "share_robot_row_id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+      "task": "Future_Prediction_Task",
+      "prompt_exact_last_line": "After <insert the rectangular object into the square slot>, what's the most probable next event?"
+    },
+    {
+      "share_robot_row_id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+      "task": "Success_(Negative)_Task",
+      "prompt_exact_last_line": "Has <insert the rectangular object into the square slot> reached completion?"
+    },
+    {
+      "share_robot_row_id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_31/57_fmb#episode_5201",
+      "task": "Success_(Positive)_Task",
+      "prompt_exact_last_line": "Has <insert the rectangular object into the square slot> reached completion?"
+    }
+  ],
+  "model_action_exact": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "model_action_is_verbatim_FMB_metadata": false,
+  "model_action_is_verbatim_ShareRobot_prompt": false,
+  "relation": "The frozen English action paraphrases the FMB primitive insert and ShareRobot's rectangular-object/square-slot task; color, peg, and blue board are from object metadata and RGB scene.",
+  "action_frozen_before_prediction": true
+}

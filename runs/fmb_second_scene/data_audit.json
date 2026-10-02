@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "source_file": "1_L_L_4_vertical_n_0.npy",
+  "source_sha256": "e6c3aa8e518d75b003a78ac405e33aa30c2ddc94dea2901a5ee568e0fb353cdb",
+  "N": 142,
+  "checks": {
+    "source_checksum": true,
+    "independent_source_and_trajectory": true,
+    "N_at_least_33": true,
+    "all_source_arrays_have_N": true,
+    "metadata_N": true,
+    "all_RGB_exact_and_nonconstant": true,
+    "all_depth_exact_and_nonconstant": true,
+    "all_previews_N": true,
+    "all_state_arrays_exact": true,
+    "finite_tcp_pose": true,
+    "finite_action": true,
+    "primitive_sequence_complete": true,
+    "all_camera_shapes_expected": true,
+    "source_color_and_depth_dtypes": true
+  },
+  "RGB": {
+    "side_1": {
+      "count": 142,
+      "shape": [
+        142,
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "range": [
+        0,
+        255
+      ],
+      "exact_BGR_to_RGB_every_frame": true,
+      "changes_over_time": true
+    },
+    "side_2": {
+      "count": 142,
+      "shape": [
+        142,
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "range": [
+        0,
+        255
+      ],
+      "exact_BGR_to_RGB_every_frame": true,
+      "changes_over_time": true
+    },
+    "wrist_1": {
+      "count": 142,
+      "shape": [
+        142,
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "range": [
+        0,
+        255
+      ],
+      "exact_BGR_to_RGB_every_frame": true,
+      "changes_over_time": true
+    },
+    "wrist_2": {
+      "count": 142,
+      "shape": [
+        142,
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "range": [
+        0,
+        255
+      ],
+      "exact_BGR_to_RGB_every_frame": true,
+      "changes_over_time": true
+    }
+  },
+  "depth": {
+    "side_1": {
+      "shape": [
+        142,
+        256,
+        256
+      ],
+      "dtype": "uint16",
+      "exact_all_values": true,
+      "changes_over_time": true,
+      "nonconstant": true
+    },
+    "side_2": {
+      "shape": [
+        142,
+        256,
+        256
+      ],
+      "dtype": "uint16",
+      "exact_all_values": true,
+      "changes_over_time": true,
+      "nonconstant": true
+    },
+    "wrist_1": {
+      "shape": [
+        142,
+        256,
+        256
+      ],
+      "dtype": "uint16",
+      "exact_all_values": true,
+      "changes_over_time": true,
+      "nonconstant": true
+    },
+    "wrist_2": {
+      "shape": [
+        142,
+        256,
+        256
+      ],
+      "dtype": "uint16",
+      "exact_all_values": true,
+      "changes_over_time": true,
+      "nonconstant": true
+    }
+  },
+  "previews": {
+    "side_1": {
+      "decoded_frames": 142,
+      "matches_N": true
+    },
+    "side_2": {
+      "decoded_frames": 142,
+      "matches_N": true
+    },
+    "wrist_1": {
+      "decoded_frames": 142,
+      "matches_N": true
+    },
+    "wrist_2": {
+      "decoded_frames": 142,
+      "matches_N": true
+    }
+  },
+  "state_keys": {
+    "obs/tcp_pose": true,
+    "obs/tcp_vel": true,
+    "obs/tcp_force": true,
+    "obs/tcp_torque": true,
+    "obs/q": true,
+    "obs/dq": true,
+    "obs/jacobian": true,
+    "obs/gripper_pose": true,
+    "actions": true,
+    "primitive": true,
+    "object_info_json": true
+  },
+  "depth_scale_verified": false,
+  "color_interpretation": "Official FMB says BGR; exact per-frame PNG equality confirms one BGR-to-RGB conversion",
+  "limitations": [
+    "Exact RGB/depth pixel registration is separate from export fidelity and remains unresolved",
+    "No metric unit assigned to raw depth"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source_episode": "1_M_L_3_horizontal_n_4.npy",
+  "frame": 0,
+  "depth_scale_m_per_raw": 0.0001,
+  "candidate_RGB_only": {
+    "K": [
+      [
+        147.24323661937188,
+        0.0,
+        127.19465512545929
+      ],
+      [
+        0.0,
+        203.04101367729314,
+        119.75060093710012
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pose": [
+      0.24190888162495486,
+      0.6375071497503664,
+      0.6251092565455634,
+      -0.07034482017496918,
+      -0.09556204333824297,
+      0.4129055412795831
+    ],
+    "interior_comparable_pixels": 325,
+    "median_abs_Z_error_mm": 138.19723842441778,
+    "p90_abs_Z_error_mm": 172.10968478444084,
+    "median_signed_Z_error_mm": -138.19723842441778,
+    "mean_signed_Z_error_mm": -123.4863330278409,
+    "CAD_Z_median_m": 0.4195438698399825,
+    "sensor_Z_median_m": 0.5568000000000001
+  },
+  "nominal_assumed_K_RGB_pose": {
+    "K": [
+      [
+        152.0836,
+        0.0,
+        124.2908
+      ],
+      [
+        0.0,
+        202.7781333333,
+        129.2973333333
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pose": [
+      -1.6178186294870616,
+      -3.4954717785401628,
+      -3.678879960743979,
+      -0.06138376835390037,
+      -0.11755551203279087,
+      0.4217741144472405
+    ],
+    "interior_comparable_pixels": 325,
+    "median_abs_Z_error_mm": 129.48245839075966,
+    "p90_abs_Z_error_mm": 163.58587495182604,
+    "median_signed_Z_error_mm": -129.48245839075966,
+    "mean_signed_Z_error_mm": -114.38532311838966,
+    "CAD_Z_median_m": 0.42823389430323244,
+    "sensor_Z_median_m": 0.5568000000000001
+  },
+  "warning": "Metric comparison is independent of RGB fit, but RGB/depth registration and Z16 scale were not recorded in the episode."
+}

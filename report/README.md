@@ -1,10 +1,22 @@
-# Working notes
+# Research reports
 
-Setup diagnostics are in `SETUP_DIAGNOSTICS.md` at the repository root. Save
-later inference outputs under `runs/` and copy only the selected figures or
-short clips into `report/artifacts/` when preparing the final report.
+- [Dobb·E episode 3651: approximate COLMAP/F2-NeRF transform and MolmoMotion run](dobbe_approx_colmap_f2nerf_molmo.md) — user-requested exploratory `(3,8,3)` and partial future RGB-D evaluation.
+- [Dobb·E episode 3651 RGB-only COLMAP and measured-depth geometry study](dobbe_rgbd_colmap_study.md) — causal protocol, independent second scene, geometry gate `BLOCKED`.
+- [MolmoMotion on FMB: historical 3D geometry and observed 2D future](fmb_geometry_forecast_study.md) — combined two-episode study, figures, videos and reproducibility notes.
+- [First FMB / ShareRobot quantitative 2D trial](fmb_quantitative_2d_episode_5201.md).
+- [Second raw FMB quantitative 2D trial](fmb_quantitative_2d_second_trial.md).
+- [Effective 256×256 camera calibration audit](fmb_effective_k_256_calibration.md).
+- [CAD and RGB-derived metric-depth diagnostics](fmb_cad_metric_depth_experiment.md).
+- [Alternative FMB calibration checks A–C](fmb_alternative_calibration_abc.md).
+- [Independent second FMB scene and export audit](fmb_second_scene_export.md).
+- [FMB episode 5201 geometry preflight](sharerobot_fmb_episode_5201.md).
+- [ShareRobot transfer and source identification](sharerobot_transfer.md).
+- [Dobb·E source-record recovery](dobbe_episode_3651_recovery.md).
+- [Dobb·E and PLEX source preflight](plex_dobbe_sharerobot_preflight.md).
+- [DAVIS author example](author_davis.md).
+- [DAVIS coordinate audit](author_davis_coordinate_audit.md).
+- [WorldTrack camera-coordinate experiment](second_episode_geometry.md).
 
-## Dobb·E episode 3651
+Model outputs and generated media are kept under [`../runs`](../runs). Setup and environment details are in [`../SETUP_DIAGNOSTICS.md`](../SETUP_DIAGNOSTICS.md).
 
-- [Approximate COLMAP/F2-NeRF transform and MolmoMotion run](dobbe_approx_colmap_f2nerf_molmo.md)
-- [RGB-D geometry and calibration study](dobbe_rgbd_colmap_study.md)
+[Published artifacts and reproduction requirements](PUBLICATION.md).

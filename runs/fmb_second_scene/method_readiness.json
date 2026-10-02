@@ -1,0 +1,84 @@
+{
+  "sensor_rgbd": {
+    "status": "PARTIAL",
+    "available": [
+      "four synchronized RGB streams",
+      "four exact raw depth streams",
+      "published 640x480 rectified camera profiles",
+      "object-interior nonzero raw depth"
+    ],
+    "missing": [
+      "independently confirmed depth scale for this run",
+      "active 256x256 RGB/depth intrinsics",
+      "verified RGB-to-depth pixel correspondence after unpublished depth processing"
+    ],
+    "evidence": [
+      "data/fmb_second_scene/calibration/calibration.json",
+      "runs/fmb_second_scene/candidate_depth_roi.json"
+    ]
+  },
+  "monocular_depth": {
+    "status": "READY",
+    "available": [
+      "all 142 full-resolution published RGB PNGs per camera",
+      "byte-identical original BGR NPY preserved"
+    ],
+    "missing": [],
+    "models_prepared_only": [
+      "MoGe-2",
+      "MoGe-3",
+      "UniDepthV2",
+      "Metric3Dv2",
+      "Depth Anything V2 Metric"
+    ],
+    "models_run": false
+  },
+  "cad_pnp": {
+    "status": "PARTIAL",
+    "available": [
+      "official 54-solid peg STEP collection",
+      "shape/size/length metadata",
+      "142 RGB frames per camera"
+    ],
+    "missing": [
+      "proven per-body CAD ID for this run",
+      "validated visible 2D-to-CAD feature correspondences",
+      "active camera intrinsics for metric PnP"
+    ],
+    "evidence": [
+      "data/fmb_second_scene/object/object_metadata.json"
+    ]
+  },
+  "tcp_consistency": {
+    "status": "READY",
+    "available": [
+      "exact per-frame tcp_pose",
+      "exact per-frame gripper_pose",
+      "exact per-frame primitive",
+      "common source frame index"
+    ],
+    "missing": [],
+    "scope": "robot-state temporal and magnitude consistency; camera-base pose remains unknown"
+  },
+  "stereo": {
+    "status": "PARTIAL",
+    "available": [
+      "synchronized side_1 RGB",
+      "synchronized side_2 RGB"
+    ],
+    "missing": [
+      "active K1 at 256x256",
+      "active K2 at 256x256",
+      "T_side1_to_side2"
+    ]
+  },
+  "future_2d": {
+    "status": "READY",
+    "available": [
+      "all 142 chronological side_1 RGB frames",
+      "high contrast visible rigid peg for several pre-insertion and insertion frames"
+    ],
+    "missing": [],
+    "scope": "future point labels can be created later, independently of model output"
+  }
+}

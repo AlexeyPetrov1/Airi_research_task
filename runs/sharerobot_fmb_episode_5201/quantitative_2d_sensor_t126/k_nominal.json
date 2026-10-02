@@ -1,0 +1,41 @@
+{
+  "status": "SUPPORTED_NOT_EXACT",
+  "source_K_640": [
+    [
+      380.209,
+      0.0,
+      311.477
+    ],
+    [
+      0.0,
+      380.209,
+      242.87
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_profile": "official side_1 rectified.2",
+  "source_profile_is_active_color_K": "UNVERIFIED",
+  "hypothesis": "direct OpenCV cv2.resize 640x480 -> 256x256",
+  "pixel_center_convention": "cx'=sx*(cx+0.5)-0.5; cy'=sy*(cy+0.5)-0.5",
+  "K_nominal": [
+    [
+      152.08360000000002,
+      0.0,
+      124.29079999999999
+    ],
+    [
+      0.0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

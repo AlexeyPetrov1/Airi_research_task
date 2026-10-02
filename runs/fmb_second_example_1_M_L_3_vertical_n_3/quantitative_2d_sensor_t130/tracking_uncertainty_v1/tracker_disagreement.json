@@ -1,0 +1,20 @@
+{
+  "episode": "second",
+  "method_A": "sequential affine ECC on red object mask",
+  "method_B": "RGB dense optical flow from t0",
+  "future_frames_shown": [
+    131,
+    136,
+    141,
+    146,
+    150
+  ],
+  "selected_pairs": 40,
+  "selected_median_px": 3.7238962650299072,
+  "selected_p90_px": 9.962542533874512,
+  "selected_max_px": 15.371895790100098,
+  "all_future_median_px": 4.592960357666016,
+  "all_future_p90_px": 11.230908393859863,
+  "interpretation": "Alternative algorithm disagreement on smooth object. Neither trajectory is independently verified physical point truth; both use RGB and share visibility assumptions.",
+  "GT_and_predictions_unchanged": true
+}

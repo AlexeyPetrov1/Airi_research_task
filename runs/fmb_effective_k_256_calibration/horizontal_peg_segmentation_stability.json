@@ -1,0 +1,286 @@
+{
+  "source": "F:\\AIRI_task\\data\\fmb\\single_object_manipulation_dataset\\1_M_L_3_horizontal_n_4.npy",
+  "method": "Hue-threshold variation in RGB; blue=h13, green=h35",
+  "rows": [
+    {
+      "step": 0,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 635,
+        "20": 635,
+        "25": 635,
+        "30": 635,
+        "35": 635
+      },
+      "mask_bbox_h25_xywh_px": [
+        97,
+        62,
+        42,
+        28
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.0,
+      "support_shift_max_px": 0.0,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 5,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 636,
+        "20": 636,
+        "25": 636,
+        "30": 636,
+        "35": 636
+      },
+      "mask_bbox_h25_xywh_px": [
+        97,
+        62,
+        42,
+        28
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.0,
+      "support_shift_max_px": 0.0,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 10,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 626,
+        "20": 626,
+        "25": 626,
+        "30": 626,
+        "35": 626
+      },
+      "mask_bbox_h25_xywh_px": [
+        97,
+        63,
+        42,
+        27
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.0,
+      "support_shift_max_px": 0.0,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 15,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 603,
+        "20": 605,
+        "25": 605,
+        "30": 605,
+        "35": 605
+      },
+      "mask_bbox_h25_xywh_px": [
+        97,
+        62,
+        42,
+        28
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.0,
+      "support_shift_max_px": 0.0,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 20,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 570,
+        "20": 594,
+        "25": 594,
+        "30": 594,
+        "35": 594
+      },
+      "mask_bbox_h25_xywh_px": [
+        99,
+        55,
+        40,
+        35
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 10.363961030678926,
+      "support_shift_max_px": 16.351267872268473,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 25,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 495,
+        "20": 645,
+        "25": 645,
+        "30": 645,
+        "35": 645
+      },
+      "mask_bbox_h25_xywh_px": [
+        98,
+        53,
+        33,
+        37
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.0,
+      "support_shift_max_px": 0.02719647417535498,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 30,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 674,
+        "20": 691,
+        "25": 691,
+        "30": 691,
+        "35": 691
+      },
+      "mask_bbox_h25_xywh_px": [
+        100,
+        51,
+        31,
+        38
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.07925633389054809,
+      "support_shift_max_px": 0.3826834323650843,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 35,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 694,
+        "20": 707,
+        "25": 707,
+        "30": 707,
+        "35": 707
+      },
+      "mask_bbox_h25_xywh_px": [
+        99,
+        51,
+        33,
+        38
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.0,
+      "support_shift_max_px": 0.0,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 40,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 691,
+        "20": 712,
+        "25": 712,
+        "30": 712,
+        "35": 712
+      },
+      "mask_bbox_h25_xywh_px": [
+        99,
+        39,
+        33,
+        46
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.7034077745569292,
+      "support_shift_max_px": 1.0,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    },
+    {
+      "step": 45,
+      "hue_thresholds": [
+        13,
+        20,
+        25,
+        30,
+        35
+      ],
+      "contour_area_px2": {
+        "13": 683,
+        "20": 683,
+        "25": 683,
+        "30": 683,
+        "35": 683
+      },
+      "mask_bbox_h25_xywh_px": [
+        98,
+        21,
+        34,
+        47
+      ],
+      "support_shift_median_px": 0.0,
+      "support_shift_p90_px": 0.0,
+      "support_shift_max_px": 0.0,
+      "hull_touches_top": false,
+      "hull_touches_image_border": false
+    }
+  ]
+}

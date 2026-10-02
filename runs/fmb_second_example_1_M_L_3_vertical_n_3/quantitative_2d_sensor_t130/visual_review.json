@@ -1,0 +1,8 @@
+{
+  "artifact_reviewed": "gt_all_future_frames.png",
+  "source_steps": [131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150],
+  "visible_point_frame_pairs_reviewed": 160,
+  "observation": "All eight projected markers remain on the visible red face and retain their relative ordering in all 20 panels.",
+  "limitation": "The face has no uniquely identifiable texture. The image-derived affine mask registration does not prove exact physical point identity.",
+  "model_prediction_was_not_used": true
+}

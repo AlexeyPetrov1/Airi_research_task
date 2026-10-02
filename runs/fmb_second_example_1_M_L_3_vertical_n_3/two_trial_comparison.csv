@@ -1,0 +1,7 @@
+trial,source,method,ADE_px,FDE_px
+ShareRobot episode_5201 / FMB trial 2,1_M_L_3_vertical_n_2.npy,MolmoMotion,124.14220324136434,225.40028066096016
+ShareRobot episode_5201 / FMB trial 2,1_M_L_3_vertical_n_2.npy,stationary,41.07227590683263,74.0631416838566
+ShareRobot episode_5201 / FMB trial 2,1_M_L_3_vertical_n_2.npy,constant_velocity,72.39618578581303,143.61571576249375
+additional FMB trial 3,1_M_L_3_vertical_n_3.npy,MolmoMotion,28.259729309485046,46.16124848672261
+additional FMB trial 3,1_M_L_3_vertical_n_3.npy,stationary,28.02778519616619,45.94547784942059
+additional FMB trial 3,1_M_L_3_vertical_n_3.npy,constant_velocity,24.85081641643654,39.87733917424653

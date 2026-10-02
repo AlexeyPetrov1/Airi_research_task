@@ -1,0 +1,424 @@
+{
+  "status": "CONDITIONAL_FOCAL_SWEEP_NOT_RGB_CALIBRATION",
+  "rgb_K_baseline": [
+    [
+      152.0836,
+      0.0,
+      124.2908
+    ],
+    [
+      0.0,
+      202.7781333333,
+      129.2973333333
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "depth_units_assumed_m_per_count": 0.0001,
+  "depth_sample": "median of positive 5x5 raw depth around each projected CAD interior point",
+  "sensor_depth_used_to_select_focal_factor": true,
+  "tcp_130_to_140_displacement_m": 0.04239834611312799,
+  "best_factor_by_interior_depth_residual": 0.925,
+  "limitations": [
+    "Published 256x256 RGB/depth registration is not exact or documented.",
+    "The focal factor is shared by fx and fy, with fixed principal point and zero distortion.",
+    "Depth units are the D405 SDK default, not recorded episode metadata.",
+    "The color intrinsics cannot be inferred uniquely from three planar corner sets."
+  ],
+  "records": [
+    {
+      "focal_factor": 0.8,
+      "rgb_corner_rmse_px": 2.1634614746822383,
+      "cad_interior_median_Z_m_by_step": [
+        0.19037148088098393,
+        0.20263518538297556,
+        0.21408336606057773
+      ],
+      "cad_interior_median_Z_m": 0.20263518538297556,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        -0.02231198739061338,
+        -0.02506929747283032,
+        -0.020400102211019594
+      ],
+      "median_absolute_Z_residual_m": 0.022221116795228146,
+      "pnp_130_to_140_displacement_m": 0.041237599823343615,
+      "difference_from_tcp_displacement_m": -0.0011607462897843743
+    },
+    {
+      "focal_factor": 0.825,
+      "rgb_corner_rmse_px": 2.118674414562659,
+      "cad_interior_median_Z_m_by_step": [
+        0.19470511210064084,
+        0.20713562585759052,
+        0.21877193061732716
+      ],
+      "cad_interior_median_Z_m": 0.20713562585759052,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        -0.017412332580617945,
+        -0.020622849592348613,
+        -0.015145514063931637
+      ],
+      "median_absolute_Z_residual_m": 0.01758654483261196,
+      "pnp_130_to_140_displacement_m": 0.041224212988852045,
+      "difference_from_tcp_displacement_m": -0.0011741331242759445
+    },
+    {
+      "focal_factor": 0.85,
+      "rgb_corner_rmse_px": 2.074884826678566,
+      "cad_interior_median_Z_m_by_step": [
+        0.19893768820769986,
+        0.21155157770974214,
+        0.22338945712426506
+      ],
+      "cad_interior_median_Z_m": 0.21155157770974214,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        -0.01265488969277298,
+        -0.016248570530518786,
+        -0.010003120776207797
+      ],
+      "median_absolute_Z_residual_m": 0.01301069111599587,
+      "pnp_130_to_140_displacement_m": 0.04123077137010434,
+      "difference_from_tcp_displacement_m": -0.0011675747430236472
+    },
+    {
+      "focal_factor": 0.875,
+      "rgb_corner_rmse_px": 2.0326746363898787,
+      "cad_interior_median_Z_m_by_step": [
+        0.20308964633522167,
+        0.21590711446931396,
+        0.2279626271663576
+      ],
+      "cad_interior_median_Z_m": 0.21590711446931396,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        -0.008020335898675651,
+        -0.011921079595272471,
+        -0.005137372833642406
+      ],
+      "median_absolute_Z_residual_m": 0.008919161002953313,
+      "pnp_130_to_140_displacement_m": 0.04126464425067041,
+      "difference_from_tcp_displacement_m": -0.0011337018624575784
+    },
+    {
+      "focal_factor": 0.9,
+      "rgb_corner_rmse_px": 1.9925498125540442,
+      "cad_interior_median_Z_m_by_step": [
+        0.20717999142194182,
+        0.22022333552049878,
+        0.232513902831947
+      ],
+      "cad_interior_median_Z_m": 0.22022333552049878,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        -0.0038200085780581983,
+        -0.007618715569667811,
+        -0.0005860971680529958
+      ],
+      "median_absolute_Z_residual_m": 0.005375040576703655,
+      "pnp_130_to_140_displacement_m": 0.041331328180374084,
+      "difference_from_tcp_displacement_m": -0.0010670179327539053
+    },
+    {
+      "focal_factor": 0.925,
+      "rgb_corner_rmse_px": 1.9549141382528832,
+      "cad_interior_median_Z_m_by_step": [
+        0.21122362136291828,
+        0.22451508346808174,
+        0.23705802979073648
+      ],
+      "cad_interior_median_Z_m": 0.22451508346808174,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.00022362136291825818,
+        -0.003326566560266364,
+        0.003958029790736478
+      ],
+      "median_absolute_Z_residual_m": 0.0036149998445976494,
+      "pnp_130_to_140_displacement_m": 0.04143353069322975,
+      "difference_from_tcp_displacement_m": -0.000964815419898242
+    },
+    {
+      "focal_factor": 0.95,
+      "rgb_corner_rmse_px": 1.9200580341602738,
+      "cad_interior_median_Z_m_by_step": [
+        0.21523647420993394,
+        0.22879913118163955,
+        0.24161189630868588
+      ],
+      "cad_interior_median_Z_m": 0.22879913118163955,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.004236474209933921,
+        0.001196975849526688,
+        0.008511896308685873
+      ],
+      "median_absolute_Z_residual_m": 0.005359480425522645,
+      "pnp_130_to_140_displacement_m": 0.04157455716755373,
+      "difference_from_tcp_displacement_m": -0.0008237889455742567
+    },
+    {
+      "focal_factor": 0.975,
+      "rgb_corner_rmse_px": 1.8881613438365858,
+      "cad_interior_median_Z_m_by_step": [
+        0.21922796131813432,
+        0.23308322427835892,
+        0.2461819819154869
+      ],
+      "cad_interior_median_Z_m": 0.23308322427835892,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.00794461926300194,
+        0.00581242611748653,
+        0.013081981915486901
+      ],
+      "median_absolute_Z_residual_m": 0.009598759479006708,
+      "pnp_130_to_140_displacement_m": 0.0417543600140055,
+      "difference_from_tcp_displacement_m": -0.0006439860991224872
+    },
+    {
+      "focal_factor": 1.0,
+      "rgb_corner_rmse_px": 1.859305857215047,
+      "cad_interior_median_Z_m_by_step": [
+        0.2232071270112346,
+        0.23737539545889105,
+        0.2507752298306811
+      ],
+      "cad_interior_median_Z_m": 0.23737539545889105,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.011656922940370407,
+        0.010405434986932777,
+        0.01767502575981697
+      ],
+      "median_absolute_Z_residual_m": 0.013277087483192868,
+      "pnp_130_to_140_displacement_m": 0.0419731268559491,
+      "difference_from_tcp_displacement_m": -0.0004252192571788868
+    },
+    {
+      "focal_factor": 1.025,
+      "rgb_corner_rmse_px": 1.8334926800692213,
+      "cad_interior_median_Z_m_by_step": [
+        0.227180395918028,
+        0.24168061336046168,
+        0.2553953339047478
+      ],
+      "cad_interior_median_Z_m": 0.24168061336046168,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.01539851925881136,
+        0.01498402511024402,
+        0.022063457245531132
+      ],
+      "median_absolute_Z_residual_m": 0.016180395918027973,
+      "pnp_130_to_140_displacement_m": 0.042230133516939654,
+      "difference_from_tcp_displacement_m": -0.00016821259618833573
+    },
+    {
+      "focal_factor": 1.05,
+      "rgb_corner_rmse_px": 1.810660555826627,
+      "cad_interior_median_Z_m_by_step": [
+        0.23115194331474473,
+        0.24600131960662133,
+        0.26004336115636906
+      ],
+      "cad_interior_median_Z_m": 0.24600131960662133,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.019168981050030398,
+        0.019348974743537972,
+        0.02651039889165477
+      ],
+      "median_absolute_Z_residual_m": 0.02047163369491667,
+      "pnp_130_to_140_displacement_m": 0.04252396161226193,
+      "difference_from_tcp_displacement_m": 0.0001256154991339381
+    },
+    {
+      "focal_factor": 1.075,
+      "rgb_corner_rmse_px": 1.79070272712338,
+      "cad_interior_median_Z_m_by_step": [
+        0.23512515668870404,
+        0.2503394279202043,
+        0.2647200367846516
+      ],
+      "cad_interior_median_Z_m": 0.2503394279202043,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.022967676901576556,
+        0.023460009725421282,
+        0.031012556997524143
+      ],
+      "median_absolute_Z_residual_m": 0.024745738493921032,
+      "pnp_130_to_140_displacement_m": 0.042853217526942405,
+      "difference_from_tcp_displacement_m": 0.0004548714138144158
+    },
+    {
+      "focal_factor": 1.1,
+      "rgb_corner_rmse_px": 1.7734812297683995,
+      "cad_interior_median_Z_m_by_step": [
+        0.23910248223413674,
+        0.2546960095149934,
+        0.2694253562286668
+      ],
+      "cad_interior_median_Z_m": 0.2546960095149934,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.026793539150867962,
+        0.027609077759076422,
+        0.03556641314539802
+      ],
+      "median_absolute_Z_residual_m": 0.029310435800101703,
+      "pnp_130_to_140_displacement_m": 0.04321639943337444,
+      "difference_from_tcp_displacement_m": 0.0008180533202464535
+    },
+    {
+      "focal_factor": 1.125,
+      "rgb_corner_rmse_px": 1.7588383651174273,
+      "cad_interior_median_Z_m_by_step": [
+        0.24308570689420064,
+        0.2590716060196807,
+        0.27415890633894613
+      ],
+      "cad_interior_median_Z_m": 0.2590716060196807,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.030645320827498046,
+        0.03179469543652083,
+        0.040168520272243574
+      ],
+      "median_absolute_Z_residual_m": 0.03379547123932894,
+      "pnp_130_to_140_displacement_m": 0.0436119841220763,
+      "difference_from_tcp_displacement_m": 0.0012136380089483104
+    },
+    {
+      "focal_factor": 1.15,
+      "rgb_corner_rmse_px": 1.7466055546830157,
+      "cad_interior_median_Z_m_by_step": [
+        0.24707614735950165,
+        0.2634664211109458,
+        0.278920054509829
+      ],
+      "cad_interior_median_Z_m": 0.2634664211109458,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.034521739033165355,
+        0.03601529259015021,
+        0.04481564618349268
+      ],
+      "median_absolute_Z_residual_m": 0.0382664211109458,
+      "pnp_130_to_140_displacement_m": 0.04403847388514761,
+      "difference_from_tcp_displacement_m": 0.00164012777201962
+    },
+    {
+      "focal_factor": 1.175,
+      "rgb_corner_rmse_px": 1.7366099681965885,
+      "cad_interior_median_Z_m_by_step": [
+        0.25107477260891453,
+        0.26788043542143625,
+        0.283708051492051
+      ],
+      "cad_interior_median_Z_m": 0.26788043542143625,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.038421542442871576,
+        0.04048834427500225,
+        0.049504821326008114
+      ],
+      "median_absolute_Z_residual_m": 0.042680435421436236,
+      "pnp_130_to_140_displacement_m": 0.044494418394286,
+      "difference_from_tcp_displacement_m": 0.002096072281158011
+    },
+    {
+      "focal_factor": 1.2,
+      "rgb_corner_rmse_px": 1.7286793521407873,
+      "cad_interior_median_Z_m_by_step": [
+        0.25508230907182433,
+        0.2723135020583564,
+        0.2885221139972637
+      ],
+      "cad_interior_median_Z_m": 0.2723135020583564,
+      "valid_interior_depth_samples_by_step": [
+        9,
+        9,
+        9
+      ],
+      "median_signed_Z_residual_m_by_step": [
+        0.042093568407803233,
+        0.044983063184825534,
+        0.0542333733332426
+      ],
+      "median_absolute_Z_residual_m": 0.047113502058356405,
+      "pnp_130_to_140_displacement_m": 0.04497842995913269,
+      "difference_from_tcp_displacement_m": 0.0025800838460047007
+    }
+  ]
+}

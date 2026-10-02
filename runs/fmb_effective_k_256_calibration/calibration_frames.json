@@ -1,0 +1,403 @@
+{
+  "purpose": "Frame audit for the diagnostic TCP-constrained CAD silhouette fit",
+  "source_episode": "1_M_L_3_vertical_n_2.npy",
+  "camera": "side_1",
+  "image_size_px": [
+    256,
+    256
+  ],
+  "holdout_selected_before_K_fit": true,
+  "point_bundle_feasibility": "No frame has six verified, uniquely identifiable physical CAD-to-RGB points; rounded featureless peg and gripper occlusion prevent the requested point bundle.",
+  "frames": [
+    {
+      "frame_id": 64,
+      "split": "train",
+      "primitive": "move_up",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        82,
+        13,
+        21,
+        66
+      ],
+      "visibility": "narrow peg at grasp transition",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 66,
+      "split": "train",
+      "primitive": "go_to_board",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        82,
+        13,
+        21,
+        66
+      ],
+      "visibility": "narrow peg at grasp transition",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 68,
+      "split": "train",
+      "primitive": "go_to_board",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        83,
+        11,
+        21,
+        65
+      ],
+      "visibility": "narrow peg at grasp transition",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 70,
+      "split": "train",
+      "primitive": "go_to_board",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        82,
+        6,
+        22,
+        68
+      ],
+      "visibility": "narrow peg at grasp transition",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 128,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        173,
+        15,
+        60,
+        136
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 130,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        173,
+        18,
+        61,
+        134
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 132,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        170,
+        24,
+        58,
+        131
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 134,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        167,
+        44,
+        52,
+        120
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 136,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        166,
+        47,
+        52,
+        118
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 138,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        164,
+        53,
+        51,
+        116
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 140,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        164,
+        62,
+        49,
+        108
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 142,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        164,
+        69,
+        46,
+        102
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 144,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        163,
+        81,
+        44,
+        90
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 146,
+      "split": "train",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        163,
+        94,
+        40,
+        76
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 65,
+      "split": "holdout",
+      "primitive": "go_to_board",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        82,
+        13,
+        21,
+        66
+      ],
+      "visibility": "narrow peg at grasp transition",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 67,
+      "split": "holdout",
+      "primitive": "go_to_board",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        82,
+        13,
+        21,
+        66
+      ],
+      "visibility": "narrow peg at grasp transition",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 69,
+      "split": "holdout",
+      "primitive": "go_to_board",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        83,
+        9,
+        21,
+        67
+      ],
+      "visibility": "narrow peg at grasp transition",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 129,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        174,
+        17,
+        60,
+        135
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 131,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        172,
+        21,
+        58,
+        132
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 133,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        169,
+        33,
+        55,
+        126
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 135,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        166,
+        44,
+        53,
+        120
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 137,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        165,
+        51,
+        51,
+        116
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 139,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        164,
+        57,
+        50,
+        112
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 141,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        164,
+        64,
+        48,
+        106
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 143,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        163,
+        76,
+        45,
+        95
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    },
+    {
+      "frame_id": 145,
+      "split": "holdout",
+      "primitive": "insert",
+      "gripper_pose": 1,
+      "red_mask_bbox_xywh_px": [
+        163,
+        90,
+        41,
+        81
+      ],
+      "visibility": "larger peg; gripper near upper end",
+      "selection_reason": "RGB/TCP diagnostic: peg red-mask silhouette visible",
+      "unique_physical_CAD_point_correspondences_verified": 0
+    }
+  ]
+}

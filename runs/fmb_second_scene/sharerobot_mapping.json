@@ -1,0 +1,47 @@
+{
+  "status": "BLOCKED",
+  "selected_FMB_source": "1_L_L_4_vertical_n_0.npy",
+  "selected_FMB_trajectory_id": 0,
+  "ShareRobot_episode": null,
+  "camera": null,
+  "verified_frame_pairs": [],
+  "attempted_sources": [
+    {
+      "source": "https://huggingface.co/datasets/BAAI/ShareRobot",
+      "finding": "ShareRobot names FMB episodes by converted dataset ordinal, not raw NPY filename"
+    },
+    {
+      "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/fmb_dataset_builder/fmb_dataset/fmb_dataset_dataset_builder.py",
+      "finding": "TFDS source glob includes raw NPY paths but published builder has no filename-to-ordinal manifest"
+    },
+    {
+      "source": "runs/sharerobot_fmb_episode_5201/preflight.json",
+      "finding": "Proven mapping for 5201 applies only to reference source; cannot transfer ID to new source"
+    },
+    {
+      "source": "https://huggingface.co/datasets/BAAI/ShareRobot/tree/main/planning/images",
+      "finding": "Planning RGB archive is a many-part solid gzip; selected run has no individually established image path"
+    },
+    {
+      "source": "https://huggingface.co/datasets/BAAI/ShareRobot/blob/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/trajectory/trajectory.json",
+      "finding": "Checked all 48/48 individually retrievable FMB Trajectory RGBs against all 142 source frames, four cameras and both channel interpretations at 32x32. The coarse-best pair has full-resolution MAE=18.452; no confirmed pixel match.",
+      "evidence": "runs/fmb_second_scene/sharerobot_trajectory_search.json",
+      "best_pair_visual": "runs/fmb_second_scene/visuals/sharerobot_search_best_pair.png"
+    }
+  ],
+  "blocking_gap": "No source-backed ShareRobot episode ID or independently retrievable full 30-frame ShareRobot sequence for this raw NPY",
+  "not_inferred": [
+    "ShareRobot ID from raw filename trajectory_id",
+    "30-frame linspace sampling",
+    "image match from one or two frames"
+  ],
+  "would_verify_if_found": "Match each of all 30 ShareRobot RGBs against all 142 source steps, report monotonic indices and per-pair error",
+  "trajectory_subset_search": {
+    "images_checked": 48,
+    "best_image_path": "rtx_frames_success_33/57_fmb#episode_7501/frame_15.png",
+    "best_FMB_step": 89,
+    "best_camera": "side_1",
+    "best_full_resolution_MAE": 18.452128092447918,
+    "conclusion": "NO_CONFIRMED_MATCH_IN_TRAJECTORY_SUBSET; planning archive remains unsearched by pixels"
+  }
+}

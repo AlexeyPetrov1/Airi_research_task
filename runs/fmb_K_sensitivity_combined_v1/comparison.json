@@ -1,0 +1,86 @@
+{
+  "records": [
+    {
+      "episode": "first",
+      "K_hypothesis": "Nominal",
+      "ADE_2D_px": 124.14220324136434,
+      "FDE_2D_px": 225.40028066096016,
+      "status": "frozen hypothesis",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "first",
+      "K_hypothesis": "Principal point",
+      "ADE_2D_px": 117.61186217133691,
+      "FDE_2D_px": 195.76438613936466,
+      "status": "frozen hypothesis",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "first",
+      "K_hypothesis": "Prior focal 0.925*",
+      "ADE_2D_px": 117.2393439071916,
+      "FDE_2D_px": 202.96448467766075,
+      "status": "previous diagnostic",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "first",
+      "K_hypothesis": "Focal 0.9",
+      "ADE_2D_px": 121.62806617455712,
+      "FDE_2D_px": 195.50289437799154,
+      "status": "predeclared ±10%",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "first",
+      "K_hypothesis": "Focal 1.1",
+      "ADE_2D_px": 67.48455738386727,
+      "FDE_2D_px": 14.064779174183512,
+      "status": "predeclared ±10%",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "second",
+      "K_hypothesis": "Nominal",
+      "ADE_2D_px": 28.259729309485046,
+      "FDE_2D_px": 46.16124848672261,
+      "status": "frozen hypothesis",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "second",
+      "K_hypothesis": "Principal point",
+      "ADE_2D_px": 28.161038803402164,
+      "FDE_2D_px": 46.05834380945605,
+      "status": "frozen hypothesis",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "second",
+      "K_hypothesis": "Prior focal 0.925*",
+      "ADE_2D_px": 28.082160740096537,
+      "FDE_2D_px": 45.98587084330633,
+      "status": "previous diagnostic",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "second",
+      "K_hypothesis": "Focal 0.9",
+      "ADE_2D_px": 28.178353992397774,
+      "FDE_2D_px": 46.08710745792596,
+      "status": "predeclared ±10%",
+      "evaluation_mode": "full_inference"
+    },
+    {
+      "episode": "second",
+      "K_hypothesis": "Focal 1.1",
+      "ADE_2D_px": 28.254596420804017,
+      "FDE_2D_px": 46.15718300705125,
+      "status": "predeclared ±10%",
+      "evaluation_mode": "full_inference"
+    }
+  ],
+  "all_full_inference": true,
+  "interpretation": "Scores under candidate K values; no K was selected by future GT or independently confirmed as active color intrinsics"
+}

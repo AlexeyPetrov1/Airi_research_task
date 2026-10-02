@@ -1,0 +1,34 @@
+{
+  "status": "CANDIDATE_UNVERIFIED_BODY_ID",
+  "peg_step_sha256": "b1ca6ec178920e87b0e1410aaa5a37f4d1e370ca1d6ab985630434ba5f45e8e7",
+  "source_catalog": "data/fmb_second_scene/object/peg_official_solids.json",
+  "reason": "Indices 32,48,52 form a nearly uniform scaled cross-section family; medium index 48 was identified for the reference scene in the earlier CAD report. Raw STEP contains no per-body shape/size IDs, so large index 52 is a candidate for this run, not ground truth.",
+  "small_medium_large_candidate_solids": [
+    {
+      "index": 32,
+      "size_mm": [
+        32.43240019999996,
+        20.84940020000002,
+        150.0000002
+      ]
+    },
+    {
+      "index": 48,
+      "size_mm": [
+        40.320000200000095,
+        25.920000200000104,
+        150.0000002
+      ]
+    },
+    {
+      "index": 52,
+      "size_mm": [
+        49.80528020000007,
+        32.017680200000115,
+        150.0000002
+      ]
+    }
+  ],
+  "selected_large_candidate_index": 52,
+  "catalog_provenance": "Parsed from official peg.step; byte-identical copy of earlier FMB CAD catalog"
+}

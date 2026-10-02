@@ -1,0 +1,39 @@
+{
+  "calibration_status": "CALIBRATION_UNRESOLVED",
+  "camera_stream": "FMB side_1 RGB 256x256",
+  "source_episode": "1_M_L_3_vertical_n_2.npy",
+  "additional_episodes_checked": [
+    "1_M_L_3_vertical_n_3.npy",
+    "1_M_L_3_vertical_n_4.npy",
+    "1_M_L_3_vertical_n_5.npy",
+    "1_M_L_3_vertical_n_6.npy"
+  ],
+  "additional_horizontal_episodes_checked": [
+    "1_M_L_3_horizontal_n_0.npy",
+    "1_M_L_3_horizontal_n_4.npy",
+    "1_M_L_3_horizontal_n_8.npy"
+  ],
+  "validated_K_effective_256": null,
+  "factory_COLOR_K_recovered": false,
+  "point_bundle_status": "NO_VERIFIED_SIX_POINT_CAD_RGB_SET",
+  "evaluations_recalibrated": false,
+  "existing_molmomotion_metrics_status": "PRE_CALIBRATION / CONDITIONAL",
+  "evidence": [
+    "effective_k_rounded_cad_silhouette.json: RGB-only silhouette candidate unstable under 2 px perturbation",
+    "tcp_tip_k_probe.json: RGB/TCP tip K unstable under 2 px perturbation",
+    "tcp_cad_k_probe.json: RGB holdout 1.49 px support RMSE, but independent sensor depth median absolute Z error 15.17 mm and p90 63.96 mm",
+    "tcp_bottom_k_probe.json: local RGB fit 0.63 px RMSE, late unfitted RGB 8.86 px RMSE",
+    "multi_board_bundle_calibration.json: five-pose RGB/CAD board fit K=(172.23,219.50,127.58,98.73) px; holdout RGB 0.66 px, independent board sensor-Z disagreement 38.14 mm",
+    "multi_board_bundle_calibration.json: board normals differ by at most 0.8 degrees, so five episodes do not supply diverse out-of-plane views",
+    "shared_annotation_bias_stress.json: common 1 px feature bias expands the 5-95 percent cy range to 57-125 px",
+    "K_comparison.csv: assumed nominal K has board RGB holdout 0.82 px and board sensor-Z disagreement 6.73 mm, but is not independently established as active COLOR K",
+    "cross_orientation_silhouette_k_probe.json: horizontal RGB view yields K=(147.24,203.04,127.19,119.75) px, but 2 px silhouette perturbations span fx 142-231 px",
+    "board_peg_table_contact_K_probe.json: RGB-only board plus table-contact peg candidate K=(155.61,208.22,127.63,123.91) px gives 4.10 mm mean board depth error over five vertical episodes, but 2 px perturbations span cy 30-172 px",
+    "multi_horizontal_contact_K_probe.json: three horizontal placements yield K=(160.02,211.40,127.02,120.17) px; independent board depth error 11.14 mm on five vertical episodes and heteroscedastic 2 px outer-edge noise spans cy 88-156 px",
+    "multi_episode_tcp_tip_K_probe.json: RGB/TCP moving-tip candidate K=(137.61,180.55,176.52,130.64) px has 2.65 px tip holdout error, but 5.31 px board RGB holdout error and 21.0 mm board depth error",
+    "shared_tcp_offset_K_probe.json: common TCP-to-tip offset candidate K=(135.21,186.52,144.23,104.09) px has 2.59 px tip holdout error, but 3.05 px board RGB holdout error and 28.4 mm board depth error",
+    "multi_episode_tcp_tip_K_probe.json: fixed RGB/CAD K candidates have TCP-tip heldout RMSE 2.72-2.91 px; K_nominal 2.79 px, so this test does not select a K"
+  ],
+  "decision": "No candidate meets the joint stability, independent metric agreement, and transfer checks required to replace the assumed K in MolmoMotion evaluation.",
+  "report": "report/fmb_effective_k_256_calibration.md"
+}

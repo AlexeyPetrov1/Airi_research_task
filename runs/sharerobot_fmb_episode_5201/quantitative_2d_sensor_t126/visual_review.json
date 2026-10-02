@@ -1,0 +1,8 @@
+{
+  "artifact_reviewed": "gt_all_future_frames.png",
+  "source_frame_steps": [127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146],
+  "visual_reviewed_point_frame_pairs": 160,
+  "observation": "The eight projected markers remain within the visible red body and preserve their grid ordering in all 20 panels.",
+  "limitation": "The red face has no individually distinguishable surface marks. Visual inspection supports object visibility and order, while physical point identity relies on the affine mask tracking assumption.",
+  "model_prediction_was_not_used_to_create_gt": true
+}

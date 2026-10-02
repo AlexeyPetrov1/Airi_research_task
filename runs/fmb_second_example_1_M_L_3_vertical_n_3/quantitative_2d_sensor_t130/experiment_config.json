@@ -1,0 +1,93 @@
+{
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "source_identity": "FMB raw 1_M_L_3_vertical_n_3.npy, independent trial; no verified ShareRobot mapping",
+  "huggingface_dataset_revision": "f99fd55c072eea5573523c96aa527aed3c665690",
+  "camera": "side_1",
+  "image_size": [
+    256,
+    256
+  ],
+  "source_hz_nominal": 10,
+  "history_dt_nominal_s": 0.1,
+  "model_prediction_hz_assumed": 15,
+  "model_future_steps": 30,
+  "history_steps": [
+    128,
+    129,
+    130
+  ],
+  "t0": 130,
+  "future_steps": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "point_selection": "8 fixed row/fraction inner red-face positions from pre-inference depth-valid candidate grid",
+  "selected_row_alpha": [
+    [
+      28,
+      0.3
+    ],
+    [
+      28,
+      0.7
+    ],
+    [
+      44,
+      0.5
+    ],
+    [
+      44,
+      0.8
+    ],
+    [
+      60,
+      0.2
+    ],
+    [
+      60,
+      0.7
+    ],
+    [
+      76,
+      0.3
+    ],
+    [
+      76,
+      0.8
+    ]
+  ],
+  "source_primitive_exact": "insert",
+  "source_object_info": {
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+  },
+  "action_text_exact_passed_to_model": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "action_text_derivation": "Same frozen English paraphrase of FMB insert primitive and visual object as first experiment; not verbatim metadata",
+  "depth_scale_m_per_unit": 0.0001,
+  "geometry_primary": "sensor Z16 5x5 positive median with K_nominal",
+  "calibration_status": "SUPPORTED_NOT_EXACT",
+  "future_not_used_for_3D_or_K": true
+}

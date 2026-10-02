@@ -1,0 +1,231 @@
+{
+  "rows": [
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion sensor",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 124.1422119140625,
+      "FDE_2D_px": 225.40029907226562,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion sensor",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 112.48292541503906,
+      "FDE_2D_px": 215.9068603515625,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "stationary",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 41.07227325439453,
+      "FDE_2D_px": 74.06314086914062,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "stationary",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 27.408639907836914,
+      "FDE_2D_px": 64.70646667480469,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "constant velocity",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 72.39618682861328,
+      "FDE_2D_px": 143.61572265625,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "constant velocity",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 82.80850219726562,
+      "FDE_2D_px": 150.3445281982422,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion PnP",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 41.752425399708784,
+      "FDE_2D_px": 71.99419879539327,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion PnP",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 29.00162477841861,
+      "FDE_2D_px": 62.82336106419969,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion CAD",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 98.34168002912524,
+      "FDE_2D_px": 135.1197402059874,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion CAD",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 86.53769602236585,
+      "FDE_2D_px": 125.95872782658007,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion moge2_raw",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 46.88991928100586,
+      "FDE_2D_px": 79.70963287353516,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion moge2_raw",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 33.514991760253906,
+      "FDE_2D_px": 70.21011352539062,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion moge2_scaled",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 49.10584259033203,
+      "FDE_2D_px": 83.26227569580078,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "forecast": "MolmoMotion moge2_scaled",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 35.49970245361328,
+      "FDE_2D_px": 73.77684020996094,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion sensor",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 28.259729385375977,
+      "FDE_2D_px": 46.16124725341797,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion sensor",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 28.300085067749023,
+      "FDE_2D_px": 48.70022201538086,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "stationary",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 28.027782440185547,
+      "FDE_2D_px": 45.94548034667969,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "stationary",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 28.086212158203125,
+      "FDE_2D_px": 48.49830627441406,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "constant velocity",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 24.850814819335938,
+      "FDE_2D_px": 39.87733840942383,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "constant velocity",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 25.184391021728516,
+      "FDE_2D_px": 42.68023681640625,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion PnP",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 29.183623804571862,
+      "FDE_2D_px": 47.15915053001999,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion PnP",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 29.192555156641976,
+      "FDE_2D_px": 49.67742348491713,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion CAD",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 36.643590930428864,
+      "FDE_2D_px": 46.27558745086408,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion CAD",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 36.82842768407238,
+      "FDE_2D_px": 48.79963217632458,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion moge2_raw",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 22.792953491210938,
+      "FDE_2D_px": 40.65984344482422,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion moge2_raw",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 22.88997459411621,
+      "FDE_2D_px": 43.01937484741211,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion moge2_scaled",
+      "reference": "sequential red-mask ECC",
+      "ADE_2D_px": 32.3592529296875,
+      "FDE_2D_px": 50.74702453613281,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "forecast": "MolmoMotion moge2_scaled",
+      "reference": "RGB dense optical flow",
+      "ADE_2D_px": 32.334007263183594,
+      "FDE_2D_px": 53.214439392089844,
+      "valid_pairs": 160
+    }
+  ],
+  "same_mask_for_both_reference_tracks": true,
+  "reference_limit": "Both tracks are algorithmic RGB proxies on a low-texture part, not independent material-point ground truth",
+  "no_method_selected_by_evaluation_future": true
+}

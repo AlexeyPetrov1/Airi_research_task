@@ -1,0 +1,104 @@
+{
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "t0": 130,
+  "GT_mean_final_displacement_px": 45.94548034667969,
+  "method": "Exact unique decoded positions and raw coordinate payloads across 30 future steps",
+  "variants": {
+    "nominal": {
+      "unique_3D_positions_per_point_over_30_steps": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_8_points_temporally_constant": true,
+      "max_coordinate_range_over_time_m": 0.0,
+      "raw_time_rows": 30,
+      "raw_unique_coordinate_payloads": 1
+    },
+    "simple": {
+      "unique_3D_positions_per_point_over_30_steps": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_8_points_temporally_constant": true,
+      "max_coordinate_range_over_time_m": 0.0,
+      "raw_time_rows": 30,
+      "raw_unique_coordinate_payloads": 1
+    },
+    "focal": {
+      "unique_3D_positions_per_point_over_30_steps": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_8_points_temporally_constant": true,
+      "max_coordinate_range_over_time_m": 0.0,
+      "raw_time_rows": 30,
+      "raw_unique_coordinate_payloads": 1
+    },
+    "pnp": {
+      "unique_3D_positions_per_point_over_30_steps": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_8_points_temporally_constant": false,
+      "max_coordinate_range_over_time_m": 0.0010000020265579224,
+      "raw_time_rows": 30,
+      "raw_unique_coordinate_payloads": 2
+    },
+    "cad_silhouette": {
+      "unique_3D_positions_per_point_over_30_steps": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "all_8_points_temporally_constant": false,
+      "max_coordinate_range_over_time_m": 0.012000001966953278,
+      "raw_time_rows": 30,
+      "raw_unique_coordinate_payloads": 2
+    },
+    "nominal_repeat": {
+      "unique_3D_positions_per_point_over_30_steps": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_8_points_temporally_constant": true,
+      "max_coordinate_range_over_time_m": 0.0,
+      "raw_time_rows": 30,
+      "raw_unique_coordinate_payloads": 1
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "status": "BLOCKED/PARTIAL",
+  "repository_head": "8091aa98df93495dfa9e27dd998e1932c2806f57",
+  "sharerobot_revision": "3266d92902b038ce40e7fb8aac5bfd9287eb3e45",
+  "sharerobot_trajectory_url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/trajectory/trajectory.json",
+  "selected_rows": {
+    "primary": [
+      {
+        "id": 3481,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_26/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the bottle towards the pot",
+        "trajectory": [
+          [
+            338.61495844875344,
+            196.78670360110806
+          ],
+          [
+            287.202216066482,
+            225.15235457063716
+          ],
+          [
+            274.79224376731304,
+            258.8365650969529
+          ]
+        ]
+      }
+    ],
+    "reserve": [
+      {
+        "id": 4402,
+        "image_path": "rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+        "meta_data": {
+          "original_dataset": "fmb",
+          "original_width": 256,
+          "original_height": 256
+        },
+        "instruction": "reach for the rectangular object",
+        "trajectory": [
+          [
+            138.99168975069253,
+            14.182825484764543
+          ],
+          [
+            112.04432132963989,
+            29.07479224376731
+          ],
+          [
+            97.1523545706371,
+            17.72853185595568
+          ]
+        ]
+      },
+      {
+        "id": 4403,
+        "image_path": "rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+        "meta_data": {
+          "original_dataset": "fmb",
+          "original_width": 256,
+          "original_height": 256
+        },
+        "instruction": "insert the rectangular object in its corresponding slot",
+        "trajectory": [
+          [
+            80.84210526315789,
+            7.800554016620499
+          ],
+          [
+            137.57340720221606,
+            143.9556786703601
+          ],
+          [
+            175.86703601108036,
+            162.39335180055403
+          ]
+        ]
+      }
+    ]
+  },
+  "images": [
+    {
+      "file": "sharerobot_frame_15.png",
+      "source_url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/trajectory/images/rtx_frames_success_20/43_berkeley_autolab_ur5%23episode_26/frame_15.png",
+      "source_bytes_match": true,
+      "width": 640,
+      "height": 480,
+      "mode": "RGB",
+      "bytes": 419116,
+      "sha256": "c510631ddeb74cd88b0d4f41b37ff0734e44210f7258a1066897d1cbcbf1b956"
+    },
+    {
+      "file": "reserve_fmb_episode_5201_frame_0.png",
+      "source_url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/trajectory/images/rtx_frames_success_31/57_fmb%23episode_5201/frame_0.png",
+      "source_bytes_match": true,
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "bytes": 80725,
+      "sha256": "80f6af8673cd2ec1d9c03c4e361154903f8104421b25ac756a1f30fb7e9b9281"
+    },
+    {
+      "file": "reserve_fmb_episode_5201_frame_15.png",
+      "source_url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/trajectory/images/rtx_frames_success_31/57_fmb%23episode_5201/frame_15.png",
+      "source_bytes_match": true,
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "bytes": 80887,
+      "sha256": "7aa736b0cf48c6be046179dead02b69238fd9299f29c788ef0d2d422f8b8435f"
+    }
+  ],
+  "fmb_intrinsics_file": {
+    "url": "https://functional-manipulation-benchmark.github.io/static/files/side_1",
+    "file": "reserve_fmb_side1_intrinsics",
+    "bytes": 4356,
+    "sha256": "75041e2345f80d882144ba43247e7e1f9a49b822c64c83d561a03c057f714ccb"
+  },
+  "fmb_original_zip": {
+    "url": "https://rail.eecs.berkeley.edu/datasets/fmb/single_object_manipulation.zip",
+    "bytes": 584707741524,
+    "accept_ranges": "bytes",
+    "etag": "\"88234c1754-6103ddebddf3d\""
+  },
+  "fmb_lerobot": {
+    "url": "https://huggingface.co/datasets/lerobot/fmb/resolve/76c86f111d328229773288bf60d5b5b50e047e8d/meta/info.json",
+    "total_episodes": 1804,
+    "fps": 10,
+    "note": "Conversion metadata; no verified mapping to ShareRobot episode_5201."
+  },
+  "checkpoint_config": {
+    "file": "data\\checkpoints\\MolmoMotion-4B-H3-F30\\config.yaml",
+    "sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0"
+  },
+  "generation_calls": 0,
+  "validated_history_frames": 0,
+  "validated_future_frames": 0,
+  "metric_pairs": 0
+}

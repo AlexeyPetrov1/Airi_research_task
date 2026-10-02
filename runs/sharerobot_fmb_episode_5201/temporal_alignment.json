@@ -1,0 +1,36 @@
+{
+  "source_step_count": 148,
+  "source_timestamps": null,
+  "source_nominal_control_hz": 10,
+  "source_nominal_dt_s": 0.1,
+  "source_dt_median": null,
+  "source_dt_median_status": "UNMEASURED_NO_TIMESTAMPS",
+  "share_sampling_rule_candidate": "floor(148 * frame_index / 30)",
+  "share_sampling_rule_status": "UNKNOWN_NOT_REQUIRED_AFTER_SOURCE_RECOVERY",
+  "verified_pair_sampling_residual_steps": [
+    0,
+    0
+  ],
+  "verified_pair_nominal_time_residual_s": [
+    0.0,
+    0.0
+  ],
+  "history_times": null,
+  "future_target_times": null,
+  "matched_source_times": null,
+  "mean_abs_time_error": null,
+  "max_abs_time_error": null,
+  "note": "FMB collection environment defaults to 10 Hz; RealSense capture defaults to 15 FPS. Neither records actual timestamps in this NPY/RLDS episode.",
+  "camera_fps": 15,
+  "environment_hz": 10,
+  "nominal_dt_s": 0.1,
+  "timestamp_source": "FMB environment code nominal control frequency; not hardware timestamps",
+  "exact_timestamps_available": false,
+  "nominal_step_time_rule": "i*0.1 s only for nominal reporting; extra gripper sleeps are not represented",
+  "gripper_state_change_steps": [
+    23,
+    147
+  ],
+  "extra_sleep_note": "set_gripper waits up to 1 s between commands and another 1.2 s on close / 0.6 s on open; do not assume globally uniform measured time.",
+  "status": "PASS_NOMINAL_LOCAL_SEGMENTS_WITH_PAUSE_EXCEPTIONS"
+}

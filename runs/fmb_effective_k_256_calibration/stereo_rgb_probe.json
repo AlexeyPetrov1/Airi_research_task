@@ -1,0 +1,280 @@
+{
+  "source": "F:\\AIRI_task\\molmo-motion\\runs\\sharerobot_fmb_episode_5201\\1_M_L_3_vertical_n_2.npy",
+  "frames": [
+    {
+      "step": 0,
+      "red_side_1": {
+        "pixels": 911,
+        "center": [
+          99.05817782656422,
+          44.916575192096595
+        ],
+        "bbox": [
+          90,
+          13,
+          19,
+          66
+        ]
+      },
+      "red_side_2": {
+        "pixels": 1076,
+        "center": [
+          175.4767657992565,
+          77.81691449814126
+        ],
+        "bbox": [
+          162,
+          44,
+          29,
+          67
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 115,
+        "keypoints_side_2": 100,
+        "ratio_matches": 0
+      }
+    },
+    {
+      "step": 37,
+      "red_side_1": {
+        "pixels": 926,
+        "center": [
+          92.15334773218143,
+          44.56047516198704
+        ],
+        "bbox": [
+          82,
+          13,
+          20,
+          66
+        ]
+      },
+      "red_side_2": {
+        "pixels": 1223,
+        "center": [
+          184.50040883074408,
+          75.12428454619787
+        ],
+        "bbox": [
+          170,
+          39,
+          32,
+          73
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 112,
+        "keypoints_side_2": 95,
+        "ratio_matches": 7
+      }
+    },
+    {
+      "step": 74,
+      "red_side_1": {
+        "pixels": 968,
+        "center": [
+          91.60123966942149,
+          31.544421487603305
+        ],
+        "bbox": [
+          80,
+          0,
+          23,
+          66
+        ]
+      },
+      "red_side_2": {
+        "pixels": 1370,
+        "center": [
+          185.33065693430657,
+          57.3978102189781
+        ],
+        "bbox": [
+          169,
+          17,
+          35,
+          80
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 100,
+        "keypoints_side_2": 109,
+        "ratio_matches": 3
+      }
+    },
+    {
+      "step": 110,
+      "red_side_1": {
+        "pixels": 1227,
+        "center": [
+          123.9405052974735,
+          21.801955990220048
+        ],
+        "bbox": [
+          110,
+          0,
+          29,
+          46
+        ]
+      },
+      "red_side_2": {
+        "pixels": 44,
+        "center": [
+          205.0681818181818,
+          254.20454545454547
+        ],
+        "bbox": [
+          195,
+          253,
+          23,
+          3
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 111,
+        "keypoints_side_2": 72,
+        "ratio_matches": 8,
+        "fundamental_inliers": 7,
+        "homography_inliers": 0
+      }
+    },
+    {
+      "step": 120,
+      "red_side_1": {
+        "pixels": 3235,
+        "center": [
+          168.83183925811437,
+          45.09242658423493
+        ],
+        "bbox": [
+          149,
+          0,
+          46,
+          98
+        ]
+      },
+      "red_side_2": {
+        "pixels": 48,
+        "center": [
+          204.64583333333334,
+          254.20833333333334
+        ],
+        "bbox": [
+          195,
+          253,
+          22,
+          3
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 122,
+        "keypoints_side_2": 72,
+        "ratio_matches": 4
+      }
+    },
+    {
+      "step": 128,
+      "red_side_1": {
+        "pixels": 4681,
+        "center": [
+          199.8062379833369,
+          78.92950224311045
+        ],
+        "bbox": [
+          173,
+          15,
+          60,
+          136
+        ]
+      },
+      "red_side_2": {
+        "pixels": 270,
+        "center": [
+          111.65185185185184,
+          10.822222222222223
+        ],
+        "bbox": [
+          106,
+          0,
+          12,
+          24
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 138,
+        "keypoints_side_2": 70,
+        "ratio_matches": 3
+      }
+    },
+    {
+      "step": 136,
+      "red_side_1": {
+        "pixels": 3697,
+        "center": [
+          189.03489315661346,
+          101.76386259129023
+        ],
+        "bbox": [
+          166,
+          47,
+          52,
+          118
+        ]
+      },
+      "red_side_2": {
+        "pixels": 335,
+        "center": [
+          113.60597014925374,
+          14.755223880597015
+        ],
+        "bbox": [
+          108,
+          0,
+          12,
+          32
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 120,
+        "keypoints_side_2": 78,
+        "ratio_matches": 6
+      }
+    },
+    {
+      "step": 144,
+      "red_side_1": {
+        "pixels": 2603,
+        "center": [
+          183.35612754514023,
+          123.35113330772185
+        ],
+        "bbox": [
+          163,
+          81,
+          44,
+          90
+        ]
+      },
+      "red_side_2": {
+        "pixels": 365,
+        "center": [
+          114.9068493150685,
+          16.15068493150685
+        ],
+        "bbox": [
+          110,
+          0,
+          11,
+          34
+        ]
+      },
+      "sift": {
+        "keypoints_side_1": 108,
+        "keypoints_side_2": 67,
+        "ratio_matches": 6
+      }
+    }
+  ],
+  "limitation": "SIFT/F/H only checks tentative stereo correspondences. There are no verified nonplanar 3D matches or recorded per-camera effective COLOR K/extrinsics, so metric stereo triangulation is not validated."
+}

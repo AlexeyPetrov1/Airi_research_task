@@ -1,0 +1,139 @@
+{
+  "rows": [
+    {
+      "episode": "first",
+      "method": "MolmoMotion",
+      "object_bbox_xywh": [
+        169,
+        0,
+        58,
+        139
+      ],
+      "object_bbox_diagonal_px": 150.6154042586614,
+      "ADE_over_t0_object_bbox_diagonal": 0.8242331111641611,
+      "FDE_over_t0_object_bbox_diagonal": 1.4965287366879547,
+      "within_5px_fraction": 0.00625,
+      "within_10px_fraction": 0.14375,
+      "within_20px_fraction": 0.15,
+      "final_direction_error_median_deg": 159.57805369959593,
+      "final_displacement_ratio_median": 2.0908896125315217,
+      "final_direction_evaluable_points": 8,
+      "final_displacement_evaluable_points": 8,
+      "movement_threshold_px": 3.1780189598243322,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "method": "stationary",
+      "object_bbox_xywh": [
+        169,
+        0,
+        58,
+        139
+      ],
+      "object_bbox_diagonal_px": 150.6154042586614,
+      "ADE_over_t0_object_bbox_diagonal": 0.272696382611015,
+      "FDE_over_t0_object_bbox_diagonal": 0.49173683162356524,
+      "within_5px_fraction": 0.0,
+      "within_10px_fraction": 0.05,
+      "within_20px_fraction": 0.2375,
+      "final_direction_error_median_deg": null,
+      "final_displacement_ratio_median": 0.0,
+      "final_direction_evaluable_points": 0,
+      "final_displacement_evaluable_points": 8,
+      "movement_threshold_px": 3.1780189598243322,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "method": "constant_velocity",
+      "object_bbox_xywh": [
+        169,
+        0,
+        58,
+        139
+      ],
+      "object_bbox_diagonal_px": 150.6154042586614,
+      "ADE_over_t0_object_bbox_diagonal": 0.48066919818197856,
+      "FDE_over_t0_object_bbox_diagonal": 0.953526078925741,
+      "within_5px_fraction": 0.05,
+      "within_10px_fraction": 0.1125,
+      "within_20px_fraction": 0.16875,
+      "final_direction_error_median_deg": 30.895860928730936,
+      "final_displacement_ratio_median": 2.6716187365848887,
+      "final_direction_evaluable_points": 8,
+      "final_displacement_evaluable_points": 8,
+      "movement_threshold_px": 3.1780189598243322,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "method": "MolmoMotion",
+      "object_bbox_xywh": [
+        146,
+        10,
+        40,
+        132
+      ],
+      "object_bbox_diagonal_px": 137.92751719653333,
+      "ADE_over_t0_object_bbox_diagonal": 0.20488826221106898,
+      "FDE_over_t0_object_bbox_diagonal": 0.33467758591599467,
+      "within_5px_fraction": 0.04375,
+      "within_10px_fraction": 0.05,
+      "within_20px_fraction": 0.29375,
+      "final_direction_error_median_deg": null,
+      "final_displacement_ratio_median": 0.016001074997793983,
+      "final_direction_evaluable_points": 0,
+      "final_displacement_evaluable_points": 8,
+      "movement_threshold_px": 2.0,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "method": "stationary",
+      "object_bbox_xywh": [
+        146,
+        10,
+        40,
+        132
+      ],
+      "object_bbox_diagonal_px": 137.92751719653333,
+      "ADE_over_t0_object_bbox_diagonal": 0.20320662450719906,
+      "FDE_over_t0_object_bbox_diagonal": 0.33311320890343254,
+      "within_5px_fraction": 0.05,
+      "within_10px_fraction": 0.05,
+      "within_20px_fraction": 0.3125,
+      "final_direction_error_median_deg": null,
+      "final_displacement_ratio_median": 0.0,
+      "final_direction_evaluable_points": 0,
+      "final_displacement_evaluable_points": 8,
+      "movement_threshold_px": 2.0,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "method": "constant_velocity",
+      "object_bbox_xywh": [
+        146,
+        10,
+        40,
+        132
+      ],
+      "object_bbox_diagonal_px": 137.92751719653333,
+      "ADE_over_t0_object_bbox_diagonal": 0.1801730135320368,
+      "FDE_over_t0_object_bbox_diagonal": 0.28911808161837055,
+      "within_5px_fraction": 0.05,
+      "within_10px_fraction": 0.05,
+      "within_20px_fraction": 0.40625,
+      "final_direction_error_median_deg": 37.6301553828489,
+      "final_displacement_ratio_median": 0.42902534214370125,
+      "final_direction_evaluable_points": 8,
+      "final_displacement_evaluable_points": 8,
+      "movement_threshold_px": 2.0,
+      "valid_pairs": 160
+    }
+  ],
+  "object_scale": "Diagonal of red peg mask bounding box at t0, same segmentation for each method within episode",
+  "movement_threshold": "max(2 px, 2 times p90 direct-repeat algorithmic discrepancy)",
+  "caveat": "Object mask, 2D tracks and their repeatability share RGB segmentation assumptions. Direction is undefined when either observed or predicted displacement is at or below the movement threshold; it is not imputed as 0 degrees."
+}

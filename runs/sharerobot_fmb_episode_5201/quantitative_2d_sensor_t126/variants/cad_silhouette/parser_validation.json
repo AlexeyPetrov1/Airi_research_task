@@ -1,0 +1,20 @@
+{
+  "variant": "cad_silhouette",
+  "raw_track_block_complete": true,
+  "parsed_visibility_shape": [
+    8,
+    30
+  ],
+  "parsed_visible_count": 240,
+  "expected_positions": 240,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "all_prediction_finite": true,
+  "all_prediction_positive_Z": true,
+  "all_zero_tensor": false,
+  "max_abs_text_vs_tensor_difference_m": 0.0,
+  "status": "PASS"
+}

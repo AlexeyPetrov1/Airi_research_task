@@ -1,0 +1,2092 @@
+{
+  "status": "UNRESOLVED_ACTIVE_256_INTRINSICS_AND_DEPTH_SCALE",
+  "source_scope": "Official FMB setup assets; the NPY does not carry camera serials or per-run calibration records",
+  "camera_model": {
+    "value": "Intel RealSense D405",
+    "source": "https://functional-manipulation-benchmark.github.io/files/index.html#camera-mounts",
+    "per_run_device_confirmation": "UNKNOWN"
+  },
+  "camera_capture": {
+    "color_format": "BGR8",
+    "depth_format": "Z16",
+    "configured_resolution_wh": [
+      640,
+      480
+    ],
+    "configured_fps": 15,
+    "alignment_requested": "depth to color before capture",
+    "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/camera/rs_capture.py"
+  },
+  "published_arrays": {
+    "resolution_wh": [
+      256,
+      256
+    ],
+    "rgb_color_order": "BGR",
+    "depth_dtype": "uint16",
+    "source": "https://functional-manipulation-benchmark.github.io/dataset/index.html"
+  },
+  "processing": {
+    "rgb_resize_to_256": {
+      "value": "cv2.resize(rgb, (256, 256))",
+      "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/franka_fmb_env.py#L225-L232"
+    },
+    "depth_resize_crop_rectification_after_capture": {
+      "status": "UNKNOWN",
+      "reason": "Published 256x256 depth differs from the 640x480 capture code; no matching transformation is present in published _get_im()."
+    },
+    "exact_rgb_depth_correspondence_256": "UNRESOLVED"
+  },
+  "depth_scale_m_per_sample": {
+    "status": "UNRESOLVED",
+    "value": null,
+    "reason": "Raw Z16 values and a camera model do not establish a per-run scale; no independently confirmed scale was found for this trajectory"
+  },
+  "rgb_depth_extrinsics": {
+    "status": "UNRESOLVED_PUBLISHED_256",
+    "capture_alignment": "depth_to_color_configured",
+    "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/camera/rs_capture.py"
+  },
+  "side_1_to_side_2_extrinsics": {
+    "status": "UNKNOWN",
+    "value": null
+  },
+  "camera_to_robot_base_extrinsics": {
+    "status": "UNKNOWN",
+    "value": null
+  },
+  "wrist_camera_extrinsics": {
+    "status": "UNKNOWN",
+    "value": null
+  },
+  "distortion_coefficients_for_published_RGB": {
+    "status": "UNKNOWN",
+    "value": null
+  },
+  "cameras": {
+    "side_1": {
+      "raw_file": "data\\fmb_second_scene\\calibration\\raw\\side_1",
+      "raw_file_sha256": "75041e2345f80d882144ba43247e7e1f9a49b822c64c83d561a03c057f714ccb",
+      "capture_serial_in_official_code": {
+        "value": "128422270679",
+        "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/franka_fmb_env.py#L113-L116",
+        "confirmed_for_selected_run": false
+      },
+      "published_rectified_profiles": {
+        "rectified.0": {
+          "resolution_wh": [
+            1920,
+            1080
+          ],
+          "K": [
+            [
+              954.065,
+              0,
+              938.613
+            ],
+            [
+              0,
+              954.065,
+              547.202
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.0"
+        },
+        "rectified.1": {
+          "resolution_wh": [
+            1280,
+            720
+          ],
+          "K": [
+            [
+              636.044,
+              0,
+              625.742
+            ],
+            [
+              0,
+              636.044,
+              364.802
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.1"
+        },
+        "rectified.2": {
+          "resolution_wh": [
+            640,
+            480
+          ],
+          "K": [
+            [
+              380.209,
+              0,
+              311.477
+            ],
+            [
+              0,
+              380.209,
+              242.87
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.2"
+        },
+        "rectified.3": {
+          "resolution_wh": [
+            848,
+            480
+          ],
+          "K": [
+            [
+              421.379,
+              0,
+              414.554
+            ],
+            [
+              0,
+              421.379,
+              243.181
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.3"
+        },
+        "rectified.4": {
+          "resolution_wh": [
+            640,
+            360
+          ],
+          "K": [
+            [
+              318.022,
+              0,
+              312.871
+            ],
+            [
+              0,
+              318.022,
+              182.401
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.4"
+        },
+        "rectified.5": {
+          "resolution_wh": [
+            424,
+            240
+          ],
+          "K": [
+            [
+              210.689,
+              0,
+              207.277
+            ],
+            [
+              0,
+              210.689,
+              121.591
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.5"
+        },
+        "rectified.6": {
+          "resolution_wh": [
+            320,
+            240
+          ],
+          "K": [
+            [
+              190.105,
+              0,
+              155.738
+            ],
+            [
+              0,
+              190.105,
+              121.435
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.6"
+        },
+        "rectified.7": {
+          "resolution_wh": [
+            480,
+            270
+          ],
+          "K": [
+            [
+              238.516,
+              0,
+              234.653
+            ],
+            [
+              0,
+              238.516,
+              136.801
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.7"
+        },
+        "rectified.8": {
+          "resolution_wh": [
+            1280,
+            800
+          ],
+          "K": [
+            [
+              636.044,
+              0,
+              625.742
+            ],
+            [
+              0,
+              636.044,
+              404.802
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.8"
+        },
+        "rectified.9": {
+          "resolution_wh": [
+            960,
+            540
+          ],
+          "K": [
+            [
+              477.033,
+              0,
+              469.307
+            ],
+            [
+              0,
+              477.033,
+              273.601
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.9"
+        },
+        "rectified.12": {
+          "resolution_wh": [
+            640,
+            400
+          ],
+          "K": [
+            [
+              640.019,
+              0,
+              629.653
+            ],
+            [
+              0,
+              640.019,
+              408.832
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.12"
+        },
+        "rectified.13": {
+          "resolution_wh": [
+            576,
+            576
+          ],
+          "K": [
+            [
+              4.93765e-37,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.13"
+        },
+        "rectified.14": {
+          "resolution_wh": [
+            720,
+            720
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.14"
+        },
+        "rectified.15": {
+          "resolution_wh": [
+            1152,
+            1152
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#rectified.15"
+        }
+      },
+      "profile_640x480": "rectified.2",
+      "active_rgb_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "active_depth_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "raw_vendor_parameters": {
+        "baseline": {
+          "value_as_published": "-18.1212",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#baseline"
+        },
+        "intrinsic_left.x.x": {
+          "value_as_published": "0.498936",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.x.x"
+        },
+        "intrinsic_left.x.y": {
+          "value_as_published": "0.794128",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.x.y"
+        },
+        "intrinsic_left.x.z": {
+          "value_as_published": "0.495476",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.x.z"
+        },
+        "intrinsic_left.y.x": {
+          "value_as_published": "0.507892",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.y.x"
+        },
+        "intrinsic_left.y.y": {
+          "value_as_published": "-0.0546687",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.y.y"
+        },
+        "intrinsic_left.y.z": {
+          "value_as_published": "0.058772",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.y.z"
+        },
+        "intrinsic_left.z.x": {
+          "value_as_published": "-0.000118811",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.z.x"
+        },
+        "intrinsic_left.z.y": {
+          "value_as_published": "0.000816377",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.z.y"
+        },
+        "intrinsic_left.z.z": {
+          "value_as_published": "-0.0186766",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_left.z.z"
+        },
+        "intrinsic_right.x.x": {
+          "value_as_published": "0.499284",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.x.x"
+        },
+        "intrinsic_right.x.y": {
+          "value_as_published": "0.794679",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.x.y"
+        },
+        "intrinsic_right.x.z": {
+          "value_as_published": "0.493013",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.x.z"
+        },
+        "intrinsic_right.y.x": {
+          "value_as_published": "0.507432",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.y.x"
+        },
+        "intrinsic_right.y.y": {
+          "value_as_published": "-0.053085",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.y.y"
+        },
+        "intrinsic_right.y.z": {
+          "value_as_published": "0.0578761",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.y.z"
+        },
+        "intrinsic_right.z.x": {
+          "value_as_published": "-0.00132403",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.z.x"
+        },
+        "intrinsic_right.z.y": {
+          "value_as_published": "-0.000127163",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.z.y"
+        },
+        "intrinsic_right.z.z": {
+          "value_as_published": "-0.0181956",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#intrinsic_right.z.z"
+        },
+        "world2left_rot.x.x": {
+          "value_as_published": "0.999976",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.x.x"
+        },
+        "world2left_rot.x.y": {
+          "value_as_published": "-0.00108962",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.x.y"
+        },
+        "world2left_rot.x.z": {
+          "value_as_published": "-0.00687375",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.x.z"
+        },
+        "world2left_rot.y.x": {
+          "value_as_published": "0.0010788",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.y.x"
+        },
+        "world2left_rot.y.y": {
+          "value_as_published": "0.999998",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.y.y"
+        },
+        "world2left_rot.y.z": {
+          "value_as_published": "-0.00157818",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.y.z"
+        },
+        "world2left_rot.z.x": {
+          "value_as_published": "0.00687546",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.z.x"
+        },
+        "world2left_rot.z.y": {
+          "value_as_published": "0.00157073",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.z.y"
+        },
+        "world2left_rot.z.z": {
+          "value_as_published": "0.999975",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2left_rot.z.z"
+        },
+        "world2right_rot.x.x": {
+          "value_as_published": "0.999976",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.x.x"
+        },
+        "world2right_rot.x.y": {
+          "value_as_published": "-0.00154354",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.x.y"
+        },
+        "world2right_rot.x.z": {
+          "value_as_published": "-0.00672505",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.x.z"
+        },
+        "world2right_rot.y.x": {
+          "value_as_published": "0.00155413",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.y.x"
+        },
+        "world2right_rot.y.y": {
+          "value_as_published": "0.999998",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.y.y"
+        },
+        "world2right_rot.y.z": {
+          "value_as_published": "0.00156925",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.y.z"
+        },
+        "world2right_rot.z.x": {
+          "value_as_published": "0.00672261",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.z.x"
+        },
+        "world2right_rot.z.y": {
+          "value_as_published": "-0.00157966",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.z.y"
+        },
+        "world2right_rot.z.z": {
+          "value_as_published": "0.999976",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_1#world2right_rot.z.z"
+        }
+      }
+    },
+    "side_2": {
+      "raw_file": "data\\fmb_second_scene\\calibration\\raw\\side_2",
+      "raw_file_sha256": "8c244888b34ccbe1e79de205974ad4b492e8cd0d910b34c8ad949ef4f4c8b247",
+      "capture_serial_in_official_code": {
+        "value": "127122270146",
+        "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/franka_fmb_env.py#L113-L116",
+        "confirmed_for_selected_run": false
+      },
+      "published_rectified_profiles": {
+        "rectified.0": {
+          "resolution_wh": [
+            1920,
+            1080
+          ],
+          "K": [
+            [
+              950.407,
+              0,
+              957.469
+            ],
+            [
+              0,
+              950.407,
+              541.55
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.0"
+        },
+        "rectified.1": {
+          "resolution_wh": [
+            1280,
+            720
+          ],
+          "K": [
+            [
+              633.605,
+              0,
+              638.313
+            ],
+            [
+              0,
+              633.605,
+              361.034
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.1"
+        },
+        "rectified.2": {
+          "resolution_wh": [
+            640,
+            480
+          ],
+          "K": [
+            [
+              378.751,
+              0,
+              318.991
+            ],
+            [
+              0,
+              378.751,
+              240.618
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.2"
+        },
+        "rectified.3": {
+          "resolution_wh": [
+            848,
+            480
+          ],
+          "K": [
+            [
+              419.763,
+              0,
+              422.882
+            ],
+            [
+              0,
+              419.763,
+              240.685
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.3"
+        },
+        "rectified.4": {
+          "resolution_wh": [
+            640,
+            360
+          ],
+          "K": [
+            [
+              316.802,
+              0,
+              319.156
+            ],
+            [
+              0,
+              316.802,
+              180.517
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.4"
+        },
+        "rectified.5": {
+          "resolution_wh": [
+            424,
+            240
+          ],
+          "K": [
+            [
+              209.882,
+              0,
+              211.441
+            ],
+            [
+              0,
+              209.882,
+              120.342
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.5"
+        },
+        "rectified.6": {
+          "resolution_wh": [
+            320,
+            240
+          ],
+          "K": [
+            [
+              189.376,
+              0,
+              159.496
+            ],
+            [
+              0,
+              189.376,
+              120.309
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.6"
+        },
+        "rectified.7": {
+          "resolution_wh": [
+            480,
+            270
+          ],
+          "K": [
+            [
+              237.602,
+              0,
+              239.367
+            ],
+            [
+              0,
+              237.602,
+              135.388
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.7"
+        },
+        "rectified.8": {
+          "resolution_wh": [
+            1280,
+            800
+          ],
+          "K": [
+            [
+              633.605,
+              0,
+              638.313
+            ],
+            [
+              0,
+              633.605,
+              401.034
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.8"
+        },
+        "rectified.9": {
+          "resolution_wh": [
+            960,
+            540
+          ],
+          "K": [
+            [
+              475.203,
+              0,
+              478.735
+            ],
+            [
+              0,
+              475.203,
+              270.775
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.9"
+        },
+        "rectified.12": {
+          "resolution_wh": [
+            640,
+            400
+          ],
+          "K": [
+            [
+              637.565,
+              0,
+              642.302
+            ],
+            [
+              0,
+              637.565,
+              405.04
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.12"
+        },
+        "rectified.13": {
+          "resolution_wh": [
+            576,
+            576
+          ],
+          "K": [
+            [
+              4.93765e-37,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.13"
+        },
+        "rectified.14": {
+          "resolution_wh": [
+            720,
+            720
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.14"
+        },
+        "rectified.15": {
+          "resolution_wh": [
+            1152,
+            1152
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#rectified.15"
+        }
+      },
+      "profile_640x480": "rectified.2",
+      "active_rgb_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "active_depth_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "raw_vendor_parameters": {
+        "baseline": {
+          "value_as_published": "-18.019",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#baseline"
+        },
+        "intrinsic_left.x.x": {
+          "value_as_published": "0.49848",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.x.x"
+        },
+        "intrinsic_left.x.y": {
+          "value_as_published": "0.793538",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.x.y"
+        },
+        "intrinsic_left.x.z": {
+          "value_as_published": "0.499109",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.x.z"
+        },
+        "intrinsic_left.y.x": {
+          "value_as_published": "0.502882",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.y.x"
+        },
+        "intrinsic_left.y.y": {
+          "value_as_published": "-0.0552441",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.y.y"
+        },
+        "intrinsic_left.y.z": {
+          "value_as_published": "0.0598794",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.y.z"
+        },
+        "intrinsic_left.z.x": {
+          "value_as_published": "-0.000561585",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.z.x"
+        },
+        "intrinsic_left.z.y": {
+          "value_as_published": "0.00115869",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.z.y"
+        },
+        "intrinsic_left.z.z": {
+          "value_as_published": "-0.0194862",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_left.z.z"
+        },
+        "intrinsic_right.x.x": {
+          "value_as_published": "0.501618",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.x.x"
+        },
+        "intrinsic_right.x.y": {
+          "value_as_published": "0.798516",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.x.y"
+        },
+        "intrinsic_right.x.z": {
+          "value_as_published": "0.499248",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.x.z"
+        },
+        "intrinsic_right.y.x": {
+          "value_as_published": "0.501663",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.y.x"
+        },
+        "intrinsic_right.y.y": {
+          "value_as_published": "-0.0559627",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.y.y"
+        },
+        "intrinsic_right.y.z": {
+          "value_as_published": "0.058647",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.y.z"
+        },
+        "intrinsic_right.z.x": {
+          "value_as_published": "-0.000436819",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.z.x"
+        },
+        "intrinsic_right.z.y": {
+          "value_as_published": "0.00139656",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.z.y"
+        },
+        "intrinsic_right.z.z": {
+          "value_as_published": "-0.0194675",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#intrinsic_right.z.z"
+        },
+        "world2left_rot.x.x": {
+          "value_as_published": "0.999998",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.x.x"
+        },
+        "world2left_rot.x.y": {
+          "value_as_published": "-0.000657356",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.x.y"
+        },
+        "world2left_rot.x.z": {
+          "value_as_published": "-0.00198096",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.x.z"
+        },
+        "world2left_rot.y.x": {
+          "value_as_published": "0.000655423",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.y.x"
+        },
+        "world2left_rot.y.y": {
+          "value_as_published": "0.999999",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.y.y"
+        },
+        "world2left_rot.y.z": {
+          "value_as_published": "-0.000976487",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.y.z"
+        },
+        "world2left_rot.z.x": {
+          "value_as_published": "0.00198161",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.z.x"
+        },
+        "world2left_rot.z.y": {
+          "value_as_published": "0.000975187",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.z.y"
+        },
+        "world2left_rot.z.z": {
+          "value_as_published": "0.999998",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2left_rot.z.z"
+        },
+        "world2right_rot.x.x": {
+          "value_as_published": "0.999991",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.x.x"
+        },
+        "world2right_rot.x.y": {
+          "value_as_published": "0.00197919",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.x.y"
+        },
+        "world2right_rot.x.z": {
+          "value_as_published": "-0.00372705",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.x.z"
+        },
+        "world2right_rot.y.x": {
+          "value_as_published": "-0.00197556",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.y.x"
+        },
+        "world2right_rot.y.y": {
+          "value_as_published": "0.999998",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.y.y"
+        },
+        "world2right_rot.y.z": {
+          "value_as_published": "0.000979521",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.y.z"
+        },
+        "world2right_rot.z.x": {
+          "value_as_published": "0.00372898",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.z.x"
+        },
+        "world2right_rot.z.y": {
+          "value_as_published": "-0.000972149",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.z.y"
+        },
+        "world2right_rot.z.z": {
+          "value_as_published": "0.999993",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/side_2#world2right_rot.z.z"
+        }
+      }
+    },
+    "wrist_1": {
+      "raw_file": "data\\fmb_second_scene\\calibration\\raw\\wrist_1",
+      "raw_file_sha256": "b2fd75cf32a74a5e9f8ac995aaf3fdab3f85b15bc597f14fae10ef265028ce73",
+      "capture_serial_in_official_code": {
+        "value": "127122270350",
+        "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/franka_fmb_env.py#L113-L116",
+        "confirmed_for_selected_run": false
+      },
+      "published_rectified_profiles": {
+        "rectified.0": {
+          "resolution_wh": [
+            1920,
+            1080
+          ],
+          "K": [
+            [
+              956.945,
+              0,
+              936.347
+            ],
+            [
+              0,
+              956.945,
+              547.106
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.0"
+        },
+        "rectified.1": {
+          "resolution_wh": [
+            1280,
+            720
+          ],
+          "K": [
+            [
+              637.963,
+              0,
+              624.231
+            ],
+            [
+              0,
+              637.963,
+              364.737
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.1"
+        },
+        "rectified.2": {
+          "resolution_wh": [
+            640,
+            480
+          ],
+          "K": [
+            [
+              381.357,
+              0,
+              310.574
+            ],
+            [
+              0,
+              381.357,
+              242.832
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.2"
+        },
+        "rectified.3": {
+          "resolution_wh": [
+            848,
+            480
+          ],
+          "K": [
+            [
+              422.651,
+              0,
+              413.553
+            ],
+            [
+              0,
+              422.651,
+              243.138
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.3"
+        },
+        "rectified.4": {
+          "resolution_wh": [
+            640,
+            360
+          ],
+          "K": [
+            [
+              318.982,
+              0,
+              312.116
+            ],
+            [
+              0,
+              318.982,
+              182.369
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.4"
+        },
+        "rectified.5": {
+          "resolution_wh": [
+            424,
+            240
+          ],
+          "K": [
+            [
+              211.325,
+              0,
+              206.777
+            ],
+            [
+              0,
+              211.325,
+              121.569
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.5"
+        },
+        "rectified.6": {
+          "resolution_wh": [
+            320,
+            240
+          ],
+          "K": [
+            [
+              190.678,
+              0,
+              155.287
+            ],
+            [
+              0,
+              190.678,
+              121.416
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.6"
+        },
+        "rectified.7": {
+          "resolution_wh": [
+            480,
+            270
+          ],
+          "K": [
+            [
+              239.236,
+              0,
+              234.087
+            ],
+            [
+              0,
+              239.236,
+              136.776
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.7"
+        },
+        "rectified.8": {
+          "resolution_wh": [
+            1280,
+            800
+          ],
+          "K": [
+            [
+              637.963,
+              0,
+              624.231
+            ],
+            [
+              0,
+              637.963,
+              404.737
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.8"
+        },
+        "rectified.9": {
+          "resolution_wh": [
+            960,
+            540
+          ],
+          "K": [
+            [
+              478.472,
+              0,
+              468.173
+            ],
+            [
+              0,
+              478.472,
+              273.553
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.9"
+        },
+        "rectified.12": {
+          "resolution_wh": [
+            640,
+            400
+          ],
+          "K": [
+            [
+              641.95,
+              0,
+              628.133
+            ],
+            [
+              0,
+              641.95,
+              408.767
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.12"
+        },
+        "rectified.13": {
+          "resolution_wh": [
+            576,
+            576
+          ],
+          "K": [
+            [
+              4.93765e-37,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.13"
+        },
+        "rectified.14": {
+          "resolution_wh": [
+            720,
+            720
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.14"
+        },
+        "rectified.15": {
+          "resolution_wh": [
+            1152,
+            1152
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#rectified.15"
+        }
+      },
+      "profile_640x480": "rectified.2",
+      "active_rgb_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "active_depth_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "raw_vendor_parameters": {
+        "baseline": {
+          "value_as_published": "-18.0947",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#baseline"
+        },
+        "intrinsic_left.x.x": {
+          "value_as_published": "0.501552",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.x.x"
+        },
+        "intrinsic_left.x.y": {
+          "value_as_published": "0.798834",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.x.y"
+        },
+        "intrinsic_left.x.z": {
+          "value_as_published": "0.493125",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.x.z"
+        },
+        "intrinsic_left.y.x": {
+          "value_as_published": "0.504903",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.y.x"
+        },
+        "intrinsic_left.y.y": {
+          "value_as_published": "-0.0543394",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.y.y"
+        },
+        "intrinsic_left.y.z": {
+          "value_as_published": "0.0558442",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.y.z"
+        },
+        "intrinsic_left.z.x": {
+          "value_as_published": "0.000737671",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.z.x"
+        },
+        "intrinsic_left.z.y": {
+          "value_as_published": "0.000798006",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.z.y"
+        },
+        "intrinsic_left.z.z": {
+          "value_as_published": "-0.0177077",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_left.z.z"
+        },
+        "intrinsic_right.x.x": {
+          "value_as_published": "0.50147",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.x.x"
+        },
+        "intrinsic_right.x.y": {
+          "value_as_published": "0.798725",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.x.y"
+        },
+        "intrinsic_right.x.z": {
+          "value_as_published": "0.493212",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.x.z"
+        },
+        "intrinsic_right.y.x": {
+          "value_as_published": "0.505314",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.y.x"
+        },
+        "intrinsic_right.y.y": {
+          "value_as_published": "-0.0545739",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.y.y"
+        },
+        "intrinsic_right.y.z": {
+          "value_as_published": "0.0564698",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.y.z"
+        },
+        "intrinsic_right.z.x": {
+          "value_as_published": "0.000500904",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.z.x"
+        },
+        "intrinsic_right.z.y": {
+          "value_as_published": "0.00121804",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.z.y"
+        },
+        "intrinsic_right.z.z": {
+          "value_as_published": "-0.0180454",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#intrinsic_right.z.z"
+        },
+        "world2left_rot.x.x": {
+          "value_as_published": "0.999976",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.x.x"
+        },
+        "world2left_rot.x.y": {
+          "value_as_published": "-0.00328468",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.x.y"
+        },
+        "world2left_rot.x.z": {
+          "value_as_published": "-0.00612016",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.x.z"
+        },
+        "world2left_rot.y.x": {
+          "value_as_published": "0.00328288",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.y.x"
+        },
+        "world2left_rot.y.y": {
+          "value_as_published": "0.999995",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.y.y"
+        },
+        "world2left_rot.y.z": {
+          "value_as_published": "-0.000304369",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.y.z"
+        },
+        "world2left_rot.z.x": {
+          "value_as_published": "0.00612113",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.z.x"
+        },
+        "world2left_rot.z.y": {
+          "value_as_published": "0.00028427",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.z.y"
+        },
+        "world2left_rot.z.z": {
+          "value_as_published": "0.999981",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2left_rot.z.z"
+        },
+        "world2right_rot.x.x": {
+          "value_as_published": "0.999947",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.x.x"
+        },
+        "world2right_rot.x.y": {
+          "value_as_published": "-0.00256022",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.x.y"
+        },
+        "world2right_rot.x.z": {
+          "value_as_published": "-0.00995658",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.x.z"
+        },
+        "world2right_rot.y.x": {
+          "value_as_published": "0.00256315",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.y.x"
+        },
+        "world2right_rot.y.y": {
+          "value_as_published": "0.999997",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.y.y"
+        },
+        "world2right_rot.y.z": {
+          "value_as_published": "0.000281565",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.y.z"
+        },
+        "world2right_rot.z.x": {
+          "value_as_published": "0.00995583",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.z.x"
+        },
+        "world2right_rot.z.y": {
+          "value_as_published": "-0.00030707",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.z.y"
+        },
+        "world2right_rot.z.z": {
+          "value_as_published": "0.99995",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1#world2right_rot.z.z"
+        }
+      }
+    },
+    "wrist_2": {
+      "raw_file": "data\\fmb_second_scene\\calibration\\raw\\wrist_2",
+      "raw_file_sha256": "8c0ed504f391ddb569980bc81847ff52b180ab441f6b6c4bfbc17d5eb9ca874e",
+      "capture_serial_in_official_code": {
+        "value": "128422271851",
+        "source": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/franka_fmb_env.py#L113-L116",
+        "confirmed_for_selected_run": false
+      },
+      "published_rectified_profiles": {
+        "rectified.0": {
+          "resolution_wh": [
+            1920,
+            1080
+          ],
+          "K": [
+            [
+              954.556,
+              0,
+              948.038
+            ],
+            [
+              0,
+              954.556,
+              541.118
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.0"
+        },
+        "rectified.1": {
+          "resolution_wh": [
+            1280,
+            720
+          ],
+          "K": [
+            [
+              636.37,
+              0,
+              632.025
+            ],
+            [
+              0,
+              636.37,
+              360.745
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.1"
+        },
+        "rectified.2": {
+          "resolution_wh": [
+            640,
+            480
+          ],
+          "K": [
+            [
+              380.405,
+              0,
+              315.233
+            ],
+            [
+              0,
+              380.405,
+              240.445
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.2"
+        },
+        "rectified.3": {
+          "resolution_wh": [
+            848,
+            480
+          ],
+          "K": [
+            [
+              421.595,
+              0,
+              418.717
+            ],
+            [
+              0,
+              421.595,
+              240.494
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.3"
+        },
+        "rectified.4": {
+          "resolution_wh": [
+            640,
+            360
+          ],
+          "K": [
+            [
+              318.185,
+              0,
+              316.013
+            ],
+            [
+              0,
+              318.185,
+              180.373
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.4"
+        },
+        "rectified.5": {
+          "resolution_wh": [
+            424,
+            240
+          ],
+          "K": [
+            [
+              210.798,
+              0,
+              209.358
+            ],
+            [
+              0,
+              210.798,
+              120.247
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.5"
+        },
+        "rectified.6": {
+          "resolution_wh": [
+            320,
+            240
+          ],
+          "K": [
+            [
+              190.202,
+              0,
+              157.616
+            ],
+            [
+              0,
+              190.202,
+              120.223
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.6"
+        },
+        "rectified.7": {
+          "resolution_wh": [
+            480,
+            270
+          ],
+          "K": [
+            [
+              238.639,
+              0,
+              237.009
+            ],
+            [
+              0,
+              238.639,
+              135.279
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.7"
+        },
+        "rectified.8": {
+          "resolution_wh": [
+            1280,
+            800
+          ],
+          "K": [
+            [
+              636.37,
+              0,
+              632.025
+            ],
+            [
+              0,
+              636.37,
+              400.745
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.8"
+        },
+        "rectified.9": {
+          "resolution_wh": [
+            960,
+            540
+          ],
+          "K": [
+            [
+              477.278,
+              0,
+              474.019
+            ],
+            [
+              0,
+              477.278,
+              270.559
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.9"
+        },
+        "rectified.12": {
+          "resolution_wh": [
+            640,
+            400
+          ],
+          "K": [
+            [
+              640.348,
+              0,
+              635.975
+            ],
+            [
+              0,
+              640.348,
+              404.75
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.12"
+        },
+        "rectified.13": {
+          "resolution_wh": [
+            576,
+            576
+          ],
+          "K": [
+            [
+              4.93765e-37,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.13"
+        },
+        "rectified.14": {
+          "resolution_wh": [
+            720,
+            720
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.14"
+        },
+        "rectified.15": {
+          "resolution_wh": [
+            1152,
+            1152
+          ],
+          "K": [
+            [
+              0.0,
+              0,
+              0.0
+            ],
+            [
+              0,
+              0.0,
+              0.0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#rectified.15"
+        }
+      },
+      "profile_640x480": "rectified.2",
+      "active_rgb_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "active_depth_K_256": {
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "raw_vendor_parameters": {
+        "baseline": {
+          "value_as_published": "-18.0873",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#baseline"
+        },
+        "intrinsic_left.x.x": {
+          "value_as_published": "0.502721",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.x.x"
+        },
+        "intrinsic_left.x.y": {
+          "value_as_published": "0.800625",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.x.y"
+        },
+        "intrinsic_left.x.z": {
+          "value_as_published": "0.488727",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.x.z"
+        },
+        "intrinsic_left.y.x": {
+          "value_as_published": "0.500258",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.y.x"
+        },
+        "intrinsic_left.y.y": {
+          "value_as_published": "-0.0538594",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.y.y"
+        },
+        "intrinsic_left.y.z": {
+          "value_as_published": "0.0548033",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.y.z"
+        },
+        "intrinsic_left.z.x": {
+          "value_as_published": "0.000738008",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.z.x"
+        },
+        "intrinsic_left.z.y": {
+          "value_as_published": "0.000567976",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.z.y"
+        },
+        "intrinsic_left.z.z": {
+          "value_as_published": "-0.0174121",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_left.z.z"
+        },
+        "intrinsic_right.x.x": {
+          "value_as_published": "0.500735",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.x.x"
+        },
+        "intrinsic_right.x.y": {
+          "value_as_published": "0.797272",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.x.y"
+        },
+        "intrinsic_right.x.z": {
+          "value_as_published": "0.496062",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.x.z"
+        },
+        "intrinsic_right.y.x": {
+          "value_as_published": "0.49897",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.y.x"
+        },
+        "intrinsic_right.y.y": {
+          "value_as_published": "-0.0539313",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.y.y"
+        },
+        "intrinsic_right.y.z": {
+          "value_as_published": "0.0557366",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.y.z"
+        },
+        "intrinsic_right.z.x": {
+          "value_as_published": "0.000813086",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.z.x"
+        },
+        "intrinsic_right.z.y": {
+          "value_as_published": "0.000842982",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.z.y"
+        },
+        "intrinsic_right.z.z": {
+          "value_as_published": "-0.0177944",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#intrinsic_right.z.z"
+        },
+        "world2left_rot.x.x": {
+          "value_as_published": "0.999997",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.x.x"
+        },
+        "world2left_rot.x.y": {
+          "value_as_published": "0.00148548",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.x.y"
+        },
+        "world2left_rot.x.z": {
+          "value_as_published": "0.0020145",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.x.z"
+        },
+        "world2left_rot.y.x": {
+          "value_as_published": "-0.00148401",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.y.x"
+        },
+        "world2left_rot.y.y": {
+          "value_as_published": "0.999999",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.y.y"
+        },
+        "world2left_rot.y.z": {
+          "value_as_published": "-0.000734443",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.y.z"
+        },
+        "world2left_rot.z.x": {
+          "value_as_published": "-0.00201558",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.z.x"
+        },
+        "world2left_rot.z.y": {
+          "value_as_published": "0.000731451",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.z.y"
+        },
+        "world2left_rot.z.z": {
+          "value_as_published": "0.999998",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2left_rot.z.z"
+        },
+        "world2right_rot.x.x": {
+          "value_as_published": "0.999995",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.x.x"
+        },
+        "world2right_rot.x.y": {
+          "value_as_published": "0.00201928",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.x.y"
+        },
+        "world2right_rot.x.z": {
+          "value_as_published": "-0.00247919",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.x.z"
+        },
+        "world2right_rot.y.x": {
+          "value_as_published": "-0.00201746",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.y.x"
+        },
+        "world2right_rot.y.y": {
+          "value_as_published": "0.999998",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.y.y"
+        },
+        "world2right_rot.y.z": {
+          "value_as_published": "0.00073545",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.y.z"
+        },
+        "world2right_rot.z.x": {
+          "value_as_published": "0.00248067",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.z.x"
+        },
+        "world2right_rot.z.y": {
+          "value_as_published": "-0.000730444",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.z.y"
+        },
+        "world2right_rot.z.z": {
+          "value_as_published": "0.999997",
+          "source": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2#world2right_rot.z.z"
+        }
+      }
+    }
+  }
+}

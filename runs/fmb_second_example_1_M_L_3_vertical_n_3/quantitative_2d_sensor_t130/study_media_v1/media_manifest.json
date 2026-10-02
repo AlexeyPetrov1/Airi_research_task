@@ -1,0 +1,48 @@
+{
+  "episode": "second",
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "source_camera": "side_1",
+  "source_RGB_channel_order": "BGR",
+  "GT_source": "saved RGB-derived 2D proxy",
+  "K_status": "SUPPORTED_NOT_EXACT",
+  "action_text": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "nominal_time_s": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0
+  ],
+  "visuals_generated_from_saved_predictions_only": true,
+  "future_images_used_for_display_and_evaluation_only": true,
+  "videos": [
+    "input_and_geometry.mp4",
+    "forecast_vs_observed.mp4",
+    "geometry_methods.mp4"
+  ],
+  "still_overviews": [
+    "input_and_geometry_overview.png",
+    "forecast_vs_observed_overview.png",
+    "geometry_methods_overview.png"
+  ],
+  "forecast_outside_image_count": 0,
+  "fixed_depth_scale_m": [
+    0.14,
+    0.3
+  ]
+}

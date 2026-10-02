@@ -1,0 +1,493 @@
+{
+  "source_FMB_file": "1_L_L_4_vertical_n_0.npy",
+  "source_frames": 142,
+  "manifest_url": "https://huggingface.co/datasets/BAAI/ShareRobot/blob/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/trajectory/trajectory.json",
+  "manifest_sha256": "e49e702e20329cf2f3ce10a2359ae226940097c165301660d2e46eb7d2bf6645",
+  "manifest_FMB_rows": 48,
+  "unique_images": 48,
+  "successful_images": 48,
+  "search_scope": "All individually referenced FMB trajectory-image rows in pinned ShareRobot trajectory.json; every source step, four cameras, both source color interpretations",
+  "results": [
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7501/frame_15.png",
+      "http_status": 200,
+      "sha256": "c58e1b751f6ad088bd90a81a62a022397d47fbad94dceeb5d53c646daf5b79d4",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 15.886393229166666,
+      "full_resolution_MAE": 18.452128092447918
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7409/frame_15.png",
+      "http_status": 200,
+      "sha256": "2b8e97b6d6d10d9258ced4a874ca9a19a26341d7b77fbc79b70a9ba976a67d28",
+      "best_camera": "side_1",
+      "best_FMB_step": 95,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 18.653645833333332,
+      "full_resolution_MAE": 21.806126912434895
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7325/frame_15.png",
+      "http_status": 200,
+      "sha256": "3172d2ffe0c9359327e351366b3d0ad0d30e8585e72e170341434e25e6c6d25f",
+      "best_camera": "side_1",
+      "best_FMB_step": 76,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 22.4013671875,
+      "full_resolution_MAE": 26.47491963704427
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7187/frame_15.png",
+      "http_status": 200,
+      "sha256": "2e555020fa76e39ec42f530f4d05e2e79d2cb98b384cd6c645e3a6e84a241dec",
+      "best_camera": "side_1",
+      "best_FMB_step": 73,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 22.473958333333332,
+      "full_resolution_MAE": 25.43450927734375
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7400/frame_15.png",
+      "http_status": 200,
+      "sha256": "3b7a54f3e48509fb4e1fb207635fcf8809065af7600ba166729878920a4c2935",
+      "best_camera": "side_1",
+      "best_FMB_step": 73,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 23.829752604166668,
+      "full_resolution_MAE": 28.183176676432293
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7259/frame_15.png",
+      "http_status": 200,
+      "sha256": "d644ffda5db79148320948d18fc16646f99a8c151af72def5f9eef0929ff9c1b",
+      "best_camera": "side_1",
+      "best_FMB_step": 76,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 24.409830729166668,
+      "full_resolution_MAE": 28.860204060872395
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7136/frame_15.png",
+      "http_status": 200,
+      "sha256": "b9948595fa638a639dda469b1b46d6e01069c2c9676fc8844ea2a6eef18340e0",
+      "best_camera": "side_1",
+      "best_FMB_step": 42,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 25.062825520833332,
+      "full_resolution_MAE": 29.156351725260418
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7033/frame_15.png",
+      "http_status": 200,
+      "sha256": "fa4995206fa30a2697ce8e4c017db4a3644411dc8036485d1e6f029d4020565a",
+      "best_camera": "side_1",
+      "best_FMB_step": 82,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 25.530924479166668,
+      "full_resolution_MAE": 27.225026448567707
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6907/frame_15.png",
+      "http_status": 200,
+      "sha256": "f6cbfc3850339ab631d4230b1a22f9d4284e655951dd60ffdcaf7d52328e8573",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 27.8369140625,
+      "full_resolution_MAE": 32.41761271158854
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7609/frame_15.png",
+      "http_status": 200,
+      "sha256": "82da152a8ed220342f4ef781f887c6ecfad815aaaed216e04a6420c68e355334",
+      "best_camera": "side_1",
+      "best_FMB_step": 80,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 28.828450520833332,
+      "full_resolution_MAE": 31.801162719726562
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6887/frame_15.png",
+      "http_status": 200,
+      "sha256": "6b6958aa7150151b49fa3fe457552e57feb780d0943ea3c2caea20be49b7f948",
+      "best_camera": "side_1",
+      "best_FMB_step": 82,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 28.882486979166668,
+      "full_resolution_MAE": 32.26806640625
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7539/frame_15.png",
+      "http_status": 200,
+      "sha256": "7844fbcfc8b017138ba21313dbb27396a9130d2975077be72d53a2533d4d05d1",
+      "best_camera": "side_1",
+      "best_FMB_step": 81,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 29.295247395833332,
+      "full_resolution_MAE": 32.44329325358073
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6916/frame_15.png",
+      "http_status": 200,
+      "sha256": "c93bd9d6202cc94af910c6b69c14c69399806acb0a48321acb3fea4eff12de2a",
+      "best_camera": "side_1",
+      "best_FMB_step": 73,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 29.939778645833332,
+      "full_resolution_MAE": 34.07610066731771
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7349/frame_15.png",
+      "http_status": 200,
+      "sha256": "c640edae3b577e3cfeaecb1cf039b7f047bf21e93d2aa9fb347ebe7147a64af8",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 29.984700520833332,
+      "full_resolution_MAE": 33.53474426269531
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7536/frame_15.png",
+      "http_status": 200,
+      "sha256": "ba4bcbd244330340aecf4543c4729ee80ca09f616b0030f20ff7db1a697383dc",
+      "best_camera": "side_1",
+      "best_FMB_step": 78,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 30.285481770833332,
+      "full_resolution_MAE": 33.339019775390625
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7380/frame_15.png",
+      "http_status": 200,
+      "sha256": "55aa406e3056208b6a3a8912a3dd2949335604c7c3104019859d32a5856d850a",
+      "best_camera": "side_1",
+      "best_FMB_step": 82,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 30.474283854166668,
+      "full_resolution_MAE": 33.559326171875
+    },
+    {
+      "image_path": "rtx_frames_success_29/57_fmb#episode_3893/frame_0.png",
+      "http_status": 200,
+      "sha256": "7b34e6370ae2130f8d595450b2540d53d582964f6493e67aa737bd6039383ce0",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 30.5361328125,
+      "full_resolution_MAE": 34.710978190104164
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7410/frame_15.png",
+      "http_status": 200,
+      "sha256": "44b4bacda40a086b15cc361f2106ddf48fcbb26e543936b831289e09632a945b",
+      "best_camera": "side_1",
+      "best_FMB_step": 97,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 30.661458333333332,
+      "full_resolution_MAE": 33.5220947265625
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_707/frame_15.png",
+      "http_status": 200,
+      "sha256": "533d3144835e1d43b23742af4844cabacd4e04148a7400e083d2e2f212e612a8",
+      "best_camera": "side_1",
+      "best_FMB_step": 112,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 31.1884765625,
+      "full_resolution_MAE": 34.49946085611979
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7477/frame_15.png",
+      "http_status": 200,
+      "sha256": "e3b59db458e6b3b712c1d3f8b8842eb93bc12a643a3a31ae0e966259a3a7cd2c",
+      "best_camera": "side_1",
+      "best_FMB_step": 129,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 31.402018229166668,
+      "full_resolution_MAE": 35.54890441894531
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7025/frame_15.png",
+      "http_status": 200,
+      "sha256": "90883a9e6932018c1161ef35b978a40321482b4e2b3c1d13f9967e1ad15e5a6b",
+      "best_camera": "side_1",
+      "best_FMB_step": 82,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 32.042317708333336,
+      "full_resolution_MAE": 35.407694498697914
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6998/frame_15.png",
+      "http_status": 200,
+      "sha256": "ed6d9e9f2319ed6153266967aa04f484df69055031585ed476babb0ec0393197",
+      "best_camera": "side_1",
+      "best_FMB_step": 79,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 32.1611328125,
+      "full_resolution_MAE": 35.18408203125
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7056/frame_15.png",
+      "http_status": 200,
+      "sha256": "f6b03a33855d68c2da3e6fa55f8d58ea31e58ce3586760663ae88826d5dfab83",
+      "best_camera": "side_1",
+      "best_FMB_step": 79,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 32.576822916666664,
+      "full_resolution_MAE": 35.66031392415365
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7283/frame_15.png",
+      "http_status": 200,
+      "sha256": "25803c6b617f15a5a4bb5f737086c8a9d6de396180858470477271571dde1d7d",
+      "best_camera": "side_1",
+      "best_FMB_step": 113,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 32.722981770833336,
+      "full_resolution_MAE": 35.87555440266927
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7327/frame_15.png",
+      "http_status": 200,
+      "sha256": "3c94e39b05e40d13a6e4939bba50eb3ab75ca3d4489a366a0dc8043b5612410d",
+      "best_camera": "side_1",
+      "best_FMB_step": 84,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 32.8037109375,
+      "full_resolution_MAE": 36.12110900878906
+    },
+    {
+      "image_path": "rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "http_status": 200,
+      "sha256": "80f6af8673cd2ec1d9c03c4e361154903f8104421b25ac756a1f30fb7e9b9281",
+      "best_camera": "side_1",
+      "best_FMB_step": 73,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 33.027994791666664,
+      "full_resolution_MAE": 36.72185770670573
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7446/frame_15.png",
+      "http_status": 200,
+      "sha256": "34aa2b6227c5735357eca8bc86bcd3d9ba03bb217fc5d509e98946d764e67c71",
+      "best_camera": "side_1",
+      "best_FMB_step": 129,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 33.1240234375,
+      "full_resolution_MAE": 37.53398132324219
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_753/frame_15.png",
+      "http_status": 200,
+      "sha256": "ba3aa245cdc95542a65dd41f3f42ad4e49f4f8c2c9e99d274d13ff735d28994b",
+      "best_camera": "wrist_2",
+      "best_FMB_step": 0,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 33.235026041666664,
+      "full_resolution_MAE": 36.39100646972656
+    },
+    {
+      "image_path": "rtx_frames_success_28/57_fmb#episode_2175/frame_0.png",
+      "http_status": 200,
+      "sha256": "f1fac6ecc8360b2a8527deeacb5a49d6e77bd50bc4baf58885305a333658c051",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 33.238932291666664,
+      "full_resolution_MAE": 36.95680236816406
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7337/frame_15.png",
+      "http_status": 200,
+      "sha256": "053579ab1aea8b0f36cee157547a6db9a22bdb7f3c9624757837a4ad29c7cc7f",
+      "best_camera": "side_1",
+      "best_FMB_step": 97,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 33.255533854166664,
+      "full_resolution_MAE": 35.984537760416664
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7457/frame_15.png",
+      "http_status": 200,
+      "sha256": "590564e30b32b0776efe977b721b7d84870f1aaea155cacefdd135da7a95dc2d",
+      "best_camera": "side_1",
+      "best_FMB_step": 82,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 33.484375,
+      "full_resolution_MAE": 36.70685831705729
+    },
+    {
+      "image_path": "rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "http_status": 200,
+      "sha256": "7aa736b0cf48c6be046179dead02b69238fd9299f29c788ef0d2d422f8b8435f",
+      "best_camera": "side_1",
+      "best_FMB_step": 73,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 33.530598958333336,
+      "full_resolution_MAE": 37.154449462890625
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7313/frame_15.png",
+      "http_status": 200,
+      "sha256": "3b312dbc4d86683f264fbdfebc837fbf63276a27968083b7ea4c3de9980cfb69",
+      "best_camera": "side_1",
+      "best_FMB_step": 88,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 34.23046875,
+      "full_resolution_MAE": 37.01287841796875
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_712/frame_15.png",
+      "http_status": 200,
+      "sha256": "1e4adb02e039d52970dea036cdceaff47c36b4c4bed55637e90f59bdd03ebf22",
+      "best_camera": "wrist_2",
+      "best_FMB_step": 4,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 35.620442708333336,
+      "full_resolution_MAE": 39.09260559082031
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7461/frame_15.png",
+      "http_status": 200,
+      "sha256": "d30ab7a100d49dabec7f4e812751a2823b3c476544a56ab541db4d35fd23aef5",
+      "best_camera": "side_1",
+      "best_FMB_step": 93,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 35.674479166666664,
+      "full_resolution_MAE": 39.8467763264974
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7264/frame_15.png",
+      "http_status": 200,
+      "sha256": "04f73e91cccfa0b476dd1b480014cbdb99b27e1afeb419c49b433b93a990a3da",
+      "best_camera": "wrist_2",
+      "best_FMB_step": 0,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 36.170247395833336,
+      "full_resolution_MAE": 39.30927022298177
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7216/frame_15.png",
+      "http_status": 200,
+      "sha256": "125aff76c548a2af1a9c62118846bf2d336d4f34285f8ce114c4919b78bb5284",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 36.350260416666664,
+      "full_resolution_MAE": 40.61176045735677
+    },
+    {
+      "image_path": "rtx_frames_success_29/57_fmb#episode_390/frame_0.png",
+      "http_status": 200,
+      "sha256": "c12430b63621163f5bd4f7f90f61df1a82eaf094553147a905881cecd4c51a72",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 36.7744140625,
+      "full_resolution_MAE": 40.856353759765625
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6943/frame_15.png",
+      "http_status": 200,
+      "sha256": "5560ee1922b8d18b603f974d390f7f338480a546901a8603e9b86bc085068f7c",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 37.688151041666664,
+      "full_resolution_MAE": 41.633565266927086
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_687/frame_15.png",
+      "http_status": 200,
+      "sha256": "b71a6daf10ed209fd41bbcaf3da14497ad8a6bd83b0d25d28ca46e0e3e0840b9",
+      "best_camera": "side_1",
+      "best_FMB_step": 80,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 38.002604166666664,
+      "full_resolution_MAE": 41.44559224446615
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7629/frame_15.png",
+      "http_status": 200,
+      "sha256": "0f0fe0dd13d53fc7ee71d54ce41a2e0563b1444198aaeddf9e24c2c405405cc2",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 38.298502604166664,
+      "full_resolution_MAE": 42.22410583496094
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7173/frame_15.png",
+      "http_status": 200,
+      "sha256": "a9b2621f2f33ee938ddbd448c0b0610be17dce99bc154dbaf04debfa1679d5a1",
+      "best_camera": "wrist_2",
+      "best_FMB_step": 0,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 38.383138020833336,
+      "full_resolution_MAE": 42.162841796875
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7605/frame_15.png",
+      "http_status": 200,
+      "sha256": "1ea18b589840381cd00239d7ca2f6c7f78ef9506fbe2db9dbf7ca378da087d2d",
+      "best_camera": "side_1",
+      "best_FMB_step": 93,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 39.0322265625,
+      "full_resolution_MAE": 43.05317687988281
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7340/frame_15.png",
+      "http_status": 200,
+      "sha256": "d12ba0f0ef07f3215251d04f57643a6e75546bc3281d000f8dff4025054a2447",
+      "best_camera": "side_1",
+      "best_FMB_step": 136,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 39.990885416666664,
+      "full_resolution_MAE": 43.88389587402344
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7218/frame_15.png",
+      "http_status": 200,
+      "sha256": "dbf6dec4fbc32df5989049bef249f56702953648c4ba7b3ad404726ec10209d0",
+      "best_camera": "side_1",
+      "best_FMB_step": 84,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 40.873697916666664,
+      "full_resolution_MAE": 44.33805847167969
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7213/frame_15.png",
+      "http_status": 200,
+      "sha256": "4d67e23ee73e333dae6e8b4945c6adfb47b1df9b20af5f4fd57cd123b3aa476e",
+      "best_camera": "side_2",
+      "best_FMB_step": 90,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 41.005208333333336,
+      "full_resolution_MAE": 45.13707987467448
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7561/frame_15.png",
+      "http_status": 200,
+      "sha256": "f9e89ecc66a4202cd4d4229333e9de5519726eb251ea649e5a01e2f39e890e86",
+      "best_camera": "side_1",
+      "best_FMB_step": 89,
+      "color_interpretation": "raw_bytes_as_RGB",
+      "downsampled_MAE": 43.349283854166664,
+      "full_resolution_MAE": 47.59760030110677
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6925/frame_15.png",
+      "http_status": 200,
+      "sha256": "9d7575ac43ca0bb56f8a4934d705f067f7a4fac2362de52e70864f487bfcf801",
+      "best_camera": "side_1",
+      "best_FMB_step": 84,
+      "color_interpretation": "BGR_to_RGB",
+      "downsampled_MAE": 46.453776041666664,
+      "full_resolution_MAE": 49.288594563802086
+    }
+  ],
+  "limitation": "This tests the Trajectory annotation subset, not the larger Planning image archive or all FMB episodes."
+}

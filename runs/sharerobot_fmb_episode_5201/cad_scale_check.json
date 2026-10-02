@@ -1,0 +1,189 @@
+{
+  "official_cad_long_peg_height_m": 0.15,
+  "K_rgb_candidate_fy_px": 202.77813333333333,
+  "sensor_scale_m_per_count_inferred": 0.0001,
+  "frames": [
+    {
+      "step": 0,
+      "rgb_bbox_xywh": [
+        90,
+        13,
+        19,
+        66
+      ],
+      "rgb_area_px": 911,
+      "sensor_depth_interior_median_m": 0.5306500000000001,
+      "depth_valid_interior": 566,
+      "naive_height_depth_m": 0.4608593939393939,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 5,
+      "rgb_bbox_xywh": [
+        90,
+        11,
+        18,
+        68
+      ],
+      "rgb_area_px": 924,
+      "sensor_depth_interior_median_m": 0.5212,
+      "depth_valid_interior": 591,
+      "naive_height_depth_m": 0.44730470588235294,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 10,
+      "rgb_bbox_xywh": [
+        90,
+        13,
+        19,
+        66
+      ],
+      "rgb_area_px": 907,
+      "sensor_depth_interior_median_m": 0.5313,
+      "depth_valid_interior": 559,
+      "naive_height_depth_m": 0.4608593939393939,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 20,
+      "rgb_bbox_xywh": [
+        90,
+        14,
+        19,
+        65
+      ],
+      "rgb_area_px": 900,
+      "sensor_depth_interior_median_m": 0.5325,
+      "depth_valid_interior": 461,
+      "naive_height_depth_m": 0.4679495384615384,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 37,
+      "rgb_bbox_xywh": [
+        82,
+        13,
+        20,
+        66
+      ],
+      "rgb_area_px": 926,
+      "sensor_depth_interior_median_m": 0.5151,
+      "depth_valid_interior": 595,
+      "naive_height_depth_m": 0.4608593939393939,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 74,
+      "rgb_bbox_xywh": [
+        80,
+        0,
+        23,
+        66
+      ],
+      "rgb_area_px": 968,
+      "sensor_depth_interior_median_m": 0.49660000000000004,
+      "depth_valid_interior": 601,
+      "naive_height_depth_m": 0.4608593939393939,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 110,
+      "rgb_bbox_xywh": [
+        110,
+        0,
+        29,
+        46
+      ],
+      "rgb_area_px": 1227,
+      "sensor_depth_interior_median_m": 0.24830000000000002,
+      "depth_valid_interior": 644,
+      "naive_height_depth_m": 0.6612330434782608,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 120,
+      "rgb_bbox_xywh": [
+        149,
+        0,
+        46,
+        98
+      ],
+      "rgb_area_px": 3235,
+      "sensor_depth_interior_median_m": 0.21300000000000002,
+      "depth_valid_interior": 2227,
+      "naive_height_depth_m": 0.310374693877551,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 125,
+      "rgb_bbox_xywh": [
+        166,
+        0,
+        58,
+        133
+      ],
+      "rgb_area_px": 4559,
+      "sensor_depth_interior_median_m": 0.2021,
+      "depth_valid_interior": 3097,
+      "naive_height_depth_m": 0.22869714285714285,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 130,
+      "rgb_bbox_xywh": [
+        173,
+        18,
+        61,
+        134
+      ],
+      "rgb_area_px": 4604,
+      "sensor_depth_interior_median_m": 0.20620000000000002,
+      "depth_valid_interior": 2823,
+      "naive_height_depth_m": 0.226990447761194,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 135,
+      "rgb_bbox_xywh": [
+        166,
+        44,
+        53,
+        120
+      ],
+      "rgb_area_px": 3772,
+      "sensor_depth_interior_median_m": 0.2134,
+      "depth_valid_interior": 2530,
+      "naive_height_depth_m": 0.2534726666666666,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 140,
+      "rgb_bbox_xywh": [
+        164,
+        62,
+        49,
+        108
+      ],
+      "rgb_area_px": 3232,
+      "sensor_depth_interior_median_m": 0.21960000000000002,
+      "depth_valid_interior": 2206,
+      "naive_height_depth_m": 0.2816362962962963,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    },
+    {
+      "step": 145,
+      "rgb_bbox_xywh": [
+        163,
+        90,
+        41,
+        81
+      ],
+      "rgb_area_px": 2259,
+      "sensor_depth_interior_median_m": 0.23170000000000002,
+      "depth_valid_interior": 1478,
+      "naive_height_depth_m": 0.37551506172839505,
+      "caveat": "Height formula assumes the peg axis is parallel to the image plane."
+    }
+  ]
+}

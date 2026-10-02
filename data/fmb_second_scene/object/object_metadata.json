@@ -1,0 +1,40 @@
+{
+  "object_info_exact": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+  },
+  "decoded": {
+    "shape": "rectangle",
+    "size": "large",
+    "length": "long",
+    "color": "yellow",
+    "initial_angle": "vertical",
+    "distractor": false
+  },
+  "decode_sources": [
+    "https://functional-manipulation-benchmark.github.io/dataset/index.html",
+    "https://functional-manipulation-benchmark.github.io/files/index.html",
+    "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/fmb_dataset_builder/fmb_single_object_dataset/fmb_single_object_dataset_dataset_builder.py"
+  ],
+  "peg_id": 1,
+  "official_cad": {
+    "path": "data/fmb_second_scene/object/peg_official.step",
+    "url": "https://functional-manipulation-benchmark.github.io/static/files/peg.step",
+    "sha256": "b1ca6ec178920e87b0e1410aaa5a37f4d1e370ca1d6ab985630434ba5f45e8e7",
+    "contains": "54 peg solids: 9 shapes x 3 cross-section sizes x 2 lengths",
+    "exact_solid_for_this_run": "UNRESOLVED; STEP bodies have no per-body shape/size IDs"
+  },
+  "reference_sheet": {
+    "path": "data/fmb_second_scene/object/shape_color_reference.pdf",
+    "url": "https://functional-manipulation-benchmark.github.io/static/doc/FMB%20Shape%20and%20Color%20Number%20Reference%20Sheet%20-%20Google%20Docs.pdf"
+  },
+  "physical_dimensions": {
+    "status": "UNRESOLVED_EXACT_BODY_MAPPING",
+    "value": null,
+    "note": "Official STEP includes the model family; dimensions of an individual body must not be assigned to this run without a proven body-ID map"
+  }
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "source_steps": [
+      0,
+      37
+    ],
+    "background_correspondences": 426,
+    "ransac_inliers": 387,
+    "median_background_displacement_px": 0.0,
+    "p95_background_displacement_px": 1.1999969482421875,
+    "displacement_over_diagonal": 0.0,
+    "affine_partial_2d": [
+      [
+        1.0006642483792896,
+        0.0013703388910773064,
+        -0.29222051981303926
+      ],
+      [
+        -0.0013703388910773064,
+        1.0006642483792896,
+        0.08117154556857763
+      ]
+    ],
+    "visualization": "camera_motion_0_37.png",
+    "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+  },
+  {
+    "source_steps": [
+      37,
+      74
+    ],
+    "background_correspondences": 609,
+    "ransac_inliers": 566,
+    "median_background_displacement_px": 0.0,
+    "p95_background_displacement_px": 1.1999969482421875,
+    "displacement_over_diagonal": 0.0,
+    "affine_partial_2d": [
+      [
+        0.9995981615765528,
+        -5.634935085672366e-07,
+        0.03978104116681057
+      ],
+      [
+        5.634935085672366e-07,
+        0.9995981615765528,
+        0.07848376647533152
+      ]
+    ],
+    "visualization": "camera_motion_37_74.png",
+    "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+  },
+  {
+    "source_steps": [
+      74,
+      110
+    ],
+    "background_correspondences": 113,
+    "ransac_inliers": 89,
+    "median_background_displacement_px": 0.0,
+    "p95_background_displacement_px": 1.4296823024749754,
+    "displacement_over_diagonal": 0.0,
+    "affine_partial_2d": [
+      [
+        0.9998472486491068,
+        0.0019701329253256246,
+        -0.23108954771632492
+      ],
+      [
+        -0.0019701329253256246,
+        0.9998472486491068,
+        0.27539001434805643
+      ]
+    ],
+    "visualization": "camera_motion_74_110.png",
+    "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+  },
+  {
+    "source_steps": [
+      110,
+      147
+    ],
+    "background_correspondences": 79,
+    "ransac_inliers": 57,
+    "median_background_displacement_px": 1.2000045776367188,
+    "p95_background_displacement_px": 2.4154034614562985,
+    "displacement_over_diagonal": 0.0033145756808664944,
+    "affine_partial_2d": [
+      [
+        0.9966096917208846,
+        0.005811898879235928,
+        -1.6190202060344157
+      ],
+      [
+        -0.005811898879235928,
+        0.9966096917208846,
+        1.3186254954900272
+      ]
+    ],
+    "visualization": "camera_motion_110_147.png",
+    "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+  },
+  {
+    "source_steps": [
+      0,
+      147
+    ],
+    "background_correspondences": 34,
+    "ransac_inliers": 11,
+    "median_background_displacement_px": 1.0,
+    "p95_background_displacement_px": 2.220001220703125,
+    "displacement_over_diagonal": 0.002762135864009951,
+    "affine_partial_2d": [
+      [
+        0.9930013889143466,
+        0.0023221085573169606,
+        -0.6386700550745396
+      ],
+      [
+        -0.0023221085573169606,
+        0.9930013889143466,
+        1.1599086552802012
+      ]
+    ],
+    "visualization": "camera_motion_0_147.png",
+    "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+  }
+]

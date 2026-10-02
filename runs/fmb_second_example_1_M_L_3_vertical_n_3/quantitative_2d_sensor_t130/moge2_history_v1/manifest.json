@@ -1,0 +1,143 @@
+{
+  "episode": "second",
+  "status": "PREPARED_WITH_CALIBRATION_UNCERTAINTY",
+  "model": "MoGe-2 ViT-L",
+  "model_checkpoint_sha256": "3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5",
+  "MoGe_source_commit": "74fbce054ebed49800de42d0ad0e83495065719a",
+  "preprocessing": "source BGR to RGB; inverse 256x256->256x192 aspect stretch; candidate horizontal FOV from K_nominal fx; outputs depth/points resized to 256x256",
+  "history_steps_only": [
+    128,
+    129,
+    130
+  ],
+  "future_frames_read": false,
+  "FMB_source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "depth_semantics": "MoGe predicted metric camera Z as used in prior metric-depth experiment",
+  "nominal_K_status": "SUPPORTED_NOT_EXACT",
+  "sampling": "5x5 median of positive finite predicted depth at frozen 2D points",
+  "valid_patch_counts": [
+    [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ],
+    [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ],
+    [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ]
+  ],
+  "raw_depth_median_m": 0.32505857944488525,
+  "sensor_depth_median_m": 0.18614999949932098,
+  "raw_median_abs_depth_gap_to_sensor_mm": 139.1712725162506,
+  "single_history_scale_to_sensor": 0.5718638025514862,
+  "scaled_median_abs_depth_gap_to_sensor_mm": 9.484956968687827,
+  "scale_fit_uses_only_historical_sensor_depth": true,
+  "fixed_background_patch_xyxy": [
+    20,
+    20,
+    80,
+    80
+  ],
+  "fixed_patch_sensor_depth_median_by_frame_m": [
+    0.5444,
+    0.5364,
+    0.53
+  ],
+  "fixed_patch_moge_depth_median_by_frame_m": [
+    0.7996934652328491,
+    0.766635537147522,
+    0.697582483291626
+  ],
+  "fixed_patch_sensor_median_range_mm": 14.399999999999968,
+  "fixed_patch_moge_median_range_mm": 102.11098194122314,
+  "fixed_patch_caveat": "A visually static tabletop ROI; no independently registered geometry ground truth",
+  "raw_xyz_sha256": "36f28910fb2ccc1dabac6d7679caee52fc3405c1ec33b43e3c6269486a221798",
+  "scaled_xyz_sha256": "e934c5099d030337fa37425e57cb483153e158b8ada83e0b6d4fdad6edf214b9",
+  "maps_sha256": "c75f6d94ad79701a7eae12fdcd8dd21fb202960c66796fc2aa51902536cf5480",
+  "MoGe_output_K_px_by_frame": [
+    [
+      [
+        152.0836181640625,
+        0.0,
+        128.0
+      ],
+      [
+        0.0,
+        202.77816772460938,
+        128.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        152.0836181640625,
+        0.0,
+        128.0
+      ],
+      [
+        0.0,
+        202.77816772460938,
+        128.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        152.0836181640625,
+        0.0,
+        128.0
+      ],
+      [
+        0.0,
+        202.77816772460938,
+        128.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  ],
+  "MoGe_K_interpretation": "Horizontal FOV was supplied from candidate nominal K; these output K values are conditioned, not independently estimated camera calibration",
+  "MoGe_depth_points_Z_max_abs_m_by_frame": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "MoGe_points_vs_depth_plus_model_K_median_mm_by_frame": [
+    2.2397560194038073,
+    2.1688609930019833,
+    1.9738007114606582
+  ],
+  "internal_consistency_caveat": "Checks pinhole interpretation after image resize; low residual does not establish physical metric accuracy"
+}

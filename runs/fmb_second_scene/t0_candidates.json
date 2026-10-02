@@ -1,0 +1,145 @@
+{
+  "status": "CANDIDATES_ONLY",
+  "N": 142,
+  "history_target": 3,
+  "future_target": 30,
+  "selection_after_this_goal": true,
+  "candidates": [
+    {
+      "frame_index": 94,
+      "primitive": "insert",
+      "history_frames_available": 95,
+      "future_frames_available": 47,
+      "H3_history_indices": [
+        92,
+        93,
+        94
+      ],
+      "F30_possible": true,
+      "object_visibility": {
+        "side_1_yellow_interior_pixels_at_t0": 3803,
+        "side_1_yellow_interior_pixels_at_t0_plus_30": 4201,
+        "manual_review": "visible broad yellow face at t0; top edge/gripper coverage grows late"
+      },
+      "motion_degree": {
+        "yellow_centroid_displacement_px_to_t0_plus_30": 62.04050659467242,
+        "tcp_xyz_displacement_m_to_t0_plus_30": 0.07821291234803772
+      },
+      "occlusion": "partial gripper coverage during insertion; inspect frame pair before final point selection",
+      "depth_quality": {
+        "side_1_object_mask_valid_fraction_at_t0": 0.6999737049697607,
+        "method": "yellow HSV mask; no depth scale assigned"
+      },
+      "reason_interesting": "Visible rigid peg during the move toward the board and insertion, with at least 30 actual later frames"
+    },
+    {
+      "frame_index": 98,
+      "primitive": "insert",
+      "history_frames_available": 99,
+      "future_frames_available": 43,
+      "H3_history_indices": [
+        96,
+        97,
+        98
+      ],
+      "F30_possible": true,
+      "object_visibility": {
+        "side_1_yellow_interior_pixels_at_t0": 5020,
+        "side_1_yellow_interior_pixels_at_t0_plus_30": 4063,
+        "manual_review": "visible broad yellow face at t0; top edge/gripper coverage grows late"
+      },
+      "motion_degree": {
+        "yellow_centroid_displacement_px_to_t0_plus_30": 30.29157461874959,
+        "tcp_xyz_displacement_m_to_t0_plus_30": 0.03184534716199271
+      },
+      "occlusion": "partial gripper coverage during insertion; inspect frame pair before final point selection",
+      "depth_quality": {
+        "side_1_object_mask_valid_fraction_at_t0": 0.6318725099601593,
+        "method": "yellow HSV mask; no depth scale assigned"
+      },
+      "reason_interesting": "Visible rigid peg during the move toward the board and insertion, with at least 30 actual later frames"
+    },
+    {
+      "frame_index": 102,
+      "primitive": "insert",
+      "history_frames_available": 103,
+      "future_frames_available": 39,
+      "H3_history_indices": [
+        100,
+        101,
+        102
+      ],
+      "F30_possible": true,
+      "object_visibility": {
+        "side_1_yellow_interior_pixels_at_t0": 5536,
+        "side_1_yellow_interior_pixels_at_t0_plus_30": 3710,
+        "manual_review": "visible broad yellow face at t0; top edge/gripper coverage grows late"
+      },
+      "motion_degree": {
+        "yellow_centroid_displacement_px_to_t0_plus_30": 28.569984504926662,
+        "tcp_xyz_displacement_m_to_t0_plus_30": 0.04202739413725691
+      },
+      "occlusion": "partial gripper coverage during insertion; inspect frame pair before final point selection",
+      "depth_quality": {
+        "side_1_object_mask_valid_fraction_at_t0": 0.759393063583815,
+        "method": "yellow HSV mask; no depth scale assigned"
+      },
+      "reason_interesting": "Visible rigid peg during the move toward the board and insertion, with at least 30 actual later frames"
+    },
+    {
+      "frame_index": 106,
+      "primitive": "insert",
+      "history_frames_available": 107,
+      "future_frames_available": 35,
+      "H3_history_indices": [
+        104,
+        105,
+        106
+      ],
+      "F30_possible": true,
+      "object_visibility": {
+        "side_1_yellow_interior_pixels_at_t0": 5353,
+        "side_1_yellow_interior_pixels_at_t0_plus_30": 2467,
+        "manual_review": "visible broad yellow face at t0; top edge/gripper coverage grows late"
+      },
+      "motion_degree": {
+        "yellow_centroid_displacement_px_to_t0_plus_30": 46.061208978203766,
+        "tcp_xyz_displacement_m_to_t0_plus_30": 0.07710466347826325
+      },
+      "occlusion": "partial gripper coverage during insertion; inspect frame pair before final point selection",
+      "depth_quality": {
+        "side_1_object_mask_valid_fraction_at_t0": 0.8146833551279656,
+        "method": "yellow HSV mask; no depth scale assigned"
+      },
+      "reason_interesting": "Visible rigid peg during the move toward the board and insertion, with at least 30 actual later frames"
+    },
+    {
+      "frame_index": 110,
+      "primitive": "insert",
+      "history_frames_available": 111,
+      "future_frames_available": 31,
+      "H3_history_indices": [
+        108,
+        109,
+        110
+      ],
+      "F30_possible": true,
+      "object_visibility": {
+        "side_1_yellow_interior_pixels_at_t0": 4883,
+        "side_1_yellow_interior_pixels_at_t0_plus_30": 2384,
+        "manual_review": "visible broad yellow face at t0; top edge/gripper coverage grows late"
+      },
+      "motion_degree": {
+        "yellow_centroid_displacement_px_to_t0_plus_30": 42.16630139302473,
+        "tcp_xyz_displacement_m_to_t0_plus_30": 0.06896615663190528
+      },
+      "occlusion": "partial gripper coverage during insertion; inspect frame pair before final point selection",
+      "depth_quality": {
+        "side_1_object_mask_valid_fraction_at_t0": 0.8419004710219128,
+        "method": "yellow HSV mask; no depth scale assigned"
+      },
+      "reason_interesting": "Visible rigid peg during the move toward the board and insertion, with at least 30 actual later frames"
+    }
+  ],
+  "future_leakage_rule": "Later model input and metric scale calibration may use frames <= frozen t0 only"
+}

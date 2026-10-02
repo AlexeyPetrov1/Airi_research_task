@@ -1,0 +1,201 @@
+{
+  "source": "F:\\AIRI_task\\molmo-motion\\runs\\sharerobot_fmb_episode_5201\\1_M_L_3_vertical_n_2.npy",
+  "train_steps": [
+    0,
+    37,
+    74,
+    110,
+    120
+  ],
+  "holdout_steps": [
+    130,
+    140
+  ],
+  "x_peg_centers": {
+    "train_count": 34,
+    "holdout_count": 13,
+    "fit": {
+      "scale": 1.0604496336930496,
+      "shift_px": -9.014900317058641
+    },
+    "identity_train": {
+      "n": 34,
+      "median_abs_px": 2.5,
+      "p90_abs_px": 4.0
+    },
+    "affine_train": {
+      "n": 34,
+      "median_abs_px": 0.561578391125181,
+      "p90_abs_px": 1.8232121416914393
+    },
+    "identity_holdout": {
+      "n": 13,
+      "median_abs_px": 4.0,
+      "p90_abs_px": 6.4
+    },
+    "affine_holdout": {
+      "n": 13,
+      "median_abs_px": 2.4679490405560784,
+      "p90_abs_px": 3.94186180270475
+    }
+  },
+  "x_peg_edges": {
+    "train_count": 68,
+    "holdout_count": 27,
+    "fit": {
+      "scale": 1.0894701929919293,
+      "shift_px": -12.368482007802635
+    },
+    "identity_train": {
+      "n": 68,
+      "median_abs_px": 4.5,
+      "p90_abs_px": 6.0
+    },
+    "affine_train": {
+      "n": 68,
+      "median_abs_px": 2.0185764118591436,
+      "p90_abs_px": 4.348397991768255
+    },
+    "identity_holdout": {
+      "n": 27,
+      "median_abs_px": 6.0,
+      "p90_abs_px": 10.0
+    },
+    "affine_holdout": {
+      "n": 27,
+      "median_abs_px": 2.8928871549692587,
+      "p90_abs_px": 9.626172630690629
+    }
+  },
+  "y_peg_edges": {
+    "train_count": 0,
+    "holdout_count": 17,
+    "fit": null
+  },
+  "board_independent_control": {
+    "identity": {
+      "n": 25,
+      "median_abs_px": 1.5,
+      "p90_abs_px": 2.0
+    },
+    "peg_center_affine": {
+      "n": 25,
+      "median_abs_px": 2.051951600031714,
+      "p90_abs_px": 2.5277717465544924
+    }
+  },
+  "vertical_edges_by_frame": {
+    "0": [],
+    "37": [],
+    "74": [],
+    "110": [],
+    "120": [],
+    "130": [
+      {
+        "side": "bottom",
+        "rgb": 150.5,
+        "depth": 148.5,
+        "x": 191
+      },
+      {
+        "side": "bottom",
+        "rgb": 150.5,
+        "depth": 151.5,
+        "x": 194
+      },
+      {
+        "side": "bottom",
+        "rgb": 150.5,
+        "depth": 153.5,
+        "x": 197
+      },
+      {
+        "side": "bottom",
+        "rgb": 146.5,
+        "depth": 135.5,
+        "x": 200
+      },
+      {
+        "side": "top",
+        "rgb": 18.5,
+        "depth": 7.5,
+        "x": 203
+      },
+      {
+        "side": "bottom",
+        "rgb": 135.5,
+        "depth": 125.5,
+        "x": 203
+      },
+      {
+        "side": "top",
+        "rgb": 18.5,
+        "depth": 7.5,
+        "x": 206
+      },
+      {
+        "side": "bottom",
+        "rgb": 124.5,
+        "depth": 127.5,
+        "x": 206
+      },
+      {
+        "side": "top",
+        "rgb": 18.5,
+        "depth": 6.5,
+        "x": 210
+      }
+    ],
+    "140": [
+      {
+        "side": "top",
+        "rgb": 62.5,
+        "depth": 54.5,
+        "x": 180
+      },
+      {
+        "side": "top",
+        "rgb": 62.5,
+        "depth": 57.5,
+        "x": 183
+      },
+      {
+        "side": "bottom",
+        "rgb": 168.5,
+        "depth": 156.5,
+        "x": 183
+      },
+      {
+        "side": "top",
+        "rgb": 62.5,
+        "depth": 57.5,
+        "x": 186
+      },
+      {
+        "side": "bottom",
+        "rgb": 168.5,
+        "depth": 156.5,
+        "x": 186
+      },
+      {
+        "side": "top",
+        "rgb": 62.5,
+        "depth": 56.5,
+        "x": 188
+      },
+      {
+        "side": "bottom",
+        "rgb": 164.5,
+        "depth": 154.5,
+        "x": 188
+      },
+      {
+        "side": "bottom",
+        "rgb": 152.5,
+        "depth": 156.5,
+        "x": 191
+      }
+    ]
+  },
+  "caveat": "The red RGB boundary and depth discontinuity can be different physical contours; fitted values are not a validated pixel mapping."
+}

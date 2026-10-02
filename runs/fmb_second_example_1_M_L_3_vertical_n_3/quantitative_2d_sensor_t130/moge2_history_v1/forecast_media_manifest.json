@@ -1,0 +1,39 @@
+{
+  "episode": "second",
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "future_steps": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "GT": "frozen RGB-derived 2D proxy",
+  "forecasts": [
+    "sensor",
+    "moge2_raw",
+    "moge2_scaled"
+  ],
+  "all_predictions_loaded_from_saved_files": true,
+  "video_frame_count": 60,
+  "panel_size_px": [
+    256,
+    256
+  ],
+  "out_of_image_predictions_counted_not_clipped_in_metrics": true
+}

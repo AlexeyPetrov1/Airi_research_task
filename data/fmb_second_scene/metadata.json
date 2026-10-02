@@ -1,0 +1,177 @@
+{
+  "source_filename": "1_L_L_4_vertical_n_0.npy",
+  "trajectory_id": 0,
+  "N": 142,
+  "source_url": "https://huggingface.co/datasets/charlesxu0124/functional-manipulation-benchmark/blob/f99fd55c072eea5573523c96aa527aed3c665690/single_object_manipulation_dataset/1_L_L_4_vertical_n_0.npy",
+  "original_archive_url": "https://rail.eecs.berkeley.edu/datasets/fmb/single_object_manipulation.zip",
+  "source_sha256": "e6c3aa8e518d75b003a78ac405e33aa30c2ddc94dea2901a5ee568e0fb353cdb",
+  "source_bytes": 186224561,
+  "raw_copy_sha256": "e6c3aa8e518d75b003a78ac405e33aa30c2ddc94dea2901a5ee568e0fb353cdb",
+  "object_info": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+  },
+  "ordered_unique_primitives": [
+    "grasp",
+    "move_up",
+    "go_to_board",
+    "insert"
+  ],
+  "primitive_ranges": [
+    {
+      "primitive": "grasp",
+      "first_frame": 0,
+      "last_frame": 54
+    },
+    {
+      "primitive": "move_up",
+      "first_frame": 55,
+      "last_frame": 60
+    },
+    {
+      "primitive": "go_to_board",
+      "first_frame": 61,
+      "last_frame": 84
+    },
+    {
+      "primitive": "insert",
+      "first_frame": 85,
+      "last_frame": 141
+    }
+  ],
+  "image_resolution_hw": [
+    256,
+    256
+  ],
+  "cameras": [
+    "side_1",
+    "side_2",
+    "wrist_1",
+    "wrist_2"
+  ],
+  "array_dtypes": {
+    "obs/side_1": "uint8",
+    "obs/side_2": "uint8",
+    "obs/wrist_1": "uint8",
+    "obs/wrist_2": "uint8",
+    "obs/side_1_depth": "uint16",
+    "obs/side_2_depth": "uint16",
+    "obs/wrist_1_depth": "uint16",
+    "obs/wrist_2_depth": "uint16",
+    "obs/tcp_pose": "float64",
+    "obs/tcp_vel": "float64",
+    "obs/gripper_pose": "int64",
+    "obs/q": "float64",
+    "obs/dq": "float64",
+    "obs/tcp_force": "float64",
+    "obs/tcp_torque": "float64",
+    "obs/jacobian": "float64",
+    "actions": "float64",
+    "primitive": "<U11"
+  },
+  "array_shapes": {
+    "obs/side_1": [
+      142,
+      256,
+      256,
+      3
+    ],
+    "obs/side_2": [
+      142,
+      256,
+      256,
+      3
+    ],
+    "obs/wrist_1": [
+      142,
+      256,
+      256,
+      3
+    ],
+    "obs/wrist_2": [
+      142,
+      256,
+      256,
+      3
+    ],
+    "obs/side_1_depth": [
+      142,
+      256,
+      256
+    ],
+    "obs/side_2_depth": [
+      142,
+      256,
+      256
+    ],
+    "obs/wrist_1_depth": [
+      142,
+      256,
+      256
+    ],
+    "obs/wrist_2_depth": [
+      142,
+      256,
+      256
+    ],
+    "obs/tcp_pose": [
+      142,
+      7
+    ],
+    "obs/tcp_vel": [
+      142,
+      6
+    ],
+    "obs/gripper_pose": [
+      142
+    ],
+    "obs/q": [
+      142,
+      7
+    ],
+    "obs/dq": [
+      142,
+      7
+    ],
+    "obs/tcp_force": [
+      142,
+      3
+    ],
+    "obs/tcp_torque": [
+      142,
+      3
+    ],
+    "obs/jacobian": [
+      142,
+      6,
+      7
+    ],
+    "actions": [
+      142,
+      7
+    ],
+    "primitive": [
+      142
+    ]
+  },
+  "state_export_key_mapping": {
+    "actions": "action",
+    "obs/tcp_pose": "tcp_pose",
+    "obs/tcp_vel": "tcp_vel",
+    "obs/tcp_force": "tcp_force",
+    "obs/tcp_torque": "tcp_torque",
+    "obs/q": "q",
+    "obs/dq": "dq",
+    "obs/jacobian": "jacobian",
+    "obs/gripper_pose": "gripper_pose",
+    "primitive": "primitive"
+  },
+  "raw_color_order": "BGR per official FMB documentation",
+  "export_png_color_order": "RGB",
+  "depth_unit_status": "UNRESOLVED",
+  "depth_scale": null
+}

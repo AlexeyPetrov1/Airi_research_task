@@ -1,0 +1,9 @@
+# Research inputs and outputs are hashed; preserve their exact bytes.
+/runs/author_davis*/** -text
+/runs/second_episode_geometry/** -text
+/runs/sharerobot_fmb_episode_5201/** -text
+/runs/sharerobot_transfer*/** -text
+/runs/fmb*/** -text
+/runs/fmb* -text
+/data/fmb_second_scene/** -text
+/report/artifacts/** -text

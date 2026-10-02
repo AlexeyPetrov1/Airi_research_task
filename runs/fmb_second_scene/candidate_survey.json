@@ -1,0 +1,442 @@
+[
+  {
+    "source_file": "1_L_L_4_vertical_n_0.npy",
+    "trajectory_id": "0",
+    "N": 142,
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 54
+      },
+      {
+        "primitive": "move_up",
+        "start": 55,
+        "end": 60
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 61,
+        "end": 84
+      },
+      {
+        "primitive": "insert",
+        "start": 85,
+        "end": 141
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 2,
+    "tcp_path_m": 0.9115465828379858,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_horizontal_n_0.npy",
+    "trajectory_id": "0",
+    "N": 302,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "horizontal",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>place_on_fixture>regrasp>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 39
+      },
+      {
+        "primitive": "move_up",
+        "start": 40,
+        "end": 48
+      },
+      {
+        "primitive": "place_on_fixture",
+        "start": 49,
+        "end": 104
+      },
+      {
+        "primitive": "regrasp",
+        "start": 105,
+        "end": 166
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 167,
+        "end": 205
+      },
+      {
+        "primitive": "insert",
+        "start": 206,
+        "end": 301
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 1,
+    "tcp_path_m": 1.756447288992127,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_horizontal_n_4.npy",
+    "trajectory_id": "4",
+    "N": 241,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "horizontal",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>place_on_fixture>regrasp>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 32
+      },
+      {
+        "primitive": "move_up",
+        "start": 33,
+        "end": 40
+      },
+      {
+        "primitive": "place_on_fixture",
+        "start": 41,
+        "end": 99
+      },
+      {
+        "primitive": "regrasp",
+        "start": 100,
+        "end": 158
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 159,
+        "end": 181
+      },
+      {
+        "primitive": "insert",
+        "start": 182,
+        "end": 240
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 1,
+    "tcp_path_m": 1.8511913082087896,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_horizontal_n_8.npy",
+    "trajectory_id": "8",
+    "N": 257,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "horizontal",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>place_on_fixture>regrasp>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 45
+      },
+      {
+        "primitive": "move_up",
+        "start": 46,
+        "end": 54
+      },
+      {
+        "primitive": "place_on_fixture",
+        "start": 55,
+        "end": 127
+      },
+      {
+        "primitive": "regrasp",
+        "start": 128,
+        "end": 186
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 187,
+        "end": 215
+      },
+      {
+        "primitive": "insert",
+        "start": 216,
+        "end": 256
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 1,
+    "tcp_path_m": 1.8701647277876978,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_2.npy",
+    "trajectory_id": "2",
+    "N": 148,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 34
+      },
+      {
+        "primitive": "move_up",
+        "start": 35,
+        "end": 64
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 65,
+        "end": 105
+      },
+      {
+        "primitive": "insert",
+        "start": 106,
+        "end": 147
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 0,
+    "tcp_path_m": 0.8536045733643545,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_3.npy",
+    "trajectory_id": "3",
+    "N": 165,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 39
+      },
+      {
+        "primitive": "move_up",
+        "start": 40,
+        "end": 69
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 70,
+        "end": 104
+      },
+      {
+        "primitive": "insert",
+        "start": 105,
+        "end": 164
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 0,
+    "tcp_path_m": 0.9496898450843612,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_4.npy",
+    "trajectory_id": "4",
+    "N": 190,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 42
+      },
+      {
+        "primitive": "move_up",
+        "start": 43,
+        "end": 72
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 73,
+        "end": 132
+      },
+      {
+        "primitive": "insert",
+        "start": 133,
+        "end": 189
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 0,
+    "tcp_path_m": 0.876446791028427,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_5.npy",
+    "trajectory_id": "5",
+    "N": 172,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 42
+      },
+      {
+        "primitive": "move_up",
+        "start": 43,
+        "end": 72
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 73,
+        "end": 110
+      },
+      {
+        "primitive": "insert",
+        "start": 111,
+        "end": 171
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 0,
+    "tcp_path_m": 0.9697918123969208,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_6.npy",
+    "trajectory_id": "6",
+    "N": 160,
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 31
+      },
+      {
+        "primitive": "move_up",
+        "start": 32,
+        "end": 61
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 62,
+        "end": 103
+      },
+      {
+        "primitive": "insert",
+        "start": 104,
+        "end": 159
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 0,
+    "tcp_path_m": 1.0254015037033863,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  },
+  {
+    "source_file": "2_M_L_7_vertical_n_0.npy",
+    "trajectory_id": "0",
+    "N": 175,
+    "length": "L",
+    "size": "M",
+    "color": 7,
+    "shape": 2,
+    "angle": "vertical",
+    "distractor": "n",
+    "primitive_sequence": "grasp>move_up>go_to_board>insert",
+    "primitive_ranges": [
+      {
+        "primitive": "grasp",
+        "start": 0,
+        "end": 23
+      },
+      {
+        "primitive": "move_up",
+        "start": 24,
+        "end": 53
+      },
+      {
+        "primitive": "go_to_board",
+        "start": 54,
+        "end": 103
+      },
+      {
+        "primitive": "insert",
+        "start": 104,
+        "end": 174
+      }
+    ],
+    "side_1_quality": "PENDING_VISUAL_REVIEW",
+    "side_2_quality": "PENDING_VISUAL_REVIEW",
+    "depth_quality": "PENDING_OBJECT_ROI_REVIEW",
+    "config_difference_count": 2,
+    "tcp_path_m": 1.0912034482982524,
+    "accepted": false,
+    "rejection_reason": "PENDING_SELECTION"
+  }
+]

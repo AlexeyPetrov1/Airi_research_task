@@ -1,0 +1,11 @@
+{
+  "source_FMB_primitive_exact_at_t0": "insert",
+  "source_FMB_primitive_exact_over_window": ["insert"],
+  "source_FMB_file": "1_M_L_3_vertical_n_3.npy",
+  "source_FMB_object_info": {"length": "L", "size": "M", "color": 3, "shape": 1, "angle": "vertical", "distractor": "n"},
+  "model_action_exact": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "model_action_is_verbatim_FMB_metadata": false,
+  "relation": "The frozen English action paraphrases the FMB primitive insert and visible object/board; it is the same model instruction used for the first trial.",
+  "share_robot_episode_mapping_for_this_raw_file": "UNVERIFIED",
+  "action_frozen_before_prediction": true
+}

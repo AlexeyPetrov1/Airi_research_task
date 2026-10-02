@@ -1,0 +1,146 @@
+{
+  "episode": "first",
+  "status": "PASS",
+  "checks": {
+    "text_paraphrase": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "history_identical": true,
+      "text_changed": true
+    },
+    "text_generic": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "history_identical": true,
+      "text_changed": true
+    },
+    "text_counterfactual": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "history_identical": true,
+      "text_changed": true
+    },
+    "no_history": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "XYZ_repeated": true,
+      "RGB_repeated": true
+    },
+    "scale_090": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "all_XYZ_scaled_together": true,
+      "same_t0_2D": true
+    },
+    "scale_110": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "all_XYZ_scaled_together": true,
+      "same_t0_2D": true
+    },
+    "perm_keep_anchor": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "permutation_consistent_XYZ_2D": true,
+      "first_anchor_condition": true
+    },
+    "perm_new_anchor": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "permutation_consistent_XYZ_2D": true,
+      "first_anchor_condition": true
+    },
+    "focal_090": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "reprojects_to_original_history_2D": true,
+      "sensor_depth_unchanged": true
+    },
+    "focal_110": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "reprojects_to_original_history_2D": true,
+      "sensor_depth_unchanged": true
+    },
+    "moge2_raw": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "moge_source_hash": true,
+      "source_depth_unchanged": true,
+      "same_t0_2D": true,
+      "reprojects_to_original_history_2D": true,
+      "XYZ_matches_frozen_source": true
+    },
+    "moge2_scaled": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "moge_source_hash": true,
+      "source_depth_unchanged": true,
+      "same_t0_2D": true,
+      "reprojects_to_original_history_2D": true,
+      "single_H3_scale_all_XYZ": true,
+      "XYZ_matches_frozen_source": true
+    },
+    "moge2_focal_090": {
+      "shape": true,
+      "finite_positive": true,
+      "input_hashes": true,
+      "same_episode_t0": true,
+      "same_source_hash": true,
+      "frozen_historical_frames": true,
+      "moge_source_hash": true,
+      "source_depth_unchanged": true,
+      "same_t0_2D": true,
+      "reprojects_to_original_history_2D": true,
+      "alternative_focal_prescribed": true
+    }
+  }
+}

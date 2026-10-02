@@ -1,0 +1,11 @@
+{
+  "purpose": "same-input repeat before attributing differences between K variants to inputs",
+  "same_model_revision": true,
+  "same_action": true,
+  "same_history_hash": true,
+  "same_raw_text_hash": true,
+  "raw_text_sha256": "230a52ad584fa356a99298eaf02250b289cd7a32c260e112039459ad47c48b9f",
+  "same_prediction_array_exactly": true,
+  "max_abs_prediction_difference_m": 0.0,
+  "status": "PASS"
+}

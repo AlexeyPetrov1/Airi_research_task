@@ -1,0 +1,85 @@
+{
+  "suite": "ablation_suite_v1",
+  "variant": "no_history",
+  "change": "no_history",
+  "source_run": "runs/fmb_second_example_1_M_L_3_vertical_n_3/quantitative_2d_sensor_t130",
+  "t0": 130,
+  "history_steps_original": [
+    128,
+    129,
+    130
+  ],
+  "future_steps_evaluation_only": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "frames": [
+    "frame_130.png",
+    "frame_130.png",
+    "frame_130.png"
+  ],
+  "frame_sha256": [
+    "050f05bce18182d4f62460d3494044be479eee8ba209c14e52dccc1f19edaff7",
+    "050f05bce18182d4f62460d3494044be479eee8ba209c14e52dccc1f19edaff7",
+    "050f05bce18182d4f62460d3494044be479eee8ba209c14e52dccc1f19edaff7"
+  ],
+  "action": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "point_order_model_to_original": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "projection_K": [
+    [
+      152.08360000000002,
+      0.0,
+      124.29079999999999
+    ],
+    [
+      0.0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "K_status": "SUPPORTED_NOT_EXACT; focal changes are prescribed scenarios",
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "seed": 0,
+  "dtype": "bfloat16",
+  "future_horizon_steps": 30,
+  "model_hz_assumed": 15,
+  "source_hz_nominal": 10,
+  "input_only_uses_history": true,
+  "history_3d_sha256": "1924eb239e3cf2eab37d37e31c50b66bed01e6fd303ddcc12c0b5cdc0c03414d",
+  "points_2d_at_t0_sha256": "04ff1ebb07ae159a439ff1031541abcb364182c980d43e477582f806f33ec28d"
+}

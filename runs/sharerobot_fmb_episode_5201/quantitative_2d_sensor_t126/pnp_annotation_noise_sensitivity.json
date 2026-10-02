@@ -1,0 +1,101 @@
+{
+  "method": "MONTE_CARLO_RGB_ANNOTATION_NOISE_PLANAR_IPPE",
+  "noise_sigma_px": 2.0,
+  "draws_per_frame": 300,
+  "seed": 5201,
+  "sensor_depth_used": false,
+  "future_frames_used": false,
+  "branch_conditioning_warning": "Nearest camera XYZ to frozen PnP branch uses the original RGB result as a prior. Minimum-reprojection branch distribution is also reported; neither establishes true pose.",
+  "frames": [
+    {
+      "step": 124,
+      "refined_reference_selected_branch_median_Z_m": 0.17221298604037177,
+      "noiseless_IPPE_reference_median_Z_m": 0.15337754757058636,
+      "noiseless_IPPE_vs_refined_reference_median_XYZ_gap_mm": 22.401618352600973,
+      "valid_draws": 300,
+      "failed_draws": 0,
+      "different_branch_from_minimum_reprojection_draws": 37,
+      "branch_conditioned_median_Z_m": {
+        "median": 0.14476087514413283,
+        "p05": 0.12598818279733726,
+        "p95": 0.15860956039661459,
+        "min": 0.1132537893552851,
+        "max": 0.16710654483354442
+      },
+      "branch_conditioned_median_point_XYZ_shift_mm": {
+        "median": 11.048704118447553,
+        "p05": 2.5524501948751745,
+        "p95": 32.271361610933845,
+        "min": 1.29674538049106,
+        "max": 47.50811128547687
+      },
+      "minimum_reprojection_branch_median_Z_m": {
+        "median": 0.14476087514413283,
+        "p05": 0.12598818279733726,
+        "p95": 0.16073223284302407,
+        "min": 0.1132537893552851,
+        "max": 0.1720717631734831
+      }
+    },
+    {
+      "step": 125,
+      "refined_reference_selected_branch_median_Z_m": 0.17498184310595305,
+      "noiseless_IPPE_reference_median_Z_m": 0.1654097980450628,
+      "noiseless_IPPE_vs_refined_reference_median_XYZ_gap_mm": 11.364599407989644,
+      "valid_draws": 300,
+      "failed_draws": 0,
+      "different_branch_from_minimum_reprojection_draws": 35,
+      "branch_conditioned_median_Z_m": {
+        "median": 0.15568164215219382,
+        "p05": 0.1411669179566477,
+        "p95": 0.16876165775151578,
+        "min": 0.1327422798361291,
+        "max": 0.18512146381188158
+      },
+      "branch_conditioned_median_point_XYZ_shift_mm": {
+        "median": 11.565392378667262,
+        "p05": 2.401785702937547,
+        "p95": 28.174501848808912,
+        "min": 0.8207355292206723,
+        "max": 37.55617133513422
+      },
+      "minimum_reprojection_branch_median_Z_m": {
+        "median": 0.15549906456091706,
+        "p05": 0.1411669179566477,
+        "p95": 0.16912685173905917,
+        "min": 0.13139939449312787,
+        "max": 0.1879268947118888
+      }
+    },
+    {
+      "step": 126,
+      "refined_reference_selected_branch_median_Z_m": 0.19284304323965534,
+      "noiseless_IPPE_reference_median_Z_m": 0.19284304323965534,
+      "noiseless_IPPE_vs_refined_reference_median_XYZ_gap_mm": 2.0816681711721685e-14,
+      "valid_draws": 300,
+      "failed_draws": 0,
+      "different_branch_from_minimum_reprojection_draws": 94,
+      "branch_conditioned_median_Z_m": {
+        "median": 0.1783029015923684,
+        "p05": 0.1566642793192158,
+        "p95": 0.1961338016496942,
+        "min": 0.14231123384967626,
+        "max": 0.20735747564587553
+      },
+      "branch_conditioned_median_point_XYZ_shift_mm": {
+        "median": 17.695416007018565,
+        "p05": 3.4424686933176565,
+        "p95": 42.59571143952401,
+        "min": 1.304417895765651,
+        "max": 60.6133415239252
+      },
+      "minimum_reprojection_branch_median_Z_m": {
+        "median": 0.177651097494531,
+        "p05": 0.15647609338290103,
+        "p95": 0.19812322728548382,
+        "min": 0.14010773502166893,
+        "max": 0.20799650250282142
+      }
+    }
+  ]
+}

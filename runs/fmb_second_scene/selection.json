@@ -1,0 +1,42 @@
+{
+  "selected_source_file": "1_L_L_4_vertical_n_0.npy",
+  "trajectory_id": 0,
+  "selected_source_sha256": "e6c3aa8e518d75b003a78ac405e33aa30c2ddc94dea2901a5ee568e0fb353cdb",
+  "source_path": "F:\\AIRI_task\\data\\fmb\\single_object_manipulation_dataset\\1_L_L_4_vertical_n_0.npy",
+  "single_file_mirror": "https://huggingface.co/datasets/charlesxu0124/functional-manipulation-benchmark/tree/f99fd55c072eea5573523c96aa527aed3c665690/single_object_manipulation_dataset/1_L_L_4_vertical_n_0.npy",
+  "naming_rule_source": "https://functional-manipulation-benchmark.github.io/dataset/index.html",
+  "reference_source_file": "1_M_L_3_vertical_n_2.npy",
+  "reference_trajectory_id": 2,
+  "independence": "Distinct original NPY path, SHA-256, and FMB filename trajectory_id; full source run, not a window",
+  "config_differences": {
+    "size": [
+      "M",
+      "L"
+    ],
+    "color": [
+      3,
+      4
+    ]
+  },
+  "config_difference_count": 2,
+  "comparable_manipulation": "Both vertical starts with grasp > move_up > go_to_board > insert",
+  "shortlist": [
+    "1_L_L_4_vertical_n_0.npy",
+    "2_M_L_7_vertical_n_0.npy"
+  ],
+  "selection_reason": "Yellow large rectangular peg is visibly separable from green board on side_1, has a broad face for multiple points, and its color-segmented interior retains raw depth; side_2 is also usable early. The dark-blue round alternative becomes less separable from its blue board and gripper late in insertion.",
+  "tie_break_seed": 42,
+  "tie_break_used": false,
+  "selection_inputs": [
+    "original raw RGB/depth",
+    "object_info",
+    "primitive",
+    "TCP"
+  ],
+  "model_forecast_used": false,
+  "candidate_depth_evidence": "runs/fmb_second_scene/candidate_depth_roi.json",
+  "visual_evidence": [
+    "runs/fmb_second_scene/candidate_previews/1_L_L_4_vertical_n_0_side_1.png",
+    "runs/fmb_second_scene/candidate_previews/1_L_L_4_vertical_n_0_side_2.png"
+  ]
+}

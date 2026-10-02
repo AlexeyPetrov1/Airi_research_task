@@ -1,0 +1,75 @@
+{
+  "primary": "K_nominal",
+  "variants": {
+    "K_nominal": {
+      "K": [
+        [
+          152.08360000000002,
+          0.0,
+          124.29079999999999
+        ],
+        [
+          0.0,
+          202.77813333333333,
+          129.29733333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "median_input_XYZ_shift_mm": 0.0,
+      "p90_input_XYZ_shift_mm": 0.0,
+      "max_input_XYZ_shift_mm": 0.0,
+      "median_abs_delta_Z_mm": 0.0
+    },
+    "K_simple": {
+      "K": [
+        [
+          152.08360000000002,
+          0.0,
+          124.5908
+        ],
+        [
+          0.0,
+          202.77813333333333,
+          129.53066666666666
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "median_input_XYZ_shift_mm": 0.43789667902671203,
+      "p90_input_XYZ_shift_mm": 0.4795054273545702,
+      "max_input_XYZ_shift_mm": 0.4898505223010747,
+      "median_abs_delta_Z_mm": 0.0
+    },
+    "K_focal_0925": {
+      "K": [
+        [
+          140.67733,
+          0.0,
+          124.29079999999999
+        ],
+        [
+          0.0,
+          187.56977333333333,
+          129.29733333333334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "median_input_XYZ_shift_mm": 9.894686254683364,
+      "p90_input_XYZ_shift_mm": 10.794395134795922,
+      "max_input_XYZ_shift_mm": 11.149887495287759,
+      "median_abs_delta_Z_mm": 0.0
+    }
+  },
+  "K_focal_0925_note": "factor chosen previously using sensor depth; diagnostic only"
+}

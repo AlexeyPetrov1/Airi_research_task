@@ -1,0 +1,25 @@
+{
+  "share_robot_episode": "57_fmb#episode_5201",
+  "source_file": "1_M_L_3_vertical_n_2.npy",
+  "trajectory_id": 2,
+  "trajectory_id_provenance": "https://functional-manipulation-benchmark.github.io/dataset/index.html#file-naming; final filename token",
+  "N": 148,
+  "object_info": {
+    "length": "L",
+    "size": "M",
+    "color": 3,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+  },
+  "primitive_sequence": [
+    "grasp",
+    "move_up",
+    "go_to_board",
+    "insert"
+  ],
+  "source_archive": "https://rail.eecs.berkeley.edu/datasets/fmb/single_object_manipulation.zip",
+  "single_file_mirror": "https://huggingface.co/datasets/charlesxu0124/functional-manipulation-benchmark/tree/f99fd55c072eea5573523c96aa527aed3c665690/single_object_manipulation_dataset/1_M_L_3_vertical_n_2.npy",
+  "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+  "share_robot_mapping_evidence": "runs/sharerobot_fmb_episode_5201/preflight.json"
+}

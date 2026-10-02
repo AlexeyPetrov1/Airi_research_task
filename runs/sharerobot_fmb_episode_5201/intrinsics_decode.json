@@ -1,0 +1,63 @@
+{
+  "source_url": "https://functional-manipulation-benchmark.github.io/static/files/side_1",
+  "file_path": "runs\\sharerobot_fmb_episode_5201\\side_1_intrinsics_official",
+  "file_command_result": "JSON text data",
+  "byte_size": 4356,
+  "first_16_bytes_hex": "7b0a202022626173656c696e65223a20",
+  "sha256": "75041e2345f80d882144ba43247e7e1f9a49b822c64c83d561a03c057f714ccb",
+  "np_load_allow_pickle_false_error": "Cannot load file containing pickled data when allow_pickle=False",
+  "format": "UTF-8 JSON; all numeric values encoded as strings",
+  "key_count": 133,
+  "profile_used": "rectified.2",
+  "intrinsics_resolution_wh": [
+    640,
+    480
+  ],
+  "K_source": [
+    [
+      380.209,
+      0,
+      311.477
+    ],
+    [
+      0,
+      380.209,
+      242.87
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "distortion_coefficients": null,
+  "distortion_note": "No distortion coefficients in JSON; rectified profile suggests a pinhole image but does not identify the active RGB stream.",
+  "stream_metadata": null,
+  "camera_serial_in_calibration": null,
+  "camera_serial_in_official_env_code": "128422270679",
+  "rgb_preprocessing_in_official_env_code": "cv2.resize(rgb, (256, 256)) from 640x480 RealSense color stream",
+  "depth_preprocessing_in_official_env_code": "Aligned to color at 640x480, then stored as depth without a resize call",
+  "published_depth_resolution_wh": [
+    256,
+    256
+  ],
+  "K_256_if_same_full_frame_cv2_resize": [
+    [
+      152.0836,
+      0,
+      124.29079999999999
+    ],
+    [
+      0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_256_status": "CANDIDATE_ONLY_UNDOCUMENTED_DEPTH_TRANSFORM",
+  "blocking_gap": "Official capture code has no transformation taking aligned 640x480 depth to the published 256x256 depth; the JSON has no active color profile/stream metadata. Exact depth-pixel K cannot be reproduced from published code."
+}

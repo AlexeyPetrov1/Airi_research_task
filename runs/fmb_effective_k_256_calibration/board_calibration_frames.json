@@ -1,0 +1,370 @@
+{
+  "camera": "side_1",
+  "image_size": [
+    256,
+    256
+  ],
+  "train_holdout_split_fixed_by_frame_id": true,
+  "frames": [
+    {
+      "source_episode": 2,
+      "frame_id": 0,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.7897934593385576
+    },
+    {
+      "source_episode": 2,
+      "frame_id": 16,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.6703424941397187
+    },
+    {
+      "source_episode": 2,
+      "frame_id": 32,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.8711825044050652
+    },
+    {
+      "source_episode": 2,
+      "frame_id": 48,
+      "split": "train",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.8654479824397117
+    },
+    {
+      "source_episode": 2,
+      "frame_id": 8,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.8711825044050652
+    },
+    {
+      "source_episode": 2,
+      "frame_id": 24,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.7897934593385576
+    },
+    {
+      "source_episode": 2,
+      "frame_id": 40,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.7897934593385576
+    },
+    {
+      "source_episode": 2,
+      "frame_id": 56,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.7897934593385576
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 0,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.1580545106837408
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 16,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.7923911917982835
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 32,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.729604801249305
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 48,
+      "split": "train",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.6197134062219711
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 8,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.705218776411961
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 24,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.733831763242319
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 40,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.7592178326026586
+    },
+    {
+      "source_episode": 3,
+      "frame_id": 56,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5691161007994576
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 0,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.2022348188267722
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 16,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.2708779784329576
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 32,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.2524236038999828
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 48,
+      "split": "train",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.595704686869525
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 8,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.2169776753935138
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 24,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5742064299815068
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 40,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5587662627731091
+    },
+    {
+      "source_episode": 4,
+      "frame_id": 56,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.4436508506145507
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 0,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5220072360809598
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 16,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5619841707799296
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 32,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5154571055518185
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 48,
+      "split": "train",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.6026008893168395
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 8,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5989850060163304
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 24,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.611396949669812
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 40,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.5220072360809598
+    },
+    {
+      "source_episode": 5,
+      "frame_id": 56,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.524844645017501
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 0,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 2.476580269205934
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 16,
+      "split": "train",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.6299367900579809
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 32,
+      "split": "train",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.8312708130965583
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 48,
+      "split": "train",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 2.0791121547810736
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 8,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.929397739351582
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 24,
+      "split": "holdout",
+      "primitive": "grasp",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.9777339030920322
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 40,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 2.067506955034961
+    },
+    {
+      "source_episode": 6,
+      "frame_id": 56,
+      "split": "holdout",
+      "primitive": "move_up",
+      "visibility": "board top, 13 holes and front side visible",
+      "selection_reason": "Static, unobscured board before forecast window",
+      "hole_match_max_px": 1.9142351496017465
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+episode,K_hypothesis,ADE_2D_px,FDE_2D_px,status,evaluation_mode
+first,Nominal,124.14220324136434,225.40028066096016,frozen hypothesis,full_inference
+first,Principal point,117.61186217133691,195.76438613936466,frozen hypothesis,full_inference
+first,Prior focal 0.925*,117.2393439071916,202.96448467766075,previous diagnostic,full_inference
+first,Focal 0.9,121.62806617455712,195.50289437799154,predeclared ±10%,full_inference
+first,Focal 1.1,67.48455738386727,14.064779174183512,predeclared ±10%,full_inference
+second,Nominal,28.259729309485046,46.16124848672261,frozen hypothesis,full_inference
+second,Principal point,28.161038803402164,46.05834380945605,frozen hypothesis,full_inference
+second,Prior focal 0.925*,28.082160740096537,45.98587084330633,previous diagnostic,full_inference
+second,Focal 0.9,28.178353992397774,46.08710745792596,predeclared ±10%,full_inference
+second,Focal 1.1,28.254596420804017,46.15718300705125,predeclared ±10%,full_inference

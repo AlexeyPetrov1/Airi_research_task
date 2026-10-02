@@ -1,0 +1,50 @@
+[
+  {
+    "local_path": "data\\fmb_second_scene\\calibration\\raw\\side_1",
+    "source_url": "https://functional-manipulation-benchmark.github.io/static/files/side_1",
+    "bytes": 4356,
+    "sha256": "75041e2345f80d882144ba43247e7e1f9a49b822c64c83d561a03c057f714ccb"
+  },
+  {
+    "local_path": "data\\fmb_second_scene\\calibration\\raw\\side_2",
+    "source_url": "https://functional-manipulation-benchmark.github.io/static/files/side_2",
+    "bytes": 4358,
+    "sha256": "8c244888b34ccbe1e79de205974ad4b492e8cd0d910b34c8ad949ef4f4c8b247"
+  },
+  {
+    "local_path": "data\\fmb_second_scene\\calibration\\raw\\wrist_1",
+    "source_url": "https://functional-manipulation-benchmark.github.io/static/files/wrist_1",
+    "bytes": 4355,
+    "sha256": "b2fd75cf32a74a5e9f8ac995aaf3fdab3f85b15bc597f14fae10ef265028ce73"
+  },
+  {
+    "local_path": "data\\fmb_second_scene\\calibration\\raw\\wrist_2",
+    "source_url": "https://functional-manipulation-benchmark.github.io/static/files/wrist_2",
+    "bytes": 4354,
+    "sha256": "8c0ed504f391ddb569980bc81847ff52b180ab441f6b6c4bfbc17d5eb9ca874e"
+  },
+  {
+    "local_path": "data\\fmb_second_scene\\object\\peg_official.step",
+    "source_url": "https://functional-manipulation-benchmark.github.io/static/files/peg.step",
+    "bytes": 949267,
+    "sha256": "b1ca6ec178920e87b0e1410aaa5a37f4d1e370ca1d6ab985630434ba5f45e8e7"
+  },
+  {
+    "local_path": "data\\fmb_second_scene\\object\\shape_color_reference.pdf",
+    "source_url": "https://functional-manipulation-benchmark.github.io/static/doc/FMB%20Shape%20and%20Color%20Number%20Reference%20Sheet%20-%20Google%20Docs.pdf",
+    "bytes": 46840,
+    "sha256": "22837e9a2cd712f63fad4722d71c71d6afa5322c9cd5d8d8695e5a5daf41b99c"
+  },
+  {
+    "local_path": "data\\fmb_second_scene\\calibration\\raw\\franka_fmb_env.py",
+    "source_url": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/franka_fmb_env.py",
+    "bytes": 17166,
+    "sha256": "39c81bef944156079fcfcd8f376d655b532c376cfaf95694bc96da54268f70e0"
+  },
+  {
+    "local_path": "data\\fmb_second_scene\\calibration\\raw\\rs_capture.py",
+    "source_url": "https://github.com/rail-berkeley/fmb/blob/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/camera/rs_capture.py",
+    "bytes": 1693,
+    "sha256": "97a3d8572a8514c5c43c58a7e273edbbfa8033e3cca6aa1b29dc37ffdf4d8604"
+  }
+]

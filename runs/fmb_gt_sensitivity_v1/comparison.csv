@@ -1,0 +1,29 @@
+episode,forecast,reference,ADE_2D_px,FDE_2D_px,valid_pairs
+first,MolmoMotion sensor,sequential red-mask ECC,124.1422119140625,225.40029907226562,160
+first,MolmoMotion sensor,RGB dense optical flow,112.48292541503906,215.9068603515625,160
+first,stationary,sequential red-mask ECC,41.07227325439453,74.06314086914062,160
+first,stationary,RGB dense optical flow,27.408639907836914,64.70646667480469,160
+first,constant velocity,sequential red-mask ECC,72.39618682861328,143.61572265625,160
+first,constant velocity,RGB dense optical flow,82.80850219726562,150.3445281982422,160
+first,MolmoMotion PnP,sequential red-mask ECC,41.752425399708784,71.99419879539327,160
+first,MolmoMotion PnP,RGB dense optical flow,29.00162477841861,62.82336106419969,160
+first,MolmoMotion CAD,sequential red-mask ECC,98.34168002912524,135.1197402059874,160
+first,MolmoMotion CAD,RGB dense optical flow,86.53769602236585,125.95872782658007,160
+first,MolmoMotion moge2_raw,sequential red-mask ECC,46.88991928100586,79.70963287353516,160
+first,MolmoMotion moge2_raw,RGB dense optical flow,33.514991760253906,70.21011352539062,160
+first,MolmoMotion moge2_scaled,sequential red-mask ECC,49.10584259033203,83.26227569580078,160
+first,MolmoMotion moge2_scaled,RGB dense optical flow,35.49970245361328,73.77684020996094,160
+second,MolmoMotion sensor,sequential red-mask ECC,28.259729385375977,46.16124725341797,160
+second,MolmoMotion sensor,RGB dense optical flow,28.300085067749023,48.70022201538086,160
+second,stationary,sequential red-mask ECC,28.027782440185547,45.94548034667969,160
+second,stationary,RGB dense optical flow,28.086212158203125,48.49830627441406,160
+second,constant velocity,sequential red-mask ECC,24.850814819335938,39.87733840942383,160
+second,constant velocity,RGB dense optical flow,25.184391021728516,42.68023681640625,160
+second,MolmoMotion PnP,sequential red-mask ECC,29.183623804571862,47.15915053001999,160
+second,MolmoMotion PnP,RGB dense optical flow,29.192555156641976,49.67742348491713,160
+second,MolmoMotion CAD,sequential red-mask ECC,36.643590930428864,46.27558745086408,160
+second,MolmoMotion CAD,RGB dense optical flow,36.82842768407238,48.79963217632458,160
+second,MolmoMotion moge2_raw,sequential red-mask ECC,22.792953491210938,40.65984344482422,160
+second,MolmoMotion moge2_raw,RGB dense optical flow,22.88997459411621,43.01937484741211,160
+second,MolmoMotion moge2_scaled,sequential red-mask ECC,32.3592529296875,50.74702453613281,160
+second,MolmoMotion moge2_scaled,RGB dense optical flow,32.334007263183594,53.214439392089844,160

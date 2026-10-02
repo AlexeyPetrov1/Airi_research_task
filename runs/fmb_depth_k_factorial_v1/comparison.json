@@ -1,0 +1,83 @@
+{
+  "records": [
+    {
+      "episode": "first",
+      "depth_source": "sensor",
+      "K": "nominal",
+      "ADE_2D_px": 124.14220324136434,
+      "FDE_2D_px": 225.40028066096016,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "depth_source": "sensor",
+      "K": "focal_090",
+      "ADE_2D_px": 121.62806617455712,
+      "FDE_2D_px": 195.50289437799154,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "depth_source": "MoGe-2 raw",
+      "K": "nominal",
+      "ADE_2D_px": 46.88991965303116,
+      "FDE_2D_px": 79.70964047947118,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "first",
+      "depth_source": "MoGe-2 raw",
+      "K": "focal_090",
+      "ADE_2D_px": 53.44270549494475,
+      "FDE_2D_px": 89.03179846789908,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "depth_source": "sensor",
+      "K": "nominal",
+      "ADE_2D_px": 28.259729309485046,
+      "FDE_2D_px": 46.16124848672261,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "depth_source": "sensor",
+      "K": "focal_090",
+      "ADE_2D_px": 28.178353992397774,
+      "FDE_2D_px": 46.08710745792596,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "depth_source": "MoGe-2 raw",
+      "K": "nominal",
+      "ADE_2D_px": 22.79295554386008,
+      "FDE_2D_px": 40.65984611959357,
+      "valid_pairs": 160
+    },
+    {
+      "episode": "second",
+      "depth_source": "MoGe-2 raw",
+      "K": "focal_090",
+      "ADE_2D_px": 28.934552514826656,
+      "FDE_2D_px": 47.4070682425498,
+      "valid_pairs": 160
+    }
+  ],
+  "difference_in_K_effects_px": {
+    "first": {
+      "ADE_2D_px": 9.066922908720812,
+      "FDE_2D_px": 39.21954427139653
+    },
+    "second": {
+      "ADE_2D_px": 6.222972288053846,
+      "FDE_2D_px": 6.821363151752884
+    }
+  },
+  "design": "fixed MoGe-2 predicted depth maps from historical RGB conditioned on nominal FOV; K variation changes only unprojection and output projection; sensor depth held fixed likewise",
+  "K_alt": "fx and fy multiplied by 0.9; principal point fixed",
+  "no_future_fitted": true,
+  "calibration_status": "neither K is established as active color calibration",
+  "interpretation_limit": "Two trials and one model do not identify a general depth-by-K interaction or separate network geometry error from camera-model error"
+}

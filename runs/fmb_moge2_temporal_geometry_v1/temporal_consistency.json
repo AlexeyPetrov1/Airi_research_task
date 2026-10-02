@@ -1,0 +1,79 @@
+{
+  "rows": [
+    {
+      "episode": "first",
+      "history_steps": [
+        124,
+        125,
+        126
+      ],
+      "background_depth_m": {
+        "sensor": [
+          0.5351,
+          0.5325,
+          0.5364
+        ],
+        "MoGe raw": [
+          0.6192805171012878,
+          0.690036952495575,
+          0.6249439716339111
+        ],
+        "MoGe H3 scale": [
+          0.5482346722449312,
+          0.61087370269462,
+          0.553248397130061
+        ]
+      },
+      "background_range_mm": {
+        "sensor": 3.9000000000000146,
+        "MoGe raw": 70.75643539428711,
+        "MoGe H3 scale": 62.63903044968888
+      },
+      "median_object_pair_distance_change_mm": {
+        "sensor": 2.9440107345581055,
+        "MoGe raw": 2.2903950214385986,
+        "MoGe H3 scale": 2.027639150619507
+      },
+      "single_scale_fitted_on_H3_only": 0.8852767963879984
+    },
+    {
+      "episode": "second",
+      "history_steps": [
+        128,
+        129,
+        130
+      ],
+      "background_depth_m": {
+        "sensor": [
+          0.5444,
+          0.5364,
+          0.53
+        ],
+        "MoGe raw": [
+          0.7996934652328491,
+          0.766635537147522,
+          0.697582483291626
+        ],
+        "MoGe H3 scale": [
+          0.4573157459036318,
+          0.438411113444283,
+          0.3989221714884578
+        ]
+      },
+      "background_range_mm": {
+        "sensor": 14.399999999999968,
+        "MoGe raw": 102.11098194122314,
+        "MoGe H3 scale": 58.39357441517395
+      },
+      "median_object_pair_distance_change_mm": {
+        "sensor": 1.7042243480682373,
+        "MoGe raw": 3.6547462940216064,
+        "MoGe H3 scale": 2.0900144577026367
+      },
+      "single_scale_fitted_on_H3_only": 0.5718638025514862
+    }
+  ],
+  "background_caveat": "Same-pixel sensor/RGB registration unverified; ROI visually static only",
+  "rigidity_caveat": "Small pair-distance changes test internal consistency, not absolute 3D accuracy",
+  "MoGe_K_caveat": "Output K is conditioned on supplied candidate horizontal FOV"
+}

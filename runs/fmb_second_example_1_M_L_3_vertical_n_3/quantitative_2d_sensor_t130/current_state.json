@@ -1,0 +1,13 @@
+{
+  "source_file": "1_M_L_3_vertical_n_3.npy",
+  "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "source_length": 165,
+  "source_RGB_shape": [165, 256, 256, 3],
+  "source_depth_shape": [165, 256, 256],
+  "dataset_revision": "f99fd55c072eea5573523c96aa527aed3c665690",
+  "same_object_metadata_as_previous_trial": true,
+  "same_raw_episode_as_ShareRobot_episode_5201": false,
+  "verified_ShareRobot_episode_mapping": false,
+  "previous_trial_report": "report/fmb_quantitative_2d_episode_5201.md",
+  "exact_published_color_K_and_depth_resize": "UNVERIFIED"
+}

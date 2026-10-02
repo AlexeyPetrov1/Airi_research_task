@@ -1,0 +1,45 @@
+{
+  "objective_source": "C:/Users/lesha/.codex/attachments/53257fd3-98a1-4623-ae2a-c7f93f0c4746/pasted-text-1.txt",
+  "status": "CALIBRATION_UNRESOLVED",
+  "goal_complete": false,
+  "main_gate": {
+    "requirement": "One effective K_256 must pass holdout RGB, perturbation and subset stability, independent sensor depth, rigidity and TCP checks before histories and MolmoMotion are rebuilt.",
+    "result": "failed",
+    "evidence": [
+      "report/fmb_effective_k_256_calibration.md",
+      "runs/fmb_effective_k_256_calibration/K_comparison.csv",
+      "runs/fmb_effective_k_256_calibration/multi_horizontal_contact_K_probe.json",
+      "runs/fmb_effective_k_256_calibration/multi_episode_tcp_tip_K_probe.json"
+    ]
+  },
+  "numbered_requirements": {
+    "0_source_facts": "verified in previous reports and raw episode files",
+    "1_effective_K": "unresolved: no accepted K_effective_256",
+    "2_frame_selection": "surveyed vertical and horizontal episodes; train and holdout stored for diagnostic fits",
+    "3_physical_CAD_RGB_correspondences": "unmet: no six repeatable physical points per diverse peg frame; board holes and rounded-outline intersections are derived features",
+    "4_annotation_repeatability": "unmet as manual independent repeat marking; segmentation-threshold sensitivity and scenario perturbations are recorded instead",
+    "5_multiframe_bundle": "performed for rounded peg, board, tabletop contact and RGB/TCP candidate models; none accepted",
+    "6_holdout_RGB": "performed for candidates; low error does not identify metric K",
+    "7_K_stability": "failed under 2 px and systematic feature perturbations",
+    "8_distortion": "tested k1,k2; 0.023 px mean holdout gain is below annotation uncertainty",
+    "9_sensor_depth_crosscheck": "performed independently after RGB candidate fits; leading board-only K has 38.14 mm board Z error; other candidates have unstable K",
+    "10_rigidity": "diagnostic old and candidate sensor histories compared; no validated-K history exists",
+    "11_TCP": "RGB/TCP tip and silhouette diagnostics tested; fixed RGB/CAD K candidates give similar heldout tip error and cannot be selected by this check",
+    "12_K_comparison": "completed as diagnostic K_comparison.csv; no winner declared",
+    "13_K_acceptance": "failed: joint validation criteria not met",
+    "14_unidentified_K_followup": "tested more frames, three horizontal peg poses, table contact, RGB/TCP metric motion and planar board model; still unresolved",
+    "15_rebuild_histories": "not started because validated-K gate failed",
+    "16_four_model_runs": "not started because validated-K histories do not exist",
+    "17_recalibrated_2D_metrics": "not computed; prior ADE/FDE marked PRE_CALIBRATION / CONDITIONAL",
+    "18_old_vs_new_table": "new columns cannot be populated without validated-K runs",
+    "19_interpretation": "conditional: present disagreement cannot be attributed specifically to calibration",
+    "20_leakage": "no future evaluation GT or MolmoMotion ADE/FDE was used to estimate or select K",
+    "21_artifacts": "diagnostic calibration and comparison artifacts plus common report exist; validated-K and new-inference artifacts are absent by gate",
+    "22_final_status": "CALIBRATION_UNRESOLVED",
+    "23_completion_questions": "question 1 unresolved; questions 2 and 3 require a validated K and therefore remain unanswered"
+  },
+  "accepted_K_effective_256": null,
+  "recalibrated_histories_exist": false,
+  "recalibrated_molmomotion_runs_exist": false,
+  "next_required_external_anchor": "Active COLOR intrinsics plus the recorded 640x480-to-256x256 transform, or RGB of a metric structure at several genuinely different tilts with unambiguous physical points."
+}

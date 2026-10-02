@@ -1,0 +1,82 @@
+{
+  "all_frozen_input_hashes_match": true,
+  "frozen_file_hashes": {
+    "window_selection.json": true,
+    "experiment_config.json": true,
+    "k_nominal.json": true,
+    "k_sensitivity_variants.json": true,
+    "history_points_2d.npy": true,
+    "points_2d_at_t0.npy": true,
+    "history_sensor_3d.npy": true,
+    "history_depth_probe.json": true,
+    "preflight.json": true
+  },
+  "window_has_full_20_step_future": true,
+  "history_shape": [
+    3,
+    8,
+    3
+  ],
+  "history_2D_shape": [
+    3,
+    8,
+    2
+  ],
+  "history_finite_positive": true,
+  "preflight": "PASS_WITH_CALIBRATION_UNCERTAINTY",
+  "source_sha256_matches_config": null,
+  "source_primitive_exact": "insert",
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_10hz_shape": [
+    8,
+    20,
+    3
+  ],
+  "prediction_finite_positive": true,
+  "model_status": "COMPLETE",
+  "model_prediction_completeness": 1.0,
+  "gt_shape": [
+    8,
+    20,
+    2
+  ],
+  "validity_shape": [
+    8,
+    20
+  ],
+  "reason_shape": [
+    8,
+    20
+  ],
+  "GT_valid_pairs": 160,
+  "GT_total_pairs": 160,
+  "FDE_valid_points": 8,
+  "required_artifacts_present": true,
+  "missing_required_artifacts": [],
+  "all_raw_model_parsers_pass": true,
+  "parser_status_by_variant": {
+    "nominal": "PASS",
+    "nominal_repeat": "PASS",
+    "simple": "PASS",
+    "focal": "PASS",
+    "pnp": "PASS",
+    "cad_silhouette": "PASS"
+  },
+  "nominal_repeatability_pass": true,
+  "full_inference_for_all_three_K": true,
+  "metric_methods_complete": true,
+  "all_methods_common_coverage": true,
+  "time_prediction_grid_15hz_exact": true,
+  "time_GT_grid_10hz_exact": true,
+  "input_freeze_mtime_before_raw_output": true,
+  "GT_mtime_before_raw_output": true,
+  "prediction_used_for_GT_annotation": false,
+  "GT_tracker_code": "annotate_fmb_future_2d.py reads FMB RGB and frozen t0 points, not prediction files",
+  "future_used_for_window_selection_only_before_model": true,
+  "camera_K_and_points_changed_after_prediction": false,
+  "status": "PASS"
+}

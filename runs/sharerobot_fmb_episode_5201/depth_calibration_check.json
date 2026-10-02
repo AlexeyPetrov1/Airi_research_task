@@ -1,0 +1,170 @@
+{
+  "source_depth_key": "obs/side_1_depth",
+  "source_depth_shape": [
+    148,
+    256,
+    256
+  ],
+  "source_depth_dtype": "uint16",
+  "raw_depth_diagnostics": {
+    "0": {
+      "min_raw": 0,
+      "median_raw": 3775.0,
+      "max_raw": 7398,
+      "nonpositive": 2497,
+      "nan": 0,
+      "inf": 0
+    },
+    "37": {
+      "min_raw": 0,
+      "median_raw": 3788.0,
+      "max_raw": 7551,
+      "nonpositive": 2019,
+      "nan": 0,
+      "inf": 0
+    },
+    "74": {
+      "min_raw": 0,
+      "median_raw": 3769.0,
+      "max_raw": 7423,
+      "nonpositive": 2907,
+      "nan": 0,
+      "inf": 0
+    }
+  },
+  "rlds_depth_key": "steps/observation/image_side_1_depth",
+  "rlds_depth_exactly_equals_raw_float32_cast_all_148_steps": true,
+  "depth_unit": "meters_per_count_inferred_geometrically",
+  "depth_scale_m_per_unit": 0.0001,
+  "history_points_total": 24,
+  "history_depth_valid": 0,
+  "history_depth_coverage": 0.0,
+  "selected_history_points": 0,
+  "history_depth_min_m": null,
+  "history_depth_median_m": null,
+  "history_depth_max_m": null,
+  "history_nan": null,
+  "history_inf": null,
+  "history_nonpositive": null,
+  "rgb_resolution": [
+    256,
+    256
+  ],
+  "calibration_resolution": [
+    640,
+    480
+  ],
+  "calibration_source": "https://functional-manipulation-benchmark.github.io/static/files/side_1",
+  "candidate_K_after_full_frame_resize": [
+    [
+      152.0836,
+      0,
+      124.29079999999999
+    ],
+    [
+      0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_transform": "If depth used same full-frame cv2.resize as RGB: f'=s*f, c'=s*(c+0.5)-0.5; unverified",
+  "K_status": "BLOCKED_UNDOCUMENTED_DEPTH_RESIZE_AND_COLOR_PROFILE",
+  "distortion": null,
+  "reprojection_error_px": null,
+  "note": "Scale is independently supported by D405 range and a metric TCP-motion fit. Exact K_256 is still unverified; no metric 3D history is constructed.",
+  "nonzero_raw_percentiles_0_5_50_95_100": [
+    1140.0,
+    2712.0,
+    3750.0,
+    6911.0,
+    37369.0
+  ],
+  "zero_count_all_steps": 503347,
+  "depth_representation": "uint16 count domain derived from RealSense Z16; unpublished 256x256 resampling",
+  "depth_scale_evidence": "INFERRED_GEOMETRIC",
+  "scale_candidate_table": [
+    {
+      "scale_m_per_unit": 0.01,
+      "frame0_median_depth_m": 38.61,
+      "frame0_p05_depth_m": 27.42,
+      "frame0_p95_depth_m": 69.11,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 0.0,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 5.295366292828214,
+        "p95_m": 9.727677371737895,
+        "rmse_m": 5.951739991553274
+      },
+      "ratio_to_tcp_motion_estimate": 102.00064059952547
+    },
+    {
+      "scale_m_per_unit": 0.001,
+      "frame0_median_depth_m": 3.861,
+      "frame0_p05_depth_m": 2.742,
+      "frame0_p95_depth_m": 6.9110000000000005,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 0.0,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 0.48067877548509375,
+        "p95_m": 0.8865513462202683,
+        "rmse_m": 0.5421896820517575
+      },
+      "ratio_to_tcp_motion_estimate": 10.200064059952547
+    },
+    {
+      "scale_m_per_unit": 0.0001,
+      "frame0_median_depth_m": 0.3861,
+      "frame0_p05_depth_m": 0.2742,
+      "frame0_p95_depth_m": 0.6911,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 0.6976792144545441,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 0.006374614821592369,
+        "p95_m": 0.011574907786998104,
+        "rmse_m": 0.007534873907616113
+      },
+      "ratio_to_tcp_motion_estimate": 1.0200064059952547
+    },
+    {
+      "scale_m_per_unit": 5e-05,
+      "frame0_median_depth_m": 0.19305,
+      "frame0_p05_depth_m": 0.1371,
+      "frame0_p95_depth_m": 0.34555,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 1.0,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 0.027866261647456956,
+        "p95_m": 0.04690376830508747,
+        "rmse_m": 0.029818022747707836
+      },
+      "ratio_to_tcp_motion_estimate": 0.5100032029976274
+    }
+  ],
+  "robot_motion_fit": {
+    "estimated_m_per_raw_unit": 9.803859996587632e-05,
+    "residual_median_m": 0.005899465578767017,
+    "residual_p95_m": 0.01134300567090644,
+    "residual_max_m": 0.012230907025348523,
+    "sample_count": 15,
+    "tcp_span_m": 0.17733819147768692,
+    "camera_raw_span": 1802.865301944275,
+    "rotation": [
+      [
+        0.9765493968986887,
+        -0.21411147703024236,
+        0.02252888858189543
+      ],
+      [
+        -0.06966937234762885,
+        -0.41329050508278975,
+        -0.9079301388130587
+      ],
+      [
+        0.2037092388025024,
+        0.8850690559568448,
+        -0.4185156056996736
+      ]
+    ]
+  }
+}

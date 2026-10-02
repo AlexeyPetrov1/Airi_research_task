@@ -1,0 +1,55 @@
+{
+  "status": "EXPLORATORY_UNVALIDATED_GEOMETRY",
+  "source_steps": [
+    130,
+    135,
+    140
+  ],
+  "future_horizon": 30,
+  "ground_truth_30_steps_available": false,
+  "success": true,
+  "stage": "complete",
+  "elapsed_seconds": 206.58,
+  "peak_ram_gib": 22.49,
+  "peak_cuda_allocated_gib": 9.57,
+  "processor_shapes": {
+    "input_ids": [
+      1,
+      582
+    ],
+    "target_tokens": [
+      1,
+      582
+    ],
+    "loss_masks": [
+      1,
+      582
+    ],
+    "position_ids": [
+      1,
+      582
+    ],
+    "images": [
+      1,
+      3,
+      729,
+      588
+    ],
+    "token_pooling": [
+      1,
+      243,
+      9
+    ],
+    "anchor_3d": [
+      1,
+      3
+    ]
+  },
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_all_finite": true,
+  "raw_output_chars": 2621
+}

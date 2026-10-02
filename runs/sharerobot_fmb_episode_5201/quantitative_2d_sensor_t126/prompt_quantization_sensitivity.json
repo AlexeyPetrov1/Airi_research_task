@@ -1,0 +1,214 @@
+{
+  "processor_format": "history XYZ minus last-frame point-0 anchor; each component round(meters*1000) to integer",
+  "source_code": "src/molmo_motion/processor.py::_format_history_tracks",
+  "history_coordinates": 72,
+  "variants": {
+    "simple": {
+      "median_input_XYZ_shift_mm": 0.43789559276774526,
+      "anchor_shift_mm": 0.41883185622282326,
+      "quantized_history_components_changed": 1,
+      "changed_components": [
+        {
+          "history_index": 0,
+          "point_id": 6,
+          "axis": "Y",
+          "nominal_integer": 11,
+          "variant_integer": 10
+        }
+      ],
+      "mean_3D_forecast_disagreement_mm": 21.776216104626656,
+      "final_mean_3D_forecast_disagreement_mm": 40.08491337299347
+    },
+    "focal": {
+      "median_input_XYZ_shift_mm": 9.894685819745064,
+      "anchor_shift_mm": 9.88967064768076,
+      "quantized_history_components_changed": 26,
+      "changed_components": [
+        {
+          "history_index": 0,
+          "point_id": 0,
+          "axis": "X",
+          "nominal_integer": -10,
+          "variant_integer": -11
+        },
+        {
+          "history_index": 0,
+          "point_id": 0,
+          "axis": "Y",
+          "nominal_integer": -16,
+          "variant_integer": -17
+        },
+        {
+          "history_index": 0,
+          "point_id": 1,
+          "axis": "Y",
+          "nominal_integer": -17,
+          "variant_integer": -19
+        },
+        {
+          "history_index": 0,
+          "point_id": 2,
+          "axis": "X",
+          "nominal_integer": -15,
+          "variant_integer": -16
+        },
+        {
+          "history_index": 0,
+          "point_id": 2,
+          "axis": "Y",
+          "nominal_integer": -13,
+          "variant_integer": -15
+        },
+        {
+          "history_index": 0,
+          "point_id": 3,
+          "axis": "Y",
+          "nominal_integer": -10,
+          "variant_integer": -11
+        },
+        {
+          "history_index": 0,
+          "point_id": 4,
+          "axis": "X",
+          "nominal_integer": -11,
+          "variant_integer": -12
+        },
+        {
+          "history_index": 0,
+          "point_id": 4,
+          "axis": "Y",
+          "nominal_integer": -3,
+          "variant_integer": -4
+        },
+        {
+          "history_index": 0,
+          "point_id": 5,
+          "axis": "X",
+          "nominal_integer": 13,
+          "variant_integer": 14
+        },
+        {
+          "history_index": 0,
+          "point_id": 5,
+          "axis": "Y",
+          "nominal_integer": -9,
+          "variant_integer": -10
+        },
+        {
+          "history_index": 0,
+          "point_id": 6,
+          "axis": "X",
+          "nominal_integer": -14,
+          "variant_integer": -15
+        },
+        {
+          "history_index": 0,
+          "point_id": 7,
+          "axis": "X",
+          "nominal_integer": -1,
+          "variant_integer": -2
+        },
+        {
+          "history_index": 1,
+          "point_id": 0,
+          "axis": "Y",
+          "nominal_integer": -12,
+          "variant_integer": -13
+        },
+        {
+          "history_index": 1,
+          "point_id": 1,
+          "axis": "Y",
+          "nominal_integer": -11,
+          "variant_integer": -12
+        },
+        {
+          "history_index": 1,
+          "point_id": 4,
+          "axis": "Y",
+          "nominal_integer": 5,
+          "variant_integer": 6
+        },
+        {
+          "history_index": 1,
+          "point_id": 5,
+          "axis": "X",
+          "nominal_integer": 13,
+          "variant_integer": 14
+        },
+        {
+          "history_index": 1,
+          "point_id": 6,
+          "axis": "Y",
+          "nominal_integer": 18,
+          "variant_integer": 19
+        },
+        {
+          "history_index": 1,
+          "point_id": 7,
+          "axis": "Y",
+          "nominal_integer": 15,
+          "variant_integer": 16
+        },
+        {
+          "history_index": 2,
+          "point_id": 1,
+          "axis": "X",
+          "nominal_integer": 7,
+          "variant_integer": 8
+        },
+        {
+          "history_index": 2,
+          "point_id": 2,
+          "axis": "Y",
+          "nominal_integer": 5,
+          "variant_integer": 6
+        },
+        {
+          "history_index": 2,
+          "point_id": 4,
+          "axis": "Y",
+          "nominal_integer": 14,
+          "variant_integer": 16
+        },
+        {
+          "history_index": 2,
+          "point_id": 5,
+          "axis": "X",
+          "nominal_integer": 23,
+          "variant_integer": 25
+        },
+        {
+          "history_index": 2,
+          "point_id": 5,
+          "axis": "Y",
+          "nominal_integer": 11,
+          "variant_integer": 12
+        },
+        {
+          "history_index": 2,
+          "point_id": 6,
+          "axis": "Y",
+          "nominal_integer": 18,
+          "variant_integer": 20
+        },
+        {
+          "history_index": 2,
+          "point_id": 7,
+          "axis": "X",
+          "nominal_integer": 10,
+          "variant_integer": 11
+        },
+        {
+          "history_index": 2,
+          "point_id": 7,
+          "axis": "Y",
+          "nominal_integer": 20,
+          "variant_integer": 22
+        }
+      ],
+      "mean_3D_forecast_disagreement_mm": 29.546786099672318,
+      "final_mean_3D_forecast_disagreement_mm": 36.649636924266815
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "variant": "nominal_repeat",
+  "status": "COMPLETE",
+  "success": true,
+  "source_steps": [
+    128,
+    129,
+    130
+  ],
+  "t0": 130,
+  "action_text": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "geometry_file": "history_sensor_3d.npy",
+  "geometry_sha256": "a838715aec628ebe038ad22ed0b628c6df01831af3cf9398209ea5a9109ee588",
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "model_pt_sha256_previously_verified": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "torch_version": "2.9.1+cu128",
+  "torch_cuda_version": "12.8",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "seed": 0,
+  "dtype": "bfloat16",
+  "history_source_nominal_hz": 10,
+  "model_prediction_assumed_hz": 15,
+  "temporal_domain_shift": "Three real history observations are 0.1 s apart; model typical training/prediction timing is about 15 Hz. Processor has no explicit timestamp input.",
+  "stage": "complete",
+  "elapsed_seconds": 184.53,
+  "peak_ram_gib": 22.602,
+  "peak_cuda_allocated_gib": 9.566,
+  "peak_cuda_reserved_gib": 10.59,
+  "processor_shapes": {
+    "input_ids": [
+      1,
+      573
+    ],
+    "target_tokens": [
+      1,
+      573
+    ],
+    "loss_masks": [
+      1,
+      573
+    ],
+    "position_ids": [
+      1,
+      573
+    ],
+    "images": [
+      1,
+      3,
+      729,
+      588
+    ],
+    "token_pooling": [
+      1,
+      243,
+      9
+    ],
+    "anchor_3d": [
+      1,
+      3
+    ]
+  },
+  "prediction_seconds": 133.09,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite_pairs": 240,
+  "prediction_completeness": 1.0,
+  "all_positive_Z": true,
+  "all_zero_tensor": false,
+  "raw_output_chars": 2591,
+  "raw_output_sha256": "87bf40a86bf7b48077604cde720350b205265cd58be1b6d1f3418c2733368521",
+  "parser_status": "FULL_8x30x3"
+}

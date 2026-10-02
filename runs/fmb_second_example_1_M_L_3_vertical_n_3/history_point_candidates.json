@@ -1,0 +1,1808 @@
+[
+  {
+    "y_at_t0": 25,
+    "alpha": 0.25,
+    "uv_t0": [
+      150.75,
+      25.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          143,
+          11
+        ],
+        "red": true,
+        "valid_count": 22,
+        "median_raw": 1765.5,
+        "mad_raw": 11.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          146,
+          17
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1728.0,
+        "mad_raw": 12.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          151,
+          25
+        ],
+        "red": true,
+        "valid_count": 21,
+        "median_raw": 1710.0,
+        "mad_raw": 3.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 25,
+    "alpha": 0.35,
+    "uv_t0": [
+      154.25,
+      25.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          146,
+          12
+        ],
+        "red": true,
+        "valid_count": 24,
+        "median_raw": 1755.0,
+        "mad_raw": 11.5
+      },
+      {
+        "step": 125,
+        "uv": [
+          150,
+          17
+        ],
+        "red": true,
+        "valid_count": 12,
+        "median_raw": 1758.0,
+        "mad_raw": 15.5
+      },
+      {
+        "step": 126,
+        "uv": [
+          154,
+          25
+        ],
+        "red": true,
+        "valid_count": 8,
+        "median_raw": 1711.5,
+        "mad_raw": 2.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 25,
+    "alpha": 0.45,
+    "uv_t0": [
+      157.75,
+      25.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          151,
+          12
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1810.0,
+        "mad_raw": 17.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          154,
+          17
+        ],
+        "red": true,
+        "valid_count": 15,
+        "median_raw": 1803.0,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          158,
+          25
+        ],
+        "red": true,
+        "valid_count": 6,
+        "median_raw": 1792.0,
+        "mad_raw": 2.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 25,
+    "alpha": 0.55,
+    "uv_t0": [
+      161.25,
+      25.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          155,
+          12
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1840.0,
+        "mad_raw": 7.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          158,
+          17
+        ],
+        "red": true,
+        "valid_count": 23,
+        "median_raw": 1800.0,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          161,
+          25
+        ],
+        "red": true,
+        "valid_count": 11,
+        "median_raw": 1791.0,
+        "mad_raw": 1.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 25,
+    "alpha": 0.65,
+    "uv_t0": [
+      164.75,
+      25.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          157,
+          12
+        ],
+        "red": true,
+        "valid_count": 23,
+        "median_raw": 1847.0,
+        "mad_raw": 7.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          160,
+          17
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 1797.5,
+        "mad_raw": 2.5
+      },
+      {
+        "step": 126,
+        "uv": [
+          165,
+          25
+        ],
+        "red": true,
+        "valid_count": 21,
+        "median_raw": 1772.0,
+        "mad_raw": 19.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 25,
+    "alpha": 0.75,
+    "uv_t0": [
+      168.25,
+      25.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          160,
+          12
+        ],
+        "red": true,
+        "valid_count": 15,
+        "median_raw": 1856.0,
+        "mad_raw": 1.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          164,
+          17
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 1791.5,
+        "mad_raw": 2.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          168,
+          25
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1794.0,
+        "mad_raw": 12.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 35,
+    "alpha": 0.25,
+    "uv_t0": [
+      151.5,
+      35.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          144,
+          21
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1795.0,
+        "mad_raw": 21.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          147,
+          26
+        ],
+        "red": true,
+        "valid_count": 22,
+        "median_raw": 1754.0,
+        "mad_raw": 24.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          152,
+          35
+        ],
+        "red": true,
+        "valid_count": 1,
+        "median_raw": 1735.0,
+        "mad_raw": 0.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 35,
+    "alpha": 0.35,
+    "uv_t0": [
+      154.9,
+      35.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          147,
+          24
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1859.0,
+        "mad_raw": 6.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          150,
+          29
+        ],
+        "red": true,
+        "valid_count": 21,
+        "median_raw": 1775.0,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          155,
+          35
+        ],
+        "red": true,
+        "valid_count": 2,
+        "median_raw": 1726.0,
+        "mad_raw": 5.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 35,
+    "alpha": 0.45,
+    "uv_t0": [
+      158.3,
+      35.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          157,
+          23
+        ],
+        "red": true,
+        "valid_count": 7,
+        "median_raw": 1854.0,
+        "mad_raw": 2.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          159,
+          28
+        ],
+        "red": true,
+        "valid_count": 13,
+        "median_raw": 1779.0,
+        "mad_raw": 1.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          158,
+          35
+        ],
+        "red": true,
+        "valid_count": 17,
+        "median_raw": 1731.0,
+        "mad_raw": 9.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 35,
+    "alpha": 0.55,
+    "uv_t0": [
+      161.7,
+      35.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          157,
+          24
+        ],
+        "red": true,
+        "valid_count": 10,
+        "median_raw": 1852.5,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          160,
+          28
+        ],
+        "red": true,
+        "valid_count": 16,
+        "median_raw": 1778.0,
+        "mad_raw": 1.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          162,
+          35
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1765.0,
+        "mad_raw": 9.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 35,
+    "alpha": 0.65,
+    "uv_t0": [
+      165.1,
+      35.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          157,
+          26
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 1847.5,
+        "mad_raw": 4.5
+      },
+      {
+        "step": 125,
+        "uv": [
+          160,
+          30
+        ],
+        "red": true,
+        "valid_count": 21,
+        "median_raw": 1779.0,
+        "mad_raw": 2.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          165,
+          35
+        ],
+        "red": true,
+        "valid_count": 22,
+        "median_raw": 1770.0,
+        "mad_raw": 5.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 35,
+    "alpha": 0.75,
+    "uv_t0": [
+      168.5,
+      35.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          160,
+          36
+        ],
+        "red": true,
+        "valid_count": 18,
+        "median_raw": 1823.0,
+        "mad_raw": 5.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          163,
+          39
+        ],
+        "red": true,
+        "valid_count": 8,
+        "median_raw": 1773.5,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          168,
+          35
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 1762.0,
+        "mad_raw": 5.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 45,
+    "alpha": 0.25,
+    "uv_t0": [
+      151.25,
+      45.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          144,
+          47
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      },
+      {
+        "step": 125,
+        "uv": [
+          147,
+          51
+        ],
+        "red": true,
+        "valid_count": 15,
+        "median_raw": 1771.0,
+        "mad_raw": 2.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          151,
+          45
+        ],
+        "red": true,
+        "valid_count": 14,
+        "median_raw": 1790.0,
+        "mad_raw": 5.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 45,
+    "alpha": 0.35,
+    "uv_t0": [
+      154.55,
+      45.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          147,
+          38
+        ],
+        "red": true,
+        "valid_count": 3,
+        "median_raw": 1876.0,
+        "mad_raw": 2.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          150,
+          42
+        ],
+        "red": true,
+        "valid_count": 23,
+        "median_raw": 1812.0,
+        "mad_raw": 12.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          155,
+          45
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 1816.0,
+        "mad_raw": 24.5
+      }
+    ]
+  },
+  {
+    "y_at_t0": 45,
+    "alpha": 0.45,
+    "uv_t0": [
+      157.85,
+      45.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          156,
+          51
+        ],
+        "red": true,
+        "valid_count": 13,
+        "median_raw": 1865.0,
+        "mad_raw": 8.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          157,
+          51
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      },
+      {
+        "step": 126,
+        "uv": [
+          158,
+          45
+        ],
+        "red": true,
+        "valid_count": 19,
+        "median_raw": 1768.0,
+        "mad_raw": 11.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 45,
+    "alpha": 0.55,
+    "uv_t0": [
+      161.15,
+      45.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          156,
+          52
+        ],
+        "red": true,
+        "valid_count": 14,
+        "median_raw": 1866.0,
+        "mad_raw": 10.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          159,
+          50
+        ],
+        "red": true,
+        "valid_count": 2,
+        "median_raw": 1767.5,
+        "mad_raw": 0.5
+      },
+      {
+        "step": 126,
+        "uv": [
+          161,
+          45
+        ],
+        "red": true,
+        "valid_count": 21,
+        "median_raw": 1761.0,
+        "mad_raw": 6.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 45,
+    "alpha": 0.65,
+    "uv_t0": [
+      164.45,
+      45.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          157,
+          37
+        ],
+        "red": true,
+        "valid_count": 15,
+        "median_raw": 1788.0,
+        "mad_raw": 40.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          160,
+          39
+        ],
+        "red": true,
+        "valid_count": 2,
+        "median_raw": 1775.5,
+        "mad_raw": 3.5
+      },
+      {
+        "step": 126,
+        "uv": [
+          164,
+          45
+        ],
+        "red": true,
+        "valid_count": 24,
+        "median_raw": 1780.0,
+        "mad_raw": 9.5
+      }
+    ]
+  },
+  {
+    "y_at_t0": 45,
+    "alpha": 0.75,
+    "uv_t0": [
+      167.75,
+      45.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          160,
+          44
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1916.0,
+        "mad_raw": 8.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          163,
+          48
+        ],
+        "red": true,
+        "valid_count": 24,
+        "median_raw": 1760.0,
+        "mad_raw": 5.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          168,
+          45
+        ],
+        "red": true,
+        "valid_count": 17,
+        "median_raw": 1809.0,
+        "mad_raw": 7.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 55,
+    "alpha": 0.25,
+    "uv_t0": [
+      152.0,
+      55.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          144,
+          44
+        ],
+        "red": true,
+        "valid_count": 10,
+        "median_raw": 1889.0,
+        "mad_raw": 15.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          148,
+          48
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1771.0,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          152,
+          55
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1934.0,
+        "mad_raw": 5.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 55,
+    "alpha": 0.35,
+    "uv_t0": [
+      155.2,
+      55.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          147,
+          53
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1919.0,
+        "mad_raw": 17.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          150,
+          56
+        ],
+        "red": true,
+        "valid_count": 1,
+        "median_raw": 1962.0,
+        "mad_raw": 0.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          155,
+          55
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1927.0,
+        "mad_raw": 5.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 55,
+    "alpha": 0.45,
+    "uv_t0": [
+      158.4,
+      55.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          155,
+          67
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2038.0,
+        "mad_raw": 19.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          157,
+          63
+        ],
+        "red": true,
+        "valid_count": 4,
+        "median_raw": 1932.0,
+        "mad_raw": 5.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          158,
+          55
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1911.0,
+        "mad_raw": 12.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 55,
+    "alpha": 0.55,
+    "uv_t0": [
+      161.6,
+      55.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          155,
+          66
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2026.0,
+        "mad_raw": 13.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          159,
+          60
+        ],
+        "red": true,
+        "valid_count": 14,
+        "median_raw": 1909.5,
+        "mad_raw": 25.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          162,
+          55
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1891.0,
+        "mad_raw": 8.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 55,
+    "alpha": 0.65,
+    "uv_t0": [
+      164.8,
+      55.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          157,
+          46
+        ],
+        "red": true,
+        "valid_count": 15,
+        "median_raw": 1912.0,
+        "mad_raw": 5.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          161,
+          51
+        ],
+        "red": true,
+        "valid_count": 7,
+        "median_raw": 1771.0,
+        "mad_raw": 6.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          165,
+          55
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 1899.0,
+        "mad_raw": 3.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 55,
+    "alpha": 0.75,
+    "uv_t0": [
+      168.0,
+      55.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          161,
+          58
+        ],
+        "red": true,
+        "valid_count": 7,
+        "median_raw": 1965.0,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          165,
+          58
+        ],
+        "red": true,
+        "valid_count": 18,
+        "median_raw": 1882.5,
+        "mad_raw": 11.5
+      },
+      {
+        "step": 126,
+        "uv": [
+          168,
+          55
+        ],
+        "red": true,
+        "valid_count": 5,
+        "median_raw": 1902.0,
+        "mad_raw": 0.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 65,
+    "alpha": 0.25,
+    "uv_t0": [
+      150.25,
+      65.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          133,
+          94
+        ],
+        "red": false,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      },
+      {
+        "step": 125,
+        "uv": [
+          134,
+          94
+        ],
+        "red": false,
+        "valid_count": 15,
+        "median_raw": 4023.0,
+        "mad_raw": 22.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          150,
+          65
+        ],
+        "red": true,
+        "valid_count": 5,
+        "median_raw": 1948.0,
+        "mad_raw": 4.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 65,
+    "alpha": 0.35,
+    "uv_t0": [
+      153.55,
+      65.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          145,
+          55
+        ],
+        "red": true,
+        "valid_count": 24,
+        "median_raw": 1939.0,
+        "mad_raw": 18.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          149,
+          58
+        ],
+        "red": true,
+        "valid_count": 9,
+        "median_raw": 1965.0,
+        "mad_raw": 2.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          154,
+          65
+        ],
+        "red": true,
+        "valid_count": 15,
+        "median_raw": 1951.0,
+        "mad_raw": 7.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 65,
+    "alpha": 0.45,
+    "uv_t0": [
+      156.85,
+      65.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          149,
+          86
+        ],
+        "red": true,
+        "valid_count": 8,
+        "median_raw": 2201.5,
+        "mad_raw": 9.5
+      },
+      {
+        "step": 125,
+        "uv": [
+          153,
+          81
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2194.0,
+        "mad_raw": 5.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          157,
+          65
+        ],
+        "red": true,
+        "valid_count": 16,
+        "median_raw": 1964.0,
+        "mad_raw": 4.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 65,
+    "alpha": 0.55,
+    "uv_t0": [
+      160.15,
+      65.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          155,
+          76
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2062.0,
+        "mad_raw": 3.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          158,
+          69
+        ],
+        "red": true,
+        "valid_count": 22,
+        "median_raw": 1974.0,
+        "mad_raw": 15.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          160,
+          65
+        ],
+        "red": true,
+        "valid_count": 12,
+        "median_raw": 1966.0,
+        "mad_raw": 8.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 65,
+    "alpha": 0.65,
+    "uv_t0": [
+      163.45,
+      65.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          155,
+          71
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2068.0,
+        "mad_raw": 2.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          159,
+          71
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 1963.0,
+        "mad_raw": 8.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          163,
+          65
+        ],
+        "red": true,
+        "valid_count": 6,
+        "median_raw": 1935.0,
+        "mad_raw": 2.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 65,
+    "alpha": 0.75,
+    "uv_t0": [
+      166.75,
+      65.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          158,
+          80
+        ],
+        "red": true,
+        "valid_count": 6,
+        "median_raw": 2137.0,
+        "mad_raw": 26.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          162,
+          80
+        ],
+        "red": true,
+        "valid_count": 4,
+        "median_raw": 2268.0,
+        "mad_raw": 0.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          167,
+          65
+        ],
+        "red": true,
+        "valid_count": 5,
+        "median_raw": 1912.0,
+        "mad_raw": 10.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 75,
+    "alpha": 0.25,
+    "uv_t0": [
+      150.25,
+      75.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          121,
+          47
+        ],
+        "red": false,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      },
+      {
+        "step": 125,
+        "uv": [
+          124,
+          47
+        ],
+        "red": false,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      },
+      {
+        "step": 126,
+        "uv": [
+          150,
+          75
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      }
+    ]
+  },
+  {
+    "y_at_t0": 75,
+    "alpha": 0.35,
+    "uv_t0": [
+      153.55,
+      75.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          119,
+          61
+        ],
+        "red": false,
+        "valid_count": 12,
+        "median_raw": 6065.5,
+        "mad_raw": 24.5
+      },
+      {
+        "step": 125,
+        "uv": [
+          119,
+          60
+        ],
+        "red": false,
+        "valid_count": 25,
+        "median_raw": 6211.0,
+        "mad_raw": 70.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          154,
+          75
+        ],
+        "red": true,
+        "valid_count": 16,
+        "median_raw": 2128.0,
+        "mad_raw": 4.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 75,
+    "alpha": 0.45,
+    "uv_t0": [
+      156.85,
+      75.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          150,
+          94
+        ],
+        "red": true,
+        "valid_count": 24,
+        "median_raw": 2244.0,
+        "mad_raw": 15.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          155,
+          92
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2189.0,
+        "mad_raw": 6.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          157,
+          75
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2134.0,
+        "mad_raw": 7.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 75,
+    "alpha": 0.55,
+    "uv_t0": [
+      160.15,
+      75.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          155,
+          79
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 2111.0,
+        "mad_raw": 33.5
+      },
+      {
+        "step": 125,
+        "uv": [
+          157,
+          77
+        ],
+        "red": true,
+        "valid_count": 20,
+        "median_raw": 2152.5,
+        "mad_raw": 51.5
+      },
+      {
+        "step": 126,
+        "uv": [
+          160,
+          75
+        ],
+        "red": true,
+        "valid_count": 19,
+        "median_raw": 2143.0,
+        "mad_raw": 9.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 75,
+    "alpha": 0.65,
+    "uv_t0": [
+      163.45,
+      75.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          156,
+          80
+        ],
+        "red": true,
+        "valid_count": 13,
+        "median_raw": 2138.0,
+        "mad_raw": 26.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          159,
+          80
+        ],
+        "red": true,
+        "valid_count": 17,
+        "median_raw": 2266.0,
+        "mad_raw": 7.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          163,
+          75
+        ],
+        "red": true,
+        "valid_count": 4,
+        "median_raw": 2151.0,
+        "mad_raw": 8.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 75,
+    "alpha": 0.75,
+    "uv_t0": [
+      166.75,
+      75.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          159,
+          91
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      },
+      {
+        "step": 125,
+        "uv": [
+          163,
+          91
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2176.0,
+        "mad_raw": 9.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          167,
+          75
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      }
+    ]
+  },
+  {
+    "y_at_t0": 85,
+    "alpha": 0.25,
+    "uv_t0": [
+      151.5,
+      85.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          96,
+          60
+        ],
+        "red": false,
+        "valid_count": 25,
+        "median_raw": 5895.0,
+        "mad_raw": 16.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          96,
+          60
+        ],
+        "red": false,
+        "valid_count": 25,
+        "median_raw": 6024.0,
+        "mad_raw": 145.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          152,
+          85
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      }
+    ]
+  },
+  {
+    "y_at_t0": 85,
+    "alpha": 0.35,
+    "uv_t0": [
+      154.5,
+      85.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          146,
+          84
+        ],
+        "red": true,
+        "valid_count": 23,
+        "median_raw": 2183.0,
+        "mad_raw": 9.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          150,
+          83
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2176.0,
+        "mad_raw": 9.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          154,
+          85
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      }
+    ]
+  },
+  {
+    "y_at_t0": 85,
+    "alpha": 0.45,
+    "uv_t0": [
+      157.5,
+      85.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          149,
+          89
+        ],
+        "red": true,
+        "valid_count": 19,
+        "median_raw": 2216.0,
+        "mad_raw": 4.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          153,
+          86
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2192.0,
+        "mad_raw": 4.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          158,
+          85
+        ],
+        "red": true,
+        "valid_count": 9,
+        "median_raw": 2130.0,
+        "mad_raw": 6.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 85,
+    "alpha": 0.55,
+    "uv_t0": [
+      160.5,
+      85.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          137,
+          107
+        ],
+        "red": false,
+        "valid_count": 22,
+        "median_raw": 2515.5,
+        "mad_raw": 11.5
+      },
+      {
+        "step": 125,
+        "uv": [
+          139,
+          83
+        ],
+        "red": true,
+        "valid_count": 19,
+        "median_raw": 2363.0,
+        "mad_raw": 35.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          160,
+          85
+        ],
+        "red": true,
+        "valid_count": 12,
+        "median_raw": 2128.0,
+        "mad_raw": 5.0
+      }
+    ]
+  },
+  {
+    "y_at_t0": 85,
+    "alpha": 0.65,
+    "uv_t0": [
+      163.5,
+      85.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          155,
+          88
+        ],
+        "red": true,
+        "valid_count": 2,
+        "median_raw": 2229.0,
+        "mad_raw": 0.0
+      },
+      {
+        "step": 125,
+        "uv": [
+          158,
+          88
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2174.0,
+        "mad_raw": 7.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          164,
+          85
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      }
+    ]
+  },
+  {
+    "y_at_t0": 85,
+    "alpha": 0.75,
+    "uv_t0": [
+      166.5,
+      85.0
+    ],
+    "frames": [
+      {
+        "step": 124,
+        "uv": [
+          158,
+          91
+        ],
+        "red": true,
+        "valid_count": 0,
+        "median_raw": null,
+        "mad_raw": null
+      },
+      {
+        "step": 125,
+        "uv": [
+          162,
+          91
+        ],
+        "red": true,
+        "valid_count": 25,
+        "median_raw": 2170.0,
+        "mad_raw": 6.0
+      },
+      {
+        "step": 126,
+        "uv": [
+          166,
+          85
+        ],
+        "red": true,
+        "valid_count": 3,
+        "median_raw": 2174.0,
+        "mad_raw": 0.0
+      }
+    ]
+  }
+]
