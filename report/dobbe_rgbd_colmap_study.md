@@ -1,5 +1,7 @@
 # Dobb·E episode 3651: проверка RGB-only COLMAP калибровки измеренной глубиной
 
+**Уточнение после проверки настроек:** результаты ниже получены legacy конфигурацией с произвольным focal prior, ранним principal point refinement, ослабленными mapper thresholds и без foreground масок. `9/96` не доказывает неработоспособность self-calibration на сцене A. Выполнены [четыре исправленных контроля](dobbe_colmap_clean_rerun.md): крупнейшие модели 24/243 (oracle), 4/96 (causal), 0/20 (stride 5), 18/96 (усиленный matching). Новые K проверены с переводом COLMAP→OpenCV −0.5 px; старые таблицы ниже сохранены как исторические и использовали прямую передачу pixel coordinates. Формальный gate остаётся BLOCKED с ограниченным выводом нового отчёта.
+
 Дата: 2026-10-02. **Итог строгого геометрического gate: `BLOCKED`, `molmo_ready=false`.** Для основной сцены RGB-only COLMAP не дал устойчивую `K`; измеренная depth и опубликованные poses не подтвердили согласованную метрическую реконструкцию. Достоверные полные 3D GT/ADE/FDE не получены. По просьбе пользователя отдельно построены [приближённые `(3,8,3)` и прогноз MolmoMotion](dobbe_approx_colmap_f2nerf_molmo.md) с частичной оценкой; они не меняют формальный gate. Решение записано в [decision.json](../runs/dobbe_rgbd_study/decision.json). При повторной проверке был исправлен пропущенный поворот RGB в геометрии поз; приведённые ниже числа уже пересчитаны.
 
 Это продолжает [восстановление исходной записи](dobbe_episode_3651_recovery.md). Исходную depth повторно не скачивали.
@@ -101,13 +103,13 @@ OPENCV distortion также нестабилен: например, `k2=97.45` 
 
 ```bash
 python scripts/write_dobbe_protocol.py
-python scripts/run_dobbe_rgb_colmap.py --scene main --model PINHOLE --subset all
-python scripts/run_dobbe_rgb_colmap.py --scene main --model OPENCV --subset all
+python scripts/run_dobbe_rgb_colmap.py --profile legacy --scene main --model PINHOLE --subset all
+python scripts/run_dobbe_rgb_colmap.py --profile legacy --scene main --model OPENCV --subset all
 # Повторить обе модели с --subset even и --subset odd.
-python scripts/run_dobbe_rgb_colmap.py --scene second --model PINHOLE --subset all --fixed-pp --init-pair 62 107
+python scripts/run_dobbe_rgb_colmap.py --profile legacy --scene second --model PINHOLE --subset all --fixed-pp --init-pair 62 107
 # Отдельная физически мотивированная диагностика пропорции RGB:
-python scripts/run_dobbe_rgb_colmap.py --scene main --model SIMPLE_PINHOLE --subset all --fixed-pp --aspect-rectified
-python scripts/run_dobbe_rgb_colmap.py --scene second --model SIMPLE_PINHOLE --subset all --fixed-pp --aspect-rectified
+python scripts/run_dobbe_rgb_colmap.py --profile legacy --scene main --model SIMPLE_PINHOLE --subset all --fixed-pp --aspect-rectified
+python scripts/run_dobbe_rgb_colmap.py --profile legacy --scene second --model SIMPLE_PINHOLE --subset all --fixed-pp --aspect-rectified
 # Повторить этот опыт с --subset even и --subset odd.
 python scripts/check_dobbe_rgb_depth_alignment.py
 python scripts/validate_dobbe_geometry.py --scene main

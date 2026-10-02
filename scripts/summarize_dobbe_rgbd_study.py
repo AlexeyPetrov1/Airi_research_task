@@ -86,7 +86,7 @@ def main() -> None:
         "status": "BLOCKED", "molmo_ready": False,
         "protocol": "protocol.json",
         "reasons": [
-            "Main-scene RGB-only PINHOLE and OPENCV intrinsics are unstable across all/even/odd calibration subsets; sparse registration covers at most 9 of 96 frames.",
+            "Legacy main-scene runs cover at most 9/96 and have unstable intrinsics, but used a guessed focal prior, early principal-point refinement, relaxed mapper thresholds and no foreground masks; this is not proof of general COLMAP self-calibration failure.",
             "Main-scene COLMAP intrinsics improve measured-depth median 3D error modestly but greatly worsen reprojection compared with naive K; the estimated intrinsics are physically implausible. Undoing the documented RGB aspect stretch and fitting SIMPLE_PINHOLE also yields no stable main-scene model.",
             "Depth Z-versus-ray remains unresolved to a trustworthy metric precision; RGB-depth spatial overlay alone cannot settle it. Accounting for the exporter's clockwise RGB rotation and the source-defined P branch supports camera-to-world labels.",
             "Second-scene fixed-center PINHOLE and aspect-rectified SIMPLE_PINHOLE register the full RGB prefix and improve median static 3D and reprojection errors, but their even subsets collapse and P90 static/reprojection errors remain high. They do not validate the main-scene K.",
@@ -126,6 +126,12 @@ def main() -> None:
         "future_prediction_metrics_computed": approximate_future is not None,
         "validated_points_3d_history_created": False,
         "validated_full_3d_gt_and_metrics": False,
+        "colmap_profile_for_historical_evidence": "legacy",
+        "historical_pixel_convention": "Legacy metrics passed COLMAP principal points directly to OpenCV; corrected clean validation subtracts 0.5 px",
+        "clean_rerun": (
+            "../dobbe_colmap_clean_rerun_v1/clean_decision.json"
+            if (OUT.parent / "dobbe_colmap_clean_rerun_v1/clean_decision.json").exists() else None),
+        "claim_scope": "No independently validated main K has been obtained from recorded candidates; impossibility of COLMAP self-calibration is not established",
         "exploratory_approximate_run": (
             "approx_history/manifest.json" if approximate_model else None),
         "exploratory_prediction_status": (

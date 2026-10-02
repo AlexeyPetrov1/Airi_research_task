@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "design_rgb_frames_causal_only": [
+    0,
+    32,
+    64,
+    95
+  ],
+  "camera_border_px": [
+    10,
+    10,
+    35,
+    21
+  ],
+  "apparatus_corridors_xy": [
+    [
+      [
+        0,
+        256
+      ],
+      [
+        0,
+        209
+      ],
+      [
+        46,
+        146
+      ],
+      [
+        74,
+        148
+      ],
+      [
+        40,
+        256
+      ]
+    ],
+    [
+      [
+        44,
+        146
+      ],
+      [
+        76,
+        146
+      ],
+      [
+        134,
+        256
+      ],
+      [
+        87,
+        256
+      ]
+    ],
+    [
+      [
+        151,
+        256
+      ],
+      [
+        161,
+        144
+      ],
+      [
+        192,
+        146
+      ],
+      [
+        256,
+        238
+      ],
+      [
+        256,
+        256
+      ]
+    ],
+    [
+      [
+        90,
+        256
+      ],
+      [
+        158,
+        145
+      ],
+      [
+        191,
+        145
+      ],
+      [
+        134,
+        256
+      ]
+    ]
+  ],
+  "red_hsv_hue": [
+    [
+      0,
+      12
+    ],
+    [
+      168,
+      179
+    ]
+  ],
+  "red_hsv_min_saturation": 70,
+  "red_hsv_min_value": 40,
+  "red_foreground_dilation_radius_px": 10,
+  "interpretation": "Conservative apparatus/hand corridors and RGB red cup; imperfect foreground mask, not learned segmentation",
+  "future_used_to_choose_policy": false,
+  "labels_or_depth_used": false
+}

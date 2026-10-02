@@ -1,0 +1,114 @@
+{
+  "images": 20,
+  "pair_rows": 190,
+  "raw_matches": 1137,
+  "verified_inliers": 984,
+  "nonzero_verified_pairs": 46,
+  "geometry_config_counts": {
+    "6": 42,
+    "1": 144,
+    "3": 3,
+    "7": 1
+  },
+  "by_threshold": {
+    "15": {
+      "pairs": 46,
+      "largest_component": 20,
+      "component_sizes": [
+        20
+      ],
+      "isolated_images": 0
+    },
+    "30": {
+      "pairs": 4,
+      "largest_component": 2,
+      "component_sizes": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "isolated_images": 12
+    },
+    "50": {
+      "pairs": 0,
+      "largest_component": 1,
+      "component_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "isolated_images": 20
+    },
+    "100": {
+      "pairs": 0,
+      "largest_component": 1,
+      "component_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "isolated_images": 20
+    }
+  },
+  "keypoints_median": 49.5,
+  "mask_violations": 0,
+  "initial_cameras": [
+    {
+      "camera_id": 1,
+      "params": [
+        307.2,
+        307.2,
+        128.0,
+        128.0
+      ],
+      "has_prior_focal_length": false
+    }
+  ]
+}

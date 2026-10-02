@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checks": [
+    "243 RGB and mask hashes",
+    "causal/oracle split",
+    "full and causal settings identical",
+    "actual focal prior false",
+    "installed mapper defaults",
+    "actual masked keypoints",
+    "CSV versus SQLite verified inliers",
+    "threshold graph components",
+    "sparse model counts",
+    "COLMAP to OpenCV half pixel",
+    "no oracle K validation or transfer",
+    "existing approximate input preserved"
+  ],
+  "controls": [
+    {
+      "run": "main_full-oracle_pinhole_masked_stride1_all",
+      "verified": true,
+      "config_sha256": "8a96dfc4d1a814ef6ca7810e23539c4754748d5812dd8d7b20ffae204e906c68"
+    },
+    {
+      "run": "main_causal_pinhole_masked_stride1_all",
+      "verified": true,
+      "config_sha256": "e5c8b78d5d33f65967c2685495b00251e9adb8240a96f43d57186d0d795106cf"
+    },
+    {
+      "run": "main_causal_pinhole_masked_stride5_all",
+      "verified": true,
+      "config_sha256": "ecbeba01c5b3824240a345b4f9eb012e7a7e5bba82da8579e695b0eb59fc4543"
+    },
+    {
+      "run": "main_causal_pinhole_masked_stride1_all_dsp_affine_guided",
+      "verified": true,
+      "config_sha256": "d5e5d4430c4965e09ff5c4119886e0ed205b064deffb3ff48dbe9b80c5fb5be2"
+    }
+  ]
+}

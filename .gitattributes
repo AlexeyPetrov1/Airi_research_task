@@ -7,3 +7,4 @@
 /runs/fmb* -text
 /data/fmb_second_scene/** -text
 /report/artifacts/** -text
+/runs/dobbe_colmap_clean_rerun_v1/** -text

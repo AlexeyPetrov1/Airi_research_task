@@ -1,7 +1,8 @@
-"""RGB-only COLMAP calibration for causal HoNY prefixes.
+"""RGB-only COLMAP controls with a clean default and an explicit legacy profile.
 
 Run via PyCOLMAP (the official COLMAP Python bindings). No depth or labels are
 loaded by this script. Each model/subset gets an independent database and SfM.
+Use --profile legacy to reproduce the historical nonstandard configurations.
 """
 
 from __future__ import annotations
@@ -76,7 +77,7 @@ def save_rgb_prefix(scene: str, aspect_rectified: bool = False) -> list[int]:
     return list(range(end))
 
 
-def main() -> None:
+def legacy_main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--scene", choices=SCENES, required=True)
     parser.add_argument("--model", choices=["PINHOLE", "OPENCV",
@@ -206,6 +207,20 @@ def main() -> None:
     print(json.dumps({"run": str(run_dir),
                       "registered": [r["registered"] for r in results],
                       "cameras": [r["cameras"] for r in results]}, indent=2))
+
+
+def main() -> None:
+    """Use the corrected pipeline unless reproducing historical runs explicitly."""
+    import sys
+    profile_parser = argparse.ArgumentParser(add_help=False)
+    profile_parser.add_argument("--profile", choices=("clean", "legacy"), default="clean")
+    profile_args, remaining = profile_parser.parse_known_args()
+    sys.argv = [sys.argv[0], *remaining]
+    if profile_args.profile == "legacy":
+        legacy_main()
+    else:
+        from dobbe_colmap_clean import main as clean_main
+        clean_main()
 
 
 if __name__ == "__main__":

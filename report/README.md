@@ -1,5 +1,6 @@
 # Research reports
 
+- [Dobb·E: corrected COLMAP controls, four reruns and verified match graphs](dobbe_colmap_clean_rerun.md) — clean defaults, frozen foreground masks, causal versus oracle, depth validation.
 - [Dobb·E episode 3651: approximate COLMAP/F2-NeRF transform and MolmoMotion run](dobbe_approx_colmap_f2nerf_molmo.md) — user-requested exploratory `(3,8,3)` and partial future RGB-D evaluation.
 - [Dobb·E episode 3651 RGB-only COLMAP and measured-depth geometry study](dobbe_rgbd_colmap_study.md) — causal protocol, independent second scene, geometry gate `BLOCKED`.
 - [MolmoMotion on FMB: historical 3D geometry and observed 2D future](fmb_geometry_forecast_study.md) — combined two-episode study, figures, videos and reproducibility notes.

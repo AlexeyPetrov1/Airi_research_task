@@ -1,0 +1,45 @@
+{
+  "run": "main_causal_pinhole_masked_stride5_all",
+  "status": "COMPLETE",
+  "input_frames": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95
+  ],
+  "eligible_for_main_K": true,
+  "config_sha256": "ecbeba01c5b3824240a345b4f9eb012e7a7e5bba82da8579e695b0eb59fc4543",
+  "rgb_only": true,
+  "elapsed_seconds_this_execution": 1.12,
+  "reconstructions": [],
+  "best_registered": 0,
+  "match_graph": "match_graph.json",
+  "initial_cameras": [
+    {
+      "camera_id": 1,
+      "params": [
+        307.2,
+        307.2,
+        128.0,
+        128.0
+      ],
+      "has_prior_focal_length": false
+    }
+  ]
+}

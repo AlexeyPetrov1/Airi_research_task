@@ -1,0 +1,584 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NO_K_FIT",
+  "oracle_K_scored": false,
+  "correspondences_source": "runs/dobbe_rgbd_study/main_static_correspondences.json",
+  "correspondences_source_sha256": "6bbdd58d56cd996f2a08b498975da72e72b2e40ce3c3e143edaf85c8d83f5fd8",
+  "selection": "Historical RGB RANSAC matches; both endpoints must pass frozen foreground masks; identical samples for all K",
+  "calibration_pairs_only": [
+    [
+      0,
+      20
+    ],
+    [
+      20,
+      40
+    ],
+    [
+      40,
+      60
+    ],
+    [
+      60,
+      80
+    ],
+    [
+      80,
+      95
+    ]
+  ],
+  "point_counts_before": [
+    24,
+    9,
+    12,
+    14,
+    35
+  ],
+  "point_counts_after": [
+    5,
+    5,
+    3,
+    4,
+    5
+  ],
+  "limitations": "Small filtered sample; RGB matching is not a manually verified static landmark annotation. Depth Z versus ray remains unresolved. These scores can reject a candidate, not certify calibration.",
+  "candidates": {
+    "naive_OpenCV_200": {
+      "camera": {
+        "model": "PINHOLE",
+        "params": [
+          200,
+          200,
+          128,
+          128
+        ]
+      },
+      "variants": {
+        "c2w_z": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.07292428272326643,
+          "p90_3d_m": 0.14874351786565848,
+          "median_reprojection_px": 6.403315316827911,
+          "p90_reprojection_px": 11.202915277562608,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.05322964084534024,
+              "median_px": 6.032437617101781,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.0785186886859555,
+              "median_px": 6.403315316827911,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.03734442702080396,
+              "median_px": 6.155038526148926,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.07420695760073906,
+              "median_px": 10.733056789338278,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.14921592366021152,
+              "median_px": 11.206983374153666,
+              "positive_z": 5
+            }
+          ]
+        },
+        "c2w_ray": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.07311609212994413,
+          "p90_3d_m": 0.1452505934220055,
+          "median_reprojection_px": 6.197094328565286,
+          "p90_reprojection_px": 12.071587842856088,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.05452023876972614,
+              "median_px": 6.003269914990504,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.0809491997772226,
+              "median_px": 5.903137442293253,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.03654115318073552,
+              "median_px": 5.539586958470952,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.06636367728719522,
+              "median_px": 11.600076937500397,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.1454340432991191,
+              "median_px": 11.53081721899262,
+              "positive_z": 5
+            }
+          ]
+        }
+      }
+    },
+    "main_causal_pinhole_masked_stride1_all_dsp_affine_guided_model3": {
+      "camera": {
+        "model": "PINHOLE",
+        "params": [
+          1781.6948701123952,
+          2699.5274883510565,
+          127.5,
+          127.5
+        ],
+        "registered": 18,
+        "source": "main_causal_pinhole_masked_stride1_all_dsp_affine_guided/summary.json"
+      },
+      "variants": {
+        "c2w_z": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.056415051516179954,
+          "p90_3d_m": 0.13961659942626656,
+          "median_reprojection_px": 75.04791082493503,
+          "p90_reprojection_px": 135.6102138107277,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.04260993348778405,
+              "median_px": 45.837994712036945,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.09938249825237423,
+              "median_px": 135.84648258770713,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.016971261256243923,
+              "median_px": 30.396953878358065,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.05051505784399554,
+              "median_px": 74.78937027490582,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.14005018257257643,
+              "median_px": 93.07946829336878,
+              "positive_z": 5
+            }
+          ]
+        },
+        "c2w_ray": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.05631335974039181,
+          "p90_3d_m": 0.13961205929021217,
+          "median_reprojection_px": 75.15461966141237,
+          "p90_reprojection_px": 135.59978192420675,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.04259907413821162,
+              "median_px": 45.82202294721927,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.09937776288748255,
+              "median_px": 135.83731152541668,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.016918451785125004,
+              "median_px": 30.306571535338726,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.05043776467026131,
+              "median_px": 74.89915822047055,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.1400459696690004,
+              "median_px": 93.1306384941332,
+              "positive_z": 5
+            }
+          ]
+        }
+      }
+    },
+    "main_causal_pinhole_masked_stride1_all_dsp_affine_guided_model1": {
+      "camera": {
+        "model": "PINHOLE",
+        "params": [
+          707.3908959691765,
+          3483.6663009094245,
+          127.5,
+          127.5
+        ],
+        "registered": 15,
+        "source": "main_causal_pinhole_masked_stride1_all_dsp_affine_guided/summary.json"
+      },
+      "variants": {
+        "c2w_z": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.06084818445413981,
+          "p90_3d_m": 0.13994861255884128,
+          "median_reprojection_px": 38.057491958197815,
+          "p90_reprojection_px": 193.55918506588085,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.04212479549031814,
+              "median_px": 57.2686410509824,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.09750619739450792,
+              "median_px": 193.55918506588085,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.017874483248647696,
+              "median_px": 21.83987677153922,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.05470055227064709,
+              "median_px": 35.31766725676113,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.14051675121009471,
+              "median_px": 34.595479636961294,
+              "positive_z": 5
+            }
+          ]
+        },
+        "c2w_ray": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.0601761572588085,
+          "p90_3d_m": 0.14005807353506933,
+          "median_reprojection_px": 38.20854765615379,
+          "p90_reprojection_px": 193.38220579629657,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.041986865893574726,
+              "median_px": 57.24801793792253,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.09748550947297077,
+              "median_px": 193.38220579629657,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.01757043642694381,
+              "median_px": 21.827367394372978,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.05417268547917692,
+              "median_px": 35.474708562353186,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.1406437301106041,
+              "median_px": 34.992704213847524,
+              "positive_z": 5
+            }
+          ]
+        }
+      }
+    },
+    "main_causal_pinhole_masked_stride1_all_dsp_affine_guided_model2": {
+      "camera": {
+        "model": "PINHOLE",
+        "params": [
+          2085.3640417145834,
+          5615.742112238308,
+          127.5,
+          127.5
+        ],
+        "registered": 11,
+        "source": "main_causal_pinhole_masked_stride1_all_dsp_affine_guided/summary.json"
+      },
+      "variants": {
+        "c2w_z": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.05595347629077186,
+          "p90_3d_m": 0.13944968832713808,
+          "median_reprojection_px": 93.53069068371501,
+          "p90_reprojection_px": 295.9348340676551,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.04213528970247067,
+              "median_px": 93.53069068371501,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.10081426300470704,
+              "median_px": 295.9348340676551,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.016931922426583087,
+              "median_px": 39.82133907450787,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.050069986125426444,
+              "median_px": 89.83041287236902,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.13985917620992233,
+              "median_px": 107.95607053810588,
+              "positive_z": 5
+            }
+          ]
+        },
+        "c2w_ray": {
+          "n_3d": 22,
+          "n_px": 22,
+          "median_3d_m": 0.05587930233088028,
+          "p90_3d_m": 0.13945862314296015,
+          "median_reprojection_px": 93.50698610126302,
+          "p90_reprojection_px": 295.90035041604256,
+          "pairs": [
+            {
+              "pair": [
+                0,
+                20
+              ],
+              "n": 5,
+              "median_3d_m": 0.042121388819197775,
+              "median_px": 93.50698610126302,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                20,
+                40
+              ],
+              "n": 5,
+              "median_3d_m": 0.10080996995668699,
+              "median_px": 295.90035041604256,
+              "positive_z": 5
+            },
+            {
+              "pair": [
+                40,
+                60
+              ],
+              "n": 3,
+              "median_3d_m": 0.016890468545177208,
+              "median_px": 39.763960646543026,
+              "positive_z": 3
+            },
+            {
+              "pair": [
+                60,
+                80
+              ],
+              "n": 4,
+              "median_3d_m": 0.050013738443419234,
+              "median_px": 89.90916262057708,
+              "positive_z": 4
+            },
+            {
+              "pair": [
+                80,
+                95
+              ],
+              "n": 5,
+              "median_3d_m": 0.13986977741846762,
+              "median_px": 107.99829321271393,
+              "positive_z": 5
+            }
+          ]
+        }
+      }
+    }
+  }
+}
