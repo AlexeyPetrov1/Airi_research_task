@@ -1,0 +1,73 @@
+{
+  "median_step_m": 0.005770352325037925,
+  "maximum_step_m": 0.7022909529855742,
+  "largest_steps": [
+    {
+      "a": 178,
+      "b": 179,
+      "translation_m": 0.7022909529855742,
+      "rotation_deg": 22.76883093870238
+    },
+    {
+      "a": 177,
+      "b": 178,
+      "translation_m": 0.6460323705644111,
+      "rotation_deg": 21.346757289629714
+    },
+    {
+      "a": 156,
+      "b": 157,
+      "translation_m": 0.10487012283561341,
+      "rotation_deg": 0.4644142555529452
+    },
+    {
+      "a": 179,
+      "b": 180,
+      "translation_m": 0.06987736594688813,
+      "rotation_deg": 2.2416861916896775
+    },
+    {
+      "a": 153,
+      "b": 154,
+      "translation_m": 0.044846610563532605,
+      "rotation_deg": 0.3433274630343186
+    },
+    {
+      "a": 122,
+      "b": 123,
+      "translation_m": 0.039527665936580594,
+      "rotation_deg": 1.378276850460188
+    },
+    {
+      "a": 125,
+      "b": 126,
+      "translation_m": 0.03928637543378843,
+      "rotation_deg": 1.268668341133841
+    },
+    {
+      "a": 121,
+      "b": 122,
+      "translation_m": 0.03890544149997561,
+      "rotation_deg": 1.378173162936281
+    },
+    {
+      "a": 116,
+      "b": 117,
+      "translation_m": 0.03677551248694194,
+      "rotation_deg": 1.3354677964901616
+    },
+    {
+      "a": 124,
+      "b": 125,
+      "translation_m": 0.03638849167099168,
+      "rotation_deg": 1.3005052606130119
+    }
+  ],
+  "jump_destination_frames_gt_0_1m": [
+    157,
+    178,
+    179
+  ],
+  "rule": "Post-hoc diagnostic prompted by plotted labels discontinuity; drop jump destination frames, align stable segments separately",
+  "cause": "Not established; discontinuity may affect full trajectory and label-based track diagnostics"
+}

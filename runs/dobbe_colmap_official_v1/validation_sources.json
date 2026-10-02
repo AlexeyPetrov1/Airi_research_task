@@ -1,0 +1,35 @@
+{
+  "labels_sha256": "b2e36d0749bbb6dfc6a9943211a53d104e08f6707162690dd19340ff79a4c4c5",
+  "measured_depth_sha256": "ac590f531293507649c4cde14b3938ab426c5538ecb3f764e79bf4560f023d6c",
+  "correspondences_source": "runs/dobbe_colmap_clean_rerun_v1/causal_validation_correspondences.json",
+  "correspondences_sha256": "7a6fdac9d6b94d8c0bf3fc16c7a470627d18312e99d458ed4fda77201e28d46b",
+  "point_counts": [
+    5,
+    5,
+    3,
+    4,
+    5
+  ],
+  "mask_policy_sha256": "b81eb7be0186ff551ddf7680f1694e116f0ab826a4d1edf0cfa25d914a7fad5e",
+  "optical_to_label": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "labels_pose_convention": "c2w, quaternion xyzw; previously audited DobbE exporter basis",
+  "rgb_depth_pixel_mapping": "u_d=u_cv; v_d=(v_cv+0.5)*192/256-0.5",
+  "role": "Independent diagnostics only; no depth, labels, masks or correspondences passed to COLMAP",
+  "static_sample_limit": "22 automatic RGB matches, not manually certified static landmarks; Z/ray unresolved"
+}

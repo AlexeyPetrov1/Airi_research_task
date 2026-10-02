@@ -1,0 +1,58 @@
+{
+  "status": "DIAGNOSTIC_FIXED_K_RGB_POSE_FIT",
+  "K_OpenCV": [
+    [
+      152.0836,
+      0.0,
+      124.2908
+    ],
+    [
+      0.0,
+      202.7781333333,
+      129.2973333333
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "pose_only_RGB_fit_success": true,
+  "rvec_tvec": [
+    -0.7892142119247962,
+    -0.04003765738378616,
+    -0.0922138031449213,
+    -0.12921608674059645,
+    -0.08131898707577381,
+    0.42512085605704025
+  ],
+  "train_frames": [
+    0,
+    16,
+    32,
+    48
+  ],
+  "heldout_frames": [
+    8,
+    24,
+    40,
+    56
+  ],
+  "heldout_features": [
+    8,
+    12,
+    16
+  ],
+  "holdout_all_feature_rmse_px": 0.7690446269683899,
+  "holdout_separate_feature_rmse_px": 0.3530040963046598,
+  "depth_samples": 180,
+  "median_abs_Z_error_mm": 6.61019350729275,
+  "median_signed_Z_error_mm": -6.587462438397196,
+  "limitations": "Approximate segmented CAD outline/hole features; depth registration, scale and color intrinsics not certified; K is frozen, only board pose fits RGB"
+}

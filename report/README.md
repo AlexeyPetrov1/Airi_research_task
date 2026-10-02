@@ -1,5 +1,7 @@
 # Research reports
 
+- [FMB: official automatic COLMAP on two episodes and two cameras](fmb_colmap_official_baseline.md) — ten native runs, side camera CAD/depth diagnostics, local wrist reconstructions and PINHOLE controls.
+- [Dobb·E: official automatic COLMAP baseline](dobbe_colmap_official_baseline.md) — causal 96/96 registered, full sequence fragmented, independent depth and trajectory diagnostics.
 - [Dobb·E: corrected COLMAP controls, four reruns and verified match graphs](dobbe_colmap_clean_rerun.md) — clean defaults, frozen foreground masks, causal versus oracle, depth validation.
 - [Dobb·E episode 3651: approximate COLMAP/F2-NeRF transform and MolmoMotion run](dobbe_approx_colmap_f2nerf_molmo.md) — user-requested exploratory `(3,8,3)` and partial future RGB-D evaluation.
 - [Dobb·E episode 3651 RGB-only COLMAP and measured-depth geometry study](dobbe_rgbd_colmap_study.md) — causal protocol, independent second scene, geometry gate `BLOCKED`.

@@ -1,0 +1,66 @@
+{
+  "images": 148,
+  "attempted_pairs": 1508,
+  "possible_exhaustive_pairs": 10878,
+  "keypoints_median": 211.5,
+  "keypoints_total": 30130,
+  "raw_matches_total": 197178,
+  "verified_inliers_total": 203359,
+  "nonzero_verified_pairs": 1485,
+  "by_threshold": {
+    "15": {
+      "pairs": 1485,
+      "largest_component": 148,
+      "component_sizes": [
+        148
+      ],
+      "isolated_images": 0
+    },
+    "30": {
+      "pairs": 1485,
+      "largest_component": 148,
+      "component_sizes": [
+        148
+      ],
+      "isolated_images": 0
+    },
+    "50": {
+      "pairs": 1457,
+      "largest_component": 148,
+      "component_sizes": [
+        148
+      ],
+      "isolated_images": 0
+    },
+    "100": {
+      "pairs": 1160,
+      "largest_component": 134,
+      "component_sizes": [
+        134,
+        6,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "isolated_images": 4
+    }
+  },
+  "database_cameras": [
+    {
+      "camera_id": 1,
+      "model_id": 2,
+      "width": 256,
+      "height": 256,
+      "params": [
+        307.2,
+        128.0,
+        128.0,
+        0.0
+      ],
+      "has_prior_focal_length": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "OFFICIAL_BASELINE_COMPLETE",
+  "runs": [
+    {
+      "run": "full",
+      "images": 243,
+      "models": 5,
+      "largest_model": 107,
+      "unique_registered": 207,
+      "coverage_pass": false,
+      "keypoints_median": 226.0,
+      "attempted_pairs": 2649,
+      "pairs_ge15": 1970,
+      "pairs_ge30": 1844,
+      "pairs_ge50": 1559,
+      "pairs_ge100": 936
+    },
+    {
+      "run": "causal",
+      "images": 96,
+      "models": 2,
+      "largest_model": 96,
+      "unique_registered": 96,
+      "coverage_pass": true,
+      "keypoints_median": 200.5,
+      "attempted_pairs": 926,
+      "pairs_ge15": 810,
+      "pairs_ge30": 758,
+      "pairs_ge50": 581,
+      "pairs_ge100": 317
+    }
+  ],
+  "conditional_stride_required": false,
+  "conditional_stride_completed": false,
+  "validated_causal_K": null,
+  "causal_K_external_validation": "Not accepted: largest causal model reprojection on fixed 22 measured-depth/labels correspondences is worse than diagnostic baseline",
+  "full_label_motion_caveat": "See label_motion_audit.json and post-hoc stable-segment Sim(3) results in full summary",
+  "pass_definition": ">=80% input in one reconstruction; K additionally needs external validation",
+  "limitations": "Fragmentation alone does not prove COLMAP is impossible; all-points SfM may follow apparatus; RGB is processed 256x256"
+}

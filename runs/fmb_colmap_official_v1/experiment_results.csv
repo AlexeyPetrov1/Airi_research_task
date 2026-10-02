@@ -1,0 +1,9 @@
+run,view,scope,images,models,largest_model,unique_registered,largest_points3D,coverage_pass,keypoints_median,pairs_ge100,largest_component_ge100
+episode2_side_1_full,side_1,full,148,4,11,30,93,False,211.5,1160,134
+episode2_side_1_causal,side_1,causal,127,1,127,127,69,True,213.0,1105,127
+episode2_wrist_1_full,wrist_1,full,148,2,148,148,1122,True,121.5,63,24
+episode2_wrist_1_causal,wrist_1,causal,127,7,66,127,112,False,114.0,59,23
+episode3_side_1_full,side_1,full,165,1,165,165,321,True,201.0,1112,113
+episode3_side_1_causal,side_1,causal,131,3,119,121,183,True,206.0,1062,113
+episode3_wrist_1_full,wrist_1,full,165,8,109,154,548,False,138.0,79,15
+episode3_wrist_1_causal,wrist_1,causal,131,7,64,125,621,False,131.0,46,15

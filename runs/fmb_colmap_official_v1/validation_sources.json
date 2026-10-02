@@ -1,0 +1,33 @@
+{
+  "board_CAD_features": "runs/fmb_effective_k_256_calibration/peg_board_top_wires.json",
+  "board_CAD_sha256": "c62b15884ab459005f3aef351782d0056c92573bbf96c890abcf8ae88c495e75",
+  "board_feature_extractor": "scripts/calibrate_fmb_board_k.py",
+  "board_feature_extractor_sha256": "2aa4f8c9aff8367ac9b418e374a739052a4d39e10840da21fe7ab2c64a30fe10",
+  "source_array_hashes": {
+    "episode2": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+    "episode3": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885"
+  },
+  "depth_scale_m_per_count": 0.0001,
+  "depth_semantics": "Z hypothesis, matching published pixel grids, registration not certified",
+  "side_1_nominal_K_OpenCV": [
+    [
+      152.0836,
+      0.0,
+      124.2908
+    ],
+    [
+      0.0,
+      202.7781333333,
+      129.2973333333
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "nominal_K_status": "Historical profile-resize hypothesis, not active color ground truth",
+  "RGB_board_pose_fit": "Fixed candidate K and k; fit board extrinsics only on frames 0,16,32,48, exclude features 8,12,16",
+  "RGB_board_validation": "Frames 8,24,40,56 and excluded features; all within causal prefixes",
+  "scope": "Diagnostics only, neither source depth/TCP nor nominal K is passed to COLMAP"
+}

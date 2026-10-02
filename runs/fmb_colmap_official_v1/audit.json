@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "run": "episode2_side_1_full",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 1.1368683772161603e-13
+    },
+    {
+      "run": "episode2_side_1_causal",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 1.4210854715202004e-14
+    },
+    {
+      "run": "episode2_wrist_1_full",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 1.4210854715202004e-14
+    },
+    {
+      "run": "episode2_wrist_1_causal",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 5.684341886080802e-14
+    },
+    {
+      "run": "episode3_side_1_full",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 0.0
+    },
+    {
+      "run": "episode3_side_1_causal",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 7.275957614183426e-12
+    },
+    {
+      "run": "episode3_wrist_1_full",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 5.684341886080802e-14
+    },
+    {
+      "run": "episode3_wrist_1_causal",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 1.7053025658242404e-13
+    }
+  ],
+  "validated_K_claimed": false
+}

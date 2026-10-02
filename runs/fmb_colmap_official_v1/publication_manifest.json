@@ -1,0 +1,2125 @@
+﻿{
+    "scope":  "Published derived COLMAP artifacts; source RGB, SQLite and full console logs remain local",
+    "files":  [
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/audit.json",
+                      "bytes":  2623,
+                      "sha256":  "61b13e138c74ad7e3f2d9bf6e4a9452949742c3c71085cd02d4d296e5c670274"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/automatic_reconstructor_help.txt",
+                      "bytes":  1431,
+                      "sha256":  "b11313288042b86bef2fee2ac12462a99ad8a9a6f4ab39ee527957818228f07c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/camera_diagnostics.csv",
+                      "bytes":  6209,
+                      "sha256":  "dd8b3f3219ced9e7e32ff38f0e5184c8f62b83f1d3444ede1f2209541d97ad26"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/colmap_version.txt",
+                      "bytes":  1688,
+                      "sha256":  "804699d4319c4bfb5ecc4fc0b525002b31dd93af3948828788f2daf90b9e2ca0"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/decision.json",
+                      "bytes":  3293,
+                      "sha256":  "dc90b99f598cb3b81c8dded91453b7657394380ec05e7fcfd3545bc6a78da779"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_nominal_board_check.json",
+                      "bytes":  1066,
+                      "sha256":  "8dc3273382c3f173504c078484d232cf181b88c42c18d82be9beb2a4ec8b0c6e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/execution.json",
+                      "bytes":  2929,
+                      "sha256":  "8214f5c6a6fdcbd8dec4998cbcc15efb3c99b61a68403b931155ccbfb841857e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/match_graph.json",
+                      "bytes":  1102,
+                      "sha256":  "972dcfdfed35dac0ebfd7ca116c0cb2ad91428cde13e18faac01068c1b58fea6"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/match_images.csv",
+                      "bytes":  2244,
+                      "sha256":  "89cc28f70043092ef5822d6dd9c97f5bcb6734f872a590ca2caa51e030c1f4cb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/match_pairs.csv",
+                      "bytes":  28170,
+                      "sha256":  "7dc2d74cf27936a54b56d2c2c25809b09ee27aef8bec9fc4bcf4f868137b1069"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "300ce0121441353c686c50e9d4751c6d944c2cb961bbb916214465ad093d747a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse/0/frames.bin",
+                      "bytes":  10676,
+                      "sha256":  "c737d20abae0be0a7b910434e1e3e67623ecc9a21debd7a5b18b0b0caf7a2a53"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse/0/images.bin",
+                      "bytes":  643813,
+                      "sha256":  "1a0297545499a5b9038af7533c52588d1be5db75236a1ef0ed7731e278b131d5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse/0/points3D.bin",
+                      "bytes":  48319,
+                      "sha256":  "8b961145d949777950d8d26d63291d9d413d95fda929436138ef94547fc2ce56"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse_txt/0/cameras.txt",
+                      "bytes":  194,
+                      "sha256":  "5f3e5b12fe2c1eee7772513f38d1e4df1ff1eca00992716b5a83f0e187e65359"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse_txt/0/frames.txt",
+                      "bytes":  21524,
+                      "sha256":  "79ca3df1ed6940a86a00df569084866ae9bc8a7bb4f9750d1d516dbc7786615b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse_txt/0/images.txt",
+                      "bytes":  1104009,
+                      "sha256":  "1e79594be5c3706b140c7a68cbcb79c9d64078530bf121305db0e966a37ecf15"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse_txt/0/points3D.txt",
+                      "bytes":  42690,
+                      "sha256":  "e98c1db0af60f69172e299b9d88438690cb110d208eeaa965d1749bd6344eb97"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/sparse_txt/0/trajectory.csv",
+                      "bytes":  8246,
+                      "sha256":  "7086cc92cd35f13cd4762b440f7f3615c61d687751cbd3b97fb11fe2d5e9253a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/summary.json",
+                      "bytes":  137984,
+                      "sha256":  "5bf3ecd205c006595d7d0ab28932c0dbf09ac4c9cd45754ce9a0817316ceb57e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_causal/verified_pair_displacements.csv",
+                      "bytes":  60727,
+                      "sha256":  "27febe904b6335c54c27b78c2618dea2761f4cab79640cfea461dff9f57cfab3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/execution.json",
+                      "bytes":  2917,
+                      "sha256":  "e2832dd6ac11629bc38d3a5316205dd8402ff55f172c6b12f5f6d9b5801699dc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/match_graph.json",
+                      "bytes":  1180,
+                      "sha256":  "04651981b1475d4118bff0496a616230b3089c7bebb995b2bdf7cdf8688841b3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/match_images.csv",
+                      "bytes":  2616,
+                      "sha256":  "49f74cf2629c1517300c81fe2545953ac891414a837dfa331477408fd2c30717"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/match_pairs.csv",
+                      "bytes":  33987,
+                      "sha256":  "3efa3c6adc299d80ea3123ea641b79b68efa32b3776183d211b8d0d73c46f3fb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "b90fc452bf23b9aa5c84b1a824e324369c2370a760f4a88c68a17b8066e2009d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/0/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "490009704283a3b676d837262381e7977d1ab175fa049a183158671199877869"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/0/images.bin",
+                      "bytes":  47782,
+                      "sha256":  "4d45ed9071faac6409428bf5d6cf54d2a1a8096cfbc5b3abc23dbca0f7707bdb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/0/points3D.bin",
+                      "bytes":  19336,
+                      "sha256":  "68c7c5846299cb61d151a02275dda7110236797af9b5d7484eb2b8488a8205b5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "fbb4ec5af4c87ce004cbd0a9c720ba49a413ba99f75abb4abc92b65232682781"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/1/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "ac71ac034ff226795daf16c4560efa47f32dbea8241f47fe57699696b18a13f4"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/1/images.bin",
+                      "bytes":  44470,
+                      "sha256":  "6f40cd01cf7f1fc3805c144db3201857a1de3c7905b1273a9106947434782a97"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/1/points3D.bin",
+                      "bytes":  15601,
+                      "sha256":  "a8a1043789434a6d8a4c7a11c8e4f8ce6f1cac556d58a7616bb428c2de75ea22"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/2/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "ab1d4b5a115a98d0b6e623c329ba6f1d0b6d81144470b8f0d00eccf9bd7b5b03"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/2/frames.bin",
+                      "bytes":  344,
+                      "sha256":  "dd6f2388cb3558653e98174c1660c61ffa346959f12a295d6de1950feaf1f130"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/2/images.bin",
+                      "bytes":  15100,
+                      "sha256":  "720455114ebb13e49f010b2835c7530acb562b1d2f873d30d73042678372a338"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/2/points3D.bin",
+                      "bytes":  10504,
+                      "sha256":  "5a366912aa61a0006f74f2e81a2be01c2e5108a5c401b047b271942931c72714"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/2/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/3/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "6246a4a155673de662afe69f049bee32e7f50b363b79fc649eaf2e1c266cae21"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/3/frames.bin",
+                      "bytes":  932,
+                      "sha256":  "0fc36d9e9c954de59bc505992a631bb4fc02af62c5d72c91a1eee62dc1ac63cb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/3/images.bin",
+                      "bytes":  50241,
+                      "sha256":  "b08821e501859790f81b5b89df6dd9131f03a58a9024d7d5eb5b84961d1d848b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/3/points3D.bin",
+                      "bytes":  11799,
+                      "sha256":  "03feee24825f9201deab7876bb440be4434c396540687ca8244232fd31de1b58"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse/3/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/0/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "01ec4474d7cea337f3aa831c11ebbfe62c963818494577eb58b2a70006ab2ddc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/0/frames.txt",
+                      "bytes":  1871,
+                      "sha256":  "a19256ca2ebed1dfeb3677e801829105d871960e7d6a70c4f82d6a1431708a8c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/0/images.txt",
+                      "bytes":  81728,
+                      "sha256":  "aa38c5f21565726be5d87a41383d202c5d82cdfded55b9dfc2ec817b118e35d3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/0/points3D.txt",
+                      "bytes":  25421,
+                      "sha256":  "9e07ab20ef9eb441550336b7aab8421c6a3545751258da99185f3da9c9184b2b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/0/trajectory.csv",
+                      "bytes":  663,
+                      "sha256":  "3784561c7d67375eabd94541a26dafab3ced697dd0a27ca0fe47699dbb21f510"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/1/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "01259e2a6a3cf31182d5929fcd4ea64d54c39f1df359453dadd218477e11d343"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/1/frames.txt",
+                      "bytes":  1873,
+                      "sha256":  "647dc3da0a9993ce12ec3f1b548d8f4e69b78df39df84c9daa253e07eff56476"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/1/images.txt",
+                      "bytes":  75774,
+                      "sha256":  "257f14891e9bc5bf59c5c86d764845bbf68653087be753198eb147cb3c6862a9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/1/points3D.txt",
+                      "bytes":  20965,
+                      "sha256":  "9d342b11cd18e24c220528873eb4b78dbd60f8025f0a3a3d2d6de9630846da37"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/1/trajectory.csv",
+                      "bytes":  654,
+                      "sha256":  "b776e2bb03d5377a4b4479850b53ba066ba4e4b51f893176a9023f831c68e583"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/2/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "0510a3ea7aab6594b00f05f87154480e63bc4f4061e80cf72eb7833e97958d28"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/2/frames.txt",
+                      "bytes":  869,
+                      "sha256":  "302b30cb05349e9e067abc5144714385118079d28168dac0ae5084820bb893a2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/2/images.txt",
+                      "bytes":  25885,
+                      "sha256":  "9463bc44ae7654a2585ea49820dcb91092ab043649cd3a52aaf30e2e9e4e5043"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/2/points3D.txt",
+                      "bytes":  15940,
+                      "sha256":  "6eb4ac246d1fa397214b27c857da8e228ade3d15bb62c7126f2367eff5dd2c44"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/2/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/2/trajectory.csv",
+                      "bytes":  286,
+                      "sha256":  "ad282276ea65472592877032f4c3a15338f433b2977737f39f68bccf603693cf"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/3/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "90b1e039a11489b3712955af6aea63f4709e8271175b35dca5269c27c5b26a22"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/3/frames.txt",
+                      "bytes":  2043,
+                      "sha256":  "0438c4009513725cec1faab3b2afbb9d42d55de2cbdc90f963748b0558e48166"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/3/images.txt",
+                      "bytes":  85479,
+                      "sha256":  "a22f4cb0211874dbbc7ed01ce4852579f03cafef43ae9a5f679d06f3b0409dcb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/3/points3D.txt",
+                      "bytes":  15202,
+                      "sha256":  "574de86d9378cdb0f92474a6b6452bb6a96cab110e11f87d9c96eb390e01075b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/3/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/sparse_txt/3/trajectory.csv",
+                      "bytes":  715,
+                      "sha256":  "ec53249156336f3381f440417766c87ce4569e80011039b0244e4496e804e46d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/summary.json",
+                      "bytes":  54590,
+                      "sha256":  "01cd0cc52fc86343b407531a4dba3aae9032c03b03ec39dd54399bd30df42940"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_side_1_full/verified_pair_displacements.csv",
+                      "bytes":  71417,
+                      "sha256":  "b9fb9a80e7609574ac025c0722c54793310b72c0887b8fc33b41f91279ced861"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/execution.json",
+                      "bytes":  2923,
+                      "sha256":  "521b8bcc532d5f443538a9df3b3a3467adbc0180ad3e75d5008ea5b4f4a653a4"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/match_graph.json",
+                      "bytes":  2227,
+                      "sha256":  "52903832ab186060f661f05a41fe2a56ac9847d1987174898b1d6dabd1b06ced"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/match_images.csv",
+                      "bytes":  2064,
+                      "sha256":  "6fab1b766054f7b218574cd21e49ffb56407edf120a2d31ec739cee5afd849db"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/match_pairs.csv",
+                      "bytes":  25590,
+                      "sha256":  "c7fe2a7a5cca1212ce13f29ba30fae2160062fb4decf8282388b8727164bc6bb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "804d07e6d95a6c88fdd822f565e6f6709df066df7410e9233d68e219049ba608"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/0/frames.bin",
+                      "bytes":  2780,
+                      "sha256":  "9708e0aa6da342089f284a427dd9bde871ceace488e7aec3e331011a765cc4d3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/0/images.bin",
+                      "bytes":  169379,
+                      "sha256":  "fd8c9e7c6385b83a63c099f7ecf04e855cd828795255fae5b8287824bf4d5ce1"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/0/points3D.bin",
+                      "bytes":  63213,
+                      "sha256":  "4c552f174fd6448bc07ee2a4b91120700e354fb12170e82eab90fc070379e684"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "06fc3e325972a821fba6fc6ed4637a7738a82f57b1f0a8a332ccfb1c0d7557f8"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/1/frames.bin",
+                      "bytes":  1604,
+                      "sha256":  "db0cee8864d6405e64e6cbd2dbc383c0a501e905ae26fe9482a00b30b203efb3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/1/images.bin",
+                      "bytes":  109369,
+                      "sha256":  "71c0d497b27314d6e00590fd9a382af408487859187e8ce463984d48d43efbec"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/1/points3D.bin",
+                      "bytes":  53767,
+                      "sha256":  "74596d9701a52bbb2cae58255c9fe0b9f36d374e2c437b929f7941bd6366e838"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/2/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "2e53e314a0d8458b68073fe2e4bda35f1e602cdb8dc17042b6b86f68a21d8df6"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/2/frames.bin",
+                      "bytes":  3620,
+                      "sha256":  "ba942abb7f1a086a60ccce37326cfc44ddc7dfd32be52963cb68d92ca97e14dc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/2/images.bin",
+                      "bytes":  114145,
+                      "sha256":  "ddb399a72b32ca6d96c976020b5429fc002618bd6bf1543124986878fcc8c031"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/2/points3D.bin",
+                      "bytes":  44850,
+                      "sha256":  "f176b435e6ab1ac9413633c4dce56b3740c22ad0f06302e217a15a2f4a4e5506"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/2/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/3/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "255b03f11e0d82f798f744e6575dd974193a8c303606840ded54a68b9a17cd0a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/3/frames.bin",
+                      "bytes":  5552,
+                      "sha256":  "50099c6a2b242cf68b88af37b798ec13e38edfbd8ad3abd110ca77a95379efbe"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/3/images.bin",
+                      "bytes":  151790,
+                      "sha256":  "52be19f586cf683bd4b3a05cffe141bd487adeefcab4ad9308280a9cf4c82875"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/3/points3D.bin",
+                      "bytes":  18712,
+                      "sha256":  "c2a14d8d6647f9af52c7fc3afcd9e8de7056ee93c60f928243b9f51076ae8334"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/3/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/4/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "6e030363ca13c568d7440c30175758e883c0191581fa5f068e5e394a40ca40ae"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/4/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "08e23f2ee70d88eca0732a0af6c26d3f0d3c0d54ae0425fbf3fc4374d97d722b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/4/images.bin",
+                      "bytes":  35902,
+                      "sha256":  "fbb3d28b1a731d5555ac3b781a89328389ce41aeec577e3fe4f88eca282dfab2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/4/points3D.bin",
+                      "bytes":  4801,
+                      "sha256":  "4d43b596358f770137e43309c884da2fcdb6d8fd06bbb848dc3b8594ab1d2024"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/4/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/5/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "a4d1193d11d7d39cba5ed948864cfe24449e0a457f33ae1661e17a26b4e79e04"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/5/frames.bin",
+                      "bytes":  428,
+                      "sha256":  "a8915df54e60aa5f4cf4bd0c8cf8f26ef4b655276258914da0a50b606b8b9fdf"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/5/images.bin",
+                      "bytes":  11943,
+                      "sha256":  "d5043c98ce50879b2e3eed853e1261fc1baba55428382d98d24376a03feed0f4"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/5/points3D.bin",
+                      "bytes":  1028,
+                      "sha256":  "e5390bc8d35c15b28bd433f6cdbd8ffcea7bbdea5ab0c1f084f49a48e028cd08"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/5/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/6/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "67d4c02c7c2988fcda8b0f6192f37e32d4b0079997431d391988107c862c285f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/6/frames.bin",
+                      "bytes":  932,
+                      "sha256":  "bf37d083408a447dc32c9dc9b08b27a3e1c60ce87c57f5616f168cbc388feb23"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/6/images.bin",
+                      "bytes":  23361,
+                      "sha256":  "71e5fb7bb40326a6f3fe3dd05a226a121bad3a5355de337c0b226d55cff72be9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/6/points3D.bin",
+                      "bytes":  8,
+                      "sha256":  "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse/6/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/0/cameras.txt",
+                      "bytes":  194,
+                      "sha256":  "1771368dea13c6bb5727033f307c8d1232b06b8672df67d9b5f92d9ba160b3ea"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/0/frames.txt",
+                      "bytes":  5653,
+                      "sha256":  "b965c1c4972b53d1f10867f436df7b0040dabb4b205e4653893bd1bbcf695228"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/0/images.txt",
+                      "bytes":  291417,
+                      "sha256":  "858769f10f77afdc8ddfda935598e2e461419e13457eee615bf44ee61d2ee6e9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/0/points3D.txt",
+                      "bytes":  84917,
+                      "sha256":  "70e08fe1bfc5aa514fbbd8353ceb886ba65e5b5247bab325d4ab0929be4e3748"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/0/trajectory.csv",
+                      "bytes":  2079,
+                      "sha256":  "60247ae949539d5fda10cd8e74c896148a0aebfd0d492c0e8698eda33e319bf4"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/1/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "5928d60f8d7c79e5436a51463198b14a2948a3e87c62342961f3dd2d4137b59f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/1/frames.txt",
+                      "bytes":  3343,
+                      "sha256":  "76ec8b540d0a1abb06beecd1a86caf4dbbf53bde4fb38756f1298aa9279e0842"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/1/images.txt",
+                      "bytes":  188743,
+                      "sha256":  "89516c17af5a922681e8758b7bcbd7ab81375a4f2f30ee3c5de1bfc763f6ef45"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/1/points3D.txt",
+                      "bytes":  72034,
+                      "sha256":  "84e46ff7dce79465d08e7435e1f085a8c91918a1d0abe528a9d92d8da44561bd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/1/trajectory.csv",
+                      "bytes":  1227,
+                      "sha256":  "1c8d00b257dab387d012f4bd3e2dbd1b25fa83c09184a71834abd8630697568e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/2/cameras.txt",
+                      "bytes":  190,
+                      "sha256":  "0505980d4627eb54f06674e669a1d4960771d1c85b3ca5dc7c42fdbd5789baea"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/2/frames.txt",
+                      "bytes":  7116,
+                      "sha256":  "44dadc6a254b605b4b24f9ef7b4775e6ed12e49369e6915341bd21ec136132b7"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/2/images.txt",
+                      "bytes":  196108,
+                      "sha256":  "d4057f772164b14e5e10a14d241c9a0f3297746b8cd344be03da202b99e54c6d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/2/points3D.txt",
+                      "bytes":  53146,
+                      "sha256":  "deb9b765be6dc02c1b32122c70446167ecedf5b73c43e05a1b8ab3b9c4d02be0"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/2/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/2/trajectory.csv",
+                      "bytes":  2616,
+                      "sha256":  "7fae3e6079a53cc84312e1c38cab8312a7703b6764d98c4bcd69e52040afd38b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/3/cameras.txt",
+                      "bytes":  193,
+                      "sha256":  "cca3dd64fad7af3524fb38f3c6c91ab0698e08b4c0857271eb6b53ed48a0f926"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/3/frames.txt",
+                      "bytes":  11066,
+                      "sha256":  "0bf43372a6778c4edc1d79af362f8b6c3a61cdfa73492d353c986deef00154a6"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/3/images.txt",
+                      "bytes":  259470,
+                      "sha256":  "3d4ad4cab4e19bdcea87657780abcbf44792b6566c3c7b21a241de16eadbc7cb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/3/points3D.txt",
+                      "bytes":  20246,
+                      "sha256":  "6a43cfaa9b211833c544f37de83894b66c3fb76cd118374f98e26ed35155cbc4"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/3/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/3/trajectory.csv",
+                      "bytes":  4008,
+                      "sha256":  "225b0004a5a5d77b54b7c7a184119c09c10969aab5a52872f9239bacece9ef65"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/4/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "01bf7fdaa718d583db24f9aff2674424cf4261c169d662db5da3fe88c175374d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/4/frames.txt",
+                      "bytes":  1860,
+                      "sha256":  "0545f7fa5898385d8f2508319e42cd1742eaadfde40e6e75a9fdc5a948ad1f64"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/4/images.txt",
+                      "bytes":  61178,
+                      "sha256":  "76aacaebedcd4d7ec17b75cb1d01d71ebba9c574aa9b28ff2e7371d2db276928"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/4/points3D.txt",
+                      "bytes":  6188,
+                      "sha256":  "d40cb1e09bda9b4a0b9a0e174f03b03b67cd693228dce025b1b7c3d8518137e8"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/4/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/4/trajectory.csv",
+                      "bytes":  655,
+                      "sha256":  "ae70a901190107524bcab56273cfc46fb15ff90a6732644473002cdcf81f80a2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/5/cameras.txt",
+                      "bytes":  193,
+                      "sha256":  "0bbf137cfe10ba1e529fe1dd3eff86874435b854e033e55d0d85e6458e273405"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/5/frames.txt",
+                      "bytes":  1027,
+                      "sha256":  "c0b96db2550cc7bc7d632e8ccab5654e95ffcefae242694f5e6b65884baead5f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/5/images.txt",
+                      "bytes":  20529,
+                      "sha256":  "c194aefa7d09060797e30009e58658cdff629a30825ce13ef3f513a8899cc91c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/5/points3D.txt",
+                      "bytes":  1596,
+                      "sha256":  "fdb934441580697f568a198310d2b89699b9e8d0759461bbfb95da98d3e7711b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/5/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/5/trajectory.csv",
+                      "bytes":  338,
+                      "sha256":  "07551a49f962e4a0239d180f025455787bc2248926a9edb98199b93695af992e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/6/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "b72892878628931952eb548f50d13ced69d4c304a2214d2a151b40aaeeb449ca"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/6/frames.txt",
+                      "bytes":  2011,
+                      "sha256":  "8786420f49af1161648d55f663bc9554e1c5ec133acb3d42804d5a4e235edd3e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/6/images.txt",
+                      "bytes":  39910,
+                      "sha256":  "fa0c5ffdb2f656807d900e4bf77bd16fe9169c33b196f02033bb82ee90e1b034"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/6/points3D.txt",
+                      "bytes":  172,
+                      "sha256":  "e2c725fd1d6298be0c75420d79e0cb715c9a8ca7e577a2e5f92222b5c9072b86"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/6/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/sparse_txt/6/trajectory.csv",
+                      "bytes":  701,
+                      "sha256":  "30b293442af7f3d35b0b80587e117be198f75be168c7d994e2369a7e93fd9512"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/summary.json",
+                      "bytes":  205385,
+                      "sha256":  "ace5383ef866037405eef75be38fb0225e7f509d9a77bcc347a7f4c91f189afc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_causal/verified_pair_displacements.csv",
+                      "bytes":  41291,
+                      "sha256":  "b93707db895e2affcbc143b078ba7e8a14529914b8d1dfaee137d156593ae068"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/execution.json",
+                      "bytes":  2919,
+                      "sha256":  "e3bded8d0943bb0f7aff938b32b04064e0c73678fdd90a7c68ef730569a21b63"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/match_graph.json",
+                      "bytes":  2428,
+                      "sha256":  "e31e4374d2a97b94c4857eefec390329291d766f6be45d11d10d0630947d30cd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/match_images.csv",
+                      "bytes":  2438,
+                      "sha256":  "75e4a72c79a5a40b1506758649e2bcd57451c64392c6faac412730aacf5215af"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/match_pairs.csv",
+                      "bytes":  31100,
+                      "sha256":  "991967c89ac507ed2904e83347a792dce6a711a08157c27d92713dbb4b3f2f74"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "91e4b6780ffafaca05c610595ace374e578faa129fef470ecbc49429a03d7fd0"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/0/frames.bin",
+                      "bytes":  12440,
+                      "sha256":  "58808ca1bb790f1f8eef5f6db0a4d28d9f5a01e24ce92f3305a2070d2a59d786"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/0/images.bin",
+                      "bytes":  480364,
+                      "sha256":  "35621c4bb01548d1f24d80f24f7704a98c064ff5728a6749fa6695725faaa239"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/0/points3D.bin",
+                      "bytes":  158494,
+                      "sha256":  "46fb8ccd9e9912a04f2aceec5f8ac3145334d97aba4773a6f16e2a1735daf04a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "cfc910b98cefe6c34327ac55a52cf59ebc801d77b62979d4d4ede4500e9a03bd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/1/frames.bin",
+                      "bytes":  260,
+                      "sha256":  "e58de125d0e6321c425d5fb3e99cd38656ed0ad5efca815adbc17a1e6ba87e0a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/1/images.bin",
+                      "bytes":  14609,
+                      "sha256":  "f031f0eb92c0adcebbb77894d8b0418ceff7fdf066b55e04c04177a646b0270a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/1/points3D.bin",
+                      "bytes":  4997,
+                      "sha256":  "c1add225d6ea37ca392994441cee2c99c5fcb3ca8020f232cd83b6430dbc586c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/0/cameras.txt",
+                      "bytes":  196,
+                      "sha256":  "ef1263f0d75cf098c1cbd74bba146fbd51dd91530a7837eb114d170103ceed91"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/0/frames.txt",
+                      "bytes":  24387,
+                      "sha256":  "b87f0a01089b2e1e3c3ac43406e3e8857931531f006140e82dea6a6ab0ab4751"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/0/images.txt",
+                      "bytes":  831913,
+                      "sha256":  "3bc762c91af930998d3b1cd8ef73e5b0611c2ba9f7740e4dab76ca0bde90a43a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/0/points3D.txt",
+                      "bytes":  189233,
+                      "sha256":  "efc215d15d9b1be93b2c64f811776e53e7609788b2338dcb6dfa3b366fe861e2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/0/trajectory.csv",
+                      "bytes":  9019,
+                      "sha256":  "695ea88a21c79f6721dda0c9e132cd8d1676c7533fe1ee00c242f12e073efb57"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/1/cameras.txt",
+                      "bytes":  195,
+                      "sha256":  "800f4ce91153ec1606b3064adbc47a5cb3c7f1f186cf1389416ea106e4b05d9c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/1/frames.txt",
+                      "bytes":  708,
+                      "sha256":  "eccea45e66c37809c0a26cde115cdc5d8e479be60dbd792261c249027dc52749"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/1/images.txt",
+                      "bytes":  24994,
+                      "sha256":  "ebed55b2d75c2daded98f86164d0cf7fcc5d320b253423c3a6709300e2a4e8a1"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/1/points3D.txt",
+                      "bytes":  8024,
+                      "sha256":  "c4550ac311d8ca259d864fc859df2052eb01f31b1bd7f51d1e58fbfc3b1fcdf7"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/sparse_txt/1/trajectory.csv",
+                      "bytes":  222,
+                      "sha256":  "ecef7b67465838cbdc1f34e871b06c509bdd02344d0d10e63e95a9560ef50e34"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/summary.json",
+                      "bytes":  162311,
+                      "sha256":  "769c19b54553fd9c3ab862923f7eccd28b699932f525b0a46d2e02aab56e19ec"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode2_wrist_1_full/verified_pair_displacements.csv",
+                      "bytes":  47897,
+                      "sha256":  "cd884740a7e046a0d5867d70d604863b02121164bc6c862b2738dd44ebcd7622"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_nominal_board_check.json",
+                      "bytes":  1068,
+                      "sha256":  "e4ca7c97348986cec927172b5174db0d7cd4af2d7f4bf87d1b880db6a21c310f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/execution.json",
+                      "bytes":  2921,
+                      "sha256":  "11ca33861fcd5f2b6fd7d61a1bbccce7045012e8e3a92d5b6c096338dc4fadfc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/match_graph.json",
+                      "bytes":  1168,
+                      "sha256":  "c55a0eb49d298d069b563e77a654fed11a0fd014eed578c30df5eb72147da0b5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/match_images.csv",
+                      "bytes":  2320,
+                      "sha256":  "74d55b66cffb87a3384bc25e74cc619c796c885c07ca11b63cbfdb485ccffa32"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/match_pairs.csv",
+                      "bytes":  29884,
+                      "sha256":  "e9659270b2c9da75c36c43b73a325d9cae5b648ecc09110f25b2870e16f3cec6"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "1128e82bef61f883443a8f27d571df26b08a351e47fd65866b1666663a60e2fa"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/0/frames.bin",
+                      "bytes":  10004,
+                      "sha256":  "22271685e0e8a62977de2f0a12a5ca31856da6f7a94b4748d8afc30d453c623c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/0/images.bin",
+                      "bytes":  586101,
+                      "sha256":  "f87da5d32e1d7676ef5b07c335a9ae89e694597df92f4f6ea98b37a1aa6c9bbe"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/0/points3D.bin",
+                      "bytes":  136853,
+                      "sha256":  "24e2863f414400200d1f9c2c6e5717b86e8d2172d39061749a9b175959ec71b9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "8c39f860e093c0ea4ac6cf11b26976b5134e20cb235d283f5c89692f8e0fd569"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/1/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "869620e46011fe3c37f90d19a5c08aab7352f7c59fdb718d1c730e79580ccf04"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/1/images.bin",
+                      "bytes":  53710,
+                      "sha256":  "3c1a07152dc470a8e18f0437310a2cd95117bab3bb1d41c76fb83e7c7dac10b9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/1/points3D.bin",
+                      "bytes":  8,
+                      "sha256":  "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/2/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "9d9cd7602faa741f3abec14a180b6aeaf7fa2f95c39353eac02845aa0d0e6973"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/2/frames.bin",
+                      "bytes":  1100,
+                      "sha256":  "fee72b553be02c2743351214d9cdeb69ecf2aa68e4f88a92335c2c51bd42faea"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/2/images.bin",
+                      "bytes":  58879,
+                      "sha256":  "6b3adbd0fcc5377a0fe91ecdd46c9a5fe786aab1bdc16f80ccd9f354e46f9a64"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/2/points3D.bin",
+                      "bytes":  8,
+                      "sha256":  "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse/2/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/0/cameras.txt",
+                      "bytes":  190,
+                      "sha256":  "a48d117aeef5ed672e6d1559989cf4ffcdcb31f513799a812f15a2ce9a39c7fe"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/0/frames.txt",
+                      "bytes":  20461,
+                      "sha256":  "4d0a85161183bcc55569e56f57bfe2aa9c3a30b43feac798e97eb1cb4d0fc36d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/0/images.txt",
+                      "bytes":  1005069,
+                      "sha256":  "801c693550a937d602fb09ecb4ece28e455471e7c32eb7f76aea9a68d4124643"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/0/points3D.txt",
+                      "bytes":  121621,
+                      "sha256":  "5ed2bc21e356ee49c31ca7b1f01ae1f3a54f3939a69cc53fa786a7ec30743e01"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/0/trajectory.csv",
+                      "bytes":  7504,
+                      "sha256":  "9002159195c298bf266d3483baf7aaa4bc3f4c75e696428cea01e7730f9ab017"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/1/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "80f3bfd6a8738f7a217d2df3506a5dd3e25046cafc3a31a610a3c253d558bab2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/1/frames.txt",
+                      "bytes":  1867,
+                      "sha256":  "c6c45af447b5bc3fe2713277ac7aeef89c5503bdb5437b390e490f60320eb97a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/1/images.txt",
+                      "bytes":  91181,
+                      "sha256":  "f6b1ab088a74ae028dcfc1b73313a896458420bc1f4281413d801b4cda28a783"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/1/points3D.txt",
+                      "bytes":  172,
+                      "sha256":  "e2c725fd1d6298be0c75420d79e0cb715c9a8ca7e577a2e5f92222b5c9072b86"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/1/trajectory.csv",
+                      "bytes":  653,
+                      "sha256":  "b81ce5d69aca7819794f86368bf5f809a5f014eb6640a832994f6c85cfe9ea3b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/2/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "dd8eb8f17cb307110c66e56f146889531fb19f7e0981d0750d5dd157bed9616a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/2/frames.txt",
+                      "bytes":  2383,
+                      "sha256":  "c97d7ea0972866731f7319745ff0953a7eeec061745777cc83772eaf239aad52"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/2/images.txt",
+                      "bytes":  100259,
+                      "sha256":  "c7c8e956f97c6ce8b67306aeaf7035fdcd73a36273e7a86b3168d530984b56d1"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/2/points3D.txt",
+                      "bytes":  172,
+                      "sha256":  "e2c725fd1d6298be0c75420d79e0cb715c9a8ca7e577a2e5f92222b5c9072b86"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/2/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/sparse_txt/2/trajectory.csv",
+                      "bytes":  838,
+                      "sha256":  "fc147672dc34e3f7185f8d42f91cc7a3defce30c65ea0fb1eb80dd381f3cacf1"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/summary.json",
+                      "bytes":  155221,
+                      "sha256":  "4ca5a888d1e695e125a59dce2c9faa67d7bc139977e347aef3aed8335b77e8c5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_causal/verified_pair_displacements.csv",
+                      "bytes":  64337,
+                      "sha256":  "aeb73b5bbdc12a35526cf09bd803626878c16f5cd5b6f44ce0dd58d276b483e6"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/execution.json",
+                      "bytes":  2917,
+                      "sha256":  "d5137a6407629f846aabf25fa034c46fe7f43b02bbd72123259e52de14ecb1ad"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/match_graph.json",
+                      "bytes":  1247,
+                      "sha256":  "027975947608d08d4722096ca8a12af2c8eadbd0d4f071a1491b0d9ee8a37fdd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/match_images.csv",
+                      "bytes":  2928,
+                      "sha256":  "e4561e75b2c0407a09880c3eb2d97779d37c5354ccf6ff0aace3df374ff5db11"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/match_pairs.csv",
+                      "bytes":  39073,
+                      "sha256":  "0d685bb6c36086ada24aeca12a0a5f221428d7bb5a5d85f042c8b28d63afa98b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "cdc4324616ccdd6b3e5aa5576e72176879a7aaee461df37a184b193121d15305"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse/0/frames.bin",
+                      "bytes":  13868,
+                      "sha256":  "5b61e2546af80ee5168f1a2e00190129ccc39696500db37e694084cbeffe5d74"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse/0/images.bin",
+                      "bytes":  767639,
+                      "sha256":  "80b717cb59f598c66ee148073125cdd0ea70741a7ee40196663c1b1a2af970e4"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse/0/points3D.bin",
+                      "bytes":  139691,
+                      "sha256":  "30562f46eccd449089ac6ad2d2ded5305ce3afbeccc9821d0822e81877768ea1"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse_txt/0/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "79e3b9f88d269ba523cc8a9ddfc9fd0cc18682f2aa844cab6317758b5cf00264"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse_txt/0/frames.txt",
+                      "bytes":  27716,
+                      "sha256":  "bc668080411676fb92c0e7562d6d83609db0bb7332df7b4d2e477834967d9f02"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse_txt/0/images.txt",
+                      "bytes":  1310665,
+                      "sha256":  "6f02b8b3afd1968bc19ae39aafa5973d7bf936bee3799d88326e6ba71494482e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse_txt/0/points3D.txt",
+                      "bytes":  133930,
+                      "sha256":  "670b2d82c8d6cda1f25604ec3b0dd63416d9a7afb51252d5ad20299ff412a271"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/sparse_txt/0/trajectory.csv",
+                      "bytes":  10581,
+                      "sha256":  "6b34114eccfff0439982173e4e80ccaaccfbcd790afec47555f65b54e8647516"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/summary.json",
+                      "bytes":  176389,
+                      "sha256":  "10394ea8ef4a4330d67fb6bbc98caf48b2f918a79781988de87f6f217fb884dd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_side_1_full/verified_pair_displacements.csv",
+                      "bytes":  81142,
+                      "sha256":  "4efaff68f54f1ae4de2db8e9695bf2f2274074ccc04ea0607b5f5281927669af"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/execution.json",
+                      "bytes":  2923,
+                      "sha256":  "841acc01cd4a32e91906683b58f0463b70f5951c49f667313692366307a01de5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/match_graph.json",
+                      "bytes":  2241,
+                      "sha256":  "f65ba9db94ff735e48471adb417de940a1da48a428b048c3e83665227104739a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/match_images.csv",
+                      "bytes":  2256,
+                      "sha256":  "81054bbfa7b9996c4abb257610cda43b4bc00c17260e166d83f1f98da2778dc7"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/match_pairs.csv",
+                      "bytes":  27338,
+                      "sha256":  "9ed5416fa740147d6df9bc87f1307a03759eddd3453f7d8ce93f4318ba19df92"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "15c63c55aa8e2f46a12fc977e3c405102b72a3a065f8dce7f6d4e3efca14efd9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/0/frames.bin",
+                      "bytes":  5384,
+                      "sha256":  "295f2eb636f22085cf5b172a6436d5b0a50da6f0988cd154c3628b009dd15d7e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/0/images.bin",
+                      "bytes":  273424,
+                      "sha256":  "f0717f73248bff10338b326eac0a8cdbf8280aae64d449f770832bf260266bdd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/0/points3D.bin",
+                      "bytes":  70159,
+                      "sha256":  "21da3884e4c7a31d458d046ae121891ca3e7c121dcbfd00e9bf09e9f9380b7ca"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "86a8fcddfb15730af654db8b989c3ea35c2662f03332bd3ef94b98a1c2346ad3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/1/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "97518b72f3d819395f5cc882951fb54b398c670ee344f7713bdd12dbbc65570f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/1/images.bin",
+                      "bytes":  34078,
+                      "sha256":  "4c3cecd3a84a8cfc1d115ccaa48822a13fb29c66fddbb0618650bd6c8ae8912f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/1/points3D.bin",
+                      "bytes":  16555,
+                      "sha256":  "e167485b9ded3429e9d6b76d84d296ca5c2ef2860964d0ffe38e91fd542cd1c9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/2/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "8fdfece6c3f2cce013cdf5fc526bfd96f33b2fafee1ad8eed1b3b1211d3047fd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/2/frames.bin",
+                      "bytes":  4712,
+                      "sha256":  "92491fca1b970ce4394c6dcfb95922698354b537467baa562ad08d662d0f03d1"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/2/images.bin",
+                      "bytes":  155016,
+                      "sha256":  "8292acb44ba4e7263ab4272d80407fb869d7dbfb0fcdd8c6f16ea52d6da7a549"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/2/points3D.bin",
+                      "bytes":  23704,
+                      "sha256":  "16d44bd476b38d9b50c8a88dcc8004df0ec067c57bc439cadecd933c9b25d300"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/2/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/3/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "b032ed7c8e89f0a5bfb6ab299d10d4cc37704618d64175b5e2394ba7ffb35de2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/3/frames.bin",
+                      "bytes":  428,
+                      "sha256":  "7f9cf23d4da1ecb61cfacb01d53d006f2c35b19515997aaf576557f05f6c1804"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/3/images.bin",
+                      "bytes":  17439,
+                      "sha256":  "ba6a64986055ccd6552c999bd95e78c28d18556aa83388eab9fe6d3cf9f09acf"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/3/points3D.bin",
+                      "bytes":  9090,
+                      "sha256":  "5f639498bfda89a78793d657fc8b33b419882a0e9f14996918020e43e21a2969"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/3/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/4/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "426650acf4d4bc0ec573fd8f8259220fc678d83dd6af8c9dc04bdb8773ffc65f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/4/frames.bin",
+                      "bytes":  1016,
+                      "sha256":  "a8553c840b1b66fe380f4baefd2b8b9a829757c45659375accc3ef2d4527e0d5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/4/images.bin",
+                      "bytes":  36692,
+                      "sha256":  "41b4e483047f0ba789287000a3ac34c05dcb4fe9413eedf6d5df99cd629f93c5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/4/points3D.bin",
+                      "bytes":  10704,
+                      "sha256":  "013c372db68b03b546675e328b427f2a079e892601e29dc3f1b4d5ac684dae9f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/4/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/5/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "68e6288bf41d2520285f6e96ea08f66356c95592fad72d41dfdeac66e2ad3079"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/5/frames.bin",
+                      "bytes":  1184,
+                      "sha256":  "3af9b4cca6b03cc09cf833e29123ea640d479ac5e792414c4f71f77a7396dfc8"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/5/images.bin",
+                      "bytes":  38874,
+                      "sha256":  "375163f532b32d67b55758aefd36936b414e9216cc6037cce40398866da7f7db"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/5/points3D.bin",
+                      "bytes":  14188,
+                      "sha256":  "cda0d4496c9626407639b70fafb69847fbb04b10504299e4c2d652e6787ec5e2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/5/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/6/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "fee9719c4513fb61aea67427d7d60f3b3738318935e424353106b3df813bd2a6"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/6/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "5110389721f3e5fdf43271e28f2fe5518ac567cecb3a7e424446f93cf327fee3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/6/images.bin",
+                      "bytes":  30118,
+                      "sha256":  "1543b737857560d6fe1a52044112849832a72a3d7e97e242f0da049ab86329dd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/6/points3D.bin",
+                      "bytes":  75,
+                      "sha256":  "27498f9dd1eb6d357fb45551d7861d617f3b54439e20c0bee6a8c134c7809050"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse/6/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/0/cameras.txt",
+                      "bytes":  194,
+                      "sha256":  "e28a21abe7930fa49cbe13cb09bbc55f86bf820c1c9b3a91389cc314e8643e18"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/0/frames.txt",
+                      "bytes":  10745,
+                      "sha256":  "bc1a39738361ce54d92157da230c0ff793514b7d6a9b8689c88435cf9e612ad2"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/0/images.txt",
+                      "bytes":  469182,
+                      "sha256":  "7b27830c74717ea0d329997e8ced0f90ca30fe06e3edf53cb457827c976cb342"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/0/points3D.txt",
+                      "bytes":  92213,
+                      "sha256":  "975606f0cda1ad81d240b68bbf8f9a30c55ffb495debeb82979c6b97cc207892"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/0/trajectory.csv",
+                      "bytes":  3948,
+                      "sha256":  "e575711b300b991f87831df9ee5493d2e235d6febb8cbd85cf63ff9cde49b353"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/1/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "903d6c05e6fa4d518c0851f2eca8b82b8e64ae85d5feef399393f543cee08199"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/1/frames.txt",
+                      "bytes":  1826,
+                      "sha256":  "9a934b36e211fc64a88d1b9327292fa945c2d1045b465b245110e5a28bb3255f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/1/images.txt",
+                      "bytes":  58343,
+                      "sha256":  "e7fe9a1ab5f78bf0ee880a9326b8d8c713cb4808d1afbaacab12f3a1b3ba7061"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/1/points3D.txt",
+                      "bytes":  22408,
+                      "sha256":  "021b6fad850cfa1fb46ba1dff6733c0d778c879bf82c43fe05b81c125c39868d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/1/trajectory.csv",
+                      "bytes":  656,
+                      "sha256":  "cadaadc2890cbb4e9d1b1409e286e61876f8f16e8e0eed7075dd26168192a1fa"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/2/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "ad6b9d0e5e3b6c72b6411c5be9d241f76ca89511968fa119f3d387515c2a87aa"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/2/frames.txt",
+                      "bytes":  9321,
+                      "sha256":  "21242543f90e831cfc51b91ee994f1f8589ed7cd6139f949fcfce2ef7559d664"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/2/images.txt",
+                      "bytes":  264959,
+                      "sha256":  "df85d58fd91edb135394c467b2887d9a6acc42bc34b8a53b94d422315f445dbc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/2/points3D.txt",
+                      "bytes":  24019,
+                      "sha256":  "28f78295880c63a8c118a07a5e455115941ff43dfd79b1f9d89a8fae526c1013"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/2/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/2/trajectory.csv",
+                      "bytes":  3505,
+                      "sha256":  "54a463bd29fd6c7da9adcee4dc807fffcc1fbaaee903c619faee70b19d2b1816"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/3/cameras.txt",
+                      "bytes":  190,
+                      "sha256":  "ce21e882c447209e7d8c8c1a425d5ede7eec9a1ad85feee1470daab384dc4192"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/3/frames.txt",
+                      "bytes":  1024,
+                      "sha256":  "91ff2e0943ab5c85020ee873ac1e101c793986d658318f5d0a8f50a271fc7ff9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/3/images.txt",
+                      "bytes":  29882,
+                      "sha256":  "05b3384d31df977534ea7621184b715ecf115a3f044ec13c751b4cb48b7cd2cb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/3/points3D.txt",
+                      "bytes":  13099,
+                      "sha256":  "8ed6bfc967a1177701047917f7338df1341de47eb85913c49151f859d384ba00"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/3/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/3/trajectory.csv",
+                      "bytes":  337,
+                      "sha256":  "9faf4c234025c2750a2944a2378a89bb7acaa3c44a78608ae2e47d9da4033dfc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/4/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "fda93909885ac83c83284fd4a8d98ca76674ca86bb405e8c636eda92698da893"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/4/frames.txt",
+                      "bytes":  2161,
+                      "sha256":  "1c183451121420c776a1d3a84471713a4cb99300ec0763e35f9b4d34acb16b05"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/4/images.txt",
+                      "bytes":  62771,
+                      "sha256":  "204745e0a2928ecab331a2da57ae053faaf78ee9a593371a432b662d0e7881a9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/4/points3D.txt",
+                      "bytes":  13340,
+                      "sha256":  "24dbb8437593d5951ef064350743e560cf8646c17d18eb054b95baed703b32e3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/4/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/4/trajectory.csv",
+                      "bytes":  755,
+                      "sha256":  "56b7026518a48011d47d5e4321f4a686cdfde35318855f5a2aebbb79d095f434"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/5/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "bf3a2ed70c74917f00af2b4adbbd1180085a3cd85843121eba65b5326a140113"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/5/frames.txt",
+                      "bytes":  2464,
+                      "sha256":  "80f737989b9557e28f64153217e095175c932b2ef95a712a09b93027c0204d4f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/5/images.txt",
+                      "bytes":  66170,
+                      "sha256":  "dc0ffbaec8dd3421e56cb8c1ed417daffe3cc7e4e99bded76d98b7dde84fad17"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/5/points3D.txt",
+                      "bytes":  16271,
+                      "sha256":  "0a2f7a59428589bc5eb8fa724a585c8322593afcb686e686bdc00abaf84a6f27"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/5/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/5/trajectory.csv",
+                      "bytes":  898,
+                      "sha256":  "fd0779a14d1f51146c42c02ba2fc4faca00c7a7a3219313ca282d9fffcc95dd8"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/6/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "ba8c88e7d809f0004de2d61b5d72ce97383ffc813924020ee5ee77d9410043b3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/6/frames.txt",
+                      "bytes":  1879,
+                      "sha256":  "94c0e1965af38dc003c771ae8e5d6d69dc36a47d9061f80d992d0da9215faadb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/6/images.txt",
+                      "bytes":  51488,
+                      "sha256":  "01a29fef2c77df2859e2304cf21a41b8924b40a0d32e0742ff743b95acebe062"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/6/points3D.txt",
+                      "bytes":  277,
+                      "sha256":  "6daf9018ae798641ab62613f982a6a0e0e62e470eaa943c960f74906fc7eb52e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/6/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/sparse_txt/6/trajectory.csv",
+                      "bytes":  644,
+                      "sha256":  "89cc0a5e870b39f7b87773b0da26201691b892a827ca74d7a3346641736a9b83"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/summary.json",
+                      "bytes":  190600,
+                      "sha256":  "22b39a28c3bb00ba526264add061387d1b314bd35736fe51445d2aca96107f2d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_causal/verified_pair_displacements.csv",
+                      "bytes":  49832,
+                      "sha256":  "21e629cf31d14fc03b511dcda884419572f45f89b6bef15c73af8b76783b53bc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/execution.json",
+                      "bytes":  2919,
+                      "sha256":  "32e26e8a6072679dc750e0b9270788a21f8d794b2ff7720d6a68b3a34538e43e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/match_graph.json",
+                      "bytes":  2420,
+                      "sha256":  "00150cca5ea6883564ef12b3130177c398db84721ddbb463a94ba49524accdbb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/match_images.csv",
+                      "bytes":  2872,
+                      "sha256":  "44ada498f0c26d08a8e73779f3ef72a939c2d780bfc63d3b9f892b52729d7ebf"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/match_pairs.csv",
+                      "bytes":  36293,
+                      "sha256":  "8c02c5b9164c6b4ca8c4dff6e59ff784a5e2134ccc20ab15c00a290d12921a31"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "4312cbf348fe2bfdb606a0fefaf7d8358325a542cce7ef58ffdb810a8c98865a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/0/frames.bin",
+                      "bytes":  9164,
+                      "sha256":  "74143ed04871397cc601289d04926928509ecf68ccc0c2638ea05b2e14a4df93"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/0/images.bin",
+                      "bytes":  412447,
+                      "sha256":  "43b8924d9f227b029666bc0d0c605f9b28bb80c2db73f29c8b5caeb7b275c30e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/0/points3D.bin",
+                      "bytes":  96508,
+                      "sha256":  "e64095228d0f91a6aa84d0a5087cc37ba6be39c346d09f462a79e8f6b8c0469c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "cb767a010f862850506425c7c5df67311052d2e239ec4bd39ebc25352a365edc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/1/frames.bin",
+                      "bytes":  3368,
+                      "sha256":  "79a931a1c5995ef5460fb5596fc9c2927a3a8d7d8b34cbe6370788291bf42dba"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/1/images.bin",
+                      "bytes":  161848,
+                      "sha256":  "277d4f71146254593f92b9bfb4063f7d667a0e31bd7ce88c682cc19655fc1db5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/1/points3D.bin",
+                      "bytes":  40036,
+                      "sha256":  "0730391bec5c7680730ea214c8ddbd10f8db65b841fa113767914f3b823a8e45"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/2/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "04422bed3dec15f1e5508720e3c5d1267d01e2e0f93df631d0e46f9e2a471089"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/2/frames.bin",
+                      "bytes":  1352,
+                      "sha256":  "66c39f38c2e457fb9df4491e6c2f84ed5cc58e9c9c197e3958cf84839a276374"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/2/images.bin",
+                      "bytes":  68920,
+                      "sha256":  "511183a6b40cfd4f799be92238a9f4af2ad90df4a3a871e6c9eae46f73fcbba6"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/2/points3D.bin",
+                      "bytes":  21301,
+                      "sha256":  "4e32f6c54a5d9623cf84cffe3356be80d056b2f0b793079c985420d40588c04b"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/2/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/3/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "acbf0e6960fe979e5fd33a98905453dd464b9f3c2e28589188bf1d4d42e562e9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/3/frames.bin",
+                      "bytes":  512,
+                      "sha256":  "18cdad11da0adaa5a9fe4816a150414e074aa0a67e2107b6701ad5a8f2a6300a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/3/images.bin",
+                      "bytes":  20954,
+                      "sha256":  "3b169ecca666afaa20ee2b33b2c0a10c6dad59cf4e4c55fde454533ea3796530"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/3/points3D.bin",
+                      "bytes":  12236,
+                      "sha256":  "935ee7ef08c205e1fd7486b94529262969297d3312afbd0cac1ad35bd6c51637"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/3/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/4/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "68bc4e01fdc46c3339137ec2e38bf5b5171002b1003a77b04c3c9911f3cd2848"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/4/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "689ebf73d9ef871d562050d1824bf06d68dc1d6baa81958fdc7a86ea0c062105"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/4/images.bin",
+                      "bytes":  33526,
+                      "sha256":  "b8ad65a5c3320763f030576aafe51395d1cbe00c94a52b4e82eebd9dac04a65e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/4/points3D.bin",
+                      "bytes":  2311,
+                      "sha256":  "94e12d9070b089c1bf577104aebb929ce3059c02fe7cf098294ed5a954d6c5d3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/4/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/5/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "8d7e033be5fb597dc26d3cfaf3957ef02a06897394bd4995171db94214b89cd0"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/5/frames.bin",
+                      "bytes":  1100,
+                      "sha256":  "e9c7ddea148e98f33ae6525e6d56be8c4c9ec014f298b811cc3ed87ae55ebedc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/5/images.bin",
+                      "bytes":  35335,
+                      "sha256":  "90aa245740261b75cc9244c203cf205d610f4cd67cbd88528af7ff12a4e46d7e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/5/points3D.bin",
+                      "bytes":  195,
+                      "sha256":  "5de285550bbca50686d4e7096501d7f8aa8a53fae4d8c66a3a53afd2b04608b1"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/5/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/6/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "6d033172577e937a17c58162cfb8d59bf4c51c6c3d5296ae05960307d606709a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/6/frames.bin",
+                      "bytes":  1268,
+                      "sha256":  "7ced2f44029910a43c4bb638688b6947811655923ecf0ee3433b6df26d06e05a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/6/images.bin",
+                      "bytes":  40709,
+                      "sha256":  "85a7bf90c6ce7f0c931809b0d5fde5b8eb422a33b1dcf041051649b76c74f61f"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/6/points3D.bin",
+                      "bytes":  8,
+                      "sha256":  "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/6/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/7/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "30cf541b39abfe640173fb8ebad9d01988f549bee0c0589b86eadff23c243e8a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/7/frames.bin",
+                      "bytes":  848,
+                      "sha256":  "4bf2c1f15d563a83b67fa4384ec17fb5e497e41deb09a66741285c9e0384ded0"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/7/images.bin",
+                      "bytes":  26182,
+                      "sha256":  "348c350f5e6817b50cd2bcf2a2dd4ab071745c0147d57ee4a282fe4793a7a5ae"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/7/points3D.bin",
+                      "bytes":  8,
+                      "sha256":  "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse/7/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/0/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "b5a58b1c341387f6364c38d1f3097ff125fe10369f223b8962add1c08765d784"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/0/frames.txt",
+                      "bytes":  18022,
+                      "sha256":  "fee6c15dc0ec333ec86e719c2a36d294ea357bf815f8682fd89886a2a2aeaecd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/0/images.txt",
+                      "bytes":  709481,
+                      "sha256":  "7e8cf7700c59e66a3245495bd561d177ce2938ba22b903b751a102afcd4620af"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/0/points3D.txt",
+                      "bytes":  106974,
+                      "sha256":  "65a1ab2bc78069089dd023dff9a65b7744e917af42608cc473547cfd3a0559a3"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/0/trajectory.csv",
+                      "bytes":  6745,
+                      "sha256":  "f5fed6ee6b848e6c9db99580a25b213b8476283c647a7da833a81a2d50975b1e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/1/cameras.txt",
+                      "bytes":  194,
+                      "sha256":  "d126350fb9ecbc974e4ca275fa408b360a6b891b4abdc5c934614f281ddfaf92"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/1/frames.txt",
+                      "bytes":  6908,
+                      "sha256":  "400f300b15469e56800678062a352e698a8955eda85ed82f7cdaaf52b6b48301"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/1/images.txt",
+                      "bytes":  277769,
+                      "sha256":  "851a23757d475bad3d2def10c50570e8066af984710a42684090dabc2869da3e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/1/points3D.txt",
+                      "bytes":  50562,
+                      "sha256":  "893e98fd52ce70d4e093e83d16f91c80972dbff62f9b490a83216ea3e7fc8e0a"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/1/trajectory.csv",
+                      "bytes":  2517,
+                      "sha256":  "d64986980b81ad7a6b87594124efef46329a5c647e4a7a8341c63e2ec27adecb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/2/cameras.txt",
+                      "bytes":  195,
+                      "sha256":  "43cce47a45d9af4d55f13b602cb639db6cb8ad531b04f2b43c75829b909fec24"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/2/frames.txt",
+                      "bytes":  2835,
+                      "sha256":  "29f7bb95a774925a7977d938118e6a49b3209fa6b2827d78035cd38720c8ac12"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/2/images.txt",
+                      "bytes":  117997,
+                      "sha256":  "09c97e4c842afffb61261eea9aec0858221d54634a0f18d787061ea8c222388e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/2/points3D.txt",
+                      "bytes":  28356,
+                      "sha256":  "9ff02b073a916b61e3cf4ff0c305b24d7935113ac6614e08241fba69647f1bfd"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/2/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/2/trajectory.csv",
+                      "bytes":  1021,
+                      "sha256":  "0faf170385cb6d9e56de1609b4adf2bb1446b4f48c92ddd3e3a868c25092726e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/3/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "c96a916580d570549bfd3f8971775f58ce9dd4a3d75933e2ad59bf7d799fa950"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/3/frames.txt",
+                      "bytes":  1187,
+                      "sha256":  "d10383c9530193e8bc4651d117f8dec379c745774c8816f1225e8e472da44b29"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/3/images.txt",
+                      "bytes":  35890,
+                      "sha256":  "13ca141d62fd0f55f21d2b3db580cab7b180373428d3d665b1a4f5a65e864179"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/3/points3D.txt",
+                      "bytes":  17809,
+                      "sha256":  "bb2361b108036617b038e0e80f2f07c135168ce57dfea57a6f4922209938bf22"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/3/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/3/trajectory.csv",
+                      "bytes":  395,
+                      "sha256":  "e8379efe3123ef89313568e608abb6355a086c38bd76c3600afe1e46d1b46e36"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/4/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "eec66cc6988f5ac98497de608d274c496a87f2fb51847321d0eceea725438421"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/4/frames.txt",
+                      "bytes":  1857,
+                      "sha256":  "2f06d3df92a52186bcf47704f7f88646b83b05b7610522a6aa4710c75fe5a38d"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/4/images.txt",
+                      "bytes":  57209,
+                      "sha256":  "80aa3277f13a92afc1b3c20e4c93313635dc68a1cb391078e894071553ee6508"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/4/points3D.txt",
+                      "bytes":  3114,
+                      "sha256":  "d35803d3a74b986f6aa7fb356ba574d13003a7a5f4abb01f928d7a615e641d4e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/4/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/4/trajectory.csv",
+                      "bytes":  658,
+                      "sha256":  "ec80444302be71c4a3568af30207d726065759990c02acba17c857601a500f21"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/5/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "70ef97bd820c0cc6e19d411b6c09dec9b4015bf00038e395532c9aa17f6ea298"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/5/frames.txt",
+                      "bytes":  2355,
+                      "sha256":  "af6438abf314eaa94deb3ed2844e0f155390c3a787fc6fa3beb5e08eb1cbbe07"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/5/images.txt",
+                      "bytes":  60208,
+                      "sha256":  "b85b7b2e5e02953fd23afac2cdee3b9ab45896b536f2e1c8116a3e09b1c5438e"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/5/points3D.txt",
+                      "bytes":  369,
+                      "sha256":  "a2549e88bd9cfeb701fbd38716a7a772652ef388e5471ac22b3df24951f7a977"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/5/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/5/trajectory.csv",
+                      "bytes":  828,
+                      "sha256":  "a8a03b7fceab5d7821b07f069edd48397ee32fe3e99a258be4150d7dd15968c8"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/6/cameras.txt",
+                      "bytes":  190,
+                      "sha256":  "228c5798edf12d34603e302dd396880a4b683164723e7a6b2211ffd9dbe59349"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/6/frames.txt",
+                      "bytes":  2696,
+                      "sha256":  "f2b588fab5249956db38235b00bd2084181b1a1ae7fdcc0601cf3db3856d4441"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/6/images.txt",
+                      "bytes":  69341,
+                      "sha256":  "ca322163acb0dcf51961a9cf1b1308bc3fd21ac6dd16a7ca7ad91587446e7623"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/6/points3D.txt",
+                      "bytes":  172,
+                      "sha256":  "e2c725fd1d6298be0c75420d79e0cb715c9a8ca7e577a2e5f92222b5c9072b86"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/6/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/6/trajectory.csv",
+                      "bytes":  975,
+                      "sha256":  "41eec99117d55a8bbfcecc1867c0e738cf89e49305d80942b6c6bf0308fba298"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/7/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "760d6d1aca60aacb2fc0953b55c282dd7de46e31d906e1cce3441791b4295b2c"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/7/frames.txt",
+                      "bytes":  1853,
+                      "sha256":  "448cd44ba52ffd9f1ce6621cf6e0d19863a1a5c0931948406bcaaf649fb7b6ff"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/7/images.txt",
+                      "bytes":  44628,
+                      "sha256":  "9713fb4bdd7013d93e4db7cd9c309d121d9d32f933656cfb860649d105742d41"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/7/points3D.txt",
+                      "bytes":  172,
+                      "sha256":  "e2c725fd1d6298be0c75420d79e0cb715c9a8ca7e577a2e5f92222b5c9072b86"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/7/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/sparse_txt/7/trajectory.csv",
+                      "bytes":  649,
+                      "sha256":  "bce964128bc1b96aa9597de77f22136911488f06f17847e15f0b25152374d7a8"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/summary.json",
+                      "bytes":  237111,
+                      "sha256":  "3e8b039cb96045dae7491821dc6a1b787a5fc7f1077e7752b45c9a96ffdf23bb"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/episode3_wrist_1_full/verified_pair_displacements.csv",
+                      "bytes":  62814,
+                      "sha256":  "a4e19859695952c3a5e23e4687ca4b90425bdd1a2140a4af44292c51e7faffb5"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/experiment_results.csv",
+                      "bytes":  724,
+                      "sha256":  "797d67318fd1ad01e57f8feb39e0173900fc975679ffbc68cbc526e3b913f925"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/input_contact_sheet.jpg",
+                      "bytes":  215781,
+                      "sha256":  "6424c34435c92573a96be1808e34d8261f0befbb3e33b7ddd206e37cc26cd681"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/protocol.json",
+                      "bytes":  69836,
+                      "sha256":  "4caedf3a0715f0f5da514e7270ade652851d01bac1c4906067ac9045a16fb7a8"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/registered_frame_coverage.png",
+                      "bytes":  219367,
+                      "sha256":  "0a671f98d1741ddb32008f3054ef2bb9720da0c945e3b941045f1b1f6a78f1ce"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/validation_sources.json",
+                      "bytes":  1292,
+                      "sha256":  "e6097217f596856c4cc8fd4db47b2b1dd13d37bb0d1be08433fe795c7bd7a197"
+                  },
+                  {
+                      "path":  "runs/fmb_colmap_official_v1/verified_match_graphs.png",
+                      "bytes":  764367,
+                      "sha256":  "f529c870868a31035e2376878145fe38b5483a48873c3f34b9eef6511305bb26"
+                  }
+              ]
+}

@@ -1,0 +1,6 @@
+﻿{
+    "default_sift_vocab_tree_sha256":  "96ca8ec8ea60b1f73465aaf2c401fd3b3ca75cdba2d3c50d6a2f6f760f275ddc",
+    "sha256":  "e9c5cbd84c2ea986d2e970a2473fc2d2e6b34a2cdcf5d3df2765c319a63af881",
+    "asset":  "colmap-x64-windows-cuda.zip",
+    "release":  "4.2.1"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "run": "episode2_wrist_1_causal",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 2.842170943040401e-14
+    },
+    {
+      "run": "episode3_wrist_1_causal",
+      "hashes_and_subsets": true,
+      "RGB_only_default_CLI": true,
+      "SQL_counts_and_no_focal_prior": true,
+      "native_models_and_TXT": true,
+      "binary_TXT_and_trajectory_values": true,
+      "COLMAP_OpenCV_projection_max_error_px": 1.4210854715202004e-14
+    }
+  ],
+  "validated_K_claimed": false
+}

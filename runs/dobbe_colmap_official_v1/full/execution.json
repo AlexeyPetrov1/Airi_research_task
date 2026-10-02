@@ -1,0 +1,29 @@
+﻿{
+    "version":  "COLMAP 4.2.1 (Commit bd1fcf6 on 2026-09-29 with CUDA, boost hash maps)\r\nUsage:\r\n  colmap [command] [options]\r\nDocumentation:\r\n  https://colmap.github.io/\r\nExample usage:\r\n  colmap help [ -h, --help ]\r\n  colmap gui\r\n  colmap gui -h [ --help ]\r\n  colmap automatic_reconstructor -h [ --help ]\r\n  colmap automatic_reconstructor --image_path IMAGES --workspace_path WORKSPACE\r\n  colmap feature_extractor --image_path IMAGES --database_path DATABASE\r\n  colmap exhaustive_matcher --database_path DATABASE\r\n  colmap mapper --image_path IMAGES --database_path DATABASE --output_path MODEL\r\n  ...\r\nAvailable commands:\r\n  help\r\n  version\r\n  gui\r\n  automatic_reconstructor\r\n  bundle_adjuster\r\n  color_extractor\r\n  database_cleaner\r\n  database_creator\r\n  database_merger\r\n  advancing_front_mesher\r\n  delaunay_mesher\r\n  exhaustive_matcher\r\n  feature_extractor\r\n  feature_importer\r\n  geometric_verifier\r\n  global_mapper\r\n  guided_geometric_verifier\r\n  hierarchical_mapper\r\n  image_deleter\r\n  image_filterer\r\n  image_rectifier\r\n  image_registrator\r\n  image_undistorter\r\n  image_undistorter_standalone\r\n  mapper\r\n  matches_importer\r\n  mesh_simplifier\r\n  mesh_texturer\r\n  model_aligner\r\n  model_analyzer\r\n  model_clusterer\r\n  model_comparer\r\n  model_converter\r\n  model_cropper\r\n  model_merger\r\n  model_orientation_aligner\r\n  model_splitter\r\n  model_transformer\r\n  patch_match_stereo\r\n  point_filtering\r\n  point_triangulator\r\n  pose_prior_mapper\r\n  poisson_mesher\r\n  project_generator\r\n  rig_configurator\r\n  rotation_averager\r\n  sequential_matcher\r\n  spatial_matcher\r\n  stereo_fusion\r\n  transitive_matcher\r\n  view_graph_calibrator\r\n  vocab_tree_builder\r\n  vocab_tree_matcher\r\n  vocab_tree_retriever\r\n\r\n",
+    "argv":  [
+                 "automatic_reconstructor",
+                 "--workspace_path",
+                 "F:\\AIRI_task\\molmo-motion\\runs\\dobbe_colmap_official_v1\\full",
+                 "--image_path",
+                 "F:\\AIRI_task\\molmo-motion\\runs\\dobbe_colmap_official_v1\\full\\images",
+                 "--data_type",
+                 "video",
+                 "--single_camera",
+                 "1",
+                 "--camera_model",
+                 "SIMPLE_RADIAL",
+                 "--quality",
+                 "high",
+                 "--sparse",
+                 "1",
+                 "--dense",
+                 "0",
+                 "--use_gpu",
+                 "1"
+             ],
+    "elapsed_seconds":  61.258063799999995,
+    "executable_sha256":  "9418a14c93d4a5eec5eb33ebf48a917403b5faa7ab5d2232f23e50c206d9e427",
+    "started_utc":  "2026-10-02T16:31:01.8809925Z",
+    "exit_code":  0,
+    "executable":  "F:\\AIRI_task\\.tools\\colmap-4.2.1\\windows-cuda\\bin\\colmap.exe"
+}

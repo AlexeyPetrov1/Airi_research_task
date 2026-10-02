@@ -1,0 +1,510 @@
+﻿{
+    "scope":  "Published derived COLMAP artifacts; source RGB, SQLite and full console logs remain local",
+    "files":  [
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/audit.json",
+                      "bytes":  452,
+                      "sha256":  "265f66ef9eaea4c048f8271bfbb57755418e5db131c629de61a3f9939ada668e"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/automatic_reconstructor_help.txt",
+                      "bytes":  1431,
+                      "sha256":  "7257e232c249a114fb1c6ba8a7dfcfa998452e85e54f8c938f1f9f04d47545f7"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/execution.json",
+                      "bytes":  2893,
+                      "sha256":  "1c81dc62e5c190be7cd8bc9368be7a60c620f49ac9b6c7c02979110757a669e1"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/match_graph.json",
+                      "bytes":  1085,
+                      "sha256":  "2e6003d13da04e58b7d1cbcdda25135dc8fd2e6d91d85da63e97ccbae36fca73"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/match_images.csv",
+                      "bytes":  1685,
+                      "sha256":  "95ff0bea722fba0110a76a433b3d8d4145eb5865a1410e01abf5b649b73c3012"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/match_pairs.csv",
+                      "bytes":  18659,
+                      "sha256":  "ba07e184ac397d275beaf857e11b1d76687024eb480ee0d2f9412609c220d07e"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "4bd19d80abbdcfb86b67ef2294bf99841a4f6f08ce9d16ee699c57cb27f46464"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/0/frames.bin",
+                      "bytes":  8072,
+                      "sha256":  "bc7c9746e956e1387fc8dc6ac3ba9bfb1a6238918e8613512d7e534339853516"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/0/images.bin",
+                      "bytes":  475832,
+                      "sha256":  "680519d390d6a8a447b84894be1af1ac3e479c040e11ef8dc268d28535afe088"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/0/points3D.bin",
+                      "bytes":  125165,
+                      "sha256":  "7b072c8b63357d560b6f0739633188090107bd0ee828057d1642aae1f4f3de9a"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "383c7b4f589d9cf45c176240adc9f438f1d05ff26e50222f74d128d7b03faedf"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/1/frames.bin",
+                      "bytes":  428,
+                      "sha256":  "65c2181c211508bcf0c24ee103f979ae5e1e80dcfe1836581f83a5ae749e1bbf"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/1/images.bin",
+                      "bytes":  25743,
+                      "sha256":  "0a00a913cfd2cefe0bb0334101f36d285fe5d8f7d43247a324653b516a717a53"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/1/points3D.bin",
+                      "bytes":  8,
+                      "sha256":  "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/0/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "0f2e2131cc661e6cb24ef415c9a6119df473801f37db4847cbe1af84cc1f5c00"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/0/frames.txt",
+                      "bytes":  15701,
+                      "sha256":  "b817d5288093a9906827d6a93540291abdc118087556330a0c9feedecd2a0ecf"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/0/images.txt",
+                      "bytes":  820465,
+                      "sha256":  "4e7dd7c97ce23dfab0d486c108dc27d543fcd77502877a2e979d9ac343cd42ac"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/0/points3D.txt",
+                      "bytes":  136424,
+                      "sha256":  "fa346e5d08abfd5d44d09710a00242d038101a295a6cbc076fbcc0265d7ded72"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/0/trajectory.csv",
+                      "bytes":  5827,
+                      "sha256":  "1b306b9a3e0a3a5585a5923416bc6bbdcb36e2576ab9e33e368fa7936f4b4804"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/1/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "c91f78384de2bdb21dc4c361cc6852d47cbbdba1b1c6afa0572dea72f71018cb"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/1/frames.txt",
+                      "bytes":  1024,
+                      "sha256":  "05cacf191820e2878298affaca3d84b586a66c16e3f552f4aa7745cf7ef09929"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/1/images.txt",
+                      "bytes":  43856,
+                      "sha256":  "6b7b1eee10c10b83bdd1601994bc7f193fbf4ac509465029ea3b29e8e8de93aa"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/1/points3D.txt",
+                      "bytes":  172,
+                      "sha256":  "e2c725fd1d6298be0c75420d79e0cb715c9a8ca7e577a2e5f92222b5c9072b86"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/sparse_txt/1/trajectory.csv",
+                      "bytes":  341,
+                      "sha256":  "0b66b7cdca9acf9b062a01996a120a8bf2f2c749034bbc260f7450c12d6cfe17"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal/summary.json",
+                      "bytes":  132272,
+                      "sha256":  "6ab2b031b3b6b3b2a7767f917c0bb92d571f53f931eb842d30f9efd77fc3f495"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/causal_sparse_observations.png",
+                      "bytes":  606239,
+                      "sha256":  "3018ce4ae137c308f7a87f987da2213da25a16073926ebe2941220f4ac680867"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/colmap_version.txt",
+                      "bytes":  1688,
+                      "sha256":  "804699d4319c4bfb5ecc4fc0b525002b31dd93af3948828788f2daf90b9e2ca0"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/decision.json",
+                      "bytes":  1356,
+                      "sha256":  "d3b5270857bcac9cd1f9f453ed75d5d9bad3d61c68530f63bf1949f42f0703ea"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/experiment_results.csv",
+                      "bytes":  246,
+                      "sha256":  "ab613f644a125ec93455f5f2a7c80c6e81ac9bbeebf2ac14fbbff4149c8b3bbc"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/execution.json",
+                      "bytes":  2897,
+                      "sha256":  "78d96dbec36e9527c7c26153a7217b6d228e9b9ce06bf459d9c6b97997326987"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/match_graph.json",
+                      "bytes":  1612,
+                      "sha256":  "fe8d90b55cf105493002c034ed31216d02ee7ea2e331ece9793f2bb9248cc7aa"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/match_images.csv",
+                      "bytes":  4247,
+                      "sha256":  "6d656762edd596e72ae284c3bf4b7de094a2aa00238e43151d7a836a3fc1a322"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/match_pairs.csv",
+                      "bytes":  59441,
+                      "sha256":  "81b48e7dcb0e22c628470e97ecc3d6e1f650eb8364ad45987a2bd05b513c16ef"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/0/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "4e9ba1b1bd3bd34247f9f4ac100bd957579488d539f3d5a86e5a2407998c8b92"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/0/frames.bin",
+                      "bytes":  8996,
+                      "sha256":  "f6781c814102238c087d9536370b43b855b6d6f8aa03cfeaafb436c2de6f1cff"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/0/images.bin",
+                      "bytes":  942345,
+                      "sha256":  "4a1590515b5ef72d1366631c3f17328f82a8b03d217cf2fb67a2d0c711ea2b68"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/0/points3D.bin",
+                      "bytes":  291632,
+                      "sha256":  "e56aa26ce1782fa60f15d89535d0f1df0a2695f6bb36bb65823abdc57a2ca3cf"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/0/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/1/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "ff942f4118372a5070f0d9cc970035577a3b067ecfd0954848f5efc07622d0e5"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/1/frames.bin",
+                      "bytes":  6392,
+                      "sha256":  "79327be5157044242743899fd58e85f67eaeea3581bc254ed65723a3b142d8ce"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/1/images.bin",
+                      "bytes":  394540,
+                      "sha256":  "bbaa6d35bf8cbf93e75758913f731af2a9719c5a2a1d6985d3e852de50597909"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/1/points3D.bin",
+                      "bytes":  117938,
+                      "sha256":  "9b18e92ab3ac99c89bace4c4465d5850046d6578473d22bebaa3d2ceaac12086"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/1/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/2/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "a8e217a8c192e3ed8ae40d38aec17ff409e38d0465ccfd387678da4b75c45386"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/2/frames.bin",
+                      "bytes":  2948,
+                      "sha256":  "0e6d28d3695289348bff13bc6706dd46a4383ff51bd52860e35b70fcde35f124"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/2/images.bin",
+                      "bytes":  146985,
+                      "sha256":  "a40b294cc32d5bf8e362fcfd98f6085742c36313647cd0b89ea025efd9058309"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/2/points3D.bin",
+                      "bytes":  48810,
+                      "sha256":  "6b317623b978841ee49a61e11eee0bcc082bb692388186997f4e1ac11e815784"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/2/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/3/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "b7aa51c979046f4314bacd75b449105f83555e8bc8926006cc0da5a2908a4ec3"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/3/frames.bin",
+                      "bytes":  1520,
+                      "sha256":  "c7a658f58993d69e573b84bb137b684e3c13feb567079865e8b15aed1aeb36d6"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/3/images.bin",
+                      "bytes":  87878,
+                      "sha256":  "9abd7858e35d218d5ca4ed7d851cdd211e903a338ca5acebd1e429716fdb60e1"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/3/points3D.bin",
+                      "bytes":  2305,
+                      "sha256":  "77716be0de2fb8429de1812261f60c0c533b7074d85250666d13c52130bc6d77"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/3/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/4/cameras.bin",
+                      "bytes":  64,
+                      "sha256":  "517390edba0bad70412f45f802de52941171c3ab38cf27abfa9613850cf40b70"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/4/frames.bin",
+                      "bytes":  1016,
+                      "sha256":  "69a0655fefa4fa63bf6075e30712c8a9f7f2d190a8213eb347eac7bda10d6de0"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/4/images.bin",
+                      "bytes":  50084,
+                      "sha256":  "7683c0482e6e88e4122c27b12790de0db5ea47ce8fa2ee9fd0a657aa9cb7e7f0"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/4/points3D.bin",
+                      "bytes":  455,
+                      "sha256":  "e0c64452dbbba829b0e3c9786fef8eceacc51b2f4108c3eb7d079167cd39bace"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse/4/rigs.bin",
+                      "bytes":  24,
+                      "sha256":  "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/0/cameras.txt",
+                      "bytes":  194,
+                      "sha256":  "07c47b98fa464c96c514c978ef8b948bba3d522bb6d3e1ed2df778e40aee8e11"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/0/frames.txt",
+                      "bytes":  18211,
+                      "sha256":  "e19b92ad9140c899f91038ce57550d9019b942beb777764afd873e06bb91ed35"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/0/images.txt",
+                      "bytes":  1646062,
+                      "sha256":  "4afe6d287a58e27c23f01580b1a828e2865fd1d3df972777cb6087d37a99d005"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/0/points3D.txt",
+                      "bytes":  336588,
+                      "sha256":  "ad64238717f6e590e71016f026a2d534dbaa9ebe1cac9f344c147a0a642aecd9"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/0/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/0/trajectory.csv",
+                      "bytes":  6654,
+                      "sha256":  "9a85dfb1fae3a74029adff04f2db4d0a01c949a7c6007f66661c5af694f3a983"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/1/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "45aa2a019f11cd5c15280f21d61a0ff686c02633bbd3c19f49c832bcc08069ec"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/1/frames.txt",
+                      "bytes":  12565,
+                      "sha256":  "19132cc6faa000d5df5b5871f6da8fac59a21bc7a3b7e97981e0140e45378eec"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/1/images.txt",
+                      "bytes":  681132,
+                      "sha256":  "b03aa6465ecff70e14e3e8b4b89ef9bc659c230415b726d5c87c04e2d8c2ed3e"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/1/points3D.txt",
+                      "bytes":  127347,
+                      "sha256":  "77bd0a349508711cd7d9c7c2888ea4a3e797ba1a77efcc3b918350f40a5124b4"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/1/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/1/trajectory.csv",
+                      "bytes":  4607,
+                      "sha256":  "79bfde0663edcf6f0b24b4bc2c77447849883e0c317a796868845eefbdc5a720"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/2/cameras.txt",
+                      "bytes":  192,
+                      "sha256":  "25d04a464bb79d776ec45c8714665fa6d5f799e52054b9554827a43c0cd7e1f4"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/2/frames.txt",
+                      "bytes":  6031,
+                      "sha256":  "5216650d32f4da688fbd490c41119fa7cd78a7bff45a53a0f953eb2293304564"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/2/images.txt",
+                      "bytes":  253590,
+                      "sha256":  "ae11e3981c15e4feed9a9761cc2face1dce5a7084f0690515b153b66a79e2a1d"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/2/points3D.txt",
+                      "bytes":  52381,
+                      "sha256":  "3f58e7334c853b2bb9914d0fe2b255b0843c0cfe9d72e97edcd2f26393736ca3"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/2/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/2/trajectory.csv",
+                      "bytes":  2187,
+                      "sha256":  "472d01230042461b58605e6c9a55089d5892fa21a604f5b45e4e55cc4d9b7b17"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/3/cameras.txt",
+                      "bytes":  193,
+                      "sha256":  "e4ef3e91e8c0d01bf86734e4515fcd3fc0ea437b12bf4a37d9676dd1c0eb0a9d"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/3/frames.txt",
+                      "bytes":  3137,
+                      "sha256":  "445cf908552b6d230aff2685cb8ced4b8cd09f5df625f6b3c101090fb0560abf"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/3/images.txt",
+                      "bytes":  149363,
+                      "sha256":  "741d8c1d3040d856f29b0a2fed0f93991629791a90288c663cc935e007360d9c"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/3/points3D.txt",
+                      "bytes":  2998,
+                      "sha256":  "fa983b01e8098f1259867fa380c2d672fe66981eb10df9f466e16b56969038eb"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/3/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/3/trajectory.csv",
+                      "bytes":  1128,
+                      "sha256":  "a8ddea7262f7a0e8443ac315eb6600ddff6268b3f55e426aea9c8f08c60267cf"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/4/cameras.txt",
+                      "bytes":  191,
+                      "sha256":  "b9018c0b8c178ab294d5568fd9f4b15043bcab88645ed796e03147954f231e7a"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/4/frames.txt",
+                      "bytes":  2187,
+                      "sha256":  "16419062bf8591c1fb6daf65eccf47b424fec5f5efc317f609687fce5b7fc6e0"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/4/images.txt",
+                      "bytes":  85239,
+                      "sha256":  "69351d2ccefce943472926d5741e069f1ee20b9f25b9226a5e2288642cbfab8f"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/4/points3D.txt",
+                      "bytes":  830,
+                      "sha256":  "e19b8a0f4414d40ba1de1fb4b24469287c41d9e47ff733079eab673c2185b031"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/4/rigs.txt",
+                      "bytes":  222,
+                      "sha256":  "51bd24b3caa3088006f2a0f925304a2d452c7d2f7fe381c7bfb00a0c9e85a674"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/sparse_txt/4/trajectory.csv",
+                      "bytes":  778,
+                      "sha256":  "64a6108a0cb73d3d3aa660a29ee28f287264ae5508e6ba38fa5e827668391e70"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/full/summary.json",
+                      "bytes":  353763,
+                      "sha256":  "a9787fb9b42d5355e3187a40d92182b73dd74639fd37e87b6e416a20bbea8872"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/label_motion_audit.json",
+                      "bytes":  1719,
+                      "sha256":  "1bd299dc8fc9a03b7ec49ecf6faf0f5fbd254de0964118190cc54f6523b79aab"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/protocol.json",
+                      "bytes":  36193,
+                      "sha256":  "01ecbb96cb2810dab829ac11beb414874941d62645325b9db2065cc0f327d713"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/provenance/download_receipt.json",
+                      "bytes":  272,
+                      "sha256":  "b162ffc0fa05f7913572d205089d5100fe66095a2f6122dad5353b48e0f269c7"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/provenance/release_4.2.1.json",
+                      "bytes":  8737,
+                      "sha256":  "b5d53d25379604e12a0935318418d554b73ef2912fd5f213efe9e92ca57f3e00"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/registered_frame_coverage.png",
+                      "bytes":  62647,
+                      "sha256":  "13d3ca6c7388666d90e1ee1e0a1689e1b09bc219b55378b7d1fbf6720307e134"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/trajectory_alignment.png",
+                      "bytes":  172240,
+                      "sha256":  "ddf2e4258630dcfc769d304603f5ddcf398cc98458c8e3082fa0e7498565e896"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/validation_sources.json",
+                      "bytes":  1076,
+                      "sha256":  "287222970c736bf98db3946c346f7d1169f5f96c786d91a7ef24551ef2941c4b"
+                  },
+                  {
+                      "path":  "runs/dobbe_colmap_official_v1/verified_match_graphs.png",
+                      "bytes":  188781,
+                      "sha256":  "d7f7a05e83d550f14a5a185bb1b35af2238aa07342d7e751638d14a2493a3103"
+                  }
+              ]
+}

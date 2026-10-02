@@ -1,0 +1,3 @@
+run,view,scope,images,models,largest_model,unique_registered,largest_points3D,coverage_pass,keypoints_median,pairs_ge100,largest_component_ge100
+episode2_wrist_1_causal,wrist_1,causal,127,7,53,113,218,False,114.0,57,23
+episode3_wrist_1_causal,wrist_1,causal,131,11,38,104,498,False,131.0,50,18

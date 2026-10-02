@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "run": "full",
+      "source_and_subset_hashes": true,
+      "rgb_only_cli": true,
+      "database_actual_counts": true,
+      "sparse_counts_and_text_exports": true
+    },
+    {
+      "run": "causal",
+      "source_and_subset_hashes": true,
+      "rgb_only_cli": true,
+      "database_actual_counts": true,
+      "sparse_counts_and_text_exports": true
+    }
+  ],
+  "no_validated_causal_K_claim": true
+}
