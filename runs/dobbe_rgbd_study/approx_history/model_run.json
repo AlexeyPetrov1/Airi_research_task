@@ -1,0 +1,70 @@
+{
+  "status": "COMPLETE",
+  "success": true,
+  "experiment": "exploratory transferred-K Dobb-E episode_3651",
+  "history_frames": [
+    96,
+    97,
+    98
+  ],
+  "geometry_file": "points_3d_history_candidate.npy",
+  "geometry_sha256": "3fe7c25dac3b580cb5357607cfbfa7dbbf37b6fe18e16a14a0855db9b028eaa4",
+  "input_freeze_sha256": "a28fba7be1ee5c8b0c5272365dfd66e0a6b5f6a289c18ebf99999d8ccc1b419b",
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "checkpoint_model_pt_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+  "action_text": "Pick up the red cup.",
+  "future_horizon": 30,
+  "seed": 0,
+  "dtype": "bfloat16",
+  "torch_version": "2.9.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "stage": "complete",
+  "elapsed_seconds": 207.58,
+  "peak_ram_gib": 22.466,
+  "peak_cuda_allocated_gib": 9.58,
+  "processor_shapes": {
+    "input_ids": [
+      1,
+      579
+    ],
+    "target_tokens": [
+      1,
+      579
+    ],
+    "loss_masks": [
+      1,
+      579
+    ],
+    "position_ids": [
+      1,
+      579
+    ],
+    "images": [
+      1,
+      3,
+      729,
+      588
+    ],
+    "token_pooling": [
+      1,
+      243,
+      9
+    ],
+    "anchor_3d": [
+      1,
+      3
+    ]
+  },
+  "prediction_seconds": 135.42,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite_pairs": 240,
+  "all_zero_tensor": false,
+  "all_positive_Z": true,
+  "raw_output_sha256": "f94776817763c6c88f43900266dc775d05f0ea99a13d22a59025e3a085d67d84",
+  "prediction_sha256": "64bb454b8be9c2e4b322e59209f271240d4e3565f01fddae4a9e08e318196917"
+}

@@ -1,0 +1,3283 @@
+{
+  "source": "/mnt/f/AIRI_task/molmo-motion/data/plex/PickPlaceCereal_demo_act_norm.hdf5",
+  "repository_version": "1.3.1",
+  "collection_date": "7-31-2022",
+  "env_args": {
+    "type": 1,
+    "env_name": "PickPlaceCereal",
+    "env_kwargs": {
+      "env_name": "PickPlaceCereal",
+      "robots": [
+        "Panda"
+      ],
+      "controller_configs": {
+        "type": "OSC_POSE",
+        "input_max": 1,
+        "input_min": -1,
+        "output_max": [
+          0.05,
+          0.05,
+          0.05,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "output_min": [
+          -0.05,
+          -0.05,
+          -0.05,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "kp": 150,
+        "damping_ratio": 1,
+        "impedance_mode": "fixed",
+        "kp_limits": [
+          0,
+          300
+        ],
+        "damping_ratio_limits": [
+          0,
+          10
+        ],
+        "position_limits": null,
+        "orientation_limits": null,
+        "uncouple_pos_ori": true,
+        "control_delta": true,
+        "interpolation": null,
+        "ramp_ratio": 0.2
+      },
+      "control_freq": 20
+    }
+  },
+  "demo_count": 75,
+  "model_file_hash_count": 46,
+  "demos": [
+    {
+      "demo": "demo_1",
+      "samples": 256,
+      "states_shape": [
+        256,
+        71
+      ],
+      "actions_shape": [
+        256,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "fe6edcbac93c971aeeedc88b4dee7a537d51cc69fc860ef85e5fe30553a36a68",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_2",
+      "samples": 229,
+      "states_shape": [
+        229,
+        71
+      ],
+      "actions_shape": [
+        229,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_3",
+      "samples": 201,
+      "states_shape": [
+        201,
+        71
+      ],
+      "actions_shape": [
+        201,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "cbfaf0200a8785adaed0ab9bd27186687a81de621ec843ddc5e8ce934988fddb",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_4",
+      "samples": 224,
+      "states_shape": [
+        224,
+        71
+      ],
+      "actions_shape": [
+        224,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "47612ee60d87bf1ba55cb32a17a723904d34e2551e3f6bd2aa86bdb61e029d0f",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_5",
+      "samples": 145,
+      "states_shape": [
+        145,
+        71
+      ],
+      "actions_shape": [
+        145,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.050000000000000044
+      ],
+      "model_file_sha256": "196ae00221a8020d9b09e55de7e3083e2994738fcce31366ae67db79e9131973",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_6",
+      "samples": 254,
+      "states_shape": [
+        254,
+        71
+      ],
+      "actions_shape": [
+        254,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "3b896c0f8e5f777125a4734440ab0b59d71daa7ae0850bb8e5d7b47da983f839",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_7",
+      "samples": 253,
+      "states_shape": [
+        253,
+        71
+      ],
+      "actions_shape": [
+        253,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_8",
+      "samples": 269,
+      "states_shape": [
+        269,
+        71
+      ],
+      "actions_shape": [
+        269,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_9",
+      "samples": 201,
+      "states_shape": [
+        201,
+        71
+      ],
+      "actions_shape": [
+        201,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4c95a3a153d9c9451586190b1ef70c9df1b8d08af5dfe7685ab39002fbc65088",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_10",
+      "samples": 205,
+      "states_shape": [
+        205,
+        71
+      ],
+      "actions_shape": [
+        205,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_11",
+      "samples": 233,
+      "states_shape": [
+        233,
+        71
+      ],
+      "actions_shape": [
+        233,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_12",
+      "samples": 183,
+      "states_shape": [
+        183,
+        71
+      ],
+      "actions_shape": [
+        183,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_13",
+      "samples": 212,
+      "states_shape": [
+        212,
+        71
+      ],
+      "actions_shape": [
+        212,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "e013a71cefeef7b099571158716f35bfbd490d4d1ea8a8f8686dc5ac169f2de9",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_14",
+      "samples": 163,
+      "states_shape": [
+        163,
+        71
+      ],
+      "actions_shape": [
+        163,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "6108ad9ad45818235d8bd5791504b3a281d7cf1d906dab090c41f4c9198d75f8",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_15",
+      "samples": 172,
+      "states_shape": [
+        172,
+        71
+      ],
+      "actions_shape": [
+        172,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "902d125bd9dd938ec85d55ca44481415603d63772227247cc99451843f0bf488",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_16",
+      "samples": 214,
+      "states_shape": [
+        214,
+        71
+      ],
+      "actions_shape": [
+        214,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "16bc3f95ff080af640729533cb94e56e6068e15057b7582fbbe8e8932e3dc19d",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_17",
+      "samples": 179,
+      "states_shape": [
+        179,
+        71
+      ],
+      "actions_shape": [
+        179,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "404958979720a2421bfd4e7b15126d176a7180ce6fc82312d24e7272abed79e5",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_18",
+      "samples": 227,
+      "states_shape": [
+        227,
+        71
+      ],
+      "actions_shape": [
+        227,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "8793eed277e23055678b60955b720478930b5cfe56a4e4c3c0d3f5edadd88b86",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_19",
+      "samples": 172,
+      "states_shape": [
+        172,
+        71
+      ],
+      "actions_shape": [
+        172,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "d4e01c2c0c67b02ede8c65ce675a633901595f923f8298a7429330cc8b1360e3",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_20",
+      "samples": 235,
+      "states_shape": [
+        235,
+        71
+      ],
+      "actions_shape": [
+        235,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_21",
+      "samples": 257,
+      "states_shape": [
+        257,
+        71
+      ],
+      "actions_shape": [
+        257,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_22",
+      "samples": 257,
+      "states_shape": [
+        257,
+        71
+      ],
+      "actions_shape": [
+        257,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_23",
+      "samples": 244,
+      "states_shape": [
+        244,
+        71
+      ],
+      "actions_shape": [
+        244,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "02a73075a827d5838ace8e8f1afb30ab41e9a52e64a891aef35e7c0afbfe6bf5",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_24",
+      "samples": 258,
+      "states_shape": [
+        258,
+        71
+      ],
+      "actions_shape": [
+        258,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_25",
+      "samples": 203,
+      "states_shape": [
+        203,
+        71
+      ],
+      "actions_shape": [
+        203,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_26",
+      "samples": 182,
+      "states_shape": [
+        182,
+        71
+      ],
+      "actions_shape": [
+        182,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "f6a0951d7d39fc48696d0b57d6f6905c5e609a097d38a1af51ea4603f6aa1f4a",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_27",
+      "samples": 159,
+      "states_shape": [
+        159,
+        71
+      ],
+      "actions_shape": [
+        159,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.050000000000000044
+      ],
+      "model_file_sha256": "a9e3dc22e7091e61e641666438dd93af27199e9d1843129f4d1b7517de0b30fb",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_28",
+      "samples": 170,
+      "states_shape": [
+        170,
+        71
+      ],
+      "actions_shape": [
+        170,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "bfc1564f158ca71b6a726b7f3ec4d84053d082ff1fc0e7e7845b3d261dcb1cc6",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_29",
+      "samples": 167,
+      "states_shape": [
+        167,
+        71
+      ],
+      "actions_shape": [
+        167,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4f3237f76b38cb977c4a74b905ea6982700018cad343740bcc3dbb70c29e5625",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_30",
+      "samples": 176,
+      "states_shape": [
+        176,
+        71
+      ],
+      "actions_shape": [
+        176,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "9ec0f3efd9c2c2e3d02b1c66906665f94178239b3c6b5702e100c03dcb29c5f0",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_31",
+      "samples": 247,
+      "states_shape": [
+        247,
+        71
+      ],
+      "actions_shape": [
+        247,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_32",
+      "samples": 229,
+      "states_shape": [
+        229,
+        71
+      ],
+      "actions_shape": [
+        229,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "9a87ea029201f34d22722f391df454f105dafc1f1f861e7def0dfda1a0f4da4d",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_33",
+      "samples": 186,
+      "states_shape": [
+        186,
+        71
+      ],
+      "actions_shape": [
+        186,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "00e73401c7f46b4f8df6c01d9ee0522b480c961eb54c2b80a7cecbd9c96ab3ae",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_34",
+      "samples": 288,
+      "states_shape": [
+        288,
+        71
+      ],
+      "actions_shape": [
+        288,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_35",
+      "samples": 236,
+      "states_shape": [
+        236,
+        71
+      ],
+      "actions_shape": [
+        236,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "be0d1cb1f38d68b871fd1c1331deb818411a4e43dd7a42b5aff55159fd2ff626",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_36",
+      "samples": 166,
+      "states_shape": [
+        166,
+        71
+      ],
+      "actions_shape": [
+        166,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "05d9090f281cf1f8e38b25a1e9a23543b8a86d8e7c13368a9738d6881718027a",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_37",
+      "samples": 195,
+      "states_shape": [
+        195,
+        71
+      ],
+      "actions_shape": [
+        195,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "e183a5f92e7021ead6ca4a9bd90da76a419f01daeb3b38a4027cce0a52e33573",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_38",
+      "samples": 181,
+      "states_shape": [
+        181,
+        71
+      ],
+      "actions_shape": [
+        181,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "e3c49c350a92c26d88b80f51caf5997e1e0a4df648dcb837ab859b8026345cac",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_39",
+      "samples": 206,
+      "states_shape": [
+        206,
+        71
+      ],
+      "actions_shape": [
+        206,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_40",
+      "samples": 267,
+      "states_shape": [
+        267,
+        71
+      ],
+      "actions_shape": [
+        267,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "3f725d592d7a3617a83b728a14c4eacc433732902de5e555a674d8c9c40e977b",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_41",
+      "samples": 235,
+      "states_shape": [
+        235,
+        71
+      ],
+      "actions_shape": [
+        235,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "187145cb7cfbe700934414261cf2257af0b926f0fc48ea08cb9ada44ed99e6ea",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_42",
+      "samples": 128,
+      "states_shape": [
+        128,
+        71
+      ],
+      "actions_shape": [
+        128,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.050000000000000044
+      ],
+      "model_file_sha256": "4e36c0adda2a30f8c9fb88afa3aa784588adb385676627417a8928196c8b2c93",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_43",
+      "samples": 241,
+      "states_shape": [
+        241,
+        71
+      ],
+      "actions_shape": [
+        241,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "246e09dd6c13b388e4c124733e5ba19b46cdebec6ebfcbbc4069612113c9a3c1",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_44",
+      "samples": 189,
+      "states_shape": [
+        189,
+        71
+      ],
+      "actions_shape": [
+        189,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "8cac07c7fc40fbeb2daf870161d4710d9cfd1e8ff5384cff5b4eebf7b37a6016",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_45",
+      "samples": 236,
+      "states_shape": [
+        236,
+        71
+      ],
+      "actions_shape": [
+        236,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_46",
+      "samples": 225,
+      "states_shape": [
+        225,
+        71
+      ],
+      "actions_shape": [
+        225,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_47",
+      "samples": 153,
+      "states_shape": [
+        153,
+        71
+      ],
+      "actions_shape": [
+        153,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.050000000000000044
+      ],
+      "model_file_sha256": "e22b9d14756be3a05f4a547c57ab0b814feda1a3da8867af5cc1e2711a57d207",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_48",
+      "samples": 277,
+      "states_shape": [
+        277,
+        71
+      ],
+      "actions_shape": [
+        277,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_49",
+      "samples": 243,
+      "states_shape": [
+        243,
+        71
+      ],
+      "actions_shape": [
+        243,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_50",
+      "samples": 193,
+      "states_shape": [
+        193,
+        71
+      ],
+      "actions_shape": [
+        193,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "fd8209c9be1b2e7462bcd1ce7c6a5937c10a331da8bafae6d135077de0b56c5a",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_51",
+      "samples": 216,
+      "states_shape": [
+        216,
+        71
+      ],
+      "actions_shape": [
+        216,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "286939dbcb6367fbb1e6e2a54cbfd1efc7437f2b3c60ccdd0e6766c4f553dbc3",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_52",
+      "samples": 260,
+      "states_shape": [
+        260,
+        71
+      ],
+      "actions_shape": [
+        260,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_53",
+      "samples": 212,
+      "states_shape": [
+        212,
+        71
+      ],
+      "actions_shape": [
+        212,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "478c2c1d0f67e41fb2bc4db7434a2d6689540be51ac64fdbbd1c8a9e33304e00",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_54",
+      "samples": 473,
+      "states_shape": [
+        473,
+        71
+      ],
+      "actions_shape": [
+        473,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999997229,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_55",
+      "samples": 223,
+      "states_shape": [
+        223,
+        71
+      ],
+      "actions_shape": [
+        223,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_56",
+      "samples": 250,
+      "states_shape": [
+        250,
+        71
+      ],
+      "actions_shape": [
+        250,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_57",
+      "samples": 168,
+      "states_shape": [
+        168,
+        71
+      ],
+      "actions_shape": [
+        168,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "e628cb03dc6c95263f18cd95e7e3c3a590969ac9a636065634952c2ef2ea747d",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_58",
+      "samples": 231,
+      "states_shape": [
+        231,
+        71
+      ],
+      "actions_shape": [
+        231,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_59",
+      "samples": 234,
+      "states_shape": [
+        234,
+        71
+      ],
+      "actions_shape": [
+        234,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_60",
+      "samples": 121,
+      "states_shape": [
+        121,
+        71
+      ],
+      "actions_shape": [
+        121,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.050000000000000044
+      ],
+      "model_file_sha256": "5c18c38535558a531ffdbd1a9f7330a474acac3a6e4444468493224ddd0c2c44",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_61",
+      "samples": 206,
+      "states_shape": [
+        206,
+        71
+      ],
+      "actions_shape": [
+        206,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_62",
+      "samples": 117,
+      "states_shape": [
+        117,
+        71
+      ],
+      "actions_shape": [
+        117,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.050000000000000044
+      ],
+      "model_file_sha256": "75f341a97f397e951ab4562fe2454c86898b2021a996327f1ce0fc0759968183",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_63",
+      "samples": 206,
+      "states_shape": [
+        206,
+        71
+      ],
+      "actions_shape": [
+        206,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "42cea30cc5e55245d71e6f923f11263f901652fb2727a2c477ee84958cb26f48",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_64",
+      "samples": 273,
+      "states_shape": [
+        273,
+        71
+      ],
+      "actions_shape": [
+        273,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_65",
+      "samples": 121,
+      "states_shape": [
+        121,
+        71
+      ],
+      "actions_shape": [
+        121,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.050000000000000044
+      ],
+      "model_file_sha256": "089089eb6823e7ed8fe5e6eca43228d1aedaba8a52c16da3e6334ca1eaf83f2c",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_66",
+      "samples": 213,
+      "states_shape": [
+        213,
+        71
+      ],
+      "actions_shape": [
+        213,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_67",
+      "samples": 209,
+      "states_shape": [
+        209,
+        71
+      ],
+      "actions_shape": [
+        209,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "33ff4140fdc9b7c2719311b8d023ab3918800f71a83d43a89a3a741b51ef21cd",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_68",
+      "samples": 204,
+      "states_shape": [
+        204,
+        71
+      ],
+      "actions_shape": [
+        204,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_69",
+      "samples": 181,
+      "states_shape": [
+        181,
+        71
+      ],
+      "actions_shape": [
+        181,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "6a645e24a48ed2f18229def807e47b43f5f8cc5f8b7562cc1abaddd89322208a",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_70",
+      "samples": 334,
+      "states_shape": [
+        334,
+        71
+      ],
+      "actions_shape": [
+        334,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999997229,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_71",
+      "samples": 288,
+      "states_shape": [
+        288,
+        71
+      ],
+      "actions_shape": [
+        288,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "8df4368d688a0fca930d4dd4d98994aa8340ea95183efa6e0e977886a68f0bac",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_72",
+      "samples": 188,
+      "states_shape": [
+        188,
+        71
+      ],
+      "actions_shape": [
+        188,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "993cbc2a8729fa84302e2203f534c39630de7b93bd7d2876ee92a16a41317a77",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_73",
+      "samples": 208,
+      "states_shape": [
+        208,
+        71
+      ],
+      "actions_shape": [
+        208,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "4be74bd51c94e512f829578aba7f79745ad4c52f60ce3dcbd6cbfb481231b803",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_74",
+      "samples": 232,
+      "states_shape": [
+        232,
+        71
+      ],
+      "actions_shape": [
+        232,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "0ccb457c932d1deb987cded9263c1d6df127d6152ba3fb98e85b7d266f7de951",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    },
+    {
+      "demo": "demo_75",
+      "samples": 185,
+      "states_shape": [
+        185,
+        71
+      ],
+      "actions_shape": [
+        185,
+        7
+      ],
+      "step_seconds_min_max": [
+        0.04999999999999449,
+        0.0500000000000167
+      ],
+      "model_file_sha256": "6ee0784993d6b29ec452464a3e82d31315cd972166827cdb3c8a7808e57c9163",
+      "agentview": {
+        "name": "agentview",
+        "pos": "1 0 1.75",
+        "quat": "0.653 0.271 0.271 0.653"
+      },
+      "cereal_body": {
+        "name": "Cereal_main",
+        "pos": "0 0 0"
+      },
+      "cereal_free_joint": {
+        "name": "Cereal_joint0",
+        "type": "free",
+        "damping": "0.0005"
+      },
+      "asset_count": 38,
+      "absolute_asset_count": 38,
+      "example_assets": [
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/cream-plaster.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/dark-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/light-wood.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/steel-brushed.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/arenas/../textures/wood-tiles.png",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_longer.stl",
+        "/mnt/d/code/robosuite/robosuite/models/assets/grippers/meshes/panda_gripper/finger_vis.stl"
+      ]
+    }
+  ]
+}

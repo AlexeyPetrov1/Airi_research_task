@@ -1,0 +1,22 @@
+{
+  "status": "PASS_EXPLORATORY_ARTIFACT_AUDIT",
+  "formal_geometry_gate": "BLOCKED",
+  "f2nerf_frames": 121,
+  "history_shape": [
+    3,
+    8,
+    3
+  ],
+  "t0_reprojection_max_px": 2.6839317549563697e-06,
+  "model_prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "observed_future_gt": [
+    128,
+    240
+  ],
+  "final_valid_points": 2,
+  "full_ADE_FDE_available": false
+}

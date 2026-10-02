@@ -1,0 +1,29 @@
+{
+  "source_record": "Drawer_Closing/Home10/Env2/2022-12-22--00-09-08",
+  "scope": "dataset-level example, not ShareRobot dobbe#episode_3651",
+  "rgb_frames": 129,
+  "rgb_fps_container": 30.0,
+  "rgb_hw": [
+    256,
+    256
+  ],
+  "depth_frames": 129,
+  "depth_hw": [
+    192,
+    256
+  ],
+  "depth_dtype": "float32",
+  "labels_frames": 129,
+  "label_keys_frame0": [
+    "gripper",
+    "quats",
+    "xyz"
+  ],
+  "depth_positive_min_native_units": 0.1068115234375,
+  "depth_positive_median_native_units": 0.359130859375,
+  "depth_positive_p99_native_units": 1.283203125,
+  "depth_zero_count": 0,
+  "depth_nonfinite_count": 0,
+  "camera_intrinsics_in_labels": false,
+  "intrinsic_status": "ABSENT_FROM_PUBLISHED_RECORD"
+}

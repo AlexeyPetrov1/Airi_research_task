@@ -1,0 +1,53 @@
+{
+  "status": "BLOCKED",
+  "molmo_ready": false,
+  "protocol": "protocol.json",
+  "reasons": [
+    "Main-scene RGB-only PINHOLE and OPENCV intrinsics are unstable across all/even/odd calibration subsets; sparse registration covers at most 9 of 96 frames.",
+    "Main-scene COLMAP intrinsics improve measured-depth median 3D error modestly but greatly worsen reprojection compared with naive K; the estimated intrinsics are physically implausible. Undoing the documented RGB aspect stretch and fitting SIMPLE_PINHOLE also yields no stable main-scene model.",
+    "Depth Z-versus-ray remains unresolved to a trustworthy metric precision; RGB-depth spatial overlay alone cannot settle it. Accounting for the exporter's clockwise RGB rotation and the source-defined P branch supports camera-to-world labels.",
+    "Second-scene fixed-center PINHOLE and aspect-rectified SIMPLE_PINHOLE register the full RGB prefix and improve median static 3D and reprojection errors, but their even subsets collapse and P90 static/reprojection errors remain high. They do not validate the main-scene K.",
+    "A user-requested exploratory transfer of control-scene RGB-only COLMAP K through F2-NeRF produced an approximate main-scene [3,8,3] and model run, but the transfer assumes an unverified shared camera and does not change the formal geometry gate."
+  ],
+  "main_quantitative_evidence": {
+    "calibration_frames": 96,
+    "pinhole_all_registered": 9,
+    "naive_static_median_m": 0.07669676438916545,
+    "colmap_pinhole_static_median_m": 0.06991939691805002,
+    "naive_reprojection_median_px": 18.994112626168217,
+    "colmap_pinhole_reprojection_median_px": 197.77910018291158
+  },
+  "second_quantitative_evidence": {
+    "calibration_frames": 121,
+    "fixed_pp_pinhole_K": [
+      232.82854853200652,
+      293.9188398628785,
+      128.0,
+      128.0
+    ],
+    "naive_static_median_m": 0.007458268117345434,
+    "colmap_static_median_m": 0.005229886788068334,
+    "naive_reprojection_median_px": 3.658676107562848,
+    "colmap_reprojection_median_px": 2.0682073168488406,
+    "rectified_simple_pinhole_K_published_rgb": [
+      233.74874864182905,
+      311.6649981891054,
+      128.0,
+      128.16666666666666
+    ],
+    "rectified_simple_pinhole_static_median_m": 0.00539448245981212,
+    "rectified_simple_pinhole_reprojection_median_px": 2.2317799740076456
+  },
+  "points_3d_history_created": true,
+  "molmomotion_invoked": true,
+  "future_depth_opened_for_gt": true,
+  "future_prediction_metrics_computed": true,
+  "validated_points_3d_history_created": false,
+  "validated_full_3d_gt_and_metrics": false,
+  "exploratory_approximate_run": "approx_history/manifest.json",
+  "exploratory_prediction_status": "COMPLETE",
+  "exploratory_future_gt_coverage": [
+    128,
+    240
+  ]
+}

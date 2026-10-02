@@ -1,0 +1,52 @@
+{
+  "candidate": "IPEC-COMMUNITY/dobbe_lerobot episode_003651",
+  "candidate_frames": 242,
+  "source_records_compared": 696,
+  "exact_matches": [
+    {
+      "member": "iphone_data/Pick_and_Place/Home15/Env1/2023-04-25--02-05-30/labels.json",
+      "frames": 243,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "offset": 0
+    }
+  ],
+  "next_best_matches": [
+    {
+      "member": "iphone_data/Pick_and_Place/Home15/Env1/2023-04-25--02-05-30/labels.json",
+      "frames": 243,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "offset": 0
+    },
+    {
+      "member": "iphone_data/Pick_and_Place/Home11/Env2/2023-04-29--19-13-57/labels.json",
+      "frames": 288,
+      "max_abs_error": 0.12393969297409058,
+      "mean_abs_error": 0.02952493354678154,
+      "offset": 25
+    },
+    {
+      "member": "iphone_data/Pick_and_Place/Home7/Env1/2023-04-27--09-30-09/labels.json",
+      "frames": 268,
+      "max_abs_error": 0.13318777084350586,
+      "mean_abs_error": 0.03516412153840065,
+      "offset": 23
+    },
+    {
+      "member": "iphone_data/Pick_and_Place/Home15/Env1/2023-04-25--02-06-04/labels.json",
+      "frames": 281,
+      "max_abs_error": 0.18092960119247437,
+      "mean_abs_error": 0.04017067700624466,
+      "offset": 31
+    },
+    {
+      "member": "iphone_data/Pick_and_Place/Home15/Env1/2023-04-25--02-07-00/labels.json",
+      "frames": 242,
+      "max_abs_error": 0.18859893083572388,
+      "mean_abs_error": 0.04719237610697746,
+      "offset": 0
+    }
+  ],
+  "criterion": "all gripper values are bitwise equal after float32 conversion"
+}

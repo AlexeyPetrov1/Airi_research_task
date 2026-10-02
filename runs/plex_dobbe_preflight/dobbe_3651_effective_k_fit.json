@@ -1,0 +1,159 @@
+{
+  "status": "EXPLORATORY_NOT_VALIDATED",
+  "C_label_to_optical": [
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "axis_selection_note": "C selected in an earlier exploratory scan including holdout pairs",
+  "params": {
+    "fx": 174.1486829353183,
+    "fy": 198.80521675499773,
+    "cx": 154.4530226774223,
+    "cy": 154.6083715095921,
+    "depth_du": -0.05050780554579643,
+    "depth_dv": -18.932252522636407
+  },
+  "optimizer_success": true,
+  "optimizer_message": "`xtol` termination condition is satisfied.",
+  "before_train": [
+    {
+      "pair": [
+        0,
+        20
+      ],
+      "n": 46,
+      "median_px": 8.427996544247893,
+      "p90_px": 11.724696256700778,
+      "inlier_5px_fraction": 0.17391304347826086
+    },
+    {
+      "pair": [
+        20,
+        40
+      ],
+      "n": 18,
+      "median_px": 17.160009731684863,
+      "p90_px": 162.00503954861068,
+      "inlier_5px_fraction": 0.0
+    },
+    {
+      "pair": [
+        40,
+        60
+      ],
+      "n": 22,
+      "median_px": 17.797463697122517,
+      "p90_px": 53.067182017837766,
+      "inlier_5px_fraction": 0.36363636363636365
+    },
+    {
+      "pair": [
+        180,
+        200
+      ],
+      "n": 71,
+      "median_px": 4.864462657379597,
+      "p90_px": 14.195773470959347,
+      "inlier_5px_fraction": 0.5211267605633803
+    }
+  ],
+  "before_holdout": [
+    {
+      "pair": [
+        60,
+        80
+      ],
+      "n": 36,
+      "median_px": 13.120194843049447,
+      "p90_px": 34.34659068109313,
+      "inlier_5px_fraction": 0.0
+    },
+    {
+      "pair": [
+        200,
+        220
+      ],
+      "n": 50,
+      "median_px": 2.574020876888111,
+      "p90_px": 12.831618173852332,
+      "inlier_5px_fraction": 0.86
+    }
+  ],
+  "after_train": [
+    {
+      "pair": [
+        0,
+        20
+      ],
+      "n": 46,
+      "median_px": 8.145876087787231,
+      "p90_px": 11.38232098614634,
+      "inlier_5px_fraction": 0.2608695652173913
+    },
+    {
+      "pair": [
+        20,
+        40
+      ],
+      "n": 18,
+      "median_px": 13.656676267166379,
+      "p90_px": 155.90286166857396,
+      "inlier_5px_fraction": 0.0
+    },
+    {
+      "pair": [
+        40,
+        60
+      ],
+      "n": 22,
+      "median_px": 14.90645302058797,
+      "p90_px": 25.223422669758843,
+      "inlier_5px_fraction": 0.0
+    },
+    {
+      "pair": [
+        180,
+        200
+      ],
+      "n": 71,
+      "median_px": 5.434065442430552,
+      "p90_px": 16.4674522648839,
+      "inlier_5px_fraction": 0.4225352112676056
+    }
+  ],
+  "after_holdout": [
+    {
+      "pair": [
+        60,
+        80
+      ],
+      "n": 36,
+      "median_px": 8.97606965680423,
+      "p90_px": 24.203859752112745,
+      "inlier_5px_fraction": 0.05555555555555555
+    },
+    {
+      "pair": [
+        200,
+        220
+      ],
+      "n": 50,
+      "median_px": 3.607593528581658,
+      "p90_px": 9.144314912855135,
+      "inlier_5px_fraction": 0.82
+    }
+  ]
+}

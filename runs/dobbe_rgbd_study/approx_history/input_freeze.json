@@ -1,0 +1,34 @@
+{
+  "status": "FROZEN_EXPLORATORY_APPROXIMATE",
+  "task": "Pick_and_Place",
+  "history_frames": [
+    96,
+    97,
+    98
+  ],
+  "future_evaluation_only": [
+    99,
+    128
+  ],
+  "action_text_exact_passed_to_model": "Pick up the red cup.",
+  "future_horizon": 30,
+  "seed": 0,
+  "dtype": "bfloat16",
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "checkpoint_model_pt_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "f2nerf_receipt_sha256": "4062d3d50eb85199b5d94524e2d5d64362cb5b5581456f8272bd5f3b0bc18eb7",
+  "history_source_nominal_hz": 30,
+  "model_prediction_assumed_hz": 15,
+  "timing_warning": "Processor has no real timestamp input; history sampling and model training cadence differ.",
+  "sha256": {
+    "rgb_0096.png": "d231cf79ee95a5d7a63d5abe396ed50e0bebee37cca505cc121d50d8530147bc",
+    "rgb_0097.png": "bb71f28ec7b2ad2dcd1e82ead979039a66d36f82419c65f1601e66440551162e",
+    "rgb_0098.png": "ec86ce9f05d2883ddba68994c742ef3be0a689d9c39325bd7c283ffb76584a15",
+    "points_3d_history_candidate.npy": "3fe7c25dac3b580cb5357607cfbfa7dbbf37b6fe18e16a14a0855db9b028eaa4",
+    "points_3d_history_world_candidate.npy": "d897c27de035d1c96d20691933bc18dc710c991db1fd20141c465d8df43fed16",
+    "points_2d_at_t0_candidate.npy": "0e7792aa08690aac28b1f8863459532e86fff9083681c4f29a084c46f6810071",
+    "manifest.json": "22828e9dc3f985dea7c54e28284bced53750d783c52053928150852b66b6f8e2"
+  }
+}

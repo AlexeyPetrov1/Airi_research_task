@@ -1,0 +1,601 @@
+{
+  "status": "EXPLORATORY_APPROXIMATE_RGBD_GT",
+  "calibration_status": "main-scene K not independently validated",
+  "prediction_sha256": "64bb454b8be9c2e4b322e59209f271240d4e3565f01fddae4a9e08e318196917",
+  "future_first_last": [
+    99,
+    128
+  ],
+  "K_source": "runs/dobbe_rgbd_study/f2nerf_second/cams_meta.npy",
+  "depth_semantics": "camera-Z hypothesis",
+  "coordinate_frame": "H2=frame98 optical OpenCV: +X right, +Y down, +Z forward",
+  "valid_point_timestamps": 128,
+  "possible_point_timestamps": 240,
+  "valid_final_points": 2,
+  "full_eight_point_30_frame_gt": false,
+  "per_frame": [
+    {
+      "frame": 99,
+      "valid_points": 8,
+      "point_status": [
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ]
+    },
+    {
+      "frame": 100,
+      "valid_points": 8,
+      "point_status": [
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ]
+    },
+    {
+      "frame": 101,
+      "valid_points": 7,
+      "point_status": [
+        "valid",
+        "valid",
+        "invalid_measured_depth",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ]
+    },
+    {
+      "frame": 102,
+      "valid_points": 8,
+      "point_status": [
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ]
+    },
+    {
+      "frame": 103,
+      "valid_points": 7,
+      "point_status": [
+        "valid",
+        "valid",
+        "invalid_measured_depth",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ]
+    },
+    {
+      "frame": 104,
+      "valid_points": 8,
+      "point_status": [
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ]
+    },
+    {
+      "frame": 105,
+      "valid_points": 8,
+      "point_status": [
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "valid"
+      ]
+    },
+    {
+      "frame": 106,
+      "valid_points": 6,
+      "point_status": [
+        "valid",
+        "valid",
+        "lk_round_trip_failed",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "lk_round_trip_failed"
+      ]
+    },
+    {
+      "frame": 107,
+      "valid_points": 5,
+      "point_status": [
+        "valid",
+        "lk_failed",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 108,
+      "valid_points": 5,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 109,
+      "valid_points": 5,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 110,
+      "valid_points": 5,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 111,
+      "valid_points": 5,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 112,
+      "valid_points": 5,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "valid",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 113,
+      "valid_points": 4,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "lk_round_trip_failed",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 114,
+      "valid_points": 4,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 115,
+      "valid_points": 3,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "lk_round_trip_failed",
+        "valid",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 116,
+      "valid_points": 3,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 117,
+      "valid_points": 3,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 118,
+      "valid_points": 3,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 119,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "lk_round_trip_failed",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 120,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 121,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 122,
+      "valid_points": 1,
+      "point_status": [
+        "invalid_measured_depth",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 123,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 124,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 125,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 126,
+      "valid_points": 1,
+      "point_status": [
+        "invalid_measured_depth",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 127,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    },
+    {
+      "frame": 128,
+      "valid_points": 2,
+      "point_status": [
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous",
+        "valid",
+        "track_lost_previous",
+        "track_lost_previous",
+        "track_lost_previous"
+      ]
+    }
+  ],
+  "metrics": {
+    "MolmoMotion_index_aligned": {
+      "valid_point_timestamps": 128,
+      "valid_final_points": 2,
+      "ADE_3D_m_full_8x30": null,
+      "FDE_3D_m_full_8_points": null,
+      "observed_only_ADE_3D_m": 0.2549063453410647,
+      "observed_only_FDE_3D_m": 0.8868301625845831,
+      "error_by_future_frame_m": [
+        0.011674482910308388,
+        0.017482750510616908,
+        0.03747596939024319,
+        0.05119152015609951,
+        0.07085938219175171,
+        0.09493472071202413,
+        0.11434105686627087,
+        0.13631536953080123,
+        0.17474706943169815,
+        0.1770135192311589,
+        0.22887444058682985,
+        0.23786117127427361,
+        0.2897901185492837,
+        0.30139714569427123,
+        0.3418548199214586,
+        0.3620205084438532,
+        0.40532844902722237,
+        0.4459349368796426,
+        0.482270136822057,
+        0.5241380876299774,
+        0.5684670077099117,
+        0.593114552632418,
+        0.6503603477874066,
+        0.7015402030595331,
+        0.732667492801994,
+        0.7612746426182904,
+        0.8088490770004382,
+        0.8642534601730558,
+        0.8644612891383774,
+        0.8868301625845831
+      ]
+    },
+    "MolmoMotion_15_to_30Hz_assumed": {
+      "valid_point_timestamps": 128,
+      "valid_final_points": 2,
+      "ADE_3D_m_full_8x30": null,
+      "FDE_3D_m_full_8_points": null,
+      "observed_only_ADE_3D_m": 0.2552899216974528,
+      "observed_only_FDE_3D_m": 0.8868301625845831,
+      "error_by_future_frame_m": [
+        0.01613965014983416,
+        0.018578506503143827,
+        0.03813459621327949,
+        0.05119152015609951,
+        0.07085938219175171,
+        0.09493472071202413,
+        0.11434105686627087,
+        0.13631536953080123,
+        0.17474706943169815,
+        0.1770135192311589,
+        0.22887444058682985,
+        0.23786117127427361,
+        0.2897901185492837,
+        0.30139714569427123,
+        0.3418548199214586,
+        0.3620205084438532,
+        0.40532844902722237,
+        0.4459349368796426,
+        0.482270136822057,
+        0.5241380876299774,
+        0.5684670077099117,
+        0.593114552632418,
+        0.6503603477874066,
+        0.7015402030595331,
+        0.732667492801994,
+        0.7612746426182904,
+        0.8088490770004382,
+        0.8642534601730558,
+        0.8644612891383774,
+        0.8868301625845831
+      ]
+    },
+    "Stationary": {
+      "valid_point_timestamps": 128,
+      "valid_final_points": 2,
+      "ADE_3D_m_full_8x30": null,
+      "FDE_3D_m_full_8_points": null,
+      "observed_only_ADE_3D_m": 0.27297982560872336,
+      "observed_only_FDE_3D_m": 0.9038081639081421,
+      "error_by_future_frame_m": [
+        0.023275977737756498,
+        0.03491868885053561,
+        0.05579706285920817,
+        0.06958555622851398,
+        0.08975601541574342,
+        0.11363713670039419,
+        0.13336367273028232,
+        0.15544057797042587,
+        0.19457600338827827,
+        0.1962993122317723,
+        0.24873353809411625,
+        0.2574621542048477,
+        0.30980180105846583,
+        0.32120905253212223,
+        0.36176993185168094,
+        0.3817261550395705,
+        0.4219761492044469,
+        0.46257004013421765,
+        0.4989790833621776,
+        0.5408542218552589,
+        0.5853270065944427,
+        0.6100251200328037,
+        0.6672496636671431,
+        0.7192278333870171,
+        0.7495870285924432,
+        0.7782392672320096,
+        0.8258064601122919,
+        0.8819952085645825,
+        0.8814069015890182,
+        0.9038081639081421
+      ]
+    },
+    "Constant_velocity_30Hz": {
+      "valid_point_timestamps": 128,
+      "valid_final_points": 2,
+      "ADE_3D_m_full_8x30": null,
+      "FDE_3D_m_full_8_points": null,
+      "observed_only_ADE_3D_m": 0.1495780569552546,
+      "observed_only_FDE_3D_m": 0.44119233006275005,
+      "error_by_future_frame_m": [
+        0.020476734296320437,
+        0.02282510902984295,
+        0.042143502849343595,
+        0.04297308582797064,
+        0.0647616191714127,
+        0.07101986502497355,
+        0.08839505690613758,
+        0.10492367540726122,
+        0.135371499329865,
+        0.12393306337724921,
+        0.1735125408573089,
+        0.1686768999706557,
+        0.21840505553421652,
+        0.21636485000596206,
+        0.2364742231492866,
+        0.23994537372509359,
+        0.16487607371425317,
+        0.18330872955568467,
+        0.20604464226110453,
+        0.23053108589320334,
+        0.2594035353284923,
+        0.2703886870665192,
+        0.30939316962124197,
+        0.2846603078653323,
+        0.3588672843767732,
+        0.3754276447881783,
+        0.406278940340328,
+        0.37410771602485277,
+        0.43032192039823525,
+        0.44119233006275005
+      ]
+    }
+  },
+  "timing_note": "Index-aligned and assumed 15-to-30 Hz alignments are both diagnostics; no exact model timestamp metadata."
+}

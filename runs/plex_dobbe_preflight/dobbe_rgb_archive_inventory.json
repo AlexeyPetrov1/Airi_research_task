@@ -1,0 +1,26 @@
+{
+  "url": "https://dl.dobb-e.com/datasets/homes_of_new_york.zip",
+  "archive_size_bytes": 813466366,
+  "transferred_bytes": 3375870,
+  "members": 22821,
+  "files": 16861,
+  "task_file_counts": {
+    "Door_Closing": 2865,
+    "Door_Opening": 3774,
+    "Drawer_Closing": 2082,
+    "Drawer_Opening": 2025,
+    "Handle Grasping": 1227,
+    "Pick_and_Place": 2088,
+    "Random": 1236,
+    "Switch Button": 1563
+  },
+  "cup_task_names": [],
+  "metadata_members": [],
+  "depth_members": [],
+  "known_file_count": {
+    "compressed_video_h264.mp4": 5620,
+    "labels.json": 5620,
+    "r3d_files.txt": 1
+  },
+  "sample_cup_files": []
+}

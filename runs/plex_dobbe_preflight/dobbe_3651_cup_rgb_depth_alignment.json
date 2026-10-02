@@ -1,0 +1,159 @@
+{
+  "mapping_hypothesis": "u_depth=u_rgb, v_depth=(v_rgb+.5)*192/256-.5",
+  "measurement": "signed horizontal depth-gradient peak within 18 px of RGB red side edge",
+  "frames": [
+    {
+      "frame": 0,
+      "rgb_cup_bbox": [
+        111,
+        96,
+        145,
+        165
+      ],
+      "rows": 18,
+      "best_horizontal_shift_px": 0,
+      "edge_score_at_zero": 0.9301486611366272,
+      "edge_score_at_plus_10": -0.002842373214662075,
+      "left_edge_median_offset_px": 0.0,
+      "right_edge_median_offset_px": 0.0,
+      "left_edge_p90_abs_offset_px": 1.0,
+      "right_edge_p90_abs_offset_px": 1.0,
+      "left_edge_median_depth_step": 0.5415802001953125,
+      "right_edge_median_depth_step": 0.2237091064453125
+    },
+    {
+      "frame": 20,
+      "rgb_cup_bbox": [
+        104,
+        93,
+        143,
+        167
+      ],
+      "rows": 20,
+      "best_horizontal_shift_px": 0,
+      "edge_score_at_zero": 0.9512832760810852,
+      "edge_score_at_plus_10": -0.01723938062787056,
+      "left_edge_median_offset_px": 0.0,
+      "right_edge_median_offset_px": 0.0,
+      "left_edge_p90_abs_offset_px": 1.0,
+      "right_edge_p90_abs_offset_px": 1.0,
+      "left_edge_median_depth_step": 0.5697555541992188,
+      "right_edge_median_depth_step": 0.2300262451171875
+    },
+    {
+      "frame": 40,
+      "rgb_cup_bbox": [
+        88,
+        72,
+        150,
+        195
+      ],
+      "rows": 36,
+      "best_horizontal_shift_px": 0,
+      "edge_score_at_zero": 0.8081271052360535,
+      "edge_score_at_plus_10": 0.00037892660475336015,
+      "left_edge_median_offset_px": 0.0,
+      "right_edge_median_offset_px": 0.0,
+      "left_edge_p90_abs_offset_px": 2.0,
+      "right_edge_p90_abs_offset_px": 1.0,
+      "left_edge_median_depth_step": 0.16761016845703125,
+      "right_edge_median_depth_step": 0.18740081787109375
+    },
+    {
+      "frame": 60,
+      "rgb_cup_bbox": [
+        50,
+        44,
+        160,
+        241
+      ],
+      "rows": 61,
+      "best_horizontal_shift_px": 1,
+      "edge_score_at_zero": 0.5788941979408264,
+      "edge_score_at_plus_10": -0.0012844898737967014,
+      "left_edge_median_offset_px": 0.0,
+      "right_edge_median_offset_px": 0.0,
+      "left_edge_p90_abs_offset_px": 11.0,
+      "right_edge_p90_abs_offset_px": 9.0,
+      "left_edge_median_depth_step": 0.12943267822265625,
+      "right_edge_median_depth_step": 0.123809814453125
+    },
+    {
+      "frame": 80,
+      "rgb_cup_bbox": [
+        52,
+        36,
+        178,
+        255
+      ],
+      "rows": 68,
+      "best_horizontal_shift_px": 0,
+      "edge_score_at_zero": 0.40555426478385925,
+      "edge_score_at_plus_10": 0.0064197988249361515,
+      "left_edge_median_offset_px": 1.0,
+      "right_edge_median_offset_px": 1.0,
+      "left_edge_p90_abs_offset_px": 18.0,
+      "right_edge_p90_abs_offset_px": 15.600000000000009,
+      "left_edge_median_depth_step": 0.03688812255859375,
+      "right_edge_median_depth_step": 0.09936904907226562
+    },
+    {
+      "frame": 100,
+      "rgb_cup_bbox": [
+        54,
+        34,
+        179,
+        251
+      ],
+      "rows": 67,
+      "best_horizontal_shift_px": 0,
+      "edge_score_at_zero": 0.6751431226730347,
+      "edge_score_at_plus_10": -0.004717926494777203,
+      "left_edge_median_offset_px": -1.0,
+      "right_edge_median_offset_px": 0.0,
+      "left_edge_p90_abs_offset_px": 5.0,
+      "right_edge_p90_abs_offset_px": 7.399999999999999,
+      "left_edge_median_depth_step": 0.365814208984375,
+      "right_edge_median_depth_step": 0.1123504638671875
+    },
+    {
+      "frame": 180,
+      "rgb_cup_bbox": [
+        48,
+        6,
+        182,
+        255
+      ],
+      "rows": 78,
+      "best_horizontal_shift_px": 1,
+      "edge_score_at_zero": 0.35902246832847595,
+      "edge_score_at_plus_10": 0.06284508109092712,
+      "left_edge_median_offset_px": 0.0,
+      "right_edge_median_offset_px": -1.0,
+      "left_edge_p90_abs_offset_px": 8.299999999999997,
+      "right_edge_p90_abs_offset_px": 18.0,
+      "left_edge_median_depth_step": 0.7134132385253906,
+      "right_edge_median_depth_step": 0.023662567138671875
+    },
+    {
+      "frame": 220,
+      "rgb_cup_bbox": [
+        38,
+        60,
+        185,
+        255
+      ],
+      "rows": 60,
+      "best_horizontal_shift_px": -1,
+      "edge_score_at_zero": 0.5881054997444153,
+      "edge_score_at_plus_10": 0.05977668613195419,
+      "left_edge_median_offset_px": -2.5,
+      "right_edge_median_offset_px": 7.5,
+      "left_edge_p90_abs_offset_px": 9.0,
+      "right_edge_p90_abs_offset_px": 12.100000000000001,
+      "left_edge_median_depth_step": 1.0722312927246094,
+      "right_edge_median_depth_step": 0.02210235595703125
+    }
+  ],
+  "warning": "Cup mask and nearby unrelated depth edges can bias this diagnostic."
+}

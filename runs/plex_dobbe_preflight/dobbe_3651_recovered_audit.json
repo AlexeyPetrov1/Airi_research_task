@@ -1,0 +1,97 @@
+{
+  "source_record": "Pick_and_Place/Home15/Env1/2023-04-25--02-05-30",
+  "files": {
+    "raw_rgb": {
+      "path": "data\\dobbe_oxe\\target_raw\\compressed_video_h264.mp4",
+      "bytes": 104160,
+      "sha256": "209e9b9b66f7ecf1b03c254e0550eb435a02618ace99cf8274efd6ea22ce6ec6"
+    },
+    "raw_depth": {
+      "path": "data\\dobbe_oxe\\target_raw\\compressed_np_depth_float32.bin",
+      "bytes": 14046329,
+      "sha256": "ac590f531293507649c4cde14b3938ab426c5538ecb3f764e79bf4560f023d6c"
+    },
+    "raw_labels": {
+      "path": "data\\dobbe_oxe\\target_raw\\labels.json",
+      "bytes": 51128,
+      "sha256": "b2e36d0749bbb6dfc6a9943211a53d104e08f6707162690dd19340ff79a4c4c5"
+    },
+    "lerobot_rgb": {
+      "path": "data\\dobbe_oxe\\lerobot_episode_003651.mp4",
+      "bytes": 685188,
+      "sha256": "495dbe8c0a5d6472fd515eb5d1325a66116721a476393a80a22b8f3ad940b51d"
+    },
+    "lerobot_states": {
+      "path": "data\\dobbe_oxe\\lerobot_episode_003651.parquet",
+      "bytes": 25940,
+      "sha256": "54e1fad45d81b58512a2d66aa88ba401285b8c487d0de80845e53df56ad08bed"
+    }
+  },
+  "raw_rgb": {
+    "frames": 243,
+    "fps_container": 30.0,
+    "hw": [
+      256,
+      256
+    ]
+  },
+  "lerobot_rgb": {
+    "frames": 242,
+    "fps_container": 3.75,
+    "hw": [
+      256,
+      256
+    ]
+  },
+  "labels_frames": 243,
+  "labels_frame0_keys": [
+    "gripper",
+    "quats",
+    "xyz"
+  ],
+  "lerobot_state_frames": 242,
+  "gripper_equal_float32_first_242": true,
+  "raw_vs_lerobot_rgb": [
+    {
+      "frame": 0,
+      "mean_abs_8bit": 3.298762083053589,
+      "rmse_8bit": 4.534467697143555
+    },
+    {
+      "frame": 40,
+      "mean_abs_8bit": 3.5370891094207764,
+      "rmse_8bit": 4.762491703033447
+    },
+    {
+      "frame": 100,
+      "mean_abs_8bit": 3.4630584716796875,
+      "rmse_8bit": 4.5740251541137695
+    },
+    {
+      "frame": 200,
+      "mean_abs_8bit": 3.9620208740234375,
+      "rmse_8bit": 5.178188323974609
+    },
+    {
+      "frame": 241,
+      "mean_abs_8bit": 4.086293697357178,
+      "rmse_8bit": 5.59140157699585
+    }
+  ],
+  "depth": {
+    "shape": [
+      243,
+      192,
+      256
+    ],
+    "dtype": "float32",
+    "positive_min_native_units": 0.053070068359375,
+    "positive_median_native_units": 0.5810546875,
+    "positive_max_native_units": 2.232421875,
+    "zero_count": 0,
+    "nonfinite_count": 0
+  },
+  "camera_K_in_target_labels": false,
+  "frame_243_note": "Raw has 243 frames; LeRobot conversion has first 242.",
+  "share_robot_pixel_check": "NOT_DONE: target ShareRobot PNG is packed in large planning tar.gz"
+}

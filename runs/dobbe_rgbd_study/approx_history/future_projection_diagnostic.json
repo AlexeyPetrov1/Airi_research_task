@@ -1,0 +1,470 @@
+{
+  "status": "EXPLORATORY_APPROXIMATE",
+  "meaning": "RGB mask overlap of 3D points projected using transferred K and Dobb-E poses",
+  "valid_gt_points_overlay_color": "green",
+  "model_projection_overlay_color": "magenta",
+  "by_method": {
+    "MolmoMotion": [
+      {
+        "frame": 99,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 7
+      },
+      {
+        "frame": 100,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 8
+      },
+      {
+        "frame": 101,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 7
+      },
+      {
+        "frame": 102,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 5
+      },
+      {
+        "frame": 103,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 104,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 105,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 106,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 107,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 3
+      },
+      {
+        "frame": 108,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 2
+      },
+      {
+        "frame": 109,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 1
+      },
+      {
+        "frame": 110,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 111,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 112,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 113,
+        "positive_depth_onscreen": 5,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 114,
+        "positive_depth_onscreen": 4,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 115,
+        "positive_depth_onscreen": 4,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 116,
+        "positive_depth_onscreen": 2,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 117,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 118,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 119,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 120,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 121,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 122,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 123,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 124,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 125,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 126,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 127,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 128,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      }
+    ],
+    "Stationary": [
+      {
+        "frame": 99,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 7
+      },
+      {
+        "frame": 100,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 6
+      },
+      {
+        "frame": 101,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 5
+      },
+      {
+        "frame": 102,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 103,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 104,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 5
+      },
+      {
+        "frame": 105,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 106,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 107,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 2
+      },
+      {
+        "frame": 108,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 1
+      },
+      {
+        "frame": 109,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 2
+      },
+      {
+        "frame": 110,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 111,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 112,
+        "positive_depth_onscreen": 6,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 113,
+        "positive_depth_onscreen": 4,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 114,
+        "positive_depth_onscreen": 4,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 115,
+        "positive_depth_onscreen": 3,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 116,
+        "positive_depth_onscreen": 1,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 117,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 118,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 119,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 120,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 121,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 122,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 123,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 124,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 125,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 126,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 127,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 128,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      }
+    ],
+    "Constant_velocity": [
+      {
+        "frame": 99,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 8
+      },
+      {
+        "frame": 100,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 8
+      },
+      {
+        "frame": 101,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 7
+      },
+      {
+        "frame": 102,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 6
+      },
+      {
+        "frame": 103,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 6
+      },
+      {
+        "frame": 104,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 5
+      },
+      {
+        "frame": 105,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 106,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 107,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 108,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 4
+      },
+      {
+        "frame": 109,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 3
+      },
+      {
+        "frame": 110,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 3
+      },
+      {
+        "frame": 111,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 2
+      },
+      {
+        "frame": 112,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 2
+      },
+      {
+        "frame": 113,
+        "positive_depth_onscreen": 8,
+        "on_red_cup_mask": 1
+      },
+      {
+        "frame": 114,
+        "positive_depth_onscreen": 7,
+        "on_red_cup_mask": 1
+      },
+      {
+        "frame": 115,
+        "positive_depth_onscreen": 4,
+        "on_red_cup_mask": 1
+      },
+      {
+        "frame": 116,
+        "positive_depth_onscreen": 3,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 117,
+        "positive_depth_onscreen": 3,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 118,
+        "positive_depth_onscreen": 3,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 119,
+        "positive_depth_onscreen": 3,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 120,
+        "positive_depth_onscreen": 1,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 121,
+        "positive_depth_onscreen": 1,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 122,
+        "positive_depth_onscreen": 1,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 123,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 124,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 125,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 126,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 127,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      },
+      {
+        "frame": 128,
+        "positive_depth_onscreen": 0,
+        "on_red_cup_mask": 0
+      }
+    ]
+  },
+  "total_on_red_mask": {
+    "MolmoMotion": 49,
+    "Stationary": 44,
+    "Constant_velocity": 69
+  },
+  "possible": 240
+}

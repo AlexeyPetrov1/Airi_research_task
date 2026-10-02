@@ -1,0 +1,118 @@
+{
+  "source": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/main/planning/jsons/planning_task.json",
+  "source_file_bytes": 227881806,
+  "rows_examined": 58435,
+  "targets": [
+    "plex_robosuite#episode_46",
+    "dobbe#episode_3651"
+  ],
+  "found": 3,
+  "records": [
+    {
+      "row_index": 12438,
+      "row": {
+        "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651",
+        "task": "Planning_Task",
+        "selected_step": 2,
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nGiven the goal of <pick up a red cup and place it on a different surface>, what is the most logical next move?"
+          },
+          {
+            "from": "gpt",
+            "value": "<lift the red cup>"
+          }
+        ],
+        "image": [
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_0.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_1.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_2.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_3.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_4.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_5.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_6.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_7.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_8.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_9.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_10.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_11.png"
+        ]
+      }
+    },
+    {
+      "row_index": 12439,
+      "row": {
+        "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651",
+        "task": "Planning_Task",
+        "selected_step": 3,
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nThe objective is <pick up a red cup and place it on a different surface>. What should be the next step to move forward?"
+          },
+          {
+            "from": "gpt",
+            "value": "<move the red cup towards the destination>"
+          }
+        ],
+        "image": [
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_0.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_1.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_2.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_3.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_4.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_5.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_6.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_7.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_8.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_9.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_10.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_11.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_12.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_13.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_14.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_15.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_16.png",
+          "rt_frames_success/rtx_frames_success_24/55_dobbe#episode_3651/frame_17.png"
+        ]
+      }
+    },
+    {
+      "row_index": 58434,
+      "row": {
+        "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46",
+        "task": "Planning_Task",
+        "selected_step": 2,
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nTo reach the goal of <placing a box into a compartment>, which task should be prioritized next?"
+          },
+          {
+            "from": "gpt",
+            "value": "<lift the box>"
+          }
+        ],
+        "image": [
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_0.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_1.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_2.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_3.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_4.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_5.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_6.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_7.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_8.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_9.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_10.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_11.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_12.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_13.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_14.png",
+          "rt_frames_success/rtx_frames_success_35/60_plex_robosuite#episode_46/frame_15.png"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "official_robosuite_commit": "c2fca799bb8ebd42bad9c4c5fa4157fea4251f98",
+  "recorded_xml_count": 75,
+  "asset_count": 38,
+  "asset_bytes": 15855636,
+  "missing_assets": [
+    {
+      "relative_path": "objects/meshes/can.msh",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/objects/meshes/can.msh"
+    },
+    {
+      "relative_path": "objects/meshes/cereal.msh",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/objects/meshes/cereal.msh"
+    },
+    {
+      "relative_path": "objects/meshes/milk.msh",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/objects/meshes/milk.msh"
+    },
+    {
+      "relative_path": "textures/soda.png",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/textures/soda.png"
+    }
+  ],
+  "assets": [
+    {
+      "relative_path": "grippers/meshes/panda_gripper/finger.stl",
+      "bytes": 1684,
+      "sha256": "2d07a740392f3b9b0816f65d64fff9927d3d57c897870fc4b6ff9c56fff3a0c8",
+      "status": "existing"
+    },
+    {
+      "relative_path": "grippers/meshes/panda_gripper/finger_longer.stl",
+      "bytes": 2884,
+      "sha256": "8857e33ee59c3a395c3036a11e4f1731c88c203c821bb03ca97737a2d04cba27",
+      "status": "existing"
+    },
+    {
+      "relative_path": "grippers/meshes/panda_gripper/finger_vis.stl",
+      "bytes": 31284,
+      "sha256": "e49613148a74f1ba9b5793813078e5becf15833e0296073dc1c523508be35ae4",
+      "status": "existing"
+    },
+    {
+      "relative_path": "grippers/meshes/panda_gripper/hand.stl",
+      "bytes": 10084,
+      "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "status": "existing"
+    },
+    {
+      "relative_path": "grippers/meshes/panda_gripper/hand_vis.stl",
+      "bytes": 353984,
+      "sha256": "fdeb1a924b8d0f1f997f47d6d8af102c7290a1d5144145efdc39501dc13f0fa1",
+      "status": "existing"
+    },
+    {
+      "relative_path": "mounts/meshes/rethink_mount/pedestal.stl",
+      "bytes": 1647684,
+      "sha256": "f96ff12bfb347c77580e4392556b15e47ef7228711c45b0f1193b100af22866a",
+      "status": "existing"
+    },
+    {
+      "relative_path": "objects/meshes/bread.stl",
+      "bytes": 5284,
+      "sha256": "7c6646bcf9ec086d972d4d89141e8bb8081f14170306376bae59d3be59a6ace2",
+      "status": "existing"
+    },
+    {
+      "relative_path": "objects/meshes/can.msh",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/objects/meshes/can.msh"
+    },
+    {
+      "relative_path": "objects/meshes/can.stl",
+      "bytes": 47884,
+      "sha256": "cb459d8f0dcfc855aadc91815462d69ba58b4f5bcc289631043f17eccbf937d3",
+      "status": "existing"
+    },
+    {
+      "relative_path": "objects/meshes/cereal.msh",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/objects/meshes/cereal.msh"
+    },
+    {
+      "relative_path": "objects/meshes/cereal.stl",
+      "bytes": 5784,
+      "sha256": "fd415818056831cb6fa4b40112280f463de8624b06e23d188a7e0f83ae5be1df",
+      "status": "existing"
+    },
+    {
+      "relative_path": "objects/meshes/milk.msh",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/objects/meshes/milk.msh"
+    },
+    {
+      "relative_path": "objects/meshes/milk.stl",
+      "bytes": 12184,
+      "sha256": "e7880b8da658d7612990cbafa83fb8d358005319a5cab7be6db6993b4b830b6b",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link0.stl",
+      "bytes": 10084,
+      "sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link0_vis.stl",
+      "bytes": 1024234,
+      "sha256": "7047d9cc40f21d4e23ecba81d731521434e0cb30b278c318d5f12aba48105081",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link1.stl",
+      "bytes": 625884,
+      "sha256": "d24e332dffccf260b91d05dde17c5998bb9559d37da8608a8ee5213d9661f603",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link1_vis.stl",
+      "bytes": 625884,
+      "sha256": "d24e332dffccf260b91d05dde17c5998bb9559d37da8608a8ee5213d9661f603",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link2.stl",
+      "bytes": 15084,
+      "sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link2_vis.stl",
+      "bytes": 635884,
+      "sha256": "9ca22e40bf92b26d88ae63a180867b2b6d226dac9204d8b749f1bd8337fdc852",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link3.stl",
+      "bytes": 15084,
+      "sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link3_vis.stl",
+      "bytes": 711734,
+      "sha256": "e9765165f24d0551b885bae0ce702448a711da22399c033c5e40bc56ad845b5f",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link4.stl",
+      "bytes": 15084,
+      "sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link4_vis.stl",
+      "bytes": 731134,
+      "sha256": "75f852b23a9cd24735c59feacb12b4cb9ac018c2a1505a84b655144faefbdb30",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link5.stl",
+      "bytes": 15084,
+      "sha256": "dd17e688c7870e722283525879643d53a74c0024d328b0e14b034b54c8b6c31a",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link5_vis.stl",
+      "bytes": 916434,
+      "sha256": "179de04c09da7ec80232f17265ed6b49d28aa4491a13aab679da107a74fff50e",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link6.stl",
+      "bytes": 10084,
+      "sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link6_vis.stl",
+      "bytes": 1081084,
+      "sha256": "1a25b11b650d4a1c96b2299a020e38e3caa592f6e3f0f483bee64823495b1688",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link7.stl",
+      "bytes": 10084,
+      "sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "status": "existing"
+    },
+    {
+      "relative_path": "robots/panda/meshes/link7_vis.stl",
+      "bytes": 604184,
+      "sha256": "9d7ef70426828402935ff2bfac9f8be2f770a0c37dcb43e1e3d5e8c0c0afc5ac",
+      "status": "existing"
+    },
+    {
+      "relative_path": "textures/bread.png",
+      "bytes": 518677,
+      "sha256": "22814a06ae3c7dc097801887e6aec97f830b7368b611cab56d1c4ad5ae57bddc",
+      "status": "existing"
+    },
+    {
+      "relative_path": "textures/ceramic.png",
+      "bytes": 1442030,
+      "sha256": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "status": "existing"
+    },
+    {
+      "relative_path": "textures/cereal.png",
+      "bytes": 1256380,
+      "sha256": "cc16fc4dc07937e3ae86d6fbb827430c2c7b27234e9d032bc0f1124673fe6fe7",
+      "status": "downloaded"
+    },
+    {
+      "relative_path": "textures/cream-plaster.png",
+      "bytes": 696397,
+      "sha256": "5f989033f089158b2c8f0f1f7881f6922b018a5b154558b2edcc9f41a21ab983",
+      "status": "downloaded"
+    },
+    {
+      "relative_path": "textures/dark-wood.png",
+      "bytes": 239227,
+      "sha256": "5da8dbf7af06ecd251840aceec25fedcfa98267041cea289b2829c982e008dc3",
+      "status": "downloaded"
+    },
+    {
+      "relative_path": "textures/light-wood.png",
+      "bytes": 801173,
+      "sha256": "967be64bdb170d36283bc43c2ae5d525ec88f78bc837dc7d0efc9a28d68caad1",
+      "status": "downloaded"
+    },
+    {
+      "relative_path": "textures/soda.png",
+      "status": "http_error",
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/c2fca799bb8ebd42bad9c4c5fa4157fea4251f98/robosuite/models/assets/textures/soda.png"
+    },
+    {
+      "relative_path": "textures/steel-brushed.png",
+      "bytes": 275192,
+      "sha256": "43f30e7a2d0e8085aa15f58623b1753a003f93e5fe336eeaf65c146f955a81d5",
+      "status": "downloaded"
+    },
+    {
+      "relative_path": "textures/wood-tiles.png",
+      "bytes": 1460776,
+      "sha256": "18d87069529422d832559ce969858576dd46f83efc3dfd9e5ffbf26d740be123",
+      "status": "downloaded"
+    }
+  ]
+}

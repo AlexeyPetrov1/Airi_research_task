@@ -1,0 +1,23 @@
+{
+  "source": "iphone_data_depth/Drawer_Closing/Home10/Env2/2022-12-22--00-09-08/",
+  "members": [
+    {
+      "name": "iphone_data_depth/Drawer_Closing/Home10/Env2/2022-12-22--00-09-08/compressed_np_depth_float32.bin",
+      "bytes": 6923889,
+      "final_part_offset": 381726194,
+      "method": 8
+    },
+    {
+      "name": "iphone_data_depth/Drawer_Closing/Home10/Env2/2022-12-22--00-09-08/compressed_video_h264.mp4",
+      "bytes": 63422,
+      "final_part_offset": 388589398,
+      "method": 8
+    },
+    {
+      "name": "iphone_data_depth/Drawer_Closing/Home10/Env2/2022-12-22--00-09-08/labels.json",
+      "bytes": 27180,
+      "final_part_offset": 388651222,
+      "method": 8
+    }
+  ]
+}

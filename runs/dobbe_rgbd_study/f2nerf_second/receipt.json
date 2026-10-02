@@ -1,0 +1,27 @@
+{
+  "source_scene": "second",
+  "source_run": "runs/dobbe_rgbd_study/second/colmap_pinhole_all_fixedpp_init62_107",
+  "f2nerf_source": "third_party/f2-nerf/scripts/colmap2poses.py",
+  "f2nerf_camera_meta": "runs/dobbe_rgbd_study/f2nerf_second/cams_meta.npy",
+  "f2nerf_camera_meta_sha256": "465c6a1a8fcba07b15f7c1de52fbdb4202a93b157b555f6ce3caa23e7a7fadf3",
+  "frames": 121,
+  "K_256x256": [
+    [
+      232.82855224609375,
+      0.0,
+      128.0
+    ],
+    [
+      0.0,
+      293.9188537597656,
+      128.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "match_colmap_camera": true,
+  "pose_use": "Second-scene NeRF poses are not episode_3651 poses"
+}
