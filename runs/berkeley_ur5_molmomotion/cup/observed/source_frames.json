@@ -1,0 +1,73 @@
+{
+  "source_indices": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "source_timestamps": [
+    11.199999809265137,
+    11.399999618530273,
+    11.600000381469727,
+    11.800000190734863,
+    12.0,
+    12.199999809265137,
+    12.399999618530273,
+    12.600000381469727
+  ],
+  "video_pts": [
+    {
+      "index": 56,
+      "pts": 114688,
+      "time_base": "1/10240",
+      "video_seconds": 11.2
+    },
+    {
+      "index": 57,
+      "pts": 116736,
+      "time_base": "1/10240",
+      "video_seconds": 11.4
+    },
+    {
+      "index": 58,
+      "pts": 118784,
+      "time_base": "1/10240",
+      "video_seconds": 11.6
+    },
+    {
+      "index": 59,
+      "pts": 120832,
+      "time_base": "1/10240",
+      "video_seconds": 11.8
+    },
+    {
+      "index": 60,
+      "pts": 122880,
+      "time_base": "1/10240",
+      "video_seconds": 12.0
+    },
+    {
+      "index": 61,
+      "pts": 124928,
+      "time_base": "1/10240",
+      "video_seconds": 12.2
+    },
+    {
+      "index": 62,
+      "pts": 126976,
+      "time_base": "1/10240",
+      "video_seconds": 12.4
+    },
+    {
+      "index": 63,
+      "pts": 129024,
+      "time_base": "1/10240",
+      "video_seconds": 12.6
+    }
+  ],
+  "exported_utc": "2026-10-02T22:16:43.458978+00:00"
+}

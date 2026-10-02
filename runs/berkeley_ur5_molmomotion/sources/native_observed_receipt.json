@@ -1,0 +1,241 @@
+{
+  "source": "https://huggingface.co/datasets/lerobot-raw/berkeley_autolab_ur5_raw/resolve/d2590280290484e2a7eb53a91bba32ac2ff669a0/berkeley_autolab_ur5-train.tfrecord-00004-of-00412",
+  "shard_bytes": 181825519,
+  "shard_sha256": "e00e135365722b15bc39016437fe6b959ad678b3c7cd7a60e2732357b866dc56",
+  "depth_dtype": "float32",
+  "depth_units": "meters",
+  "depth_decode": "PIL RGBA PNG -> uint8 array.view(<f4); TFDS _FloatImageEncoder lossless bitcast",
+  "decoder_reference": "https://github.com/tensorflow/datasets/blob/master/tensorflow_datasets/core/features/image_feature.py",
+  "scenes": {
+    "bottle": {
+      "episode_id": 9,
+      "t0_source_frame": 47,
+      "record_in_shard": 0,
+      "episode_length": 97,
+      "native_robot_pose_gripper_max_abs_error": 0.0,
+      "native_action_translation_max_abs_error": 0.0,
+      "native_vs_lerobot_rgb_rmse_0_255": {
+        "0": 3.091906893463518,
+        "40": 3.0875511340232626,
+        "47": 4.122205887653882
+      },
+      "instruction": "put the ranch bottle into the pot",
+      "split": "observed",
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "depth_stats": [
+        {
+          "frame": 40,
+          "valid_fraction": 0.5837565104166667,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.30800002813339233,
+            0.5640000104904175,
+            3.003000259399414,
+            14.75200080871582
+          ]
+        },
+        {
+          "frame": 41,
+          "valid_fraction": 0.583232421875,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.3070000112056732,
+            0.5640000104904175,
+            3.003000259399414,
+            14.392001152038574
+          ]
+        },
+        {
+          "frame": 42,
+          "valid_fraction": 0.5839680989583333,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.30800002813339233,
+            0.5640000104904175,
+            3.0340001583099365,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 43,
+          "valid_fraction": 0.5814192708333333,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.3070000112056732,
+            0.5640000104904175,
+            3.0180001258850098,
+            14.392001152038574
+          ]
+        },
+        {
+          "frame": 44,
+          "valid_fraction": 0.5901822916666667,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.3060000240802765,
+            0.562000036239624,
+            3.122000217437744,
+            14.570000648498535
+          ]
+        },
+        {
+          "frame": 45,
+          "valid_fraction": 0.5991731770833333,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.3060000240802765,
+            0.5630000233650208,
+            3.181000232696533,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 46,
+          "valid_fraction": 0.6107421875,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.3070000112056732,
+            0.5720000267028809,
+            3.198000192642212,
+            14.75200080871582
+          ]
+        },
+        {
+          "frame": 47,
+          "valid_fraction": 0.6274934895833333,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.30800002813339233,
+            0.5840000510215759,
+            3.190000057220459,
+            65.53500366210938
+          ]
+        }
+      ]
+    },
+    "cup": {
+      "episode_id": 10,
+      "t0_source_frame": 63,
+      "record_in_shard": 1,
+      "episode_length": 120,
+      "native_robot_pose_gripper_max_abs_error": 0.0,
+      "native_action_translation_max_abs_error": 0.0,
+      "native_vs_lerobot_rgb_rmse_0_255": {
+        "0": 2.9471940368717195,
+        "56": 3.157244927070735,
+        "63": 4.08501267550393
+      },
+      "instruction": "pick up the blue cup and put it into the brown cup. ",
+      "split": "observed",
+      "frames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "depth_stats": [
+        {
+          "frame": 56,
+          "valid_fraction": 0.6404947916666667,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.31800001859664917,
+            0.6570000052452087,
+            3.4010002613067627,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 57,
+          "valid_fraction": 0.64197265625,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.31700000166893005,
+            0.6580000519752502,
+            3.382000207901001,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 58,
+          "valid_fraction": 0.641923828125,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.31700000166893005,
+            0.6550000309944153,
+            3.4110002517700195,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 59,
+          "valid_fraction": 0.641826171875,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.31800001859664917,
+            0.6550000309944153,
+            3.4010002613067627,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 60,
+          "valid_fraction": 0.6386002604166666,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.31800001859664917,
+            0.656000018119812,
+            3.382000207901001,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 61,
+          "valid_fraction": 0.6452897135416666,
+          "positive_percentiles": [
+            0.2939999997615814,
+            0.3190000057220459,
+            0.6600000262260437,
+            3.372000217437744,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 62,
+          "valid_fraction": 0.6506184895833333,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.3190000057220459,
+            0.6700000166893005,
+            3.3620002269744873,
+            65.53500366210938
+          ]
+        },
+        {
+          "frame": 63,
+          "valid_fraction": 0.6560514322916666,
+          "positive_percentiles": [
+            0.29500001668930054,
+            0.3190000057220459,
+            0.6760000586509705,
+            3.431000232696533,
+            65.53500366210938
+          ]
+        }
+      ]
+    }
+  }
+}

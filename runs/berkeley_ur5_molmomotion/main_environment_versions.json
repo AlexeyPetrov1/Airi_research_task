@@ -1,0 +1,26 @@
+﻿[
+    {
+        "name":  "accelerate",
+        "version":  "1.12.0"
+    },
+    {
+        "name":  "numpy",
+        "version":  "2.4.6"
+    },
+    {
+        "name":  "safetensors",
+        "version":  "0.8.0"
+    },
+    {
+        "name":  "torch",
+        "version":  "2.9.1+cu128"
+    },
+    {
+        "name":  "torchvision",
+        "version":  "0.24.1+cu128"
+    },
+    {
+        "name":  "transformers",
+        "version":  "4.57.6"
+    }
+]

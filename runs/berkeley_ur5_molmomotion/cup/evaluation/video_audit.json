@@ -1,0 +1,23 @@
+{
+  "source": "runs/berkeley_ur5_molmomotion/cup/viz/side_by_side.mp4",
+  "source_encoded_frame_count": 10,
+  "fps": 5.0,
+  "codec_fourcc": "h264",
+  "decoded_frame_indices": [
+    0,
+    4,
+    9
+  ],
+  "physical_times_after_t0_s": [
+    0.2,
+    1.0,
+    2.0
+  ],
+  "single_frame_shape": [
+    480,
+    1280,
+    3
+  ],
+  "contact_sheet": "runs/berkeley_ur5_molmomotion/cup/evaluation/video_audit.png",
+  "source_is_encoded_video": true
+}

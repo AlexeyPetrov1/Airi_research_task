@@ -1,0 +1,21 @@
+{
+  "protocol_fixed_before_predictions": true,
+  "primary_scene": "cup",
+  "primary_scene_reason": "Visible printed motif, upright exposed surface and separated destination support stable point correspondence and readable overlays. Bottle body is less textured and rotates while partly covered by gripper; it is the harder secondary case. Decision made before any MolmoMotion outputs.",
+  "episode_selection": {"cup": 10, "bottle": 9},
+  "t0_source_frame": {"cup": 63, "bottle": 47},
+  "input_history": "three consecutive real frames t0-2,t0-1,t0 at 5 FPS",
+  "preprocessing_context": "eight consecutive observed frames t0-7 through t0 only",
+  "maximum_model_groups_per_scene": 3,
+  "points_per_group": 8,
+  "model": "allenai/MolmoMotion-4B-H3-F30",
+  "horizon": 30,
+  "decode": "default greedy",
+  "primary_metric": "2D projection ADE/FDE in source640x480 pixels using shared visibility mask",
+  "prediction_steps_zero_based": [2,5,8,11,14,17,20,23,26,29],
+  "future_gt_interpolation": false,
+  "future_model_input_use": false,
+  "baselines": ["static camera XYZ position", "OLS constant camera XYZ velocity from H3 at physical timestamps"],
+  "secondary_metrics": "3D_est ADE/FDE only with independently tracked points lifted through original future RealSense depth and observed estimated K",
+  "model_selection_by_prediction_quality": false
+}

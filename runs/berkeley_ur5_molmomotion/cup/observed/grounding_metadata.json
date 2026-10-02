@@ -1,0 +1,35 @@
+{
+  "object_phrase": "blue cup",
+  "prompt": "point to blue cup gripped and picked up by the robot gripper",
+  "source_frame": 63,
+  "future_used": false,
+  "object_phrase_source": "explicit user target (no recaption needed)",
+  "pointing_method": "actual official MolmoPoint-Vid-4B inference on observed t0",
+  "pointing_metadata": "runs/berkeley_ur5_molmomotion/cup/observed/molmopoint_grounding.json",
+  "pointing_metadata_sha256": "99c8c400bd4f96ebc61a40ec26e15d1ee8b559d2844d4824b857d1f3ffdc1634",
+  "segmentation_version_reason": "SAM3 weights access returned403 GatedRepo; user explicitly selected official Meta SAM2.1 earlier release",
+  "point_xy": [
+    159.93043518066406,
+    269.478271484375
+  ],
+  "negative_points_xy": [],
+  "kmeans_source": "data_generation/third_party/sam3/querypoints_from_video.py",
+  "kmeans_source_sha256": "72f13f3b7a2f3d38201b0ea8f27f5d841acc13d7bb02313c3aa2a3a1c5fc1df7",
+  "segmentation": "official Meta SAM2.1 Hiera-Large",
+  "sam_repository": "https://github.com/facebookresearch/sam2",
+  "sam_code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "sam_config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+  "checkpoint": "../models/sam2.1_hiera_large.pt",
+  "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+  "mask_scores": [
+    0.1884765625,
+    0.78125,
+    0.9375
+  ],
+  "chosen_mask": 2,
+  "mask_area_px": 4034,
+  "query_count": 100,
+  "centers_inside_mask": 100,
+  "runtime_seconds": 38.67581943099958,
+  "input_rgb_sha256": "46c18a8fe26e9dd07030261b2796b1224990e77d3865b003df671b554189ed1e"
+}

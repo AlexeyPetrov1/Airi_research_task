@@ -1,0 +1,10 @@
+{
+  "stage": "complete",
+  "wait_pid": 1232,
+  "existing_command": "",
+  "gpu_memory_used_mib": 622,
+  "queue_seconds": 347.57807807300014,
+  "never_stops_other_jobs": true,
+  "returncode": 0,
+  "elapsed_seconds": 441.18276411199986
+}

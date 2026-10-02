@@ -1,0 +1,144 @@
+{
+  "repo": "lerobot/berkeley_autolab_ur5",
+  "revision": "6306aa91c00b9b0de28831b7fceaa42b8096bb4f",
+  "selected_for_visual_inspection": [
+    {
+      "episode_index": 4,
+      "tasks": [
+        "pick up the blue cup and put it into the brown cup. "
+      ],
+      "length": 123
+    },
+    {
+      "episode_index": 7,
+      "tasks": [
+        "pick up the blue cup and put it into the brown cup. "
+      ],
+      "length": 118
+    },
+    {
+      "episode_index": 10,
+      "tasks": [
+        "pick up the blue cup and put it into the brown cup. "
+      ],
+      "length": 120
+    },
+    {
+      "episode_index": 12,
+      "tasks": [
+        "pick up the blue cup and put it into the brown cup. "
+      ],
+      "length": 115
+    },
+    {
+      "episode_index": 2,
+      "tasks": [
+        "put the ranch bottle into the pot"
+      ],
+      "length": 81
+    },
+    {
+      "episode_index": 5,
+      "tasks": [
+        "put the ranch bottle into the pot"
+      ],
+      "length": 103
+    },
+    {
+      "episode_index": 6,
+      "tasks": [
+        "put the ranch bottle into the pot"
+      ],
+      "length": 110
+    },
+    {
+      "episode_index": 9,
+      "tasks": [
+        "put the ranch bottle into the pot"
+      ],
+      "length": 97
+    }
+  ],
+  "files": [
+    {
+      "path": "data/chunk-000/episode_000004.parquet",
+      "size": 13714,
+      "sha256": "bbadd97f2ce98df541c361ad6920eb7e27410fc11d65170ced47d47abc53899c"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000004.mp4",
+      "size": 1930337,
+      "sha256": "2759938cf27fc003f68d01611095f168f95ae6e313c92e49dc2dd3e997adb9be"
+    },
+    {
+      "path": "data/chunk-000/episode_000007.parquet",
+      "size": 13251,
+      "sha256": "4c5420bdef358adc9183bb9ce0ada9077a2c2a94bba1638bf26033a59f07f26e"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000007.mp4",
+      "size": 2029841,
+      "sha256": "13c9b03fa87ab4ea47dc4c9e9b2f482b7d70c06be9410c2f072646f3fa54faaa"
+    },
+    {
+      "path": "data/chunk-000/episode_000010.parquet",
+      "size": 12955,
+      "sha256": "640c5fbafec7976bd8f83d36e5e0f0f4f64ab845b6a004a34c5a1a2b7831c156"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000010.mp4",
+      "size": 2127857,
+      "sha256": "0331794ed344fa7b17c11fe722ac5a47038483037d4b4cbdc0f125226ab011ef"
+    },
+    {
+      "path": "data/chunk-000/episode_000012.parquet",
+      "size": 12824,
+      "sha256": "921fa5ecb3ccbd4bcf45b9a31452c1f209287243cdf5e9e99e54edb10275b0f2"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000012.mp4",
+      "size": 2082139,
+      "sha256": "041912083a6f4893079ca4479cd730150e47f4fe32d81492e5f3395b60ef168e"
+    },
+    {
+      "path": "data/chunk-000/episode_000002.parquet",
+      "size": 10518,
+      "sha256": "2b69a8fefe3e02617a1fa076d163c8a9e30b229b2af359eb8d53c370ee290d6e"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000002.mp4",
+      "size": 1485374,
+      "sha256": "2c627e6f349187cde4a34237f4963bfd9c3b2ebcde0fc51881448b7fbf9eecd0"
+    },
+    {
+      "path": "data/chunk-000/episode_000005.parquet",
+      "size": 12197,
+      "sha256": "7f4b867be3acda5a32259e42d578b282b95ece9e7dc67cb3ff4a7304fe226d18"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000005.mp4",
+      "size": 1865553,
+      "sha256": "aa47c9adbf053ef7a112af356dd6598ecb0efeac4508e93555b474244d639aef"
+    },
+    {
+      "path": "data/chunk-000/episode_000006.parquet",
+      "size": 13013,
+      "sha256": "5a6ca7cfb384e7ccec9e23ac0c90714f68d4c4cba57d5670583500d3b629547c"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000006.mp4",
+      "size": 2025986,
+      "sha256": "07018c5af5f0358c486697075791b08242eaaae560e9cb9db32886542f0a20b5"
+    },
+    {
+      "path": "data/chunk-000/episode_000009.parquet",
+      "size": 11786,
+      "sha256": "a80d9d9bb29e1128d56bc9e0d9dc4df2deff25d8b345c534c5b9367da1737c38"
+    },
+    {
+      "path": "videos/chunk-000/observation.images.image/episode_000009.mp4",
+      "size": 1746197,
+      "sha256": "834f1bf891b90bd1eaaf226f8573c4a404ca5cc3785fc39a3482c2ae3a86a7ca"
+    }
+  ]
+}

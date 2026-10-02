@@ -1,0 +1,3953 @@
+{
+  "generated_utc": "2026-10-02T23:29:49.880360+00:00",
+  "report_generator_sha256": "e332d649d0727210c5e659316308dc5314ce099ac9ba6959f9482ec706eebf0e",
+  "primary_scene": "cup",
+  "primary_scene_selected_before_predictions": true,
+  "primary_scene_reason": "Visible printed motif, upright exposed surface and separated destination support stable point correspondence and readable overlays. Bottle body is less textured and rotates while partly covered by gripper; it is the harder secondary case. Decision made before any MolmoMotion outputs.",
+  "model_worse_than_both_baselines_on_ADE_and_FDE": {
+    "cup": {
+      "2D": true,
+      "3D_est": true
+    },
+    "bottle": {
+      "2D": true,
+      "3D_est": true
+    }
+  },
+  "metrics_origin": "Only completed per-scene metrics.json; no synthetic or filled-in measurements",
+  "ground_truth_type": "independent AllTracker correspondences on real future RGB, not manual labels",
+  "depth_source": "measured native RealSense depth, TFDS float32 lossless decoding",
+  "K_source": "UniDepthV2 observed-only robust median",
+  "temporal_mismatch": {
+    "observed_fps": 5,
+    "model_nominal_fps": 15,
+    "H3_relative_times_s": [
+      -0.4,
+      -0.2,
+      0
+    ],
+    "gt_interpolated": false,
+    "prediction_indices_zero_based": [
+      2,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29
+    ]
+  },
+  "source_receipt": {
+    "source": "https://huggingface.co/datasets/lerobot-raw/berkeley_autolab_ur5_raw/resolve/d2590280290484e2a7eb53a91bba32ac2ff669a0/berkeley_autolab_ur5-train.tfrecord-00004-of-00412",
+    "shard_bytes": 181825519,
+    "shard_sha256": "e00e135365722b15bc39016437fe6b959ad678b3c7cd7a60e2732357b866dc56",
+    "depth_dtype": "float32",
+    "depth_units": "meters",
+    "depth_decode": "PIL RGBA PNG -> uint8 array.view(<f4); TFDS _FloatImageEncoder lossless bitcast",
+    "decoder_reference": "https://github.com/tensorflow/datasets/blob/master/tensorflow_datasets/core/features/image_feature.py",
+    "scenes": {
+      "bottle": {
+        "episode_id": 9,
+        "t0_source_frame": 47,
+        "record_in_shard": 0,
+        "episode_length": 97,
+        "native_robot_pose_gripper_max_abs_error": 0.0,
+        "native_action_translation_max_abs_error": 0.0,
+        "native_vs_lerobot_rgb_rmse_0_255": {
+          "0": 3.091906893463518,
+          "40": 3.0875511340232626,
+          "47": 4.122205887653882
+        },
+        "instruction": "put the ranch bottle into the pot",
+        "split": "observed",
+        "frames": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "depth_stats": [
+          {
+            "frame": 40,
+            "valid_fraction": 0.5837565104166667,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.30800002813339233,
+              0.5640000104904175,
+              3.003000259399414,
+              14.75200080871582
+            ]
+          },
+          {
+            "frame": 41,
+            "valid_fraction": 0.583232421875,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.3070000112056732,
+              0.5640000104904175,
+              3.003000259399414,
+              14.392001152038574
+            ]
+          },
+          {
+            "frame": 42,
+            "valid_fraction": 0.5839680989583333,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.30800002813339233,
+              0.5640000104904175,
+              3.0340001583099365,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 43,
+            "valid_fraction": 0.5814192708333333,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.3070000112056732,
+              0.5640000104904175,
+              3.0180001258850098,
+              14.392001152038574
+            ]
+          },
+          {
+            "frame": 44,
+            "valid_fraction": 0.5901822916666667,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.3060000240802765,
+              0.562000036239624,
+              3.122000217437744,
+              14.570000648498535
+            ]
+          },
+          {
+            "frame": 45,
+            "valid_fraction": 0.5991731770833333,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.3060000240802765,
+              0.5630000233650208,
+              3.181000232696533,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 46,
+            "valid_fraction": 0.6107421875,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.3070000112056732,
+              0.5720000267028809,
+              3.198000192642212,
+              14.75200080871582
+            ]
+          },
+          {
+            "frame": 47,
+            "valid_fraction": 0.6274934895833333,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.30800002813339233,
+              0.5840000510215759,
+              3.190000057220459,
+              65.53500366210938
+            ]
+          }
+        ]
+      },
+      "cup": {
+        "episode_id": 10,
+        "t0_source_frame": 63,
+        "record_in_shard": 1,
+        "episode_length": 120,
+        "native_robot_pose_gripper_max_abs_error": 0.0,
+        "native_action_translation_max_abs_error": 0.0,
+        "native_vs_lerobot_rgb_rmse_0_255": {
+          "0": 2.9471940368717195,
+          "56": 3.157244927070735,
+          "63": 4.08501267550393
+        },
+        "instruction": "pick up the blue cup and put it into the brown cup. ",
+        "split": "observed",
+        "frames": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "depth_stats": [
+          {
+            "frame": 56,
+            "valid_fraction": 0.6404947916666667,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.31800001859664917,
+              0.6570000052452087,
+              3.4010002613067627,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 57,
+            "valid_fraction": 0.64197265625,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.31700000166893005,
+              0.6580000519752502,
+              3.382000207901001,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 58,
+            "valid_fraction": 0.641923828125,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.31700000166893005,
+              0.6550000309944153,
+              3.4110002517700195,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 59,
+            "valid_fraction": 0.641826171875,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.31800001859664917,
+              0.6550000309944153,
+              3.4010002613067627,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 60,
+            "valid_fraction": 0.6386002604166666,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.31800001859664917,
+              0.656000018119812,
+              3.382000207901001,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 61,
+            "valid_fraction": 0.6452897135416666,
+            "positive_percentiles": [
+              0.2939999997615814,
+              0.3190000057220459,
+              0.6600000262260437,
+              3.372000217437744,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 62,
+            "valid_fraction": 0.6506184895833333,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.3190000057220459,
+              0.6700000166893005,
+              3.3620002269744873,
+              65.53500366210938
+            ]
+          },
+          {
+            "frame": 63,
+            "valid_fraction": 0.6560514322916666,
+            "positive_percentiles": [
+              0.29500001668930054,
+              0.3190000057220459,
+              0.6760000586509705,
+              3.431000232696533,
+              65.53500366210938
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "selection_audit": {
+    "selection_used_model_predictions": false,
+    "selection_frozen_before_model_inference": true,
+    "camera": "observation.images.image",
+    "candidate_screening": "First four source-index episodes of each exact task with >=40 frames, then visual inspection; no model output inspected",
+    "all_candidates_file": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/candidates_all.json",
+    "top_candidates": {
+      "cup": [
+        {
+          "episode_id": 10,
+          "rank": 1,
+          "reason": "Printed motif supplies local texture; blue body exposed and separate from destination at first lift."
+        },
+        {
+          "episode_id": 7,
+          "rank": 2,
+          "reason": "Fully exposed and separate but side mostly textureless."
+        },
+        {
+          "episode_id": 12,
+          "rank": 3,
+          "reason": "Visible body and separation but smooth side gives weaker tracking texture."
+        },
+        {
+          "episode_id": 4,
+          "rank": 4,
+          "reason": "Blue cup initially behind brown cup; initial overlap reduces useful visible area."
+        }
+      ],
+      "bottle": [
+        {
+          "episode_id": 9,
+          "rank": 1,
+          "reason": "White body remains exposed at lift, before pot occlusion; rotation increases difficulty but interpretable."
+        },
+        {
+          "episode_id": 5,
+          "rank": 2,
+          "reason": "Body substantially obscured by gripper during lift."
+        },
+        {
+          "episode_id": 6,
+          "rank": 3,
+          "reason": "Body behind gripper at lift; cap dominates the exposed object."
+        },
+        {
+          "episode_id": 2,
+          "rank": 4,
+          "reason": "Gripper strongly obscures body and reaches pot soon."
+        }
+      ]
+    },
+    "scenes": {
+      "bottle": {
+        "episode_id": 9,
+        "t0_source_frame": 47,
+        "t0_seconds": 9.4,
+        "history_indices": [
+          45,
+          46,
+          47
+        ],
+        "history_seconds": [
+          9.0,
+          9.2,
+          9.4
+        ],
+        "future_indices": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "gripper_closed_frame": 36,
+        "postgrasp_robot_motion_start": 43,
+        "t0_reason": "Early clear lift with exposed object, before destination occlusion.",
+        "native_depth_whole_frame_valid_fraction": 0.6265397135416667,
+        "camera_pose_assumption": "Fixed rig to be confirmed separately by observed background optical flow",
+        "depth_alignment_image": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native_alignment_bottle.png",
+        "alignment_audit": "Native depth silhouettes correspond visually to robot, table, and target in external RGB; holes cluster at boundaries and in thin stripes. No image resize or pixel-grid remapping is applied.",
+        "capture_code_reference": "https://github.com/yunliangchen/ur5bc/blob/a4285610da52cb30215951c7ac37454fcfae01c8/ur5/robot_env.py",
+        "capture_depth_units_evidence_lines": [
+          109,
+          145,
+          150,
+          154,
+          360
+        ],
+        "float32_bitcast_roundtrip_exact": true
+      },
+      "cup": {
+        "episode_id": 10,
+        "t0_source_frame": 63,
+        "t0_seconds": 12.6,
+        "history_indices": [
+          61,
+          62,
+          63
+        ],
+        "history_seconds": [
+          12.2,
+          12.4,
+          12.6
+        ],
+        "future_indices": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "gripper_closed_frame": 52,
+        "postgrasp_robot_motion_start": 60,
+        "t0_reason": "Early clear lift with exposed object, before destination occlusion.",
+        "native_depth_whole_frame_valid_fraction": 0.6543977864583334,
+        "camera_pose_assumption": "Fixed rig to be confirmed separately by observed background optical flow",
+        "depth_alignment_image": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native_alignment_cup.png",
+        "alignment_audit": "Native depth silhouettes correspond visually to robot, table, and target in external RGB; holes cluster at boundaries and in thin stripes. No image resize or pixel-grid remapping is applied.",
+        "capture_code_reference": "https://github.com/yunliangchen/ur5bc/blob/a4285610da52cb30215951c7ac37454fcfae01c8/ur5/robot_env.py",
+        "capture_depth_units_evidence_lines": [
+          109,
+          145,
+          150,
+          154,
+          360
+        ],
+        "float32_bitcast_roundtrip_exact": true
+      }
+    }
+  },
+  "protocol": {
+    "protocol_fixed_before_predictions": true,
+    "primary_scene": "cup",
+    "primary_scene_reason": "Visible printed motif, upright exposed surface and separated destination support stable point correspondence and readable overlays. Bottle body is less textured and rotates while partly covered by gripper; it is the harder secondary case. Decision made before any MolmoMotion outputs.",
+    "episode_selection": {
+      "cup": 10,
+      "bottle": 9
+    },
+    "t0_source_frame": {
+      "cup": 63,
+      "bottle": 47
+    },
+    "input_history": "three consecutive real frames t0-2,t0-1,t0 at 5 FPS",
+    "preprocessing_context": "eight consecutive observed frames t0-7 through t0 only",
+    "maximum_model_groups_per_scene": 3,
+    "points_per_group": 8,
+    "model": "allenai/MolmoMotion-4B-H3-F30",
+    "horizon": 30,
+    "decode": "default greedy",
+    "primary_metric": "2D projection ADE/FDE in source640x480 pixels using shared visibility mask",
+    "prediction_steps_zero_based": [
+      2,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29
+    ],
+    "future_gt_interpolation": false,
+    "future_model_input_use": false,
+    "baselines": [
+      "static camera XYZ position",
+      "OLS constant camera XYZ velocity from H3 at physical timestamps"
+    ],
+    "secondary_metrics": "3D_est ADE/FDE only with independently tracked points lifted through original future RealSense depth and observed estimated K",
+    "model_selection_by_prediction_quality": false
+  },
+  "verification": {
+    "cup": {
+      "passed": true,
+      "prediction_shape": [
+        24,
+        30,
+        3
+      ],
+      "input_hashes_verified": 72,
+      "ADE_2D_px": 193.5709607239007,
+      "FDE_2D_px": 224.48461658461392,
+      "valid_pairs": 240,
+      "videos_decoded": {
+        "pred_vs_gt_2d": 10,
+        "side_by_side": 10
+      }
+    },
+    "bottle": {
+      "passed": true,
+      "prediction_shape": [
+        24,
+        30,
+        3
+      ],
+      "input_hashes_verified": 72,
+      "ADE_2D_px": 223.40915949404922,
+      "FDE_2D_px": 194.01492191402266,
+      "valid_pairs": 240,
+      "videos_decoded": {
+        "pred_vs_gt_2d": 10,
+        "side_by_side": 10
+      }
+    }
+  },
+  "visual_review": {
+    "passed": true,
+    "reviewer": "root assistant",
+    "created_utc": "2026-10-02T23:29:08.0723207Z",
+    "inspected_scenes": [
+      "cup",
+      "bottle"
+    ],
+    "inspected_encoded_video_frames_zero_based": [
+      0,
+      4,
+      9
+    ],
+    "real_future_RGB_confirmed": true,
+    "GT_points_visually_follow_targets": true,
+    "persistent_point_ids_present": true,
+    "distinct_history_prediction_GT_present": true,
+    "full_extent_projection_figure_inspected": true,
+    "prediction_outside_image_errors_retained": true,
+    "noted_result": "Forecast arcs are much larger than the observed two-second continuations; model errors exceed both baselines."
+  },
+  "scenes": {
+    "cup": {
+      "scene": "cup",
+      "metadata": {
+        "scene": "cup",
+        "source_episode_id": 10,
+        "episode_id": 10,
+        "instruction": "Pick up the blue cup and put it into the brown cup.",
+        "task": "Pick up the blue cup and put it into the brown cup.",
+        "target_object": "blue cup",
+        "source_task_text": 2,
+        "source_repo": "lerobot/berkeley_autolab_ur5",
+        "source_revision": "6306aa91c00b9b0de28831b7fceaa42b8096bb4f",
+        "camera": "observation.images.image",
+        "source_fps": 5,
+        "model_training_fps": 15,
+        "t0": 63,
+        "t0_source_frame": 63,
+        "t0_seconds": 12.600000381469727,
+        "observed_source_indices": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "history_source_indices": [
+          61,
+          62,
+          63
+        ],
+        "history_timestamps": [
+          12.199999809265137,
+          12.399999618530273,
+          12.600000381469727
+        ],
+        "future_source_indices": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "future_timestamps": [
+          12.800000190734863,
+          13.0,
+          13.199999809265137,
+          13.399999618530273,
+          13.600000381469727,
+          13.800000190734863,
+          14.0,
+          14.199999809265137,
+          14.399999618530273,
+          14.600000381469727
+        ],
+        "prediction_evaluation_indices": [
+          2,
+          5,
+          8,
+          11,
+          14,
+          17,
+          20,
+          23,
+          26,
+          29
+        ],
+        "source_video": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/videos/chunk-000/observation.images.image/episode_000010.mp4",
+        "source_parquet": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/data/chunk-000/episode_000010.parquet",
+        "source_sha256": {
+          "video": "0331794ed344fa7b17c11fe722ac5a47038483037d4b4cbdc0f125226ab011ef",
+          "parquet": "640c5fbafec7976bd8f83d36e5e0f0f4f64ab845b6a004a34c5a1a2b7831c156"
+        },
+        "selection_reason": "Printed motif gives visible texture for persistent points; exposed cup separated from brown cup; ep4 initial overlap, ep7/12 plain sides.",
+        "selection_policy": "Data quality only; episode/t0 screening precedes predictions. Future screening used only to select episode/t0, never to form model inputs.",
+        "future_used_for_model_input": false,
+        "warnings": [
+          "H3 uses real adjacent 5 FPS frames [-0.4,-0.2,0] seconds; temporal distribution shift from training at 15 FPS.",
+          "Future tracking is a tracker-based reference, not manually measured physical point ground truth."
+        ],
+        "created_utc": "2026-10-02T22:16:43.440634+00:00",
+        "depth_source": "RealSense measured aligned metric depth (TFDS float32)",
+        "K_source": "UniDepthV2 estimated intrinsics, observed robust median"
+      },
+      "metrics": {
+        "source_episode_id": 10,
+        "task": "Pick up the blue cup and put it into the brown cup.",
+        "t0": 63,
+        "t0_timestamp_s": 12.600000381469727,
+        "depth_source": "RealSense measured aligned metric depth (TFDS float32)",
+        "K_source": "UniDepthV2 estimated intrinsics, observed robust median",
+        "K_median": [
+          [
+            510.4754638671875,
+            0.0,
+            324.2278137207031
+          ],
+          [
+            0.0,
+            507.927001953125,
+            245.5074920654297
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "number_of_valid_points": 24,
+        "intrinsics_stability": {
+          "components": [
+            "fx",
+            "fy",
+            "cx",
+            "cy"
+          ],
+          "source_indices": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "values_px": [
+            [
+              508.453857421875,
+              507.18310546875,
+              324.2278137207031,
+              245.5074920654297
+            ],
+            [
+              509.75897216796875,
+              508.6090393066406,
+              324.2278137207031,
+              245.5074920654297
+            ],
+            [
+              507.05926513671875,
+              502.7142333984375,
+              324.2278137207031,
+              245.5074920654297
+            ],
+            [
+              509.7900390625,
+              505.60675048828125,
+              324.2278137207031,
+              245.5074920654297
+            ],
+            [
+              511.1609191894531,
+              507.2449951171875,
+              324.2278137207031,
+              245.5074920654297
+            ],
+            [
+              523.602294921875,
+              520.03515625,
+              324.2278137207031,
+              245.5074920654297
+            ],
+            [
+              514.72998046875,
+              511.56671142578125,
+              324.2278137207031,
+              245.5074920654297
+            ],
+            [
+              523.4425048828125,
+              521.8475341796875,
+              324.2278137207031,
+              245.5074920654297
+            ]
+          ],
+          "median_px": [
+            510.4754638671875,
+            507.927001953125,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          "range_relative_to_median": [
+            0.03240710124373436,
+            0.03766939043998718,
+            0.0,
+            0.0
+          ],
+          "focal_relative_range_max": 0.03766939043998718,
+          "focal_stable_within_15_percent": true,
+          "future_used": false,
+          "K_px": [
+            [
+              510.4754638671875,
+              0.0,
+              324.2278137207031
+            ],
+            [
+              0.0,
+              507.927001953125,
+              245.5074920654297
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "camera_motion_audit": {
+          "method": "observed-only background Shi-Tomasi + pyramidal LK; forward/backward <1px; object mask excluded",
+          "pairs": [
+            {
+              "pair": [
+                0,
+                1
+              ],
+              "count": 283,
+              "median_displacement_px": 0.00032440631184726954,
+              "p90_displacement_px": 0.0029650989454239607,
+              "median_flow_xy_px": [
+                0.0,
+                -1.52587890625e-05
+              ],
+              "fraction_below_1px": 1.0
+            },
+            {
+              "pair": [
+                1,
+                2
+              ],
+              "count": 291,
+              "median_displacement_px": 0.033259376883506775,
+              "p90_displacement_px": 0.08754684031009674,
+              "median_flow_xy_px": [
+                -0.009185791015625,
+                -0.0128631591796875
+              ],
+              "fraction_below_1px": 1.0
+            },
+            {
+              "pair": [
+                2,
+                3
+              ],
+              "count": 291,
+              "median_displacement_px": 0.00035622002906166017,
+              "p90_displacement_px": 0.0024549230001866817,
+              "median_flow_xy_px": [
+                0.0,
+                -3.0517578125e-05
+              ],
+              "fraction_below_1px": 1.0
+            },
+            {
+              "pair": [
+                3,
+                4
+              ],
+              "count": 276,
+              "median_displacement_px": 0.04770122095942497,
+              "p90_displacement_px": 0.250485360622406,
+              "median_flow_xy_px": [
+                0.010284423828125,
+                0.015047073364257812
+              ],
+              "fraction_below_1px": 1.0
+            },
+            {
+              "pair": [
+                4,
+                5
+              ],
+              "count": 277,
+              "median_displacement_px": 0.05592207610607147,
+              "p90_displacement_px": 11.063054084777832,
+              "median_flow_xy_px": [
+                2.6702880859375e-05,
+                0.0008087158203125
+              ],
+              "fraction_below_1px": 0.6245487364620939
+            },
+            {
+              "pair": [
+                5,
+                6
+              ],
+              "count": 269,
+              "median_displacement_px": 0.09418660402297974,
+              "p90_displacement_px": 9.961859703063965,
+              "median_flow_xy_px": [
+                -0.0062255859375,
+                0.014190673828125
+              ],
+              "fraction_below_1px": 0.6654275092936803
+            },
+            {
+              "pair": [
+                6,
+                7
+              ],
+              "count": 275,
+              "median_displacement_px": 0.06433934718370438,
+              "p90_displacement_px": 10.046716690063477,
+              "median_flow_xy_px": [
+                -0.0001220703125,
+                0.00212860107421875
+              ],
+              "fraction_below_1px": 0.6363636363636364
+            }
+          ],
+          "max_pair_median_displacement_px": 0.09418660402297974,
+          "fixed_camera_supported": true,
+          "median_threshold_px": 1.5,
+          "minimum_pair_count": 30,
+          "camera_pose": "identity",
+          "future_used": false,
+          "limitations": "Robot-arm features may remain among background candidates; robust median, not upper tail, determines gate."
+        },
+        "preprocessing": {
+          "grounding": {
+            "object_phrase": "blue cup",
+            "prompt": "point to blue cup gripped and picked up by the robot gripper",
+            "source_frame": 63,
+            "future_used": false,
+            "object_phrase_source": "explicit user target (no recaption needed)",
+            "pointing_method": "actual official MolmoPoint-Vid-4B inference on observed t0",
+            "pointing_metadata": "runs/berkeley_ur5_molmomotion/cup/observed/molmopoint_grounding.json",
+            "pointing_metadata_sha256": "99c8c400bd4f96ebc61a40ec26e15d1ee8b559d2844d4824b857d1f3ffdc1634",
+            "segmentation_version_reason": "SAM3 weights access returned403 GatedRepo; user explicitly selected official Meta SAM2.1 earlier release",
+            "point_xy": [
+              159.93043518066406,
+              269.478271484375
+            ],
+            "negative_points_xy": [],
+            "kmeans_source": "data_generation/third_party/sam3/querypoints_from_video.py",
+            "kmeans_source_sha256": "72f13f3b7a2f3d38201b0ea8f27f5d841acc13d7bb02313c3aa2a3a1c5fc1df7",
+            "segmentation": "official Meta SAM2.1 Hiera-Large",
+            "sam_repository": "https://github.com/facebookresearch/sam2",
+            "sam_code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+            "sam_config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+            "checkpoint": "../models/sam2.1_hiera_large.pt",
+            "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+            "mask_scores": [
+              0.1884765625,
+              0.78125,
+              0.9375
+            ],
+            "chosen_mask": 2,
+            "mask_area_px": 4034,
+            "query_count": 100,
+            "centers_inside_mask": 100,
+            "runtime_seconds": 38.67581943099958,
+            "input_rgb_sha256": "46c18a8fe26e9dd07030261b2796b1224990e77d3865b003df671b554189ed1e"
+          },
+          "filtering": {
+            "author_source": "data_generation/third_party/vipe/track-filter-smooth.py",
+            "author_source_sha256": "ceb21903da85de835b9314b61356c69d5033afcda68d73764a82cd135e9272fd",
+            "author_functions": [
+              "compute_trust_weights",
+              "filter_tracks_by_trust",
+              "consensus_gated_smooth"
+            ],
+            "anchor_count": 16,
+            "anchor_ids": [
+              11,
+              91,
+              23,
+              0,
+              70,
+              47,
+              17,
+              7,
+              58,
+              66,
+              81,
+              46,
+              35,
+              30,
+              14,
+              37
+            ],
+            "depth_patch_window_px": 5,
+            "valid_depth_interval_m": [
+              0,
+              10
+            ],
+            "depth_interval_endpoints": "exclusive",
+            "lift_wrapper": "finite-positive depth patch median; subpixel ray backprojection with fixed median K",
+            "spatial_auto_split": "not needed: one grounded object",
+            "trust_z_threshold": 2.0,
+            "smooth_parameters": {
+              "alpha": 1000.0,
+              "lambda_reg": 0.0001,
+              "p": 2,
+              "deltas": [
+                1,
+                3,
+                5
+              ],
+              "steps": 100,
+              "lr": 0.05
+            },
+            "history_indices": [
+              61,
+              62,
+              63
+            ],
+            "observed_indices": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63
+            ],
+            "future_used": false,
+            "candidate_count": 100,
+            "official_kept_count": 95,
+            "eligible_h3_count": 82,
+            "selected_count": 24,
+            "group_count": 3,
+            "selected_point_ids": [
+              67,
+              46,
+              41,
+              91,
+              94,
+              40,
+              10,
+              17,
+              53,
+              44,
+              42,
+              28,
+              83,
+              72,
+              13,
+              19,
+              85,
+              33,
+              69,
+              58,
+              78,
+              73,
+              37,
+              89
+            ],
+            "selection": "spatial farthest point selection among official-kept H3-visible mask-contained points",
+            "runtime_seconds": 0.3153702539993901,
+            "max_smoothing_displacement_m": 0.0475592240691185,
+            "temporal_limitation": "Berkeley real H3 at 5 Hz (-0.4,-0.2,0s), versus MolmoMotion training 15 Hz; no frame interpolation/duplication"
+          },
+          "geometry": {
+            "depth_source": "RealSense measured aligned metric depth",
+            "geometry_source": "measured-depth_estimated-intrinsics",
+            "K_source": "UniDepthV2 robust elementwise median of observed-frame intrinsics",
+            "checkpoint": "/mnt/f/AIRI_task/models/unidepth-v2-vits14",
+            "source_indices": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63
+            ],
+            "future_used": false,
+            "depth_patch_window_px": 5,
+            "runtime_seconds": 3.9086719910001193,
+            "peak_gpu_memory_gib": 0.39598608016967773,
+            "native_depth_used": true,
+            "no_metric_scale_fit": true,
+            "checkpoint_sha256": "93705cb3295dd7476b44911b8a55f5215bf74e8d5eccd27cecdb1b338270a648",
+            "checkpoint_revision": "038c238f06c87b6c2f5b3749fd51fbf442b1f218"
+          },
+          "tracking_sampling_deviation": "bilinear dense flow at exact query instead of author CLI nearest-pixel query rounding"
+        },
+        "number_of_successful_model_chunks": 3,
+        "point_ids": [
+          67,
+          46,
+          41,
+          91,
+          94,
+          40,
+          10,
+          17,
+          53,
+          44,
+          42,
+          28,
+          83,
+          72,
+          13,
+          19,
+          85,
+          33,
+          69,
+          58,
+          78,
+          73,
+          37,
+          89
+        ],
+        "prediction_shape": [
+          24,
+          30,
+          3
+        ],
+        "evaluation_prediction_indices_zero_based": [
+          2,
+          5,
+          8,
+          11,
+          14,
+          17,
+          20,
+          23,
+          26,
+          29
+        ],
+        "evaluation_times_from_t0_s": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0,
+          1.2,
+          1.4,
+          1.6,
+          1.8,
+          2.0
+        ],
+        "gt_interpolated": false,
+        "timestamp_audit": {
+          "history_source_indices": [
+            61,
+            62,
+            63
+          ],
+          "future_source_indices": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+          ],
+          "history_timestamps_s": [
+            12.199999809265137,
+            12.399999618530273,
+            12.600000381469727
+          ],
+          "future_timestamps_s": [
+            12.800000190734863,
+            13.0,
+            13.199999809265137,
+            13.399999618530273,
+            13.600000381469727,
+            13.800000190734863,
+            14.0,
+            14.199999809265137,
+            14.399999618530273,
+            14.600000381469727
+          ],
+          "history_exact_relative_times_s": [
+            -0.40000057220458984,
+            -0.20000076293945312,
+            0.0
+          ],
+          "future_exact_relative_times_s": [
+            0.19999980926513672,
+            0.39999961853027344,
+            0.5999994277954102,
+            0.7999992370605469,
+            1.0,
+            1.1999998092651367,
+            1.3999996185302734,
+            1.5999994277954102,
+            1.7999992370605469,
+            2.0
+          ],
+          "timestamp_alignment_tolerance_s": 2e-06,
+          "max_nominal_alignment_error_s": 7.629394531694089e-07
+        },
+        "methods": {
+          "MolmoMotion": {
+            "ADE_2D_px": 193.5709607239007,
+            "FDE_2D_px": 224.48461658461392,
+            "error_by_horizon": [
+              37.94573786199391,
+              92.88040658147656,
+              151.8049023766575,
+              207.61960198435247,
+              242.954431842231,
+              252.52539047443483,
+              250.04790579328383,
+              242.6795193138437,
+              232.76709442611931,
+              224.48461658461392
+            ],
+            "valid_pairs": 240,
+            "valid_point_coverage": 1.0,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "static": {
+            "ADE_2D_px": 46.114264382033106,
+            "FDE_2D_px": 83.60798975003361,
+            "error_by_horizon": [
+              7.558349345458017,
+              15.759499737795878,
+              24.812870150139748,
+              33.22447514427517,
+              41.39681321119795,
+              51.01708082422508,
+              59.13218340500658,
+              67.63166054889977,
+              77.00172170329922,
+              83.60798975003361
+            ],
+            "valid_pairs": 240,
+            "valid_point_coverage": 1.0,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "constant_velocity": {
+            "ADE_2D_px": 2.9064254310426505,
+            "FDE_2D_px": 7.373612429062615,
+            "error_by_horizon": [
+              0.7055669828630623,
+              1.0227715915661395,
+              1.1515086891739597,
+              1.5461748510994564,
+              2.2556190815353765,
+              2.505953631369963,
+              3.240087777458244,
+              4.288545885478224,
+              4.974413390819465,
+              7.373612429062615
+            ],
+            "valid_pairs": 240,
+            "valid_point_coverage": 1.0,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          }
+        },
+        "ADE_2D_px": 193.5709607239007,
+        "FDE_2D_px": 224.48461658461392,
+        "static_baseline": {
+          "ADE_2D_px": 46.114264382033106,
+          "FDE_2D_px": 83.60798975003361,
+          "error_by_horizon": [
+            7.558349345458017,
+            15.759499737795878,
+            24.812870150139748,
+            33.22447514427517,
+            41.39681321119795,
+            51.01708082422508,
+            59.13218340500658,
+            67.63166054889977,
+            77.00172170329922,
+            83.60798975003361
+          ],
+          "valid_pairs": 240,
+          "valid_point_coverage": 1.0,
+          "valid_points_by_horizon": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ],
+          "FDE_valid_points": 24
+        },
+        "constant_velocity_baseline": {
+          "ADE_2D_px": 2.9064254310426505,
+          "FDE_2D_px": 7.373612429062615,
+          "error_by_horizon": [
+            0.7055669828630623,
+            1.0227715915661395,
+            1.1515086891739597,
+            1.5461748510994564,
+            2.2556190815353765,
+            2.505953631369963,
+            3.240087777458244,
+            4.288545885478224,
+            4.974413390819465,
+            7.373612429062615
+          ],
+          "valid_pairs": 240,
+          "valid_point_coverage": 1.0,
+          "valid_points_by_horizon": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ],
+          "FDE_valid_points": 24
+        },
+        "baseline_definition": "static and ordinary-least-squares constant velocity in camera XYZ using exact observed timestamps, projected through same K",
+        "valid_point_coverage": 1.0,
+        "valid_pairs": 240,
+        "points_with_any_valid_future": 24,
+        "valid_points_by_horizon": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "prediction_outside_image_by_horizon": [
+          0,
+          0,
+          0,
+          7,
+          14,
+          13,
+          11,
+          7,
+          6,
+          6
+        ],
+        "prediction_nonpositive_Z_count": 0,
+        "timing": {
+          "model": 471.0114680350007,
+          "model_scene_elapsed_seconds": 471.8346792370003,
+          "model_load_seconds": 67.78164331400058,
+          "tracker": 2.419762907000404,
+          "evaluation_and_visualization_seconds": 7.078673224999875
+        },
+        "GPU_memory": {
+          "model_peak_gib": 9.656371593475342,
+          "tracker_peak_gib": 1.8876094818115234
+        },
+        "model_receipt": {
+          "model_id": "allenai/MolmoMotion-4B-H3-F30",
+          "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+          "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+          "model_bytes": 17847894425,
+          "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+          "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+          "torch_version": "2.9.1+cu128",
+          "dtype": "bfloat16",
+          "seed": 0,
+          "decoding": "official default greedy",
+          "max_new_tokens": 4800,
+          "model_load_seconds": 67.78164331400058,
+          "action": "Pick up the blue cup and put it into the brown cup.",
+          "success": true,
+          "successful_chunks": 3,
+          "attempted_chunks": 3,
+          "groups": [
+            {
+              "group": "group_00",
+              "success": true,
+              "generation_started": true,
+              "created_utc": "2026-10-02T23:05:53.001857+00:00",
+              "model_id": "allenai/MolmoMotion-4B-H3-F30",
+              "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+              "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+              "model_bytes": 17847894425,
+              "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+              "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+              "torch_version": "2.9.1+cu128",
+              "dtype": "bfloat16",
+              "seed": 0,
+              "decoding": "official default greedy",
+              "max_new_tokens": 4800,
+              "model_load_seconds": 67.78164331400058,
+              "prediction_seconds": 165.29224350100048,
+              "parse_status": "FULL_8x30x3",
+              "parsed_point_times": 240,
+              "prediction_shape": [
+                8,
+                30,
+                3
+              ],
+              "raw_output_sha256": "4c024e654719c4014804a8cc07349da6fa0b9c9d356b75f340d6433f66a12ae7",
+              "prediction_sha256": "6ef6117c8b71590baa5d7d39603b12c2940a361805ba6a6225082125e93af5b7",
+              "peak_cuda_allocated_gib": 9.643608570098877,
+              "peak_cuda_reserved_gib": 10.58984375,
+              "peak_ram_gib": 22.193706512451172,
+              "finished_utc": "2026-10-02T23:08:38.331502+00:00"
+            },
+            {
+              "group": "group_01",
+              "success": true,
+              "generation_started": true,
+              "created_utc": "2026-10-02T23:08:38.382137+00:00",
+              "model_id": "allenai/MolmoMotion-4B-H3-F30",
+              "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+              "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+              "model_bytes": 17847894425,
+              "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+              "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+              "torch_version": "2.9.1+cu128",
+              "dtype": "bfloat16",
+              "seed": 0,
+              "decoding": "official default greedy",
+              "max_new_tokens": 4800,
+              "model_load_seconds": 67.78164331400058,
+              "prediction_seconds": 145.092567959,
+              "parse_status": "FULL_8x30x3",
+              "parsed_point_times": 240,
+              "prediction_shape": [
+                8,
+                30,
+                3
+              ],
+              "raw_output_sha256": "b606c5410aa5c3a82508fc82ea7900ede920c1f17c7e0c81a51cf4515a151d92",
+              "prediction_sha256": "643fb78b2821ff0c9ce948936ad49b57f859e2da202e235a4683ee998d0a7404",
+              "peak_cuda_allocated_gib": 9.626544952392578,
+              "peak_cuda_reserved_gib": 10.5859375,
+              "peak_ram_gib": 22.193706512451172,
+              "finished_utc": "2026-10-02T23:11:03.502900+00:00"
+            },
+            {
+              "group": "group_02",
+              "success": true,
+              "generation_started": true,
+              "created_utc": "2026-10-02T23:11:03.549431+00:00",
+              "model_id": "allenai/MolmoMotion-4B-H3-F30",
+              "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+              "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+              "model_bytes": 17847894425,
+              "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+              "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+              "torch_version": "2.9.1+cu128",
+              "dtype": "bfloat16",
+              "seed": 0,
+              "decoding": "official default greedy",
+              "max_new_tokens": 4800,
+              "model_load_seconds": 67.78164331400058,
+              "prediction_seconds": 160.6266565750002,
+              "parse_status": "FULL_8x30x3",
+              "parsed_point_times": 240,
+              "prediction_shape": [
+                8,
+                30,
+                3
+              ],
+              "raw_output_sha256": "03d7faf19342a798799bb7d98ae0873b909aa31548039bb5e5d1d08f1e80eba6",
+              "prediction_sha256": "119a451d58bfbb95315a14ab5546f773c5c27959e6ec58c22dbcb6c8f886bf8c",
+              "peak_cuda_allocated_gib": 9.656371593475342,
+              "peak_cuda_reserved_gib": 10.5859375,
+              "peak_ram_gib": 22.193706512451172,
+              "finished_utc": "2026-10-02T23:13:44.214967+00:00"
+            }
+          ],
+          "future_horizon": 30,
+          "prediction_shape": [
+            24,
+            30,
+            3
+          ],
+          "prediction_seconds": 471.0114680350007,
+          "elapsed_seconds": 471.8346792370003,
+          "peak_cuda_allocated_gib": 9.656371593475342,
+          "peak_cuda_reserved_gib": 10.58984375,
+          "completed_utc": "2026-10-02T23:13:44.630261+00:00"
+        },
+        "warnings_limitations": [
+          "H3 uses real adjacent 5 FPS frames [-0.4,-0.2,0] seconds; temporal distribution shift from training at 15 FPS.",
+          "Future tracking is a tracker-based reference, not manually measured physical point ground truth.",
+          "Berkeley history uses real 5 FPS frames; MolmoMotion training/inference forecast is 15 FPS.",
+          "GT is independently inferred AllTracker correspondence, not human-labeled or instrumented motion ground truth.",
+          "Common visibility mask uses tracker channel 0 > 0.5, finite in-image GT; errors retain out-of-image predictions.",
+          "Camera intrinsics are estimated from observed RGB, not published calibration.",
+          "GT tracks may drift during gripper/object/container occlusion; coverage and video require joint interpretation."
+        ],
+        "3D_est": {
+          "MolmoMotion": {
+            "ADE_3D_est_m": 0.2222004417716557,
+            "FDE_3D_est_m": 0.27642006205952896,
+            "error_by_horizon": [
+              0.04693768162783999,
+              0.10640790575624988,
+              0.16608744051932936,
+              0.22053682349889145,
+              0.26082090701150945,
+              0.283855459569947,
+              0.29180002250315124,
+              0.2892984171792875,
+              0.28227342137979644,
+              0.27642006205952896
+            ],
+            "valid_pairs": 238,
+            "valid_point_coverage": 0.9916666666666667,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              23,
+              24,
+              24,
+              24,
+              24,
+              23,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "static": {
+            "ADE_3D_est_m": 0.05825436627285166,
+            "FDE_3D_est_m": 0.10322094430817026,
+            "error_by_horizon": [
+              0.011305165849200651,
+              0.02179064170713534,
+              0.03312417342010093,
+              0.043328693096290734,
+              0.053236072593292084,
+              0.06456550778084262,
+              0.07398857991409553,
+              0.08414195508949818,
+              0.09474027199251973,
+              0.10322094430817026
+            ],
+            "valid_pairs": 238,
+            "valid_point_coverage": 0.9916666666666667,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              23,
+              24,
+              24,
+              24,
+              24,
+              23,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "constant_velocity": {
+            "ADE_3D_est_m": 0.014292882563909069,
+            "FDE_3D_est_m": 0.02576321623444003,
+            "error_by_horizon": [
+              0.006045524684202681,
+              0.007232874958437718,
+              0.008834755249123763,
+              0.01045430059500799,
+              0.012344470412391463,
+              0.01493722781924211,
+              0.016504870491397605,
+              0.019206554490312968,
+              0.021756055320696292,
+              0.02576321623444003
+            ],
+            "valid_pairs": 238,
+            "valid_point_coverage": 0.9916666666666667,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              23,
+              24,
+              24,
+              24,
+              24,
+              23,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "depth_patch_window": "5x5 median of finite native metric depth with 0<Z<10 m; >=max(3,ceil(patch_area/2)) valid samples (13/25 for full patch)"
+        },
+        "ADE_3D_est_m": 0.2222004417716557,
+        "FDE_3D_est_m": 0.27642006205952896
+      },
+      "model": {
+        "model_id": "allenai/MolmoMotion-4B-H3-F30",
+        "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+        "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+        "model_bytes": 17847894425,
+        "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+        "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+        "torch_version": "2.9.1+cu128",
+        "dtype": "bfloat16",
+        "seed": 0,
+        "decoding": "official default greedy",
+        "max_new_tokens": 4800,
+        "model_load_seconds": 67.78164331400058,
+        "action": "Pick up the blue cup and put it into the brown cup.",
+        "success": true,
+        "successful_chunks": 3,
+        "attempted_chunks": 3,
+        "groups": [
+          {
+            "group": "group_00",
+            "success": true,
+            "generation_started": true,
+            "created_utc": "2026-10-02T23:05:53.001857+00:00",
+            "model_id": "allenai/MolmoMotion-4B-H3-F30",
+            "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+            "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+            "model_bytes": 17847894425,
+            "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+            "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+            "torch_version": "2.9.1+cu128",
+            "dtype": "bfloat16",
+            "seed": 0,
+            "decoding": "official default greedy",
+            "max_new_tokens": 4800,
+            "model_load_seconds": 67.78164331400058,
+            "prediction_seconds": 165.29224350100048,
+            "parse_status": "FULL_8x30x3",
+            "parsed_point_times": 240,
+            "prediction_shape": [
+              8,
+              30,
+              3
+            ],
+            "raw_output_sha256": "4c024e654719c4014804a8cc07349da6fa0b9c9d356b75f340d6433f66a12ae7",
+            "prediction_sha256": "6ef6117c8b71590baa5d7d39603b12c2940a361805ba6a6225082125e93af5b7",
+            "peak_cuda_allocated_gib": 9.643608570098877,
+            "peak_cuda_reserved_gib": 10.58984375,
+            "peak_ram_gib": 22.193706512451172,
+            "finished_utc": "2026-10-02T23:08:38.331502+00:00"
+          },
+          {
+            "group": "group_01",
+            "success": true,
+            "generation_started": true,
+            "created_utc": "2026-10-02T23:08:38.382137+00:00",
+            "model_id": "allenai/MolmoMotion-4B-H3-F30",
+            "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+            "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+            "model_bytes": 17847894425,
+            "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+            "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+            "torch_version": "2.9.1+cu128",
+            "dtype": "bfloat16",
+            "seed": 0,
+            "decoding": "official default greedy",
+            "max_new_tokens": 4800,
+            "model_load_seconds": 67.78164331400058,
+            "prediction_seconds": 145.092567959,
+            "parse_status": "FULL_8x30x3",
+            "parsed_point_times": 240,
+            "prediction_shape": [
+              8,
+              30,
+              3
+            ],
+            "raw_output_sha256": "b606c5410aa5c3a82508fc82ea7900ede920c1f17c7e0c81a51cf4515a151d92",
+            "prediction_sha256": "643fb78b2821ff0c9ce948936ad49b57f859e2da202e235a4683ee998d0a7404",
+            "peak_cuda_allocated_gib": 9.626544952392578,
+            "peak_cuda_reserved_gib": 10.5859375,
+            "peak_ram_gib": 22.193706512451172,
+            "finished_utc": "2026-10-02T23:11:03.502900+00:00"
+          },
+          {
+            "group": "group_02",
+            "success": true,
+            "generation_started": true,
+            "created_utc": "2026-10-02T23:11:03.549431+00:00",
+            "model_id": "allenai/MolmoMotion-4B-H3-F30",
+            "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+            "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+            "model_bytes": 17847894425,
+            "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+            "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+            "torch_version": "2.9.1+cu128",
+            "dtype": "bfloat16",
+            "seed": 0,
+            "decoding": "official default greedy",
+            "max_new_tokens": 4800,
+            "model_load_seconds": 67.78164331400058,
+            "prediction_seconds": 160.6266565750002,
+            "parse_status": "FULL_8x30x3",
+            "parsed_point_times": 240,
+            "prediction_shape": [
+              8,
+              30,
+              3
+            ],
+            "raw_output_sha256": "03d7faf19342a798799bb7d98ae0873b909aa31548039bb5e5d1d08f1e80eba6",
+            "prediction_sha256": "119a451d58bfbb95315a14ab5546f773c5c27959e6ec58c22dbcb6c8f886bf8c",
+            "peak_cuda_allocated_gib": 9.656371593475342,
+            "peak_cuda_reserved_gib": 10.5859375,
+            "peak_ram_gib": 22.193706512451172,
+            "finished_utc": "2026-10-02T23:13:44.214967+00:00"
+          }
+        ],
+        "future_horizon": 30,
+        "prediction_shape": [
+          24,
+          30,
+          3
+        ],
+        "prediction_seconds": 471.0114680350007,
+        "elapsed_seconds": 471.8346792370003,
+        "peak_cuda_allocated_gib": 9.656371593475342,
+        "peak_cuda_reserved_gib": 10.58984375,
+        "completed_utc": "2026-10-02T23:13:44.630261+00:00"
+      },
+      "grounding": {
+        "object_phrase": "blue cup",
+        "prompt": "point to blue cup gripped and picked up by the robot gripper",
+        "source_frame": 63,
+        "future_used": false,
+        "object_phrase_source": "explicit user target (no recaption needed)",
+        "pointing_method": "actual official MolmoPoint-Vid-4B inference on observed t0",
+        "pointing_metadata": "runs/berkeley_ur5_molmomotion/cup/observed/molmopoint_grounding.json",
+        "pointing_metadata_sha256": "99c8c400bd4f96ebc61a40ec26e15d1ee8b559d2844d4824b857d1f3ffdc1634",
+        "segmentation_version_reason": "SAM3 weights access returned403 GatedRepo; user explicitly selected official Meta SAM2.1 earlier release",
+        "point_xy": [
+          159.93043518066406,
+          269.478271484375
+        ],
+        "negative_points_xy": [],
+        "kmeans_source": "data_generation/third_party/sam3/querypoints_from_video.py",
+        "kmeans_source_sha256": "72f13f3b7a2f3d38201b0ea8f27f5d841acc13d7bb02313c3aa2a3a1c5fc1df7",
+        "segmentation": "official Meta SAM2.1 Hiera-Large",
+        "sam_repository": "https://github.com/facebookresearch/sam2",
+        "sam_code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+        "sam_config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+        "checkpoint": "../models/sam2.1_hiera_large.pt",
+        "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+        "mask_scores": [
+          0.1884765625,
+          0.78125,
+          0.9375
+        ],
+        "chosen_mask": 2,
+        "mask_area_px": 4034,
+        "query_count": 100,
+        "centers_inside_mask": 100,
+        "runtime_seconds": 38.67581943099958,
+        "input_rgb_sha256": "46c18a8fe26e9dd07030261b2796b1224990e77d3865b003df671b554189ed1e"
+      },
+      "pointing": {
+        "scene": "cup",
+        "source_frame": 63,
+        "t0_source_frame_index": 63,
+        "source_camera": "observation.images.image",
+        "object_phrase": "blue cup",
+        "prompt": "point to blue cup gripped and picked up by the robot gripper",
+        "future_used": false,
+        "input_modality": "image",
+        "input_real_frame_count": 1,
+        "input_source_indices": [
+          63
+        ],
+        "frame_0_maps_to_source_frame": 63,
+        "model_input_rgb_sha256": "7296273b4a4d7c10ca8dd16ed5456a68cb9472fa120e14ca67add0800fa04868",
+        "observed_rgb_sha256": "46c18a8fe26e9dd07030261b2796b1224990e77d3865b003df671b554189ed1e",
+        "input_shapes": {
+          "input_ids": [
+            1,
+            789
+          ],
+          "attention_mask": [
+            1,
+            789
+          ],
+          "token_type_ids": [
+            1,
+            789
+          ],
+          "pixel_values": [
+            5,
+            729,
+            588
+          ],
+          "image_token_pooling": [
+            725,
+            4
+          ],
+          "image_grids": [
+            1,
+            4
+          ],
+          "image_num_crops": [
+            1
+          ]
+        },
+        "pointing_metadata_shapes": {
+          "token_pooling": [
+            725,
+            4
+          ],
+          "subpatch_mapping": "list",
+          "image_sizes": "list"
+        },
+        "created_utc": "2026-10-02T22:59:27.165107+00:00",
+        "model_id": "allenai/MolmoPoint-Vid-4B",
+        "checkpoint": "/mnt/f/AIRI_task/models/MolmoPoint-Vid-4B",
+        "checkpoint_revision": "b331ed6c6352e6db967325493c6dae515541a919",
+        "checkpoint_code_sha256": {
+          "config.json": "6b652388cab9fa629cb6271838bcc8b6680c4efd6b561aa75497aba8153ed33a",
+          "processor_config.json": "06416426dfbcd8c92165e3c705d04eeef1bc5ae13d246043cf850cccecf77d41",
+          "modeling_molmo_point.py": "9320e8025d761629262d37d48f0422f967b0d3bfae733d9318ba0f4c68ce135b",
+          "processing_molmo2.py": "73fee7d5cc24e64fdecff90b07e2fea1985113394ffaaf9b87f42e40f3fb4aeb",
+          "image_processing_molmo2.py": "22fcc160210a3a648b6d618171686c40b900f512107f532c266af7792ac00511",
+          "chat_template.jinja": "ec66862fda57dc1aef90a21b2a0f64c18a280e2483206449bd251a73b8993101"
+        },
+        "checkpoint_shards": {
+          "model-00001-of-00004.safetensors": 4891799000,
+          "model-00002-of-00004.safetensors": 4844690992,
+          "model-00003-of-00004.safetensors": 4844691024,
+          "model-00004-of-00004.safetensors": 4867859988
+        },
+        "author_loader": "data_generation/third_party/sam3/molmo2_pointing.py",
+        "author_loader_sha256": "c184c89e54372aceb19472c2a27090dc8589a63ff8fe8eb50642f9f84b6bef50",
+        "success": true,
+        "point_xy": [
+          159.93043518066406,
+          269.478271484375
+        ],
+        "candidate_points": [
+          [
+            1.0,
+            0.0,
+            159.9304347826087,
+            269.4782608695652
+          ]
+        ],
+        "chosen_candidate_index": 0,
+        "selection_rule": "first valid native decoded point at t0 in deterministic generated order",
+        "pointing_method": "actual official MolmoPoint-Vid-4B constrained greedy generation",
+        "coordinate_decoder": "model.extract_image_points",
+        "raw_output": "<points coords=\"<POINT_477><POINT_729><POINT_735>1<POINT_725>\">blue cup gripped and picked up by the robot gripper</point><|im_end|>",
+        "runtime_seconds": 3.01885405899975,
+        "model_load_seconds": 60.15802384399922,
+        "peak_gpu_memory_gib": 9.255112648010254,
+        "transformers_version": "4.57.6",
+        "torch_version": "2.9.1+cu128",
+        "dtype": "bfloat16",
+        "seed": 0,
+        "max_new_tokens": 512,
+        "logits_processor": "model.build_logit_processor_from_inputs(inputs)",
+        "no_manual_point_or_segmentation_selection": true,
+        "finished_utc": "2026-10-02T22:59:30.224137+00:00"
+      },
+      "filtering": {
+        "author_source": "data_generation/third_party/vipe/track-filter-smooth.py",
+        "author_source_sha256": "ceb21903da85de835b9314b61356c69d5033afcda68d73764a82cd135e9272fd",
+        "author_functions": [
+          "compute_trust_weights",
+          "filter_tracks_by_trust",
+          "consensus_gated_smooth"
+        ],
+        "anchor_count": 16,
+        "anchor_ids": [
+          11,
+          91,
+          23,
+          0,
+          70,
+          47,
+          17,
+          7,
+          58,
+          66,
+          81,
+          46,
+          35,
+          30,
+          14,
+          37
+        ],
+        "depth_patch_window_px": 5,
+        "valid_depth_interval_m": [
+          0,
+          10
+        ],
+        "depth_interval_endpoints": "exclusive",
+        "lift_wrapper": "finite-positive depth patch median; subpixel ray backprojection with fixed median K",
+        "spatial_auto_split": "not needed: one grounded object",
+        "trust_z_threshold": 2.0,
+        "smooth_parameters": {
+          "alpha": 1000.0,
+          "lambda_reg": 0.0001,
+          "p": 2,
+          "deltas": [
+            1,
+            3,
+            5
+          ],
+          "steps": 100,
+          "lr": 0.05
+        },
+        "history_indices": [
+          61,
+          62,
+          63
+        ],
+        "observed_indices": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "future_used": false,
+        "candidate_count": 100,
+        "official_kept_count": 95,
+        "eligible_h3_count": 82,
+        "selected_count": 24,
+        "group_count": 3,
+        "selected_point_ids": [
+          67,
+          46,
+          41,
+          91,
+          94,
+          40,
+          10,
+          17,
+          53,
+          44,
+          42,
+          28,
+          83,
+          72,
+          13,
+          19,
+          85,
+          33,
+          69,
+          58,
+          78,
+          73,
+          37,
+          89
+        ],
+        "selection": "spatial farthest point selection among official-kept H3-visible mask-contained points",
+        "runtime_seconds": 0.3153702539993901,
+        "max_smoothing_displacement_m": 0.0475592240691185,
+        "temporal_limitation": "Berkeley real H3 at 5 Hz (-0.4,-0.2,0s), versus MolmoMotion training 15 Hz; no frame interpolation/duplication"
+      },
+      "geometry": {
+        "depth_source": "RealSense measured aligned metric depth",
+        "geometry_source": "measured-depth_estimated-intrinsics",
+        "K_source": "UniDepthV2 robust elementwise median of observed-frame intrinsics",
+        "checkpoint": "/mnt/f/AIRI_task/models/unidepth-v2-vits14",
+        "source_indices": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "future_used": false,
+        "depth_patch_window_px": 5,
+        "runtime_seconds": 3.9086719910001193,
+        "peak_gpu_memory_gib": 0.39598608016967773,
+        "native_depth_used": true,
+        "no_metric_scale_fit": true,
+        "checkpoint_sha256": "93705cb3295dd7476b44911b8a55f5215bf74e8d5eccd27cecdb1b338270a648",
+        "checkpoint_revision": "038c238f06c87b6c2f5b3749fd51fbf442b1f218"
+      },
+      "observed_tracking": {
+        "source": "vendored author AllTracker Net(16)",
+        "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+        "iters": 4,
+        "native_size_wh": [
+          640,
+          480
+        ],
+        "network_size_wh": [
+          512,
+          384
+        ],
+        "flow_sampling": "bilinear dense-flow sampling; source-pixel-unit output",
+        "direction": "reverse observed-only prefix",
+        "runtime_seconds": 2.329996413000117,
+        "peak_gpu_memory_gib": 1.8810176849365234,
+        "future_used": false,
+        "source_indices": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "query_count": 100
+      },
+      "evaluation_tracking": {
+        "success": true,
+        "tracker": "official vendored nets.alltracker.Net(16)",
+        "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+        "direction": "t0 -> ten real future frames",
+        "independent_of_observed_tracking": true,
+        "model_prediction_frozen_first": true,
+        "visibility_rule": "official channel 0 > 0.5; confidence channel 1 saved separately",
+        "sampling": "bilinear dense flow at exact fixed t0 query; no future smoothing",
+        "input_shape": [
+          1,
+          11,
+          3,
+          384,
+          512
+        ],
+        "original_dimensions_hw": [
+          480,
+          640
+        ],
+        "iterations": 4,
+        "runtime_seconds": 2.419762907000404,
+        "peak_gpu_memory_gib": 1.8876094818115234,
+        "prediction_sha256": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+        "track_sha256": "f3bbad479ae5a03fa51ec2222517b8bec96569399d51c7f1ef035beecb6fe9da"
+      },
+      "camera_motion": {
+        "method": "observed-only background Shi-Tomasi + pyramidal LK; forward/backward <1px; object mask excluded",
+        "pairs": [
+          {
+            "pair": [
+              0,
+              1
+            ],
+            "count": 283,
+            "median_displacement_px": 0.00032440631184726954,
+            "p90_displacement_px": 0.0029650989454239607,
+            "median_flow_xy_px": [
+              0.0,
+              -1.52587890625e-05
+            ],
+            "fraction_below_1px": 1.0
+          },
+          {
+            "pair": [
+              1,
+              2
+            ],
+            "count": 291,
+            "median_displacement_px": 0.033259376883506775,
+            "p90_displacement_px": 0.08754684031009674,
+            "median_flow_xy_px": [
+              -0.009185791015625,
+              -0.0128631591796875
+            ],
+            "fraction_below_1px": 1.0
+          },
+          {
+            "pair": [
+              2,
+              3
+            ],
+            "count": 291,
+            "median_displacement_px": 0.00035622002906166017,
+            "p90_displacement_px": 0.0024549230001866817,
+            "median_flow_xy_px": [
+              0.0,
+              -3.0517578125e-05
+            ],
+            "fraction_below_1px": 1.0
+          },
+          {
+            "pair": [
+              3,
+              4
+            ],
+            "count": 276,
+            "median_displacement_px": 0.04770122095942497,
+            "p90_displacement_px": 0.250485360622406,
+            "median_flow_xy_px": [
+              0.010284423828125,
+              0.015047073364257812
+            ],
+            "fraction_below_1px": 1.0
+          },
+          {
+            "pair": [
+              4,
+              5
+            ],
+            "count": 277,
+            "median_displacement_px": 0.05592207610607147,
+            "p90_displacement_px": 11.063054084777832,
+            "median_flow_xy_px": [
+              2.6702880859375e-05,
+              0.0008087158203125
+            ],
+            "fraction_below_1px": 0.6245487364620939
+          },
+          {
+            "pair": [
+              5,
+              6
+            ],
+            "count": 269,
+            "median_displacement_px": 0.09418660402297974,
+            "p90_displacement_px": 9.961859703063965,
+            "median_flow_xy_px": [
+              -0.0062255859375,
+              0.014190673828125
+            ],
+            "fraction_below_1px": 0.6654275092936803
+          },
+          {
+            "pair": [
+              6,
+              7
+            ],
+            "count": 275,
+            "median_displacement_px": 0.06433934718370438,
+            "p90_displacement_px": 10.046716690063477,
+            "median_flow_xy_px": [
+              -0.0001220703125,
+              0.00212860107421875
+            ],
+            "fraction_below_1px": 0.6363636363636364
+          }
+        ],
+        "max_pair_median_displacement_px": 0.09418660402297974,
+        "fixed_camera_supported": true,
+        "median_threshold_px": 1.5,
+        "minimum_pair_count": 30,
+        "camera_pose": "identity",
+        "future_used": false,
+        "limitations": "Robot-arm features may remain among background candidates; robust median, not upper tail, determines gate."
+      },
+      "intrinsics": {
+        "components": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "source_indices": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "values_px": [
+          [
+            508.453857421875,
+            507.18310546875,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          [
+            509.75897216796875,
+            508.6090393066406,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          [
+            507.05926513671875,
+            502.7142333984375,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          [
+            509.7900390625,
+            505.60675048828125,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          [
+            511.1609191894531,
+            507.2449951171875,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          [
+            523.602294921875,
+            520.03515625,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          [
+            514.72998046875,
+            511.56671142578125,
+            324.2278137207031,
+            245.5074920654297
+          ],
+          [
+            523.4425048828125,
+            521.8475341796875,
+            324.2278137207031,
+            245.5074920654297
+          ]
+        ],
+        "median_px": [
+          510.4754638671875,
+          507.927001953125,
+          324.2278137207031,
+          245.5074920654297
+        ],
+        "range_relative_to_median": [
+          0.03240710124373436,
+          0.03766939043998718,
+          0.0,
+          0.0
+        ],
+        "focal_relative_range_max": 0.03766939043998718,
+        "focal_stable_within_15_percent": true,
+        "future_used": false,
+        "K_px": [
+          [
+            510.4754638671875,
+            0.0,
+            324.2278137207031
+          ],
+          [
+            0.0,
+            507.927001953125,
+            245.5074920654297
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "source_metric_sha256": "6f8bb04eb077b45adce45b55c00c4bdc686510fd2b3e806550d30c3c3db5b134",
+      "prediction_sha256": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+      "artifacts": [
+        "cup/viz/history_contact_sheet.png",
+        "cup/viz/mask_and_100_queries.png",
+        "cup/viz/selected_24_points.png",
+        "cup/viz/depth_t0.png",
+        "cup/viz/intrinsics_stability.png",
+        "cup/viz/trajectory_3d.png",
+        "cup/viz/final_overlay_t0.png",
+        "cup/viz/error_by_time.png",
+        "cup/viz/visibility_coverage.png",
+        "cup/viz/trajectory_2d_full_extent.png",
+        "cup/viz/pred_vs_gt_2d.mp4",
+        "cup/viz/side_by_side.mp4",
+        "cup/predictions/prediction.npz",
+        "cup/evaluation/evaluation_results.npz",
+        "cup/evaluation/evaluation_tracks_2d.npz",
+        "cup/observed/observed_tracks_2d.npz",
+        "cup/observed/molmopoint_overlay.png",
+        "cup/observed/mask.png",
+        "cup/observed/mask_overlay.png",
+        "cup/observed/query_points_100.npy",
+        "cup/evaluation/video_audit.png"
+      ]
+    },
+    "bottle": {
+      "scene": "bottle",
+      "metadata": {
+        "scene": "bottle",
+        "source_episode_id": 9,
+        "episode_id": 9,
+        "instruction": "Put the ranch bottle into the pot.",
+        "task": "Put the ranch bottle into the pot.",
+        "target_object": "ranch bottle",
+        "source_task_text": 1,
+        "source_repo": "lerobot/berkeley_autolab_ur5",
+        "source_revision": "6306aa91c00b9b0de28831b7fceaa42b8096bb4f",
+        "camera": "observation.images.image",
+        "source_fps": 5,
+        "model_training_fps": 15,
+        "t0": 47,
+        "t0_source_frame": 47,
+        "t0_seconds": 9.399999618530273,
+        "observed_source_indices": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "history_source_indices": [
+          45,
+          46,
+          47
+        ],
+        "history_timestamps": [
+          9.0,
+          9.199999809265137,
+          9.399999618530273
+        ],
+        "future_source_indices": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "future_timestamps": [
+          9.600000381469727,
+          9.800000190734863,
+          10.0,
+          10.199999809265137,
+          10.399999618530273,
+          10.600000381469727,
+          10.800000190734863,
+          11.0,
+          11.199999809265137,
+          11.399999618530273
+        ],
+        "prediction_evaluation_indices": [
+          2,
+          5,
+          8,
+          11,
+          14,
+          17,
+          20,
+          23,
+          26,
+          29
+        ],
+        "source_video": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/videos/chunk-000/observation.images.image/episode_000009.mp4",
+        "source_parquet": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/data/chunk-000/episode_000009.parquet",
+        "source_sha256": {
+          "video": "834f1bf891b90bd1eaaf226f8573c4a404ca5cc3785fc39a3482c2ae3a86a7ca",
+          "parquet": "a80d9d9bb29e1128d56bc9e0d9dc4df2deff25d8b345c534c5b9367da1737c38"
+        },
+        "selection_reason": "White bottle body exposed through lift; ep2/5/6 have substantially stronger gripper occlusion of body.",
+        "selection_policy": "Data quality only; episode/t0 screening precedes predictions. Future screening used only to select episode/t0, never to form model inputs.",
+        "future_used_for_model_input": false,
+        "warnings": [
+          "H3 uses real adjacent 5 FPS frames [-0.4,-0.2,0] seconds; temporal distribution shift from training at 15 FPS.",
+          "Future tracking is a tracker-based reference, not manually measured physical point ground truth."
+        ],
+        "created_utc": "2026-10-02T22:16:49.865104+00:00",
+        "depth_source": "RealSense measured aligned metric depth (TFDS float32)",
+        "K_source": "UniDepthV2 estimated intrinsics, observed robust median"
+      },
+      "metrics": {
+        "source_episode_id": 9,
+        "task": "Put the ranch bottle into the pot.",
+        "t0": 47,
+        "t0_timestamp_s": 9.399999618530273,
+        "depth_source": "RealSense measured aligned metric depth (TFDS float32)",
+        "K_source": "UniDepthV2 estimated intrinsics, observed robust median",
+        "K_median": [
+          [
+            485.14093017578125,
+            0.0,
+            324.3863525390625
+          ],
+          [
+            0.0,
+            481.4538879394531,
+            245.7472381591797
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "number_of_valid_points": 24,
+        "intrinsics_stability": {
+          "components": [
+            "fx",
+            "fy",
+            "cx",
+            "cy"
+          ],
+          "source_indices": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "values_px": [
+            [
+              479.4591369628906,
+              475.7860412597656,
+              324.3863525390625,
+              245.7472381591797
+            ],
+            [
+              484.4598693847656,
+              480.631103515625,
+              324.3863525390625,
+              245.7472381591797
+            ],
+            [
+              483.69171142578125,
+              479.9275817871094,
+              324.3863525390625,
+              245.7472381591797
+            ],
+            [
+              485.82196044921875,
+              482.27667236328125,
+              324.3863525390625,
+              245.7472381591797
+            ],
+            [
+              502.59149169921875,
+              498.7412109375,
+              324.5448913574219,
+              245.5074920654297
+            ],
+            [
+              512.1602783203125,
+              510.03900146484375,
+              324.3863525390625,
+              245.7472381591797
+            ],
+            [
+              461.76727294921875,
+              464.9914245605469,
+              324.5448913574219,
+              245.7472381591797
+            ],
+            [
+              509.7900390625,
+              507.2759704589844,
+              324.3863525390625,
+              245.7472381591797
+            ]
+          ],
+          "median_px": [
+            485.14093017578125,
+            481.4538879394531,
+            324.3863525390625,
+            245.7472381591797
+          ],
+          "range_relative_to_median": [
+            0.10387291759252548,
+            0.09356571733951569,
+            0.0004887345712631941,
+            0.0009755800128914416
+          ],
+          "focal_relative_range_max": 0.10387291759252548,
+          "focal_stable_within_15_percent": true,
+          "future_used": false,
+          "K_px": [
+            [
+              485.14093017578125,
+              0.0,
+              324.3863525390625
+            ],
+            [
+              0.0,
+              481.4538879394531,
+              245.7472381591797
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "camera_motion_audit": {
+          "method": "observed-only background Shi-Tomasi + pyramidal LK; forward/backward <1px; object mask excluded",
+          "pairs": [
+            {
+              "pair": [
+                0,
+                1
+              ],
+              "count": 224,
+              "median_displacement_px": 0.0002560715947765857,
+              "p90_displacement_px": 0.0016219454118981957,
+              "median_flow_xy_px": [
+                0.0,
+                0.0
+              ],
+              "fraction_below_1px": 1.0
+            },
+            {
+              "pair": [
+                1,
+                2
+              ],
+              "count": 224,
+              "median_displacement_px": 0.044923000037670135,
+              "p90_displacement_px": 0.10421018302440643,
+              "median_flow_xy_px": [
+                -0.00516510009765625,
+                -0.0025463104248046875
+              ],
+              "fraction_below_1px": 1.0
+            },
+            {
+              "pair": [
+                2,
+                3
+              ],
+              "count": 223,
+              "median_displacement_px": 0.0009085068013519049,
+              "p90_displacement_px": 0.2136620283126831,
+              "median_flow_xy_px": [
+                -9.1552734375e-05,
+                -4.76837158203125e-05
+              ],
+              "fraction_below_1px": 1.0
+            },
+            {
+              "pair": [
+                3,
+                4
+              ],
+              "count": 180,
+              "median_displacement_px": 1.0351163148880005,
+              "p90_displacement_px": 10.354034423828125,
+              "median_flow_xy_px": [
+                -0.0009603500366210938,
+                0.05438995361328125
+              ],
+              "fraction_below_1px": 0.5
+            },
+            {
+              "pair": [
+                4,
+                5
+              ],
+              "count": 198,
+              "median_displacement_px": 0.14131677150726318,
+              "p90_displacement_px": 9.051977157592773,
+              "median_flow_xy_px": [
+                -8.58306884765625e-06,
+                0.051738739013671875
+              ],
+              "fraction_below_1px": 0.5353535353535354
+            },
+            {
+              "pair": [
+                5,
+                6
+              ],
+              "count": 232,
+              "median_displacement_px": 0.1328086256980896,
+              "p90_displacement_px": 10.90580940246582,
+              "median_flow_xy_px": [
+                -0.03218269348144531,
+                0.036651611328125
+              ],
+              "fraction_below_1px": 0.6163793103448276
+            },
+            {
+              "pair": [
+                6,
+                7
+              ],
+              "count": 201,
+              "median_displacement_px": 0.01780458353459835,
+              "p90_displacement_px": 15.388906478881836,
+              "median_flow_xy_px": [
+                -0.000823974609375,
+                0.0005340576171875
+              ],
+              "fraction_below_1px": 0.6467661691542289
+            }
+          ],
+          "max_pair_median_displacement_px": 1.0351163148880005,
+          "fixed_camera_supported": true,
+          "median_threshold_px": 1.5,
+          "minimum_pair_count": 30,
+          "camera_pose": "identity",
+          "future_used": false,
+          "limitations": "Robot-arm features may remain among background candidates; robust median, not upper tail, determines gate."
+        },
+        "preprocessing": {
+          "grounding": {
+            "object_phrase": "ranch bottle",
+            "prompt": "point to ranch bottle gripped and picked up by the robot gripper",
+            "source_frame": 47,
+            "future_used": false,
+            "object_phrase_source": "explicit user target (no recaption needed)",
+            "pointing_method": "actual official MolmoPoint-Vid-4B inference on observed t0",
+            "pointing_metadata": "runs/berkeley_ur5_molmomotion/bottle/observed/molmopoint_grounding.json",
+            "pointing_metadata_sha256": "4cae5f974990f922de5c15e36f54334be4761713d51b368549a9304a1e67a884",
+            "segmentation_version_reason": "SAM3 weights access returned403 GatedRepo; user explicitly selected official Meta SAM2.1 earlier release",
+            "point_xy": [
+              164.52174377441406,
+              332.0869445800781
+            ],
+            "negative_points_xy": [],
+            "kmeans_source": "data_generation/third_party/sam3/querypoints_from_video.py",
+            "kmeans_source_sha256": "72f13f3b7a2f3d38201b0ea8f27f5d841acc13d7bb02313c3aa2a3a1c5fc1df7",
+            "segmentation": "official Meta SAM2.1 Hiera-Large",
+            "sam_repository": "https://github.com/facebookresearch/sam2",
+            "sam_code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+            "sam_config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+            "checkpoint": "../models/sam2.1_hiera_large.pt",
+            "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+            "mask_scores": [
+              0.9453125,
+              0.053466796875,
+              0.6171875
+            ],
+            "chosen_mask": 0,
+            "mask_area_px": 2942,
+            "query_count": 100,
+            "centers_inside_mask": 99,
+            "runtime_seconds": 8.83241991199975,
+            "input_rgb_sha256": "13cba929accf34502449766e366d92aaf175ccd116a41f77e1b3425ec8773c59"
+          },
+          "filtering": {
+            "author_source": "data_generation/third_party/vipe/track-filter-smooth.py",
+            "author_source_sha256": "ceb21903da85de835b9314b61356c69d5033afcda68d73764a82cd135e9272fd",
+            "author_functions": [
+              "compute_trust_weights",
+              "filter_tracks_by_trust",
+              "consensus_gated_smooth"
+            ],
+            "anchor_count": 16,
+            "anchor_ids": [
+              88,
+              20,
+              75,
+              3,
+              90,
+              26,
+              9,
+              69,
+              48,
+              11,
+              95,
+              13,
+              83,
+              36,
+              78,
+              93
+            ],
+            "depth_patch_window_px": 5,
+            "valid_depth_interval_m": [
+              0,
+              10
+            ],
+            "depth_interval_endpoints": "exclusive",
+            "lift_wrapper": "finite-positive depth patch median; subpixel ray backprojection with fixed median K",
+            "spatial_auto_split": "not needed: one grounded object",
+            "trust_z_threshold": 2.0,
+            "smooth_parameters": {
+              "alpha": 1000.0,
+              "lambda_reg": 0.0001,
+              "p": 2,
+              "deltas": [
+                1,
+                3,
+                5
+              ],
+              "steps": 100,
+              "lr": 0.05
+            },
+            "history_indices": [
+              45,
+              46,
+              47
+            ],
+            "observed_indices": [
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47
+            ],
+            "future_used": false,
+            "candidate_count": 100,
+            "official_kept_count": 96,
+            "eligible_h3_count": 86,
+            "selected_count": 24,
+            "group_count": 3,
+            "selected_point_ids": [
+              90,
+              9,
+              44,
+              58,
+              22,
+              21,
+              85,
+              66,
+              82,
+              25,
+              41,
+              69,
+              10,
+              23,
+              48,
+              30,
+              42,
+              73,
+              76,
+              38,
+              72,
+              19,
+              81,
+              99
+            ],
+            "selection": "spatial farthest point selection among official-kept H3-visible mask-contained points",
+            "runtime_seconds": 0.28086104200065165,
+            "max_smoothing_displacement_m": 0.013124724850058556,
+            "temporal_limitation": "Berkeley real H3 at 5 Hz (-0.4,-0.2,0s), versus MolmoMotion training 15 Hz; no frame interpolation/duplication"
+          },
+          "geometry": {
+            "depth_source": "RealSense measured aligned metric depth",
+            "geometry_source": "measured-depth_estimated-intrinsics",
+            "K_source": "UniDepthV2 robust elementwise median of observed-frame intrinsics",
+            "checkpoint": "/mnt/f/AIRI_task/models/unidepth-v2-vits14",
+            "source_indices": [
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47
+            ],
+            "future_used": false,
+            "depth_patch_window_px": 5,
+            "runtime_seconds": 3.0855994270000338,
+            "peak_gpu_memory_gib": 0.39598608016967773,
+            "native_depth_used": true,
+            "no_metric_scale_fit": true,
+            "checkpoint_sha256": "93705cb3295dd7476b44911b8a55f5215bf74e8d5eccd27cecdb1b338270a648",
+            "checkpoint_revision": "038c238f06c87b6c2f5b3749fd51fbf442b1f218"
+          },
+          "tracking_sampling_deviation": "bilinear dense flow at exact query instead of author CLI nearest-pixel query rounding"
+        },
+        "number_of_successful_model_chunks": 3,
+        "point_ids": [
+          90,
+          9,
+          44,
+          58,
+          22,
+          21,
+          85,
+          66,
+          82,
+          25,
+          41,
+          69,
+          10,
+          23,
+          48,
+          30,
+          42,
+          73,
+          76,
+          38,
+          72,
+          19,
+          81,
+          99
+        ],
+        "prediction_shape": [
+          24,
+          30,
+          3
+        ],
+        "evaluation_prediction_indices_zero_based": [
+          2,
+          5,
+          8,
+          11,
+          14,
+          17,
+          20,
+          23,
+          26,
+          29
+        ],
+        "evaluation_times_from_t0_s": [
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0,
+          1.2,
+          1.4,
+          1.6,
+          1.8,
+          2.0
+        ],
+        "gt_interpolated": false,
+        "timestamp_audit": {
+          "history_source_indices": [
+            45,
+            46,
+            47
+          ],
+          "future_source_indices": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "history_timestamps_s": [
+            9.0,
+            9.199999809265137,
+            9.399999618530273
+          ],
+          "future_timestamps_s": [
+            9.600000381469727,
+            9.800000190734863,
+            10.0,
+            10.199999809265137,
+            10.399999618530273,
+            10.600000381469727,
+            10.800000190734863,
+            11.0,
+            11.199999809265137,
+            11.399999618530273
+          ],
+          "history_exact_relative_times_s": [
+            -0.39999961853027344,
+            -0.19999980926513672,
+            0.0
+          ],
+          "future_exact_relative_times_s": [
+            0.20000076293945312,
+            0.40000057220458984,
+            0.6000003814697266,
+            0.8000001907348633,
+            1.0,
+            1.2000007629394531,
+            1.4000005722045898,
+            1.6000003814697266,
+            1.8000001907348633,
+            2.0
+          ],
+          "timestamp_alignment_tolerance_s": 2e-06,
+          "max_nominal_alignment_error_s": 7.629394531694089e-07
+        },
+        "methods": {
+          "MolmoMotion": {
+            "ADE_2D_px": 223.40915949404922,
+            "FDE_2D_px": 194.01492191402266,
+            "error_by_horizon": [
+              76.79564688523122,
+              162.83456161292656,
+              226.27176075554726,
+              266.71012424050883,
+              284.0214680883562,
+              287.5368343614214,
+              278.9015105178201,
+              245.75552725783496,
+              211.24923930682303,
+              194.01492191402266
+            ],
+            "valid_pairs": 240,
+            "valid_point_coverage": 1.0,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "static": {
+            "ADE_2D_px": 60.809252102754996,
+            "FDE_2D_px": 102.1990744712261,
+            "error_by_horizon": [
+              11.881782470569123,
+              23.309638129963872,
+              35.26532746044751,
+              47.17797280181757,
+              58.42390389408984,
+              68.76925428366626,
+              78.78806322442829,
+              86.71508435351103,
+              95.56241993783037,
+              102.1990744712261
+            ],
+            "valid_pairs": 240,
+            "valid_point_coverage": 1.0,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "constant_velocity": {
+            "ADE_2D_px": 11.045308368701411,
+            "FDE_2D_px": 11.934216433676589,
+            "error_by_horizon": [
+              3.5224340148097757,
+              6.398761168450935,
+              9.417466198813367,
+              11.917065536265648,
+              13.572720964900691,
+              14.156690672003775,
+              14.35025580967126,
+              12.730461843341443,
+              12.45301104508063,
+              11.934216433676589
+            ],
+            "valid_pairs": 240,
+            "valid_point_coverage": 1.0,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          }
+        },
+        "ADE_2D_px": 223.40915949404922,
+        "FDE_2D_px": 194.01492191402266,
+        "static_baseline": {
+          "ADE_2D_px": 60.809252102754996,
+          "FDE_2D_px": 102.1990744712261,
+          "error_by_horizon": [
+            11.881782470569123,
+            23.309638129963872,
+            35.26532746044751,
+            47.17797280181757,
+            58.42390389408984,
+            68.76925428366626,
+            78.78806322442829,
+            86.71508435351103,
+            95.56241993783037,
+            102.1990744712261
+          ],
+          "valid_pairs": 240,
+          "valid_point_coverage": 1.0,
+          "valid_points_by_horizon": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ],
+          "FDE_valid_points": 24
+        },
+        "constant_velocity_baseline": {
+          "ADE_2D_px": 11.045308368701411,
+          "FDE_2D_px": 11.934216433676589,
+          "error_by_horizon": [
+            3.5224340148097757,
+            6.398761168450935,
+            9.417466198813367,
+            11.917065536265648,
+            13.572720964900691,
+            14.156690672003775,
+            14.35025580967126,
+            12.730461843341443,
+            12.45301104508063,
+            11.934216433676589
+          ],
+          "valid_pairs": 240,
+          "valid_point_coverage": 1.0,
+          "valid_points_by_horizon": [
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24,
+            24
+          ],
+          "FDE_valid_points": 24
+        },
+        "baseline_definition": "static and ordinary-least-squares constant velocity in camera XYZ using exact observed timestamps, projected through same K",
+        "valid_point_coverage": 1.0,
+        "valid_pairs": 240,
+        "points_with_any_valid_future": 24,
+        "valid_points_by_horizon": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "prediction_outside_image_by_horizon": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "prediction_nonpositive_Z_count": 0,
+        "timing": {
+          "model": 468.0064775030005,
+          "model_scene_elapsed_seconds": 468.58170116399924,
+          "model_load_seconds": 67.78164331400058,
+          "tracker": 2.1713622019997274,
+          "evaluation_and_visualization_seconds": 7.203911861000051
+        },
+        "GPU_memory": {
+          "model_peak_gib": 9.654361724853516,
+          "tracker_peak_gib": 1.8876094818115234
+        },
+        "model_receipt": {
+          "model_id": "allenai/MolmoMotion-4B-H3-F30",
+          "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+          "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+          "model_bytes": 17847894425,
+          "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+          "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+          "torch_version": "2.9.1+cu128",
+          "dtype": "bfloat16",
+          "seed": 0,
+          "decoding": "official default greedy",
+          "max_new_tokens": 4800,
+          "model_load_seconds": 67.78164331400058,
+          "action": "Put the ranch bottle into the pot.",
+          "success": true,
+          "successful_chunks": 3,
+          "attempted_chunks": 3,
+          "groups": [
+            {
+              "group": "group_00",
+              "success": true,
+              "generation_started": true,
+              "created_utc": "2026-10-02T23:13:45.332736+00:00",
+              "model_id": "allenai/MolmoMotion-4B-H3-F30",
+              "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+              "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+              "model_bytes": 17847894425,
+              "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+              "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+              "torch_version": "2.9.1+cu128",
+              "dtype": "bfloat16",
+              "seed": 0,
+              "decoding": "official default greedy",
+              "max_new_tokens": 4800,
+              "model_load_seconds": 67.78164331400058,
+              "prediction_seconds": 155.5605075829999,
+              "parse_status": "FULL_8x30x3",
+              "parsed_point_times": 240,
+              "prediction_shape": [
+                8,
+                30,
+                3
+              ],
+              "raw_output_sha256": "e581a31ef6df95aad7e8f82cfcf42c7c34d2cbe0bbe5da43d6a108e3a7ca1d5f",
+              "prediction_sha256": "f4c359cf6099f93ddf0d96c1551dbba4750f556f24c1116f2c2031bc562c8c71",
+              "peak_cuda_allocated_gib": 9.654361724853516,
+              "peak_cuda_reserved_gib": 10.5859375,
+              "peak_ram_gib": 22.193706512451172,
+              "finished_utc": "2026-10-02T23:16:20.925932+00:00"
+            },
+            {
+              "group": "group_01",
+              "success": true,
+              "generation_started": true,
+              "created_utc": "2026-10-02T23:16:20.973629+00:00",
+              "model_id": "allenai/MolmoMotion-4B-H3-F30",
+              "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+              "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+              "model_bytes": 17847894425,
+              "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+              "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+              "torch_version": "2.9.1+cu128",
+              "dtype": "bfloat16",
+              "seed": 0,
+              "decoding": "official default greedy",
+              "max_new_tokens": 4800,
+              "model_load_seconds": 67.78164331400058,
+              "prediction_seconds": 152.40433846300039,
+              "parse_status": "FULL_8x30x3",
+              "parsed_point_times": 240,
+              "prediction_shape": [
+                8,
+                30,
+                3
+              ],
+              "raw_output_sha256": "9b79f6581ef1240fccd371bb6e60cb9a8824b1b956aafb16b648872b158f4813",
+              "prediction_sha256": "2a8ceb660d97296cffc0b3fcde3869287b26affb4ddfc7dc8b4d7d440eb1eff6",
+              "peak_cuda_allocated_gib": 9.647535800933838,
+              "peak_cuda_reserved_gib": 10.5859375,
+              "peak_ram_gib": 22.193706512451172,
+              "finished_utc": "2026-10-02T23:18:53.409193+00:00"
+            },
+            {
+              "group": "group_02",
+              "success": true,
+              "generation_started": true,
+              "created_utc": "2026-10-02T23:18:53.453033+00:00",
+              "model_id": "allenai/MolmoMotion-4B-H3-F30",
+              "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+              "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+              "model_bytes": 17847894425,
+              "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+              "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+              "torch_version": "2.9.1+cu128",
+              "dtype": "bfloat16",
+              "seed": 0,
+              "decoding": "official default greedy",
+              "max_new_tokens": 4800,
+              "model_load_seconds": 67.78164331400058,
+              "prediction_seconds": 160.04163145700022,
+              "parse_status": "FULL_8x30x3",
+              "parsed_point_times": 240,
+              "prediction_shape": [
+                8,
+                30,
+                3
+              ],
+              "raw_output_sha256": "3f3c3f3a09ec83f003d9f159415ecadd36da49bd77b3ef9dbc5577c18909fcd7",
+              "prediction_sha256": "62f2f1571dcdb63eef522957c8ae332ac0857f75d5589e9af7d3e9845d078d1a",
+              "peak_cuda_allocated_gib": 9.648787498474121,
+              "peak_cuda_reserved_gib": 10.5859375,
+              "peak_ram_gib": 22.193706512451172,
+              "finished_utc": "2026-10-02T23:21:33.524061+00:00"
+            }
+          ],
+          "future_horizon": 30,
+          "prediction_shape": [
+            24,
+            30,
+            3
+          ],
+          "prediction_seconds": 468.0064775030005,
+          "elapsed_seconds": 468.58170116399924,
+          "peak_cuda_allocated_gib": 9.654361724853516,
+          "peak_cuda_reserved_gib": 10.5859375,
+          "completed_utc": "2026-10-02T23:21:33.898884+00:00"
+        },
+        "warnings_limitations": [
+          "H3 uses real adjacent 5 FPS frames [-0.4,-0.2,0] seconds; temporal distribution shift from training at 15 FPS.",
+          "Future tracking is a tracker-based reference, not manually measured physical point ground truth.",
+          "Berkeley history uses real 5 FPS frames; MolmoMotion training/inference forecast is 15 FPS.",
+          "GT is independently inferred AllTracker correspondence, not human-labeled or instrumented motion ground truth.",
+          "Common visibility mask uses tracker channel 0 > 0.5, finite in-image GT; errors retain out-of-image predictions.",
+          "Camera intrinsics are estimated from observed RGB, not published calibration.",
+          "GT tracks may drift during gripper/object/container occlusion; coverage and video require joint interpretation."
+        ],
+        "3D_est": {
+          "MolmoMotion": {
+            "ADE_3D_est_m": 0.2545896282752398,
+            "FDE_3D_est_m": 0.23814584400798555,
+            "error_by_horizon": [
+              0.08323376485372241,
+              0.17816592930622874,
+              0.24956684465687337,
+              0.2982468387067199,
+              0.3215267462887772,
+              0.32716868189922355,
+              0.32109872859294253,
+              0.28828961242125467,
+              0.2538808560191153,
+              0.23814584400798555
+            ],
+            "valid_pairs": 235,
+            "valid_point_coverage": 0.9791666666666666,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              23,
+              23,
+              22,
+              23,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "static": {
+            "ADE_3D_est_m": 0.06767846701241849,
+            "FDE_3D_est_m": 0.11384336827660285,
+            "error_by_horizon": [
+              0.014309283845768414,
+              0.027421715880723268,
+              0.04100932342035933,
+              0.05323267162465672,
+              0.06453627060963403,
+              0.08026282488556015,
+              0.08499828170379503,
+              0.09369497239184943,
+              0.1045134799288654,
+              0.11384336827660285
+            ],
+            "valid_pairs": 235,
+            "valid_point_coverage": 0.9791666666666666,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              23,
+              23,
+              22,
+              23,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "constant_velocity": {
+            "ADE_3D_est_m": 0.04220149761287638,
+            "FDE_3D_est_m": 0.09743750134334629,
+            "error_by_horizon": [
+              0.00630572251094462,
+              0.010167072422962331,
+              0.015033485522595888,
+              0.02092523086304772,
+              0.028457023185536827,
+              0.047193342931154514,
+              0.049509030972153985,
+              0.06505507780110818,
+              0.08119275869335786,
+              0.09743750134334629
+            ],
+            "valid_pairs": 235,
+            "valid_point_coverage": 0.9791666666666666,
+            "valid_points_by_horizon": [
+              24,
+              24,
+              24,
+              23,
+              23,
+              22,
+              23,
+              24,
+              24,
+              24
+            ],
+            "FDE_valid_points": 24
+          },
+          "depth_patch_window": "5x5 median of finite native metric depth with 0<Z<10 m; >=max(3,ceil(patch_area/2)) valid samples (13/25 for full patch)"
+        },
+        "ADE_3D_est_m": 0.2545896282752398,
+        "FDE_3D_est_m": 0.23814584400798555
+      },
+      "model": {
+        "model_id": "allenai/MolmoMotion-4B-H3-F30",
+        "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+        "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+        "model_bytes": 17847894425,
+        "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+        "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+        "torch_version": "2.9.1+cu128",
+        "dtype": "bfloat16",
+        "seed": 0,
+        "decoding": "official default greedy",
+        "max_new_tokens": 4800,
+        "model_load_seconds": 67.78164331400058,
+        "action": "Put the ranch bottle into the pot.",
+        "success": true,
+        "successful_chunks": 3,
+        "attempted_chunks": 3,
+        "groups": [
+          {
+            "group": "group_00",
+            "success": true,
+            "generation_started": true,
+            "created_utc": "2026-10-02T23:13:45.332736+00:00",
+            "model_id": "allenai/MolmoMotion-4B-H3-F30",
+            "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+            "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+            "model_bytes": 17847894425,
+            "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+            "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+            "torch_version": "2.9.1+cu128",
+            "dtype": "bfloat16",
+            "seed": 0,
+            "decoding": "official default greedy",
+            "max_new_tokens": 4800,
+            "model_load_seconds": 67.78164331400058,
+            "prediction_seconds": 155.5605075829999,
+            "parse_status": "FULL_8x30x3",
+            "parsed_point_times": 240,
+            "prediction_shape": [
+              8,
+              30,
+              3
+            ],
+            "raw_output_sha256": "e581a31ef6df95aad7e8f82cfcf42c7c34d2cbe0bbe5da43d6a108e3a7ca1d5f",
+            "prediction_sha256": "f4c359cf6099f93ddf0d96c1551dbba4750f556f24c1116f2c2031bc562c8c71",
+            "peak_cuda_allocated_gib": 9.654361724853516,
+            "peak_cuda_reserved_gib": 10.5859375,
+            "peak_ram_gib": 22.193706512451172,
+            "finished_utc": "2026-10-02T23:16:20.925932+00:00"
+          },
+          {
+            "group": "group_01",
+            "success": true,
+            "generation_started": true,
+            "created_utc": "2026-10-02T23:16:20.973629+00:00",
+            "model_id": "allenai/MolmoMotion-4B-H3-F30",
+            "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+            "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+            "model_bytes": 17847894425,
+            "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+            "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+            "torch_version": "2.9.1+cu128",
+            "dtype": "bfloat16",
+            "seed": 0,
+            "decoding": "official default greedy",
+            "max_new_tokens": 4800,
+            "model_load_seconds": 67.78164331400058,
+            "prediction_seconds": 152.40433846300039,
+            "parse_status": "FULL_8x30x3",
+            "parsed_point_times": 240,
+            "prediction_shape": [
+              8,
+              30,
+              3
+            ],
+            "raw_output_sha256": "9b79f6581ef1240fccd371bb6e60cb9a8824b1b956aafb16b648872b158f4813",
+            "prediction_sha256": "2a8ceb660d97296cffc0b3fcde3869287b26affb4ddfc7dc8b4d7d440eb1eff6",
+            "peak_cuda_allocated_gib": 9.647535800933838,
+            "peak_cuda_reserved_gib": 10.5859375,
+            "peak_ram_gib": 22.193706512451172,
+            "finished_utc": "2026-10-02T23:18:53.409193+00:00"
+          },
+          {
+            "group": "group_02",
+            "success": true,
+            "generation_started": true,
+            "created_utc": "2026-10-02T23:18:53.453033+00:00",
+            "model_id": "allenai/MolmoMotion-4B-H3-F30",
+            "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+            "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+            "model_bytes": 17847894425,
+            "git_commit": "9810ce220ec1de9ca9f1ef7fce433043ed346a52",
+            "inference_script_sha256": "2dab4a188c61d510569babd97269a0294334552ebfcb6af477ab13502fe11e6f",
+            "torch_version": "2.9.1+cu128",
+            "dtype": "bfloat16",
+            "seed": 0,
+            "decoding": "official default greedy",
+            "max_new_tokens": 4800,
+            "model_load_seconds": 67.78164331400058,
+            "prediction_seconds": 160.04163145700022,
+            "parse_status": "FULL_8x30x3",
+            "parsed_point_times": 240,
+            "prediction_shape": [
+              8,
+              30,
+              3
+            ],
+            "raw_output_sha256": "3f3c3f3a09ec83f003d9f159415ecadd36da49bd77b3ef9dbc5577c18909fcd7",
+            "prediction_sha256": "62f2f1571dcdb63eef522957c8ae332ac0857f75d5589e9af7d3e9845d078d1a",
+            "peak_cuda_allocated_gib": 9.648787498474121,
+            "peak_cuda_reserved_gib": 10.5859375,
+            "peak_ram_gib": 22.193706512451172,
+            "finished_utc": "2026-10-02T23:21:33.524061+00:00"
+          }
+        ],
+        "future_horizon": 30,
+        "prediction_shape": [
+          24,
+          30,
+          3
+        ],
+        "prediction_seconds": 468.0064775030005,
+        "elapsed_seconds": 468.58170116399924,
+        "peak_cuda_allocated_gib": 9.654361724853516,
+        "peak_cuda_reserved_gib": 10.5859375,
+        "completed_utc": "2026-10-02T23:21:33.898884+00:00"
+      },
+      "grounding": {
+        "object_phrase": "ranch bottle",
+        "prompt": "point to ranch bottle gripped and picked up by the robot gripper",
+        "source_frame": 47,
+        "future_used": false,
+        "object_phrase_source": "explicit user target (no recaption needed)",
+        "pointing_method": "actual official MolmoPoint-Vid-4B inference on observed t0",
+        "pointing_metadata": "runs/berkeley_ur5_molmomotion/bottle/observed/molmopoint_grounding.json",
+        "pointing_metadata_sha256": "4cae5f974990f922de5c15e36f54334be4761713d51b368549a9304a1e67a884",
+        "segmentation_version_reason": "SAM3 weights access returned403 GatedRepo; user explicitly selected official Meta SAM2.1 earlier release",
+        "point_xy": [
+          164.52174377441406,
+          332.0869445800781
+        ],
+        "negative_points_xy": [],
+        "kmeans_source": "data_generation/third_party/sam3/querypoints_from_video.py",
+        "kmeans_source_sha256": "72f13f3b7a2f3d38201b0ea8f27f5d841acc13d7bb02313c3aa2a3a1c5fc1df7",
+        "segmentation": "official Meta SAM2.1 Hiera-Large",
+        "sam_repository": "https://github.com/facebookresearch/sam2",
+        "sam_code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+        "sam_config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+        "checkpoint": "../models/sam2.1_hiera_large.pt",
+        "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+        "mask_scores": [
+          0.9453125,
+          0.053466796875,
+          0.6171875
+        ],
+        "chosen_mask": 0,
+        "mask_area_px": 2942,
+        "query_count": 100,
+        "centers_inside_mask": 99,
+        "runtime_seconds": 8.83241991199975,
+        "input_rgb_sha256": "13cba929accf34502449766e366d92aaf175ccd116a41f77e1b3425ec8773c59"
+      },
+      "pointing": {
+        "scene": "bottle",
+        "source_frame": 47,
+        "t0_source_frame_index": 47,
+        "source_camera": "observation.images.image",
+        "object_phrase": "ranch bottle",
+        "prompt": "point to ranch bottle gripped and picked up by the robot gripper",
+        "future_used": false,
+        "input_modality": "image",
+        "input_real_frame_count": 1,
+        "input_source_indices": [
+          47
+        ],
+        "frame_0_maps_to_source_frame": 47,
+        "model_input_rgb_sha256": "0cfc98a5f1ad66dc148946f2037efb53c34e9e8457e87911d9e51ff3cb9cb91e",
+        "observed_rgb_sha256": "13cba929accf34502449766e366d92aaf175ccd116a41f77e1b3425ec8773c59",
+        "input_shapes": {
+          "input_ids": [
+            1,
+            789
+          ],
+          "attention_mask": [
+            1,
+            789
+          ],
+          "token_type_ids": [
+            1,
+            789
+          ],
+          "pixel_values": [
+            5,
+            729,
+            588
+          ],
+          "image_token_pooling": [
+            725,
+            4
+          ],
+          "image_grids": [
+            1,
+            4
+          ],
+          "image_num_crops": [
+            1
+          ]
+        },
+        "pointing_metadata_shapes": {
+          "token_pooling": [
+            725,
+            4
+          ],
+          "subpatch_mapping": "list",
+          "image_sizes": "list"
+        },
+        "created_utc": "2026-10-02T22:59:30.628736+00:00",
+        "model_id": "allenai/MolmoPoint-Vid-4B",
+        "checkpoint": "/mnt/f/AIRI_task/models/MolmoPoint-Vid-4B",
+        "checkpoint_revision": "b331ed6c6352e6db967325493c6dae515541a919",
+        "checkpoint_code_sha256": {
+          "config.json": "6b652388cab9fa629cb6271838bcc8b6680c4efd6b561aa75497aba8153ed33a",
+          "processor_config.json": "06416426dfbcd8c92165e3c705d04eeef1bc5ae13d246043cf850cccecf77d41",
+          "modeling_molmo_point.py": "9320e8025d761629262d37d48f0422f967b0d3bfae733d9318ba0f4c68ce135b",
+          "processing_molmo2.py": "73fee7d5cc24e64fdecff90b07e2fea1985113394ffaaf9b87f42e40f3fb4aeb",
+          "image_processing_molmo2.py": "22fcc160210a3a648b6d618171686c40b900f512107f532c266af7792ac00511",
+          "chat_template.jinja": "ec66862fda57dc1aef90a21b2a0f64c18a280e2483206449bd251a73b8993101"
+        },
+        "checkpoint_shards": {
+          "model-00001-of-00004.safetensors": 4891799000,
+          "model-00002-of-00004.safetensors": 4844690992,
+          "model-00003-of-00004.safetensors": 4844691024,
+          "model-00004-of-00004.safetensors": 4867859988
+        },
+        "author_loader": "data_generation/third_party/sam3/molmo2_pointing.py",
+        "author_loader_sha256": "c184c89e54372aceb19472c2a27090dc8589a63ff8fe8eb50642f9f84b6bef50",
+        "success": true,
+        "point_xy": [
+          164.52174377441406,
+          332.0869445800781
+        ],
+        "candidate_points": [
+          [
+            1.0,
+            0.0,
+            164.52173913043478,
+            332.0869565217391
+          ]
+        ],
+        "chosen_candidate_index": 0,
+        "selection_rule": "first valid native decoded point at t0 in deterministic generated order",
+        "pointing_method": "actual official MolmoPoint-Vid-4B constrained greedy generation",
+        "coordinate_decoder": "model.extract_image_points",
+        "raw_output": "<points coords=\"<POINT_546><POINT_729><POINT_738>1<POINT_725>\">ranch bottle gripped and picked up by the robot gripper</point><|im_end|>",
+        "runtime_seconds": 1.6777583709999817,
+        "model_load_seconds": 60.15802384399922,
+        "peak_gpu_memory_gib": 9.239429473876953,
+        "transformers_version": "4.57.6",
+        "torch_version": "2.9.1+cu128",
+        "dtype": "bfloat16",
+        "seed": 0,
+        "max_new_tokens": 512,
+        "logits_processor": "model.build_logit_processor_from_inputs(inputs)",
+        "no_manual_point_or_segmentation_selection": true,
+        "finished_utc": "2026-10-02T22:59:32.326107+00:00"
+      },
+      "filtering": {
+        "author_source": "data_generation/third_party/vipe/track-filter-smooth.py",
+        "author_source_sha256": "ceb21903da85de835b9314b61356c69d5033afcda68d73764a82cd135e9272fd",
+        "author_functions": [
+          "compute_trust_weights",
+          "filter_tracks_by_trust",
+          "consensus_gated_smooth"
+        ],
+        "anchor_count": 16,
+        "anchor_ids": [
+          88,
+          20,
+          75,
+          3,
+          90,
+          26,
+          9,
+          69,
+          48,
+          11,
+          95,
+          13,
+          83,
+          36,
+          78,
+          93
+        ],
+        "depth_patch_window_px": 5,
+        "valid_depth_interval_m": [
+          0,
+          10
+        ],
+        "depth_interval_endpoints": "exclusive",
+        "lift_wrapper": "finite-positive depth patch median; subpixel ray backprojection with fixed median K",
+        "spatial_auto_split": "not needed: one grounded object",
+        "trust_z_threshold": 2.0,
+        "smooth_parameters": {
+          "alpha": 1000.0,
+          "lambda_reg": 0.0001,
+          "p": 2,
+          "deltas": [
+            1,
+            3,
+            5
+          ],
+          "steps": 100,
+          "lr": 0.05
+        },
+        "history_indices": [
+          45,
+          46,
+          47
+        ],
+        "observed_indices": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "future_used": false,
+        "candidate_count": 100,
+        "official_kept_count": 96,
+        "eligible_h3_count": 86,
+        "selected_count": 24,
+        "group_count": 3,
+        "selected_point_ids": [
+          90,
+          9,
+          44,
+          58,
+          22,
+          21,
+          85,
+          66,
+          82,
+          25,
+          41,
+          69,
+          10,
+          23,
+          48,
+          30,
+          42,
+          73,
+          76,
+          38,
+          72,
+          19,
+          81,
+          99
+        ],
+        "selection": "spatial farthest point selection among official-kept H3-visible mask-contained points",
+        "runtime_seconds": 0.28086104200065165,
+        "max_smoothing_displacement_m": 0.013124724850058556,
+        "temporal_limitation": "Berkeley real H3 at 5 Hz (-0.4,-0.2,0s), versus MolmoMotion training 15 Hz; no frame interpolation/duplication"
+      },
+      "geometry": {
+        "depth_source": "RealSense measured aligned metric depth",
+        "geometry_source": "measured-depth_estimated-intrinsics",
+        "K_source": "UniDepthV2 robust elementwise median of observed-frame intrinsics",
+        "checkpoint": "/mnt/f/AIRI_task/models/unidepth-v2-vits14",
+        "source_indices": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "future_used": false,
+        "depth_patch_window_px": 5,
+        "runtime_seconds": 3.0855994270000338,
+        "peak_gpu_memory_gib": 0.39598608016967773,
+        "native_depth_used": true,
+        "no_metric_scale_fit": true,
+        "checkpoint_sha256": "93705cb3295dd7476b44911b8a55f5215bf74e8d5eccd27cecdb1b338270a648",
+        "checkpoint_revision": "038c238f06c87b6c2f5b3749fd51fbf442b1f218"
+      },
+      "observed_tracking": {
+        "source": "vendored author AllTracker Net(16)",
+        "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+        "iters": 4,
+        "native_size_wh": [
+          640,
+          480
+        ],
+        "network_size_wh": [
+          512,
+          384
+        ],
+        "flow_sampling": "bilinear dense-flow sampling; source-pixel-unit output",
+        "direction": "reverse observed-only prefix",
+        "runtime_seconds": 0.6817594059994008,
+        "peak_gpu_memory_gib": 1.8818893432617188,
+        "future_used": false,
+        "source_indices": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "query_count": 100
+      },
+      "evaluation_tracking": {
+        "success": true,
+        "tracker": "official vendored nets.alltracker.Net(16)",
+        "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+        "direction": "t0 -> ten real future frames",
+        "independent_of_observed_tracking": true,
+        "model_prediction_frozen_first": true,
+        "visibility_rule": "official channel 0 > 0.5; confidence channel 1 saved separately",
+        "sampling": "bilinear dense flow at exact fixed t0 query; no future smoothing",
+        "input_shape": [
+          1,
+          11,
+          3,
+          384,
+          512
+        ],
+        "original_dimensions_hw": [
+          480,
+          640
+        ],
+        "iterations": 4,
+        "runtime_seconds": 2.1713622019997274,
+        "peak_gpu_memory_gib": 1.8876094818115234,
+        "prediction_sha256": "0e608c4da6d5566ea9996863c2b46d17158780e6ef0cf35376a24c4767a0c93d",
+        "track_sha256": "f868e4c7c4455f3e827b1447c37f83d04af846e309d3fb21088842e807902588"
+      },
+      "camera_motion": {
+        "method": "observed-only background Shi-Tomasi + pyramidal LK; forward/backward <1px; object mask excluded",
+        "pairs": [
+          {
+            "pair": [
+              0,
+              1
+            ],
+            "count": 224,
+            "median_displacement_px": 0.0002560715947765857,
+            "p90_displacement_px": 0.0016219454118981957,
+            "median_flow_xy_px": [
+              0.0,
+              0.0
+            ],
+            "fraction_below_1px": 1.0
+          },
+          {
+            "pair": [
+              1,
+              2
+            ],
+            "count": 224,
+            "median_displacement_px": 0.044923000037670135,
+            "p90_displacement_px": 0.10421018302440643,
+            "median_flow_xy_px": [
+              -0.00516510009765625,
+              -0.0025463104248046875
+            ],
+            "fraction_below_1px": 1.0
+          },
+          {
+            "pair": [
+              2,
+              3
+            ],
+            "count": 223,
+            "median_displacement_px": 0.0009085068013519049,
+            "p90_displacement_px": 0.2136620283126831,
+            "median_flow_xy_px": [
+              -9.1552734375e-05,
+              -4.76837158203125e-05
+            ],
+            "fraction_below_1px": 1.0
+          },
+          {
+            "pair": [
+              3,
+              4
+            ],
+            "count": 180,
+            "median_displacement_px": 1.0351163148880005,
+            "p90_displacement_px": 10.354034423828125,
+            "median_flow_xy_px": [
+              -0.0009603500366210938,
+              0.05438995361328125
+            ],
+            "fraction_below_1px": 0.5
+          },
+          {
+            "pair": [
+              4,
+              5
+            ],
+            "count": 198,
+            "median_displacement_px": 0.14131677150726318,
+            "p90_displacement_px": 9.051977157592773,
+            "median_flow_xy_px": [
+              -8.58306884765625e-06,
+              0.051738739013671875
+            ],
+            "fraction_below_1px": 0.5353535353535354
+          },
+          {
+            "pair": [
+              5,
+              6
+            ],
+            "count": 232,
+            "median_displacement_px": 0.1328086256980896,
+            "p90_displacement_px": 10.90580940246582,
+            "median_flow_xy_px": [
+              -0.03218269348144531,
+              0.036651611328125
+            ],
+            "fraction_below_1px": 0.6163793103448276
+          },
+          {
+            "pair": [
+              6,
+              7
+            ],
+            "count": 201,
+            "median_displacement_px": 0.01780458353459835,
+            "p90_displacement_px": 15.388906478881836,
+            "median_flow_xy_px": [
+              -0.000823974609375,
+              0.0005340576171875
+            ],
+            "fraction_below_1px": 0.6467661691542289
+          }
+        ],
+        "max_pair_median_displacement_px": 1.0351163148880005,
+        "fixed_camera_supported": true,
+        "median_threshold_px": 1.5,
+        "minimum_pair_count": 30,
+        "camera_pose": "identity",
+        "future_used": false,
+        "limitations": "Robot-arm features may remain among background candidates; robust median, not upper tail, determines gate."
+      },
+      "intrinsics": {
+        "components": [
+          "fx",
+          "fy",
+          "cx",
+          "cy"
+        ],
+        "source_indices": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "values_px": [
+          [
+            479.4591369628906,
+            475.7860412597656,
+            324.3863525390625,
+            245.7472381591797
+          ],
+          [
+            484.4598693847656,
+            480.631103515625,
+            324.3863525390625,
+            245.7472381591797
+          ],
+          [
+            483.69171142578125,
+            479.9275817871094,
+            324.3863525390625,
+            245.7472381591797
+          ],
+          [
+            485.82196044921875,
+            482.27667236328125,
+            324.3863525390625,
+            245.7472381591797
+          ],
+          [
+            502.59149169921875,
+            498.7412109375,
+            324.5448913574219,
+            245.5074920654297
+          ],
+          [
+            512.1602783203125,
+            510.03900146484375,
+            324.3863525390625,
+            245.7472381591797
+          ],
+          [
+            461.76727294921875,
+            464.9914245605469,
+            324.5448913574219,
+            245.7472381591797
+          ],
+          [
+            509.7900390625,
+            507.2759704589844,
+            324.3863525390625,
+            245.7472381591797
+          ]
+        ],
+        "median_px": [
+          485.14093017578125,
+          481.4538879394531,
+          324.3863525390625,
+          245.7472381591797
+        ],
+        "range_relative_to_median": [
+          0.10387291759252548,
+          0.09356571733951569,
+          0.0004887345712631941,
+          0.0009755800128914416
+        ],
+        "focal_relative_range_max": 0.10387291759252548,
+        "focal_stable_within_15_percent": true,
+        "future_used": false,
+        "K_px": [
+          [
+            485.14093017578125,
+            0.0,
+            324.3863525390625
+          ],
+          [
+            0.0,
+            481.4538879394531,
+            245.7472381591797
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "source_metric_sha256": "8e8d560423d65d7ea815f461b3c4b26120c477cfad098b0f8cc3d6daa2a07344",
+      "prediction_sha256": "0e608c4da6d5566ea9996863c2b46d17158780e6ef0cf35376a24c4767a0c93d",
+      "artifacts": [
+        "bottle/viz/history_contact_sheet.png",
+        "bottle/viz/mask_and_100_queries.png",
+        "bottle/viz/selected_24_points.png",
+        "bottle/viz/depth_t0.png",
+        "bottle/viz/intrinsics_stability.png",
+        "bottle/viz/trajectory_3d.png",
+        "bottle/viz/final_overlay_t0.png",
+        "bottle/viz/error_by_time.png",
+        "bottle/viz/visibility_coverage.png",
+        "bottle/viz/trajectory_2d_full_extent.png",
+        "bottle/viz/pred_vs_gt_2d.mp4",
+        "bottle/viz/side_by_side.mp4",
+        "bottle/predictions/prediction.npz",
+        "bottle/evaluation/evaluation_results.npz",
+        "bottle/evaluation/evaluation_tracks_2d.npz",
+        "bottle/observed/observed_tracks_2d.npz",
+        "bottle/observed/molmopoint_overlay.png",
+        "bottle/observed/mask.png",
+        "bottle/observed/mask_overlay.png",
+        "bottle/observed/query_points_100.npy",
+        "bottle/evaluation/video_audit.png"
+      ]
+    }
+  }
+}

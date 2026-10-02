@@ -1,0 +1,141 @@
+{
+  "selection_used_model_predictions": false,
+  "selection_frozen_before_model_inference": true,
+  "camera": "observation.images.image",
+  "candidate_screening": "First four source-index episodes of each exact task with >=40 frames, then visual inspection; no model output inspected",
+  "all_candidates_file": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/candidates_all.json",
+  "top_candidates": {
+    "cup": [
+      {
+        "episode_id": 10,
+        "rank": 1,
+        "reason": "Printed motif supplies local texture; blue body exposed and separate from destination at first lift."
+      },
+      {
+        "episode_id": 7,
+        "rank": 2,
+        "reason": "Fully exposed and separate but side mostly textureless."
+      },
+      {
+        "episode_id": 12,
+        "rank": 3,
+        "reason": "Visible body and separation but smooth side gives weaker tracking texture."
+      },
+      {
+        "episode_id": 4,
+        "rank": 4,
+        "reason": "Blue cup initially behind brown cup; initial overlap reduces useful visible area."
+      }
+    ],
+    "bottle": [
+      {
+        "episode_id": 9,
+        "rank": 1,
+        "reason": "White body remains exposed at lift, before pot occlusion; rotation increases difficulty but interpretable."
+      },
+      {
+        "episode_id": 5,
+        "rank": 2,
+        "reason": "Body substantially obscured by gripper during lift."
+      },
+      {
+        "episode_id": 6,
+        "rank": 3,
+        "reason": "Body behind gripper at lift; cap dominates the exposed object."
+      },
+      {
+        "episode_id": 2,
+        "rank": 4,
+        "reason": "Gripper strongly obscures body and reaches pot soon."
+      }
+    ]
+  },
+  "scenes": {
+    "bottle": {
+      "episode_id": 9,
+      "t0_source_frame": 47,
+      "t0_seconds": 9.4,
+      "history_indices": [
+        45,
+        46,
+        47
+      ],
+      "history_seconds": [
+        9.0,
+        9.2,
+        9.4
+      ],
+      "future_indices": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "gripper_closed_frame": 36,
+      "postgrasp_robot_motion_start": 43,
+      "t0_reason": "Early clear lift with exposed object, before destination occlusion.",
+      "native_depth_whole_frame_valid_fraction": 0.6265397135416667,
+      "camera_pose_assumption": "Fixed rig to be confirmed separately by observed background optical flow",
+      "depth_alignment_image": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native_alignment_bottle.png",
+      "alignment_audit": "Native depth silhouettes correspond visually to robot, table, and target in external RGB; holes cluster at boundaries and in thin stripes. No image resize or pixel-grid remapping is applied.",
+      "capture_code_reference": "https://github.com/yunliangchen/ur5bc/blob/a4285610da52cb30215951c7ac37454fcfae01c8/ur5/robot_env.py",
+      "capture_depth_units_evidence_lines": [
+        109,
+        145,
+        150,
+        154,
+        360
+      ],
+      "float32_bitcast_roundtrip_exact": true
+    },
+    "cup": {
+      "episode_id": 10,
+      "t0_source_frame": 63,
+      "t0_seconds": 12.6,
+      "history_indices": [
+        61,
+        62,
+        63
+      ],
+      "history_seconds": [
+        12.2,
+        12.4,
+        12.6
+      ],
+      "future_indices": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "gripper_closed_frame": 52,
+      "postgrasp_robot_motion_start": 60,
+      "t0_reason": "Early clear lift with exposed object, before destination occlusion.",
+      "native_depth_whole_frame_valid_fraction": 0.6543977864583334,
+      "camera_pose_assumption": "Fixed rig to be confirmed separately by observed background optical flow",
+      "depth_alignment_image": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native_alignment_cup.png",
+      "alignment_audit": "Native depth silhouettes correspond visually to robot, table, and target in external RGB; holes cluster at boundaries and in thin stripes. No image resize or pixel-grid remapping is applied.",
+      "capture_code_reference": "https://github.com/yunliangchen/ur5bc/blob/a4285610da52cb30215951c7ac37454fcfae01c8/ur5/robot_env.py",
+      "capture_depth_units_evidence_lines": [
+        109,
+        145,
+        150,
+        154,
+        360
+      ],
+      "float32_bitcast_roundtrip_exact": true
+    }
+  }
+}

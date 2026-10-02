@@ -1,0 +1,89 @@
+{
+  "source_indices": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+  ],
+  "source_timestamps": [
+    12.800000190734863,
+    13.0,
+    13.199999809265137,
+    13.399999618530273,
+    13.600000381469727,
+    13.800000190734863,
+    14.0,
+    14.199999809265137,
+    14.399999618530273,
+    14.600000381469727
+  ],
+  "video_pts": [
+    {
+      "index": 64,
+      "pts": 131072,
+      "time_base": "1/10240",
+      "video_seconds": 12.8
+    },
+    {
+      "index": 65,
+      "pts": 133120,
+      "time_base": "1/10240",
+      "video_seconds": 13.0
+    },
+    {
+      "index": 66,
+      "pts": 135168,
+      "time_base": "1/10240",
+      "video_seconds": 13.2
+    },
+    {
+      "index": 67,
+      "pts": 137216,
+      "time_base": "1/10240",
+      "video_seconds": 13.4
+    },
+    {
+      "index": 68,
+      "pts": 139264,
+      "time_base": "1/10240",
+      "video_seconds": 13.6
+    },
+    {
+      "index": 69,
+      "pts": 141312,
+      "time_base": "1/10240",
+      "video_seconds": 13.8
+    },
+    {
+      "index": 70,
+      "pts": 143360,
+      "time_base": "1/10240",
+      "video_seconds": 14.0
+    },
+    {
+      "index": 71,
+      "pts": 145408,
+      "time_base": "1/10240",
+      "video_seconds": 14.2
+    },
+    {
+      "index": 72,
+      "pts": 147456,
+      "time_base": "1/10240",
+      "video_seconds": 14.4
+    },
+    {
+      "index": 73,
+      "pts": 149504,
+      "time_base": "1/10240",
+      "video_seconds": 14.6
+    }
+  ],
+  "exported_utc": "2026-10-02T23:21:50.040659+00:00"
+}

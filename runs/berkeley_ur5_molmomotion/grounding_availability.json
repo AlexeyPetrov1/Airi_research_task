@@ -1,0 +1,46 @@
+{
+  "checked_unix_time": 1790979425.2937088,
+  "models": {
+    "allenai/MolmoPoint-Vid-4B": {
+      "commit": "b331ed6c6352e6db967325493c6dae515541a919",
+      "gated": false,
+      "safetensors": [
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 4891799000
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 4844690992
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 4844691024
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 4867859988
+        }
+      ],
+      "total_safetensors_bytes": 19449041004
+    },
+    "facebook/sam3": {
+      "commit": "3c879f39826c281e95690f02c7821c4de09afae7",
+      "gated": "manual",
+      "safetensors": [
+        {
+          "file": "model.safetensors",
+          "bytes": 3439938512
+        }
+      ],
+      "total_safetensors_bytes": 3439938512,
+      "actual_weight_http_status": 403,
+      "actual_error_code": "GatedRepo",
+      "actual_error_message": "Access to model facebook/sam3 is restricted and you are not in the authorized list. Visit https://huggingface.co/facebook/sam3 to ask for access."
+    }
+  },
+  "fallback_sam": {
+    "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
+    "path": "/mnt/f/AIRI_task/models/sam_vit_b_01ec64.pth"
+  }
+}

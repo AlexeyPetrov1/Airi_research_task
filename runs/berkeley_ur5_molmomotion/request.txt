@@ -1,0 +1,545 @@
+GOAL: Berkeley UR5 → MolmoMotion end-to-end experiment for TWO real scenes
+
+Нужно НЕ просто написать код или план, а выполнить эксперимент до конца:
+найти подходящие эпизоды, подготовить данные, запустить MolmoMotion,
+сохранить реальные predictions, посчитать метрики и сгенерировать
+визуализации/видео. Исправлять возникающие ошибки самостоятельно.
+Не останавливаться после подготовки данных.
+
+Работай в существующем репозитории AIRI/MolmoMotion и сначала изучи уже
+имеющийся код, окружение, предыдущие runs и установленные веса.
+Не ломай уже работающие эксперименты и не перезаписывай старые runs.
+
+============================================================
+0. СЦЕНЫ
+============================================================
+
+Нужно обработать две реальные сцены Berkeley Autolab UR5:
+
+SCENE A — primary:
+  instruction:
+  "Pick up the blue cup and put it into the brown cup."
+
+  target object:
+  blue cup
+
+SCENE B — harder:
+  instruction:
+  "Put the ranch bottle into the pot."
+
+  target object:
+  ranch bottle
+
+Не использовать cloth и tiger для этого эксперимента.
+
+Для ОБЕИХ сцен использовать внешнюю камеру:
+  observation.images.image
+
+НЕ использовать hand_image как основной вход MolmoMotion.
+
+Причина:
+внешний RGB соответствует third-person RealSense, для которого в исходном
+Berkeley имеется aligned depth.
+
+============================================================
+1. ИСТОЧНИКИ ДАННЫХ
+============================================================
+
+Для быстрого просмотра эпизодов можно использовать:
+  lerobot/berkeley_autolab_ur5
+
+LeRobot:
+  1000 episodes
+  5 fps
+  RGB:
+    observation.images.image
+    observation.images.hand_image
+
+ВАЖНО:
+LeRobot observation.images.image_with_depth НЕ считать метрической depth map.
+В LeRobot она перекодирована в обычное AV1 yuv420p video и
+video.is_depth_map=false.
+
+Для реальной глубины использовать, в порядке предпочтения:
+
+1. TFDS/OXE:
+   berkeley_autolab_ur5
+   steps.observation.image_with_depth
+   shape [480,640,1]
+   float32
+
+2. original Berkeley trajectory:
+   other["third_person_image"][..., 3]
+
+Исходный код Berkeley получает RealSense depth, align-ит depth к RGB и
+переводит её через depth_scale в метрические значения.
+
+НЕЛЬЗЯ скачивать десятки гигабайт без предварительной проверки.
+Сначала найти конкретные episode ids и попытаться получить только необходимые
+episodes/shards/files.
+
+Если настоящий TFDS/original depth для конкретного эпизода невозможно получить
+разумным способом, НЕ останавливай весь эксперимент:
+используй UniDepthV2 как fallback metric depth + intrinsics estimator и явно
+пометь такой run как estimated-depth.
+
+============================================================
+2. ВЫБОР EPISODE
+============================================================
+
+Для каждой instruction:
+
+1. Получить список candidate episodes.
+2. Выбирать episode только по качеству данных, НЕ по качеству MolmoMotion prediction.
+
+Критерии:
+- target object хорошо виден на external image;
+- размер объекта достаточен для нескольких query points;
+- нет тяжёлой окклюзии около t0;
+- камера визуально неподвижна;
+- имеются минимум 2 frames до t0;
+- имеются минимум 10 исходных Berkeley frames после t0;
+- между t0 и t0+2s есть заметное движение объекта;
+- depth на объекте преимущественно валидна.
+
+Сохранить top candidates и причину выбора финального episode.
+
+Для cup:
+выбирать t0 непосредственно около начала движения BLUE CUP после grasp,
+но до сильной окклюзии brown cup.
+
+Для bottle:
+выбирать t0 непосредственно около начала движения RANCH BOTTLE после grasp,
+до входа/сильной окклюзии pot.
+
+Для определения grasp можно использовать robot/gripper state/action,
+но не использовать future frames для построения model input.
+
+Сохранить:
+  source episode id
+  instruction
+  t0 source frame index
+  exact timestamps
+  все исходные индексы кадров.
+
+============================================================
+3. СТРОГОЕ РАЗДЕЛЕНИЕ INPUT / EVALUATION
+============================================================
+
+Создать физически разные структуры:
+
+observed/
+evaluation/
+
+Все данные для prediction должны строиться ТОЛЬКО по frame <= t0.
+
+Запрещено использовать future frames для:
+- segmentation/model input mask;
+- выбора query points;
+- K estimation;
+- input depth;
+- points_3d_history;
+- smoothing/filtering input history.
+
+Future frames разрешены только ПОСЛЕ получения prediction для GT/evaluation.
+
+============================================================
+4. ПОДГОТОВКА QUERY POINTS — МАКСИМАЛЬНО КАК У АВТОРОВ
+============================================================
+
+Сначала попробовать переиспользовать официальный
+molmo-motion/data_generation pipeline.
+
+Для real robot использовать логику configs/robot.yaml.
+
+Авторская схема:
+action
+→ object phrase
+→ MolmoPoint-Vid
+→ SAM3 mask
+→ K-means N=100 points.
+
+Использовать prompt семантически эквивалентный официальному:
+  "point to {object} gripped and picked up by the robot gripper"
+
+Cup target:
+  "blue cup"
+
+Bottle target:
+  "ranch bottle"
+
+Получить object mask на anchor/query frame t0.
+
+Сделать K-means N=100 по пикселям mask, как в official data-generation pipeline.
+
+Если SAM3 недоступен из-за gated weights:
+- зафиксировать причину;
+- использовать уже доступный compatible segmentation fallback,
+  желательно point-prompted SAM;
+- НЕ останавливать весь experiment.
+
+Сохранить:
+  mask.png
+  mask_overlay.png
+  query_points_100.npy
+  grounding metadata.
+
+============================================================
+5. 2D TRACKING
+============================================================
+
+Использовать AllTracker из официального MolmoMotion data-generation pipeline,
+если он уже доступен.
+
+Для MODEL INPUT tracking запускать только на observed history, без future.
+
+Для EVALUATION после получения prediction можно отдельно запустить tracking
+t0 → future.
+
+Не позволять future tracking влиять на input tracks.
+
+Сохранить:
+  observed_tracks_2d.npz
+  evaluation_tracks_2d.npz
+  visibility/confidence.
+
+============================================================
+6. DEPTH + CAMERA GEOMETRY
+============================================================
+
+Berkeley external camera рассматривать как fixed-rig только после проверки:
+измерить background optical flow / визуально подтвердить отсутствие camera motion.
+
+Если fixed:
+  camera pose для всех кадров = identity.
+
+НЕ запускать ViPE как основной вариант:
+официальный MolmoMotion README предупреждает, что ViPE рассчитан на moving
+monocular camera; для fixed-rig robot video авторы рекомендуют metric depth +
+identity pose.
+
+DEPTH:
+если доступна исходная Berkeley/TFDS metric depth — использовать её.
+
+K:
+поскольку published K для Berkeley не найдена, использовать UniDepthV2
+для оценки intrinsics.
+
+Для нескольких OBSERVED frames получить:
+  fx, fy, cx, cy
+
+Проверить стабильность intrinsics между frames.
+Использовать robust median K для fixed camera.
+
+Если native depth доступна:
+  UniDepth depth НЕ использовать как основную;
+  использовать:
+      K = UniDepth estimated intrinsics
+      D = RealSense measured metric depth
+
+Если native depth недоступна:
+  использовать UniDepth depth + intrinsics,
+  но явно маркировать geometry source = estimated.
+
+Сохранить:
+  K_per_frame.npy
+  K_median.npy
+  intrinsics_stability.json
+  depth source
+  depth visualizations.
+
+Для query points брать robust depth:
+median валидных значений в малом окне вокруг (u,v), а не слепо один pixel.
+Зафиксировать размер окна.
+
+Backprojection:
+  X = (u-cx)/fx * Z
+  Y = (v-cy)/fy * Z
+  Z = depth
+
+Так как fixed camera:
+все XYZ уже находятся в одной camera coordinate frame.
+
+============================================================
+7. AUTHOR-LIKE FILTERING
+============================================================
+
+По возможности переиспользовать официальный код MolmoMotion Stage 4/5:
+3D lift + filter/smooth.
+
+Лучший вариант:
+создать compatibility wrapper, который подаст в авторский код:
+  measured/estimated depth
+  median K
+  identity camera poses
+  RGB
+  AllTracker tracks
+
+и не переписывать их фильтрацию вручную без необходимости.
+
+Авторы используют:
+- 16 anchor tracks;
+- trust gating;
+- outlier filtering;
+- ray-direction smoothing.
+
+Все filtering для model input выполнять только по observed data.
+
+============================================================
+8. POINTS ДЛЯ MOLMOMOTION
+============================================================
+
+После filtering иметь пул надёжных query points.
+
+Следовать official eval recipe:
+- максимум 24 points;
+- разбить на chunks P=8;
+- максимум 3 MolmoMotion forward passes на сцену.
+
+То есть:
+  group_0: 8 points
+  group_1: 8 points
+  group_2: 8 points
+
+Если валидных points <24 — использовать сколько есть полных групп по 8.
+Если <8 — scene preparation считается FAILED и нужно выбрать другой episode.
+
+Для каждого group получить:
+
+  points_2d_at_t0: [8,2]
+  points_3d_history: [3,8,3]
+
+Все координаты в METERS и одной camera-frame.
+
+Сохранить .pt/.npy и визуальный audit.
+
+============================================================
+9. HISTORY FRAMES
+============================================================
+
+Berkeley имеет 5 FPS.
+
+Для H3 использовать три реальные соседние Berkeley frames:
+
+  t0-0.4s
+  t0-0.2s
+  t0
+
+НЕ делать искусственный frame interpolation и НЕ дублировать frames ради 15 FPS.
+
+Это temporal distribution shift относительно training MolmoMotion.
+Записать это как limitation.
+
+============================================================
+10. MOLMOMOTION INFERENCE
+============================================================
+
+Основная модель:
+  allenai/MolmoMotion-4B-H3-F30
+
+Использовать уже рабочий inference path проекта.
+
+Для каждого из максимум 3 chunks по 8 points:
+
+processor(
+    history_frames=...,
+    points_2d_at_t0=...,
+    points_3d_history=...,
+    action=exact_instruction,
+    future_horizon=30
+)
+
+Получить:
+  future_3d [8,30,3]
+
+Использовать deterministic/default greedy decoding.
+
+ОБЯЗАТЕЛЬНО сохранить:
+- raw generated model text;
+- parsed future_3d;
+- parse status;
+- все 30 steps;
+- model/config/commit;
+- runtime;
+- peak GPU memory.
+
+Не считать zero-filled output успешным prediction.
+Проверить finite values и полноту всех point/time ids.
+
+============================================================
+11. TIME ALIGNMENT ДЛЯ EVALUATION
+============================================================
+
+MolmoMotion F30 соответствует примерно 2 seconds @15 FPS.
+Berkeley = 5 FPS.
+
+Не интерполировать primary ground truth.
+
+Сопоставлять:
+
+Berkeley future #1  (t=0.2s) ↔ MolmoMotion step 3
+Berkeley future #2  (t=0.4s) ↔ step 6
+...
+Berkeley future #10 (t=2.0s) ↔ step 30
+
+В zero-based Python indices predictions использовать:
+  [2,5,8,11,14,17,20,23,26,29]
+
+Сравнение вести на одинаковых physical timestamps.
+
+============================================================
+12. GROUND TRUTH / EVALUATION
+============================================================
+
+После prediction построить independent future tracks тех же физических points.
+
+PRIMARY metric:
+2D projection error.
+
+Project predicted XYZ через K_median:
+  XYZ prediction → (u,v)
+
+Сравнить с real future tracked (u,v).
+
+Посчитать:
+  ADE_2D_px
+  FDE_2D_px
+  error_by_horizon
+  valid point coverage
+
+Дополнительно:
+если future native depth доступна, построить estimated future XYZ тех же points.
+
+Посчитать:
+  ADE_3D_est_m
+  FDE_3D_est_m
+
+Называть именно 3D_est, поскольку K оценена.
+
+Добавить бесплатные baselines:
+  static position
+  constant velocity from observed history
+
+Считать все методы на одной visibility mask.
+
+============================================================
+13. VISUALIZATIONS — ОБЯЗАТЕЛЬНО
+============================================================
+
+Для КАЖДОЙ сцены создать минимум:
+
+1. history_contact_sheet.png
+   три history RGB frames + tracked query points.
+
+2. mask_and_100_queries.png
+   SAM mask + 100 K-means candidate points.
+
+3. selected_24_points.png
+   все points, реально отправленные в 3 MolmoMotion calls.
+
+4. depth_t0.png
+   depth visualization с отмеченными points.
+
+5. intrinsics_stability.png/json.
+
+6. trajectory_3d.png
+   observed XYZ history + predicted future XYZ.
+
+7. pred_vs_gt_2d.mp4
+   REAL future RGB frames:
+   - GT point position;
+   - projected MolmoMotion prediction;
+   - persistent point ids;
+   - distinct predicted trajectory/history.
+
+8. final_overlay_t0.png
+   на t0 показать всю predicted trajectory и GT trajectory.
+
+9. error_by_time.png.
+
+10. side_by_side.mp4
+    left: real continuation + GT
+    right: real continuation + prediction overlay.
+
+Hero visualization для отчёта можно сделать только на одном chunk из 8 points,
+чтобы изображение не было перегружено.
+Метрики при этом считать по всем валидным 24 points.
+
+============================================================
+14. OUTPUT STRUCTURE
+============================================================
+
+Создать новый run, не перезаписывать старые:
+
+runs/berkeley_ur5_molmomotion/
+├── cup/
+│   ├── metadata.json
+│   ├── observed/
+│   ├── evaluation/
+│   ├── geometry/
+│   ├── groups/
+│   │   ├── group_00/
+│   │   ├── group_01/
+│   │   └── group_02/
+│   ├── predictions/
+│   ├── metrics.json
+│   └── viz/
+│
+├── bottle/
+│   └── same structure
+│
+└── summary.md
+
+metrics.json обязательно должен содержать:
+- source episode id
+- task
+- t0
+- depth source
+- K source
+- number of valid points
+- number of successful model chunks
+- 2D ADE/FDE
+- 3D_est ADE/FDE when available
+- static baseline
+- constant-velocity baseline
+- timing
+- GPU memory
+- warnings/limitations.
+
+============================================================
+15. FINAL DELIVERABLE
+============================================================
+
+Не заканчивать ответ словами "pipeline implemented".
+
+Финальный результат CODEX должен содержать ФАКТИЧЕСКИЕ числа и paths:
+
+CUP:
+- episode id
+- t0
+- depth source
+- estimated K
+- valid points
+- prediction shape
+- ADE/FDE
+- links/paths на PNG/MP4/NPZ
+
+BOTTLE:
+то же самое.
+
+Также:
+- сказать, какая из двух сцен лучше подходит в основной отчёт,
+  но выбирать её по качеству данных/измерения и интерпретируемости,
+  а не потому что у неё меньше ошибка модели;
+- перечислить любые отклонения от official MolmoMotion preprocessing;
+- отдельно указать temporal mismatch Berkeley 5 FPS vs MolmoMotion 15 FPS.
+
+Если какой-либо этап блокируется:
+1. диагностировать конкретную причину;
+2. применить описанный fallback;
+3. продолжить до predictions, если это методологически допустимо;
+4. не подменять реальные данные выдуманными calibration/GT.
+
+Главный принцип:
+готовый воспроизводимый эксперимент с реальными predictions важнее
+идеального, но незавершённого воспроизведения всего авторского 1M pipeline.

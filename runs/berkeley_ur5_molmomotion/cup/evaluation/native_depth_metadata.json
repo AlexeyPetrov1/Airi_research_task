@@ -1,0 +1,33 @@
+{
+  "source": "https://huggingface.co/datasets/lerobot-raw/berkeley_autolab_ur5_raw/resolve/d2590280290484e2a7eb53a91bba32ac2ff669a0/berkeley_autolab_ur5-train.tfrecord-00004-of-00412",
+  "source_feature": "steps.observation.image_with_depth",
+  "depth_source": "native_realsense_tfds",
+  "measured_metric_depth": true,
+  "units": "meters",
+  "dtype": "float32",
+  "shape": [
+    10,
+    480,
+    640
+  ],
+  "source_episode_id": 10,
+  "source_record_in_shard": 1,
+  "source_frame_indices": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+  ],
+  "raw_shard": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/berkeley_autolab_ur5-train.tfrecord-00004-of-00412",
+  "raw_shard_sha256": "e00e135365722b15bc39016437fe6b959ad678b3c7cd7a60e2732357b866dc56",
+  "identity_verification": "All episode robot pose/gripper states and translation actions match LeRobot exactly; observed RGB RMSE 2.95-4.12/255 due to AV1 compression.",
+  "decode_method": "lossless TFDS RGBA uint8 PNG bitcast to little-endian float32, no rescaling",
+  "invalid_values": "zero is invalid; saturation and distant-background spikes can occur, use robust valid local median",
+  "future_decoded_after_predictions": true
+}

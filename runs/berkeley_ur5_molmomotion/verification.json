@@ -1,0 +1,34 @@
+{
+  "cup": {
+    "passed": true,
+    "prediction_shape": [
+      24,
+      30,
+      3
+    ],
+    "input_hashes_verified": 72,
+    "ADE_2D_px": 193.5709607239007,
+    "FDE_2D_px": 224.48461658461392,
+    "valid_pairs": 240,
+    "videos_decoded": {
+      "pred_vs_gt_2d": 10,
+      "side_by_side": 10
+    }
+  },
+  "bottle": {
+    "passed": true,
+    "prediction_shape": [
+      24,
+      30,
+      3
+    ],
+    "input_hashes_verified": 72,
+    "ADE_2D_px": 223.40915949404922,
+    "FDE_2D_px": 194.01492191402266,
+    "valid_pairs": 240,
+    "videos_decoded": {
+      "pred_vs_gt_2d": 10,
+      "side_by_side": 10
+    }
+  }
+}

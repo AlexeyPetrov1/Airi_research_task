@@ -1,0 +1,95 @@
+{
+  "steps/observation/natural_language_instruction": {
+    "count": 120,
+    "first_lengths": [
+      52,
+      52,
+      52
+    ],
+    "first": "pick up the blue cup and put it into the brown cup. "
+  },
+  "steps/reward": {
+    "count": 1,
+    "first_lengths": [
+      480
+    ]
+  },
+  "steps/observation/image": {
+    "count": 120,
+    "first_lengths": [
+      425990,
+      426726,
+      426363
+    ]
+  },
+  "steps/action/world_vector": {
+    "count": 1,
+    "first_lengths": [
+      1440
+    ]
+  },
+  "steps/is_last": {
+    "count": 1,
+    "first_lengths": [
+      120
+    ]
+  },
+  "steps/is_first": {
+    "count": 1,
+    "first_lengths": [
+      120
+    ]
+  },
+  "steps/observation/robot_state": {
+    "count": 1,
+    "first_lengths": [
+      7200
+    ]
+  },
+  "steps/is_terminal": {
+    "count": 1,
+    "first_lengths": [
+      120
+    ]
+  },
+  "steps/observation/hand_image": {
+    "count": 120,
+    "first_lengths": [
+      194515,
+      195561,
+      196367
+    ]
+  },
+  "steps/action/gripper_closedness_action": {
+    "count": 1,
+    "first_lengths": [
+      480
+    ]
+  },
+  "steps/observation/image_with_depth": {
+    "count": 120,
+    "first_lengths": [
+      184116,
+      183297,
+      182868
+    ]
+  },
+  "steps/action/rotation_delta": {
+    "count": 1,
+    "first_lengths": [
+      1440
+    ]
+  },
+  "steps/action/terminate_episode": {
+    "count": 1,
+    "first_lengths": [
+      480
+    ]
+  },
+  "steps/observation/natural_language_embedding": {
+    "count": 1,
+    "first_lengths": [
+      245760
+    ]
+  }
+}

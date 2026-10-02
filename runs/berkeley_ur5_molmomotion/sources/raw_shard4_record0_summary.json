@@ -1,0 +1,95 @@
+{
+  "steps/observation/robot_state": {
+    "count": 1,
+    "first_lengths": [
+      5820
+    ]
+  },
+  "steps/observation/natural_language_instruction": {
+    "count": 97,
+    "first_lengths": [
+      33,
+      33,
+      33
+    ],
+    "first": "put the ranch bottle into the pot"
+  },
+  "steps/is_terminal": {
+    "count": 1,
+    "first_lengths": [
+      97
+    ]
+  },
+  "steps/action/terminate_episode": {
+    "count": 1,
+    "first_lengths": [
+      388
+    ]
+  },
+  "steps/observation/image_with_depth": {
+    "count": 97,
+    "first_lengths": [
+      197799,
+      195384,
+      195650
+    ]
+  },
+  "steps/observation/natural_language_embedding": {
+    "count": 1,
+    "first_lengths": [
+      198656
+    ]
+  },
+  "steps/is_last": {
+    "count": 1,
+    "first_lengths": [
+      97
+    ]
+  },
+  "steps/is_first": {
+    "count": 1,
+    "first_lengths": [
+      97
+    ]
+  },
+  "steps/action/world_vector": {
+    "count": 1,
+    "first_lengths": [
+      1164
+    ]
+  },
+  "steps/action/rotation_delta": {
+    "count": 1,
+    "first_lengths": [
+      1164
+    ]
+  },
+  "steps/reward": {
+    "count": 1,
+    "first_lengths": [
+      388
+    ]
+  },
+  "steps/observation/image": {
+    "count": 97,
+    "first_lengths": [
+      450686,
+      450767,
+      450388
+    ]
+  },
+  "steps/action/gripper_closedness_action": {
+    "count": 1,
+    "first_lengths": [
+      388
+    ]
+  },
+  "steps/observation/hand_image": {
+    "count": 97,
+    "first_lengths": [
+      139657,
+      139136,
+      140470
+    ]
+  }
+}

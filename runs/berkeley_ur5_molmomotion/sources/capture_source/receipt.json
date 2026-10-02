@@ -1,0 +1,333 @@
+{
+  "commit": "a4285610da52cb30215951c7ac37454fcfae01c8",
+  "repo": "https://github.com/yunliangchen/ur5bc",
+  "files": [
+    {
+      "path": "ur5/robot_env.py",
+      "source": "https://raw.githubusercontent.com/yunliangchen/ur5bc/a4285610da52cb30215951c7ac37454fcfae01c8/ur5/robot_env.py",
+      "sha256": "a51deac696e87ae6c75bf8591bab94a745c0abb4e2df2658ad90b291de65e847",
+      "relevant_lines": [
+        {
+          "line": 109,
+          "text": "        self.depth_scale = self.profile.get_device().first_depth_sensor().get_depth_scale() # convert depth to meters"
+        },
+        {
+          "line": 138,
+          "text": "        depth_frame = frames.get_depth_frame() # not aligned"
+        },
+        {
+          "line": 144,
+          "text": "        # Create alignment primitive with color as its target stream:"
+        },
+        {
+          "line": 145,
+          "text": "        align = rs.align(rs.stream.color)"
+        },
+        {
+          "line": 146,
+          "text": "        frames = align.process(frames)"
+        },
+        {
+          "line": 149,
+          "text": "        aligned_depth_frame = frames.get_depth_frame()"
+        },
+        {
+          "line": 150,
+          "text": "        aligned_depth_frame_np = (np.asanyarray(aligned_depth_frame.get_data(), np.float32) * self.depth_scale)"
+        },
+        {
+          "line": 153,
+          "text": "        # plt.imsave(\"/home/lawrence/robotlerf/ur5bc/data/depth_images/depth_{}.png\".format(time.time()), aligned_depth_frame_np)"
+        },
+        {
+          "line": 154,
+          "text": "        return [color_frame_np.copy(), aligned_depth_frame_np.copy()] # (480, 640, 3), (480, 640)"
+        },
+        {
+          "line": 268,
+          "text": "        obs_dict[\"third_person_image\"] = third_person_img"
+        },
+        {
+          "line": 343,
+          "text": "                obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 346,
+          "text": "                writer = AsyncWrite(obs_dict[\"hand_image\"], obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 354,
+          "text": "                image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 360,
+          "text": "                standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 377,
+          "text": "        obs_traj = {\"hand_image\": [], \"third_person_image\": [], \"timestamp\":{\"read_start\": [], \"read_end\":[]}}"
+        },
+        {
+          "line": 379,
+          "text": "        standard_output = {\"robot_state\": [], \"action\": [], \"image\": [], \"task\": [], \"other\": {\"hand_image\": [], \"third_person_image\": []}}"
+        },
+        {
+          "line": 393,
+          "text": "            obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 397,
+          "text": "            writer = AsyncWrite(obs_dict[\"hand_image\"], obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 403,
+          "text": "            image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 409,
+          "text": "            standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 480,
+          "text": "        standard_output[\"other\"][\"third_person_image\"] = np.stack(standard_output[\"other\"][\"third_person_image\"], axis=0) # (T, 480, 640, 4)"
+        },
+        {
+          "line": 590,
+          "text": "                obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 593,
+          "text": "                writer = AsyncWrite(None, obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 599,
+          "text": "                image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 605,
+          "text": "                standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 610,
+          "text": "                side_image = to_tensor(cv2.resize(obs_dict[\"third_person_image\"][0], (imsize, imsize)))"
+        },
+        {
+          "line": 658,
+          "text": "        obs_traj = {\"hand_image\": [], \"third_person_image\": [], \"timestamp\":{\"read_start\": [], \"read_end\":[]}}"
+        },
+        {
+          "line": 660,
+          "text": "        standard_output = {\"robot_state\": [], \"action\": [], \"image\": [], \"task\": [], \"other\": {\"hand_image\": [], \"third_person_image\": []}}"
+        },
+        {
+          "line": 674,
+          "text": "            obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 678,
+          "text": "            writer = AsyncWrite(None, obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 684,
+          "text": "            image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 690,
+          "text": "            standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 695,
+          "text": "            side_image = to_tensor(cv2.resize(obs_dict[\"third_person_image\"][0], (imsize, imsize)))"
+        },
+        {
+          "line": 782,
+          "text": "        # standard_output[\"other\"][\"third_person_image\"] = np.stack(standard_output[\"other\"][\"third_person_image\"], axis=0) # (T, 480, 640, 4)"
+        },
+        {
+          "line": 843,
+          "text": "                obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 846,
+          "text": "                writer = AsyncWrite(None, obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 852,
+          "text": "                image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 858,
+          "text": "                standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 860,
+          "text": "                action = model.predict_action(obs_dict[\"third_person_image\"][0], language)"
+        },
+        {
+          "line": 881,
+          "text": "        obs_traj = {\"hand_image\": [], \"third_person_image\": [], \"timestamp\":{\"read_start\": [], \"read_end\":[]}}"
+        },
+        {
+          "line": 883,
+          "text": "        standard_output = {\"robot_state\": [], \"action\": [], \"image\": [], \"task\": [], \"other\": {\"hand_image\": [], \"third_person_image\": []}}"
+        },
+        {
+          "line": 897,
+          "text": "            obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 901,
+          "text": "            writer = AsyncWrite(None, obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 907,
+          "text": "            image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 913,
+          "text": "            standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 917,
+          "text": "                model.set_initial_obs(obs_dict[\"third_person_image\"][0])"
+        },
+        {
+          "line": 918,
+          "text": "            action = model.predict_action(obs_dict[\"third_person_image\"][0], language)"
+        },
+        {
+          "line": 980,
+          "text": "        # standard_output[\"other\"][\"third_person_image\"] = np.stack(standard_output[\"other\"][\"third_person_image\"], axis=0) # (T, 480, 640, 4)"
+        },
+        {
+          "line": 1029,
+          "text": "                obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 1032,
+          "text": "                writer = AsyncWrite(None, obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 1035,
+          "text": "                action = model.predict_action(obs_dict[\"third_person_image\"][0], task_embedding, scale_model_output)"
+        },
+        {
+          "line": 1042,
+          "text": "                image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 1048,
+          "text": "                standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 1063,
+          "text": "        obs_traj = {\"hand_image\": [], \"third_person_image\": [], \"timestamp\":{\"read_start\": [], \"read_end\":[]}}"
+        },
+        {
+          "line": 1065,
+          "text": "        standard_output = {\"robot_state\": [], \"action\": [], \"image\": [], \"task\": [], \"other\": {\"hand_image\": [], \"third_person_image\": []}}"
+        },
+        {
+          "line": 1079,
+          "text": "            obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 1083,
+          "text": "            writer = AsyncWrite(None, obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 1089,
+          "text": "            image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 1095,
+          "text": "            standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 1097,
+          "text": "            action = model.predict_action(obs_dict[\"third_person_image\"][0], task_embedding, scale_model_output)"
+        },
+        {
+          "line": 1155,
+          "text": "        # standard_output[\"other\"][\"third_person_image\"] = np.stack(standard_output[\"other\"][\"third_person_image\"], axis=0) # (T, 480, 640, 4)"
+        },
+        {
+          "line": 1216,
+          "text": "                obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 1219,
+          "text": "                writer = AsyncWrite(obs_dict[\"hand_image\"], obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 1225,
+          "text": "                image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 1231,
+          "text": "                standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 1246,
+          "text": "        obs_traj = {\"hand_image\": [], \"third_person_image\": [], \"timestamp\":{\"read_start\": [], \"read_end\":[]}}"
+        },
+        {
+          "line": 1248,
+          "text": "        standard_output = {\"robot_state\": [], \"action\": [], \"image\": [], \"task\": [], \"other\": {\"hand_image\": [], \"third_person_image\": []}}"
+        },
+        {
+          "line": 1264,
+          "text": "            obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) "
+        },
+        {
+          "line": 1268,
+          "text": "            writer = AsyncWrite(obs_dict[\"hand_image\"], obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 1274,
+          "text": "            image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 1280,
+          "text": "            standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 1283,
+          "text": "                \"image_0\": resize_image(obs_dict[\"third_person_image\"][0], size=256),"
+        },
+        {
+          "line": 1358,
+          "text": "        # standard_output[\"other\"][\"third_person_image\"] = np.stack(standard_output[\"other\"][\"third_person_image\"], axis=0) # (T, 480, 640, 4)"
+        },
+        {
+          "line": 1468,
+          "text": "        obs_traj = {\"hand_image\": [], \"third_person_image\": [], \"timestamp\":{\"read_start\": [], \"read_end\":[]}}"
+        },
+        {
+          "line": 1469,
+          "text": "        standard_output = {\"robot_state\": [], \"action\": [], \"image\": [], \"task\": [], \"other\": {\"hand_image\": [], \"third_person_image\": []}}"
+        },
+        {
+          "line": 1484,
+          "text": "            obs_traj[\"third_person_image\"].append(obs_dict[\"third_person_image\"]) # this line causes the depth camera to freeze"
+        },
+        {
+          "line": 1488,
+          "text": "            writer = AsyncWrite(obs_dict[\"hand_image\"], obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1], traj_index, saving_directory, i)"
+        },
+        {
+          "line": 1494,
+          "text": "            image = obs_dict[\"third_person_image\"][0]"
+        },
+        {
+          "line": 1500,
+          "text": "            standard_output[\"other\"][\"third_person_image\"].append(np.dstack((obs_dict[\"third_person_image\"][0], obs_dict[\"third_person_image\"][1])))"
+        },
+        {
+          "line": 1521,
+          "text": "        standard_output[\"other\"][\"third_person_image\"] = np.stack(standard_output[\"other\"][\"third_person_image\"], axis=0) # (T, 480, 640, 4)"
+        }
+      ]
+    }
+  ]
+}

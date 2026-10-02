@@ -1,0 +1,25 @@
+{
+  "group": 1,
+  "point_ids": [
+    82,
+    25,
+    41,
+    69,
+    10,
+    23,
+    48,
+    30
+  ],
+  "history_source_indices": [
+    45,
+    46,
+    47
+  ],
+  "history_times_relative_t0_seconds": [
+    -0.4,
+    -0.2,
+    0
+  ],
+  "coordinates": "OpenCV camera XYZ in meters; fixed camera identity poses",
+  "future_used": false
+}

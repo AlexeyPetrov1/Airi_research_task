@@ -1,0 +1,13 @@
+{
+  "model": "official Meta SAM2.1 Hiera-Large",
+  "checkpoint_bytes": 898083611,
+  "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+  "source_repository": "https://github.com/facebookresearch/sam2",
+  "source_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "hf_repo": "facebook/sam2.1-hiera-large",
+  "hf_revision": "665f8e2ad61cf5f53d65644ff27c8ee525124610",
+  "config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+  "strict_checkpoint_load_cpu": "passed",
+  "seconds": 12.264009219999934,
+  "environment_changes": "Added missing iopath==0.1.10 and portalocker==4.4.0 with --no-deps in .venv-vipe; existing packages untouched"
+}

@@ -1,0 +1,1 @@
+<points coords="<POINT_477><POINT_729><POINT_735>1<POINT_725>">blue cup gripped and picked up by the robot gripper</point><|im_end|>

@@ -1,0 +1,14 @@
+{
+  "dependency_fix": {
+    "stage": "MolmoPoint model loading, before generation",
+    "initial_error": "Transformers device_map requires accelerate; accelerate was absent",
+    "installed": "accelerate==1.12.0",
+    "command": "/mnt/f/AIRI_task/.venv/bin/python -m pip install --no-deps accelerate==1.12.0",
+    "existing_packages_updated": false,
+    "model_generation_attempted_before_fix": false
+  },
+  "gpu_queue": "Grounding waited for unrelated PID279. Its first model-load attempt failed before generation because accelerate was absent. After dependency installation, a direct retry was terminated before generation because unrelated GPU work restarted as PID1232. The final grounding run waited for PID1232 and then completed both scenes successfully. Only our own pre-generation processes were stopped; unrelated jobs were never stopped.",
+  "final_grounding_success": true,
+  "real_molmopoint_generation_calls": 2,
+  "sam_version_approved_by_user": "Official Meta SAM2.1 Hiera-Large"
+}

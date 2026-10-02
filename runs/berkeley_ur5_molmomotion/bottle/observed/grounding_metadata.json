@@ -1,0 +1,35 @@
+{
+  "object_phrase": "ranch bottle",
+  "prompt": "point to ranch bottle gripped and picked up by the robot gripper",
+  "source_frame": 47,
+  "future_used": false,
+  "object_phrase_source": "explicit user target (no recaption needed)",
+  "pointing_method": "actual official MolmoPoint-Vid-4B inference on observed t0",
+  "pointing_metadata": "runs/berkeley_ur5_molmomotion/bottle/observed/molmopoint_grounding.json",
+  "pointing_metadata_sha256": "4cae5f974990f922de5c15e36f54334be4761713d51b368549a9304a1e67a884",
+  "segmentation_version_reason": "SAM3 weights access returned403 GatedRepo; user explicitly selected official Meta SAM2.1 earlier release",
+  "point_xy": [
+    164.52174377441406,
+    332.0869445800781
+  ],
+  "negative_points_xy": [],
+  "kmeans_source": "data_generation/third_party/sam3/querypoints_from_video.py",
+  "kmeans_source_sha256": "72f13f3b7a2f3d38201b0ea8f27f5d841acc13d7bb02313c3aa2a3a1c5fc1df7",
+  "segmentation": "official Meta SAM2.1 Hiera-Large",
+  "sam_repository": "https://github.com/facebookresearch/sam2",
+  "sam_code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "sam_config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+  "checkpoint": "../models/sam2.1_hiera_large.pt",
+  "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+  "mask_scores": [
+    0.9453125,
+    0.053466796875,
+    0.6171875
+  ],
+  "chosen_mask": 0,
+  "mask_area_px": 2942,
+  "query_count": 100,
+  "centers_inside_mask": 99,
+  "runtime_seconds": 8.83241991199975,
+  "input_rgb_sha256": "13cba929accf34502449766e366d92aaf175ccd116a41f77e1b3425ec8773c59"
+}

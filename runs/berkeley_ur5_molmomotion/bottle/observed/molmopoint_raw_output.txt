@@ -1,0 +1,1 @@
+<points coords="<POINT_546><POINT_729><POINT_738>1<POINT_725>">ranch bottle gripped and picked up by the robot gripper</point><|im_end|>

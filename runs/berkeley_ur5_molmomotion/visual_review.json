@@ -1,0 +1,21 @@
+{
+    "passed":  true,
+    "reviewer":  "root assistant",
+    "created_utc":  "2026-10-02T23:29:08.0723207Z",
+    "inspected_scenes":  [
+                             "cup",
+                             "bottle"
+                         ],
+    "inspected_encoded_video_frames_zero_based":  [
+                                                      0,
+                                                      4,
+                                                      9
+                                                  ],
+    "real_future_RGB_confirmed":  true,
+    "GT_points_visually_follow_targets":  true,
+    "persistent_point_ids_present":  true,
+    "distinct_history_prediction_GT_present":  true,
+    "full_extent_projection_figure_inspected":  true,
+    "prediction_outside_image_errors_retained":  true,
+    "noted_result":  "Forecast arcs are much larger than the observed two-second continuations; model errors exceed both baselines."
+}

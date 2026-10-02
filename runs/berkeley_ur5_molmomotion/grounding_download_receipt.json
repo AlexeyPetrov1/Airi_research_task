@@ -1,0 +1,36 @@
+{
+  "MolmoPoint": {
+    "repository": "allenai/MolmoPoint-Vid-4B",
+    "revision": "b331ed6c6352e6db967325493c6dae515541a919",
+    "local_directory": "models/MolmoPoint-Vid-4B",
+    "weight_bytes": 19449041004,
+    "files_fetched": 26,
+    "snapshot_download_exit_code": 0,
+    "reported_download_time_seconds": 1114,
+    "weight_dtype_on_disk": "float32",
+    "download_method": "official Hugging Face snapshot_download, max_workers=4; Xet",
+    "alternative_direct_http_probe": {"bytes": 16777216, "seconds": 63.806889697000315},
+    "fallback_point_annotation_used": false
+  },
+  "SAM3": {
+    "repository": "facebook/sam3",
+    "actual_weight_access_http_status": 403,
+    "error_code": "GatedRepo",
+    "provenance": "grounding_availability.json"
+  },
+  "SAM2": {
+    "repository": "facebook/sam2.1-hiera-large",
+    "revision": "665f8e2ad61cf5f53d65644ff27c8ee525124610",
+    "local_checkpoint": "models/sam2.1_hiera_large.pt",
+    "weight_bytes": 898083611,
+    "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+    "user_explicitly_approved_official_earlier_release": true,
+    "strict_checkpoint_load": "passed on CPU",
+    "provenance": "sam2_setup_receipt.json"
+  },
+  "legacy_SAM_ViT_B": {
+    "downloaded_before_user_steering": true,
+    "executed": false,
+    "used_in_experiment": false
+  }
+}
