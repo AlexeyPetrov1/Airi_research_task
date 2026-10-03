@@ -39,7 +39,9 @@ def main():
             dataset = next((s for s in ("fmb", "berkeley", "dobbe", "davis") if s in name), "shared")
             strings = sorted({n.value for n in ast.walk(tree) if isinstance(n, ast.Constant)
                               and isinstance(n.value, str) and len(n.value) < 250
-                              and ("/" in n.value or n.value.endswith((".npy", ".npz", ".json", ".mp4", ".csv", ".pt")))})
+                              and ("/" in n.value or n.value.endswith((".npy", ".npz", ".json", ".mp4", ".csv", ".pt",
+                                  ".png", ".jpg", ".jpeg", ".gif", ".txt", ".log", ".yaml", ".yml",
+                                  ".parquet", ".h5", ".hdf5", ".tfrecord", ".pkl")))})
             constants = {n.targets[0].id: ast.unparse(n.value)[:250] for n in tree.body
                          if isinstance(n, ast.Assign) and isinstance(n.targets[0], ast.Name)
                          and n.targets[0].id.isupper()}
@@ -52,6 +54,7 @@ def main():
                              purpose=(ast.get_docstring(tree) or name).split("\n\n")[0],
                              input_output_literals=strings, constants=constants,
                              functions=functions, imports=imports, related_saved_runs=related,
+                             direct_run_path_literals=[value for value in strings if "runs/" in value],
                              disposition="Retained in place; historical preparation and diagnostics remain available.",
                              borrowed_functions=borrowed.get(relative, []),
                              replacement=("Selected functions borrowed unchanged: " + ", ".join(borrowed[relative])
@@ -71,13 +74,14 @@ def main():
                   "Imports/reused functions: " + "; ".join(f"`{f}`" for f in row["imports"]),
                   "Constants: " + "; ".join(f"`{k}={v}`" for k, v in row["constants"].items()),
                   "Input/output file references: " + "; ".join(f"`{s}`" for s in row["input_output_literals"]),
+                  "Direct run path literals: " + "; ".join(f"`{s}`" for s in row["direct_run_path_literals"]),
                   "Related saved experiments (dataset-level): " + ", ".join(row["related_saved_runs"]), ""]
     (docs / "legacy_inventory.md").write_text("\n".join(lines)+"\n", encoding="utf8")
     count = 0
     with (docs / "legacy_artifacts.csv").open("w", newline="", encoding="utf8") as stream:
         writer = csv.writer(stream)
         writer.writerow(["path", "extension", "bytes"])
-        for folder in ("runs", "report", "visualizations", "configs", "examples/data"):
+        for folder in ("runs", "report", "reports", "visualizations", "configs", "examples/data", "artifacts", "outputs", "logs"):
             for path in sorted((ROOT / folder).rglob("*")):
                 if "__pycache__" in path.parts:
                     continue

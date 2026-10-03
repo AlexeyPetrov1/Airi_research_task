@@ -21,6 +21,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -74,6 +75,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/fmb_ablation_prompt_analysis_v1"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -131,6 +135,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -186,6 +193,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -201,6 +211,7 @@
       "gt_2d.npy",
       "points_2d_at_t0.npy",
       "prediction_15hz.npy",
+      "raw_model_output.txt",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126",
       "temporal_forecast_diagnostic.json"
     ],
@@ -239,6 +250,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -252,7 +266,9 @@
     "input_output_literals": [
       "/160",
       "annotation_repeatability.json",
+      "coverage.png",
       "gt_2d.npy",
+      "gt_all_future_frames.png",
       "gt_dense_flow_alternative.npy",
       "gt_tracking_diagnostics.json",
       "input_freeze.json",
@@ -310,6 +326,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -321,6 +340,7 @@
     "dataset": "fmb",
     "purpose": "Measure raw depth validity inside the yellow peg's visible interior.",
     "input_output_literals": [
+      ".png",
       "candidate_depth_roi.json",
       "data/fmb/single_object_manipulation_dataset/1_L_L_4_vertical_n_0.npy",
       "obs/",
@@ -363,6 +383,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -379,7 +402,8 @@
       "compressed_video_h264.mp4",
       "dobbe_3651_recovered_audit.json",
       "labels.json",
-      "lerobot_episode_003651.mp4"
+      "lerobot_episode_003651.mp4",
+      "lerobot_episode_003651.parquet"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -410,6 +434,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -465,6 +490,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -477,6 +505,8 @@
     "purpose": "Verify frozen controls against actual SQLite databases and sparse models.",
     "input_output_literals": [
       ".json",
+      ".png",
+      ".png.png",
       "audit.json",
       "causal/oracle split",
       "causal_geometry_validation.json",
@@ -515,6 +545,10 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history/input_freeze.json",
+      "runs/dobbe_rgbd_study/approx_history/points_3d_history_candidate.npy"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -529,6 +563,7 @@
       "Drawer_Closing/Home10/Env2/2022-12-22--00-09-08",
       "compressed_video_h264.mp4",
       "dobbe_rgbd_sample_audit.json",
+      "dobbe_rgbd_sample_frame0.png",
       "labels.json"
     ],
     "constants": {
@@ -555,6 +590,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -616,6 +652,10 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study",
+      "runs/plex_dobbe_preflight/dobbe_3651_rgbd_receipt.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -628,7 +668,9 @@
     "purpose": "Independent causal SIFT checks separate geometry from background-tracker errors.",
     "input_output_literals": [
       ".npz",
+      ".png",
       "SIFT mutual Lowe .7; fundamental RANSAC 1px; t0 background mask; depth/c2w not used for match selection",
+      "background_mask_t0.png",
       "geometry_all.npz",
       "independent_static_sift.json",
       "protocol.json"
@@ -653,6 +695,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -707,6 +750,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -718,6 +762,7 @@
     "dataset": "fmb",
     "purpose": "Audit the ShareRobot FMB episode against the selected public RLDS record.",
     "input_output_literals": [
+      ".png",
       "/",
       "/affordance/affordance.json",
       "/dataset_info.json",
@@ -748,6 +793,7 @@
       "https://storage.googleapis.com/gresearch/robotics/fmb/0.0.1",
       "insert_only_1_M_L_3_vertical_n_2.npy",
       "lerobot/fmb episode_5201",
+      "mapping_contact_sheet.png",
       "metrics.json",
       "obs/side_1",
       "obs/side_1_depth",
@@ -811,6 +857,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -865,6 +912,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -880,13 +928,20 @@
       "cad_dimension_check.json",
       "cad_silhouette_prediction_comparison.json",
       "calibration_sensitivity.csv",
+      "calibration_sensitivity.png",
+      "coverage.png",
       "current_state.json",
       "error_by_time.csv",
+      "error_vs_time.png",
       "evaluation_time_10hz_s.npy",
       "experiment_config.json",
+      "future_frames_predictions_gt.png",
+      "future_trajectory_overlay.png",
       "geometry_prediction_comparison.json",
       "gt_2d.npy",
+      "history_8_points.png",
       "history_depth_probe.json",
+      "history_depth_quality.png",
       "history_pnp_3d.npy",
       "history_points_2d.npy",
       "history_sensor_3d.npy",
@@ -904,10 +959,12 @@
       "prediction_15hz.npy",
       "prediction_time_15hz_s.npy",
       "preflight.json",
+      "raw_model_output.txt",
       "reason_mask.npy",
       "rigidity_check.json",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126",
       "sensor_vs_pnp.json",
+      "sensor_vs_pnp_3d.png",
       "temporal_forecast_diagnostic.json",
       "validity_mask.npy",
       "visual_review.json",
@@ -952,6 +1009,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -970,6 +1030,7 @@
       "data/fmb/single_object_manipulation_dataset/1_M_L_3_vertical_n_2.npy",
       "data/fmb_second_scene",
       "data_audit.json",
+      "frame_*.png",
       "metadata.json",
       "obs/",
       "obs/dq",
@@ -1026,6 +1087,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1039,6 +1103,7 @@
     "input_output_literals": [
       "evaluation.json",
       "forecast_comparison.mp4",
+      "forecast_comparison_overview.png",
       "forecast_vs_observed.mp4",
       "geometry_bundle_v1/history_clouds_common_axes.png",
       "geometry_bundle_v1/manifest.json",
@@ -1063,6 +1128,7 @@
       "prediction_15hz.npy",
       "prediction_15hz_model_order.npy",
       "prediction_2d.npy",
+      "raw_model_output.txt",
       "report/fmb_geometry_forecast_study.md",
       "rigid_correction_v1/evaluation.json",
       "runs/fmb_ablation_conclusions_v1/paired_effects.csv",
@@ -1111,6 +1177,14 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_ablation_conclusions_v1/paired_effects.csv",
+      "runs/fmb_ablation_suite_v1_summary.csv",
+      "runs/fmb_depth_k_factorial_v1/comparison.csv",
+      "runs/fmb_geometry_forecast_comparison_v1/comparison.csv",
+      "runs/fmb_gt_sensitivity_v1/comparison.csv",
+      "runs/fmb_study_audit.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1122,6 +1196,7 @@
     "dataset": "shared",
     "purpose": "Recover Cereal free-joint poses directly from recorded PLEX qpos states.",
     "input_output_literals": [
+      "PickPlaceCereal_demo_act_norm.hdf5",
       "plex_cereal_state_geometry.json"
     ],
     "constants": {
@@ -1143,6 +1218,7 @@
       "import numpy as np"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1161,11 +1237,17 @@
       "/trajectory/images/",
       "/trajectory/trajectory.json",
       "BLOCKED/PARTIAL",
+      "config.yaml",
+      "frame_0.png",
+      "frame_15.png",
       "https://functional-manipulation-benchmark.github.io/static/files/side_1",
       "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/",
       "https://huggingface.co/datasets/lerobot/fmb/resolve/",
       "https://rail.eecs.berkeley.edu/datasets/fmb/single_object_manipulation.zip",
-      "preflight.json"
+      "preflight.json",
+      "reserve_fmb_episode_5201_frame_0.png",
+      "reserve_fmb_episode_5201_frame_15.png",
+      "sharerobot_frame_15.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -1191,6 +1273,7 @@
       "from PIL import Image"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1203,6 +1286,7 @@
     "purpose": "Shared-scale and camera-up controls on frozen, genuine CASE-AUGE forecasts.",
     "input_output_literals": [
       "*.mp4",
+      ".jpg",
       ".mp4",
       "/future_3d.npy",
       "/point_ids.npy",
@@ -1211,7 +1295,10 @@
       "All 24 immutable point IDs\nGreen: future tracker reference\nBlue/orange/pink: P8 groups\nSame camera and parameters in both scenes\nNo future fitting of parameters\nFull extent; no curve clipping",
       "Cup root predictions/point_ids.npy has pilot-only P8 IDs; all 24 observed IDs independently validated against three group inputs and outputs",
       "K.npy",
+      "_all10_decoded.jpg",
+      "_contact.png",
       "aligned_3d.npz",
+      "all24_candidate_grid.png",
       "comparison.json",
       "full_30_steps.npz",
       "generation_receipt.json",
@@ -1279,6 +1366,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_arc_expansion_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "expand",
@@ -1327,6 +1417,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "temporal_expand"
@@ -1351,6 +1442,7 @@
       "Use the delayed small expansion to demonstrate the requested shape change; retain original x1/3 and CV as accuracy controls.",
       "[Полный понятный разбор процесса и выводов](research_story.md) · [Визуальная оценка](visual_review.json) · [Выбранные массивы и параметры](selected/metadata.json).",
       "[Предыдущее исследование и источник настоящих модельных прогнозов](../berkeley_ur5_improvement_v1/research_story.md).",
+      "all24_comparison.png",
       "alpha(t)=1/3+(0.36-1/3)*smoothstep(clamp(t-1,0,1)); Y-=0.005*same_smoothstep",
       "both all24_candidate_grid.png; all 11 constant/lift candidates",
       "bottle/controls_group_00..02",
@@ -1398,6 +1490,10 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "python scripts/berkeley_arc_expansion.py --stage generate --output-dir runs/berkeley_arc_repeat",
+      "python scripts/berkeley_arc_phase.py --parent-run runs/berkeley_arc_repeat"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1410,6 +1506,7 @@
     "purpose": "Verify the full amplitude/phase experiment independently from its renderer.",
     "input_output_literals": [
       "*.mp4",
+      ".jpg",
       "K.npy",
       "Verify the full amplitude/phase experiment independently from its renderer.",
       "final_verification.json",
@@ -1448,6 +1545,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1463,6 +1561,7 @@
       "/all24_baselines.png).",
       "/baselines_group_",
       ": all 24 frozen IDs; green=reference; blue/orange/pink=P8 groups",
+      "all24_baselines.png",
       "baseline_comparison/",
       "comparison.json",
       "geometry/K_median.npy",
@@ -1499,6 +1598,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "scores",
@@ -1540,6 +1640,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1552,6 +1655,7 @@
     "purpose": "Data-only native RGB-D and selection audit, independent of model outputs.",
     "input_output_literals": [
       ".npy",
+      ".png",
       "candidates_all.json",
       "https://github.com/yunliangchen/ur5bc/blob/a4285610da52cb30215951c7ac37454fcfae01c8/ur5/robot_env.py",
       "observed/mask.png",
@@ -1581,6 +1685,9 @@
       "berkeley_ur5_molmomotion",
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
+    ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_molmomotion"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -1617,6 +1724,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1629,6 +1737,7 @@
     "purpose": "Bounded, reproducible Berkeley UR5 candidate retrieval (no depth-video use).",
     "input_output_literals": [
       ".mp4",
+      ".parquet",
       "/",
       "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes",
       "candidates_all.json",
@@ -1663,6 +1772,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1703,6 +1813,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_molmomotion"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1716,6 +1829,8 @@
     "input_output_literals": [
       ".mp4",
       ".npy",
+      ".parquet",
+      ".png",
       "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes",
       "_receipt.json",
       "data/chunk-000/episode_",
@@ -1758,6 +1873,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_molmomotion"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1769,6 +1887,8 @@
     "dataset": "berkeley",
     "purpose": "berkeley_data_inspect.py",
     "input_output_literals": [
+      "*.parquet",
+      ".jpg",
       ".mp4",
       "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes",
       "candidate_gripper_events.json",
@@ -1802,6 +1922,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1813,10 +1934,13 @@
     "dataset": "berkeley",
     "purpose": "Bounded TFRecord retrieval and exact RGB/state identity audit.",
     "input_output_literals": [
+      ".jpg",
       ".mp4",
+      ".png",
       "/image",
       "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes",
       "Bounded TFRecord retrieval and exact RGB/state identity audit.",
+      "_first.png",
       "_frames/frame_",
       "_summary.json",
       "https://huggingface.co/datasets/lerobot-raw/berkeley_autolab_ur5_raw/resolve/d2590280290484e2a7eb53a91bba32ac2ff669a0/",
@@ -1846,6 +1970,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1857,6 +1982,7 @@
     "dataset": "berkeley",
     "purpose": "berkeley_data_states.py",
     "input_output_literals": [
+      ".parquet",
       "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes",
       "data/chunk-000/episode_",
       "detailed_states.json"
@@ -1878,6 +2004,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -1893,7 +2020,9 @@
       ".json",
       ".npy",
       ".npz",
+      ".png",
       ".pt",
+      ".txt",
       "/",
       "5x5 median of finite native metric depth with 0<Z<10 m; >=max(3,ceil(patch_area/2)) valid samples (13/25 for full patch)",
       "Berkeley history uses real 5 FPS frames; MolmoMotion training/inference forecast is 15 FPS.",
@@ -1905,6 +2034,8 @@
       "RGB/prediction dimensions disagree",
       "Source metadata and saved timestamps/indices disagree: ",
       "data_generation/third_party/alltracker",
+      "depth_t0.png",
+      "error_by_time.png",
       "evaluation/alltracker_execution.json",
       "evaluation/error_by_horizon.csv",
       "evaluation/evaluation_results.npz",
@@ -1919,6 +2050,7 @@
       "evaluation/rgb.npy",
       "evaluation/source_indices.npy",
       "evaluation/timestamps.npy",
+      "final_overlay_t0.png",
       "geometry/K_median.npy",
       "geometry/K_per_frame.npy",
       "geometry/camera_motion_audit.json",
@@ -1926,7 +2058,10 @@
       "geometry/depth_source.json",
       "geometry/filter_metadata.json",
       "geometry/intrinsics_stability.json",
+      "history_contact_sheet.png",
       "intrinsics_stability.json",
+      "intrinsics_stability.png",
+      "mask_and_100_queries.png",
       "metadata.json",
       "metrics.json",
       "observed/grounding_metadata.json",
@@ -1944,7 +2079,11 @@
       "predictions/model_run.json",
       "predictions/prediction_15hz.npy",
       "s | GT green / prediction pink X",
+      "selected_24_points.png",
       "side_by_side.mp4",
+      "trajectory_2d_full_extent.png",
+      "trajectory_3d.png",
+      "visibility_coverage.png",
       "visualization_manifest.json"
     ],
     "constants": {
@@ -1995,6 +2134,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "project",
@@ -2047,6 +2187,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2087,6 +2228,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2158,6 +2300,10 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1",
+      "runs/berkeley_ur5_molmomotion"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2194,6 +2340,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2208,6 +2355,7 @@
       "<tracks coords=\"([^\"]+)\">[^<]*</tracks>\\s*",
       "Incomplete output or anchor/text disagreement",
       "allenai/MolmoMotion-4B-H",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H1-F32",
       "future_3d.npy",
       "geometry/K_median.npy",
@@ -2226,7 +2374,8 @@
       "predictions/group_00/future_3d.npy",
       "predictions/model_run.json",
       "predictions/point_ids.npy",
-      "processor_inputs.pt"
+      "processor_inputs.pt",
+      "raw_model_output.txt"
     ],
     "constants": {
       "EXECUTED_SCRIPT_BYTES": "Path(__file__).read_bytes()",
@@ -2262,6 +2411,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2296,6 +2446,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2363,6 +2514,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2402,6 +2554,9 @@
       "berkeley_ur5_molmomotion",
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
+    ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_molmomotion"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -2445,6 +2600,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2480,6 +2638,9 @@
       "berkeley_ur5_molmomotion",
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
+    ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -2535,6 +2696,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1/sources"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2547,12 +2711,14 @@
     "purpose": "Independent CPU audit of local evidence; Git publication is checked separately.",
     "input_output_literals": [
       "*comparison.mp4",
+      ".jpg",
       "/",
       "/future_3d.npy",
       "/points_3d_history.npy",
       "<tracks coords=\"([^\"]+)\">[^<]*</tracks>\\s*",
       "CASE-*/**/predictions/group_*/model_run.json",
       "Missing/duplicate point",
+      "_all10_corrected.jpg",
       "displacement_one_third_full_3d.npy",
       "final_verification.json",
       "fixed_comparison.mp4",
@@ -2571,6 +2737,7 @@
       "predictions/model_run.json",
       "progress_verification.json",
       "protocol.json",
+      "raw_model_output.txt",
       "runs/berkeley_ur5_improvement_v1",
       "runs/berkeley_ur5_molmomotion",
       "share_extract_*.json",
@@ -2599,6 +2766,10 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1",
+      "runs/berkeley_ur5_molmomotion"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2614,6 +2785,7 @@
       "Observed inputs or action/t0/history identity changed after freezing",
       "Saved output fails strict text/anchor reconstruction; cannot recover",
       "allenai/MolmoMotion-4B-H3-F30",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "future_3d.npy",
       "geometry/input_audit.json",
@@ -2627,7 +2799,8 @@
       "points_3d_history.npy",
       "prediction.npz",
       "predictions/input_freeze.json",
-      "processor_inputs.pt"
+      "processor_inputs.pt",
+      "raw_model_output.txt"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -2668,6 +2841,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2692,6 +2866,7 @@
       "grounding_metadata.json",
       "history_rgb.npy",
       "history_source_indices.npy",
+      "mask.png",
       "metadata.json",
       "native_depth.npy",
       "observed_tracks_2d.npz",
@@ -2722,6 +2897,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2735,6 +2911,7 @@
     "input_output_literals": [
       ".cache/huggingface/download/model.safetensors.metadata",
       ".cache/torch/hub/checkpoints/alltracker.pth",
+      ".png",
       "Berkeley real H3 at 5 Hz (-0.4,-0.2,0s), versus MolmoMotion training 15 Hz; no frame interpolation/duplication",
       "Invalid target mask shape/area: ",
       "Observed-only sparse background optical flow with forward/backward check.",
@@ -2840,6 +3017,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2882,6 +3060,7 @@
       "$PY scripts/berkeley_video_audit.py --scene-dir \"$RUN/cup\" \"$RUN/bottle\"",
       "- SAM3 weights вернули HTTP 403 / GatedRepo. По явному выбору пользователя применён официальный Meta SAM2.1 Hiera-Large, prompted настоящим MolmoPoint. ",
       ".mp4",
+      ".png",
       "/",
       "Build the final Berkeley report strictly from completed experimental artifacts.\n\nThis command never modifies observed/, geometry/, groups/, or predictions/.\nIt refuses missing final metrics, uncompleted inference, and existing reports.\n",
       "Focal range / median: **",
@@ -2911,6 +3090,8 @@
       "grounding_availability.json",
       "metadata.json",
       "metrics.json",
+      "native_alignment_bottle.png",
+      "native_alignment_cup.png",
       "native_observed_receipt.json",
       "observed/alltracker_execution.json",
       "observed/grounding_metadata.json",
@@ -2926,10 +3107,12 @@
       "predictions/future_3d.npy",
       "predictions/model_run.json",
       "predictions/prediction.npz",
+      "raw_model_output.txt",
       "runs/berkeley_ur5_molmomotion",
       "selection_and_depth_audit.json",
       "summary.json",
       "verification.json",
+      "video_audit.png",
       "visual_review.json",
       "| Group | Parse status | Shape | Prediction, s | Peak allocated GPU, GiB | Raw output / arrays |",
       "| Сцена | Episode | t0, кадр / с | Points / chunks | Prediction | ADE 2D, px | FDE 2D, px | Coverage 2D | ADE 3D_est, м | FDE 3D_est, м |"
@@ -2969,6 +3152,10 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "RUN=$(mktemp -d runs/berkeley_ur5_reproduce_XXXXXX)",
+      "runs/berkeley_ur5_molmomotion"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -2982,6 +3169,8 @@
     "input_output_literals": [
       ".mp4",
       ".npy",
+      ".parquet",
+      ".png",
       "Data quality only; episode/t0 screening precedes predictions. Future screening used only to select episode/t0, never to form model inputs.",
       "Printed motif gives visible texture for persistent points; exposed cup separated from brown cup; ep4 initial overlap, ep7/12 plain sides.",
       "White bottle body exposed through lift; ep2/5/6 have substantially stronger gripper occlusion of body.",
@@ -3035,6 +3224,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_molmomotion"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3078,6 +3270,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1/sources"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3090,9 +3285,11 @@
     "purpose": "Extract only exact Berkeley targets from a bounded, pinned gzip range.",
     "input_output_literals": [
       ".json",
+      ".png",
       "/",
       "/43_berkeley_autolab_ur5#episode_(9|10)/frame_(\\d+)\\.png$",
       "Truncated/trailing PNG",
+      "frame_*.png",
       "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/",
       "planning/images/rt_frames_success.tar.gz.part.",
       "sharerobot_metadata.json"
@@ -3118,6 +3315,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3135,6 +3333,7 @@
       "Evidence for ShareRobot sequence mapping; bounded image/archive access probe.",
       "Matching ShareRobot IDs/instructions do not prove RGB or temporal mapping. Pixel correspondence remains to be established.",
       "Retrieve ShareRobot frames for these exact sequences and match to native/LeRobot episode frames by pixels.",
+      "_frame_0.png",
       "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/",
       "planning/images/rt_frames_success.tar.gz.part.aa",
       "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_",
@@ -3165,6 +3364,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1/sources"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3178,6 +3380,7 @@
     "input_output_literals": [
       "#episode_10/",
       "#episode_9/",
+      ".parquet",
       "https://huggingface.co/api/datasets/",
       "runs/berkeley_ur5_improvement_v1/sources",
       "sharerobot_archive_headers.json",
@@ -3203,6 +3406,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1/sources"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3215,8 +3421,10 @@
     "purpose": "Prove ShareRobot target sequence identity against the original RLDS RGB.",
     "input_output_literals": [
       "../../berkeley_ur5_molmomotion/sources/native_observed_receipt.json",
+      ".png",
       "ShareRobot planning retains 30 sampled frames over the whole episode, not the dense 5 FPS model history or future. Model inputs remain the original verified native/LeRobot stream; mapping does not substitute sparse ShareRobot frames into H3.",
       "data/berkeley_ur5_two_scenes",
+      "frame_*.png",
       "https://github.com/FlagOpen/ShareRobot/issues/4#issuecomment-3094378733",
       "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_",
       "runs/berkeley_ur5_improvement_v1/sources",
@@ -3250,6 +3458,10 @@
       "berkeley_ur5_molmomotion",
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
+    ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1/sources",
+      "runs/berkeley_ur5_molmomotion"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -3295,6 +3507,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1/sources"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3339,6 +3554,9 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1/sources"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3354,7 +3572,12 @@
       "Fixed 1/3 diagnostics must precede oracle fitting",
       "H3 speed (m/s)",
       "Raw/smoothed direction cosine",
+      "_3d.png",
       "_comparison.mp4",
+      "_contact_sheet.png",
+      "_error_by_time.png",
+      "_final_overlay.png",
+      "_full_extent.png",
       "_immutability_check.json",
       "_render_receipt.json",
       "displacement_one_third_full_3d.npy",
@@ -3376,7 +3599,8 @@
       "protocol.json",
       "runs/berkeley_ur5_improvement_v1",
       "runs/berkeley_ur5_molmomotion",
-      "smoothing_velocity.json"
+      "smoothing_velocity.json",
+      "smoothing_velocity.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -3414,6 +3638,10 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_improvement_v1",
+      "runs/berkeley_ur5_molmomotion"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "scale_displacement"
@@ -3428,6 +3656,7 @@
     "purpose": "Independent artifact/content audit of the completed two-scene experiment.",
     "input_output_literals": [
       ".mp4",
+      ".png",
       "Independent artifact/content audit of the completed two-scene experiment.",
       "allenai/MolmoPoint-Vid-4B",
       "evaluation/evaluation_results.npz",
@@ -3447,6 +3676,7 @@
       "predictions/future_3d.npy",
       "predictions/input_freeze.json",
       "predictions/model_run.json",
+      "raw_model_output.txt",
       "runs/berkeley_ur5_molmomotion",
       "sam2.1_hiera_large.pt",
       "verification.json"
@@ -3474,6 +3704,9 @@
       "berkeley_ur5_molmomotion",
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
+    ],
+    "direct_run_path_literals": [
+      "runs/berkeley_ur5_molmomotion"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -3509,6 +3742,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3521,6 +3755,7 @@
     "purpose": "Show all 24 frozen points at common full plot bounds, colored by P8 group.",
     "input_output_literals": [
       " | own-point displacement x1/3",
+      ".png",
       ": all 24 IDs, all 30 model steps; blue/orange/pink = P8 groups; green = tracked future",
       "all24_visual_manifest.json",
       "geometry/K_median.npy",
@@ -3550,6 +3785,7 @@
       "fmb_v2_berkeley_matched",
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3603,6 +3839,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3615,6 +3852,7 @@
     "purpose": "Render two distinct evidence-backed motion figures and their MP4 companions.",
     "input_output_literals": [
       ".mp4",
+      ".png",
       "/3  ·  frame ",
       "/3 · frame ",
       "/60",
@@ -3646,10 +3884,15 @@
       "data/fmb",
       "data/fmb_provenance.json",
       "dobbe_two_colmap_molmo_comparison.mp4",
+      "dobbe_two_colmap_molmo_comparison_summary.png",
       "episode_3651 · Home15 · same RGB / 8 IDs / HoNY depth / Dobb·E poses / action / checkpoint / seed",
       "existing image-derived ECC RGB proxy, 160/160",
       "experiment_config.json",
       "fmb_prediction_vs_reality.mp4",
+      "fmb_prediction_vs_reality_summary.png",
+      "frame_124.png",
+      "frame_125.png",
+      "frame_126.png",
       "geometry_audit.json",
       "gt_2d.npy",
       "history.npy",
@@ -3675,6 +3918,7 @@
       "prediction_2d.npy",
       "projected_forecast_30hz.npy",
       "protocol.json",
+      "raw_model_output.txt",
       "reconstruction.json",
       "rgb_tracking.json",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126",
@@ -3742,6 +3986,9 @@
       "from validate_dobbe_geometry import CAMERA_TO_LABEL"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3787,6 +4034,7 @@
       "from tqdm import tqdm"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3853,6 +4101,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3910,6 +4159,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -3970,6 +4220,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4039,6 +4290,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4095,6 +4349,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4136,6 +4391,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4166,6 +4422,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4178,6 +4435,7 @@
     "purpose": "Test the published 256x256 RGB ↔ 256x192 depth mapping on past frames.",
     "input_output_literals": [
       ".tools/lzfse",
+      "_depth_edge_overlay.jpg",
       "compressed_video_h264.mp4",
       "data/dobbe_oxe",
       "rgb_depth_alignment.json",
@@ -4210,6 +4468,9 @@
       "dobbe_two_colmap_v1",
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
+    ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -4261,6 +4522,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4316,6 +4578,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4368,6 +4631,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -4429,6 +4695,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4442,6 +4711,7 @@
     "input_output_literals": [
       "data/fmb/single_object_manipulation_dataset/1_M_L_3_horizontal_n_4.npy",
       "horizontal_peg_segmentation_stability.json",
+      "horizontal_peg_segmentation_thresholds.png",
       "molmo-motion/runs/fmb_effective_k_256_calibration",
       "obs/side_1"
     ],
@@ -4486,6 +4756,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4500,6 +4773,7 @@
       "model_run.json",
       "nominal_repeatability.json",
       "prediction_15hz.npy",
+      "raw_model_output.txt",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126",
       "variants/nominal_repeat"
     ],
@@ -4539,6 +4813,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4553,7 +4830,8 @@
       "1_M_L_3_vertical_n_2.npy",
       "obs/side_1",
       "obs/side_1_depth",
-      "rgb_depth_alignment_check.json"
+      "rgb_depth_alignment_check.json",
+      "rgb_depth_alignment_edges.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -4594,6 +4872,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4607,7 +4886,8 @@
     "input_output_literals": [
       "1_M_L_3_vertical_n_2.npy",
       "four_camera_sampling_check.json",
-      "obs/"
+      "obs/",
+      "reserve_fmb_episode_5201_frame_*.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -4647,6 +4927,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4702,6 +4983,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4738,6 +5020,7 @@
       "from molmo_motion import MolmoMotion, MolmoMotionProcessor"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4749,6 +5032,7 @@
     "dataset": "shared",
     "purpose": "Checks real calibration provenance and geometry without touching inference.",
     "input_output_literals": [
+      ".png",
       "22 automatic feature correspondences, depth-Z/ray ambiguity and uncertain labels; do not treat a smaller diagnostic error as certification",
       "Geometry audit PASS; external depth/labels diagnostics saved",
       "K.npy",
@@ -4775,6 +5059,9 @@
       "from validate_dobbe_geometry import CAMERA_TO_LABEL, evaluate"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [
+      "runs/dobbe_colmap_clean_rerun_v1/causal_validation_correspondences.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4786,16 +5073,19 @@
     "dataset": "dobbe",
     "purpose": "Collect the small reviewable experiment artifacts, without raw data or weights.",
     "input_output_literals": [
+      ".png",
       "/",
       "ablation_input_audit.json",
       "ablation_input_audit_initial.json",
       "alltracker_execution.json",
       "c2w_t0.npy",
+      "camera_diagnostics.png",
       "causal_tracks.mp4",
       "control_protocol.json",
       "data_generation/third_party/alltracker/nets/alltracker.py",
       "data_generation/third_party/alltracker/nets/blocks.py",
       "data_generation/third_party/vipe/track-filter-smooth.py",
+      "environment.freeze.txt",
       "evaluation/alltracker_execution.json",
       "evaluation/conditional_error_over_time.png",
       "evaluation/conditional_projection.npz",
@@ -4804,8 +5094,10 @@
       "evaluation/future_overlay.mp4",
       "evaluation/metrics.json",
       "evaluation/observed_future_tracks.npz",
+      "forecast_3d.png",
       "frame_map.json",
       "frames/",
+      "geometry_diagnostics.png",
       "geometry_gate.json",
       "hybrid_alignment_review.json",
       "implementation_checks.json",
@@ -4813,7 +5105,9 @@
       "input_freeze.json",
       "manifest.json",
       "mask_annotation.json",
+      "mask_t0.png",
       "model_run.json",
+      "paired_depth_comparison.png",
       "paired_forecast_summary.json",
       "paired_selection_audit.json",
       "paired_selection_protocol.json",
@@ -4825,7 +5119,9 @@
       "processor_equivalence.json",
       "protocol.json",
       "protocol_action_correction.json",
+      "query_overlay.png",
       "query_points.npz",
+      "raw_model_output.txt",
       "rejected_sensor_queries/*/*",
       "report/dobbe_vipe_results",
       "scripts/*dobbe_vipe*",
@@ -4857,6 +5153,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4927,6 +5224,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -4942,6 +5240,7 @@
       "comparison.csv",
       "comparison.json",
       "evaluation.json",
+      "factorial.png",
       "metrics.json",
       "runs/fmb_depth_k_factorial_v1"
     ],
@@ -4979,6 +5278,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/fmb_depth_k_factorial_v1"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -5047,6 +5349,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5060,6 +5363,7 @@
     "input_output_literals": [
       "Planar RGB tracked correspondences are weak: frame 124 PnP implies large rotation/motion inconsistent with robot TCP; diagnostic stress case.",
       "_comparison.json",
+      "_disagreement.png",
       "_disagreement_by_time.csv",
       "experiment_config.json",
       "gt_2d.npy",
@@ -5114,6 +5418,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5129,6 +5436,7 @@
       "baseline_stationary_2d.npy",
       "comparison.csv",
       "comparison.json",
+      "comparison.png",
       "gt_2d.npy",
       "gt_dense_flow_alternative.npy",
       "k_nominal.json",
@@ -5173,6 +5481,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/fmb_gt_sensitivity_v1"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -5238,6 +5549,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5293,6 +5607,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5328,6 +5645,7 @@
       "sensor_vs_cad_silhouette_tcp.json",
       "two_trial_comparison.csv",
       "two_trial_comparison.json",
+      "two_trial_comparison.png",
       "validity_mask.npy"
     ],
     "constants": {
@@ -5371,6 +5689,10 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_example_1_M_L_3_vertical_n_3",
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5383,6 +5705,8 @@
     "purpose": "Run the supplied F2-NeRF COLMAP converter on the RGB-only control scene.",
     "input_output_literals": [
       "cams_meta.npy",
+      "converter.stderr.log",
+      "converter.stdout.log",
       "receipt.json",
       "runs/dobbe_rgbd_study",
       "second/colmap_pinhole_all_fixedpp_init62_107",
@@ -5418,6 +5742,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5429,6 +5756,8 @@
     "dataset": "dobbe",
     "purpose": "Clean RGB-only COLMAP controls; oracle and causal outputs stay separate.",
     "input_output_literals": [
+      ".png",
+      ".png.png",
       "Conservative apparatus/hand corridors and RGB red cup; imperfect foreground mask, not learned segmentation",
       "Oracle intrinsics, poses and graph cannot initialize/select causal models",
       "clean_protocol.json",
@@ -5437,6 +5766,8 @@
       "images/main",
       "images/main/",
       "mask_policy_frozen.json",
+      "mask_review_causal.jpg",
+      "mask_review_oracle.jpg",
       "masks/main",
       "masks/main/",
       "match_graph.json",
@@ -5486,6 +5817,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_colmap_clean_rerun_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5497,20 +5831,31 @@
     "dataset": "dobbe",
     "purpose": "Prepare and inspect official automatic_reconstructor outputs, without fitting K.",
     "input_output_literals": [
+      "%06d.png",
+      "*.png",
+      ".png",
+      ".png.png",
+      ".txt",
       "22 automatic RGB matches, not manually certified static landmarks; Z/ray unresolved",
       "Not accepted: largest causal model reprojection on fixed 22 measured-depth/labels correspondences is worse than diagnostic baseline",
       "audit.json",
+      "cameras.txt",
+      "causal_sparse_observations.png",
+      "colmap.log",
       "compressed_video_h264.mp4",
       "data/dobbe_oxe/target_raw",
       "decision.json",
       "execution.json",
       "experiment_results.csv",
+      "images.txt",
       "label_motion_audit.json",
       "labels.json",
       "match_graph.json",
       "match_images.csv",
       "match_pairs.csv",
+      "points3D.txt",
       "protocol.json",
+      "registered_frame_coverage.png",
       "runs/dobbe_colmap_clean_rerun_v1/causal_validation_correspondences.json",
       "runs/dobbe_colmap_clean_rerun_v1/mask_policy_frozen.json",
       "runs/dobbe_colmap_clean_rerun_v1/masks/main",
@@ -5518,8 +5863,10 @@
       "runs/dobbe_colmap_official_v1",
       "summary.json",
       "trajectory.csv",
+      "trajectory_alignment.png",
       "u_d=u_cv; v_d=(v_cv+0.5)*192/256-0.5",
-      "validation_sources.json"
+      "validation_sources.json",
+      "verified_match_graphs.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -5572,6 +5919,13 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_colmap_clean_rerun_v1/causal_validation_correspondences.json",
+      "runs/dobbe_colmap_clean_rerun_v1/mask_policy_frozen.json",
+      "runs/dobbe_colmap_clean_rerun_v1/masks/main",
+      "runs/dobbe_colmap_clean_rerun_v1/masks/main/",
+      "runs/dobbe_colmap_official_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5583,12 +5937,15 @@
     "dataset": "dobbe",
     "purpose": "A sealed K-only MolmoMotion comparison, using two RGB-only COLMAP pipelines.",
     "input_output_literals": [
+      "*.png",
+      ".png",
       "A/B inference complete; all non-geometry inputs identical",
       "Freeze method selection before seeing the new B reconstruction/forecasts.",
       "K.npy",
       "Pick_and_Place/Home15/Env1/2023-04-25--02-05-30",
       "compressed_video_h264.mp4",
       "config.json",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "data/dobbe_oxe/target_raw",
       "history.npy",
@@ -5610,6 +5967,7 @@
       "poses_c2w.npy",
       "prediction.npy",
       "protocol.json",
+      "raw_model_output.txt",
       "reconstruction.json",
       "runs/dobbe_colmap_clean_rerun_v1/main_causal_pinhole_masked_stride1_all_dsp_affine_guided",
       "runs/dobbe_rgbd_study/approx_history",
@@ -5662,6 +6020,11 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_colmap_clean_rerun_v1/main_causal_pinhole_masked_stride1_all_dsp_affine_guided",
+      "runs/dobbe_rgbd_study/approx_history",
+      "runs/dobbe_two_colmap_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5674,14 +6037,18 @@
     "purpose": "Geometry I/O, diagnostics and selection; all arrays use causal ViPE indices.",
     "input_output_literals": [
       ".npz",
+      ".png",
       "Geometry I/O, diagnostics and selection; all arrays use causal ViPE indices.",
       "Incomplete/misaligned ViPE ",
       "Incomplete/misaligned ViPE depth IDs",
       "Tracking/ViPE frame identity mismatch",
+      "_camera.txt",
       "c2w_t0.npy",
+      "camera_diagnostics.png",
       "causal_tracks.mp4",
       "estimated camera trajectory X/Z",
       "geometry_all.npz",
+      "geometry_diagnostics.png",
       "geometry_gate.json",
       "measured_depth_prefix.npy",
       "points_2d_t0.npy",
@@ -5723,6 +6090,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "project",
@@ -5737,7 +6105,10 @@
     "dataset": "dobbe",
     "purpose": "Sealed inference, processor equivalence and measured-depth ablation.",
     "input_output_literals": [
+      ".png",
       "c2w_t0.npy",
+      "config.yaml",
+      "forecast_3d.png",
       "geometry_all.npz",
       "geometry_gate.json",
       "hybrid_alignment_review.json",
@@ -5753,6 +6124,7 @@
       "prediction_parsed_visibility.npy",
       "processor_equivalence.json",
       "protocol.json",
+      "raw_model_output.txt",
       "runs/dobbe_rgbd_study/approx_history/points_2d_at_t0_candidate.npy",
       "tracks.npz"
     ],
@@ -5782,6 +6154,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history/points_2d_at_t0_candidate.npy"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5797,6 +6172,8 @@
       ".cache/torch",
       ".cache/torch/hub",
       ".cache/torch/hub/checkpoints/alltracker.pth",
+      ".log",
+      ".png",
       ".tools/lzfse",
       "/usr/local/cuda-12.8",
       "Causal RGB lossless encoding changed frame pixels/order",
@@ -5808,6 +6185,7 @@
       "_execution.json",
       "_failure.json",
       "alltracker_execution.json",
+      "background_mask_t0.png",
       "causal_15hz.mp4",
       "compressed_video_h264.mp4",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
@@ -5819,8 +6197,11 @@
       "https://huggingface.co/aharley/alltracker/resolve/main/alltracker.pth",
       "labels.json",
       "mask_annotation.json",
+      "mask_t0.png",
       "measured_depth_prefix.npy",
+      "observed_contact.jpg",
       "protocol.json",
+      "query_overlay.png",
       "query_points.npz",
       "runs/dobbe_rgbd_study/approx_history/points_2d_at_t0_candidate.npy",
       "runs/dobbe_vipe_v1",
@@ -5875,6 +6256,11 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history/points_2d_at_t0_candidate.npy",
+      "runs/dobbe_vipe_v1",
+      "runs/plex_dobbe_preflight/dobbe_rgbd_sample"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5928,6 +6314,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -5943,6 +6332,7 @@
       "dobbe_3651_lerobot_receipt.json",
       "https://huggingface.co/datasets/IPEC-COMMUNITY/dobbe_lerobot/resolve/main/",
       "lerobot_episode_003651.mp4",
+      "lerobot_episode_003651.parquet",
       "videos/chunk-003/observation.images.wrist_image/episode_003651.mp4"
     ],
     "constants": {
@@ -5971,6 +6361,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6016,6 +6407,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6072,6 +6464,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6106,6 +6499,7 @@
       "from inspect_remote_zip import HTTPRangeFile"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6117,6 +6511,7 @@
     "dataset": "davis",
     "purpose": "Evaluate and visualize the saved single-episode F30 prediction without GPU.",
     "input_output_literals": [
+      ".jpg",
       "/32",
       "<tracks coords=\"([^\"]+)\">[^<]*</tracks>\\s*",
       "Dequantized answer contains NaN/Inf",
@@ -6126,13 +6521,17 @@
       "correction_baseline_hashes.json",
       "correction_validation.json",
       "data/pointmotionbench/davis",
+      "error_vs_horizon.png",
       "examples/data/davis_bmx_trees",
       "frames/",
       "ground_truth.npz",
+      "input_history_points.png",
       "intrinsics_K.pt",
       "meta.json",
       "metrics.csv",
       "metrics.json",
+      "model_output_raw.txt",
+      "observed_and_future.png",
       "points_2d_at_t0.pt",
       "points_3d_history.pt",
       "prediction has NaN/Inf; cannot silently mask model omissions",
@@ -6140,7 +6539,9 @@
       "processor_inputs.pt",
       "projection_check.json",
       "real_continuation_gt.mp4",
-      "runs/author_davis_bmx_trees_f30"
+      "runs/author_davis_bmx_trees_f30",
+      "trajectory_comparison.png",
+      "video_decoded_check.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -6184,6 +6585,9 @@
       "author_davis_bmx_trees_f30",
       "author_davis_coordinate_audit"
     ],
+    "direct_run_path_literals": [
+      "runs/author_davis_bmx_trees_f30"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "metrics",
@@ -6203,9 +6607,11 @@
       "compressed_video_h264.mp4",
       "data/dobbe_oxe/target_raw",
       "future_3d_gt_candidate.npy",
+      "future_error_t.png",
       "future_evaluation.json",
       "future_gt_valid.npy",
       "future_rgb_uv.npy",
+      "future_tracking_review.jpg",
       "input_freeze.json",
       "labels.json",
       "manifest.json",
@@ -6213,6 +6619,7 @@
       "points_2d_at_t0_candidate.npy",
       "points_3d_history_candidate.npy",
       "prediction_15hz.npy",
+      "rgb_0098.png",
       "runs/dobbe_rgbd_study/approx_history"
     ],
     "constants": {
@@ -6247,6 +6654,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6264,9 +6674,11 @@
       "Pixel comparison is conditional on the published pose/basis and estimated K; future 2D tracking is model-derived, not manual GT.",
       "alltracker_execution.json",
       "compressed_video_h264.mp4",
+      "conditional_error_over_time.png",
       "conditional_projection.npz",
       "future_15hz.mp4",
       "future_access_receipt.json",
+      "future_comparison.png",
       "future_overlay.mp4",
       "geometry_all.npz",
       "geometry_gate.json",
@@ -6306,6 +6718,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6324,16 +6737,25 @@
       "baseline_constant_velocity_2d.npy",
       "baseline_stationary_2d.npy",
       "calibration_sensitivity.csv",
+      "calibration_sensitivity.png",
+      "coverage.png",
       "error_by_time.csv",
+      "error_vs_time.png",
       "evaluation_time_10hz_s.npy",
       "experiment_config.json",
+      "future_frames_predictions_gt.png",
+      "future_trajectory_extended_plane.png",
+      "future_trajectory_overlay.png",
       "gt_2d.npy",
       "gt_dense_flow_alternative.npy",
+      "history_8_points.png",
       "history_depth_probe.json",
+      "history_depth_quality.png",
       "history_pnp_3d.npy",
       "history_points_2d.npy",
       "history_sensor_3d.npy",
       "k_sensitivity_variants.json",
+      "mapping_contact_sheet.png",
       "metrics.csv",
       "metrics.json",
       "model_run.json",
@@ -6345,6 +6767,8 @@
       "prediction_time_15hz_s.npy",
       "projection_check.json",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126",
+      "sensor_vs_pnp_3d.png",
+      "share_to_fmb_mapping.png",
       "validity_mask.npy"
     ],
     "constants": {
@@ -6399,6 +6823,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6419,6 +6846,7 @@
       "history_sensor_3d.npy",
       "k_nominal.json",
       "prediction_15hz.npy",
+      "rigid_correction.png",
       "validity_mask.npy"
     ],
     "constants": {},
@@ -6460,6 +6888,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6523,6 +6952,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6536,6 +6966,7 @@
     "input_output_literals": [
       ".mp4",
       ".npy",
+      ".png",
       "1_L_L_4_vertical_n_0.npy",
       "data/fmb/single_object_manipulation_dataset",
       "data/fmb_second_scene",
@@ -6622,6 +7053,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6643,6 +7077,7 @@
       "metrics.csv",
       "metrics.json",
       "obs/side_1",
+      "point_time_error_heatmap.png",
       "points_2d_at_t0.npy",
       "prediction_15hz.npy",
       "runs/fmb_extended_2d_metrics_v1",
@@ -6684,6 +7119,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/fmb_extended_2d_metrics_v1"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -6739,6 +7177,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6778,6 +7217,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6810,6 +7250,7 @@
       "import requests"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6826,6 +7267,7 @@
       "/",
       "/mnt/d/code/robosuite/robosuite/models/assets/",
       "/robosuite/models/assets/",
+      "PickPlaceCereal_demo_act_norm.hdf5",
       "https://raw.githubusercontent.com/ARISE-Initiative/robosuite/",
       "plex_asset_receipt.json"
     ],
@@ -6856,6 +7298,7 @@
       "import h5py"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6921,6 +7364,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -6967,6 +7411,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7012,6 +7457,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7023,6 +7469,9 @@
     "dataset": "fmb",
     "purpose": "Official RGB-only COLMAP controls on two FMB episodes and two separate views.",
     "input_output_literals": [
+      "*.png",
+      ".png",
+      ".txt",
       "Approximate segmented CAD outline/hole features; depth registration, scale and color intrinsics not certified; K is frozen, only board pose fits RGB",
       "Diagnostics only, neither source depth/TCP nor nominal K is passed to COLMAP",
       "Fixed side camera has no camera-translation parallax; wrist and side K are camera specific; depth registration/scale and active color calibration are not independently certified",
@@ -7032,15 +7481,18 @@
       "_nominal_board_check.json",
       "audit.json",
       "camera_diagnostics.csv",
+      "colmap.log",
       "data/fmb/single_object_manipulation_dataset/1_M_L_3_vertical_n_3.npy",
       "decision.json",
       "execution.json",
       "experiment_results.csv",
+      "input_contact_sheet.jpg",
       "obs/",
       "obs/side_1",
       "obs/side_1_depth",
       "obs/tcp_pose",
       "protocol.json",
+      "registered_frame_coverage.png",
       "runs/fmb_colmap_official_pinhole_v1",
       "runs/fmb_colmap_official_v1",
       "runs/fmb_effective_k_256_calibration/peg_board_top_wires.json",
@@ -7049,6 +7501,7 @@
       "summary.json",
       "trajectory.csv",
       "validation_sources.json",
+      "verified_match_graphs.png",
       "verified_pair_displacements.csv"
     ],
     "constants": {
@@ -7110,6 +7563,12 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_colmap_official_pinhole_v1",
+      "runs/fmb_colmap_official_v1",
+      "runs/fmb_effective_k_256_calibration/peg_board_top_wires.json",
+      "runs/sharerobot_fmb_episode_5201/1_M_L_3_vertical_n_2.npy"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7155,6 +7614,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7167,6 +7627,7 @@
     "purpose": "Continue this local experiment after H3, preserving the prediction/evaluation fence.",
     "input_output_literals": [
       "Continue this local experiment after H3, preserving the prediction/evaluation fence.",
+      "continuation.log",
       "continuation_status.json",
       "evaluation/alltracker_future.npz",
       "evaluation/future_rgb.npy",
@@ -7212,6 +7673,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7256,6 +7718,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_v2_berkeley_matched"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7270,15 +7735,18 @@
       "All 24 points: green reference, full 30/32-step model trajectories",
       "Linear interpolation of predicted XYZ only; source frames/reference not interpolated",
       "alltracker_future.npz",
+      "error_vs_time.png",
       "evaluation/alltracker_execution.json",
       "evaluation/alltracker_future.npz",
       "evaluation/ecc_uncertainty.npz",
       "evaluation/future_rgb.npy",
       "evaluation/reference_uncertainty.json",
       "evaluation/references_and_methods.npz",
+      "full_extent_trajectories.png",
       "future_3d.npy",
       "future_rgb.npy",
       "geometry/K_median.npy",
+      "h1_vs_h3.png",
       "metadata.json",
       "metrics.json",
       "native_depth_future.npy",
@@ -7287,12 +7755,15 @@
       "observed/points_3d_history.npy",
       "observed/rgb.npy",
       "observed/selected_point_ids.npy",
+      "per_point_ADE.png",
       "prediction_vs_real.mp4",
+      "prediction_vs_real_contact.png",
       "predictions/future_3d.npy",
       "predictions/input_freeze.json",
       "predictions/model_run.json",
       "predictions_h1/future_3d.npy",
       "predictions_h1/model_run.json",
+      "real_future_alltracker.png",
       "references_and_methods.npz",
       "side_by_side.mp4",
       "timestamps.npy",
@@ -7346,6 +7817,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7397,6 +7869,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7415,6 +7888,7 @@
       "Sealed BF16 greedy FMB H3/H1 inference with complete text/parser auditing.",
       "allenai/MolmoMotion-4B-H",
       "anchor.npy",
+      "config.yaml",
       "data/checkpoints",
       "future_3d.npy",
       "geometry/input_audit.json",
@@ -7429,7 +7903,8 @@
       "points_3d_history.npy",
       "predictions/input_freeze.json",
       "predictions/model_run.json",
-      "processor_inputs.pt"
+      "processor_inputs.pt",
+      "raw_model_output.txt"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]"
@@ -7475,6 +7950,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7565,6 +8041,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7593,23 +8070,43 @@
       "completion_audit.json",
       "episode_5201/evaluation/metrics.json",
       "episode_5201/evaluation/reference_uncertainty.json",
+      "error_vs_time.png",
       "evaluation/metrics.json",
       "evaluation/references_and_methods.npz",
+      "fixed_camera_check.png",
       "fmb_control_n3/evaluation/reference_uncertainty.json",
+      "full_extent_trajectories.png",
       "future_3d.npy",
       "geometry/K_median.npy",
       "geometry/camera_motion_audit.json",
       "geometry/input_audit.json",
       "geometry/registration_audit.json",
+      "h1_vs_h3.png",
+      "historical_tracks.png",
+      "history_xyz_clouds.png",
+      "intrinsics_stability.png",
+      "manual_reference_audit.png",
+      "mask_and_100_queries.png",
+      "mask_overlay.png",
       "metadata.json",
       "model_run.json",
+      "molmopoint_overlay.png",
       "observed/grounding_metadata.json",
       "observed/molmopoint_grounding.json",
       "observed/points_3d_history.npy",
       "observed/rgb.npy",
+      "observed_8_frames.png",
+      "per_point_ADE.png",
       "prediction_vs_real.mp4",
+      "prediction_vs_real_contact.png",
       "preserved_v1.json",
+      "raw_model_output.txt",
+      "real_future_alltracker.png",
+      "reference_uncertainty.png",
       "report/fmb_v2_berkeley_matched.md",
+      "rgb_depth_registration_audit.png",
+      "selected_24_points.png",
+      "sensor_depth.png",
       "side_by_side.mp4",
       "visual_review.json"
     ],
@@ -7650,6 +8147,13 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "\n[Видео рядом](../runs/fmb_v2_berkeley_matched/",
+      " mm. [Метрики](../runs/fmb_v2_berkeley_matched/",
+      "/evaluation/metrics.json), [input audit](../runs/fmb_v2_berkeley_matched/",
+      "/viz/side_by_side.mp4) · [Видео наложения](../runs/fmb_v2_berkeley_matched/",
+      "](../runs/fmb_v2_berkeley_matched/"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7661,6 +8165,7 @@
     "dataset": "fmb",
     "purpose": "Independent FMB v2 export. Future export requires complete H3 and H1 receipts.",
     "input_output_literals": [
+      ".png",
       "FMB obs/side_1_depth",
       "data/fmb/single_object_manipulation_dataset/1_M_L_3_vertical_n_3.npy",
       "export_receipt.json",
@@ -7729,6 +8234,13 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_example_1_M_L_3_vertical_n_3",
+      "runs/fmb_v2_berkeley_matched",
+      "runs/sharerobot_fmb_episode_5201",
+      "runs/sharerobot_fmb_episode_5201/1_M_L_3_vertical_n_2.npy",
+      "runs/sharerobot_fmb_episode_5201/preflight.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7778,6 +8290,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene/sharerobot_trajectory_manifest.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7793,6 +8308,7 @@
       "group_00/model_run.json",
       "interruption_receipt.json",
       "model_run.json",
+      "raw_model_output.txt",
       "wrist_2/branches/A_vipe_full/predictions"
     ],
     "constants": {},
@@ -7824,6 +8340,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7840,6 +8357,7 @@
       ".venv/bin/python",
       "/proc",
       "observed/molmopoint_grounding.json",
+      "observed_preprocess.log",
       "preprocess_status.json",
       "preprocess_wait.json",
       "scripts/fmb_wrist_ground.py",
@@ -7875,6 +8393,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7886,6 +8405,7 @@
     "dataset": "fmb",
     "purpose": "Hide method labels for the assistant's first qualitative forecast assessment.",
     "input_output_literals": [
+      ".png",
       "/8",
       "/CV",
       "/Static",
@@ -7927,6 +8447,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -7954,11 +8475,14 @@
       "builtin_visual_review_*.json",
       "builtin_visual_review_future.json",
       "builtin_visual_review_observed.json",
+      "camera_paths_3d.png",
+      "candidates_to_selected.png",
       "completion_audit.json",
       "coordinate_test_receipt.json",
       "crossview_observed_audit.json",
       "crossview_observed_audit.json; side_future_crosscheck.json",
       "data/checkpoints/MolmoMotion-4B-H3-F30/model.pt",
+      "depth_comparison.png",
       "evaluation/export_receipt.json",
       "evaluation/export_receipt.json; future_alltracker.npz",
       "evaluation/future_alltracker.npz",
@@ -7968,7 +8492,9 @@
       "evaluation/metrics.json and hand_eye_reference_sensitivity.json",
       "evaluation/metrics.json; future_reference.npz",
       "filter_diagnostics.npz",
+      "forecast_errors.png",
       "forecast_pipeline_status.json",
+      "full_30step_xyz.png",
       "future_3d.npy",
       "geometry/ hand-eye and control audits",
       "geometry/K.npy",
@@ -7980,11 +8506,13 @@
       "group_00/raw_model_output.txt",
       "hand_eye.json",
       "hand_eye_bootstrap.json",
+      "history_3d_clouds.png",
       "independent_robot_rgbd_bootstrap.json",
       "independent_robot_rgbd_hand_eye.json",
       "index.html; video_gallery_receipt.json",
       "input_hashes.json",
       "interruption_receipt.json",
+      "intrinsics_observed_frames.png",
       "metadata.json",
       "metadata.json; observed/source_indices.npy",
       "model_run.json",
@@ -7999,7 +8527,9 @@
       "observed/selected_point_ids.npy",
       "observed/selected_point_ids.npy; geometry/branch_selection.json",
       "observed/source_indices.npy",
+      "observed_prefix_review.png",
       "points_3d_history.npy",
+      "pose_K_comparison.png",
       "predictions/future_3d.npy",
       "predictions/input_freeze.json",
       "predictions/interrupted_resource_attempt_00/",
@@ -8007,12 +8537,17 @@
       "preserved_prior_runs.json",
       "primary_prediction_vs_real.mp4",
       "processor_inputs.pt",
+      "raw_model_output.txt",
+      "reference_all24_review.png",
+      "reference_hand_eye_sensitivity.png",
+      "registration_review.png",
       "report/fmb_v2_berkeley_matched.md",
       "report/fmb_wrist_v3.md",
       "report/fmb_wrist_v3.md local links",
       "requirements_progress.json",
       "runs/fmb_v2_berkeley_matched/completion_audit.json",
       "runs/fmb_v2_berkeley_matched/preserved_v1.json",
+      "selected_history_tracks.png",
       "selection/candidates.json",
       "selection/candidates.json; geometry_ranking.json; target_depth_support.json",
       "selection/geometry_ranking.json",
@@ -8028,7 +8563,8 @@
       "viz/real_future.mp4",
       "wrist_2/branches/A_vipe_full/predictions/interrupted_resource_attempt_00",
       "wrist_2/metadata.json",
-      "wrist_future_world_motion.json"
+      "wrist_future_world_motion.json",
+      "wrist_future_world_motion.png"
     ],
     "constants": {},
     "functions": [
@@ -8066,6 +8602,10 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_v2_berkeley_matched/completion_audit.json",
+      "runs/fmb_v2_berkeley_matched/preserved_v1.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8090,7 +8630,8 @@
       "observed/sensor_z16.npy",
       "observed/tcp_pose_xyzw.npy",
       "sources/official_K_candidates.json",
-      "viz/crossview_board_matches.png"
+      "viz/crossview_board_matches.png",
+      "wrist_crossview_base_clouds.png"
     ],
     "constants": {},
     "functions": [
@@ -8132,6 +8673,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8143,6 +8685,7 @@
     "dataset": "fmb",
     "purpose": "Prediction-gated, moving-camera future reference, common-mask metrics, media.",
     "input_output_literals": [
+      ".png",
       "/8",
       "/CV",
       "/Static",
@@ -8152,6 +8695,8 @@
       "alltracker_receipt.json",
       "builtin_visual_review_observed.json",
       "export_receipt.json",
+      "forecast_errors.png",
+      "full_30step_xyz.png",
       "future_alltracker.npz",
       "future_reference.npz",
       "future_rgb.npy",
@@ -8169,6 +8714,7 @@
       "predictions/future_3d.npy",
       "predictions/model_run.json",
       "primary_prediction_vs_real.mp4",
+      "reference_all24_review.png",
       "source_indices.npy",
       "wrist_2/branches",
       "wrist_2/metadata.json"
@@ -8218,6 +8764,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "scores"
@@ -8232,7 +8779,9 @@
     "purpose": "Run remaining observed-only steps and keep a failure receipt.",
     "input_output_literals": [
       ".venv-vipe/bin/python",
-      "geometry_status.json"
+      "See observed_finalization.log",
+      "geometry_status.json",
+      "observed_finalization.log"
     ],
     "constants": {},
     "functions": [],
@@ -8261,6 +8810,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8279,7 +8829,8 @@
       "evaluation/future_sensor_depth.npy",
       "evaluation/future_tcp_pose_xyzw.npy",
       "geometry/selected_hand_eye_X.npy",
-      "wrist_future_world_motion.json"
+      "wrist_future_world_motion.json",
+      "wrist_future_world_motion.png"
     ],
     "constants": {},
     "functions": [],
@@ -8313,6 +8864,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8424,6 +8976,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8468,6 +9021,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8515,6 +9069,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8572,6 +9127,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "transform",
@@ -8623,6 +9179,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8681,6 +9238,11 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_v2_berkeley_matched/completion_audit.json",
+      "runs/fmb_v2_berkeley_matched/preserved_v1.json",
+      "runs/sharerobot_fmb_episode_5201/preflight.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8693,12 +9255,14 @@
     "purpose": "Observed-only FMB wrist selection, source receipts, and causal exports.",
     "input_output_literals": [
       "*.npy",
+      ".png",
       "/",
       "/commits/main",
       "/envs/",
       "/git/trees/",
       "1_M_L_3_vertical_n_2.npy",
       "CANDIDATE: requires RGB profile and actual crop/resize validation",
+      "all_candidates.png",
       "calibration/static/files",
       "camera/",
       "candidates.json",
@@ -8765,6 +9329,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_wrist_v3"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8808,6 +9375,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/fmb_wrist_v3_control_horizontal_n0"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -8876,6 +9446,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8932,6 +9503,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -8985,6 +9557,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9004,11 +9577,13 @@
       "evaluation/blinding_map.json",
       "side_1/viz/side_future_color_control.png",
       "side_2/viz/side_future_color_control.png",
+      "side_future_motion_crosscheck.png",
       "wrist_1/viz/forecast_errors.png",
       "wrist_1/viz/full_30step_xyz.png",
       "wrist_2/viz/forecast_errors.png",
       "wrist_2/viz/full_30step_xyz.png",
-      "wrist_2/viz/reference_hand_eye_sensitivity.png"
+      "wrist_2/viz/reference_hand_eye_sensitivity.png",
+      "wrist_future_world_motion.png"
     ],
     "constants": {},
     "functions": [
@@ -9040,6 +9615,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9074,7 +9650,8 @@
       "wrist_2/viz/depth_comparison.png",
       "wrist_2/viz/history_3d_clouds.png",
       "wrist_2/viz/pose_K_comparison.png",
-      "wrist_2/viz/selected_history_tracks.png"
+      "wrist_2/viz/selected_history_tracks.png",
+      "wrist_crossview_base_clouds.png"
     ],
     "constants": {},
     "functions": [
@@ -9107,6 +9684,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9129,6 +9707,7 @@
       "observed/rgb.npy",
       "observed_10hz.mp4",
       "preprocess_status.json",
+      "vipe_rectified_default.log",
       "vipe_rectified_default_receipt.json"
     ],
     "constants": {},
@@ -9163,6 +9742,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9221,6 +9801,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9264,11 +9845,18 @@
       "[Новые видео: галерея](../runs/fmb_wrist_v3/index.html) · [Протокол](../runs/fmb_wrist_v3/PROTOCOL.md) · [Воспроизведение](../runs/fmb_wrist_v3/REPRODUCE.md) · [Pinned sources](../runs/fmb_wrist_v3/sources/source_receipts.json)",
       "[Полный completion audit](../runs/fmb_wrist_v3/completion_audit.json)",
       "](../runs/fmb_wrist_v3/",
+      "blinded_review_20.png",
       "builtin_visual_review_future.json",
+      "camera_paths_3d.png",
+      "candidates_to_selected.png",
       "completion_audit.json",
       "crossview_observed_audit.json",
+      "depth_comparison.png",
       "evaluation/hand_eye_reference_sensitivity.json",
       "evaluation/metrics.json",
+      "forecast_errors.png",
+      "forecast_review_20.png",
+      "full_30step_xyz.png",
       "geometry/branch_selection.json",
       "geometry/depth_comparison.json",
       "geometry/geometry_diagnostics.json",
@@ -9276,8 +9864,18 @@
       "geometry/independent_robot_rgbd_bootstrap.json",
       "geometry/independent_robot_rgbd_hand_eye.json",
       "geometry/native_square_control.json",
+      "history_3d_clouds.png",
+      "intrinsics_observed_frames.png",
+      "mask_overlay.png",
+      "molmopoint_overlay.png",
+      "observed_prefix_review.png",
+      "pose_K_comparison.png",
+      "reference_all24_review.png",
+      "reference_hand_eye_sensitivity.png",
+      "registration_review.png",
       "report/fmb_wrist_v3.md",
       "requirements_progress.json",
+      "selected_history_tracks.png",
       "side_future_crosscheck.json",
       "wrist_1/evaluation/metrics.json",
       "wrist_2/evaluation/metrics.json",
@@ -9322,6 +9920,26 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      " partial contour control](../runs/fmb_wrist_v3/",
+      "![Observed wrist clouds](../runs/fmb_wrist_v3/wrist_crossview_base_clouds.png)",
+      "![Side/wrist motion magnitude](../runs/fmb_wrist_v3/side_future_motion_crosscheck.png)",
+      "![Wrist world motion replication](../runs/fmb_wrist_v3/wrist_future_world_motion.png)",
+      "![Кандидаты, четыре камеры](../runs/fmb_wrist_v3/selection/all_candidates.png)",
+      "/evaluation/metrics.json) · [Side-by-side видео](../runs/fmb_wrist_v3/",
+      "/geometry/depth_comparison.json) · [Bootstrap X](../runs/fmb_wrist_v3/",
+      "/geometry/independent_robot_rgbd_bootstrap.json) · [Square ViPE control](../runs/fmb_wrist_v3/",
+      "/viz/geometry_forecasts_side_by_side.mp4) · [Primary vs real](../runs/fmb_wrist_v3/",
+      "[Future review и hashes](../runs/fmb_wrist_v3/builtin_visual_review_future.json)",
+      "[Observed four-view audit](../runs/fmb_wrist_v3/crossview_observed_audit.json)",
+      "[Observed visual review](../runs/fmb_wrist_v3/builtin_visual_review_observed.json) · [Первая blinded future оценка](../runs/fmb_wrist_v3/builtin_blinded_review.json)",
+      "[Все depth regions и temporal std](../runs/fmb_wrist_v3/",
+      "[Геометрическое ранжирование](../runs/fmb_wrist_v3/selection/geometry_ranking.json) · [Depth support](../runs/fmb_wrist_v3/selection/target_depth_support.json) · [Provenance5201](../runs/fmb_wrist_v3/source_episode_5201_provenance.json)",
+      "[Метрики](../runs/fmb_wrist_v3/",
+      "[Новые видео: галерея](../runs/fmb_wrist_v3/index.html) · [Протокол](../runs/fmb_wrist_v3/PROTOCOL.md) · [Воспроизведение](../runs/fmb_wrist_v3/REPRODUCE.md) · [Pinned sources](../runs/fmb_wrist_v3/sources/source_receipts.json)",
+      "[Полный completion audit](../runs/fmb_wrist_v3/completion_audit.json)",
+      "](../runs/fmb_wrist_v3/"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9336,10 +9954,14 @@
       "*/predictions/model_run.json",
       "SAM intersect observed t0 sensor/ViPE local depth support",
       "alltracker_execution.json",
+      "candidate_history_tracks.png",
       "candidate_resampling.json",
+      "depth_supported_sampling_mask.png",
       "geometry/branch_selection.json",
       "geometry/initial_100_candidates",
       "geometry/vipe_depth.npy",
+      "mask.png",
+      "mask_and_100_queries.png",
       "observed_tracks_2d.npz",
       "query_points_100.npy",
       "rgb.npy",
@@ -9378,6 +10000,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9391,6 +10014,8 @@
     "input_output_literals": [
       ".venv-vipe/bin/python",
       "/proc",
+      "Geometry pipeline failed; see geometry_pipeline.log",
+      "geometry_pipeline.log",
       "geometry_status.json",
       "preprocess_status.json",
       "scripts/fmb_wrist_crossview.py",
@@ -9426,6 +10051,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9483,6 +10109,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9497,7 +10124,9 @@
       ".venv/bin/python",
       "/proc",
       "Model/evaluation outputs ready; built-in blinded image review pending",
+      "See forecast_pipeline.log",
       "[0-9]*/cmdline",
+      "forecast_pipeline.log",
       "forecast_pipeline_status.json",
       "wrist_1/branches/C_sensor_tcp_official",
       "wrist_2/branches"
@@ -9532,6 +10161,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9578,6 +10208,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9598,6 +10229,7 @@
       "evaluation/target_color_centroids.npy",
       "geometry/estimated_side_c2base.npy",
       "side_future_crosscheck.json",
+      "side_future_motion_crosscheck.png",
       "sources/official_K_candidates.json",
       "viz/side_future_color_control.png"
     ],
@@ -9637,6 +10269,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9686,6 +10319,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9709,12 +10343,18 @@
       "builtin_visual_review.json",
       "calibration_ranking_sensitivity.json",
       "code_snapshots/fmb_wrist_v4_infer_initial.py",
+      "comparison_01.png",
+      "comparison_10.png",
+      "comparison_20.png",
       "complete30/32 step plots exist",
       "completion_audit.json",
+      "config.yaml",
       "coordinate_tests.json",
       "data/checkpoints",
+      "errors.png",
       "evaluation/future_reference.npz",
       "evaluation/metrics.json",
+      "full_neural_outputs.png",
       "future_3d.npy",
       "geometry/official_K.npy",
       "geometry/selected_hand_eye_X.npy",
@@ -9739,6 +10379,7 @@
       "preregistration.json",
       "preserved_v3.json",
       "processor_inputs.pt",
+      "raw_model_output.txt",
       "report/fmb_wrist_v3.md",
       "report/fmb_wrist_v4_improvement.md",
       "robot_observed_model_selection.json",
@@ -9787,6 +10428,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -9848,6 +10490,10 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/fmb_wrist_v3",
+      "runs/fmb_wrist_v4_improvement"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -9917,6 +10563,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "align"
@@ -9934,7 +10581,9 @@
       ".cache/torch",
       "Inspect/archive incomplete attempts explicitly before resumption",
       "anchor.npy",
+      "config.yaml",
       "data/checkpoints",
+      "decoded_prompt.txt",
       "future_3d.npy",
       "history_rgb.npy",
       "history_xyz.npy",
@@ -9945,6 +10594,7 @@
       "preregistration.json",
       "processor_inputs.pt",
       "query_uv.npy",
+      "raw_model_output.txt",
       "scripts/fmb_wrist_v4_infer.py"
     ],
     "constants": {},
@@ -9984,6 +10634,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10032,6 +10683,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10044,15 +10696,18 @@
     "purpose": "Render comparable original/new forecasts and a local video gallery.",
     "input_output_literals": [
       "\"></video><p><a href=\"",
+      ".png",
       "/8",
       "/viz/",
       "</h2><video controls src=\"",
       "</html>",
       "Render comparable original/new forecasts and a local video gallery.",
       "comparison_20.png\">Кадр через2s</a></p></article>",
+      "errors.png",
       "evaluation/future_reference.npz",
       "evaluation/future_rgb.npy",
       "forecast_comparison.mp4",
+      "full_neural_outputs.png",
       "future_3d.npy",
       "media_receipt.json",
       "metrics.json",
@@ -10092,6 +10747,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10159,6 +10815,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "forecast_tcp"
@@ -10208,6 +10865,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10270,6 +10928,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10323,6 +10982,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
       "centroid_forecast",
@@ -10401,6 +11061,20 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "![Все24 native trajectories, полный30/32-step range](../runs/fmb_wrist_v4_improvement/",
+      "![Ошибки во времени](../runs/fmb_wrist_v4_improvement/",
+      "![Сравнение через2s](../runs/fmb_wrist_v4_improvement/",
+      "/metrics.json) · [Видео](../runs/fmb_wrist_v4_improvement/",
+      "[Observed TCP selection](../runs/fmb_wrist_v4_improvement/robot_observed_model_selection.json) · [Исправленная target-motion selection](../runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json)",
+      "[Observed diagnosis](../runs/fmb_wrist_v4_improvement/observed_diagnosis.json)",
+      "[Pinned primary-source receipts](../runs/fmb_wrist_v4_improvement/sources/source_receipts.json)",
+      "[Reference sensitivity](../runs/fmb_wrist_v4_improvement/",
+      "[Метрики](../runs/fmb_wrist_v4_improvement/",
+      "[Новые видео](../runs/fmb_wrist_v4_improvement/index.html) · [Аудит](../runs/fmb_wrist_v4_improvement/completion_audit.json) · [Команды воспроизведения](../runs/fmb_wrist_v4_improvement/REPRODUCE.md)",
+      "[Оценка и image hashes](../runs/fmb_wrist_v4_improvement/builtin_visual_review.json)",
+      "[Первичная preregistration](../runs/fmb_wrist_v4_improvement/preregistration.json)"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10451,6 +11125,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10504,6 +11179,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10556,6 +11232,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10569,6 +11246,7 @@
     "input_output_literals": [
       ".cache/huggingface",
       ".cache/torch",
+      ".log",
       "/",
       "/proc",
       "/scripts/",
@@ -10610,6 +11288,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10621,17 +11300,22 @@
     "dataset": "fmb",
     "purpose": "Observed-only readable plots for the frozen 24 IDs and geometry controls.",
     "input_output_literals": [
+      "candidates_to_selected.png",
       "geometry/branch_selection.json",
       "geometry/intrinsics_variation.json",
       "geometry/official_K.npy",
       "geometry/unidepth_K.npy",
       "geometry/vipe_K.npy",
+      "history_3d_clouds.png",
+      "intrinsics_observed_frames.png",
       "metadata.json",
       "observed/observed_tracks_2d.npz",
       "observed/points_3d_history.npy",
       "observed/rgb.npy",
       "observed/selected_point_ids.npy",
-      "observed/source_indices.npy"
+      "observed/source_indices.npy",
+      "selected_24_points.png",
+      "selected_history_tracks.png"
     ],
     "constants": {},
     "functions": [
@@ -10667,6 +11351,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10679,6 +11364,7 @@
     "purpose": "Seal the exploratory MolmoMotion input before any future RGB-D is used.",
     "input_output_literals": [
       "allenai/MolmoMotion-4B-H3-F30",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "f2nerf_second/receipt.json",
       "input_freeze.json",
@@ -10687,6 +11373,9 @@
       "points_2d_at_t0_candidate.npy",
       "points_3d_history_candidate.npy",
       "points_3d_history_world_candidate.npy",
+      "rgb_0096.png",
+      "rgb_0097.png",
+      "rgb_0098.png",
       "runs/dobbe_rgbd_study",
       "runs/dobbe_rgbd_study/approx_history"
     ],
@@ -10715,6 +11404,10 @@
       "dobbe_two_colmap_v1",
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
+    ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study",
+      "runs/dobbe_rgbd_study/approx_history"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -10763,6 +11456,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10802,6 +11496,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10863,6 +11558,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10894,6 +11592,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -10905,6 +11604,7 @@
     "dataset": "dobbe",
     "purpose": "Save only the frozen episode_3651 history RGB frames for point inspection.",
     "input_output_literals": [
+      ".png",
       "data/dobbe_oxe/target_raw/compressed_np_depth_float32.bin",
       "data/dobbe_oxe/target_raw/compressed_video_h264.mp4",
       "runs/dobbe_rgbd_study/approx_history",
@@ -10928,6 +11628,10 @@
       "dobbe_two_colmap_v1",
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
+    ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history",
+      "runs/dobbe_rgbd_study/protocol.json"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -10975,6 +11679,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11030,6 +11735,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_effective_k_256_calibration/peg_board_official.step"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11081,6 +11789,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11136,6 +11845,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/peg_official.step"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11148,6 +11860,7 @@
     "purpose": "Inspect both selectively extracted HoNY captures before fixing a protocol.",
     "input_output_literals": [
       ".tools/lzfse",
+      "_contact.jpg",
       "compressed_video_h264.mp4",
       "data/dobbe_oxe",
       "labels.json",
@@ -11172,6 +11885,9 @@
       "import liblzfse"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11186,6 +11902,7 @@
       ".//*[@file]",
       ".//body[@name=\"Cereal_main\"]",
       ".//camera[@name=\"agentview\"]",
+      "PickPlaceCereal_demo_act_norm.hdf5",
       "plex_cereal_hdf5_audit.json"
     ],
     "constants": {
@@ -11206,6 +11923,7 @@
       "import numpy as np"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11232,6 +11950,7 @@
       "import requests"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11248,6 +11967,7 @@
       "obs/side_1_depth",
       "obs/tcp_pose",
       "runs/fmb_second_example_1_M_L_3_vertical_n_3",
+      "window_candidates.png",
       "window_probe.json"
     ],
     "constants": {
@@ -11288,6 +12008,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_example_1_M_L_3_vertical_n_3"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11300,7 +12023,8 @@
     "purpose": "Match a LeRobot episode to a HoNY capture by exact gripper time series.",
     "input_output_literals": [
       "IPEC-COMMUNITY/dobbe_lerobot episode_003651",
-      "dobbe_3651_source_match.json"
+      "dobbe_3651_source_match.json",
+      "lerobot_episode_003651.parquet"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -11325,6 +12049,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11398,6 +12123,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11410,11 +12136,14 @@
     "purpose": "Make the compact evidence figures for the causal HoNY geometry study.",
     "input_output_literals": [
       " observed green / projected red",
+      ".png",
       "/",
       "0/",
       "COLMAP RGB-only calibration: registered frames / input frames",
       "_static_correspondences.json",
       "_static_geometry.json",
+      "colmap_k_stability.png",
+      "static_and_reprojection_comparison.png",
       "summary.json"
     ],
     "constants": {},
@@ -11444,6 +12173,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11459,6 +12189,7 @@
       "Input/forecast sensitivity only; absolute 3D differences are not prediction error against GT.",
       "Same RGB queries / K / c2w; both unsmoothed",
       "c2w_t0.npy",
+      "paired_depth_comparison.png",
       "paired_forecast_summary.json",
       "paired_selection_audit.json",
       "points_2d_t0.npy",
@@ -11483,6 +12214,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11536,6 +12268,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_ablation_trajectory_scenarios.png"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11549,6 +12284,7 @@
     "input_output_literals": [
       ": 5/20 future frames",
       "annotation_repeatability.json",
+      "annotation_repeatability_v1.png",
       "data/fmb/single_object_manipulation_dataset",
       "experiment_config.json",
       "obs/side_1"
@@ -11587,6 +12323,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11598,6 +12335,8 @@
     "dataset": "fmb",
     "purpose": "Visual summary of RGB-only board K fit and independent depth check.",
     "input_output_literals": [
+      "board_K_stability.png",
+      "board_RGB_vs_depth.png",
       "multi_board_bundle_calibration.json"
     ],
     "constants": {},
@@ -11633,6 +12372,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11645,9 +12385,11 @@
     "purpose": "Plot diagnostic K estimates and independent depth residuals.",
     "input_output_literals": [
       "CAD/PnP Z minus sensor Z (mm)",
+      "K_candidate_stability.png",
       "effective_k_rounded_cad_silhouette.json",
       "tcp_bottom_k_probe.json",
       "tcp_cad_k_probe.json",
+      "tcp_cad_sensor_depth_residuals.png",
       "tcp_tip_k_probe.json"
     ],
     "constants": {},
@@ -11684,6 +12426,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11698,6 +12441,7 @@
       "experiment_config.json",
       "history_cad_silhouette_tcp_3d.npy",
       "history_clouds_common_axes.json",
+      "history_clouds_common_axes.png",
       "history_moge2_history_scaled_3d.npy",
       "history_moge2_raw_3d.npy",
       "history_pnp_3d.npy",
@@ -11739,6 +12483,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11754,6 +12499,7 @@
       "calibration_sensitivity.csv",
       "comparison.csv",
       "comparison.json",
+      "comparison.png",
       "evaluation.json",
       "metrics.json",
       "runs/fmb_K_sensitivity_combined_v1"
@@ -11795,6 +12541,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_K_sensitivity_combined_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11807,6 +12556,7 @@
     "purpose": "Create a fixed-scale visual comparison for the FMB depth experiment.",
     "input_output_literals": [
       "1_M_L_3_vertical_n_2.npy",
+      "metric_depth_comparison.png",
       "moge2_aspect_fov_metric_predictions.npz",
       "moge3_aspect_fov_metric_predictions.npz",
       "obs/side_1",
@@ -11848,6 +12598,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11864,6 +12617,7 @@
       "Sensor depth / m",
       "data/fmb/single_object_manipulation_dataset",
       "depth_comparison.json",
+      "depth_comparison.png",
       "experiment_config.json",
       "history_points_2d.npy",
       "moge2_history_v1/moge2_history_maps.npz",
@@ -11905,6 +12659,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11923,7 +12678,8 @@
       "history_sensor_3d.npy",
       "moge2_history_v1/manifest.json",
       "runs/fmb_moge2_temporal_geometry_v1",
-      "temporal_consistency.json"
+      "temporal_consistency.json",
+      "temporal_consistency.png"
     ],
     "constants": {},
     "functions": [
@@ -11959,6 +12715,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_moge2_temporal_geometry_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -11976,6 +12735,7 @@
       "gt_dense_flow_alternative.npy",
       "obs/side_1",
       "tracker_disagreement.json",
+      "tracker_disagreement.png",
       "validity_mask.npy"
     ],
     "constants": {
@@ -12014,6 +12774,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12092,6 +12853,13 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene",
+      "runs/fmb_second_scene/candidate_depth_roi.json",
+      "runs/fmb_second_scene/sharerobot_trajectory_search.json",
+      "runs/fmb_second_scene/visuals/sharerobot_search_best_pair.png",
+      "runs/sharerobot_fmb_episode_5201/preflight.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12103,6 +12871,7 @@
     "dataset": "davis",
     "purpose": "Prepare the exact bmx-trees GT and original frames for the bundled example.",
     "input_output_literals": [
+      ".jpg",
       "/JPEGImages/480p/bmx-trees/",
       "DAVIS-2017-trainval-480p.zip/JPEGImages/480p/bmx-trees",
       "allenai/PointMotionBench",
@@ -12140,6 +12909,9 @@
       "author_davis_bmx_trees_f30",
       "author_davis_coordinate_audit"
     ],
+    "direct_run_path_literals": [
+      "runs/author_davis_bmx_trees_f30"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12151,6 +12923,8 @@
     "dataset": "dobbe",
     "purpose": "Freeze an exploratory [3,8,3] red-cup history using transferred RGB-only K.",
     "input_output_literals": [
+      ".png",
+      "cup_points_history.png",
       "data/dobbe_oxe/target_raw",
       "f2nerf_second/receipt.json",
       "labels.json",
@@ -12190,6 +12964,10 @@
       "dobbe_two_colmap_v1",
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
+    ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study",
+      "runs/dobbe_rgbd_study/approx_history"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -12245,6 +13023,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12288,6 +13067,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12299,8 +13079,10 @@
     "dataset": "fmb",
     "purpose": "Build a transparent, candidate-only H3/8-point FMB input from joint CAD PnP.",
     "input_output_literals": [
+      ".png",
       "1_M_L_3_vertical_n_2.npy",
       "Build a transparent, candidate-only H3/8-point FMB input from joint CAD PnP.",
+      "_points.png",
       "cad_pnp_probe.json",
       "manifest.json",
       "obs/side_1",
@@ -12346,6 +13128,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -12415,6 +13200,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12427,6 +13213,7 @@
     "purpose": "Freeze a sensor-depth MolmoMotion input before viewing any new prediction.",
     "input_output_literals": [
       ".npy",
+      ".png",
       "English description of source primitive insert, object_info rectangle/Jeans Red, and visible blue board; not a verbatim FMB metadata field",
       "Freeze a sensor-depth MolmoMotion input before viewing any new prediction.\n\nAll geometry here uses FMB source steps 124--126 only. Future frames are used\nonly for the predeclared window motion/coverage check, never for XYZ or K.\n",
       "Only an upper interior patch of the uniform red face is observed as eight points; no full CAD width/depth/height endpoint pair is independently identified.",
@@ -12526,6 +13313,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12539,6 +13329,7 @@
     "input_output_literals": [
       "../window_point_search.json",
       ".npy",
+      ".png",
       "8 fixed row/fraction inner red-face positions from pre-inference depth-valid candidate grid",
       "cad_dimension_check.json",
       "cad_pose_fit.json",
@@ -12615,6 +13406,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_example_1_M_L_3_vertical_n_3"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12662,6 +13456,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12709,6 +13504,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12749,6 +13545,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12787,6 +13584,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12821,6 +13619,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12835,11 +13634,13 @@
       "/",
       "/cup",
       "compressed_video_h264.mp4",
+      "dobbe_r3d_files.txt",
       "dobbe_rgb_archive_inventory.json",
       "https://dl.dobb-e.com/datasets/homes_of_new_york.zip",
       "iphone_data/",
       "iphone_data/r3d_files.txt",
-      "labels.json"
+      "labels.json",
+      "r3d_files.txt"
     ],
     "constants": {
       "URL": "'https://dl.dobb-e.com/datasets/homes_of_new_york.zip'",
@@ -12866,6 +13667,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12930,6 +13732,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -12941,6 +13746,7 @@
     "dataset": "fmb",
     "purpose": "Explicitly labeled planar CAD PnP probe for the FMB medium long rectangle.",
     "input_output_literals": [
+      ".png",
       "1_M_L_3_vertical_n_2.npy",
       "cad_pnp_history_candidate.npy",
       "cad_pnp_history_joint_candidate.npy",
@@ -12993,6 +13799,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13005,6 +13814,7 @@
     "purpose": "Experimental RGB-only effective-K fit using the exact rounded CAD silhouette.",
     "input_output_literals": [
       "effective_k_rounded_cad_silhouette.json",
+      "effective_k_rounded_cad_silhouette_overlay.png",
       "obs/side_1",
       "obs/side_1_depth",
       "obs/tcp_pose"
@@ -13060,6 +13870,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13113,6 +13924,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13177,6 +13989,10 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration",
+      "molmo-motion/runs/sharerobot_fmb_episode_5201/effective_k_rounded_cad_silhouette.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13189,6 +14005,7 @@
     "purpose": "Compare dense image flow with sparse KLT on the textureless red peg.",
     "input_output_literals": [
       "dense_flow_probe.json",
+      "dense_flow_probe.png",
       "obs/side_1",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
     ],
@@ -13231,6 +14048,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13245,6 +14065,7 @@
       "Could not identify top/bottom silhouette vertices: ",
       "Sensor depth is a diagnostic only and retains registration/scale uncertainty.",
       "effective_k_bundle_probe.json",
+      "effective_k_landmark_overlay.png",
       "obs/side_1",
       "obs/side_1_depth",
       "obs/tcp_pose"
@@ -13297,6 +14118,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13312,7 +14134,8 @@
       "obs/side_1",
       "obs/side_1_depth",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001",
-      "tracking_probe.json"
+      "tracking_probe.json",
+      "tracking_probe.png"
     ],
     "constants": {
       "OUT": "Path(__file__).resolve().parents[1] / 'runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001'",
@@ -13354,6 +14177,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13369,7 +14195,8 @@
       "geometry_probe.json",
       "obs/side_1",
       "obs/side_1_depth",
-      "obs/tcp_pose"
+      "obs/tcp_pose",
+      "peg_tip_motion_probe.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -13410,6 +14237,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13460,6 +14288,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -13515,6 +14346,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13528,6 +14362,7 @@
     "input_output_literals": [
       "history_point_candidates.json",
       "history_silhouette_pose_probe.json",
+      "history_silhouette_pose_probe.png",
       "obs/side_1",
       "obs/tcp_pose",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
@@ -13577,6 +14412,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13589,6 +14427,7 @@
     "purpose": "Probe affine registration of object masks as a second future 2D tracker.",
     "input_output_literals": [
       "mask_ecc_probe.json",
+      "mask_ecc_probe.png",
       "obs/side_1",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
     ],
@@ -13630,6 +14469,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_20261001"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -13701,6 +14543,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13758,6 +14603,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13769,6 +14615,7 @@
     "dataset": "fmb",
     "purpose": "Inspect one saved FMB TFDS TFRecord example without loading TensorFlow.",
     "input_output_literals": [
+      ".jpg",
       "/",
       "episode_metadata/",
       "episode_metadata/episode_language_instruction",
@@ -13812,6 +14659,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13865,6 +14713,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -13922,6 +14773,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -13987,6 +14839,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14050,6 +14905,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14120,6 +14976,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14135,7 +14992,8 @@
       "obs/tcp_pose",
       "runs/fmb_effective_k_256_calibration",
       "runs/sharerobot_fmb_episode_5201/1_M_L_3_vertical_n_2.npy",
-      "tcp_tip_k_probe.json"
+      "tcp_tip_k_probe.json",
+      "tcp_tip_landmarks.png"
     ],
     "constants": {
       "ROOT": "Path(__file__).resolve().parents[1]",
@@ -14183,6 +15041,10 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_effective_k_256_calibration",
+      "runs/sharerobot_fmb_episode_5201/1_M_L_3_vertical_n_2.npy"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14228,6 +15090,7 @@
       "import urllib.error"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14274,6 +15137,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14298,6 +15162,7 @@
       "model_run.json",
       "points_3d_history_candidate.npy",
       "prediction_15hz.npy",
+      "prediction_vs_future_rgb.jpg",
       "runs/dobbe_rgbd_study/approx_history"
     ],
     "constants": {
@@ -14325,6 +15190,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14341,6 +15209,7 @@
       "data/fmb/single_object_manipulation_dataset",
       "experiment_config.json",
       "forecast_comparison.mp4",
+      "forecast_comparison_overview.png",
       "forecast_media_manifest.json",
       "gt_2d.npy",
       "obs/side_1",
@@ -14383,6 +15252,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14402,12 +15272,15 @@
       "data/fmb/single_object_manipulation_dataset",
       "experiment_config.json",
       "forecast_vs_observed.mp4",
+      "forecast_vs_observed_overview.png",
       "geometry_methods.mp4",
+      "geometry_methods_overview.png",
       "gt_2d.npy",
       "history_cad_silhouette_tcp_3d.npy",
       "history_points_2d.npy",
       "history_sensor_3d.npy",
       "input_and_geometry.mp4",
+      "input_and_geometry_overview.png",
       "k_nominal.json",
       "media_manifest.json",
       "obs/side_1",
@@ -14469,6 +15342,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14495,6 +15369,7 @@
       "import urllib.request"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14506,12 +15381,16 @@
     "dataset": "davis",
     "purpose": "Run the released H3/F30 model once on the bundled DAVIS bmx-trees episode.",
     "input_output_literals": [
+      ".jpg",
       "Model text lacks at least one of the 8 x 30 point/timestamp entries",
       "Run the released H3/F30 model once on the bundled DAVIS bmx-trees episode.",
+      "caption.txt",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "davis_bmx_trees/bike_rider/t0=2/point_indices=[9,12,17,18,27,29,32,34]",
       "examples/data/davis_bmx_trees",
       "model.pt",
+      "model_output_raw.txt",
       "points_2d_at_t0.pt",
       "points_3d_history.pt",
       "prediction.npz",
@@ -14550,6 +15429,9 @@
       "author_davis_bmx_trees_f30",
       "author_davis_coordinate_audit"
     ],
+    "direct_run_path_literals": [
+      "runs/author_davis_bmx_trees_f30"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14561,12 +15443,15 @@
     "dataset": "dobbe",
     "purpose": "Run one exploratory MolmoMotion forecast from the sealed HoNY cup history.",
     "input_output_literals": [
+      ".png",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "input_freeze.json",
       "model_run.json",
       "points_2d_at_t0_candidate.npy",
       "points_3d_history_candidate.npy",
       "prediction_15hz.npy",
+      "raw_model_output.txt",
       "runs/dobbe_rgbd_study/approx_history"
     ],
     "constants": {
@@ -14599,6 +15484,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14610,7 +15498,9 @@
     "dataset": "dobbe",
     "purpose": "RGB-only COLMAP controls with a clean default and an explicit legacy profile.",
     "input_output_literals": [
+      "*.png",
       "*/database.db",
+      ".png",
       "compressed_video_h264.mp4",
       "data/dobbe_oxe/second_raw",
       "data/dobbe_oxe/target_raw",
@@ -14647,6 +15537,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14672,6 +15565,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14683,12 +15577,14 @@
     "dataset": "fmb",
     "purpose": "Frozen, paired FMB ablations. Run in the Linux GPU environment.",
     "input_output_literals": [
+      ".png",
       "F30 j/15 s interpolated to native FMB j/10 s",
       "History / geometry",
       "MoGe-2 / focal 0.9",
       "Reorder / new anchor",
       "Reorder / same anchor",
       "allenai/MolmoMotion-4B-H3-F30",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "evaluation.json",
       "experiment_config.json",
@@ -14713,6 +15609,7 @@
       "prediction_15hz_model_order.npy",
       "prediction_2d.npy",
       "preflight.json",
+      "raw_model_output.txt",
       "runs/fmb_ablation_suite_v1_summary.png",
       "runs/fmb_second_example_1_M_L_3_vertical_n_3/quantitative_2d_sensor_t130",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126",
@@ -14775,6 +15672,11 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_ablation_suite_v1_summary.png",
+      "runs/fmb_second_example_1_M_L_3_vertical_n_3/quantitative_2d_sensor_t130",
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14786,10 +15688,12 @@
     "dataset": "fmb",
     "purpose": "Exploratory MolmoMotion H3/F30 run using the explicitly unverified CAD PnP input.",
     "input_output_literals": [
+      ".png",
       "Exploratory MolmoMotion H3/F30 run using the explicitly unverified CAD PnP input.",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "manifest.json",
       "molmo_candidate_future.npy",
+      "molmo_candidate_output_raw.txt",
       "molmo_candidate_status.json",
       "points_2d_at_t0_candidate.npy",
       "points_3d_history_candidate.npy",
@@ -14837,6 +15741,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/cad_history_candidate"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -14848,9 +15755,11 @@
     "dataset": "fmb",
     "purpose": "Run the frozen FMB t0=126 H3/F30 input with MolmoMotion in WSL GPU env.",
     "input_output_literals": [
+      ".png",
       "Run the frozen FMB t0=126 H3/F30 input with MolmoMotion in WSL GPU env.",
       "Three real history observations are 0.1 s apart; model typical training/prediction timing is about 15 Hz. Processor has no explicit timestamp input.",
       "allenai/MolmoMotion-4B-H3-F30",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "experiment_config.json",
       "history_cad_silhouette_tcp_3d.npy",
@@ -14863,6 +15772,7 @@
       "points_2d_at_t0.npy",
       "prediction_15hz.npy",
       "preflight.json",
+      "raw_model_output.txt",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
     ],
     "constants": {
@@ -14912,6 +15822,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -14983,6 +15896,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15022,6 +15938,9 @@
       "dobbe_two_colmap_v1",
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
+    ],
+    "direct_run_path_literals": [
+      "runs/plex_dobbe_preflight/dobbe_depth_nested_index.json"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -15100,6 +16019,13 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene",
+      "runs/fmb_second_scene/candidate_depth_roi.json",
+      "runs/fmb_second_scene/candidate_previews/1_L_L_4_vertical_n_0_side_1.png",
+      "runs/fmb_second_scene/candidate_previews/1_L_L_4_vertical_n_0_side_2.png",
+      "runs/sharerobot_fmb_episode_5201/preflight.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15158,6 +16084,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_example_1_M_L_3_vertical_n_3"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15169,8 +16098,11 @@
     "dataset": "shared",
     "purpose": "Load the released checkpoint and optionally forecast one future frame.",
     "input_output_literals": [
+      ".jpg",
       ".json",
       ".npz",
+      "caption.txt",
+      "config.yaml",
       "data/checkpoints/MolmoMotion-4B-H3-F30",
       "examples/data/davis_bmx_trees",
       "model.pt",
@@ -15196,6 +16128,9 @@
       "from molmo_motion import MolmoMotion, MolmoMotionProcessor"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [
+      "runs/smoke_real_f1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15238,6 +16173,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15275,6 +16211,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15325,6 +16262,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15375,6 +16313,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15387,6 +16326,7 @@
     "purpose": "Summarize the four frozen COLMAP controls and independently score causal K.",
     "input_output_literals": [
       "../dobbe_rgbd_study/approx_history/manifest.json",
+      ".png.png",
       "/summary.json",
       "Causal DSP/affine/guided",
       "Legacy 9/96 used guessed focal prior, free principal point and relaxed thresholds; it did not establish general COLMAP failure",
@@ -15400,7 +16340,8 @@
       "match_pairs.csv",
       "runs/dobbe_rgbd_study/approx_history/points_3d_history_candidate.npy",
       "runs/dobbe_rgbd_study/main_static_correspondences.json",
-      "summary.json"
+      "summary.json",
+      "verified_match_graphs.png"
     ],
     "constants": {
       "RUNS": "['main_full-oracle_pinhole_masked_stride1_all', 'main_causal_pinhole_masked_stride1_all', 'main_causal_pinhole_masked_stride5_all', 'main_causal_pinhole_masked_stride1_all_dsp_affine_guided']",
@@ -15431,6 +16372,10 @@
       "dobbe_two_colmap_v1",
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
+    ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/approx_history/points_3d_history_candidate.npy",
+      "runs/dobbe_rgbd_study/main_static_correspondences.json"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -15480,6 +16425,9 @@
       "dobbe_two_colmap_v1",
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
+    ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -15531,6 +16479,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_ablation_conclusions_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15548,6 +16499,7 @@
       "ablation_suite_v1/moge2_scaled/prediction_15hz.npy",
       "comparison.csv",
       "comparison.json",
+      "geometry_vs_forecast.png",
       "gt_2d.npy",
       "history_cad_silhouette_tcp_3d.npy",
       "history_moge2_history_scaled_3d.npy",
@@ -15601,6 +16553,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_geometry_forecast_comparison_v1"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15616,6 +16571,7 @@
       "data/fmb/single_object_manipulation_dataset",
       "molmo-motion/runs/fmb_effective_k_256_calibration",
       "obs/side_1",
+      "peg_pose_diversity_contact.png",
       "peg_pose_diversity_survey.json"
     ],
     "constants": {
@@ -15658,6 +16614,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15670,6 +16629,7 @@
     "purpose": "Make compact, unmodified-source previews for second-scene selection.",
     "input_output_literals": [
       "*.npy",
+      ".png",
       "candidate_survey.json",
       "data/fmb/single_object_manipulation_dataset",
       "obs/",
@@ -15716,6 +16676,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/fmb_second_scene"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15732,6 +16695,7 @@
       "molmo-motion/runs/fmb_effective_k_256_calibration",
       "obs/side_1",
       "obs/tcp_pose",
+      "tcp_tip_insert_contact.png",
       "tcp_tip_observability_horizontal.json"
     ],
     "constants": {
@@ -15773,6 +16737,9 @@
       "fmb_wrist_v3_control_horizontal_n0",
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
+    ],
+    "direct_run_path_literals": [
+      "molmo-motion/runs/fmb_effective_k_256_calibration"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
@@ -15826,6 +16793,7 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15883,6 +16851,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15894,6 +16865,7 @@
     "dataset": "dobbe",
     "purpose": "Verify sealed causal inputs and completed/explicitly rejected executions.",
     "input_output_literals": [
+      ".png",
       "A/sift_audited",
       "A/sift_audited/",
       "C/pure_vipe",
@@ -15935,6 +16907,7 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -15948,6 +16921,7 @@
     "input_output_literals": [
       "Candidate output failed text/tensor consistency",
       "molmo_candidate_future.npy",
+      "molmo_candidate_output_raw.txt",
       "molmo_candidate_validation.json",
       "points_3d_history_candidate.npy",
       "runs/sharerobot_fmb_episode_5201/cad_history_candidate"
@@ -15986,6 +16960,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/cad_history_candidate"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16004,6 +16981,7 @@
       "history_sensor_3d_K_simple.npy",
       "parser_validation.json",
       "prediction_15hz.npy",
+      "raw_model_output.txt",
       "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
     ],
     "constants": {
@@ -16044,6 +17022,9 @@
       "fmb_wrist_v4_improvement",
       "sharerobot_fmb_episode_5201"
     ],
+    "direct_run_path_literals": [
+      "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16054,7 +17035,9 @@
     "path": "scripts/visualize_trajectory.py",
     "dataset": "shared",
     "purpose": "Visualize a predicted 3D trajectory from MolmoMotion.",
-    "input_output_literals": [],
+    "input_output_literals": [
+      ".png"
+    ],
     "constants": {},
     "functions": [
       "project_camera_xyz_to_pixel",
@@ -16071,6 +17054,7 @@
       "from PIL import Image, ImageDraw"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16107,6 +17091,9 @@
       "dobbe_vipe_v1",
       "plex_dobbe_preflight"
     ],
+    "direct_run_path_literals": [
+      "runs/dobbe_rgbd_study/protocol.json"
+    ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16118,10 +17105,13 @@
     "dataset": "shared",
     "purpose": "MolmoMotion quickstart: predict a 3D point trajectory and render it as an MP4.",
     "input_output_literals": [
+      ".jpg",
       "Load the released-model ``(P, F, 3)`` prediction for ``video`` from the\n    eval JSONL (``pred_raw_combined``) -- identical in shape/units to\n    ``out.future_3d``.",
       "Sub-directory of examples/data/ to run on.",
       "_2d.mp4",
       "allenai/MolmoMotion-4B-H3-F30",
+      "caption.txt",
+      "frame_t+0.jpg",
       "intrinsics_K.pt",
       "meta.json",
       "points_2d_at_t0.pt",
@@ -16147,6 +17137,7 @@
       "from PIL import Image"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16172,6 +17163,7 @@
       "from molmo_motion.util import clean_opt, prepare_torchrun_environment"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16204,6 +17196,7 @@
       "import numpy as np"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16215,7 +17208,8 @@
     "dataset": "shared",
     "purpose": "Recipe training entry point for MolmoMotion.",
     "input_output_literals": [
-      " is not part of the public release. Only 'trajectory_3d_*' mixtures are supported — see the dataset-name grammar in molmo_motion/data/get_dataset.py."
+      " is not part of the public release. Only 'trajectory_3d_*' mixtures are supported — see the dataset-name grammar in molmo_motion/data/get_dataset.py.",
+      "config.yaml"
     ],
     "constants": {},
     "functions": [
@@ -16244,6 +17238,7 @@
       "from molmo_motion.util import prepare_torchrun_environment, select_checkpoint, clean_opt"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
@@ -16270,6 +17265,7 @@
       "from molmo_motion.util import clean_opt, prepare_torchrun_environment"
     ],
     "related_saved_runs": [],
+    "direct_run_path_literals": [],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [],
     "replacement": "No full replacement; archival script retained",
