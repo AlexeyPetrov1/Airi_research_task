@@ -1,0 +1,1886 @@
+{
+  "files": [
+    {
+      "path": "H1_group00_2s_no_prior/all_49_generated_frames.png",
+      "bytes": 1885132,
+      "sha256": "5352b5848f5e12de7c8f6ac14299e37224f79fea91ce6aa5ea010df17a5a1d5b"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/config.json",
+      "bytes": 2473,
+      "sha256": "6dc1131fc4ef035d650c1458833bcb08fff6426a6c29006a811fb19ccf1bd4e0"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/cup_appearance.json",
+      "bytes": 2361,
+      "sha256": "160a7fc4706d5743fc610e70316e9fe7a01bdf214f57e57f27110052f40bbeee"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/cup_tracking.json",
+      "bytes": 602,
+      "sha256": "15a57473ce618128fe86d833105a9186578d7e0ac2390344942c3438261b56fd"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/cup_tracking.npz",
+      "bytes": 7044,
+      "sha256": "2054806a95bb4c7d0f3813c59a423184f5eb71661399b89bb683aa009d337d83"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/environment.txt",
+      "bytes": 3373,
+      "sha256": "306fa392733df75bc14a7337724335e37fbab7b3e71e2556ab2ed920dd12c41a"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/final_generated_frame.png",
+      "bytes": 335113,
+      "sha256": "56debfdc56cd4c97d2bda3892ad77f8ef86b6a8aec1848a0c9ba2310a195fe9e"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/generated_contact_sheet.png",
+      "bytes": 596897,
+      "sha256": "fedeb122cec3f68223f25f06b9242d8e06f7f393c3f587bfcaab4f29678a86c6"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/generated_latents.pt",
+      "bytes": 2248239,
+      "sha256": "b1b62d23055aaddc63d996bd2f9c301f47b8cd1f80d2e9e4a3eda9e48ee0292e"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/generated_seed42.mp4",
+      "bytes": 189263,
+      "sha256": "c0a47d61c5ee419fb36da2fe1c128538d0eded5f039f5de29ad7ba9a44e29188"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/generated_vs_raw_tracking.mp4",
+      "bytes": 1035512,
+      "sha256": "7cd4562a14ec87e33dfa20ea8f29c180f4766bb1d34ade2d668d6ad1e8f92226"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/generation.log",
+      "bytes": 8145,
+      "sha256": "fe6983005d75f535c48f7ce584087da9c9590d6f5e5f3a7907e19b6ef82fd682"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/gpu_info.txt",
+      "bytes": 1781,
+      "sha256": "9f9604e7f6c24cad7f1c40de1f6a28d432f581ac4146da2ef89e3caa26d3d285"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/measured_motion.png",
+      "bytes": 366025,
+      "sha256": "078ebc71d330ae41f7f6758f6e29f12e735b8c08fe5690549d5ae54841a75150"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/motion_measurements.npz",
+      "bytes": 7445,
+      "sha256": "a574edc08b96563c85f470389b6aa31f443840cb037a80923b1f11d5ec235e60"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/motion_metrics.json",
+      "bytes": 10031,
+      "sha256": "c130c0419f1dff4e385a17d0adf2798ec06081029c738b8c08b79a57cd2f88a4"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/resource_usage.json",
+      "bytes": 433,
+      "sha256": "3693e3c32dbbfcd65969cd7c612d0972fa7b0b3409cf13dd33b369749e63cae5"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/review_00_06.png",
+      "bytes": 786956,
+      "sha256": "fe3daf4cbca123cd686243b31381725c5524303eb4b6c07506256c03d40ee058"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/review_07_13.png",
+      "bytes": 673826,
+      "sha256": "7c02b2cd3371412aa4b2539338bc99ad2903e99e2ca310c7a1f46e1c10cb1aa0"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/review_14_20.png",
+      "bytes": 576093,
+      "sha256": "a4faa03e5c0913c6e032243a10e1711c47e11b6ed1ac2fbd92f3dd9ede0c5a98"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/review_21_27.png",
+      "bytes": 545705,
+      "sha256": "1b5f1614e914068c6c078931ff0f95976b62577391119e25ec7f0e6a454b4d1d"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/review_28_34.png",
+      "bytes": 522259,
+      "sha256": "e1d7b75ad2d3086694f083b01af830d04a0266184bf567a04a6e48a686c01148"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/review_35_41.png",
+      "bytes": 440178,
+      "sha256": "820a431ab1fce9b02168dee152c08355e8e6e12c146aed34089356b5da4d00cb"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/review_42_48.png",
+      "bytes": 315257,
+      "sha256": "17dc6081327fe872cbb33a04ada9a19e8cc771a3a0b287cf34a452fff63cc296"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3719,
+      "sha256": "a9f567fd97a80c7faedbfb92a9e6ceaab0f8edcaa44467aca20a247b928d10c7"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/source_snapshot/das_full_motion_generate.py",
+      "bytes": 16193,
+      "sha256": "de4f82d61280156368899c8ccb4835fa0d24e53704732a7b78133109f49dad66"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10902,
+      "sha256": "babe6a66f3c233d9580e0a86edbb5935d0b8570dc7cfbaaf43a170e0f22ff614"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/source_snapshot/das_full_motion_prior.py",
+      "bytes": 5812,
+      "sha256": "4e5c441b90d13ed6e5a02c4d7b59aabb65b3c1df95324abd68677e3cc36e827e"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/source_snapshot/das_full_motion_safety.py",
+      "bytes": 555,
+      "sha256": "78851802d0acbf3176420ebe3cf4e527a5fda8908f80631214b49aefb99d3bac"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H1_group00_2s_no_prior/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/all_49_generated_frames.png",
+      "bytes": 1975258,
+      "sha256": "8339becd9e187efa48c9cb6a6647302dc9ff0931e3450a9a4485f269d87dc8b0"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/config.json",
+      "bytes": 2300,
+      "sha256": "e79e0f748bdda19f83e9e44eca789e6f23c92b6cd6d67281366fd4fff3e4a407"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/cup_appearance.json",
+      "bytes": 4030,
+      "sha256": "04e6e61d3e8c8f80016fc6ace7a7d7d98eb837c5da0194cd2d7424f7f0796fee"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/cup_tracking.json",
+      "bytes": 602,
+      "sha256": "4e4bcc42889bc77ca5d83597381e727dd03ab24571384b207b44c559d39d14eb"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/cup_tracking.npz",
+      "bytes": 6990,
+      "sha256": "1c2067b2b1abf457ce6cb1d2c866f41b7bf82f9f22699b70c941f6e54a41aeed"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/environment.txt",
+      "bytes": 3373,
+      "sha256": "306fa392733df75bc14a7337724335e37fbab7b3e71e2556ab2ed920dd12c41a"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/final_generated_frame.png",
+      "bytes": 328604,
+      "sha256": "1a6683ecd8cf3512870d982f2c1bf04d60c16d4546f8bb3b409d1f64083a451c"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/generated_contact_sheet.png",
+      "bytes": 601167,
+      "sha256": "5bab43acdb44332e4b8d3c26d928b7cdb4e2f52712bb747cdd09f21dc3704b11"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/generated_latents.pt",
+      "bytes": 2248239,
+      "sha256": "02a9d1b6455a11efb1ba73ffb0daba93d4bd34ac1610bc1d41eaf6f49f8fbb8c"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/generated_seed42.mp4",
+      "bytes": 210046,
+      "sha256": "12c627f2b186bc67e6aa77782dc465814309ac8febe4228b936f1a8d408d22bd"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/generated_vs_raw_tracking.mp4",
+      "bytes": 1138327,
+      "sha256": "bb2452e5683354da6b87dfc49ea937da08d905d24e043701e9b71f4b07db51bc"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/generation.log",
+      "bytes": 8241,
+      "sha256": "b524388a085adb33a9e8bb8b94368cca7715c3e4e265944d9d2c6a40c9d1ee2e"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/gpu_info.txt",
+      "bytes": 1689,
+      "sha256": "9589d0c41d1734042751abbb4e82cf7a737286b17aac3977f457dfb0d404e49a"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/measured_motion.png",
+      "bytes": 369777,
+      "sha256": "7e7dc293e5d71f4d4476ec65928edb21167a55d2a84de34c8445b04bae21513c"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/motion_measurements.npz",
+      "bytes": 13247,
+      "sha256": "30316cfe12b28d1164c273dd0c6d38f88a12447dd9a842fe2325949785ffb7ab"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/motion_metrics.json",
+      "bytes": 9321,
+      "sha256": "b9e968a71ac4c3be7948092238ff5dd9980785bc76b5e3a29f96b3fe623cd8f2"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/resource_usage.json",
+      "bytes": 383,
+      "sha256": "690393314ca581e86a95affb6335115a33a0d21074ab1b6082b1ea01c48f7253"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/review_00_06.png",
+      "bytes": 805497,
+      "sha256": "93a865e1a9eccb70a8b730fe684d32007659bafae0a4505aeee6a365f4d52e68"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/review_07_13.png",
+      "bytes": 691410,
+      "sha256": "3658be32f000a6ef98af88e0ff013d75799a364bded07f5396a0c07c56bd049b"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/review_14_20.png",
+      "bytes": 598501,
+      "sha256": "f3f0d2a3c491c6369d5e95010d62f396257a5d1caaa7813d98fee12ab903aed0"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/review_21_27.png",
+      "bytes": 557886,
+      "sha256": "8fbcf159d19a63873b66344ff903e55da3d65544591a410d1e098f1165cb1266"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/review_28_34.png",
+      "bytes": 550673,
+      "sha256": "9cce4b00090d430edbe3c5d3f1d7c3604e3dd36c43eec31f3d122f082b399026"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/review_35_41.png",
+      "bytes": 464949,
+      "sha256": "8e6793c7aaae6d5dba7776073478ddd1c89654279b7c7012be6d6c8f495c95e3"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/review_42_48.png",
+      "bytes": 363976,
+      "sha256": "2204e93b8104733063b585b25ec70373a7cb11b59819a417410d550074df1582"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/robot_motion_measurements.npz",
+      "bytes": 11694,
+      "sha256": "fcb7387bc64fea5a19cb3ff11d9e23f3a983d6917eee44e3a535a840245f6a57"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/robot_tracking.json",
+      "bytes": 690,
+      "sha256": "10bbf04ca3ca599b551d6844b64c5ae2130c6754257d10df00406bfd508a75aa"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/robot_tracking.npz",
+      "bytes": 8109,
+      "sha256": "3a2951c4bf79742c441338c0ed4c207d8216748b8b1f8935d62068d8603451cb"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/robot_tracking_overlay.mp4",
+      "bytes": 1115053,
+      "sha256": "85c0bf8a1ab294ff01abd95ddad7d74dc690d44f57d3a61e49b76525b6ac99a6"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3340,
+      "sha256": "0906bdd80a5fbc95aa2f388b628ed2684abd6317baad4cdf4007274612aea956"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/source_snapshot/das_full_motion_generate.py",
+      "bytes": 12882,
+      "sha256": "02e1010b4f3eb5f23a60d4b92c0d540254aa9f759dc837fc5aa5b67e5a580b56"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10823,
+      "sha256": "9cb5a6dfc242a15bfd1f223652de1498098a674523504d549c3b1b10df5709f7"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H2_group00_6s_no_prior/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H3_first_attempt_paging/config.json",
+      "bytes": 2559,
+      "sha256": "322a6fb7421fd1c738cb001d6a64faf8c42d03f278a9315d403e6f7c4c24d353"
+    },
+    {
+      "path": "H3_first_attempt_paging/environment.txt",
+      "bytes": 3373,
+      "sha256": "306fa392733df75bc14a7337724335e37fbab7b3e71e2556ab2ed920dd12c41a"
+    },
+    {
+      "path": "H3_first_attempt_paging/generation.log",
+      "bytes": 11659,
+      "sha256": "4e30fcaaf8a70ce5333838a51012f402092731c68efba1ab0e6e722028250b4a"
+    },
+    {
+      "path": "H3_first_attempt_paging/gpu_info.txt",
+      "bytes": 1689,
+      "sha256": "dd9ec6dcbc5dc15975dac07f349592de46735da2c58f1664e0707cec3d427563"
+    },
+    {
+      "path": "H3_first_attempt_paging/photographic_guide_latents.pt",
+      "bytes": 2248302,
+      "sha256": "45ac6090aa01e81b685dab107db27f0ce495e483dc910e55ac0ef915f21fd9fb"
+    },
+    {
+      "path": "H3_first_attempt_paging/profile_transfer_sample.txt",
+      "bytes": 1364,
+      "sha256": "74d95a03695ea114202c9bf33d6e24c082cc4b5200f89bc44596e21620c89035"
+    },
+    {
+      "path": "H3_first_attempt_paging/resource_usage.json",
+      "bytes": 5166,
+      "sha256": "d729dfb573f6af0f6386f03a3a1bde28c14f66e8ae5f60dbbd1e00f954beb690"
+    },
+    {
+      "path": "H3_first_attempt_paging/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3719,
+      "sha256": "a9f567fd97a80c7faedbfb92a9e6ceaab0f8edcaa44467aca20a247b928d10c7"
+    },
+    {
+      "path": "H3_first_attempt_paging/source_snapshot/das_full_motion_generate.py",
+      "bytes": 13059,
+      "sha256": "d2322a6a688283fbc6611ee91f34499abda1deed89d363a40281ca39ba7a0817"
+    },
+    {
+      "path": "H3_first_attempt_paging/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10902,
+      "sha256": "babe6a66f3c233d9580e0a86edbb5935d0b8570dc7cfbaaf43a170e0f22ff614"
+    },
+    {
+      "path": "H3_first_attempt_paging/source_snapshot/das_full_motion_prior.py",
+      "bytes": 5812,
+      "sha256": "4e5c441b90d13ed6e5a02c4d7b59aabb65b3c1df95324abd68677e3cc36e827e"
+    },
+    {
+      "path": "H3_first_attempt_paging/source_snapshot/das_full_motion_safety.py",
+      "bytes": 555,
+      "sha256": "78851802d0acbf3176420ebe3cf4e527a5fda8908f80631214b49aefb99d3bac"
+    },
+    {
+      "path": "H3_first_attempt_paging/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H3_first_attempt_paging/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H3_group00_6s_prior025/all_49_generated_frames.png",
+      "bytes": 1882128,
+      "sha256": "614c4bfb2eeefe95783f58b386eee1c44aee2493619c6e3c5599fe67085bef5b"
+    },
+    {
+      "path": "H3_group00_6s_prior025/config.json",
+      "bytes": 2825,
+      "sha256": "1fd852f0ef74c75e721e845864ccd5b8ebd3e4e443707c13ccccf35b4c01fb1a"
+    },
+    {
+      "path": "H3_group00_6s_prior025/cup_appearance.json",
+      "bytes": 4375,
+      "sha256": "2a5b3dfb8976cae5c22422d8248a363d65355895149f219fd34c515984ab3293"
+    },
+    {
+      "path": "H3_group00_6s_prior025/cup_tracking.json",
+      "bytes": 603,
+      "sha256": "caf900239311f0b9b817b6473143db66c1df28ab67869a842ce07bd2cdc394b6"
+    },
+    {
+      "path": "H3_group00_6s_prior025/cup_tracking.npz",
+      "bytes": 6792,
+      "sha256": "22e8df255cdebae963f93a2ad4baf39026754e15e70a503e3a2bc5f6007cfdbe"
+    },
+    {
+      "path": "H3_group00_6s_prior025/environment.txt",
+      "bytes": 3373,
+      "sha256": "306fa392733df75bc14a7337724335e37fbab7b3e71e2556ab2ed920dd12c41a"
+    },
+    {
+      "path": "H3_group00_6s_prior025/final_generated_frame.png",
+      "bytes": 326894,
+      "sha256": "1fbba1a527cd5a58a8e9e20c816f2fdabd4ab944b5aaa0dedaa699389e548f82"
+    },
+    {
+      "path": "H3_group00_6s_prior025/generated_contact_sheet.png",
+      "bytes": 580651,
+      "sha256": "4e646751f3b421510c241131673a2fa6de1b8006204be21dd5dd22bd390ddbd2"
+    },
+    {
+      "path": "H3_group00_6s_prior025/generated_latents.pt",
+      "bytes": 2248239,
+      "sha256": "ba6ffe76f73282e866f8f6180dde7a92d153d36051f3b3fdf505ce74bfbbcc85"
+    },
+    {
+      "path": "H3_group00_6s_prior025/generated_seed42.mp4",
+      "bytes": 204176,
+      "sha256": "4876563fe11ca3935ca77df318d7ffbad3c001d896f4d3280c840182a6322217"
+    },
+    {
+      "path": "H3_group00_6s_prior025/generated_vs_raw_tracking.mp4",
+      "bytes": 1177146,
+      "sha256": "87c9801f2545cacb6fb37b8bdcd0001b2cad06923ba4819bb45adba3b8f8097c"
+    },
+    {
+      "path": "H3_group00_6s_prior025/generation.log",
+      "bytes": 9666,
+      "sha256": "040e51ef206020d7a9bf4f53ca2deaae19ad2d1020fde426ffce47640cc22525"
+    },
+    {
+      "path": "H3_group00_6s_prior025/gpu_info.txt",
+      "bytes": 1781,
+      "sha256": "eec5ed6c62395c81c87a34ef18656cc6a19a51c93a308d6efc9be5141db5cecf"
+    },
+    {
+      "path": "H3_group00_6s_prior025/measured_motion.png",
+      "bytes": 369184,
+      "sha256": "3d266387af875adfd773cc5c28614781459e6482051158fb426e93c970118612"
+    },
+    {
+      "path": "H3_group00_6s_prior025/motion_measurements.npz",
+      "bytes": 13235,
+      "sha256": "dd2fa12bc56940fc330e2632aaf81f518c3f09058f5ef23cccd7bb39ebc36611"
+    },
+    {
+      "path": "H3_group00_6s_prior025/motion_metrics.json",
+      "bytes": 9487,
+      "sha256": "f7829dd514a1d81c3c8391d23a8ba9c7d6138e162ae23948471df82a2400436e"
+    },
+    {
+      "path": "H3_group00_6s_prior025/photographic_guide_latents.pt",
+      "bytes": 2248302,
+      "sha256": "45ac6090aa01e81b685dab107db27f0ce495e483dc910e55ac0ef915f21fd9fb"
+    },
+    {
+      "path": "H3_group00_6s_prior025/photographic_prior_receipt.json",
+      "bytes": 1070,
+      "sha256": "f45843d71750a617158ccd01a3ee524c15538002130891caf67ea48b0f55361a"
+    },
+    {
+      "path": "H3_group00_6s_prior025/prior_latent_audit.json",
+      "bytes": 744,
+      "sha256": "c1b9afd88e289b019e6552183284de26165a1af8347ce6786bd046f3fbaf047c"
+    },
+    {
+      "path": "H3_group00_6s_prior025/resource_usage.json",
+      "bytes": 423,
+      "sha256": "3762a1d5cc7b1d3f001100ea9c8bb01972cb3fb523ca774ae5aefaeff8928860"
+    },
+    {
+      "path": "H3_group00_6s_prior025/review_00_06.png",
+      "bytes": 764142,
+      "sha256": "712cc624b87f56f3a36887cc3a465fc779b0ed299e16675b7294d546d6ecf5ff"
+    },
+    {
+      "path": "H3_group00_6s_prior025/review_07_13.png",
+      "bytes": 737394,
+      "sha256": "0b567ccdd15389d7057fe2011877db9343b761647dcc371c98b4a363204e9204"
+    },
+    {
+      "path": "H3_group00_6s_prior025/review_14_20.png",
+      "bytes": 631672,
+      "sha256": "9a3d16a1e79aa19844eb4876dd45f133b7fa3f578bca793ff03af88b46e32ee4"
+    },
+    {
+      "path": "H3_group00_6s_prior025/review_21_27.png",
+      "bytes": 542272,
+      "sha256": "adcb935464405ac9cd3802db941ed6c2f260a7b677cd8ae84313b05db12d48e5"
+    },
+    {
+      "path": "H3_group00_6s_prior025/review_28_34.png",
+      "bytes": 465047,
+      "sha256": "9102ca9679fa72241fb8c90e243b1a9881cf8fbaeb65e52de31810ac59976e50"
+    },
+    {
+      "path": "H3_group00_6s_prior025/review_35_41.png",
+      "bytes": 398276,
+      "sha256": "3907a6fff9de53fc65e268699b0f8012cdc41899af9b278508256697c820af41"
+    },
+    {
+      "path": "H3_group00_6s_prior025/review_42_48.png",
+      "bytes": 333158,
+      "sha256": "2d94ac68918b43d489ed462c88328909b7f26dc272263bacc3c2f62d9ab6a15f"
+    },
+    {
+      "path": "H3_group00_6s_prior025/robot_motion_measurements.npz",
+      "bytes": 11734,
+      "sha256": "49d509a4c2e4da6e933bc85b9d4591731c864190d11ec3b59d5920a7821a5140"
+    },
+    {
+      "path": "H3_group00_6s_prior025/robot_tracking.json",
+      "bytes": 690,
+      "sha256": "6d512c827bae1ede8eb48499f0be11551fb3d6ccc11d73d3a2d142969c034caf"
+    },
+    {
+      "path": "H3_group00_6s_prior025/robot_tracking.npz",
+      "bytes": 8228,
+      "sha256": "3b9cefe29c7764405f559716f2378665e93a80f4681e7f127737030af27ec18b"
+    },
+    {
+      "path": "H3_group00_6s_prior025/robot_tracking_overlay.mp4",
+      "bytes": 1141225,
+      "sha256": "b643de335daa38daa2d9538d9ff497540b59dfeeed7a315d81d331a30827bb44"
+    },
+    {
+      "path": "H3_group00_6s_prior025/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3719,
+      "sha256": "a9f567fd97a80c7faedbfb92a9e6ceaab0f8edcaa44467aca20a247b928d10c7"
+    },
+    {
+      "path": "H3_group00_6s_prior025/source_snapshot/das_full_motion_generate.py",
+      "bytes": 16193,
+      "sha256": "de4f82d61280156368899c8ccb4835fa0d24e53704732a7b78133109f49dad66"
+    },
+    {
+      "path": "H3_group00_6s_prior025/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10902,
+      "sha256": "babe6a66f3c233d9580e0a86edbb5935d0b8570dc7cfbaaf43a170e0f22ff614"
+    },
+    {
+      "path": "H3_group00_6s_prior025/source_snapshot/das_full_motion_prior.py",
+      "bytes": 5812,
+      "sha256": "4e5c441b90d13ed6e5a02c4d7b59aabb65b3c1df95324abd68677e3cc36e827e"
+    },
+    {
+      "path": "H3_group00_6s_prior025/source_snapshot/das_full_motion_safety.py",
+      "bytes": 555,
+      "sha256": "78851802d0acbf3176420ebe3cf4e527a5fda8908f80631214b49aefb99d3bac"
+    },
+    {
+      "path": "H3_group00_6s_prior025/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H3_group00_6s_prior025/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/config.json",
+      "bytes": 2825,
+      "sha256": "a7a54db6409a6ee4ebe97144aad1eb82b48ce41e2e9f9c2a1c7156ecac9101f0"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/environment.txt",
+      "bytes": 3373,
+      "sha256": "306fa392733df75bc14a7337724335e37fbab7b3e71e2556ab2ed920dd12c41a"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/generation.log",
+      "bytes": 13382,
+      "sha256": "a5885e1e8a273319975c65832acbb6bc3081312585c325ae3bbee3c7c1e60d77"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/gpu_info.txt",
+      "bytes": 1873,
+      "sha256": "13a4c4a3b61590117ed2683e184a07dc6ff97149681ff69b1626759029d2460a"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/photographic_guide_latents.pt",
+      "bytes": 2248302,
+      "sha256": "45ac6090aa01e81b685dab107db27f0ce495e483dc910e55ac0ef915f21fd9fb"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/resource_usage.json",
+      "bytes": 5143,
+      "sha256": "3c89decb204a174e75c2c491242bc90ce8600ce75ccedf0395236fd3f575ab29"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3719,
+      "sha256": "a9f567fd97a80c7faedbfb92a9e6ceaab0f8edcaa44467aca20a247b928d10c7"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/source_snapshot/das_full_motion_generate.py",
+      "bytes": 14281,
+      "sha256": "3352d9b915a8c264f0062dbb3be1840400ad1bf5f1e183fb6952ed48a4419fbd"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10902,
+      "sha256": "babe6a66f3c233d9580e0a86edbb5935d0b8570dc7cfbaaf43a170e0f22ff614"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/source_snapshot/das_full_motion_prior.py",
+      "bytes": 5812,
+      "sha256": "4e5c441b90d13ed6e5a02c4d7b59aabb65b3c1df95324abd68677e3cc36e827e"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/source_snapshot/das_full_motion_safety.py",
+      "bytes": 555,
+      "sha256": "78851802d0acbf3176420ebe3cf4e527a5fda8908f80631214b49aefb99d3bac"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H3_second_attempt_shared_gpu/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/generation.log",
+      "bytes": 700,
+      "sha256": "25aa0c485b010c6eb6a89fcb35c0d3d7ea823ee21009f2d4477804910cedc767"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/resource_usage.json",
+      "bytes": 205,
+      "sha256": "97779f7cae716a4243ac78cdd8c051cfbefdd111d26740978dd0f4c962c2aa7d"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3719,
+      "sha256": "a9f567fd97a80c7faedbfb92a9e6ceaab0f8edcaa44467aca20a247b928d10c7"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/source_snapshot/das_full_motion_generate.py",
+      "bytes": 15776,
+      "sha256": "113f94a60709b56bd0124ead18041e30acc825bd9a38d672f6520e092806d7a1"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10902,
+      "sha256": "babe6a66f3c233d9580e0a86edbb5935d0b8570dc7cfbaaf43a170e0f22ff614"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/source_snapshot/das_full_motion_prior.py",
+      "bytes": 5812,
+      "sha256": "4e5c441b90d13ed6e5a02c4d7b59aabb65b3c1df95324abd68677e3cc36e827e"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/source_snapshot/das_full_motion_safety.py",
+      "bytes": 555,
+      "sha256": "78851802d0acbf3176420ebe3cf4e527a5fda8908f80631214b49aefb99d3bac"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H3_wait_interrupted_by_reboot/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H4_no_trajectory_control/all_49_generated_frames.png",
+      "bytes": 3274814,
+      "sha256": "b7c78811322e522738d069e84723c9cb56b4dacf088c220732a0a82486a5dbb2"
+    },
+    {
+      "path": "H4_no_trajectory_control/config.json",
+      "bytes": 2438,
+      "sha256": "0223c7da5e751a472fcb2c425d79b7bce5b50ae402d2c8078d70f0919af106fb"
+    },
+    {
+      "path": "H4_no_trajectory_control/cup_appearance.json",
+      "bytes": 5440,
+      "sha256": "741cd07956bec26b13cb156372d5c95b63c962c10a07d58deb5abb022d9bb0b5"
+    },
+    {
+      "path": "H4_no_trajectory_control/cup_tracking.json",
+      "bytes": 603,
+      "sha256": "42c5d732a9ff93e5f0c02e6469ef7604f20daea07fd984d693ba6b23806c926a"
+    },
+    {
+      "path": "H4_no_trajectory_control/cup_tracking.npz",
+      "bytes": 6691,
+      "sha256": "24aff2866930558e1fa9279cba297cfd6de6ea81a9ecfa33520626e2605bc96c"
+    },
+    {
+      "path": "H4_no_trajectory_control/environment.txt",
+      "bytes": 3373,
+      "sha256": "306fa392733df75bc14a7337724335e37fbab7b3e71e2556ab2ed920dd12c41a"
+    },
+    {
+      "path": "H4_no_trajectory_control/final_generated_frame.png",
+      "bytes": 315562,
+      "sha256": "5a5a232c397e4125e0310d2fbea752ca7ce56131ba3c42f731f24bbed54224ee"
+    },
+    {
+      "path": "H4_no_trajectory_control/generated_contact_sheet.png",
+      "bytes": 743845,
+      "sha256": "21fb35e884e32a6926e6c214fccd3e7dfb07f7b57d405f432a8cb816c033e04b"
+    },
+    {
+      "path": "H4_no_trajectory_control/generated_latents.pt",
+      "bytes": 2248239,
+      "sha256": "82e6a1189212b70c7982ccf81392ba171283ac6bdf532f953abe49d823dc6344"
+    },
+    {
+      "path": "H4_no_trajectory_control/generated_seed42.mp4",
+      "bytes": 432161,
+      "sha256": "6a71c4c74a9db7e72956fbc4702b15113d239f7a5b09ad2fb0c5d3e779d524ea"
+    },
+    {
+      "path": "H4_no_trajectory_control/generated_vs_raw_tracking.mp4",
+      "bytes": 2683583,
+      "sha256": "d4891c4a1064bde786b00b4442a3364509d4ca0d91af7e734a56823ecb6830c4"
+    },
+    {
+      "path": "H4_no_trajectory_control/generation.log",
+      "bytes": 8145,
+      "sha256": "2993d0b3bc89246b9109a584ce113123c7d2453e7d909e62bededa292cf602f4"
+    },
+    {
+      "path": "H4_no_trajectory_control/gpu_info.txt",
+      "bytes": 1781,
+      "sha256": "8607a230fd772b0c0b9d5d3d2b065895494d16f4815f7bfa9a0ec82bb9813298"
+    },
+    {
+      "path": "H4_no_trajectory_control/measured_motion.png",
+      "bytes": 370303,
+      "sha256": "82de80538b393fef1f6de578303d8e25e6c37a93292c815262166dd9d3acbd8b"
+    },
+    {
+      "path": "H4_no_trajectory_control/motion_measurements.npz",
+      "bytes": 13056,
+      "sha256": "d83ea1ad95f2902f5aa6eb743faf1b1a1dc2d659b334113f3ca6ad815a5122cf"
+    },
+    {
+      "path": "H4_no_trajectory_control/motion_metrics.json",
+      "bytes": 9444,
+      "sha256": "1064a96e71a3268086a30f303a141ff75f05a5775029f5075b336a12909e5ea1"
+    },
+    {
+      "path": "H4_no_trajectory_control/resource_usage.json",
+      "bytes": 433,
+      "sha256": "b2b82c9562352a4cde65311d198e66c855a7d8e6d64288555cff4fcc37647ae7"
+    },
+    {
+      "path": "H4_no_trajectory_control/review_00_06.png",
+      "bytes": 958250,
+      "sha256": "64ff06ada595330627668de992facff00c6ee6f01a75897bac76d1baf37265b6"
+    },
+    {
+      "path": "H4_no_trajectory_control/review_07_13.png",
+      "bytes": 939858,
+      "sha256": "7f14ea4200af231e7e526aafca8049192d2758d1cd6bdf88515ad34d2f74a63e"
+    },
+    {
+      "path": "H4_no_trajectory_control/review_14_20.png",
+      "bytes": 986956,
+      "sha256": "edda356ff7e2362def2735971393a33771e1c815a27a1c5d89f76b26c96d698a"
+    },
+    {
+      "path": "H4_no_trajectory_control/review_21_27.png",
+      "bytes": 997238,
+      "sha256": "334e687dd4892182b713c68e582186da38e297d2cc2b22c142e3e7ad4e24042f"
+    },
+    {
+      "path": "H4_no_trajectory_control/review_28_34.png",
+      "bytes": 1052118,
+      "sha256": "8f1390856dea009f0cf52145d0629d14ed8f52b472885cf65c7ca24aa724178d"
+    },
+    {
+      "path": "H4_no_trajectory_control/review_35_41.png",
+      "bytes": 1004145,
+      "sha256": "0895582525ca253dd57c78928ed6799fd1ce9c4f39afe4edf4a48cf67cc4e11b"
+    },
+    {
+      "path": "H4_no_trajectory_control/review_42_48.png",
+      "bytes": 968433,
+      "sha256": "821480465f1654a01ace4bd01f7d86c8985d46625c49de660ded14eec1d781e2"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3719,
+      "sha256": "a9f567fd97a80c7faedbfb92a9e6ceaab0f8edcaa44467aca20a247b928d10c7"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_full_motion_generate.py",
+      "bytes": 16282,
+      "sha256": "976b2d687f40be06b9d9eb3e862d5aceb7627bb20172014d55a36169e5edf123"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10902,
+      "sha256": "babe6a66f3c233d9580e0a86edbb5935d0b8570dc7cfbaaf43a170e0f22ff614"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_full_motion_prior.py",
+      "bytes": 5812,
+      "sha256": "4e5c441b90d13ed6e5a02c4d7b59aabb65b3c1df95324abd68677e3cc36e827e"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_full_motion_robot_ik.py",
+      "bytes": 2828,
+      "sha256": "843df7bb77b40ec86755db249255d9f38804d62315762d8ac0cd5a664eb13203"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_full_motion_robot_prepare.py",
+      "bytes": 9335,
+      "sha256": "28843175f69c7891a5902db682078d243a1ff9c907d62c90c1196a322ebcc216"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_full_motion_safety.py",
+      "bytes": 555,
+      "sha256": "78851802d0acbf3176420ebe3cf4e527a5fda8908f80631214b49aefb99d3bac"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_robot_geometry.py",
+      "bytes": 5149,
+      "sha256": "22dd1570da349122113442d28f907174b257768c8ceaa97fadc912674845ad7e"
+    },
+    {
+      "path": "H4_no_trajectory_control/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/all_49_generated_frames.png",
+      "bytes": 2146581,
+      "sha256": "c5de38c747546a4f68ef839fad1be3d41e8e100a270012928c872906de5bb52d"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/config.json",
+      "bytes": 2631,
+      "sha256": "a7b55be8919587632f8054482d537c2dd10cf7b285d0d0b1fca668bfb4961b69"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/cup_appearance.json",
+      "bytes": 4382,
+      "sha256": "7c84cd20c1a474d7842f395064c88ace260d0a1ff9bbed286c248a775d0042d9"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/cup_tracking.json",
+      "bytes": 603,
+      "sha256": "c5d6761a46adb7306eddfe0871c686e6dd0d33f89322f236a366c12014d14032"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/cup_tracking.npz",
+      "bytes": 6771,
+      "sha256": "baf2b9a156b4fceeac3460b695582f54cb744ca1c25a69d667e8c8125233ecb5"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/environment.txt",
+      "bytes": 3373,
+      "sha256": "306fa392733df75bc14a7337724335e37fbab7b3e71e2556ab2ed920dd12c41a"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/final_generated_frame.png",
+      "bytes": 319462,
+      "sha256": "09ce48f9a27ad0b6e38d8d2b3589ec6d1cf73ce06bcbab6b1374e163ac56cbd7"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/generated_contact_sheet.png",
+      "bytes": 623497,
+      "sha256": "11a0053df2420bd5df3b1ac1eb5c545ae1d97c3d4495f51d92911dba79831b51"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/generated_latents.pt",
+      "bytes": 2248239,
+      "sha256": "ce0b76bcfe6604b29bf0df6f859ec91bde682c83bf32ac84956b3fe427b0bee5"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/generated_seed42.mp4",
+      "bytes": 238977,
+      "sha256": "db8ea0ebd8c56520aed7c01672d68edcd55306736d1ec006f4b0c1cfe8a720f3"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/generated_vs_raw_tracking.mp4",
+      "bytes": 1460940,
+      "sha256": "6f1e55b2480d9690d084bc87254c3f38400ccf865a511d8731dec1cbf377932d"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/generation.log",
+      "bytes": 8091,
+      "sha256": "8902d34419184bafcf1476690873fcf87944db568c2c0f18cbf557ef0268cca4"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/gpu_info.txt",
+      "bytes": 1781,
+      "sha256": "7ce116543a6b8ae5a4f92fec66e27c62c3310ddee3cfcac0cafd2b6b8eb1f312"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/measured_motion.png",
+      "bytes": 369327,
+      "sha256": "329dcb3e973d0400d1b421e56662c81ed67cd4c140cabde684c667a0c174d574"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/motion_measurements.npz",
+      "bytes": 13228,
+      "sha256": "f2b96a2d842014cbff149186928f3f556dc18948f218ebab62c87bcf9e4da6ee"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/motion_metrics.json",
+      "bytes": 9485,
+      "sha256": "80371cdfc0f0639cf8e55a9ce6619e8d683a3e4c2bad1a60ada2eb8cafa3dc9e"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/photographic_guide_latents.pt",
+      "bytes": 2248302,
+      "sha256": "d0f7cdc4ca233924e6bce15decdd0a1aed23deb7051a2b62f748e5be5f747272"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/photographic_prior_receipt.json",
+      "bytes": 1070,
+      "sha256": "6f4aeceaa32cd968c52dbbb59f4c46763f5495c9d1289b5ebdf7dcdda2239e32"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/prior_latent_audit.json",
+      "bytes": 744,
+      "sha256": "df94d4af45db25c688556004c07479ae3d483e46170da111662264f3e76c6eb6"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/resource_usage.json",
+      "bytes": 428,
+      "sha256": "4d1ca6ea849a0a37d50c8a1158bf5a0036ebbd8dd2763f777093daae3d1a4617"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/review_00_06.png",
+      "bytes": 847885,
+      "sha256": "b879ca3b1549ecb32b779067cfcf520229fd7cad5234bb6e21eae262c95fbe2a"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/review_07_13.png",
+      "bytes": 705702,
+      "sha256": "3e8cd03be14512ed03950019a9528c8932065a8b1f697c6c8d88e0172097c7f2"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/review_14_20.png",
+      "bytes": 620046,
+      "sha256": "27737368d036c5451618ff0a299a64512eb3a2f744b48167b0dc533d75b3f5d2"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/review_21_27.png",
+      "bytes": 605626,
+      "sha256": "1f11f6db156acf39c5e44af3eede2f65c9f3034052f0a1923a96254e5898c447"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/review_28_34.png",
+      "bytes": 625177,
+      "sha256": "bbfb4d8aa75a7c4599b6662676ada330e4935616571a9b6ead47f372b6d63d60"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/review_35_41.png",
+      "bytes": 576026,
+      "sha256": "8e00f4629f3476ba8fae7f188527be142f30db0646de054d3a56ed4d0d1f395a"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/review_42_48.png",
+      "bytes": 452727,
+      "sha256": "6bed5462beac4f47e3b1bc04b7fb8528a0e3f73a92f656bfa6850c5949608405"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/robot_motion_measurements.npz",
+      "bytes": 11910,
+      "sha256": "486af2e9297b36dfc70931488ae3160fed16673ad9fd13a4a3135fabbff8c891"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/robot_tracking.json",
+      "bytes": 690,
+      "sha256": "aec19bd3ea7cfc962d71200a534d74d51cdd7f325f6903548d16e0d6ac5eb797"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/robot_tracking.npz",
+      "bytes": 8998,
+      "sha256": "109dec8d1e531cb19e11c0e01dfac7ad237735f3efb0170391568ea774cd3e8a"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/robot_tracking_overlay.mp4",
+      "bytes": 1452315,
+      "sha256": "effc5f52ee72d6f2447b3b0272d9ad672fb2902e998c6b9edc54da674307ed94"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_diagnose.py",
+      "bytes": 3719,
+      "sha256": "a9f567fd97a80c7faedbfb92a9e6ceaab0f8edcaa44467aca20a247b928d10c7"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_generate.py",
+      "bytes": 16513,
+      "sha256": "19735e23fd3f630ad4f96812d75ce35586c92ac6872ef828851f944599196f51"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_prepare.py",
+      "bytes": 10902,
+      "sha256": "babe6a66f3c233d9580e0a86edbb5935d0b8570dc7cfbaaf43a170e0f22ff614"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_prior.py",
+      "bytes": 5812,
+      "sha256": "4e5c441b90d13ed6e5a02c4d7b59aabb65b3c1df95324abd68677e3cc36e827e"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_robot_ik.py",
+      "bytes": 2828,
+      "sha256": "843df7bb77b40ec86755db249255d9f38804d62315762d8ac0cd5a664eb13203"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_robot_prepare.py",
+      "bytes": 9335,
+      "sha256": "28843175f69c7891a5902db682078d243a1ff9c907d62c90c1196a322ebcc216"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_robot_prior_variant.py",
+      "bytes": 2726,
+      "sha256": "5a904b0574f8d6b911b03a415edf887955a5dfdd3ea83ceb1bd556c658305f03"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_full_motion_safety.py",
+      "bytes": 555,
+      "sha256": "78851802d0acbf3176420ebe3cf4e527a5fda8908f80631214b49aefb99d3bac"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_prepare_control.py",
+      "bytes": 13976,
+      "sha256": "1b93ab2255479896219f17843c78b61553e53de5544a103d861102f87c193bd6"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_robot_geometry.py",
+      "bytes": 5149,
+      "sha256": "22dd1570da349122113442d28f907174b257768c8ceaa97fadc912674845ad7e"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025/source_snapshot/das_wanfun_runtime.py",
+      "bytes": 3969,
+      "sha256": "9ddd0d034544bd27bebbba70761bb3aeb0a0c7f29d8857f2bb78655a12180433"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025_body_comparison.mp4",
+      "bytes": 3570526,
+      "sha256": "dceb46c85b4e74d96a51f666ed48d14ac12a1d5a74ff8c6043df8b9a556b20c9"
+    },
+    {
+      "path": "H5_group00_6s_whole_robot_prior025_robot_comparison.json",
+      "bytes": 78535,
+      "sha256": "c9ac537fffb954f4c4d8eed26578ad5a536a76c89230e3c24c2f8f2afcf766a5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 20405,
+      "sha256": "4b2193ff9455c3be448480f44c9cbc89787d65db93ca7814f46e4d88138b048e"
+    },
+    {
+      "path": "all24_stretched_6s/center_path.png",
+      "bytes": 380112,
+      "sha256": "d888bb82c8b813db73bed9ee90a5c3f36b4c5f1d51cfaaf23c5eff552ca19e25"
+    },
+    {
+      "path": "all24_stretched_6s/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "all24_stretched_6s/control_720x480.mp4",
+      "bytes": 323953,
+      "sha256": "20905450cb3d0daeb56d8f75403a37f95ff713022d739f74cc74e81cb770cccb"
+    },
+    {
+      "path": "all24_stretched_6s/control_contact_sheet.png",
+      "bytes": 392261,
+      "sha256": "9d74a2c68f097587a24aaff60bb1798e308719334ef9bf77cdf3b8bfe54e5917"
+    },
+    {
+      "path": "all24_stretched_6s/guide_720x480.npz",
+      "bytes": 25229730,
+      "sha256": "26c432c4848d23f2b12b85c1225335b4cc2c03c32f1723c1e25bc77a509cf7ce"
+    },
+    {
+      "path": "all24_stretched_6s/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "all24_stretched_6s/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "all24_stretched_6s/motion.npz",
+      "bytes": 6789985,
+      "sha256": "26cbcc3793a241d95d2b0f05a5f6b430d8332f411615a8b816ddfabb9f85e669"
+    },
+    {
+      "path": "all24_stretched_6s/photographic_guide.mp4",
+      "bytes": 413532,
+      "sha256": "81fa2faada3514bfbbb532f9617c3f98decf9c9d0d06cf8beee0f7b10c75ec64"
+    },
+    {
+      "path": "all24_stretched_6s/preparation.json",
+      "bytes": 5287,
+      "sha256": "f6d3b55ea9699437dedd94d1cf93e0fad0c7538e57e0bb936bad50c21f10b48c"
+    },
+    {
+      "path": "all24_stretched_6s/prior_masks.npz",
+      "bytes": 181897,
+      "sha256": "1851e90e8da93fc1ee80a2356ad271b9667d47b44443379499019e184d88ce2e"
+    },
+    {
+      "path": "before_after_full_arc.mp4",
+      "bytes": 2338472,
+      "sha256": "bf534de47568d813ff528ef6bbcc764b52326e38db2dd5e92ba75f1041067e17"
+    },
+    {
+      "path": "causality_scope.json",
+      "bytes": 1156,
+      "sha256": "576adafec866dfa5dbcd3602679e229f609983b0f69998d5137ea24aa0914d58"
+    },
+    {
+      "path": "comparison_metrics.json",
+      "bytes": 57510,
+      "sha256": "aaf512acebc5913124d174ee2e71b2294ec91e7ab645e1966011862da3f2e111"
+    },
+    {
+      "path": "cpu_verification.json",
+      "bytes": 1303,
+      "sha256": "ad6520534e3a1aa610cadc4b75bc1ce51bad9c434e95eb7cddd91efe85862b5f"
+    },
+    {
+      "path": "fit_all24.npz",
+      "bytes": 3899,
+      "sha256": "2bc993a37fe2d15df7ce440436f7602ec6e817005494d3bb58553fcaad678dcc"
+    },
+    {
+      "path": "fit_group00.npz",
+      "bytes": 3595,
+      "sha256": "e2cd99056dec982bdaba5cd258997b806fb079019f2da3b0e5b96b76c445e024"
+    },
+    {
+      "path": "fit_robust24.npz",
+      "bytes": 7037,
+      "sha256": "ec90da78cf5685147eec110d533c670ebdbf132980249fc7f25ee4e4423e9784"
+    },
+    {
+      "path": "forecast_diagnostics.json",
+      "bytes": 4770,
+      "sha256": "880f154140aabb9ef83da0bbd1305e130c14587d7f18925e90176ba77254ebf2"
+    },
+    {
+      "path": "generated_variants_comparison.mp4",
+      "bytes": 7212360,
+      "sha256": "79dbf7a2153d76639ad490e1e7bf55f615f3faccc14be68837074f0043bb5603"
+    },
+    {
+      "path": "group00_physical_2s/center_path.png",
+      "bytes": 381888,
+      "sha256": "7f7e5dc1445963f336225f533c100940c51f47fda2539cc5af34698bc969a59e"
+    },
+    {
+      "path": "group00_physical_2s/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_physical_2s/control_720x480.mp4",
+      "bytes": 235216,
+      "sha256": "62dc8fef7711a59e8776d65bff9293b43b73ed734548e493dfb8c05fa8229256"
+    },
+    {
+      "path": "group00_physical_2s/control_contact_sheet.png",
+      "bytes": 371129,
+      "sha256": "cad6edfd14fd8b7b7f74b5323a91fe85bf8abe576bb03eb7385560f30a803421"
+    },
+    {
+      "path": "group00_physical_2s/guide_720x480.npz",
+      "bytes": 25535222,
+      "sha256": "c5df399e53dfbe24af18e28939fad26936c7a1fa583d685470580be336fecf84"
+    },
+    {
+      "path": "group00_physical_2s/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_physical_2s/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_physical_2s/motion.npz",
+      "bytes": 6716575,
+      "sha256": "186a450ad5f9c34ecd90c4620e0b292298c0670fad57dcceda537b37b54dd3cd"
+    },
+    {
+      "path": "group00_physical_2s/photographic_guide.mp4",
+      "bytes": 280641,
+      "sha256": "1e65af65a99d6b4f8b087901efac0c01147696cc4e60b6746cf924a7ccf21c6c"
+    },
+    {
+      "path": "group00_physical_2s/preparation.json",
+      "bytes": 4916,
+      "sha256": "8d877d5469448c9b1a7bf973ef3a06f14af4bfdc5fa72585354e9c51c003663d"
+    },
+    {
+      "path": "group00_physical_2s/preparation_visual_review.json",
+      "bytes": 452,
+      "sha256": "e9418ff66f908034bb23f45779c444d777af94271e7c522d66ec68f72c0e11e4"
+    },
+    {
+      "path": "group00_physical_2s/prior_masks.npz",
+      "bytes": 199575,
+      "sha256": "01e25996df001ebe2a6dbf5f6b5aee154d3206443072e1c206c99e43dd784508"
+    },
+    {
+      "path": "group00_stretched_4s/center_path.png",
+      "bytes": 382321,
+      "sha256": "b6fde3fa678b35c8da6c93f01302e1bf6be2379771d08d84c0444e4db0a45b37"
+    },
+    {
+      "path": "group00_stretched_4s/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_4s/control_720x480.mp4",
+      "bytes": 285716,
+      "sha256": "643b8db39450472d50678151208d0afa0c2a718949a43bde96a78f4058b194ca"
+    },
+    {
+      "path": "group00_stretched_4s/control_contact_sheet.png",
+      "bytes": 382535,
+      "sha256": "251950731e55c617ff92594da7e74e696728a9c1c6e02f15da035d49b6f356bc"
+    },
+    {
+      "path": "group00_stretched_4s/guide_720x480.npz",
+      "bytes": 25400686,
+      "sha256": "22cec429e42c457263103e2cf6f3ca64a065b4a9cca4ac4b464ce6cdfc5efcfc"
+    },
+    {
+      "path": "group00_stretched_4s/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_4s/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_stretched_4s/motion.npz",
+      "bytes": 6720416,
+      "sha256": "7813f445410cf3fede67d60ea751cc5fb23e74ab274bd74a2420f640711946ad"
+    },
+    {
+      "path": "group00_stretched_4s/photographic_guide.mp4",
+      "bytes": 356868,
+      "sha256": "4d1f821c10b87977f5b840e4d1adaaa0c3ba6084071b3382557bfce76f632c24"
+    },
+    {
+      "path": "group00_stretched_4s/preparation.json",
+      "bytes": 5113,
+      "sha256": "7e69e82db0022abfa533ae9f0563ac6d16233c067427c44f7abef81f71ea3f66"
+    },
+    {
+      "path": "group00_stretched_4s/prior_masks.npz",
+      "bytes": 191088,
+      "sha256": "940b192ba47616ebc912434f1c10d205d4e6294b689ccacb747ab644cfe33061"
+    },
+    {
+      "path": "group00_stretched_6s/center_path.png",
+      "bytes": 382345,
+      "sha256": "a28724f3bc53679b0a380064406b44317961dc7b00d198fe2bf09d036907e19c"
+    },
+    {
+      "path": "group00_stretched_6s/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_6s/control_720x480.mp4",
+      "bytes": 328997,
+      "sha256": "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479"
+    },
+    {
+      "path": "group00_stretched_6s/control_contact_sheet.png",
+      "bytes": 393023,
+      "sha256": "beb133b4c1107c0fcfe605f25e12e96b865a7df179c04f33f69a91de67a2201d"
+    },
+    {
+      "path": "group00_stretched_6s/guide_720x480.npz",
+      "bytes": 25265195,
+      "sha256": "18ebd00087ab41463df6ce4c124d1ed102a7d28115e95a952b912b3270d17a45"
+    },
+    {
+      "path": "group00_stretched_6s/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_6s/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_stretched_6s/motion.npz",
+      "bytes": 6720929,
+      "sha256": "7d97db2e8213cf0bfc71eacb994a5bc1e11b48428367d4a54efdc377e9175bb6"
+    },
+    {
+      "path": "group00_stretched_6s/photographic_guide.mp4",
+      "bytes": 417406,
+      "sha256": "fc17b0d0823d1188e147e7b33776b040417878a77da78de1845322d7bd2a5734"
+    },
+    {
+      "path": "group00_stretched_6s/preparation.json",
+      "bytes": 5279,
+      "sha256": "3c3d54d22fb432b28cf40144f230307f0b84cefb63b88308bdd084eb986df67e"
+    },
+    {
+      "path": "group00_stretched_6s/preparation_visual_review.json",
+      "bytes": 468,
+      "sha256": "4f1d1a5dadd7caa0f77ac65e2fbc4ce05be0cfdada33ca5aff33755d12b34f44"
+    },
+    {
+      "path": "group00_stretched_6s/prior_masks.npz",
+      "bytes": 182672,
+      "sha256": "20e817d601bb48770b5ebce0718c597cabe543a27248373562ff5657ea6e46de"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/control_720x480.mp4",
+      "bytes": 328997,
+      "sha256": "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/guide_720x480.npz",
+      "bytes": 24569600,
+      "sha256": "b70d1ef61a790201e988a38b5eb1ee56ba37294c22a7ffa70d64d5a654f76d28"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/motion.npz",
+      "bytes": 6720929,
+      "sha256": "7d97db2e8213cf0bfc71eacb994a5bc1e11b48428367d4a54efdc377e9175bb6"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/photographic_contact_sheet.png",
+      "bytes": 160968,
+      "sha256": "f12fe0469f4e8c5d9057f91ffc8b3d699341d5da833c89992168f4ab47677bfc"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/photographic_guide.mp4",
+      "bytes": 349252,
+      "sha256": "714dff42d6f603d169b28cce1b98ce9265af7daf865ea5bb7e1d723ce764ee8d"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/preparation.json",
+      "bytes": 5747,
+      "sha256": "6f8799a31b9d68a7745934ce8527e72dd59bcc2f9d2d7609905c199307d4dce4"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/prior_masks.npz",
+      "bytes": 219063,
+      "sha256": "20d051d65727bd2700425b169cedaf3410ddecc47349d0f3a4ad7f54ff3d0398"
+    },
+    {
+      "path": "group00_stretched_6s_anchor_silhouette/silhouette_maps.npz",
+      "bytes": 3589,
+      "sha256": "551a8a1154d5394d7f8a4a7e54bb705632f13bf0b3f7e8130b4f10883f884f34"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/control_720x480.mp4",
+      "bytes": 328997,
+      "sha256": "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/guide_720x480.npz",
+      "bytes": 24566458,
+      "sha256": "50cd216d3e45d284a1108f3c5b3333b9485a7629d2822f20c781b0c72e344d39"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/motion.npz",
+      "bytes": 6720929,
+      "sha256": "7d97db2e8213cf0bfc71eacb994a5bc1e11b48428367d4a54efdc377e9175bb6"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/photographic_contact_sheet.png",
+      "bytes": 160915,
+      "sha256": "407690460918a731f2a5f14df165045229edd0df51011f6d8a074c873c596ec8"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/photographic_guide.mp4",
+      "bytes": 356412,
+      "sha256": "ed38cecada5b04d8c468e97313e292d46ff418c8a9a7e1ac6940253745f00908"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/preparation.json",
+      "bytes": 5746,
+      "sha256": "9f9de3dab3aaa51a5bc90b8701eb8ff7b2f16ea79a11ed82fa06f8a6d25a06d3"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/prior_masks.npz",
+      "bytes": 219137,
+      "sha256": "2ef6d1e2e0fe2e988eff5f66d45c42943a7b68556221a06c492d55a28c6bd139"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior/silhouette_maps.npz",
+      "bytes": 5750,
+      "sha256": "38ad43b661fcc779a0575999d2775eabe8f8d090233461aeaa3458e2cab40708"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/control_720x480.mp4",
+      "bytes": 328997,
+      "sha256": "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/guide_720x480.npz",
+      "bytes": 24565963,
+      "sha256": "0cb7e60e7bcca81bc9c4e5091ac3917e77100ae4acd18015cb96eedaed3ad0fc"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/motion.npz",
+      "bytes": 6720929,
+      "sha256": "7d97db2e8213cf0bfc71eacb994a5bc1e11b48428367d4a54efdc377e9175bb6"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/photographic_contact_sheet.png",
+      "bytes": 181906,
+      "sha256": "f1bf476ac2f395981248eb145c3d00efc3f490106a052611cc0bed13e562f561"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/photographic_guide.mp4",
+      "bytes": 360005,
+      "sha256": "8b1bbf8161f63c12854de614a78067f3434b8da52d7a8be0736b9e83b9538319"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/preparation.json",
+      "bytes": 5746,
+      "sha256": "4dd47970656fbe3cbf235daf665b72b51122caaf6f825a1625107470acfc27c7"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/prior_masks.npz",
+      "bytes": 219137,
+      "sha256": "2ef6d1e2e0fe2e988eff5f66d45c42943a7b68556221a06c492d55a28c6bd139"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v2/silhouette_maps.npz",
+      "bytes": 5750,
+      "sha256": "38ad43b661fcc779a0575999d2775eabe8f8d090233461aeaa3458e2cab40708"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/control_720x480.mp4",
+      "bytes": 328997,
+      "sha256": "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/guide_720x480.npz",
+      "bytes": 24565963,
+      "sha256": "0cb7e60e7bcca81bc9c4e5091ac3917e77100ae4acd18015cb96eedaed3ad0fc"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/motion.npz",
+      "bytes": 6720929,
+      "sha256": "7d97db2e8213cf0bfc71eacb994a5bc1e11b48428367d4a54efdc377e9175bb6"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/photographic_contact_sheet.png",
+      "bytes": 181906,
+      "sha256": "f1bf476ac2f395981248eb145c3d00efc3f490106a052611cc0bed13e562f561"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/photographic_guide.mp4",
+      "bytes": 360005,
+      "sha256": "8b1bbf8161f63c12854de614a78067f3434b8da52d7a8be0736b9e83b9538319"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/preparation.json",
+      "bytes": 5803,
+      "sha256": "ed16dd1edfb27c81894d73bfb85894a64c8c2b17311952244c305a31c9123583"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/preparation_visual_review.json",
+      "bytes": 841,
+      "sha256": "fe6f86dbd556836427ae9e221aa843cd7c99957dadb95e67dd8a970b1b09d316"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/prior_masks.npz",
+      "bytes": 219137,
+      "sha256": "2ef6d1e2e0fe2e988eff5f66d45c42943a7b68556221a06c492d55a28c6bd139"
+    },
+    {
+      "path": "group00_stretched_6s_causal_prior_v3/silhouette_maps.npz",
+      "bytes": 6384,
+      "sha256": "04959e22c7fef1e9366be8c59f98ef8ca76d04f987f29223e3546ae045243eb2"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/control_720x480.mp4",
+      "bytes": 328997,
+      "sha256": "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/guide_720x480.npz",
+      "bytes": 24549768,
+      "sha256": "b033d213ed5fe40afd5ae0873f2fa79ee839f080b0fc5e59292838d770ddad16"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/motion.npz",
+      "bytes": 6720929,
+      "sha256": "7d97db2e8213cf0bfc71eacb994a5bc1e11b48428367d4a54efdc377e9175bb6"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/photographic_contact_sheet.png",
+      "bytes": 160011,
+      "sha256": "cb291fed75284c95f08952efb74f9ce27c442a30cb09fb71a0f32c81cc161769"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/photographic_guide.mp4",
+      "bytes": 351440,
+      "sha256": "c93a2ed73531c1aeaf81d8d627d4958432fa582d2b2f8617363343c1e0331d0d"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/preparation.json",
+      "bytes": 5724,
+      "sha256": "f9e38cf542b2925673bd4ef2265541c11038a2edd9cd8e1553c7fa5f499f0b50"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/prior_masks.npz",
+      "bytes": 217661,
+      "sha256": "10e64746208e01dbed560759277e5fc21735f3580d54b0fe2263400abeb96b89"
+    },
+    {
+      "path": "group00_stretched_6s_silhouette/silhouette_maps.npz",
+      "bytes": 5756,
+      "sha256": "15f1393a8cc55f41497195ff3cc8a8f83ba4dc8e734ea477e114798ce250f73b"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/all_49_guide_frames.png",
+      "bytes": 933184,
+      "sha256": "1ba2963799070893b5af21ca5ccf215bcdc970b29044d2b31100a3700998b039"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/articulated_robot.npz",
+      "bytes": 38544,
+      "sha256": "3d4fe742f9cf175de4cfbe1a2a688420d14c37cbbc3ba5f7079990835d7af329"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/control_720x480.mp4",
+      "bytes": 539545,
+      "sha256": "0de0c5ae270122d7ed303720adbefd70884748c96b630a98b8410a203d65f5e9"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/full_body_contact_sheet.png",
+      "bytes": 363359,
+      "sha256": "82c01ebfa8035939bb9fe1fc05634086140cc60c9718ed09b8dbd78d49d6cbba"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/guide_720x480.npz",
+      "bytes": 25781960,
+      "sha256": "8e0c483c78fb56c1b0ebfbdd3560d362af4b4667f286058ba91e8f58a0d4b9c4"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/guide_frame_08.png",
+      "bytes": 361698,
+      "sha256": "4ae96338a3a505ca6890c478b5fb616fb402aab9118aa4c9c94d28404cf87688"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/guide_frame_16.png",
+      "bytes": 358597,
+      "sha256": "1332ab316f81d09710247115d31dba4f89b6d012f880e9b75f79f5e06b6e6c22"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/guide_frame_32.png",
+      "bytes": 359980,
+      "sha256": "802fc96de907cf0afcaca227cb1c96e4593b5bb62dfba558076cdd88412dea4a"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/guide_frame_48.png",
+      "bytes": 376624,
+      "sha256": "88822d5b5e0aa2c4df254adbb76624322a1f06b48c1d56c904162e80b463de46"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/input_freeze.json",
+      "bytes": 2014,
+      "sha256": "0f9e481efe17378e3f922afdffec69abaf3832790681849e321d83d450ecb840"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/motion.npz",
+      "bytes": 6720929,
+      "sha256": "7d97db2e8213cf0bfc71eacb994a5bc1e11b48428367d4a54efdc377e9175bb6"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/photographic_guide.mp4",
+      "bytes": 597877,
+      "sha256": "3b741c51204e3766ef0f372078cd9a055b4cde5c1e8948db50c0ff541d001c94"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/preparation.json",
+      "bytes": 6510,
+      "sha256": "3835d7d30415792fe84e14989fadbe4d33be06e7647c4bb539411ae4f6fd4890"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/preparation_visual_review.json",
+      "bytes": 824,
+      "sha256": "e5c02315e0997935e525a41b689103a969d8e48c65cf7b11eadc0dd51331c356"
+    },
+    {
+      "path": "group00_stretched_6s_whole_robot_v1/prior_masks.npz",
+      "bytes": 323828,
+      "sha256": "9f9f654b0f8e54890b2d8c21c05442ca0ac08a356c6a578fa2ef06106a693534"
+    },
+    {
+      "path": "group_displacements.npz",
+      "bytes": 5778,
+      "sha256": "227c213e1730345f1c9f4956ad8f1954494726017b3f9bab4645620fce072145"
+    },
+    {
+      "path": "group_paths.png",
+      "bytes": 530620,
+      "sha256": "74852175c95580f15b955065729fe20ff7e96514e31df89c1a150770e1319072"
+    },
+    {
+      "path": "matched_comparisons.json",
+      "bytes": 15534,
+      "sha256": "568a8cd58e8c3c20453dc8e5f3eb6949c72cdd4a1e2cf117abd5a5ed82d5577c"
+    },
+    {
+      "path": "physical_generated_vs_real_2s.mp4",
+      "bytes": 1247934,
+      "sha256": "a3c60ba6cb1e9bb1af66f74370a94654be4fd7bf32be8959a8246e574d163423"
+    },
+    {
+      "path": "preparation_inventory.json",
+      "bytes": 1782,
+      "sha256": "14e9da9457ffe858c06015b3ecfa3ca721dfacf3c2a30fab61973d93dd757947"
+    },
+    {
+      "path": "preserved_baselines.json",
+      "bytes": 908,
+      "sha256": "a4c08de812b559f76a9940a7d2da21f21c9e3e06b7e877460cef8494fcda6f9f"
+    },
+    {
+      "path": "queue_completion.json",
+      "bytes": 160,
+      "sha256": "9d9fe941e6f08b45c7b89ded497117e96f7186a322d881815d0060dfd1f53c2f"
+    },
+    {
+      "path": "reboot_incident.json",
+      "bytes": 1335,
+      "sha256": "8b168bf28525635cb16e3808555cc2d9d1243761861da434bf3de8b18d924449"
+    },
+    {
+      "path": "rigid_methods_comparison.mp4",
+      "bytes": 836130,
+      "sha256": "949acec484b31cd1021c5015ec7a96858c71fdb1b97519227d17c389c3af4cf9"
+    },
+    {
+      "path": "rigid_methods_contact_sheet.png",
+      "bytes": 374484,
+      "sha256": "ca2baf8672fa0a0faa3422505fe16ed6a7cbba8ef41f74977ca5d0cd1fa4e928"
+    },
+    {
+      "path": "robust24_stretched_6s/center_path.png",
+      "bytes": 381601,
+      "sha256": "2a19810d18282ab15ebdfc8c797685442ca5b43f298c5a573b9a6566981dd82e"
+    },
+    {
+      "path": "robust24_stretched_6s/checkpoint_receipt.json",
+      "bytes": 1587,
+      "sha256": "a33b2bc1e02493501391aa8a4e8fc46b39cbcae6f9e640c193bec3740bb26af2"
+    },
+    {
+      "path": "robust24_stretched_6s/control_720x480.mp4",
+      "bytes": 329469,
+      "sha256": "f506cdc4eef713a21a05494548d721622854b8164faeb40289f09c55c449d6ab"
+    },
+    {
+      "path": "robust24_stretched_6s/control_contact_sheet.png",
+      "bytes": 393521,
+      "sha256": "4bb9f4ff8db93f9318a385a913b46cf44641bc587d2732e1600613ed8e48184f"
+    },
+    {
+      "path": "robust24_stretched_6s/guide_720x480.npz",
+      "bytes": 25280265,
+      "sha256": "1d99eff7a9af27419d5312d7ecace77e2180207cc7a3dd3816c621067388a0c1"
+    },
+    {
+      "path": "robust24_stretched_6s/image_t0_720x480.png",
+      "bytes": 352117,
+      "sha256": "80b859753cb3f44819c5746df131d53f042cb5fc24472b879b0ff6fb10303ad6"
+    },
+    {
+      "path": "robust24_stretched_6s/input_freeze.json",
+      "bytes": 1654,
+      "sha256": "05a39191336e3357352ecfb7c22250f48b52771174a68eef79c64464b78d842c"
+    },
+    {
+      "path": "robust24_stretched_6s/motion.npz",
+      "bytes": 6796923,
+      "sha256": "f0ab070777b2581ba1f5ba18316fbf5945ee8c96a9cb45db7d000d4fcd7498da"
+    },
+    {
+      "path": "robust24_stretched_6s/photographic_guide.mp4",
+      "bytes": 420434,
+      "sha256": "b8915a33f64b7096704bbbec2a549c496cdf6bc359c7a7f2de62d23f75bce8f4"
+    },
+    {
+      "path": "robust24_stretched_6s/preparation.json",
+      "bytes": 5238,
+      "sha256": "57dd720d21eea178110ae91ef5c82612609006983eacc1a849432d6551fdfca0"
+    },
+    {
+      "path": "robust24_stretched_6s/prior_masks.npz",
+      "bytes": 183296,
+      "sha256": "cceb41659c8cd811d9fb8b806d7635f2ea3062f0b41ed19fdbf9d3710864a509"
+    },
+    {
+      "path": "shared_gpu_incident.json",
+      "bytes": 1521,
+      "sha256": "2d66ab9cfa057a15d76e0875c36a2497428308674891cec22e452503d5851d66"
+    },
+    {
+      "path": "timing_comparison_equal_phase.mp4",
+      "bytes": 1280735,
+      "sha256": "ebdb6096465ec7ba421d942993335ab3675eb89fb79f510ef7113407582e2673"
+    },
+    {
+      "path": "timing_control_comparison.mp4",
+      "bytes": 625322,
+      "sha256": "ff5716f5936cab858ddca1e0b2d4d11fc1a786fdd018235fee3db1cbdb96ff73"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 6502,
+      "sha256": "c3b9fecd38712442f6cced79c6e47834cd32ba88fd453b829285fe4a378893d9"
+    },
+    {
+      "path": "visual_review.json",
+      "bytes": 7321,
+      "sha256": "301f3a747dfe21e6d6116fa4d5eee57c896b9dcd921dbf793739fa070d375a69"
+    },
+    {
+      "path": "whole_robot_ik_diagnostic/articulated_joint_paths.png",
+      "bytes": 319680,
+      "sha256": "4051f95dca66bf27324cf95880f063b4fd44ea06330066becef5051466bc9015"
+    },
+    {
+      "path": "whole_robot_ik_diagnostic/kinematics.npz",
+      "bytes": 24830,
+      "sha256": "71da5b35125c54da14504056618869fa56b37e5f3594d814af58d802c779122f"
+    },
+    {
+      "path": "whole_robot_ik_diagnostic/receipt.json",
+      "bytes": 25653,
+      "sha256": "2c77bd2282c6f8067566a52da6a7d4ceea687978f85e16e4d8ea0a5b235ea688"
+    },
+    {
+      "path": "whole_robot_ik_diagnostic/registration_scope.json",
+      "bytes": 940,
+      "sha256": "0c8088cc426cc64d8f13a1cac20827c993806905888d5df71cc2c578a1a970f8"
+    },
+    {
+      "path": "whole_robot_queue_completion.json",
+      "bytes": 150,
+      "sha256": "e70ad0ba361884ef09fa5b174b94bde2ac89c2346e812de3e0a38087db0375a3"
+    }
+  ],
+  "count": 376,
+  "total_bytes": 464205105
+}

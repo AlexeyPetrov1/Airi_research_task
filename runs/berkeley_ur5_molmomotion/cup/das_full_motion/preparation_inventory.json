@@ -1,9 +1,9 @@
 {
   "generation_conditions_frozen": true,
   "entries": {
-    "group00_physical_2s": "Accepted trajectory control; scheduled H1; guide disabled.",
+    "group00_physical_2s": "Completed H1 with no prior; fast arc deforms cup. No guide used.",
     "group00_stretched_4s": "CPU-only temporal comparison; no diffusion claim.",
-    "group00_stretched_6s": "Accepted trajectory control; completed H2 and scheduled H4; guide disabled.",
+    "group00_stretched_6s": "Completed H2 with trajectory control and completed H4 with control_video=None; neither uses photographic prior.",
     "all24_stretched_6s": "CPU-only ordinary Kabsch diagnostic; does not reproduce group_00 exactly.",
     "robust24_stretched_6s": "CPU-only Huber Kabsch diagnostic; does not reproduce group_00 exactly.",
     "group00_stretched_6s_silhouette": "Rejected guide prototype: full-surface affine fit is affected by depth at the silhouette edge. Never used for successful diffusion.",
@@ -11,6 +11,7 @@
     "group00_stretched_6s_causal_prior": "Rejected guide prototype: exact first-frame resize differs from the saved initial image. Never used for successful diffusion.",
     "group00_stretched_6s_causal_prior_v2": "First-frame resize corrected; superseded by identical guide plus more complete diagnostics in v3. Never used for successful diffusion.",
     "group00_stretched_6s_causal_prior_v3": "Completed H3; accepted observed-only guide, strength 0.25.",
-    "group00_stretched_6s_whole_robot_v1": "New user-requested whole-arm experiment H5 after the matched queue. Nominal IK + dense observed link silhouettes; cup and local rigid geometry identical to H2."
-  }
+    "group00_stretched_6s_whole_robot_v1": "Completed selected H5 with full-arm material control and t0-only photographic prior 0.25; exact H2 cup/local geometry preserved."
+  },
+  "optional_unexecuted_code": "das_full_motion_robot_prior_variant.py provides a stronger-body fallback; not run because H5 passed the arc and whole-body checks. No H6 generation is claimed."
 }

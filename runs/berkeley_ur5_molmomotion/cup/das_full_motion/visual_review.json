@@ -1,7 +1,23 @@
 {
-  "chosen_variant": "H2_group00_6s_no_prior",
-  "review_scope": "Current completed outputs only; update after the pending matched experiments finish.",
+  "chosen_variant": "H5_group00_6s_whole_robot_prior025",
+  "review_scope": "All five completed generated variants; all 49 frames and enlarged batches reviewed for each. H5 includes the added whole-body request.",
   "variants": {
+    "H5_group00_6s_whole_robot_prior025": {
+      "frames_reviewed": 49,
+      "full_predicted_arc_visible": true,
+      "proximal_arm_moves": true,
+      "forearm_moves": true,
+      "upper_arm_moves": true,
+      "mounted_base_fixed": true,
+      "motion": "Same lift, partial top exit, wide rightward arc and descent as H2. Forearm/wrist rise together early; upper arm tilts toward the right edge during the second half.",
+      "cup_identity": "One recognizable blue cup with white face motif, held by the moving gripper; minor silhouette and print changes remain.",
+      "original_site_copy": false,
+      "local_gripper": "Travels with the cup; visually coherent coupling throughout visible motion. Late proximal connection is above the frame.",
+      "proximal_robot": "Old left forearm disappears as the forearm rises; right upper arm later tilts out of the right edge, leaving its attached base region. The original upper column is absent from the upper/right image at the end.",
+      "artifacts": "Minor cup shape/motif changes and small changes of robot surface detail; newly exposed/background pixels are synthesized. No persistent disconnected left arm or duplicate cup.",
+      "acceptance": "Accepted for the full group_00 cup arc and visible movement of upper arm and forearm. Approximate video control, not certified calibrated robot dynamics.",
+      "acceptance_ru": "Сохранена качественная полная дуга одного узнаваемого стакана и захвата. Теперь предплечье поднимается вместе с ними, а плечо меняет наклон и уходит за правую границу; неподвижная старая рука не остаётся в кадре. Закреплённое основание неподвижно. Небольшие изменения рисунка стакана и деталей поверхностей сохраняются."
+    },
     "H4_no_trajectory_control": {
       "frames_reviewed": 49,
       "full_predicted_arc_visible": false,

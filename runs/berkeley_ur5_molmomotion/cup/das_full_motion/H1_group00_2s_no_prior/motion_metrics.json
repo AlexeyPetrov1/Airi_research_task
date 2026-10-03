@@ -452,5 +452,108 @@
     2.0,
     2.0,
     2.0
-  ]
+  ],
+  "generated_to_real_physical_2s": {
+    "ADE_px": 111.04414367354272,
+    "FDE_px": null,
+    "visible_pairs": 29,
+    "total_pairs": 80,
+    "coverage": 0.3625,
+    "valid_points_by_time": [
+      8,
+      8,
+      8,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "error_by_time_px": [
+      38.27626556029038,
+      96.94172053441379,
+      148.96183271168843,
+      189.36832321631954,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "complete_track_count": 0,
+    "complete_track_ADE_px": null,
+    "complete_track_FDE_px": null
+  },
+  "raw_forecast_to_real_full_reference": {
+    "ADE_px": 198.0120777802155,
+    "FDE_px": 227.29929143601686,
+    "visible_pairs": 80,
+    "total_pairs": 80,
+    "coverage": 1.0,
+    "valid_points_by_time": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "error_by_time_px": [
+      37.250694657982706,
+      93.33415283998363,
+      153.07757591476766,
+      210.5085927236197,
+      252.541734120602,
+      258.02621314581677,
+      257.5591849333174,
+      250.8714677678544,
+      239.6518702621935,
+      227.29929143601686
+    ],
+    "complete_track_count": 8,
+    "complete_track_ADE_px": 198.0120777802155,
+    "complete_track_FDE_px": 227.29929143601686
+  },
+  "raw_forecast_to_real_shared_with_generation": {
+    "ADE_px": 114.15103822328928,
+    "FDE_px": null,
+    "visible_pairs": 29,
+    "total_pairs": 80,
+    "coverage": 0.3625,
+    "valid_points_by_time": [
+      8,
+      8,
+      8,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "error_by_time_px": [
+      37.250694657982706,
+      93.33415283998363,
+      153.07757591476766,
+      208.21614423470334,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "complete_track_count": 0,
+    "complete_track_ADE_px": null,
+    "complete_track_FDE_px": null
+  },
+  "real_comparison_scope": "evaluation only; physical 0.2..2.0s; no stretched timing compared to real 6s"
 }
