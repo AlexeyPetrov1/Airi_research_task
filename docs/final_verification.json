@@ -345,5 +345,29 @@
     "success": true,
     "figures_checked": 77,
     "scope": "Every generated PNG/JPEG figure has identical dimensions and decoded pixels to baseline replay"
+  },
+  "runtime_git_blob_sha256": {
+    "src/motion_experiments/bundles.py": "19dec2b9dbd1b9783e2e438154418348189948df4f605aa07c3cd38aa5c3e023",
+    "src/motion_experiments/fingerprints.py": "0ca885767a17c75bab3d3d4593bd07fdd7950d373a44cc057f54ad6d268ad1c2",
+    "src/motion_experiments/geometry.py": "7c2c377f512d69cf3d247466829770d8dd8c21794f29e1843c071634e9c3f5c0",
+    "src/motion_experiments/io.py": "03dbfdab188efc720969263055a6c111505871b5ceab9e74baf0696e6cf6d7cb",
+    "src/motion_experiments/metrics.py": "fafd1b47e2a39a633f78baa5d753b21a6faa521e3211e86e04aa8a90d4b4b54f",
+    "src/motion_experiments/molmomotion.py": "bc22645463d1d2ddcd0c829551e31de75bdae0bfd10752344ce257d61ca206dc",
+    "src/motion_experiments/robot_motion.py": "6f4fa26c3deaf1ce207fdc85437cc9fc6979c2022d0cab333be66d4dc11b6579",
+    "src/motion_experiments/run.py": "c94f40a86b60c558dec2230535f2bc49765ea9e28920dfe31ec3cdd2b25279ba",
+    "src/motion_experiments/sample.py": "5bc0c0e1bdf403bdce115f53f6480319269981b99aab5fde0631c11327bcbb70",
+    "src/motion_experiments/visualization.py": "9b13c0262b5adc7d991ebdf7e16e13d4a5fe1e92a6955c502ed3187fe3f64d38",
+    "src/motion_experiments/__init__.py": "8da36bfe2fa062c3a585cf6ebcae1b7db33161410e6d1256f35efbd785892eb8",
+    "src/motion_experiments/datasets/berkeley.py": "645de56a725734643e5c17cfb83a17ff56aef1d9d2eacda7a46d2f412923ba5c",
+    "src/motion_experiments/datasets/davis.py": "29622246c4f836172547bafac3cd9fbe80c60c4a0d2e32486c5ee2a477bb53b2",
+    "src/motion_experiments/datasets/dobbe.py": "48a4409e7bac879d01d088cb33c991212c6f26490ce17e14229641a04ca36a86",
+    "src/motion_experiments/datasets/fmb.py": "5d4478413b585675e725f068f5c04d2737d7e968f1049fc614c65416f02d1b53",
+    "src/motion_experiments/datasets/__init__.py": "8e7ce230e203d76c6e1aa792067875c64c2c053af69edce3ec1ac0e3e5f0795b"
+  },
+  "runtime_line_ending_notes": {
+    "files": [
+      "src/motion_experiments/robot_motion.py"
+    ],
+    "explanation": "These unchanged baseline Python files retain CRLF in the tested local source/wheel; Git stores LF under .gitattributes. Their normalized text and baseline/final Git blobs are identical. runtime_sha256 records actual executed bytes; runtime_git_blob_sha256 records distributed source bytes. All fixture and vendored-model bytes match exactly without normalization."
   }
 }
