@@ -1,0 +1,10 @@
+{
+  "tool": "Built-in image_gen.imagegen, via imagegen skill",
+  "transparent_background": false,
+  "source_image": "../../observed/frame_000063.png",
+  "saved_output": "imagegen_empty_robot_plate.png",
+  "future_used": false,
+  "prompt": "Use case: precise-object-edit. Edit target: the provided robotics laboratory photo. Create an empty background plate for a robot motion video experiment. Remove ONLY the visible silver/blue industrial robot arm, its black gripper, the blue cup held by it, and the tall silver robot arm at the far right. Reconstruct the occluded background plausibly: the left robot arm is in front of the solid blue partition; the right arm obscures laboratory shelving/wall and dark cloth; the blue cup footprint is on the light wood tabletop. Keep the brown cup exactly where it is with the same shape and size. Preserve the exact camera, perspective, image aspect ratio, framing, tabletop edges, background blue partition, floor, lighting, and all other existing objects. No new objects, no robot pieces, no blue cup, no cup shadows. Natural imperfect laboratory photography, not stylized, no annotations.",
+  "consumption": "Resized and applied only inside dilated observed robot/cup masks in das_robot_prepare.py. Pixels outside this support remain byte-identical to observed t0. Original start image and CLIP input remain observed t0. Used in A/B; removed as persistent condition in C.",
+  "limitation": "Synthetic hidden-background estimate; not measured RGB and not generated video. No final video frame is composited with this plate."
+}

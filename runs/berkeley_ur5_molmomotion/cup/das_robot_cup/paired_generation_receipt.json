@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "order": [
+    "robot_coupled",
+    "robot_static"
+  ],
+  "one_gpu_job_at_a_time": true
+}

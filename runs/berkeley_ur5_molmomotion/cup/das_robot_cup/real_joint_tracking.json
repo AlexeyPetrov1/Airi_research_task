@@ -1,0 +1,16 @@
+{
+  "future_real_used": "evaluation only",
+  "extra_observed_anchor": false,
+  "future_rgb_sha256": "fffac4f1e234b1f3dacc7ffc5cb9deab3388d45dc23ec231be327b7df2da68b8",
+  "tracker": "official AllTracker Net(16)",
+  "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+  "iterations": 4,
+  "resolution": [
+    512,
+    384
+  ],
+  "reported_coordinate_system": "native 640x480 pixels",
+  "seconds": 1.4597309089999726,
+  "peak_cuda_allocated_bytes": 2026281472,
+  "limitation": "Tracker confidence is not semantic identity certification; manual review required"
+}

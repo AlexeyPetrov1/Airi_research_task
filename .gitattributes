@@ -1,6 +1,8 @@
 # Research inputs and outputs are hashed; preserve their exact bytes.
 /runs/berkeley_ur5_molmomotion/cup/das_wanfun/** -text
+/runs/berkeley_ur5_molmomotion/cup/das_robot_cup/** -text
 /scripts/run_das_cup.sh text eol=lf
+/scripts/das_robot_*.py text eol=lf
 /runs/author_davis*/** -text
 /runs/second_episode_geometry/** -text
 /runs/sharerobot_fmb_episode_5201/** -text

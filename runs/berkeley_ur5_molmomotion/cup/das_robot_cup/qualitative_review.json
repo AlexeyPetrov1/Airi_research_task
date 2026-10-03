@@ -1,0 +1,41 @@
+{
+  "reviewer": "Codex, visual inspection of all_49_generated_frames.png for each actual MP4, detailed contact sheets, and exact-time real continuation comparison",
+  "date": "2026-10-03",
+  "scope": "One episode, one seed. Qualitative review of actual DaS outputs, not of deterministic geometry previews.",
+  "conclusion_ru": "Гипотеза о достаточности совместного управления робот–стакан для реалистичного DaS-видео на этой сцене не подтвердилась. Кинематически согласованный control построен и протестирован, но DaS не сохраняет одновременно цельный узнаваемый стакан, непрерывный робот и видимый контакт между ними.",
+  "interpretation_ru": "В парном A/B опыте robot→requested-control ADE меняется лишь с 45,73 до 44,42 px на общих 36/140 парах, а ранняя cup–gripper relative-motion ошибка ухудшается с 10,28 до 37,63 px при доступных лишь 3/10 временах. Cup→control ADE уменьшается со 152,07 до 101,49 px на 85/240 общих парах, но объект в B теряет идентичность; улучшение correspondence proxy не подтверждает физическое следование захвату. В C узнаваемый исходный стакан сохраняется, однако остаётся около начального места, а отдельный управляемый фрагмент появляется выше справа. Два доступных contact времени C не дают основания объявить успех. Сильное подавление исходных силуэтов и отсутствие такого подавления проявили разные ошибки, а переносимая идентичность осталась нерешённой. Вывод ограничен данным checkpoint, control reconstruction, сценой и настройками; это не опровержение всех методов DaS. На следующем этапе полезно восстановить цельные поверхности робота из CAD или нескольких наблюдаемых ракурсов, точнее зарегистрировать камеру и проверить отдельный motion-conditioned reference adapter либо robotics-finetuned video model. Эти варианты здесь не выполнялись и не объявлены результатом.",
+  "variants": {
+    "robot_static": {
+      "reviewed_frame_count": 49,
+      "reviewed_frame_indices": "0..48",
+      "summary_ru": "Робот в основном сохраняет исходное положение; на звеньях и фоне появляются зернистые/пятнистые артефакты. Стакан после раннего fade теряет цельную узнаваемую форму; подвижный предмет не подтверждён. Поздняя стабильность главным образом означает неподвижность, а не согласованное движение.",
+      "robot_motion": "Mostly static; follows static-arm ablation qualitatively",
+      "cup_identity_after_early_fade": "Not preserved as an intact recognizable transported cup",
+      "contact": "No sustained recognizable transported-cup contact demonstrated",
+      "background": "Mostly stationary geometry with speckled artifacts and brown-cup texture degradation",
+      "evidence": "robot_static/all_49_generated_frames.png"
+    },
+    "robot_coupled": {
+      "reviewed_frame_count": 49,
+      "reviewed_frame_indices": "0..48",
+      "summary_ru": "В ранних кадрах силуэт робота действительно меняет положение, но становится полупрозрачным и распадается. К 1 с основной захват и стакан не читаются; выход cup control за кадр объясняет часть исчезновения, но не распад в видимые моменты. При возвращении control около 1,5–2 с остаётся деформированный светлый фрагмент вместо стакана с рисунком и цельного захвата. Поздние кадры сохраняют эти фрагменты; реалистичный контакт не подтверждён.",
+      "robot_motion": "Control affects early silhouette, but articulated identity and opaque continuous links are lost",
+      "cup_identity_after_early_fade": "Lost; reappearing fragment lacks cup shape and printed motif",
+      "initial_stationary_cup": "No intact persistent original cup evident after early fade; this alone is not success",
+      "contact": "Not visually certified; few early valid tracker pairs and correspondence can drift to background",
+      "background": "Mostly stationary scene; transparent robot/background blending",
+      "evidence": "robot_coupled/all_49_generated_frames.png"
+    },
+    "robot_coupled_initial_only": {
+      "reviewed_frame_count": 49,
+      "reviewed_frame_indices": "0..48",
+      "summary_ru": "Начальный стакан с рисунком остаётся узнаваемым около исходного места до конца. Захват и части руки смазываются, но согласованный перенос стакана не происходит. Около 1,5–2 с появляется отдельный светло-голубой фрагмент выше справа; позднее он сохраняется одновременно с исходным стаканом. Дубликат/отделённый управляемый объект возвращается, поэтому более сохранная текстура не является исправлением задачи.",
+      "robot_motion": "Early smear and deformation; coherent requested articulated motion not reproduced",
+      "cup_identity_after_early_fade": "Original cup remains recognizable at original site; moving fragment has poor identity",
+      "initial_stationary_cup": "Persistent through frame 48",
+      "contact": "No sustained recognizable cup transport with gripper",
+      "background": "More preserved photographic texture, but deforming arm and duplicate object remain",
+      "evidence": "robot_coupled_initial_only/all_49_generated_frames.png"
+    }
+  }
+}

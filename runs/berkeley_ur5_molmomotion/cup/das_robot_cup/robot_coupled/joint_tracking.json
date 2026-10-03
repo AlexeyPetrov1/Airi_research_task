@@ -1,0 +1,16 @@
+{
+  "video_sha256": "6ab7aa42247e176181508012869163a8a737248e3c87026c317f825b6e3985e2",
+  "future_real_used": false,
+  "extra_observed_anchor": true,
+  "tracker": "official AllTracker Net(16)",
+  "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+  "iterations": 4,
+  "resolution": [
+    512,
+    384
+  ],
+  "reported_coordinate_system": "native 640x480 pixels",
+  "seconds": 0.8989504219998707,
+  "peak_cuda_allocated_bytes": 2332989952,
+  "limitation": "Tracker confidence is not semantic identity certification; manual review required"
+}

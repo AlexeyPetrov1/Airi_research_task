@@ -1,0 +1,24 @@
+{
+  "scope": "Source code state at delivery; generator/conditioning code used for the actual runs included",
+  "hash_method": "SHA256 with CRLF normalized to LF, matching canonical repository source across Windows and Linux",
+  "repository_files": {
+    "scripts/das_robot_control_plot.py": "a83da8d3b85902aba3f8cba226c8e5178e9043dfb158d101a677843904196127",
+    "scripts/das_robot_evaluate.py": "c4ddf6311b374f6c36962dcf1083f30631abb1ec81f7a3fb892376bbd8a02acf",
+    "scripts/das_robot_geometry.py": "22dd1570da349122113442d28f907174b257768c8ceaa97fadc912674845ad7e",
+    "scripts/das_robot_masks.py": "a7c1217b26968f21a200698b46f722da5af1929ee5b0712ef3df4a8b0a832952",
+    "scripts/das_robot_observed.py": "892b5336662cb8cb1b5a0645bef743d016496191522bb38658fcced3f40774c1",
+    "scripts/das_robot_prepare.py": "b50897740220b7b29f53f1d2e6b3464de852b43f86540efb4fb21c5ef0c801a3",
+    "scripts/das_robot_report.py": "2c6a37e01394043c125579d952259e003b5a7f633b8cadce1806fdd5fa7b0d71",
+    "scripts/das_robot_run_aux.py": "c2ad777cf53e5439e7bbf93df19feda49c257caabd4235b9f2c60923cd152cf4",
+    "scripts/das_robot_run_pair.py": "8b9800c248d9c4da265101db61ed524ae5bac0fd3957c325e28e00c6b38e86cd",
+    "scripts/das_robot_verify.py": "657fb9a46ab7e56604a1c11449ae47a6e50faf8478ed5a71a3d3d4653f139b5a",
+    "scripts/das_generate.py": "801c49cc9f2bea0a5bf46ae455a86ed2a90b99bcd545032df92373b7fe4574c0",
+    "scripts/das_vacancy_prior.py": "14b6c6cd329ab4d1db0e9872535c84b0eafa629d4f44ef6bbedbd8f9382ce133",
+    "scripts/das_prepare_control.py": "0607f861677018e3964691496f426ec902e7b1de6a6f956d5484e8a6801c8f1e",
+    "scripts/das_evaluate.py": "235296e0e83aebdd0bd06c7bb342a9f2bfb637898730e94f772d955ffad7a2c9",
+    "scripts/das_quality.py": "133af19b22fac0dfa0c1b36582d8608a91f160b1f689c9308cc8bee2f5b7ab7e",
+    "scripts/das_wanfun_runtime.py": "250cf02c152ff61a27c59841105a9121093832f3c26652be7d1b63b53c66e819",
+    "scripts/probe_fmb_rlds_record.py": "f535e4fca422c8e6a9731d588cd603a72c2877e896077c939a13410dd60fcdeb"
+  },
+  "external_alltracker_source_sha256": "33469ddf1a844f9b8288675e4ea7d9555e9b5aa852adc22b84345638af2a857f"
+}

@@ -1,0 +1,174 @@
+{
+  "future_used": false,
+  "manual_points_authorized_by": "User requested points on robot and a robot trajectory",
+  "source_sha256": "d4cad33c9e6604ae092ba93d60b916f9fbc7ad04ab6166008783980588e4ff40",
+  "method": "Official SAM2.1 Hiera Large; t0 manual positive/negative points and boxes",
+  "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+  "parts": {
+    "forearm": {
+      "prompt": {
+        "box": [
+          175,
+          0,
+          421,
+          120
+        ],
+        "positive": [
+          [
+            225,
+            75
+          ],
+          [
+            309,
+            22
+          ]
+        ],
+        "negative": [
+          [
+            159,
+            180
+          ],
+          [
+            500,
+            100
+          ],
+          [
+            152,
+            265
+          ]
+        ]
+      },
+      "scores": [
+        0.7578125,
+        0.65234375,
+        0.9296875
+      ],
+      "chosen": 2,
+      "pixels": 14161
+    },
+    "wrist": {
+      "prompt": {
+        "box": [
+          124,
+          36,
+          201,
+          148
+        ],
+        "positive": [
+          [
+            155,
+            82
+          ],
+          [
+            163,
+            120
+          ]
+        ],
+        "negative": [
+          [
+            225,
+            76
+          ],
+          [
+            164,
+            178
+          ],
+          [
+            154,
+            261
+          ]
+        ]
+      },
+      "scores": [
+        0.65234375,
+        0.64453125,
+        0.76171875
+      ],
+      "chosen": 2,
+      "pixels": 4651
+    },
+    "gripper": {
+      "prompt": {
+        "box": [
+          127,
+          138,
+          214,
+          243
+        ],
+        "positive": [
+          [
+            163,
+            170
+          ],
+          [
+            178,
+            209
+          ]
+        ],
+        "negative": [
+          [
+            152,
+            267
+          ],
+          [
+            229,
+            74
+          ],
+          [
+            100,
+            213
+          ]
+        ]
+      },
+      "scores": [
+        0.87890625,
+        0.8359375,
+        0.94921875
+      ],
+      "chosen": 2,
+      "pixels": 5145
+    },
+    "upper_arm": {
+      "prompt": {
+        "box": [
+          557,
+          0,
+          639,
+          390
+        ],
+        "positive": [
+          [
+            600,
+            100
+          ],
+          [
+            600,
+            280
+          ]
+        ],
+        "negative": [
+          [
+            528,
+            210
+          ],
+          [
+            599,
+            440
+          ],
+          [
+            470,
+            380
+          ]
+        ]
+      },
+      "scores": [
+        0.88671875,
+        0.87890625,
+        0.953125
+      ],
+      "chosen": 2,
+      "pixels": 25059
+    }
+  },
+  "wall_seconds": 11.669666782999997
+}
