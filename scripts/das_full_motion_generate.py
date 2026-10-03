@@ -13,6 +13,7 @@ from PIL import Image
 from das_prepare_control import sha256, write_json
 from das_wanfun_runtime import load_official_infer
 from das_generate import research_branch
+from das_full_motion_safety import forbid_real_future
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'runs/berkeley_ur5_molmomotion/cup/das_full_motion'
@@ -40,6 +41,7 @@ class PhotographicPrior:
         return kwargs
 
 def main():
+    forbid_real_future()
     p=argparse.ArgumentParser();p.add_argument('--name',required=True)
     p.add_argument('--strength',type=float,default=.25);p.add_argument('--steps',type=int,default=30)
     p.add_argument('--preparation-subdir',default='group00_stretched_6s')
@@ -62,7 +64,7 @@ def main():
     assert all(sha256(scene/name)==digest for name,digest in freeze['sha256'].items())
     snapshot=out/'source_snapshot';snapshot.mkdir(exist_ok=True)
     import shutil
-    for name in ['das_full_motion_generate.py','das_full_motion_prepare.py','das_full_motion_diagnose.py','das_wanfun_runtime.py','das_prepare_control.py']:
+    for name in ['das_full_motion_generate.py','das_full_motion_prepare.py','das_full_motion_diagnose.py','das_full_motion_prior.py','das_full_motion_safety.py','das_wanfun_runtime.py','das_prepare_control.py']:
         shutil.copy2(ROOT/'scripts'/name,snapshot/name)
     log=open(out/'generation.log','a',encoding='utf8',buffering=1)
     class Tee:
@@ -108,6 +110,7 @@ def main():
             'causal_MolmoMotion_benchmark':True,'native_DaS_unmodified_inference':False,
             'native_DaS_sampler_without_latent_prior':a.no_prior,'postprocessed_RGB':False,
             'trajectory_method':prep['method'],'timing':prep['timing'],'physical_timing_preserved':prep['timing']=='physical_2s',
+            'real_future_read_guard':True,
             'preparation_root':str(prep_root),'background_mode':prep.get('background_mode','initial'),
             'preparation_sha256':sha256(prep_root/'preparation.json'),'guide_sha256':None if a.no_prior else prep['guide_sha256'],
             'control_sha256':None if a.no_control else prep['control_sha256'],'trajectory_control':not a.no_control,

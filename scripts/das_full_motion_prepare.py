@@ -16,6 +16,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from das_prepare_control import project, backproject, splat, save_video, sheet, sha256, write_json
 from das_full_motion_diagnose import ROOT, SCENE, OUT, fit_motion
+from das_full_motion_safety import forbid_real_future
 
 
 def sample_motion(r, t, timing):
@@ -38,6 +39,7 @@ def color_surface(uv, z, limits):
 
 
 def main():
+    forbid_real_future()
     parser = argparse.ArgumentParser()
     parser.add_argument('--method', choices=['group00', 'all24', 'robust24'], default='group00')
     parser.add_argument('--timing', choices=['physical_2s', 'stretched_4s', 'stretched_6s'], default='stretched_6s')

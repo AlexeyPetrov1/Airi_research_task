@@ -2,6 +2,7 @@
 import sys
 from pathlib import Path
 import unittest
+import subprocess
 import numpy as np
 from scipy.spatial.transform import Rotation
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
@@ -10,6 +11,15 @@ from das_full_motion_diagnose import fit_motion
 
 
 class FullMotionTests(unittest.TestCase):
+    def test_real_future_access_fails_closed(self):
+        source=str(Path(__file__).resolve().parents[1]/'scripts')
+        program=('import sys; sys.path.insert(0,'+repr(source)+'); '
+            'from das_full_motion_safety import forbid_real_future; forbid_real_future(); '
+            "sys.audit('open','/tmp/runs/evaluation/future.npy','r',0)")
+        result=subprocess.run([sys.executable,'-c',program],capture_output=True,text=True)
+        self.assertNotEqual(result.returncode,0)
+        self.assertIn('Real future input is prohibited',result.stderr)
+
     def test_stretch_preserves_pose_at_matching_phase_and_delays_hold(self):
         times=np.arange(1,31)/15
         r=Rotation.from_rotvec(np.c_[times*.1,times*.2,times*.3]).as_matrix()
