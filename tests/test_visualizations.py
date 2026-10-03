@@ -6,11 +6,12 @@ import numpy as np
 import pytest
 
 from motion_experiments.io import ROOT, read_json
+from motion_experiments.datasets import ADAPTERS
 
 
 @pytest.mark.parametrize("name",["author_davis","fmb_wrist_1","fmb_wrist_2","berkeley_bottle","berkeley_cup","dobbe"])
 def test_encoded_media_preserves_time_and_coordinates(name):
-    folder=Path(os.environ.get("MOLMO_RUN",ROOT/"outputs/final"))/name/"visualizations"
+    folder=Path(os.environ.get("MOLMO_RUN",ROOT/"outputs/final_corrected"))/name/"visualizations"
     if not folder.exists():
         pytest.skip("Run the shared pipeline to validate actual encoded media")
     receipt=read_json(folder/"render_receipt.json")
@@ -25,5 +26,8 @@ def test_encoded_media_preserves_time_and_coordinates(name):
     assert coords["predicted_uv"].shape[:2] == coords["reference_uv"].shape[:2]
     assert len(coords["point_ids"]) == receipt["evaluated_points"]
     assert not receipt["future_camera_poses_in_prediction_video"]
+    config=read_json(folder.parent/"config.json")
+    sample=ADAPTERS[config["dataset"]].load(config,ROOT/"data/legacy",evaluation=True)
+    np.testing.assert_array_equal(coords["reference_initial_uv"],sample.points_2d)
     assert (folder/"legacy_vs_unified.png").is_file()
     assert read_json(folder/"legacy_visualization_parity.json")["success"]

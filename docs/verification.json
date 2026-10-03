@@ -1,0 +1,296 @@
+{
+  "success": true,
+  "checked_at_utc": "2026-10-03T20:58:08.541786+00:00",
+  "execution_cwd": "/tmp",
+  "inference_run": "outputs/inference_all_verified",
+  "inference_source_manifest": "outputs/inference_all_verified/sources.json",
+  "inference_sources": {
+    "author_davis": "outputs/inference_verified/author_davis",
+    "fmb_wrist_1": "outputs/inference_verified/fmb_wrist_1",
+    "fmb_wrist_2": "outputs/inference_verified/fmb_wrist_2",
+    "berkeley_bottle": "outputs/inference_remaining_20261003T2019/berkeley_bottle",
+    "berkeley_cup": "outputs/inference_remaining_20261003T2019/berkeley_cup",
+    "dobbe": "outputs/inference_remaining_20261003T2019/dobbe",
+    "dobbe_blocked": "outputs/inference_remaining_20261003T2019/dobbe_blocked"
+  },
+  "final_run": "outputs/final_corrected",
+  "fresh_model_calls": 14,
+  "prediction_parity": {
+    "author_davis": {
+      "success": true,
+      "mode": "inference",
+      "atol_m": 1e-07,
+      "max_difference_m": 0.0,
+      "fresh_inference": true
+    },
+    "fmb_wrist_1": {
+      "success": true,
+      "mode": "inference",
+      "atol_m": 1e-07,
+      "max_difference_m": 0.0,
+      "fresh_inference": true
+    },
+    "fmb_wrist_2": {
+      "success": true,
+      "mode": "inference",
+      "atol_m": 1e-07,
+      "max_difference_m": 0.0,
+      "fresh_inference": true
+    },
+    "berkeley_bottle": {
+      "success": true,
+      "mode": "inference",
+      "atol_m": 1e-07,
+      "max_difference_m": 0.0,
+      "fresh_inference": true
+    },
+    "berkeley_cup": {
+      "success": true,
+      "mode": "inference",
+      "atol_m": 1e-07,
+      "max_difference_m": 0.0,
+      "fresh_inference": true
+    },
+    "dobbe": {
+      "success": true,
+      "mode": "inference",
+      "atol_m": 1e-07,
+      "max_difference_m": 0.0,
+      "fresh_inference": true
+    }
+  },
+  "pytest": "...................................................                      [100%]\n=============================== warnings summary ===============================\ntests/test_author_import_surface.py::test_top_level_public_api\n  /mnt/f/AIRI_task/molmo-motion-final/src/molmo_motion/data/dataset.py:17: UserWarning: MOLMO_DATA_DIR is not set, data loading might fail\n    warnings.warn(\"MOLMO_DATA_DIR is not set, data loading might fail\")\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n51 passed, 1 warning in 127.80s (0:02:07)",
+  "repository_check": "author_davis replay verified\nfmb_wrist_1 replay verified\nfmb_wrist_2 replay verified\nberkeley_bottle replay verified\nberkeley_cup replay verified\ndobbe replay verified\nPASS: 394 preserved sources plus raw DAVIS RGB; 7 expected experiment statuses",
+  "final_statuses": [
+    {
+      "name": "author_davis",
+      "status": "COMPLETE",
+      "success": true,
+      "mode": "replay",
+      "fresh_inference": false,
+      "runtime_seconds": 72.46535805300027,
+      "videos": {
+        "prediction.mp4": {
+          "frame_count": 30,
+          "size_wh": [
+            640,
+            360
+          ],
+          "fps": 24.0,
+          "bytes": 87286
+        },
+        "comparison.mp4": {
+          "frame_count": 30,
+          "size_wh": [
+            1920,
+            360
+          ],
+          "fps": 24.0,
+          "bytes": 519325
+        }
+      },
+      "legacy_projection_scope_preserved": true,
+      "metric_3d_status": "AVAILABLE_ESTIMATED_REFERENCE"
+    },
+    {
+      "name": "fmb_wrist_1",
+      "status": "COMPLETE",
+      "success": true,
+      "mode": "replay",
+      "fresh_inference": false,
+      "runtime_seconds": 7.096947765000095,
+      "videos": {
+        "prediction.mp4": {
+          "frame_count": 20,
+          "size_wh": [
+            640,
+            640
+          ],
+          "fps": 10.0,
+          "bytes": 89027
+        },
+        "comparison.mp4": {
+          "frame_count": 20,
+          "size_wh": [
+            1920,
+            640
+          ],
+          "fps": 10.0,
+          "bytes": 844916
+        },
+        "methods.mp4": {
+          "frame_count": 20,
+          "size_wh": [
+            1920,
+            640
+          ],
+          "fps": 10.0,
+          "bytes": 1154785
+        }
+      },
+      "legacy_projection_scope_preserved": true,
+      "metric_3d_status": "AVAILABLE_ESTIMATED_REFERENCE"
+    },
+    {
+      "name": "fmb_wrist_2",
+      "status": "COMPLETE",
+      "success": true,
+      "mode": "replay",
+      "fresh_inference": false,
+      "runtime_seconds": 8.133202382000036,
+      "videos": {
+        "prediction.mp4": {
+          "frame_count": 20,
+          "size_wh": [
+            640,
+            640
+          ],
+          "fps": 10.0,
+          "bytes": 99847
+        },
+        "comparison.mp4": {
+          "frame_count": 20,
+          "size_wh": [
+            1920,
+            640
+          ],
+          "fps": 10.0,
+          "bytes": 1031921
+        },
+        "methods.mp4": {
+          "frame_count": 20,
+          "size_wh": [
+            1920,
+            640
+          ],
+          "fps": 10.0,
+          "bytes": 1399442
+        }
+      },
+      "legacy_projection_scope_preserved": true,
+      "metric_3d_status": "AVAILABLE_ESTIMATED_REFERENCE"
+    },
+    {
+      "name": "berkeley_bottle",
+      "status": "COMPLETE",
+      "success": true,
+      "mode": "replay",
+      "fresh_inference": false,
+      "runtime_seconds": 7.70715822000011,
+      "videos": {
+        "prediction.mp4": {
+          "frame_count": 10,
+          "size_wh": [
+            640,
+            480
+          ],
+          "fps": 5.0,
+          "bytes": 84788
+        },
+        "comparison.mp4": {
+          "frame_count": 10,
+          "size_wh": [
+            1920,
+            480
+          ],
+          "fps": 5.0,
+          "bytes": 536450
+        },
+        "methods.mp4": {
+          "frame_count": 10,
+          "size_wh": [
+            1920,
+            480
+          ],
+          "fps": 5.0,
+          "bytes": 690317
+        }
+      },
+      "legacy_projection_scope_preserved": true,
+      "metric_3d_status": "AVAILABLE_ESTIMATED_REFERENCE"
+    },
+    {
+      "name": "berkeley_cup",
+      "status": "COMPLETE",
+      "success": true,
+      "mode": "replay",
+      "fresh_inference": false,
+      "runtime_seconds": 7.5971130049997555,
+      "videos": {
+        "prediction.mp4": {
+          "frame_count": 10,
+          "size_wh": [
+            640,
+            480
+          ],
+          "fps": 5.0,
+          "bytes": 118063
+        },
+        "comparison.mp4": {
+          "frame_count": 10,
+          "size_wh": [
+            1920,
+            480
+          ],
+          "fps": 5.0,
+          "bytes": 564880
+        },
+        "methods.mp4": {
+          "frame_count": 10,
+          "size_wh": [
+            1920,
+            480
+          ],
+          "fps": 5.0,
+          "bytes": 672637
+        }
+      },
+      "legacy_projection_scope_preserved": true,
+      "metric_3d_status": "AVAILABLE_ESTIMATED_REFERENCE"
+    },
+    {
+      "name": "dobbe",
+      "status": "COMPLETE",
+      "success": true,
+      "mode": "replay",
+      "fresh_inference": false,
+      "runtime_seconds": 7.2496910479999315,
+      "videos": {
+        "prediction.mp4": {
+          "frame_count": 30,
+          "size_wh": [
+            640,
+            640
+          ],
+          "fps": 15.0,
+          "bytes": 212025
+        },
+        "comparison.mp4": {
+          "frame_count": 30,
+          "size_wh": [
+            1920,
+            640
+          ],
+          "fps": 15.0,
+          "bytes": 1334844
+        },
+        "methods.mp4": {
+          "frame_count": 30,
+          "size_wh": [
+            1280,
+            640
+          ],
+          "fps": 15.0,
+          "bytes": 1152629
+        }
+      },
+      "legacy_projection_scope_preserved": true,
+      "metric_3d_status": "UNAVAILABLE_NO_3D_REFERENCE"
+    },
+    {
+      "name": "dobbe_blocked",
+      "status": "SKIPPED_GEOMETRY_GATE",
+      "expected_failure": true
+    }
+  ]
+}

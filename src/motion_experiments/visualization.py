@@ -241,6 +241,7 @@ def make_visualizations(sample, xyz, uv, metrics, destination):
         plt.close(fig)
     forecast, comparison = [], []
     marker = sample.points_2d[shown]*scale
+    reference_marker = marker.copy()
     if sample.evaluation.get("diagnostic_projection"):
         marker = project(sample.points_3d_history[-1], sample.camera_intrinsics)[shown]*scale
     observed = sample.evaluation["uv"]*scale
@@ -254,10 +255,10 @@ def make_visualizations(sample, xyz, uv, metrics, destination):
         predicted = caption(predicted, frozen_title, f"+{time:.2f}s | {len(shown)}/{n} points shown; {n} scored")
         forecast.append(predicted)
         real = resized(rgb)
-        draw(real, observed[shown, :t+1], GREEN, mask=mask[shown, :t+1], initial=marker)
+        draw(real, observed[shown, :t+1], GREEN, mask=mask[shown, :t+1], initial=reference_marker)
         real = caption(real, "Real continuation + reference", f"+{time:.2f}s | green = independent tracks")
         overlay = resized(rgb)
-        draw(overlay, observed[shown, :t+1], GREEN, mask=mask[shown, :t+1], initial=marker)
+        draw(overlay, observed[shown, :t+1], GREEN, mask=mask[shown, :t+1], initial=reference_marker)
         if sample.evaluation.get("diagnostic_projection"):
             overlay = animation[t].copy()
             overlay = caption(overlay, "Common-frame 3D comparison", "pink forecast | green estimated reference | no RGB overlay")
@@ -288,6 +289,9 @@ def make_visualizations(sample, xyz, uv, metrics, destination):
     np.savez_compressed(destination/"drawn_coordinates.npz", point_ids=sample.point_ids,
                         shown_indices=shown, time_s=sample.future_times, predicted_uv=uv[primary],
                         reference_uv=sample.evaluation["uv"], reference_mask=sample.evaluation["mask2"],
+                        reference_initial_uv=sample.points_2d,
+                        forecast_initial_uv=project(sample.points_3d_history[-1],sample.camera_intrinsics)
+                        if sample.evaluation.get("diagnostic_projection") else sample.points_2d,
                         forecast_anchor_uv=project(xyz[primary], sample.camera_intrinsics))
     write_json(destination/"render_receipt.json", dict(videos=receipts, evaluated_points=n,
                shown_point_ids=sample.point_ids[shown].tolist(), coordinate_file="drawn_coordinates.npz",

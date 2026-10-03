@@ -12,7 +12,7 @@ from motion_experiments.io import ROOT, read_json, sha
 @pytest.mark.parametrize("name", ["author_davis", "fmb_wrist_1", "fmb_wrist_2",
                                   "berkeley_bottle", "berkeley_cup", "dobbe"])
 def test_saved_inputs_and_forecast_provenance(name):
-    folder = Path(os.environ.get("MOLMO_RUN", ROOT / "outputs/final")) / name
+    folder = Path(os.environ.get("MOLMO_RUN", ROOT / "outputs/final_corrected")) / name
     if not folder.exists():
         pytest.skip("Create the final run to check its actual artifacts")
     config = read_json(folder / "config.json")

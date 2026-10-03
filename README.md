@@ -75,6 +75,8 @@ molmo-motion-experiment --config configs/author_davis.json configs/fmb_wrist_1.j
 
 ## Результаты и проверка
 
+Готовая галерея на этой машине: [outputs/final_corrected/index.html](outputs/final_corrected/index.html). Для неё выполнены 14 новых P8-вызовов модели; все шесть neural forecasts совпали с прежними координатами точно (`max_difference_m = 0`). После новой отрисовки прошёл полный набор из 51 теста без пропусков и проверка 394 сохранённых исходных артефактов. Все семь конфигов запускались из `/tmp`; отрицательная ветка Dobb-E остановилась с ожидаемой причиной. Протокол: [docs/verification.json](docs/verification.json), описание траекторий и ограничений: [docs/results.md](docs/results.md).
+
 Откройте `outputs/<run_id>/index.html`. В каждом примере: `inputs/canonical.npz`, точные пакеты процессора, `prediction_parity.json`, `metrics.json`, ошибки NPZ, прогноз и сравнение с реальным продолжением MP4, точки на изображении, полные 2D/3D траектории, XYZ по времени, ADE/FDE и графики 2D/3D ошибок. `render_receipt.json` проверяет декодированное число кадров и сохраняет координаты для проверки отрисовки.
 
 ```bash
