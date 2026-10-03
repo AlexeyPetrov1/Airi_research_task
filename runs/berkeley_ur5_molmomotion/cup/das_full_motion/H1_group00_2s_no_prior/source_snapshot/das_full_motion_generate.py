@@ -87,8 +87,6 @@ def main():
     if output.exists():raise FileExistsError('Refusing to overwrite actual output')
     prep_root=(OUT/a.preparation_subdir).resolve();assert prep_root.is_relative_to(OUT.resolve())
     prep=json.loads((prep_root/'preparation.json').read_text())
-    if not a.no_prior and 'global_strength_required' in prep:
-        assert abs(a.strength-prep['global_strength_required'])<1e-9,'Spatial prior mask requires the declared global strength'
     review=json.loads((prep_root/'preparation_visual_review.json').read_text(encoding='utf-8-sig'))
     assert review['accepted'] and review['control_sha256']==sha256(prep_root/'control_720x480.mp4')==prep['control_sha256']
     if not a.no_prior:
@@ -100,7 +98,7 @@ def main():
     assert all(sha256(scene/name)==digest for name,digest in freeze['sha256'].items())
     snapshot=out/'source_snapshot';snapshot.mkdir(exist_ok=True)
     import shutil
-    for name in ['das_full_motion_generate.py','das_full_motion_prepare.py','das_full_motion_diagnose.py','das_full_motion_prior.py','das_full_motion_safety.py','das_full_motion_robot_prepare.py','das_full_motion_robot_ik.py','das_full_motion_robot_prior_variant.py','das_robot_geometry.py','das_wanfun_runtime.py','das_prepare_control.py']:
+    for name in ['das_full_motion_generate.py','das_full_motion_prepare.py','das_full_motion_diagnose.py','das_full_motion_prior.py','das_full_motion_safety.py','das_wanfun_runtime.py','das_prepare_control.py']:
         shutil.copy2(ROOT/'scripts'/name,snapshot/name)
     log=open(out/'generation.log','a',encoding='utf8',buffering=1)
     class Tee:

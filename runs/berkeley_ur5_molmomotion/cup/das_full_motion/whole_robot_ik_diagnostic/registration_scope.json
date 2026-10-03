@@ -1,0 +1,19 @@
+{
+  "future_used": false,
+  "nominal_DH_source": "https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/",
+  "DH_parameters_verified_against_official_UR5_table": true,
+  "observed_camera_fit_joint_reprojection_error_px": [
+    3.050226356397053,
+    17.073841784530227,
+    13.32043716898716,
+    10.407333764002974
+  ],
+  "observed_camera_fit_joint_depth_error_m": [
+    0.17363994371809022,
+    0.1817648742608179,
+    0.14080321832373432
+  ],
+  "numerical_IK_vs_calibration": "Tiny nominal IK residual solves the assumed chain only. It does not reduce observed camera registration uncertainty.",
+  "rasterization": "Joint endpoint similarity maps retain full t0 RGB link silhouettes; not a CAD renderer or factory-calibrated 3D reconstruction.",
+  "exact_preserved_geometry": "Cup and local wrist/gripper dense SE(3) geometry are copied byte-for-byte from H2."
+}

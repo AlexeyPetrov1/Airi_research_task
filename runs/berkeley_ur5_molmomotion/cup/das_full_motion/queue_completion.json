@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "sequential_gpu": true,
+  "variants": [
+    "H3_group00_6s_prior025",
+    "H1_group00_2s_no_prior",
+    "H4_no_trajectory_control"
+  ]
+}

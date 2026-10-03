@@ -2,6 +2,32 @@
   "chosen_variant": "H2_group00_6s_no_prior",
   "review_scope": "Current completed outputs only; update after the pending matched experiments finish.",
   "variants": {
+    "H4_no_trajectory_control": {
+      "frames_reviewed": 49,
+      "full_predicted_arc_visible": false,
+      "proximal_arm_moves": true,
+      "motion": "Cup moves down/near the starting location, modest lift later, then down again. No top exit or wide rightward group_00 arc.",
+      "cup_identity": "Starts as one blue cup with face motif, becomes partly transparent and eventually a flattened blue/silver fragment.",
+      "original_site_copy": false,
+      "local_gripper": "Moves with the deformed object on a different path; does not follow frozen forecast.",
+      "proximal_robot": "Forearm changes pose under prompt, mainly near the left start; mounted upper column remains largely in place.",
+      "artifacts": "Severe loss of cup silhouette and motif; flattened object by the end; wrong spatial path.",
+      "acceptance": "Rejected for the requested cup arc; retained as the matched no-control ablation.",
+      "acceptance_ru": "Без control модель двигает руку около исходного места, но не воспроизводит большую дугу; стакан становится прозрачным и затем плоским фрагментом. Вариант отклонён."
+    },
+    "H1_group00_2s_no_prior": {
+      "frames_reviewed": 49,
+      "full_predicted_arc_visible": false,
+      "proximal_arm_moves": false,
+      "motion": "Large approximate arc occurs within the first 2 seconds, then holds near the intended right endpoint. Continuous recognizable cup motion is not accepted.",
+      "cup_identity": "Early cup and gripper become severely deformed and merge with a metal-like elongated strip. A blue cup with motif returns on the right later.",
+      "original_site_copy": false,
+      "local_gripper": "Deforms during fast travel; later visible above the right cup.",
+      "proximal_robot": "Remains stationary; residual elongated material remains below the left wrist.",
+      "artifacts": "Major shape and material changes; long-lived silver strip on the left; tracker loses the cup and lacks a usable final track.",
+      "acceptance": "Rejected as a clean continuous full-arc video; retained as the matched physical-timing experiment.",
+      "acceptance_ru": "Большое перемещение приблизительно выполняется за первые 2 с, но стакан и захват теряют форму; остаётся серебристый фрагмент на исходном месте. Вариант отклонён как непрерывное качественное движение стакана."
+    },
     "H2_group00_6s_no_prior": {
       "frames_reviewed": 49,
       "full_predicted_arc_visible": true,
@@ -12,6 +38,7 @@
       "proximal_robot": "Mostly static; the local moving gripper becomes disconnected from the proximal arm. Not accepted as realistic robot kinematics.",
       "artifacts": "Small light fragment late in the clip; changes in cup silhouette and printed motif.",
       "acceptance": "Accepted for the requested full spatial cup arc. Appearance and full-arm realism remain limited.",
+      "acceptance_ru": "Один узнаваемый голубой стакан проходит полную дугу, захват следует за ним. Пользователь принял дугу; основная рука неподвижна. Есть деформации рисунка и небольшой светлый фрагмент в конце.",
       "proximal_arm_moves": false
     },
     "H3_group00_6s_prior025": {
@@ -24,7 +51,8 @@
       "local_gripper": "Travels with the cup; visual contact remains plausible.",
       "proximal_robot": "Upper arm and forearm remain essentially stationary; local moving unit is disconnected.",
       "artifacts": "Minor changing cup shape, printed detail and gripper appearance; static proximal robot.",
-      "acceptance": "Accepted for full cup arc and useful t0 prior comparison; whole-body realism requires the requested H5."
+      "acceptance": "Accepted for full cup arc and useful t0 prior comparison; whole-body realism requires the requested H5.",
+      "acceptance_ru": "Полная дуга сохранена, форма и рисунок стакана устойчивее, чем в H2; ошибки трекера меньше. Основная рука по-прежнему неподвижна."
     }
   }
 }

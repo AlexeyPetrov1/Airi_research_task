@@ -37,9 +37,14 @@ def main():
     for name in names:
         common&=data[name]['generated_visibility'][indices[name]]
     timing={'interpretation':'Same 17 forecast phases, source t=0..2s. Excludes the 2s variant hold tail.',
-        'source_times_s':(np.arange(17)/8).tolist(),'common_pairs':int(common.sum()),'variants':{}}
+        'source_times_s':(np.arange(17)/8).tolist(),'common_pairs':int(common.sum()),'variants':{},
+        'individual_visible_coverage_at_same_phases':{}}
     for name in names:
         timing['variants'][name]=metrics(target,data[name]['generated_xy'][indices[name]],common)
+        own=valid(target)&data[name]['generated_visibility'][indices[name]]
+        timing['individual_visible_coverage_at_same_phases'][name]={'usable_pairs':int(own.sum()),
+            'total_pairs':int(own.size),'per_frame':own.sum(1).tolist(),
+            'to_forecast':metrics(target,data[name]['generated_xy'][indices[name]],own)}
     report={'matched_timing':timing}
     prior='H3_group00_6s_prior025'
     if (OUT/prior/'motion_measurements.npz').exists():
