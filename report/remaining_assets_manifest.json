@@ -23076,43 +23076,89 @@
       "path": "data_generation/third_party/vipe/vipe_ext.cpython-311-x86_64-linux-gnu.so",
       "bytes": 111480552,
       "sha256": "d7a2da7b5b0a142e2e19fb5abc697face9997bd0f4d0b6719613b53f5a185c1a",
-      "asset_prefix": "data_generation__third_party__vipe__vipe_ext.cpython-311-x86_64-linux-gnu.so"
+      "asset_prefix": "data_generation__third_party__vipe__vipe_ext.cpython-311-x86_64-linux-gnu.so",
+      "parts": [
+        {
+          "name": "data_generation__third_party__vipe__vipe_ext.cpython-311-x86_64-linux-gnu.so",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data_generation__third_party__vipe__vipe_ext.cpython-311-x86_64-linux-gnu.so",
+          "bytes": 111480552,
+          "sha256": "d7a2da7b5b0a142e2e19fb5abc697face9997bd0f4d0b6719613b53f5a185c1a",
+          "id": 607810374
+        }
+      ],
+      "complete": true
     },
     {
       "path": "runs/sharerobot_fmb_episode_5201/candidate_rlds_5201_record.bin",
       "bytes": 167302474,
       "sha256": "081fb9b8233758b491b84d24b741fd7a9cbcaa01c5349b10b70e8b699e90ad53",
-      "asset_prefix": "runs__sharerobot_fmb_episode_5201__candidate_rlds_5201_record.bin"
+      "asset_prefix": "runs__sharerobot_fmb_episode_5201__candidate_rlds_5201_record.bin",
+      "parts": [
+        {
+          "name": "runs__sharerobot_fmb_episode_5201__candidate_rlds_5201_record.bin",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/runs__sharerobot_fmb_episode_5201__candidate_rlds_5201_record.bin",
+          "bytes": 167302474,
+          "sha256": "081fb9b8233758b491b84d24b741fd7a9cbcaa01c5349b10b70e8b699e90ad53",
+          "id": 607810376
+        }
+      ],
+      "complete": true
     },
     {
       "path": "data/fmb_second_scene/raw/source_demo.npy",
       "bytes": 186224561,
       "sha256": "e6c3aa8e518d75b003a78ac405e33aa30c2ddc94dea2901a5ee568e0fb353cdb",
-      "asset_prefix": "data__fmb_second_scene__raw__source_demo.npy"
+      "asset_prefix": "data__fmb_second_scene__raw__source_demo.npy",
+      "parts": [
+        {
+          "name": "data__fmb_second_scene__raw__source_demo.npy",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__fmb_second_scene__raw__source_demo.npy",
+          "bytes": 186224561,
+          "sha256": "e6c3aa8e518d75b003a78ac405e33aa30c2ddc94dea2901a5ee568e0fb353cdb",
+          "id": 607810375
+        }
+      ],
+      "complete": true
     },
     {
       "path": "runs/sharerobot_fmb_episode_5201/1_M_L_3_vertical_n_2.npy",
       "bytes": 194093135,
       "sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
-      "asset_prefix": "runs__sharerobot_fmb_episode_5201__1_M_L_3_vertical_n_2.npy"
+      "asset_prefix": "runs__sharerobot_fmb_episode_5201__1_M_L_3_vertical_n_2.npy",
+      "parts": [
+        {
+          "name": "runs__sharerobot_fmb_episode_5201__1_M_L_3_vertical_n_2.npy",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/runs__sharerobot_fmb_episode_5201__1_M_L_3_vertical_n_2.npy",
+          "bytes": 194093135,
+          "sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+          "id": 607811533
+        }
+      ],
+      "complete": true
     },
     {
       "path": "data/pointmotionbench/davis/DAVIS-2017-trainval-480p.zip",
       "bytes": 832766765,
       "sha256": "e3d0b5b77c3d031b000a19e0e25e3e2cac65d183755601bc2cf066df1a2aa492",
-      "asset_prefix": "data__pointmotionbench__davis__DAVIS-2017-trainval-480p.zip"
+      "asset_prefix": "data__pointmotionbench__davis__DAVIS-2017-trainval-480p.zip",
+      "parts": [],
+      "complete": false
     },
     {
       "path": "data/checkpoints/MolmoMotion-4B-H1-F32/model.pt",
       "bytes": 17847894425,
       "sha256": "a391d445764fa1d3a67ae91ff6760c056aad85f2858656b09fd2b64ce24b0d42",
-      "asset_prefix": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt"
+      "asset_prefix": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt",
+      "parts": [],
+      "complete": false
     },
     {
       "path": "data/checkpoints/MolmoMotion-4B-H3-F30/model.pt",
       "bytes": 17847894425,
       "sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
-      "asset_prefix": "data__checkpoints__MolmoMotion-4B-H3-F30__model.pt"
+      "asset_prefix": "data__checkpoints__MolmoMotion-4B-H3-F30__model.pt",
+      "parts": [],
+      "complete": false
     }
   ],
   "excluded": [
@@ -25172,5 +25218,7 @@
     }
   ],
   "release_url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/tag/research-local-assets-2026-10-03",
-  "release_upload_status": "in_progress"
+  "release_upload_status": "in_progress",
+  "git_artifact_commit": "6122b3eacf893e31367f2a7b45e8269cdb6ae35d",
+  "git_remote_head_verified": "6122b3eacf893e31367f2a7b45e8269cdb6ae35d"
 }

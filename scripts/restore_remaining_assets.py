@@ -36,6 +36,8 @@ def main():
             raise FileExistsError(f"Existing file has different bytes: {target}")
         if args.verify_only:
             raise FileNotFoundError(target)
+        if sum(part["bytes"] for part in entry.get("parts", [])) != entry["bytes"]:
+            raise RuntimeError(f"Release upload is still incomplete for: {entry['path']}")
         target.parent.mkdir(parents=True, exist_ok=True)
         temporary = target.with_name(target.name + ".restore-download")
         with temporary.open("wb") as output:
