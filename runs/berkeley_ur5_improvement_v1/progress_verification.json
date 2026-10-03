@@ -1,0 +1,66 @@
+{
+  "completed_artifact_checks_passed": true,
+  "goal_complete": false,
+  "original_artifacts_unchanged": 488,
+  "correction_checked": [
+    "cup",
+    "bottle"
+  ],
+  "completed_actual_model_groups": [
+    "CASE-AUGE/bottle/predictions/group_00/model_run.json",
+    "CASE-AUGE/bottle/predictions/group_01/model_run.json",
+    "CASE-AUGE/cup/predictions/group_00/model_run.json",
+    "CASE-AUGE/cup/predictions/group_01/model_run.json",
+    "CASE-AUGE/cup/predictions/group_02/model_run.json",
+    "CASE-H1/cup/predictions/group_00/model_run.json",
+    "CASE-NOK/cup/predictions/group_00/model_run.json"
+  ],
+  "pending_groups": [
+    "CASE-AUGE/bottle/predictions/group_02/model_run.json"
+  ],
+  "movies": [
+    {
+      "path": "bottle/fixed_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "19159dd10a778cb0ca1b5e5376a435eb00cea1fdd6620b272bfa386ef2f05626"
+    },
+    {
+      "path": "bottle/oracle_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "b14854211f5c91546e640830004ee2b93d18f64e113658b0009ee858ce16a7eb"
+    },
+    {
+      "path": "CASE-AUGE/cup/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "3bc38d68da147f0882d11db70e1485bb37ad341705c16951ec55f81c95c5dc8d"
+    },
+    {
+      "path": "CASE-H1/cup/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "2531a1e40b34f4db352b6d88967bc7e7ce1e3fb55ecbb72209e4d9ff5881c665"
+    },
+    {
+      "path": "CASE-NOK/cup/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "27eb408d37ead005d5fbcc2a3fd2767ef144102159fca2f8c62cec58bb721f7f"
+    },
+    {
+      "path": "cup/fixed_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca"
+    },
+    {
+      "path": "cup/oracle_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "36430c1b1d3285d08c83f0d072f0afcaf8cafca322c79683a8265556af7f0e49"
+    }
+  ],
+  "required_next": "Visual review of full 24-ID cases and strict no-prior-K pilot; complete ShareRobot image mapping; final report and publication"
+}

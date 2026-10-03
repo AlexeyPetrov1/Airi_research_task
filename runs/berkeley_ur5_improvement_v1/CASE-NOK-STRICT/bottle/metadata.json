@@ -1,0 +1,91 @@
+{
+  "scene": "bottle",
+  "source_episode_id": 9,
+  "episode_id": 9,
+  "instruction": "Put the ranch bottle into the pot.",
+  "task": "Put the ranch bottle into the pot.",
+  "target_object": "ranch bottle",
+  "source_task_text": 1,
+  "source_repo": "lerobot/berkeley_autolab_ur5",
+  "source_revision": "6306aa91c00b9b0de28831b7fceaa42b8096bb4f",
+  "camera": "observation.images.image",
+  "source_fps": 5,
+  "model_training_fps": 15,
+  "t0": 47,
+  "t0_source_frame": 47,
+  "t0_seconds": 9.399999618530273,
+  "observed_source_indices": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "history_source_indices": [
+    45,
+    46,
+    47
+  ],
+  "history_timestamps": [
+    9.0,
+    9.199999809265137,
+    9.399999618530273
+  ],
+  "future_source_indices": [
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "future_timestamps": [
+    9.600000381469727,
+    9.800000190734863,
+    10.0,
+    10.199999809265137,
+    10.399999618530273,
+    10.600000381469727,
+    10.800000190734863,
+    11.0,
+    11.199999809265137,
+    11.399999618530273
+  ],
+  "prediction_evaluation_indices": [
+    2,
+    5,
+    8,
+    11,
+    14,
+    17,
+    20,
+    23,
+    26,
+    29
+  ],
+  "source_video": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/videos/chunk-000/observation.images.image/episode_000009.mp4",
+  "source_parquet": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/data/chunk-000/episode_000009.parquet",
+  "source_sha256": {
+    "video": "834f1bf891b90bd1eaaf226f8573c4a404ca5cc3785fc39a3482c2ae3a86a7ca",
+    "parquet": "a80d9d9bb29e1128d56bc9e0d9dc4df2deff25d8b345c534c5b9367da1737c38"
+  },
+  "selection_reason": "White bottle body exposed through lift; ep2/5/6 have substantially stronger gripper occlusion of body.",
+  "selection_policy": "Data quality only; episode/t0 screening precedes predictions. Future screening used only to select episode/t0, never to form model inputs.",
+  "future_used_for_model_input": false,
+  "warnings": [
+    "H3 uses real adjacent 5 FPS frames [-0.4,-0.2,0] seconds; temporal distribution shift from training at 15 FPS.",
+    "Future tracking is a tracker-based reference, not manually measured physical point ground truth.",
+    "Independent MoGe rays; all raw XYZ and author trust/smoothing recomputed from native depth and unchanged 2D tracks. Fixed IDs retained for comparability."
+  ],
+  "created_utc": "2026-10-02T22:16:49.865104+00:00",
+  "depth_source": "RealSense measured aligned metric depth (TFDS float32)",
+  "K_source": "MoGe-2 independently inferred camera rays from observed RGB; no supplied K or FOV",
+  "geometry_case": "CASE-NOK-STRICT"
+}

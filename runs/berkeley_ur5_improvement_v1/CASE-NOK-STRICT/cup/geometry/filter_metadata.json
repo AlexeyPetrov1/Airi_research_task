@@ -1,0 +1,15 @@
+{
+    "author_functions":  [
+                             "compute_trust_weights",
+                             "filter_tracks_by_trust",
+                             "consensus_gated_smooth"
+                         ],
+    "future_used":  false,
+    "flagged_ID_handling":  "Retain fixed IDs, report eligibility difference and inspect separately",
+    "point_ID_selection":  "Frozen original 24 IDs",
+    "selected_ids_flagged_by_new_outlier_filter":  [
+
+                                                   ],
+    "smoothing":  "Official consensus_gated_smooth on all H3-valid tracks with newly computed trust",
+    "input_geometry":  "Native depth + observed MoGe rays; original K/XYZ/trust not used"
+}

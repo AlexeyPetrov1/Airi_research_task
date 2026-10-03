@@ -1,0 +1,18 @@
+{
+    "success":  true,
+    "reviewed_before_molmomotion":  true,
+    "future_used":  false,
+    "reviewer":  "root assistant visual inspection",
+    "pointing_on_target":  true,
+    "automatic_sam_mask_matches_target":  true,
+    "robot_gripper_and_background_excluded":  true,
+    "selected_points_on_target":  true,
+    "H3_tracks_visually_consistent":  true,
+    "manual_point_or_mask_changes":  false,
+    "reviewed_artifacts":  [
+                               "observed/molmopoint_overlay.png",
+                               "observed/mask_overlay.png",
+                               "viz/selected_24_points.png",
+                               "viz/history_contact_sheet.png"
+                           ]
+}

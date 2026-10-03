@@ -1,0 +1,73 @@
+{
+  "source_indices": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "source_timestamps": [
+    8.0,
+    8.199999809265137,
+    8.399999618530273,
+    8.600000381469727,
+    8.800000190734863,
+    9.0,
+    9.199999809265137,
+    9.399999618530273
+  ],
+  "video_pts": [
+    {
+      "index": 40,
+      "pts": 81920,
+      "time_base": "1/10240",
+      "video_seconds": 8.0
+    },
+    {
+      "index": 41,
+      "pts": 83968,
+      "time_base": "1/10240",
+      "video_seconds": 8.2
+    },
+    {
+      "index": 42,
+      "pts": 86016,
+      "time_base": "1/10240",
+      "video_seconds": 8.4
+    },
+    {
+      "index": 43,
+      "pts": 88064,
+      "time_base": "1/10240",
+      "video_seconds": 8.6
+    },
+    {
+      "index": 44,
+      "pts": 90112,
+      "time_base": "1/10240",
+      "video_seconds": 8.8
+    },
+    {
+      "index": 45,
+      "pts": 92160,
+      "time_base": "1/10240",
+      "video_seconds": 9.0
+    },
+    {
+      "index": 46,
+      "pts": 94208,
+      "time_base": "1/10240",
+      "video_seconds": 9.2
+    },
+    {
+      "index": 47,
+      "pts": 96256,
+      "time_base": "1/10240",
+      "video_seconds": 9.4
+    }
+  ],
+  "exported_utc": "2026-10-02T22:16:49.881392+00:00"
+}

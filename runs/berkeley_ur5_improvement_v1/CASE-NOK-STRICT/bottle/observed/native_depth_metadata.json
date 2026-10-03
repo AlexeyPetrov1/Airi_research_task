@@ -1,0 +1,29 @@
+{
+  "measured_metric_depth": true,
+  "source": "TFDS steps.observation.image_with_depth",
+  "units": "meters",
+  "dtype": "float32",
+  "source_indices": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "source_receipt_path": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native_observed_receipt.json",
+  "source_receipt_sha256": "74aa8282beae6520d34cbd2f46e05c40fb7fdd80dabd9ffc6dedcaa2bdbaa3e9",
+  "source_files_sha256": {
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000040.npy": "1a13ec4eb03afb9e0378fcd22475fe43b3ea41348492494550f39df483338e56",
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000041.npy": "9cfb652a6ad58beee768d891388e93da3b71f73eb3f6843149a6cf89d7f3eefc",
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000042.npy": "83a4bb22b67ffa7deca5836c5d2c2403b0708443c9395020a032065cffce13a0",
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000043.npy": "23e154a623e57bc647a6e01f324f21d98cac7ff0f2e316d6b54a980ba022cd58",
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000044.npy": "e4f25adb5ddeb51edddb1663b2d0f4c659fd9b8efedd6d18496b59262bc7e352",
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000045.npy": "9934d98b72d32f9bdae4b3f41adde8af07a82303e46b2ead025c47142767e933",
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000046.npy": "0c1f7d4a75a94b6fcfeb18ae18ec70ed66cda0aab8d96ac3ad269349836be545",
+    "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/native/bottle/observed/depth_000047.npy": "8852d648a9326ccdd74e7d6134cffb16fafeb807444d8e8fcc20ea903c9c481f"
+  },
+  "future_used": false
+}

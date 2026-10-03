@@ -28,7 +28,7 @@ def write(p,obj):
     p.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 
 
-def prepare(name,case,K,receipt):
+def prepare(name,case,K,receipt,strict_geometry=False):
     import torch
     from berkeley_input_audit import audit
     src=BASE/name; dst=OUT/case/name
@@ -39,14 +39,39 @@ def prepare(name,case,K,receipt):
         shutil.copytree(src/folder,dst/folder,dirs_exist_ok=True)
     shutil.copy2(src/'metadata.json',dst/'metadata.json')
     (dst/'viz').mkdir(exist_ok=True)
-    oldK=np.load(src/'geometry/K_median.npy')
-    change=np.linalg.inv(K)@oldK
-    for filename in ('points_3d_raw.npy','points_3d_filtered.npy'):
-        values=np.load(src/'geometry'/filename)
-        new=(values@change.T).astype(np.float32)
-        if not np.allclose(new[...,2],values[...,2],atol=1e-7,equal_nan=True):
-            raise ValueError('Measured/smoothed sensor Z changed')
-        np.save(dst/'geometry'/filename,new)
+    if strict_geometry:
+        # No original K/XYZ/trust weights are read to construct new geometry.
+        from berkeley_preprocess import robust_lift,load_author_filter
+        tracks=np.load(src/'observed/observed_tracks_2d.npz')
+        depth=np.load(src/'observed/native_depth.npy')
+        xyz,valid,depth_fraction,spread=robust_lift(depth,tracks['tracks'],tracks['visibility'],K,patch_size=5)
+        author=load_author_filter()
+        trust,anchors=author.compute_trust_weights(xyz,valid,K=16)
+        drop=author.filter_tracks_by_trust(trust,valid,z_thresh=2.)
+        # Frozen query IDs are retained by design; report changed eligibility.
+        filtered=xyz.copy()
+        usable=np.isfinite(xyz[-3:]).all((0,2)) & valid[-3:].all(0)
+        filtered[:,usable]=author.consensus_gated_smooth(xyz[:,usable],np.zeros((len(xyz),3),np.float32),
+            valid[:,usable],trust[:,usable],device='cpu')
+        np.save(dst/'geometry/points_3d_raw.npy',xyz)
+        np.save(dst/'geometry/points_3d_filtered.npy',filtered)
+        ids=np.load(src/'observed/selected_point_ids.npy')
+        np.savez_compressed(dst/'geometry/filter_diagnostics.npz',trust=trust,anchor_ids=anchors,
+            keep=~drop,eligible=usable,depth_valid_fraction=depth_fraction,depth_patch_spread_m=spread)
+        write(dst/'geometry/strict_geometry_audit.json',dict(original_K_read_for_geometry=False,
+            original_XYZ_read_for_geometry=False,original_trust_weights_reused=False,
+            measured_sensor_depth_unchanged=True,point_selection_frozen_by_design=True,
+            selected_ids_flagged_by_new_outlier_filter=ids[drop[ids]].tolist(),
+            smoothing='official consensus_gated_smooth applied to all H3-valid tracks; fixed selected identities retained'))
+    else:
+        oldK=np.load(src/'geometry/K_median.npy')
+        change=np.linalg.inv(K)@oldK
+        for filename in ('points_3d_raw.npy','points_3d_filtered.npy'):
+            values=np.load(src/'geometry'/filename)
+            new=(values@change.T).astype(np.float32)
+            if not np.allclose(new[...,2],values[...,2],atol=1e-7,equal_nan=True):
+                raise ValueError('Measured/smoothed sensor Z changed')
+            np.save(dst/'geometry'/filename,new)
     filtered=np.load(dst/'geometry/points_3d_filtered.npy')
     ids=np.load(src/'observed/selected_point_ids.npy')
     hist=filtered[-3:,ids]
@@ -66,7 +91,7 @@ def prepare(name,case,K,receipt):
     depth['K_source']=receipt['K_source'];write(dst/'geometry/depth_source.json',depth)
     provenance=dict(**receipt,K=K.tolist(),future_used=False,
         baseline='../../../../berkeley_ur5_molmomotion',selected_point_ids=ids.tolist(),
-        only_ray_basis_changed=True,author_filter_not_reexecuted=True,
+        only_ray_basis_changed=not strict_geometry,author_filter_not_reexecuted=not strict_geometry,
         observed_sensor_depth_sha256=sha(dst/'observed/native_depth.npy'),
         unchanged=['RGB','mask','2D tracks','all 24 point IDs','sensor depth','smoothed Z','camera poses','instruction'])
     # Stale UniDepth estimates are retained only as historical source evidence.
@@ -76,7 +101,7 @@ def prepare(name,case,K,receipt):
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--case',choices=['CASE-AUGE','CASE-NOK','CASE-H1'],required=True)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--case',choices=['CASE-AUGE','CASE-NOK','CASE-NOK-STRICT','CASE-H1'],required=True)
     p.add_argument('--scenes',nargs='+',default=['cup'],choices=['cup','bottle']);a=p.parse_args()
     if a.case=='CASE-AUGE':
         config=OUT/'sources/auge_config.py'
@@ -91,6 +116,19 @@ def main():
             source_commit='0added8b6645fef1c7de2ad5d5bd7e9c1bde0d2e',source_config_sha256=sha(config),
             limitation='AugE tuned simulation camera is a candidate prior, not measured sensor calibration.')
         for n in a.scenes:prepare(n,a.case,K,receipt)
+    elif a.case=='CASE-NOK-STRICT':
+        for n in a.scenes:
+            maps=OUT/'CASE-NOK'/n/'geometry/moge_observed_outputs.npz'
+            values=np.load(maps)
+            K=np.median(values['intrinsics_per_frame'],axis=0).astype(float)
+            receipt=json.loads((OUT/'CASE-NOK'/n/'geometry/case_provenance.json').read_text())
+            for key in ('K','future_used','baseline','selected_point_ids','only_ray_basis_changed',
+                        'author_filter_not_reexecuted','observed_sensor_depth_sha256','unchanged'):
+                receipt.pop(key,None)
+            receipt['limitation']='Independent MoGe rays; all raw XYZ and author trust/smoothing recomputed from native depth and unchanged 2D tracks. Fixed IDs retained for comparability.'
+            receipt['moge_snapshot_sha256']=sha(maps)
+            prepare(n,a.case,K,receipt,strict_geometry=True)
+            shutil.copy2(maps,OUT/a.case/n/'geometry/moge_observed_outputs.npz')
     elif a.case=='CASE-H1':
         for n in a.scenes:
             K=np.load(BASE/n/'geometry/K_median.npy').astype(float)

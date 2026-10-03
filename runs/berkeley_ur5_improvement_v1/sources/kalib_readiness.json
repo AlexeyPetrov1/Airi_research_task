@@ -1,0 +1,12 @@
+{
+  "official_repo": "https://github.com/robotflow-initiative/Kalib",
+  "commit": "f342121d536aecb7ecb0ea854d79eb06f22b8714",
+  "inspected": ["README.md", "easycalib/lib/geometric_vision.py", "easycalib/lib/easycalib_analysis.py"],
+  "pnp_camera_intrinsics": "solve_pnp and solve_pnp_ransac require camera_K; main PnP pathway estimates camera/robot transformation, not independent focal length",
+  "additional_calibration_function": "zhangzhengyou_caliberate wraps cv2.calibrateCamera with robot-space canonical_points, image projections and initial camera_K",
+  "baseline_missing_for_honest_calibration": "A verified tracked TCP pixel point associated with the known robot TCP 3D position; current 24 object points are not TCP points and their robot-space offset is unknown",
+  "decision": "Do not treat object tracks as TCP observations or claim a Kalib calibration. First obtain verified observed-only TCP correspondences if this supplementary check is needed.",
+  "ML_calls": 0,
+  "future_used": false,
+  "status": "source_and_data_readiness_audited; calibration not executed"
+}

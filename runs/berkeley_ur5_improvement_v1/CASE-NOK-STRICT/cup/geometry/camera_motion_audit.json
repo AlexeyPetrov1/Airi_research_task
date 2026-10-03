@@ -1,0 +1,110 @@
+{
+  "method": "observed-only background Shi-Tomasi + pyramidal LK; forward/backward <1px; object mask excluded",
+  "pairs": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "count": 283,
+      "median_displacement_px": 0.00032440631184726954,
+      "p90_displacement_px": 0.0029650989454239607,
+      "median_flow_xy_px": [
+        0.0,
+        -1.52587890625e-05
+      ],
+      "fraction_below_1px": 1.0
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "count": 291,
+      "median_displacement_px": 0.033259376883506775,
+      "p90_displacement_px": 0.08754684031009674,
+      "median_flow_xy_px": [
+        -0.009185791015625,
+        -0.0128631591796875
+      ],
+      "fraction_below_1px": 1.0
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "count": 291,
+      "median_displacement_px": 0.00035622002906166017,
+      "p90_displacement_px": 0.0024549230001866817,
+      "median_flow_xy_px": [
+        0.0,
+        -3.0517578125e-05
+      ],
+      "fraction_below_1px": 1.0
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "count": 276,
+      "median_displacement_px": 0.04770122095942497,
+      "p90_displacement_px": 0.250485360622406,
+      "median_flow_xy_px": [
+        0.010284423828125,
+        0.015047073364257812
+      ],
+      "fraction_below_1px": 1.0
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "count": 277,
+      "median_displacement_px": 0.05592207610607147,
+      "p90_displacement_px": 11.063054084777832,
+      "median_flow_xy_px": [
+        2.6702880859375e-05,
+        0.0008087158203125
+      ],
+      "fraction_below_1px": 0.6245487364620939
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "count": 269,
+      "median_displacement_px": 0.09418660402297974,
+      "p90_displacement_px": 9.961859703063965,
+      "median_flow_xy_px": [
+        -0.0062255859375,
+        0.014190673828125
+      ],
+      "fraction_below_1px": 0.6654275092936803
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "count": 275,
+      "median_displacement_px": 0.06433934718370438,
+      "p90_displacement_px": 10.046716690063477,
+      "median_flow_xy_px": [
+        -0.0001220703125,
+        0.00212860107421875
+      ],
+      "fraction_below_1px": 0.6363636363636364
+    }
+  ],
+  "max_pair_median_displacement_px": 0.09418660402297974,
+  "fixed_camera_supported": true,
+  "median_threshold_px": 1.5,
+  "minimum_pair_count": 30,
+  "camera_pose": "identity",
+  "future_used": false,
+  "limitations": "Robot-arm features may remain among background candidates; robust median, not upper tail, determines gate."
+}

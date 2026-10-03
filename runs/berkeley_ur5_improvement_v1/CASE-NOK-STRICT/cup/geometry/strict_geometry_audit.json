@@ -1,0 +1,9 @@
+{
+  "original_K_read_for_geometry": false,
+  "original_XYZ_read_for_geometry": false,
+  "original_trust_weights_reused": false,
+  "measured_sensor_depth_unchanged": true,
+  "point_selection_frozen_by_design": true,
+  "selected_ids_flagged_by_new_outlier_filter": [],
+  "smoothing": "official consensus_gated_smooth applied to all H3-valid tracks; fixed selected identities retained"
+}
