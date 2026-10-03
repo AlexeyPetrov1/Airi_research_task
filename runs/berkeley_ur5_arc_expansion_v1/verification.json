@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "previous_source_files_verified": 1757,
+  "prediction_shape_per_candidate": [
+    24,
+    30,
+    3
+  ],
+  "candidates_per_scene": 11,
+  "common_K_identical": true,
+  "original_one_third_reproduced": true,
+  "original_point_ID_order_retained": true,
+  "all_projections_recomputed": true,
+  "all_18_movies_decoded": true,
+  "real_frames_per_movie": 10,
+  "fps": 5,
+  "visual_review_completed": true,
+  "ML_calls": 0,
+  "finished_utc": "2026-10-03T09:23:32.819733+00:00"
+}

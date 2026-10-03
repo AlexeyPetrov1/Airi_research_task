@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "source_files_unchanged": 1757,
+  "prior_constant_run_files_unchanged": 98,
+  "shared_K_exact": true,
+  "all_30_postprocessed_forecasts_reconstructed": true,
+  "forecast_shape": [
+    24,
+    30,
+    3
+  ],
+  "candidate_reference_pairs_scored": 7200,
+  "all_secondary_ADE_FDE_recomputed": true,
+  "selected_early_frames_identical": [
+    "cup",
+    "bottle"
+  ],
+  "selected_late_240_pairs_farther_and_higher": true,
+  "selected_endpoint_same_as_constant_control": true,
+  "all_30_movies_fully_decoded": true,
+  "frames_per_movie": 10,
+  "fps": 5,
+  "viewer_arrays_and_20_real_images_verified": true,
+  "visual_review_complete": true,
+  "ML_calls": 0,
+  "selected_metrics": {
+    "cup": {
+      "ADE_2D_px": 29.77258579057856,
+      "FDE_2D_px": 39.233780647848796
+    },
+    "bottle": {
+      "ADE_2D_px": 45.69152791949662,
+      "FDE_2D_px": 33.578378237510385
+    }
+  },
+  "finished_utc": "2026-10-03T09:23:56.951353+00:00"
+}

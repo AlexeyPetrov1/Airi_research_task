@@ -1,0 +1,23 @@
+{
+  "checked_date": "2026-10-03",
+  "github_source_commit": "539568c1c3393908602111594857923ad3fe06b2",
+  "github_case_url": "https://github.com/AlexeyPetrov1/Airi_research_task/blob/539568c1c3393908602111594857923ad3fe06b2/runs/berkeley_ur5_improvement_v1/CASE-AUGE/cup/geometry/case_provenance.json",
+  "model_url": "https://huggingface.co/allenai/MolmoMotion-4B-H3-F30",
+  "executed_checkpoint_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "model_changed": false,
+  "new_model_downloads": 0,
+  "new_model_inference_calls": 0,
+  "tools_used": [
+    "GitHub github_fetch",
+    "Hugging Face hub_repo_details"
+  ],
+  "hugging_face_metadata_response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "# allenai/MolmoMotion-4B-H3-F30\n\n## Overview\n- **Author:** allenai\n- **Task:** image-text-to-text\n- **Library:** transformers\n- **Downloads:** 1.7K | **Likes:** 13\n- **Updated:** 18 Jun, 2026\n\n## Technical Details\n- **Model Class:** AutoModelForImageTextToText\n- **Parameters:** 4850.9M\n- **Architecture:** molmo2\n\n## Tags\n`transformers` `safetensors` `molmo2` `image-text-to-text` `molmo-motion` `trajectory-forecasting` `3d` `vision-language` `conversational` `custom_code` `arxiv:2606.18558` `license:apache-2.0` `region:us`\n\n## Metadata\n- **License:** apache-2.0\n\n## Demo Spaces\n- [molmomotion](https://hf.co/spaces/allenai/molmomotion)\n\n**Link:** [https://hf.co/allenai/MolmoMotion-4B-H3-F30](https://hf.co/allenai/MolmoMotion-4B-H3-F30)"
+      }
+    ],
+    "isError": false
+  }
+}

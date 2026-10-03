@@ -1,0 +1,58 @@
+{
+  "completed": true,
+  "recorded_utc": "2026-10-03T09:22:00.073257+00:00",
+  "shared_candidate": "late_036_lift005",
+  "shared_candidate_family": "phase_schedule",
+  "selection_purpose": "Small, shared farther-and-higher change with less early amplification; not best measured accuracy",
+  "criteria_order": [
+    "real RGB and point correspondence",
+    "direction and lift/place timing",
+    "arc extent",
+    "P8 and across-group coherence",
+    "secondary metrics"
+  ],
+  "reviewed": {
+    "full_curve_grids": "both all24_candidate_grid.png; all 11 constant/lift candidates",
+    "decoded_all10_movies": [
+      "cup/controls_group_00..02",
+      "bottle/controls_group_00..02",
+      "phase_schedule/cup/timing_group_00..02",
+      "phase_schedule/bottle/timing_group_00..02"
+    ],
+    "height_contacts": [
+      "cup/height_group_00_contact.png",
+      "bottle/height_group_00_contact.png"
+    ],
+    "scope": "All 24 IDs and all ten real future times for primary constant/late choices and CV; not every generated candidate movie watched in full"
+  },
+  "cup": {
+    "groups": {
+      "0": "Late placing bend to the right is already premature. Expansion raises/extends it but cannot restore the observed vertical lift.",
+      "1": "Vertical lift remains coherent. Constant scale leads the cup upward early; delayed expansion leaves the first second intact.",
+      "2": "Same early vertical lead. Larger late extent can put endpoints above the reference; expansion is not uniformly beneficial."
+    },
+    "conclusion": "Use the delayed small expansion to demonstrate the requested shape change; retain original x1/3 and CV as accuracy controls."
+  },
+  "bottle": {
+    "groups": {
+      "0": "Rightward arc begins too soon. Extra height improves some final positions; delayed expansion avoids increasing the first-second lead.",
+      "1": "Similar early bend toward pot; endpoints can move closer with the small height shift.",
+      "2": "Wider curve and larger endpoint discrepancy persist; raising scale hurts this group despite gains in the other groups."
+    },
+    "conclusion": "Shared late expansion modestly improves global endpoint error, while average error remains slightly worse than x1/3."
+  },
+  "rejected": {
+    "scale_040_and_042": "Amplify premature motion and widen arcs too strongly for a slight shared change",
+    "constant_scale_036_lift005": "Same final extent as selected schedule but visibly larger early lead",
+    "independent_per_scene_tuning": "Not used; both scenes share the same K and rule"
+  },
+  "limitations": [
+    "AugE K is a calibration hypothesis",
+    "Camera-up is not world height",
+    "Tracker reference is not manual ground truth",
+    "Greedy genuine model forecasts are reused; this is postprocessing",
+    "H3 5 FPS versus documented F30 15 FPS remains a temporal shift",
+    "Same two previously inspected scenes, not independent test evaluation",
+    "Common smoothing Z is retained from prior CASE-AUGE ray-only control"
+  ]
+}

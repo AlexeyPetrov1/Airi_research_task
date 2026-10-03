@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "browser": "Microsoft Edge headless",
+  "mode": "real local HTML rendered from file URL; no web service",
+  "views_inspected": [
+    {"file": "gallery.html", "variant": "scale_036_lift005", "group": "all", "time_s": 2.0, "screenshot": "gallery_browser.png"},
+    {"file": "gallery_phase.html", "variant": "late_036_lift005", "group": "2", "time_s": 1.0, "screenshot": "gallery_phase_early_browser.png"}
+  ],
+  "both_scene_labels_update": true,
+  "actual_RGB_and_overlay_canvases_rendered": true,
+  "combined_viewer_variant_count": 18,
+  "time_and_group_query_state_verified_visually": true,
+  "scope": "Rendered initial state and explicit variant/frame/group query state. Playback button and every dropdown combination were not browser-automated.",
+  "geometry_tests": {"passed": 8, "command": "python -m pytest tests/test_berkeley_arc_expansion.py -q"},
+  "array_and_video_verification": "final_verification.json"
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Berkeley — сравнение расширения траекторий</title>
+<style>
+body{font:16px/1.5 system-ui;background:#10161f;color:#e3e9f0;margin:0;padding:24px}
+main{max-width:1400px;margin:auto}h1{font-size:24px}p{max-width:1000px;color:#b8c7d7}
+.toolbar{position:sticky;top:0;background:#182432;padding:14px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;border-radius:10px;z-index:1}
+select,button{font:inherit;background:#2c3f53;color:white;padding:8px;border:1px solid #63778c;border-radius:6px}
+input[type=range]{width:200px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}
+figure{margin:0;background:#182432;border-radius:8px;overflow:hidden}figcaption{padding:10px}canvas{width:100%;display:block}
+.green{color:#28f564}.pink{color:#ff41aa}a{color:#82b8ff}@media(max-width:850px){.grid{grid-template-columns:1fr}}
+</style>
+<main>
+<h1>Чуть дальше и выше: две сцены, одинаковые коэффициенты</h1>
+<p>Слева сохранённый CASE-AUGE ×1/3, справа выбранный вариант. Переключатель одновременно меняет обе сцены.
+<span class="green">Зелёный — независимый AllTracker reference</span>, <span class="pink">розовый — прогноз</span>.
+Все кадры настоящие, 5 FPS; 24 исходных точки, три группы по 8. Можно смотреть каждую группу отдельно.</p>
+<div class="toolbar">
+<label>Вариант <select id="variant"></select></label>
+<label>Точки <select id="group"><option value="all">Все 24</option><option value="0">Группа 0</option><option value="1">Группа 1</option><option value="2">Группа 2</option></select></label>
+<button id="play">▶ Воспроизвести</button>
+<label>Время <input id="time" type="range" min="0" max="9" value="9" step="1"> <span id="clock"></span></label>
+<label><input type="checkbox" id="full"> Весь будущий путь</label>
+<label><input type="checkbox" id="ids"> ID точек</label>
+</div>
+<div class="grid">
+<figure><figcaption>Cup · ×1/3</figcaption><canvas id="cup_base" width="640" height="480"></canvas></figure>
+<figure><figcaption id="cup_label">Cup · вариант</figcaption><canvas id="cup_new" width="640" height="480"></canvas></figure>
+<figure><figcaption>Bottle · ×1/3</figcaption><canvas id="bottle_base" width="640" height="480"></canvas></figure>
+<figure><figcaption id="bottle_label">Bottle · вариант</figcaption><canvas id="bottle_new" width="640" height="480"></canvas></figure>
+</div>
+<p>Подъём — общая плавная добавка по −Y камеры, 5 или 10 мм к +2 с. Это подъём в изображении, физическая вертикаль не откалибрована.
+K одинаковый: fx = fy = 434,5584, cx = 320, cy = 240. Гипотеза AugE сохраняет старый smoothed Z; здесь фильтрация не пересчитана.</p>
+<p>Это постобработка настоящих прогнозов MolmoMotion, новых вызовов модели нет. Сцены уже рассматривались раньше;
+визуальный выбор по их будущим кадрам является исследовательским выбором, не независимым test split.</p>
+<p><a href="README.md">Описание и выводы</a> · <a href="results.json">Все вторичные метрики</a> · <a href="visual_review.json">Визуальный разбор</a></p>
+</main>
+<script>
+const data=__EXPERIMENT_DATA__;
+const variant=document.getElementById('variant'), group=document.getElementById('group'), time=document.getElementById('time');
+const full=document.getElementById('full'), ids=document.getElementById('ids');
+const labels={reference_0333:'α = 1/3', scale_036:'α = 0,36', scale_038:'α = 0,38', scale_040:'α = 0,40', scale_042:'α = 0,42',
+lift_005:'α = 1/3, подъём 5 мм',lift_010:'α = 1/3, подъём 10 мм',
+scale_036_lift005:'α = 0,36, подъём 5 мм',scale_038_lift005:'α = 0,38, подъём 5 мм',
+scale_036_lift010:'α = 0,36, подъём 10 мм',scale_038_lift010:'α = 0,38, подъём 10 мм',
+static:'Статический контроль',CV_3D:'Постоянная скорость H3',object_translation_3D:'Общее перемещение по H3',
+ramp_036_lift005:'Плавно: 1/3 → 0,36, подъём 5 мм',late_036_lift005:'После 1 с: 1/3 → 0,36, подъём 5 мм',
+late_038_lift005:'После 1 с: 1/3 → 0,38, подъём 5 мм',late_036_lift010:'После 1 с: 1/3 → 0,36, подъём 10 мм'};
+for(const n of data.variants){const o=document.createElement('option');o.value=n;o.textContent=labels[n];variant.appendChild(o)}
+const query=new URLSearchParams(location.search);
+variant.value=data.variants.includes(query.get('variant'))?query.get('variant'):(data.default_variant||'scale_036_lift005');
+if(['all','0','1','2'].includes(query.get('group')))group.value=query.get('group');
+const initialFrame=Number(query.get('frame')??9);if(Number.isInteger(initialFrame)&&initialFrame>=0&&initialFrame<=9)time.value=initialFrame;
+const images={};let loaded=0;
+for(const name of ['cup','bottle']){images[name]=[];for(let t=0;t<10;t++){const im=new Image();im.onload=()=>{loaded++;draw()};im.src=`${name}/frames/${String(t).padStart(2,'0')}.jpg`;images[name].push(im)}}
+function drawPanel(name,key,canvas,t){
+const s=data.scenes[name],ctx=canvas.getContext('2d');ctx.clearRect(0,0,640,480);
+if(images[name][t].complete)ctx.drawImage(images[name][t],0,0);
+const stop=full.checked?9:t;
+for(let p=0;p<24;p++){
+if(group.value!=='all'&&Math.floor(p/8)!==Number(group.value))continue;
+for(const [color,values,valid] of [['#28f564',s.gt,s.mask],['#ff41aa',s.uv[key],null]]){
+ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=1.5;
+let prev=s.uv0[p],wasValid=true;
+for(let k=0;k<=stop;k++){let ok=!valid||valid[p][k];if(ok&&wasValid){ctx.beginPath();ctx.moveTo(prev[0],prev[1]);ctx.lineTo(values[p][k][0],values[p][k][1]);ctx.stroke()}prev=values[p][k];wasValid=ok}
+if(valid&&!valid[p][t])continue;
+const [x,y]=values[p][t];ctx.beginPath();if(valid){ctx.arc(x,y,2.5,0,Math.PI*2);ctx.fill()}else{ctx.moveTo(x-4,y-4);ctx.lineTo(x+4,y+4);ctx.moveTo(x-4,y+4);ctx.lineTo(x+4,y-4);ctx.stroke()}
+if(ids.checked){ctx.font='11px system-ui';ctx.fillText(String(s.ids[p]),x+5,y-4)}
+}}
+}
+function draw(){if(loaded<20)return;const t=Number(time.value);document.getElementById('clock').textContent=`+${((t+1)/5).toFixed(1)} с`;
+for(const name of ['cup','bottle']){drawPanel(name,'reference_0333',document.getElementById(`${name}_base`),t);drawPanel(name,variant.value,document.getElementById(`${name}_new`),t);document.getElementById(`${name}_label`).textContent=`${name==='cup'?'Cup':'Bottle'} · ${labels[variant.value]}`}}
+for(const control of [variant,group,time,full,ids])control.addEventListener('input',draw);
+let timer=null;document.getElementById('play').onclick=()=>{if(timer){clearInterval(timer);timer=null;document.getElementById('play').textContent='▶ Воспроизвести'}else{timer=setInterval(()=>{time.value=(Number(time.value)+1)%10;draw()},200);document.getElementById('play').textContent='⏸ Пауза'}};
+</script>
+</html>
