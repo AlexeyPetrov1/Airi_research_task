@@ -20,3 +20,8 @@
 /report/fmb*.md -text
 /scripts/fmb*.py -text
 /tests/test_fmb*.py -text
+
+# Complete local research inputs: preserve exact bytes.
+/data/** -text
+/runs/** -text
+/data_generation/third_party/vipe/*.so -text

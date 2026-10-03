@@ -1,0 +1,33 @@
+{
+  "folder_id": "1o8c6b6hSKfId8EzemVGf8c7DQoZ2IHAO",
+  "split_file_count": 77,
+  "first_file": "HomesOfNewYorkWithDepth.z01",
+  "last_file": "HomesOfNewYorkWithDepth.zip",
+  "last_file_id": "15wkAOHJX2_o-2raDPRykJlr4x7wUcojs",
+  "range_status": 206,
+  "content_range": "bytes 393255102-393320637/393320638",
+  "content_length": "65536",
+  "content_type": "application/octet-stream",
+  "tail": "7117000000004d000000504b05064c004c000100010071000000eb9771170000",
+  "zip_eocd": {
+    "this_disk": 76,
+    "central_directory_disk": 76,
+    "records_this_disk": 1,
+    "records_total": 1,
+    "central_directory_bytes": 113,
+    "central_directory_offset_on_disk": 393320427
+  },
+  "central_directory_first_method": 0,
+  "central_directory_first_compressed_bytes_32": 4294967295,
+  "central_directory_first_uncompressed_bytes_32": 4294967295,
+  "central_directory_first_name": "HomesOfNewYorkDepth.zip",
+  "central_directory_entry_offset_in_tail": 65325,
+  "nested_zip_eocd": {
+    "offset_in_tail": 65303,
+    "this_disk": 0,
+    "central_directory_disk": 0,
+    "records_total_16": 28434,
+    "central_directory_bytes_32": 4658877,
+    "central_directory_offset_32": 4294967295
+  }
+}

@@ -1,0 +1,202 @@
+I20261002 17:35:36.696451 134988383123136 feature_extraction.cc:498] === Feature extraction ===
+I20261002 17:35:36.697083 134988120970944 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:35:36.697281 134988003538624 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:35:36.697161 134988095792832 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:35:36.697211 134988112578240 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:35:36.697225 134988087400128 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:35:36.697127 134988104185536 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:35:36.794681 134987995145920 feature_extraction.cc:270] Processed file [1/20]
+I20261002 17:35:36.794997 134987995145920 feature_extraction.cc:273]   Name:            0000.png
+I20261002 17:35:36.795106 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.795254 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.795356 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.795491 134987995145920 feature_extraction.cc:294]   Features:        31 (SIFT)
+I20261002 17:35:36.795615 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.804759 134987995145920 feature_extraction.cc:270] Processed file [2/20]
+I20261002 17:35:36.804973 134987995145920 feature_extraction.cc:273]   Name:            0005.png
+I20261002 17:35:36.805251 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.805772 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.806165 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.806395 134987995145920 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:35:36.806521 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.825825 134987995145920 feature_extraction.cc:270] Processed file [3/20]
+I20261002 17:35:36.825978 134987995145920 feature_extraction.cc:273]   Name:            0010.png
+I20261002 17:35:36.826096 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.826201 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.826305 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.826411 134987995145920 feature_extraction.cc:294]   Features:        33 (SIFT)
+I20261002 17:35:36.826510 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.861293 134987995145920 feature_extraction.cc:270] Processed file [4/20]
+I20261002 17:35:36.861445 134987995145920 feature_extraction.cc:273]   Name:            0015.png
+I20261002 17:35:36.861550 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.861641 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.861728 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.861813 134987995145920 feature_extraction.cc:294]   Features:        46 (SIFT)
+I20261002 17:35:36.861890 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.877946 134987995145920 feature_extraction.cc:270] Processed file [5/20]
+I20261002 17:35:36.878087 134987995145920 feature_extraction.cc:273]   Name:            0020.png
+I20261002 17:35:36.878229 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.878383 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.878526 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.878650 134987995145920 feature_extraction.cc:294]   Features:        30 (SIFT)
+I20261002 17:35:36.878752 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.896629 134987995145920 feature_extraction.cc:270] Processed file [6/20]
+I20261002 17:35:36.896800 134987995145920 feature_extraction.cc:273]   Name:            0025.png
+I20261002 17:35:36.896929 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.897033 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.897117 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.897200 134987995145920 feature_extraction.cc:294]   Features:        42 (SIFT)
+I20261002 17:35:36.897300 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.911856 134987995145920 feature_extraction.cc:270] Processed file [7/20]
+I20261002 17:35:36.911972 134987995145920 feature_extraction.cc:273]   Name:            0030.png
+I20261002 17:35:36.912077 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.912180 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.912256 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.912353 134987995145920 feature_extraction.cc:294]   Features:        50 (SIFT)
+I20261002 17:35:36.912458 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.926534 134987995145920 feature_extraction.cc:270] Processed file [8/20]
+I20261002 17:35:36.926670 134987995145920 feature_extraction.cc:273]   Name:            0035.png
+I20261002 17:35:36.926798 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.926927 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.927044 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.927331 134987995145920 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:35:36.927461 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.948554 134987995145920 feature_extraction.cc:270] Processed file [9/20]
+I20261002 17:35:36.948659 134987995145920 feature_extraction.cc:273]   Name:            0040.png
+I20261002 17:35:36.948736 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.948803 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.948881 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.948956 134987995145920 feature_extraction.cc:294]   Features:        51 (SIFT)
+I20261002 17:35:36.949014 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.961195 134987995145920 feature_extraction.cc:270] Processed file [10/20]
+I20261002 17:35:36.961288 134987995145920 feature_extraction.cc:273]   Name:            0045.png
+I20261002 17:35:36.961371 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.961446 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.961518 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.961603 134987995145920 feature_extraction.cc:294]   Features:        69 (SIFT)
+I20261002 17:35:36.961668 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.974058 134987995145920 feature_extraction.cc:270] Processed file [11/20]
+I20261002 17:35:36.974193 134987995145920 feature_extraction.cc:273]   Name:            0050.png
+I20261002 17:35:36.974543 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.974746 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.974858 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.974973 134987995145920 feature_extraction.cc:294]   Features:        73 (SIFT)
+I20261002 17:35:36.975068 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:36.990400 134987995145920 feature_extraction.cc:270] Processed file [12/20]
+I20261002 17:35:36.990527 134987995145920 feature_extraction.cc:273]   Name:            0055.png
+I20261002 17:35:36.990645 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:36.990809 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:36.991421 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:36.991920 134987995145920 feature_extraction.cc:294]   Features:        66 (SIFT)
+I20261002 17:35:36.992632 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.007056 134987995145920 feature_extraction.cc:270] Processed file [13/20]
+I20261002 17:35:37.007171 134987995145920 feature_extraction.cc:273]   Name:            0060.png
+I20261002 17:35:37.007264 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.007359 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.007445 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.007519 134987995145920 feature_extraction.cc:294]   Features:        60 (SIFT)
+I20261002 17:35:37.007589 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.021283 134987995145920 feature_extraction.cc:270] Processed file [14/20]
+I20261002 17:35:37.021395 134987995145920 feature_extraction.cc:273]   Name:            0065.png
+I20261002 17:35:37.021498 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.021625 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.021718 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.021798 134987995145920 feature_extraction.cc:294]   Features:        55 (SIFT)
+I20261002 17:35:37.021899 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.040643 134987995145920 feature_extraction.cc:270] Processed file [15/20]
+I20261002 17:35:37.040750 134987995145920 feature_extraction.cc:273]   Name:            0070.png
+I20261002 17:35:37.040829 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.040903 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.040985 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.041203 134987995145920 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:35:37.041496 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.055985 134987995145920 feature_extraction.cc:270] Processed file [16/20]
+I20261002 17:35:37.056091 134987995145920 feature_extraction.cc:273]   Name:            0075.png
+I20261002 17:35:37.056163 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.056252 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.056342 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.056412 134987995145920 feature_extraction.cc:294]   Features:        56 (SIFT)
+I20261002 17:35:37.056472 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.058772 134987995145920 feature_extraction.cc:270] Processed file [17/20]
+I20261002 17:35:37.058870 134987995145920 feature_extraction.cc:273]   Name:            0080.png
+I20261002 17:35:37.058941 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.058999 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.059062 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.059137 134987995145920 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:35:37.059296 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.061574 134987995145920 feature_extraction.cc:270] Processed file [18/20]
+I20261002 17:35:37.061643 134987995145920 feature_extraction.cc:273]   Name:            0085.png
+I20261002 17:35:37.061717 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.061789 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.061843 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.061898 134987995145920 feature_extraction.cc:294]   Features:        51 (SIFT)
+I20261002 17:35:37.061952 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.069012 134987995145920 feature_extraction.cc:270] Processed file [19/20]
+I20261002 17:35:37.069185 134987995145920 feature_extraction.cc:273]   Name:            0090.png
+I20261002 17:35:37.069268 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.069364 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.069429 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.069524 134987995145920 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:35:37.069587 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.079965 134987995145920 feature_extraction.cc:270] Processed file [20/20]
+I20261002 17:35:37.080071 134987995145920 feature_extraction.cc:273]   Name:            0095.png
+I20261002 17:35:37.080160 134987995145920 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:35:37.080231 134987995145920 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:35:37.080298 134987995145920 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:35:37.080366 134987995145920 feature_extraction.cc:294]   Features:        40 (SIFT)
+I20261002 17:35:37.080431 134987995145920 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:35:37.082991 134988383123136 timer.cc:90] Elapsed time: 0.006 [minutes]
+I20261002 17:35:37.134192 134988383123136 feature_matching.cc:196] === Feature matching & geometric verification ===
+I20261002 17:35:37.136053 134987995145920 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:35:37.136070 134988003538624 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:35:37.136086 134988087400128 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:35:37.136107 134988374730432 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:35:37.136119 134988366337728 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:35:37.136133 134988357945024 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:35:37.137725 134988383123136 pairing.cc:181] Generating exhaustive image pairs...
+I20261002 17:35:37.137917 134988383123136 pairing.cc:214] Processing block [1/1, 1/1]
+I20261002 17:35:37.578242 134988383123136 feature_matching.cc:218] in 0.440s
+I20261002 17:35:37.578374 134988383123136 timer.cc:90] Elapsed time: 0.007 [minutes]
+MATCH_GRAPH {"images": 20, "pair_rows": 190, "raw_matches": 1137, "verified_inliers": 984, "nonzero_verified_pairs": 46, "geometry_config_counts": {"6": 42, "1": 144, "3": 3, "7": 1}, "by_threshold": {"15": {"pairs": 46, "largest_component": 20, "component_sizes": [20], "isolated_images": 0}, "30": {"pairs": 4, "largest_component": 2, "component_sizes": [2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "isolated_images": 12}, "50": {"pairs": 0, "largest_component": 1, "component_sizes": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "isolated_images": 20}, "100": {"pairs": 0, "largest_component": 1, "component_sizes": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "isolated_images": 20}}, "keypoints_median": 49.5, "mask_violations": 0, "initial_cameras": [{"camera_id": 1, "params": [307.2, 307.2, 128.0, 128.0], "has_prior_focal_length": false}]}
+I20261002 17:35:37.732247 134992448939840 incremental_pipeline.cc:353] Loading database
+I20261002 17:35:37.734264 134992448939840 database_cache.cc:82] Loading rigs...
+I20261002 17:35:37.734559 134992448939840 database_cache.cc:92]  1 in 0.000s
+I20261002 17:35:37.734650 134992448939840 database_cache.cc:100] Loading cameras...
+I20261002 17:35:37.734980 134992448939840 database_cache.cc:118]  1 in 0.000s
+I20261002 17:35:37.735068 134992448939840 database_cache.cc:126] Loading frames...
+I20261002 17:35:37.735571 134992448939840 database_cache.cc:136]  20 in 0.001s
+I20261002 17:35:37.735659 134992448939840 database_cache.cc:144] Loading matches...
+I20261002 17:35:37.736236 134992448939840 database_cache.cc:163]  46 in 0.001s
+I20261002 17:35:37.736311 134992448939840 database_cache.cc:171] Loading images...
+I20261002 17:35:37.740117 134992448939840 database_cache.cc:268]  20 in 0.004s (connected 20, loaded 20)
+I20261002 17:35:37.740199 134992448939840 database_cache.cc:282] Loading pose priors...
+I20261002 17:35:37.740457 134992448939840 database_cache.cc:290]  0 in 0.000s
+I20261002 17:35:37.740530 134992448939840 database_cache.cc:298] Building correspondence graph...
+I20261002 17:35:37.740703 134992448939840 database_cache.cc:327]  in 0.000s (ignored 0)
+I20261002 17:35:37.740810 134992448939840 timer.cc:90] Elapsed time: 0.000 [minutes]
+I20261002 17:35:37.741577 134992448939840 incremental_pipeline.cc:465] Finding good initial image pair
+I20261002 17:35:37.742453 134992448939840 incremental_pipeline.cc:472] => No good initial image pair found.
+I20261002 17:35:37.742553 134992448939840 incremental_pipeline.cc:800] Discarding reconstruction due to no initial pair
+I20261002 17:35:37.743049 134992448939840 incremental_pipeline.cc:429] => Relaxing the initialization constraints.
+I20261002 17:35:37.743197 134992448939840 incremental_pipeline.cc:465] Finding good initial image pair
+I20261002 17:35:37.743823 134992448939840 incremental_pipeline.cc:472] => No good initial image pair found.
+I20261002 17:35:37.743920 134992448939840 incremental_pipeline.cc:800] Discarding reconstruction due to no initial pair
+I20261002 17:35:37.744014 134992448939840 incremental_pipeline.cc:442] => Relaxing the initialization constraints.
+I20261002 17:35:37.744134 134992448939840 incremental_pipeline.cc:465] Finding good initial image pair
+I20261002 17:35:37.744774 134992448939840 incremental_pipeline.cc:472] => No good initial image pair found.
+I20261002 17:35:37.744906 134992448939840 incremental_pipeline.cc:800] Discarding reconstruction due to no initial pair
+I20261002 17:35:37.745068 134992448939840 incremental_pipeline.cc:429] => Relaxing the initialization constraints.
+I20261002 17:35:37.745183 134992448939840 incremental_pipeline.cc:465] Finding good initial image pair
+I20261002 17:35:37.750171 134992448939840 incremental_pipeline.cc:472] => No good initial image pair found.
+I20261002 17:35:37.750288 134992448939840 incremental_pipeline.cc:800] Discarding reconstruction due to no initial pair
+I20261002 17:35:37.750398 134992448939840 incremental_pipeline.cc:442] => Relaxing the initialization constraints.
+I20261002 17:35:37.750633 134992448939840 incremental_pipeline.cc:465] Finding good initial image pair
+I20261002 17:35:37.753609 134992448939840 incremental_pipeline.cc:492] Registering initial image pair #15 and #14
+I20261002 17:35:37.754458 134992448939840 incremental_pipeline.cc:510] Global bundle adjustment
+I20261002 17:35:37.760734 134992448939840 incremental_pipeline.cc:791] Discarding reconstruction due to bad initial pair
+I20261002 17:35:37.760912 134992448939840 incremental_pipeline.cc:465] Finding good initial image pair
+I20261002 17:35:37.764222 134992448939840 incremental_pipeline.cc:472] => No good initial image pair found.
+I20261002 17:35:37.764340 134992448939840 incremental_pipeline.cc:800] Discarding reconstruction due to no initial pair
+I20261002 17:35:37.764435 134992448939840 timer.cc:90] Elapsed time: 0.000 [minutes]
+E20261002 17:35:37.764518 134992448939840 sfm.cc:310] Failed to create any sparse model
+SUMMARY {"run": "main_causal_pinhole_masked_stride5_all", "status": "COMPLETE", "input_frames": [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95], "eligible_for_main_K": true, "config_sha256": "ecbeba01c5b3824240a345b4f9eb012e7a7e5bba82da8579e695b0eb59fc4543", "rgb_only": true, "elapsed_seconds_this_execution": 1.12, "reconstructions": [], "best_registered": 0, "match_graph": "match_graph.json", "initial_cameras": [{"camera_id": 1, "params": [307.2, 307.2, 128.0, 128.0], "has_prior_focal_length": false}]}

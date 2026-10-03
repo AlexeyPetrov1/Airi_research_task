@@ -1,0 +1,171 @@
+{
+  "protocol": {
+    "main": {
+      "calibration": 96,
+      "history": [
+        96,
+        97,
+        98
+      ],
+      "future": [
+        99,
+        128
+      ],
+      "disjoint": true
+    },
+    "second": {
+      "calibration": 121,
+      "history": [
+        121,
+        122,
+        123
+      ],
+      "future": [
+        124,
+        153
+      ],
+      "disjoint": true
+    }
+  },
+  "colmap_runs": {
+    "main/colmap_opencv_all": {
+      "frames": 96,
+      "verified_pairs": 4560,
+      "registered": 2
+    },
+    "main/colmap_opencv_even": {
+      "frames": 48,
+      "verified_pairs": 1128,
+      "registered": 2
+    },
+    "main/colmap_opencv_odd": {
+      "frames": 48,
+      "verified_pairs": 1128,
+      "registered": 4
+    },
+    "main/colmap_pinhole_all": {
+      "frames": 96,
+      "verified_pairs": 4560,
+      "registered": 9
+    },
+    "main/colmap_pinhole_all_fixedpp": {
+      "frames": 96,
+      "verified_pairs": 4560,
+      "registered": 9
+    },
+    "main/colmap_pinhole_all_fixedpp_init0_20": {
+      "frames": 96,
+      "verified_pairs": 4560,
+      "registered": 5
+    },
+    "main/colmap_pinhole_all_fixedpp_init49_94": {
+      "frames": 96,
+      "verified_pairs": 4560,
+      "registered": 0
+    },
+    "main/colmap_pinhole_even": {
+      "frames": 48,
+      "verified_pairs": 1128,
+      "registered": 4
+    },
+    "main/colmap_pinhole_odd": {
+      "frames": 48,
+      "verified_pairs": 1128,
+      "registered": 3
+    },
+    "main/colmap_simple_pinhole_all_fixedpp_rectified": {
+      "frames": 96,
+      "verified_pairs": 4560,
+      "registered": 0
+    },
+    "main/colmap_simple_pinhole_all_fixedpp_rectified_init0_20": {
+      "frames": 96,
+      "verified_pairs": 4560,
+      "registered": 0
+    },
+    "main/colmap_simple_pinhole_even_fixedpp_rectified": {
+      "frames": 48,
+      "verified_pairs": 1128,
+      "registered": 3
+    },
+    "main/colmap_simple_pinhole_odd_fixedpp_rectified": {
+      "frames": 48,
+      "verified_pairs": 1128,
+      "registered": 3
+    },
+    "second/colmap_pinhole_all": {
+      "frames": 121,
+      "verified_pairs": 7260,
+      "registered": 5
+    },
+    "second/colmap_pinhole_all_fixedpp_init62_107": {
+      "frames": 121,
+      "verified_pairs": 7260,
+      "registered": 121
+    },
+    "second/colmap_pinhole_all_init62_107": {
+      "frames": 121,
+      "verified_pairs": 7260,
+      "registered": 6
+    },
+    "second/colmap_pinhole_even_fixedpp": {
+      "frames": 61,
+      "verified_pairs": 1830,
+      "registered": 7
+    },
+    "second/colmap_pinhole_even_fixedpp_init62_108": {
+      "frames": 61,
+      "verified_pairs": 1830,
+      "registered": 6
+    },
+    "second/colmap_pinhole_even_fixedpp_init74_104": {
+      "frames": 61,
+      "verified_pairs": 1830,
+      "registered": 4
+    },
+    "second/colmap_pinhole_odd_fixedpp_init65_111": {
+      "frames": 60,
+      "verified_pairs": 1770,
+      "registered": 60
+    },
+    "second/colmap_simple_pinhole_all_fixedpp_rectified": {
+      "frames": 121,
+      "verified_pairs": 7260,
+      "registered": 121
+    },
+    "second/colmap_simple_pinhole_even_fixedpp_rectified": {
+      "frames": 61,
+      "verified_pairs": 1830,
+      "registered": 6
+    },
+    "second/colmap_simple_pinhole_odd_fixedpp_rectified": {
+      "frames": 60,
+      "verified_pairs": 1770,
+      "registered": 60
+    }
+  },
+  "correspondences": {
+    "main": 94,
+    "second": 72
+  },
+  "download_sha256": {
+    "main": [
+      "compressed_np_depth_float32.bin",
+      "compressed_video_h264.mp4",
+      "labels.json"
+    ],
+    "second": [
+      "compressed_np_depth_float32.bin",
+      "compressed_video_h264.mp4",
+      "labels.json"
+    ]
+  },
+  "report_links": {
+    "local_checked": 74,
+    "missing": 0
+  },
+  "decision": {
+    "status": "BLOCKED",
+    "molmo_ready": false
+  }
+}

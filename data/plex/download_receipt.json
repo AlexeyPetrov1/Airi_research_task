@@ -1,0 +1,11 @@
+{
+  "status": "downloaded",
+  "source_url": "https://download.microsoft.com/download/e/5/1/e5106eb4-0f53-4d65-afd1-58c03d60bf98/robosuite_demo_data%20%281%29.zip",
+  "member": "robosuite_demo_data/PickPlaceCereal/Panda/raw/PickPlaceCereal_demo_act_norm.hdf5",
+  "archive_bytes": 33956679,
+  "transferred_bytes": 12985159,
+  "member_compressed_bytes": 8404673,
+  "member_uncompressed_bytes": 12541432,
+  "output": "F:\\AIRI_task\\molmo-motion\\data\\plex\\PickPlaceCereal_demo_act_norm.hdf5",
+  "sha256": "a2c873020806d0955c6d1e99286c1b2fffdaac098b7cbf39d049079fc2e18f81"
+}

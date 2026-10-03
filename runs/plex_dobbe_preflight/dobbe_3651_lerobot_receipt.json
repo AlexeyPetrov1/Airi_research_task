@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "source": "https://huggingface.co/datasets/IPEC-COMMUNITY/dobbe_lerobot/resolve/main/videos/chunk-003/observation.images.wrist_image/episode_003651.mp4",
+      "path": "F:\\AIRI_task\\molmo-motion\\data\\dobbe_oxe\\lerobot_episode_003651.mp4",
+      "bytes": 685188,
+      "sha256": "495dbe8c0a5d6472fd515eb5d1325a66116721a476393a80a22b8f3ad940b51d"
+    },
+    {
+      "source": "https://huggingface.co/datasets/IPEC-COMMUNITY/dobbe_lerobot/resolve/main/data/chunk-003/episode_003651.parquet",
+      "path": "F:\\AIRI_task\\molmo-motion\\data\\dobbe_oxe\\lerobot_episode_003651.parquet",
+      "bytes": 25940,
+      "sha256": "54e1fad45d81b58512a2d66aa88ba401285b8c487d0de80845e53df56ad08bed"
+    }
+  ]
+}

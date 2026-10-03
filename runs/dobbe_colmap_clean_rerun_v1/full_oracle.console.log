@@ -1,0 +1,1780 @@
+I20261002 17:31:20.442273 130306111698624 feature_extraction.cc:498] === Feature extraction ===
+I20261002 17:31:20.443331 130306052949696 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:31:20.443944 130305667094208 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:31:20.443400 130305675486912 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:31:20.443403 130305683879616 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:31:20.443934 130306044556992 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:31:20.443355 130306036164288 sift.cc:764] Creating SIFT CPU feature extractor
+I20261002 17:31:20.575718 130305658701504 feature_extraction.cc:270] Processed file [1/243]
+I20261002 17:31:20.576018 130305658701504 feature_extraction.cc:273]   Name:            0000.png
+I20261002 17:31:20.576193 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.576423 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.576768 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.576990 130305658701504 feature_extraction.cc:294]   Features:        31 (SIFT)
+I20261002 17:31:20.577125 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.593945 130305658701504 feature_extraction.cc:270] Processed file [2/243]
+I20261002 17:31:20.594088 130305658701504 feature_extraction.cc:273]   Name:            0001.png
+I20261002 17:31:20.594209 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.594312 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.594411 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.594537 130305658701504 feature_extraction.cc:294]   Features:        32 (SIFT)
+I20261002 17:31:20.594815 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.612649 130305658701504 feature_extraction.cc:270] Processed file [3/243]
+I20261002 17:31:20.612800 130305658701504 feature_extraction.cc:273]   Name:            0002.png
+I20261002 17:31:20.612993 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.613151 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.613268 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.613374 130305658701504 feature_extraction.cc:294]   Features:        30 (SIFT)
+I20261002 17:31:20.613482 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.631181 130305658701504 feature_extraction.cc:270] Processed file [4/243]
+I20261002 17:31:20.631367 130305658701504 feature_extraction.cc:273]   Name:            0003.png
+I20261002 17:31:20.631506 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.631620 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.631742 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.631878 130305658701504 feature_extraction.cc:294]   Features:        33 (SIFT)
+I20261002 17:31:20.631997 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.649385 130305658701504 feature_extraction.cc:270] Processed file [5/243]
+I20261002 17:31:20.649548 130305658701504 feature_extraction.cc:273]   Name:            0004.png
+I20261002 17:31:20.649678 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.649796 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.649917 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.650024 130305658701504 feature_extraction.cc:294]   Features:        30 (SIFT)
+I20261002 17:31:20.650131 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.667508 130305658701504 feature_extraction.cc:270] Processed file [6/243]
+I20261002 17:31:20.667680 130305658701504 feature_extraction.cc:273]   Name:            0005.png
+I20261002 17:31:20.667841 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.667948 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.668052 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.668154 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:20.668271 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.683007 130305658701504 feature_extraction.cc:270] Processed file [7/243]
+I20261002 17:31:20.683129 130305658701504 feature_extraction.cc:273]   Name:            0006.png
+I20261002 17:31:20.683236 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.683325 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.683422 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.683510 130305658701504 feature_extraction.cc:294]   Features:        35 (SIFT)
+I20261002 17:31:20.683593 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.698125 130305658701504 feature_extraction.cc:270] Processed file [8/243]
+I20261002 17:31:20.698249 130305658701504 feature_extraction.cc:273]   Name:            0007.png
+I20261002 17:31:20.698358 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.698471 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.698574 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.698654 130305658701504 feature_extraction.cc:294]   Features:        30 (SIFT)
+I20261002 17:31:20.698755 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.713713 130305658701504 feature_extraction.cc:270] Processed file [9/243]
+I20261002 17:31:20.713834 130305658701504 feature_extraction.cc:273]   Name:            0008.png
+I20261002 17:31:20.713916 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.713991 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.714079 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.714186 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:20.714272 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.731528 130305658701504 feature_extraction.cc:270] Processed file [10/243]
+I20261002 17:31:20.731642 130305658701504 feature_extraction.cc:273]   Name:            0009.png
+I20261002 17:31:20.731721 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.731793 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.731872 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.731947 130305658701504 feature_extraction.cc:294]   Features:        38 (SIFT)
+I20261002 17:31:20.732062 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.749428 130305658701504 feature_extraction.cc:270] Processed file [11/243]
+I20261002 17:31:20.749552 130305658701504 feature_extraction.cc:273]   Name:            0010.png
+I20261002 17:31:20.749634 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.749744 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.749833 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.749911 130305658701504 feature_extraction.cc:294]   Features:        33 (SIFT)
+I20261002 17:31:20.749978 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.767527 130305658701504 feature_extraction.cc:270] Processed file [12/243]
+I20261002 17:31:20.767676 130305658701504 feature_extraction.cc:273]   Name:            0011.png
+I20261002 17:31:20.767801 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.767907 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.768026 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.768128 130305658701504 feature_extraction.cc:294]   Features:        34 (SIFT)
+I20261002 17:31:20.768240 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.784915 130305658701504 feature_extraction.cc:270] Processed file [13/243]
+I20261002 17:31:20.785062 130305658701504 feature_extraction.cc:273]   Name:            0012.png
+I20261002 17:31:20.785178 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.785278 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.785384 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.785518 130305658701504 feature_extraction.cc:294]   Features:        46 (SIFT)
+I20261002 17:31:20.785610 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.802798 130305658701504 feature_extraction.cc:270] Processed file [14/243]
+I20261002 17:31:20.802918 130305658701504 feature_extraction.cc:273]   Name:            0013.png
+I20261002 17:31:20.803009 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.803110 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.803209 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.803302 130305658701504 feature_extraction.cc:294]   Features:        37 (SIFT)
+I20261002 17:31:20.803382 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.821059 130305658701504 feature_extraction.cc:270] Processed file [15/243]
+I20261002 17:31:20.821176 130305658701504 feature_extraction.cc:273]   Name:            0014.png
+I20261002 17:31:20.821285 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.821392 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.821489 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.821585 130305658701504 feature_extraction.cc:294]   Features:        42 (SIFT)
+I20261002 17:31:20.821675 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.838789 130305658701504 feature_extraction.cc:270] Processed file [16/243]
+I20261002 17:31:20.838913 130305658701504 feature_extraction.cc:273]   Name:            0015.png
+I20261002 17:31:20.839025 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.839119 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.839190 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.839260 130305658701504 feature_extraction.cc:294]   Features:        46 (SIFT)
+I20261002 17:31:20.839324 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.853583 130305658701504 feature_extraction.cc:270] Processed file [17/243]
+I20261002 17:31:20.853698 130305658701504 feature_extraction.cc:273]   Name:            0016.png
+I20261002 17:31:20.853800 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.853894 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.853975 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.854057 130305658701504 feature_extraction.cc:294]   Features:        55 (SIFT)
+I20261002 17:31:20.854135 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.869542 130305658701504 feature_extraction.cc:270] Processed file [18/243]
+I20261002 17:31:20.870576 130305658701504 feature_extraction.cc:273]   Name:            0017.png
+I20261002 17:31:20.870895 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.871132 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.871357 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.871631 130305658701504 feature_extraction.cc:294]   Features:        43 (SIFT)
+I20261002 17:31:20.871878 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.887327 130305658701504 feature_extraction.cc:270] Processed file [19/243]
+I20261002 17:31:20.887445 130305658701504 feature_extraction.cc:273]   Name:            0018.png
+I20261002 17:31:20.887539 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.887629 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.887727 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.887814 130305658701504 feature_extraction.cc:294]   Features:        41 (SIFT)
+I20261002 17:31:20.887895 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.904396 130305658701504 feature_extraction.cc:270] Processed file [20/243]
+I20261002 17:31:20.904650 130305658701504 feature_extraction.cc:273]   Name:            0019.png
+I20261002 17:31:20.904828 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.904949 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.905060 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.905267 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:20.905646 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.920626 130305658701504 feature_extraction.cc:270] Processed file [21/243]
+I20261002 17:31:20.920726 130305658701504 feature_extraction.cc:273]   Name:            0020.png
+I20261002 17:31:20.920803 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.920881 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.920952 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.921017 130305658701504 feature_extraction.cc:294]   Features:        30 (SIFT)
+I20261002 17:31:20.921081 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.935891 130305658701504 feature_extraction.cc:270] Processed file [22/243]
+I20261002 17:31:20.935992 130305658701504 feature_extraction.cc:273]   Name:            0021.png
+I20261002 17:31:20.936063 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.936156 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.936232 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.936313 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:20.936379 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.950528 130305658701504 feature_extraction.cc:270] Processed file [23/243]
+I20261002 17:31:20.950630 130305658701504 feature_extraction.cc:273]   Name:            0022.png
+I20261002 17:31:20.950722 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.950826 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.950931 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.951021 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:20.951110 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.965324 130305658701504 feature_extraction.cc:270] Processed file [24/243]
+I20261002 17:31:20.965448 130305658701504 feature_extraction.cc:273]   Name:            0023.png
+I20261002 17:31:20.965535 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.965631 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.965732 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.965806 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:20.965895 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.980412 130305658701504 feature_extraction.cc:270] Processed file [25/243]
+I20261002 17:31:20.980520 130305658701504 feature_extraction.cc:273]   Name:            0024.png
+I20261002 17:31:20.980611 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.980698 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.980770 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.980838 130305658701504 feature_extraction.cc:294]   Features:        46 (SIFT)
+I20261002 17:31:20.980908 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:20.995765 130305658701504 feature_extraction.cc:270] Processed file [26/243]
+I20261002 17:31:20.995882 130305658701504 feature_extraction.cc:273]   Name:            0025.png
+I20261002 17:31:20.995977 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:20.996068 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:20.996156 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:20.996251 130305658701504 feature_extraction.cc:294]   Features:        42 (SIFT)
+I20261002 17:31:20.996338 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.009634 130305658701504 feature_extraction.cc:270] Processed file [27/243]
+I20261002 17:31:21.009738 130305658701504 feature_extraction.cc:273]   Name:            0026.png
+I20261002 17:31:21.009826 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.009928 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.010008 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.010092 130305658701504 feature_extraction.cc:294]   Features:        40 (SIFT)
+I20261002 17:31:21.010177 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.024817 130305658701504 feature_extraction.cc:270] Processed file [28/243]
+I20261002 17:31:21.024925 130305658701504 feature_extraction.cc:273]   Name:            0027.png
+I20261002 17:31:21.025009 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.025095 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.025167 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.025322 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:21.025417 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.040899 130305658701504 feature_extraction.cc:270] Processed file [29/243]
+I20261002 17:31:21.041018 130305658701504 feature_extraction.cc:273]   Name:            0028.png
+I20261002 17:31:21.041111 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.041196 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.041274 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.041345 130305658701504 feature_extraction.cc:294]   Features:        44 (SIFT)
+I20261002 17:31:21.041422 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.055257 130305658701504 feature_extraction.cc:270] Processed file [30/243]
+I20261002 17:31:21.055368 130305658701504 feature_extraction.cc:273]   Name:            0029.png
+I20261002 17:31:21.055465 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.055626 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.055788 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.055909 130305658701504 feature_extraction.cc:294]   Features:        40 (SIFT)
+I20261002 17:31:21.056027 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.073146 130305658701504 feature_extraction.cc:270] Processed file [31/243]
+I20261002 17:31:21.073266 130305658701504 feature_extraction.cc:273]   Name:            0030.png
+I20261002 17:31:21.073344 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.073440 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.073535 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.073619 130305658701504 feature_extraction.cc:294]   Features:        50 (SIFT)
+I20261002 17:31:21.073921 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.090100 130305658701504 feature_extraction.cc:270] Processed file [32/243]
+I20261002 17:31:21.090212 130305658701504 feature_extraction.cc:273]   Name:            0031.png
+I20261002 17:31:21.090289 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.090363 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.090437 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.090517 130305658701504 feature_extraction.cc:294]   Features:        57 (SIFT)
+I20261002 17:31:21.090887 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.108300 130305658701504 feature_extraction.cc:270] Processed file [33/243]
+I20261002 17:31:21.108427 130305658701504 feature_extraction.cc:273]   Name:            0032.png
+I20261002 17:31:21.108523 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.108622 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.108719 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.108815 130305658701504 feature_extraction.cc:294]   Features:        50 (SIFT)
+I20261002 17:31:21.108905 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.125370 130305658701504 feature_extraction.cc:270] Processed file [34/243]
+I20261002 17:31:21.125497 130305658701504 feature_extraction.cc:273]   Name:            0033.png
+I20261002 17:31:21.125603 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.125689 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.125780 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.125875 130305658701504 feature_extraction.cc:294]   Features:        35 (SIFT)
+I20261002 17:31:21.125994 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.140212 130305658701504 feature_extraction.cc:270] Processed file [35/243]
+I20261002 17:31:21.140346 130305658701504 feature_extraction.cc:273]   Name:            0034.png
+I20261002 17:31:21.140456 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.140640 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.140850 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.140969 130305658701504 feature_extraction.cc:294]   Features:        42 (SIFT)
+I20261002 17:31:21.141084 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.155305 130305658701504 feature_extraction.cc:270] Processed file [36/243]
+I20261002 17:31:21.155416 130305658701504 feature_extraction.cc:273]   Name:            0035.png
+I20261002 17:31:21.155513 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.155612 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.155852 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.155943 130305658701504 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:31:21.156008 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.170561 130305658701504 feature_extraction.cc:270] Processed file [37/243]
+I20261002 17:31:21.170790 130305658701504 feature_extraction.cc:273]   Name:            0036.png
+I20261002 17:31:21.171016 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.171129 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.171234 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.171329 130305658701504 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:31:21.171412 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.184348 130305658701504 feature_extraction.cc:270] Processed file [38/243]
+I20261002 17:31:21.184459 130305658701504 feature_extraction.cc:273]   Name:            0037.png
+I20261002 17:31:21.184570 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.184655 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.184746 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.184848 130305658701504 feature_extraction.cc:294]   Features:        41 (SIFT)
+I20261002 17:31:21.184913 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.199629 130305658701504 feature_extraction.cc:270] Processed file [39/243]
+I20261002 17:31:21.199756 130305658701504 feature_extraction.cc:273]   Name:            0038.png
+I20261002 17:31:21.199861 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.199974 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.200062 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.200143 130305658701504 feature_extraction.cc:294]   Features:        44 (SIFT)
+I20261002 17:31:21.200213 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.215249 130305658701504 feature_extraction.cc:270] Processed file [40/243]
+I20261002 17:31:21.215367 130305658701504 feature_extraction.cc:273]   Name:            0039.png
+I20261002 17:31:21.215476 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.215562 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.215673 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.215759 130305658701504 feature_extraction.cc:294]   Features:        50 (SIFT)
+I20261002 17:31:21.216488 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.232356 130305658701504 feature_extraction.cc:270] Processed file [41/243]
+I20261002 17:31:21.232466 130305658701504 feature_extraction.cc:273]   Name:            0040.png
+I20261002 17:31:21.232572 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.232666 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.232783 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.232879 130305658701504 feature_extraction.cc:294]   Features:        51 (SIFT)
+I20261002 17:31:21.232955 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.247959 130305658701504 feature_extraction.cc:270] Processed file [42/243]
+I20261002 17:31:21.248072 130305658701504 feature_extraction.cc:273]   Name:            0041.png
+I20261002 17:31:21.248168 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.248260 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.248347 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.248452 130305658701504 feature_extraction.cc:294]   Features:        61 (SIFT)
+I20261002 17:31:21.248528 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.264021 130305658701504 feature_extraction.cc:270] Processed file [43/243]
+I20261002 17:31:21.264143 130305658701504 feature_extraction.cc:273]   Name:            0042.png
+I20261002 17:31:21.264246 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.264342 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.264435 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.264527 130305658701504 feature_extraction.cc:294]   Features:        65 (SIFT)
+I20261002 17:31:21.264612 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.280874 130305658701504 feature_extraction.cc:270] Processed file [44/243]
+I20261002 17:31:21.280989 130305658701504 feature_extraction.cc:273]   Name:            0043.png
+I20261002 17:31:21.281073 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.281175 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.281261 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.281353 130305658701504 feature_extraction.cc:294]   Features:        67 (SIFT)
+I20261002 17:31:21.281442 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.297468 130305658701504 feature_extraction.cc:270] Processed file [45/243]
+I20261002 17:31:21.297579 130305658701504 feature_extraction.cc:273]   Name:            0044.png
+I20261002 17:31:21.297674 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.297763 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.297858 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.297938 130305658701504 feature_extraction.cc:294]   Features:        76 (SIFT)
+I20261002 17:31:21.298110 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.314096 130305658701504 feature_extraction.cc:270] Processed file [46/243]
+I20261002 17:31:21.314226 130305658701504 feature_extraction.cc:273]   Name:            0045.png
+I20261002 17:31:21.314317 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.314408 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.314508 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.314597 130305658701504 feature_extraction.cc:294]   Features:        69 (SIFT)
+I20261002 17:31:21.314677 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.333287 130305658701504 feature_extraction.cc:270] Processed file [47/243]
+I20261002 17:31:21.333419 130305658701504 feature_extraction.cc:273]   Name:            0046.png
+I20261002 17:31:21.333526 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.333624 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.333720 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.333819 130305658701504 feature_extraction.cc:294]   Features:        77 (SIFT)
+I20261002 17:31:21.333911 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.350032 130305658701504 feature_extraction.cc:270] Processed file [48/243]
+I20261002 17:31:21.350165 130305658701504 feature_extraction.cc:273]   Name:            0047.png
+I20261002 17:31:21.350271 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.350373 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.350473 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.350655 130305658701504 feature_extraction.cc:294]   Features:        71 (SIFT)
+I20261002 17:31:21.350775 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.369253 130305658701504 feature_extraction.cc:270] Processed file [49/243]
+I20261002 17:31:21.369383 130305658701504 feature_extraction.cc:273]   Name:            0048.png
+I20261002 17:31:21.369484 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.369575 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.369662 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.369751 130305658701504 feature_extraction.cc:294]   Features:        74 (SIFT)
+I20261002 17:31:21.369834 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.387476 130305658701504 feature_extraction.cc:270] Processed file [50/243]
+I20261002 17:31:21.387601 130305658701504 feature_extraction.cc:273]   Name:            0049.png
+I20261002 17:31:21.387711 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.387814 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.387988 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.388119 130305658701504 feature_extraction.cc:294]   Features:        74 (SIFT)
+I20261002 17:31:21.388240 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.405061 130305658701504 feature_extraction.cc:270] Processed file [51/243]
+I20261002 17:31:21.405168 130305658701504 feature_extraction.cc:273]   Name:            0050.png
+I20261002 17:31:21.405260 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.405348 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.405432 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.405521 130305658701504 feature_extraction.cc:294]   Features:        73 (SIFT)
+I20261002 17:31:21.405588 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.420525 130305658701504 feature_extraction.cc:270] Processed file [52/243]
+I20261002 17:31:21.420642 130305658701504 feature_extraction.cc:273]   Name:            0051.png
+I20261002 17:31:21.420750 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.420842 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.420928 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.421014 130305658701504 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:31:21.421079 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.435571 130305658701504 feature_extraction.cc:270] Processed file [53/243]
+I20261002 17:31:21.435686 130305658701504 feature_extraction.cc:273]   Name:            0052.png
+I20261002 17:31:21.435784 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.435871 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.435948 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.436016 130305658701504 feature_extraction.cc:294]   Features:        65 (SIFT)
+I20261002 17:31:21.436080 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.449782 130305658701504 feature_extraction.cc:270] Processed file [54/243]
+I20261002 17:31:21.450155 130305658701504 feature_extraction.cc:273]   Name:            0053.png
+I20261002 17:31:21.450308 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.450422 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.450861 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.450990 130305658701504 feature_extraction.cc:294]   Features:        81 (SIFT)
+I20261002 17:31:21.451128 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.466486 130305658701504 feature_extraction.cc:270] Processed file [55/243]
+I20261002 17:31:21.466601 130305658701504 feature_extraction.cc:273]   Name:            0054.png
+I20261002 17:31:21.466706 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.466815 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.466892 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.466975 130305658701504 feature_extraction.cc:294]   Features:        67 (SIFT)
+I20261002 17:31:21.467063 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.481873 130305658701504 feature_extraction.cc:270] Processed file [56/243]
+I20261002 17:31:21.481973 130305658701504 feature_extraction.cc:273]   Name:            0055.png
+I20261002 17:31:21.482060 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.482145 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.482222 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.482298 130305658701504 feature_extraction.cc:294]   Features:        66 (SIFT)
+I20261002 17:31:21.482366 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.495923 130305658701504 feature_extraction.cc:270] Processed file [57/243]
+I20261002 17:31:21.496032 130305658701504 feature_extraction.cc:273]   Name:            0056.png
+I20261002 17:31:21.496100 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.496176 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.496274 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.496366 130305658701504 feature_extraction.cc:294]   Features:        61 (SIFT)
+I20261002 17:31:21.496435 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.511365 130305658701504 feature_extraction.cc:270] Processed file [58/243]
+I20261002 17:31:21.511485 130305658701504 feature_extraction.cc:273]   Name:            0057.png
+I20261002 17:31:21.511574 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.511646 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.511726 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.511802 130305658701504 feature_extraction.cc:294]   Features:        64 (SIFT)
+I20261002 17:31:21.511871 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.526403 130305658701504 feature_extraction.cc:270] Processed file [59/243]
+I20261002 17:31:21.526519 130305658701504 feature_extraction.cc:273]   Name:            0058.png
+I20261002 17:31:21.526610 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.526698 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.527536 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.528126 130305658701504 feature_extraction.cc:294]   Features:        60 (SIFT)
+I20261002 17:31:21.528305 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.542200 130305658701504 feature_extraction.cc:270] Processed file [60/243]
+I20261002 17:31:21.542311 130305658701504 feature_extraction.cc:273]   Name:            0059.png
+I20261002 17:31:21.542404 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.542491 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.542571 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.542660 130305658701504 feature_extraction.cc:294]   Features:        63 (SIFT)
+I20261002 17:31:21.542782 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.557559 130305658701504 feature_extraction.cc:270] Processed file [61/243]
+I20261002 17:31:21.557677 130305658701504 feature_extraction.cc:273]   Name:            0060.png
+I20261002 17:31:21.557768 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.557850 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.557924 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.557998 130305658701504 feature_extraction.cc:294]   Features:        60 (SIFT)
+I20261002 17:31:21.558063 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.572874 130305658701504 feature_extraction.cc:270] Processed file [62/243]
+I20261002 17:31:21.573019 130305658701504 feature_extraction.cc:273]   Name:            0061.png
+I20261002 17:31:21.573132 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.573236 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.573326 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.573761 130305658701504 feature_extraction.cc:294]   Features:        64 (SIFT)
+I20261002 17:31:21.573914 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.592682 130305658701504 feature_extraction.cc:270] Processed file [63/243]
+I20261002 17:31:21.592812 130305658701504 feature_extraction.cc:273]   Name:            0062.png
+I20261002 17:31:21.592912 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.593012 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.593109 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.593482 130305658701504 feature_extraction.cc:294]   Features:        58 (SIFT)
+I20261002 17:31:21.593723 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.608805 130305658701504 feature_extraction.cc:270] Processed file [64/243]
+I20261002 17:31:21.608909 130305658701504 feature_extraction.cc:273]   Name:            0063.png
+I20261002 17:31:21.609005 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.609098 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.609192 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.609276 130305658701504 feature_extraction.cc:294]   Features:        59 (SIFT)
+I20261002 17:31:21.609365 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.623934 130305658701504 feature_extraction.cc:270] Processed file [65/243]
+I20261002 17:31:21.624039 130305658701504 feature_extraction.cc:273]   Name:            0064.png
+I20261002 17:31:21.624118 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.624210 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.624307 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.624394 130305658701504 feature_extraction.cc:294]   Features:        51 (SIFT)
+I20261002 17:31:21.624470 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.642157 130305658701504 feature_extraction.cc:270] Processed file [66/243]
+I20261002 17:31:21.642264 130305658701504 feature_extraction.cc:273]   Name:            0065.png
+I20261002 17:31:21.642343 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.642418 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.642508 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.642605 130305658701504 feature_extraction.cc:294]   Features:        55 (SIFT)
+I20261002 17:31:21.642728 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.657470 130305658701504 feature_extraction.cc:270] Processed file [67/243]
+I20261002 17:31:21.657697 130305658701504 feature_extraction.cc:273]   Name:            0066.png
+I20261002 17:31:21.658502 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.658621 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.658734 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.658816 130305658701504 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:31:21.658924 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.673597 130305658701504 feature_extraction.cc:270] Processed file [68/243]
+I20261002 17:31:21.673710 130305658701504 feature_extraction.cc:273]   Name:            0067.png
+I20261002 17:31:21.673794 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.673875 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.674064 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.674773 130305658701504 feature_extraction.cc:294]   Features:        63 (SIFT)
+I20261002 17:31:21.675046 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.689220 130305658701504 feature_extraction.cc:270] Processed file [69/243]
+I20261002 17:31:21.689340 130305658701504 feature_extraction.cc:273]   Name:            0068.png
+I20261002 17:31:21.689447 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.689698 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.689800 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.689895 130305658701504 feature_extraction.cc:294]   Features:        57 (SIFT)
+I20261002 17:31:21.689972 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.707954 130305658701504 feature_extraction.cc:270] Processed file [70/243]
+I20261002 17:31:21.708091 130305658701504 feature_extraction.cc:273]   Name:            0069.png
+I20261002 17:31:21.708177 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.708286 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.708448 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.708579 130305658701504 feature_extraction.cc:294]   Features:        54 (SIFT)
+I20261002 17:31:21.708742 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.724029 130305658701504 feature_extraction.cc:270] Processed file [71/243]
+I20261002 17:31:21.724236 130305658701504 feature_extraction.cc:273]   Name:            0070.png
+I20261002 17:31:21.724629 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.724709 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.724804 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.724907 130305658701504 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:31:21.724978 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.738273 130305658701504 feature_extraction.cc:270] Processed file [72/243]
+I20261002 17:31:21.738406 130305658701504 feature_extraction.cc:273]   Name:            0071.png
+I20261002 17:31:21.738505 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.738599 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.738691 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.738783 130305658701504 feature_extraction.cc:294]   Features:        54 (SIFT)
+I20261002 17:31:21.738867 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.754146 130305658701504 feature_extraction.cc:270] Processed file [73/243]
+I20261002 17:31:21.754259 130305658701504 feature_extraction.cc:273]   Name:            0072.png
+I20261002 17:31:21.754351 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.754444 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.754536 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.754619 130305658701504 feature_extraction.cc:294]   Features:        46 (SIFT)
+I20261002 17:31:21.754690 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.769414 130305658701504 feature_extraction.cc:270] Processed file [74/243]
+I20261002 17:31:21.769547 130305658701504 feature_extraction.cc:273]   Name:            0073.png
+I20261002 17:31:21.769667 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.769739 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.769841 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.769920 130305658701504 feature_extraction.cc:294]   Features:        58 (SIFT)
+I20261002 17:31:21.769989 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.784593 130305658701504 feature_extraction.cc:270] Processed file [75/243]
+I20261002 17:31:21.784701 130305658701504 feature_extraction.cc:273]   Name:            0074.png
+I20261002 17:31:21.784804 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.784885 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.784994 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.785090 130305658701504 feature_extraction.cc:294]   Features:        61 (SIFT)
+I20261002 17:31:21.785165 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.800212 130305658701504 feature_extraction.cc:270] Processed file [76/243]
+I20261002 17:31:21.800330 130305658701504 feature_extraction.cc:273]   Name:            0075.png
+I20261002 17:31:21.800418 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.800508 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.800595 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.800678 130305658701504 feature_extraction.cc:294]   Features:        56 (SIFT)
+I20261002 17:31:21.800780 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.829358 130305658701504 feature_extraction.cc:270] Processed file [77/243]
+I20261002 17:31:21.829467 130305658701504 feature_extraction.cc:273]   Name:            0076.png
+I20261002 17:31:21.829569 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.829646 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.829727 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.829798 130305658701504 feature_extraction.cc:294]   Features:        52 (SIFT)
+I20261002 17:31:21.829887 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.844955 130305658701504 feature_extraction.cc:270] Processed file [78/243]
+I20261002 17:31:21.845066 130305658701504 feature_extraction.cc:273]   Name:            0077.png
+I20261002 17:31:21.845154 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.845265 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.845344 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.845440 130305658701504 feature_extraction.cc:294]   Features:        57 (SIFT)
+I20261002 17:31:21.845517 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.860479 130305658701504 feature_extraction.cc:270] Processed file [79/243]
+I20261002 17:31:21.860593 130305658701504 feature_extraction.cc:273]   Name:            0078.png
+I20261002 17:31:21.860693 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.860765 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.860855 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.860960 130305658701504 feature_extraction.cc:294]   Features:        57 (SIFT)
+I20261002 17:31:21.861039 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.908286 130305658701504 feature_extraction.cc:270] Processed file [80/243]
+I20261002 17:31:21.908419 130305658701504 feature_extraction.cc:273]   Name:            0079.png
+I20261002 17:31:21.908506 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.908607 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.908699 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.908784 130305658701504 feature_extraction.cc:294]   Features:        51 (SIFT)
+I20261002 17:31:21.908855 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.921303 130305658701504 feature_extraction.cc:270] Processed file [81/243]
+I20261002 17:31:21.921417 130305658701504 feature_extraction.cc:273]   Name:            0080.png
+I20261002 17:31:21.921519 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.921608 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.921684 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.921757 130305658701504 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:31:21.921826 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.938503 130305658701504 feature_extraction.cc:270] Processed file [82/243]
+I20261002 17:31:21.938606 130305658701504 feature_extraction.cc:273]   Name:            0081.png
+I20261002 17:31:21.938690 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.939399 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.940102 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.940771 130305658701504 feature_extraction.cc:294]   Features:        60 (SIFT)
+I20261002 17:31:21.941277 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.956511 130305658701504 feature_extraction.cc:270] Processed file [83/243]
+I20261002 17:31:21.956623 130305658701504 feature_extraction.cc:273]   Name:            0082.png
+I20261002 17:31:21.956708 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.956808 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.956902 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.956990 130305658701504 feature_extraction.cc:294]   Features:        52 (SIFT)
+I20261002 17:31:21.957084 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.971844 130305658701504 feature_extraction.cc:270] Processed file [84/243]
+I20261002 17:31:21.971956 130305658701504 feature_extraction.cc:273]   Name:            0083.png
+I20261002 17:31:21.972049 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.972138 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.972217 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.972307 130305658701504 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:31:21.972374 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:21.985381 130305658701504 feature_extraction.cc:270] Processed file [85/243]
+I20261002 17:31:21.985510 130305658701504 feature_extraction.cc:273]   Name:            0084.png
+I20261002 17:31:21.985605 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:21.985692 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:21.985778 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:21.985873 130305658701504 feature_extraction.cc:294]   Features:        55 (SIFT)
+I20261002 17:31:21.985952 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.000877 130305658701504 feature_extraction.cc:270] Processed file [86/243]
+I20261002 17:31:22.001020 130305658701504 feature_extraction.cc:273]   Name:            0085.png
+I20261002 17:31:22.001135 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.001200 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.001286 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.001387 130305658701504 feature_extraction.cc:294]   Features:        51 (SIFT)
+I20261002 17:31:22.001576 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.016224 130305658701504 feature_extraction.cc:270] Processed file [87/243]
+I20261002 17:31:22.016320 130305658701504 feature_extraction.cc:273]   Name:            0086.png
+I20261002 17:31:22.016420 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.016517 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.016606 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.016683 130305658701504 feature_extraction.cc:294]   Features:        52 (SIFT)
+I20261002 17:31:22.016752 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.030941 130305658701504 feature_extraction.cc:270] Processed file [88/243]
+I20261002 17:31:22.031059 130305658701504 feature_extraction.cc:273]   Name:            0087.png
+I20261002 17:31:22.031161 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.031244 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.031324 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.031411 130305658701504 feature_extraction.cc:294]   Features:        51 (SIFT)
+I20261002 17:31:22.031493 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.045701 130305658701504 feature_extraction.cc:270] Processed file [89/243]
+I20261002 17:31:22.045828 130305658701504 feature_extraction.cc:273]   Name:            0088.png
+I20261002 17:31:22.045910 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.046016 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.046091 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.046202 130305658701504 feature_extraction.cc:294]   Features:        61 (SIFT)
+I20261002 17:31:22.046283 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.061745 130305658701504 feature_extraction.cc:270] Processed file [90/243]
+I20261002 17:31:22.061862 130305658701504 feature_extraction.cc:273]   Name:            0089.png
+I20261002 17:31:22.061952 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.062029 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.062108 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.062263 130305658701504 feature_extraction.cc:294]   Features:        55 (SIFT)
+I20261002 17:31:22.063109 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.077344 130305658701504 feature_extraction.cc:270] Processed file [91/243]
+I20261002 17:31:22.077515 130305658701504 feature_extraction.cc:273]   Name:            0090.png
+I20261002 17:31:22.077603 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.077692 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.077763 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.077835 130305658701504 feature_extraction.cc:294]   Features:        49 (SIFT)
+I20261002 17:31:22.077912 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.091079 130305658701504 feature_extraction.cc:270] Processed file [92/243]
+I20261002 17:31:22.091180 130305658701504 feature_extraction.cc:273]   Name:            0091.png
+I20261002 17:31:22.091254 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.091337 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.091446 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.091538 130305658701504 feature_extraction.cc:294]   Features:        46 (SIFT)
+I20261002 17:31:22.091624 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.105684 130305658701504 feature_extraction.cc:270] Processed file [93/243]
+I20261002 17:31:22.105800 130305658701504 feature_extraction.cc:273]   Name:            0092.png
+I20261002 17:31:22.105885 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.105966 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.106038 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.106097 130305658701504 feature_extraction.cc:294]   Features:        40 (SIFT)
+I20261002 17:31:22.106164 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.121128 130305658701504 feature_extraction.cc:270] Processed file [94/243]
+I20261002 17:31:22.121252 130305658701504 feature_extraction.cc:273]   Name:            0093.png
+I20261002 17:31:22.121362 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.121464 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.122152 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.122857 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:22.123086 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.137845 130305658701504 feature_extraction.cc:270] Processed file [95/243]
+I20261002 17:31:22.137952 130305658701504 feature_extraction.cc:273]   Name:            0094.png
+I20261002 17:31:22.138032 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.138127 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.138231 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.138315 130305658701504 feature_extraction.cc:294]   Features:        47 (SIFT)
+I20261002 17:31:22.138392 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.151324 130305658701504 feature_extraction.cc:270] Processed file [96/243]
+I20261002 17:31:22.151431 130305658701504 feature_extraction.cc:273]   Name:            0095.png
+I20261002 17:31:22.151525 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.151617 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.151710 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.151787 130305658701504 feature_extraction.cc:294]   Features:        40 (SIFT)
+I20261002 17:31:22.151857 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.169284 130305658701504 feature_extraction.cc:270] Processed file [97/243]
+I20261002 17:31:22.169410 130305658701504 feature_extraction.cc:273]   Name:            0096.png
+I20261002 17:31:22.169525 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.169636 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.169788 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.169891 130305658701504 feature_extraction.cc:294]   Features:        50 (SIFT)
+I20261002 17:31:22.169980 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.185589 130305658701504 feature_extraction.cc:270] Processed file [98/243]
+I20261002 17:31:22.185701 130305658701504 feature_extraction.cc:273]   Name:            0097.png
+I20261002 17:31:22.185799 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.185893 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.185975 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.186079 130305658701504 feature_extraction.cc:294]   Features:        53 (SIFT)
+I20261002 17:31:22.186158 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.200472 130305658701504 feature_extraction.cc:270] Processed file [99/243]
+I20261002 17:31:22.200574 130305658701504 feature_extraction.cc:273]   Name:            0098.png
+I20261002 17:31:22.200672 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.200772 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.200861 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.200951 130305658701504 feature_extraction.cc:294]   Features:        47 (SIFT)
+I20261002 17:31:22.201042 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.214634 130305658701504 feature_extraction.cc:270] Processed file [100/243]
+I20261002 17:31:22.214757 130305658701504 feature_extraction.cc:273]   Name:            0099.png
+I20261002 17:31:22.214851 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.214925 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.215011 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.215123 130305658701504 feature_extraction.cc:294]   Features:        46 (SIFT)
+I20261002 17:31:22.215228 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.228518 130305658701504 feature_extraction.cc:270] Processed file [101/243]
+I20261002 17:31:22.228619 130305658701504 feature_extraction.cc:273]   Name:            0100.png
+I20261002 17:31:22.228696 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.228766 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.228836 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.228905 130305658701504 feature_extraction.cc:294]   Features:        32 (SIFT)
+I20261002 17:31:22.228969 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.244794 130305658701504 feature_extraction.cc:270] Processed file [102/243]
+I20261002 17:31:22.244922 130305658701504 feature_extraction.cc:273]   Name:            0101.png
+I20261002 17:31:22.245021 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.245113 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.245207 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.245302 130305658701504 feature_extraction.cc:294]   Features:        32 (SIFT)
+I20261002 17:31:22.245381 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.260959 130305658701504 feature_extraction.cc:270] Processed file [103/243]
+I20261002 17:31:22.261084 130305658701504 feature_extraction.cc:273]   Name:            0102.png
+I20261002 17:31:22.261206 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.261310 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.261394 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.261499 130305658701504 feature_extraction.cc:294]   Features:        22 (SIFT)
+I20261002 17:31:22.261576 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.274561 130305658701504 feature_extraction.cc:270] Processed file [104/243]
+I20261002 17:31:22.275604 130305658701504 feature_extraction.cc:273]   Name:            0103.png
+I20261002 17:31:22.276139 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.276589 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.276707 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.276808 130305658701504 feature_extraction.cc:294]   Features:        19 (SIFT)
+I20261002 17:31:22.276886 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.290267 130305658701504 feature_extraction.cc:270] Processed file [105/243]
+I20261002 17:31:22.290484 130305658701504 feature_extraction.cc:273]   Name:            0104.png
+I20261002 17:31:22.290680 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.290959 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.291095 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.291195 130305658701504 feature_extraction.cc:294]   Features:        23 (SIFT)
+I20261002 17:31:22.291366 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.310120 130305658701504 feature_extraction.cc:270] Processed file [106/243]
+I20261002 17:31:22.310322 130305658701504 feature_extraction.cc:273]   Name:            0105.png
+I20261002 17:31:22.310888 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.311118 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.311340 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.311528 130305658701504 feature_extraction.cc:294]   Features:        24 (SIFT)
+I20261002 17:31:22.311642 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.329822 130305658701504 feature_extraction.cc:270] Processed file [107/243]
+I20261002 17:31:22.329966 130305658701504 feature_extraction.cc:273]   Name:            0106.png
+I20261002 17:31:22.330110 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.330246 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.330351 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.330465 130305658701504 feature_extraction.cc:294]   Features:        19 (SIFT)
+I20261002 17:31:22.330591 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.349600 130305658701504 feature_extraction.cc:270] Processed file [108/243]
+I20261002 17:31:22.349743 130305658701504 feature_extraction.cc:273]   Name:            0107.png
+I20261002 17:31:22.349849 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.349950 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.350051 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.350151 130305658701504 feature_extraction.cc:294]   Features:        18 (SIFT)
+I20261002 17:31:22.350254 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.367542 130305658701504 feature_extraction.cc:270] Processed file [109/243]
+I20261002 17:31:22.367666 130305658701504 feature_extraction.cc:273]   Name:            0108.png
+I20261002 17:31:22.367807 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.367917 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.368024 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.368134 130305658701504 feature_extraction.cc:294]   Features:        21 (SIFT)
+I20261002 17:31:22.368250 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.385466 130305658701504 feature_extraction.cc:270] Processed file [110/243]
+I20261002 17:31:22.385603 130305658701504 feature_extraction.cc:273]   Name:            0109.png
+I20261002 17:31:22.385716 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.385820 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.385922 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.386024 130305658701504 feature_extraction.cc:294]   Features:        21 (SIFT)
+I20261002 17:31:22.386128 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.404258 130305658701504 feature_extraction.cc:270] Processed file [111/243]
+I20261002 17:31:22.404396 130305658701504 feature_extraction.cc:273]   Name:            0110.png
+I20261002 17:31:22.404502 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.404605 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.404707 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.404809 130305658701504 feature_extraction.cc:294]   Features:        16 (SIFT)
+I20261002 17:31:22.404915 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.420747 130305658701504 feature_extraction.cc:270] Processed file [112/243]
+I20261002 17:31:22.420872 130305658701504 feature_extraction.cc:273]   Name:            0111.png
+I20261002 17:31:22.420970 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.421073 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.421177 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.421250 130305658701504 feature_extraction.cc:294]   Features:        13 (SIFT)
+I20261002 17:31:22.421328 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.434345 130305658701504 feature_extraction.cc:270] Processed file [113/243]
+I20261002 17:31:22.434470 130305658701504 feature_extraction.cc:273]   Name:            0112.png
+I20261002 17:31:22.434568 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.434681 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.434929 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.435028 130305658701504 feature_extraction.cc:294]   Features:        11 (SIFT)
+I20261002 17:31:22.435125 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.450182 130305658701504 feature_extraction.cc:270] Processed file [114/243]
+I20261002 17:31:22.450430 130305658701504 feature_extraction.cc:273]   Name:            0113.png
+I20261002 17:31:22.450764 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.451512 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.452029 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.452503 130305658701504 feature_extraction.cc:294]   Features:        12 (SIFT)
+I20261002 17:31:22.452780 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.467001 130305658701504 feature_extraction.cc:270] Processed file [115/243]
+I20261002 17:31:22.467125 130305658701504 feature_extraction.cc:273]   Name:            0114.png
+I20261002 17:31:22.467220 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.467347 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.467431 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.467526 130305658701504 feature_extraction.cc:294]   Features:        8 (SIFT)
+I20261002 17:31:22.467610 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.481139 130305658701504 feature_extraction.cc:270] Processed file [116/243]
+I20261002 17:31:22.481253 130305658701504 feature_extraction.cc:273]   Name:            0115.png
+I20261002 17:31:22.481366 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.481460 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.481542 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.481619 130305658701504 feature_extraction.cc:294]   Features:        5 (SIFT)
+I20261002 17:31:22.481688 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.497257 130305658701504 feature_extraction.cc:270] Processed file [117/243]
+I20261002 17:31:22.497411 130305658701504 feature_extraction.cc:273]   Name:            0116.png
+I20261002 17:31:22.497526 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.497622 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.497713 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.497808 130305658701504 feature_extraction.cc:294]   Features:        0 (SIFT)
+I20261002 17:31:22.497883 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.511214 130305658701504 feature_extraction.cc:270] Processed file [118/243]
+I20261002 17:31:22.511336 130305658701504 feature_extraction.cc:273]   Name:            0117.png
+I20261002 17:31:22.511435 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.511543 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.511655 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.511777 130305658701504 feature_extraction.cc:294]   Features:        2 (SIFT)
+I20261002 17:31:22.511858 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.525420 130305658701504 feature_extraction.cc:270] Processed file [119/243]
+I20261002 17:31:22.525676 130305658701504 feature_extraction.cc:273]   Name:            0118.png
+I20261002 17:31:22.525831 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.525941 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.526039 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.526139 130305658701504 feature_extraction.cc:294]   Features:        1 (SIFT)
+I20261002 17:31:22.526237 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.542009 130305658701504 feature_extraction.cc:270] Processed file [120/243]
+I20261002 17:31:22.542141 130305658701504 feature_extraction.cc:273]   Name:            0119.png
+I20261002 17:31:22.542228 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.542308 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.542384 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.542461 130305658701504 feature_extraction.cc:294]   Features:        1 (SIFT)
+I20261002 17:31:22.542545 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.555361 130305658701504 feature_extraction.cc:270] Processed file [121/243]
+I20261002 17:31:22.555491 130305658701504 feature_extraction.cc:273]   Name:            0120.png
+I20261002 17:31:22.555589 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.555687 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.555778 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.555984 130305658701504 feature_extraction.cc:294]   Features:        4 (SIFT)
+I20261002 17:31:22.557449 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.570685 130305658701504 feature_extraction.cc:270] Processed file [122/243]
+I20261002 17:31:22.570813 130305658701504 feature_extraction.cc:273]   Name:            0121.png
+I20261002 17:31:22.570939 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.571036 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.571142 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.571217 130305658701504 feature_extraction.cc:294]   Features:        1 (SIFT)
+I20261002 17:31:22.571299 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.584457 130305658701504 feature_extraction.cc:270] Processed file [123/243]
+I20261002 17:31:22.584571 130305658701504 feature_extraction.cc:273]   Name:            0122.png
+I20261002 17:31:22.584681 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.584761 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.584838 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.584903 130305658701504 feature_extraction.cc:294]   Features:        3 (SIFT)
+I20261002 17:31:22.585001 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.600467 130305658701504 feature_extraction.cc:270] Processed file [124/243]
+I20261002 17:31:22.600575 130305658701504 feature_extraction.cc:273]   Name:            0123.png
+I20261002 17:31:22.600676 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.600778 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.600867 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.600948 130305658701504 feature_extraction.cc:294]   Features:        3 (SIFT)
+I20261002 17:31:22.601045 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.614288 130305658701504 feature_extraction.cc:270] Processed file [125/243]
+I20261002 17:31:22.614409 130305658701504 feature_extraction.cc:273]   Name:            0124.png
+I20261002 17:31:22.614541 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.614624 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.615132 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.615229 130305658701504 feature_extraction.cc:294]   Features:        3 (SIFT)
+I20261002 17:31:22.615335 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.629089 130305658701504 feature_extraction.cc:270] Processed file [126/243]
+I20261002 17:31:22.629198 130305658701504 feature_extraction.cc:273]   Name:            0125.png
+I20261002 17:31:22.629292 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.629374 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.629452 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.629522 130305658701504 feature_extraction.cc:294]   Features:        6 (SIFT)
+I20261002 17:31:22.629603 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.645630 130305658701504 feature_extraction.cc:270] Processed file [127/243]
+I20261002 17:31:22.645755 130305658701504 feature_extraction.cc:273]   Name:            0126.png
+I20261002 17:31:22.645861 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.645974 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.646060 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.646144 130305658701504 feature_extraction.cc:294]   Features:        3 (SIFT)
+I20261002 17:31:22.646220 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.664870 130305658701504 feature_extraction.cc:270] Processed file [128/243]
+I20261002 17:31:22.664985 130305658701504 feature_extraction.cc:273]   Name:            0127.png
+I20261002 17:31:22.665078 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.665177 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.665265 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.665366 130305658701504 feature_extraction.cc:294]   Features:        5 (SIFT)
+I20261002 17:31:22.665434 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.678228 130305658701504 feature_extraction.cc:270] Processed file [129/243]
+I20261002 17:31:22.678327 130305658701504 feature_extraction.cc:273]   Name:            0128.png
+I20261002 17:31:22.678438 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.678544 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.678628 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.678740 130305658701504 feature_extraction.cc:294]   Features:        3 (SIFT)
+I20261002 17:31:22.678844 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.692445 130305658701504 feature_extraction.cc:270] Processed file [130/243]
+I20261002 17:31:22.692555 130305658701504 feature_extraction.cc:273]   Name:            0129.png
+I20261002 17:31:22.692642 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.692751 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.692969 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.693101 130305658701504 feature_extraction.cc:294]   Features:        8 (SIFT)
+I20261002 17:31:22.693733 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.708573 130305658701504 feature_extraction.cc:270] Processed file [131/243]
+I20261002 17:31:22.708687 130305658701504 feature_extraction.cc:273]   Name:            0130.png
+I20261002 17:31:22.708803 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.708898 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.708989 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.709076 130305658701504 feature_extraction.cc:294]   Features:        6 (SIFT)
+I20261002 17:31:22.709151 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.723021 130305658701504 feature_extraction.cc:270] Processed file [132/243]
+I20261002 17:31:22.723142 130305658701504 feature_extraction.cc:273]   Name:            0131.png
+I20261002 17:31:22.723521 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.723744 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.723858 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.723982 130305658701504 feature_extraction.cc:294]   Features:        6 (SIFT)
+I20261002 17:31:22.724181 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.737887 130305658701504 feature_extraction.cc:270] Processed file [133/243]
+I20261002 17:31:22.738003 130305658701504 feature_extraction.cc:273]   Name:            0132.png
+I20261002 17:31:22.738105 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.738189 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.738295 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.738378 130305658701504 feature_extraction.cc:294]   Features:        14 (SIFT)
+I20261002 17:31:22.738458 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.751471 130305658701504 feature_extraction.cc:270] Processed file [134/243]
+I20261002 17:31:22.751584 130305658701504 feature_extraction.cc:273]   Name:            0133.png
+I20261002 17:31:22.751678 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.751768 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.751842 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.751911 130305658701504 feature_extraction.cc:294]   Features:        7 (SIFT)
+I20261002 17:31:22.751981 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.767917 130305658701504 feature_extraction.cc:270] Processed file [135/243]
+I20261002 17:31:22.768029 130305658701504 feature_extraction.cc:273]   Name:            0134.png
+I20261002 17:31:22.768146 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.768257 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.768345 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.768440 130305658701504 feature_extraction.cc:294]   Features:        9 (SIFT)
+I20261002 17:31:22.768516 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.782471 130305658701504 feature_extraction.cc:270] Processed file [136/243]
+I20261002 17:31:22.782604 130305658701504 feature_extraction.cc:273]   Name:            0135.png
+I20261002 17:31:22.782759 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.783055 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.783163 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.783275 130305658701504 feature_extraction.cc:294]   Features:        11 (SIFT)
+I20261002 17:31:22.783362 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.797189 130305658701504 feature_extraction.cc:270] Processed file [137/243]
+I20261002 17:31:22.797316 130305658701504 feature_extraction.cc:273]   Name:            0136.png
+I20261002 17:31:22.797436 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.797525 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.797617 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.797695 130305658701504 feature_extraction.cc:294]   Features:        9 (SIFT)
+I20261002 17:31:22.797772 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.812771 130305658701504 feature_extraction.cc:270] Processed file [138/243]
+I20261002 17:31:22.812889 130305658701504 feature_extraction.cc:273]   Name:            0137.png
+I20261002 17:31:22.812986 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.813069 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.813154 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.813242 130305658701504 feature_extraction.cc:294]   Features:        10 (SIFT)
+I20261002 17:31:22.813330 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.828767 130305658701504 feature_extraction.cc:270] Processed file [139/243]
+I20261002 17:31:22.828899 130305658701504 feature_extraction.cc:273]   Name:            0138.png
+I20261002 17:31:22.828994 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.829093 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.829263 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.829343 130305658701504 feature_extraction.cc:294]   Features:        9 (SIFT)
+I20261002 17:31:22.829418 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.843408 130305658701504 feature_extraction.cc:270] Processed file [140/243]
+I20261002 17:31:22.843507 130305658701504 feature_extraction.cc:273]   Name:            0139.png
+I20261002 17:31:22.843600 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.843685 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.843781 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.843872 130305658701504 feature_extraction.cc:294]   Features:        10 (SIFT)
+I20261002 17:31:22.843973 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.859558 130305658701504 feature_extraction.cc:270] Processed file [141/243]
+I20261002 17:31:22.859672 130305658701504 feature_extraction.cc:273]   Name:            0140.png
+I20261002 17:31:22.859772 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.859849 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.859923 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.859993 130305658701504 feature_extraction.cc:294]   Features:        9 (SIFT)
+I20261002 17:31:22.860058 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.873330 130305658701504 feature_extraction.cc:270] Processed file [142/243]
+I20261002 17:31:22.873595 130305658701504 feature_extraction.cc:273]   Name:            0141.png
+I20261002 17:31:22.873685 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.873799 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.873912 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.874025 130305658701504 feature_extraction.cc:294]   Features:        9 (SIFT)
+I20261002 17:31:22.874153 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.889553 130305658701504 feature_extraction.cc:270] Processed file [143/243]
+I20261002 17:31:22.889681 130305658701504 feature_extraction.cc:273]   Name:            0142.png
+I20261002 17:31:22.889768 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.889886 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.890020 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.890137 130305658701504 feature_extraction.cc:294]   Features:        11 (SIFT)
+I20261002 17:31:22.890253 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.904544 130305658701504 feature_extraction.cc:270] Processed file [144/243]
+I20261002 17:31:22.904658 130305658701504 feature_extraction.cc:273]   Name:            0143.png
+I20261002 17:31:22.904753 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.904827 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.904905 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.904997 130305658701504 feature_extraction.cc:294]   Features:        19 (SIFT)
+I20261002 17:31:22.905077 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.919910 130305658701504 feature_extraction.cc:270] Processed file [145/243]
+I20261002 17:31:22.920083 130305658701504 feature_extraction.cc:273]   Name:            0144.png
+I20261002 17:31:22.920332 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.921095 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.921936 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.922242 130305658701504 feature_extraction.cc:294]   Features:        18 (SIFT)
+I20261002 17:31:22.922339 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.938262 130305658701504 feature_extraction.cc:270] Processed file [146/243]
+I20261002 17:31:22.938375 130305658701504 feature_extraction.cc:273]   Name:            0145.png
+I20261002 17:31:22.938466 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.938564 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.938668 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.939030 130305658701504 feature_extraction.cc:294]   Features:        23 (SIFT)
+I20261002 17:31:22.939276 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.954639 130305658701504 feature_extraction.cc:270] Processed file [147/243]
+I20261002 17:31:22.954906 130305658701504 feature_extraction.cc:273]   Name:            0146.png
+I20261002 17:31:22.955052 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.955172 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.955322 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.955423 130305658701504 feature_extraction.cc:294]   Features:        29 (SIFT)
+I20261002 17:31:22.955545 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.970076 130305658701504 feature_extraction.cc:270] Processed file [148/243]
+I20261002 17:31:22.970190 130305658701504 feature_extraction.cc:273]   Name:            0147.png
+I20261002 17:31:22.970293 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.970377 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.970473 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.970568 130305658701504 feature_extraction.cc:294]   Features:        42 (SIFT)
+I20261002 17:31:22.970652 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.984573 130305658701504 feature_extraction.cc:270] Processed file [149/243]
+I20261002 17:31:22.984688 130305658701504 feature_extraction.cc:273]   Name:            0148.png
+I20261002 17:31:22.984783 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:22.984859 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:22.984935 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:22.985015 130305658701504 feature_extraction.cc:294]   Features:        39 (SIFT)
+I20261002 17:31:22.985090 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:22.999799 130305658701504 feature_extraction.cc:270] Processed file [150/243]
+I20261002 17:31:22.999921 130305658701504 feature_extraction.cc:273]   Name:            0149.png
+I20261002 17:31:23.000014 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.000109 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.000188 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.000262 130305658701504 feature_extraction.cc:294]   Features:        44 (SIFT)
+I20261002 17:31:23.000331 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.015736 130305658701504 feature_extraction.cc:270] Processed file [151/243]
+I20261002 17:31:23.015857 130305658701504 feature_extraction.cc:273]   Name:            0150.png
+I20261002 17:31:23.015943 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.016026 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.016112 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.016271 130305658701504 feature_extraction.cc:294]   Features:        48 (SIFT)
+I20261002 17:31:23.016380 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.032302 130305658701504 feature_extraction.cc:270] Processed file [152/243]
+I20261002 17:31:23.032415 130305658701504 feature_extraction.cc:273]   Name:            0151.png
+I20261002 17:31:23.032532 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.032751 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.032846 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.033197 130305658701504 feature_extraction.cc:294]   Features:        50 (SIFT)
+I20261002 17:31:23.033303 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.047866 130305658701504 feature_extraction.cc:270] Processed file [153/243]
+I20261002 17:31:23.047978 130305658701504 feature_extraction.cc:273]   Name:            0152.png
+I20261002 17:31:23.048067 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.048145 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.048225 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.048323 130305658701504 feature_extraction.cc:294]   Features:        60 (SIFT)
+I20261002 17:31:23.048402 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.065386 130305658701504 feature_extraction.cc:270] Processed file [154/243]
+I20261002 17:31:23.065483 130305658701504 feature_extraction.cc:273]   Name:            0153.png
+I20261002 17:31:23.065575 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.065680 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.065768 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.065864 130305658701504 feature_extraction.cc:294]   Features:        53 (SIFT)
+I20261002 17:31:23.065935 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.080764 130305658701504 feature_extraction.cc:270] Processed file [155/243]
+I20261002 17:31:23.080884 130305658701504 feature_extraction.cc:273]   Name:            0154.png
+I20261002 17:31:23.081119 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.081277 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.081377 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.081469 130305658701504 feature_extraction.cc:294]   Features:        59 (SIFT)
+I20261002 17:31:23.081552 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.096609 130305658701504 feature_extraction.cc:270] Processed file [156/243]
+I20261002 17:31:23.096713 130305658701504 feature_extraction.cc:273]   Name:            0155.png
+I20261002 17:31:23.096816 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.096910 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.097001 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.097094 130305658701504 feature_extraction.cc:294]   Features:        70 (SIFT)
+I20261002 17:31:23.097166 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.112882 130305658701504 feature_extraction.cc:270] Processed file [157/243]
+I20261002 17:31:23.113012 130305658701504 feature_extraction.cc:273]   Name:            0156.png
+I20261002 17:31:23.113115 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.113230 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.113324 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.114129 130305658701504 feature_extraction.cc:294]   Features:        65 (SIFT)
+I20261002 17:31:23.114702 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.131055 130305658701504 feature_extraction.cc:270] Processed file [158/243]
+I20261002 17:31:23.131169 130305658701504 feature_extraction.cc:273]   Name:            0157.png
+I20261002 17:31:23.131272 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.131354 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.131438 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.131528 130305658701504 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:31:23.131611 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.145362 130305658701504 feature_extraction.cc:270] Processed file [159/243]
+I20261002 17:31:23.145464 130305658701504 feature_extraction.cc:273]   Name:            0158.png
+I20261002 17:31:23.145554 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.145644 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.145722 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.145806 130305658701504 feature_extraction.cc:294]   Features:        57 (SIFT)
+I20261002 17:31:23.145905 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.161230 130305658701504 feature_extraction.cc:270] Processed file [160/243]
+I20261002 17:31:23.161354 130305658701504 feature_extraction.cc:273]   Name:            0159.png
+I20261002 17:31:23.161467 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.161563 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.161641 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.161733 130305658701504 feature_extraction.cc:294]   Features:        61 (SIFT)
+I20261002 17:31:23.161801 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.175850 130305658701504 feature_extraction.cc:270] Processed file [161/243]
+I20261002 17:31:23.175972 130305658701504 feature_extraction.cc:273]   Name:            0160.png
+I20261002 17:31:23.176090 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.176195 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.176291 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.176376 130305658701504 feature_extraction.cc:294]   Features:        65 (SIFT)
+I20261002 17:31:23.176462 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.191190 130305658701504 feature_extraction.cc:270] Processed file [162/243]
+I20261002 17:31:23.191394 130305658701504 feature_extraction.cc:273]   Name:            0161.png
+I20261002 17:31:23.191487 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.191597 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.191718 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.191820 130305658701504 feature_extraction.cc:294]   Features:        61 (SIFT)
+I20261002 17:31:23.191916 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.206955 130305658701504 feature_extraction.cc:270] Processed file [163/243]
+I20261002 17:31:23.207070 130305658701504 feature_extraction.cc:273]   Name:            0162.png
+I20261002 17:31:23.207147 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.207223 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.207322 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.207418 130305658701504 feature_extraction.cc:294]   Features:        62 (SIFT)
+I20261002 17:31:23.207511 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.221517 130305658701504 feature_extraction.cc:270] Processed file [164/243]
+I20261002 17:31:23.221644 130305658701504 feature_extraction.cc:273]   Name:            0163.png
+I20261002 17:31:23.221744 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.221827 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.221906 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.221989 130305658701504 feature_extraction.cc:294]   Features:        58 (SIFT)
+I20261002 17:31:23.222057 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.237625 130305658701504 feature_extraction.cc:270] Processed file [165/243]
+I20261002 17:31:23.237848 130305658701504 feature_extraction.cc:273]   Name:            0164.png
+I20261002 17:31:23.237951 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.238064 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.238170 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.238261 130305658701504 feature_extraction.cc:294]   Features:        59 (SIFT)
+I20261002 17:31:23.238329 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.255344 130305658701504 feature_extraction.cc:270] Processed file [166/243]
+I20261002 17:31:23.255447 130305658701504 feature_extraction.cc:273]   Name:            0165.png
+I20261002 17:31:23.255553 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.255652 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.255735 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.255851 130305658701504 feature_extraction.cc:294]   Features:        57 (SIFT)
+I20261002 17:31:23.255919 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.271434 130305658701504 feature_extraction.cc:270] Processed file [167/243]
+I20261002 17:31:23.271543 130305658701504 feature_extraction.cc:273]   Name:            0166.png
+I20261002 17:31:23.271625 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.271730 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.271802 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.271871 130305658701504 feature_extraction.cc:294]   Features:        67 (SIFT)
+I20261002 17:31:23.271938 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.286625 130305658701504 feature_extraction.cc:270] Processed file [168/243]
+I20261002 17:31:23.286768 130305658701504 feature_extraction.cc:273]   Name:            0167.png
+I20261002 17:31:23.286897 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.287288 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.287393 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.287550 130305658701504 feature_extraction.cc:294]   Features:        64 (SIFT)
+I20261002 17:31:23.287721 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.303192 130305658701504 feature_extraction.cc:270] Processed file [169/243]
+I20261002 17:31:23.303301 130305658701504 feature_extraction.cc:273]   Name:            0168.png
+I20261002 17:31:23.303404 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.303475 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.303568 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.303663 130305658701504 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:31:23.303777 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.341462 130305658701504 feature_extraction.cc:270] Processed file [170/243]
+I20261002 17:31:23.341582 130305658701504 feature_extraction.cc:273]   Name:            0169.png
+I20261002 17:31:23.341671 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.341753 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.341915 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.342557 130305658701504 feature_extraction.cc:294]   Features:        61 (SIFT)
+I20261002 17:31:23.342662 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.356835 130305658701504 feature_extraction.cc:270] Processed file [171/243]
+I20261002 17:31:23.356948 130305658701504 feature_extraction.cc:273]   Name:            0170.png
+I20261002 17:31:23.357036 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.357123 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.357189 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.357285 130305658701504 feature_extraction.cc:294]   Features:        60 (SIFT)
+I20261002 17:31:23.357377 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.372327 130305658701504 feature_extraction.cc:270] Processed file [172/243]
+I20261002 17:31:23.373264 130305658701504 feature_extraction.cc:273]   Name:            0171.png
+I20261002 17:31:23.373800 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.374391 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.374907 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.375177 130305658701504 feature_extraction.cc:294]   Features:        62 (SIFT)
+I20261002 17:31:23.375271 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.390690 130305658701504 feature_extraction.cc:270] Processed file [173/243]
+I20261002 17:31:23.391623 130305658701504 feature_extraction.cc:273]   Name:            0172.png
+I20261002 17:31:23.392171 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.392841 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.393354 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.393468 130305658701504 feature_extraction.cc:294]   Features:        69 (SIFT)
+I20261002 17:31:23.393607 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.408447 130305658701504 feature_extraction.cc:270] Processed file [174/243]
+I20261002 17:31:23.408561 130305658701504 feature_extraction.cc:273]   Name:            0173.png
+I20261002 17:31:23.408703 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.408827 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.408932 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.409014 130305658701504 feature_extraction.cc:294]   Features:        69 (SIFT)
+I20261002 17:31:23.409079 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.437790 130305658701504 feature_extraction.cc:270] Processed file [175/243]
+I20261002 17:31:23.437904 130305658701504 feature_extraction.cc:273]   Name:            0174.png
+I20261002 17:31:23.437989 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.438072 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.438154 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.438228 130305658701504 feature_extraction.cc:294]   Features:        55 (SIFT)
+I20261002 17:31:23.438337 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.453785 130305658701504 feature_extraction.cc:270] Processed file [176/243]
+I20261002 17:31:23.453916 130305658701504 feature_extraction.cc:273]   Name:            0175.png
+I20261002 17:31:23.454008 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.454127 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.454215 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.454315 130305658701504 feature_extraction.cc:294]   Features:        64 (SIFT)
+I20261002 17:31:23.454414 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.470913 130305658701504 feature_extraction.cc:270] Processed file [177/243]
+I20261002 17:31:23.471023 130305658701504 feature_extraction.cc:273]   Name:            0176.png
+I20261002 17:31:23.471123 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.471222 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.471308 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.471379 130305658701504 feature_extraction.cc:294]   Features:        63 (SIFT)
+I20261002 17:31:23.471457 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.486035 130305658701504 feature_extraction.cc:270] Processed file [178/243]
+I20261002 17:31:23.486137 130305658701504 feature_extraction.cc:273]   Name:            0177.png
+I20261002 17:31:23.486219 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.486301 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.486401 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.486514 130305658701504 feature_extraction.cc:294]   Features:        75 (SIFT)
+I20261002 17:31:23.486600 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.503337 130305658701504 feature_extraction.cc:270] Processed file [179/243]
+I20261002 17:31:23.503461 130305658701504 feature_extraction.cc:273]   Name:            0178.png
+I20261002 17:31:23.503545 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.503620 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.503694 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.503839 130305658701504 feature_extraction.cc:294]   Features:        72 (SIFT)
+I20261002 17:31:23.504257 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.520712 130305658701504 feature_extraction.cc:270] Processed file [180/243]
+I20261002 17:31:23.520820 130305658701504 feature_extraction.cc:273]   Name:            0179.png
+I20261002 17:31:23.520912 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.520990 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.521084 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.521178 130305658701504 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:31:23.521248 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.537376 130305658701504 feature_extraction.cc:270] Processed file [181/243]
+I20261002 17:31:23.537490 130305658701504 feature_extraction.cc:273]   Name:            0180.png
+I20261002 17:31:23.537583 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.537684 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.537764 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.537847 130305658701504 feature_extraction.cc:294]   Features:        67 (SIFT)
+I20261002 17:31:23.537913 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.553104 130305658701504 feature_extraction.cc:270] Processed file [182/243]
+I20261002 17:31:23.553219 130305658701504 feature_extraction.cc:273]   Name:            0181.png
+I20261002 17:31:23.553321 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.553423 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.553508 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.553592 130305658701504 feature_extraction.cc:294]   Features:        67 (SIFT)
+I20261002 17:31:23.553667 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.572240 130305658701504 feature_extraction.cc:270] Processed file [183/243]
+I20261002 17:31:23.572430 130305658701504 feature_extraction.cc:273]   Name:            0182.png
+I20261002 17:31:23.573153 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.573831 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.574490 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.575151 130305658701504 feature_extraction.cc:294]   Features:        68 (SIFT)
+I20261002 17:31:23.575715 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.591991 130305658701504 feature_extraction.cc:270] Processed file [184/243]
+I20261002 17:31:23.592115 130305658701504 feature_extraction.cc:273]   Name:            0183.png
+I20261002 17:31:23.592218 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.592321 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.592409 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.592504 130305658701504 feature_extraction.cc:294]   Features:        73 (SIFT)
+I20261002 17:31:23.592578 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.608778 130305658701504 feature_extraction.cc:270] Processed file [185/243]
+I20261002 17:31:23.609032 130305658701504 feature_extraction.cc:273]   Name:            0184.png
+I20261002 17:31:23.609163 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.609260 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.609356 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.609455 130305658701504 feature_extraction.cc:294]   Features:        66 (SIFT)
+I20261002 17:31:23.609742 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.629198 130305658701504 feature_extraction.cc:270] Processed file [186/243]
+I20261002 17:31:23.629308 130305658701504 feature_extraction.cc:273]   Name:            0185.png
+I20261002 17:31:23.629405 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.629497 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.629585 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.629675 130305658701504 feature_extraction.cc:294]   Features:        82 (SIFT)
+I20261002 17:31:23.629748 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.647812 130305658701504 feature_extraction.cc:270] Processed file [187/243]
+I20261002 17:31:23.647916 130305658701504 feature_extraction.cc:273]   Name:            0186.png
+I20261002 17:31:23.648011 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.648086 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.648160 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.648232 130305658701504 feature_extraction.cc:294]   Features:        75 (SIFT)
+I20261002 17:31:23.648302 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.662930 130305658701504 feature_extraction.cc:270] Processed file [188/243]
+I20261002 17:31:23.663053 130305658701504 feature_extraction.cc:273]   Name:            0187.png
+I20261002 17:31:23.663147 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.663352 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.663454 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.663694 130305658701504 feature_extraction.cc:294]   Features:        75 (SIFT)
+I20261002 17:31:23.663784 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.679299 130305658701504 feature_extraction.cc:270] Processed file [189/243]
+I20261002 17:31:23.679418 130305658701504 feature_extraction.cc:273]   Name:            0188.png
+I20261002 17:31:23.679525 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.679621 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.680474 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.681021 130305658701504 feature_extraction.cc:294]   Features:        84 (SIFT)
+I20261002 17:31:23.681275 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.697622 130305658701504 feature_extraction.cc:270] Processed file [190/243]
+I20261002 17:31:23.697734 130305658701504 feature_extraction.cc:273]   Name:            0189.png
+I20261002 17:31:23.697817 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.697911 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.697985 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.698073 130305658701504 feature_extraction.cc:294]   Features:        78 (SIFT)
+I20261002 17:31:23.698162 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.713179 130305658701504 feature_extraction.cc:270] Processed file [191/243]
+I20261002 17:31:23.713297 130305658701504 feature_extraction.cc:273]   Name:            0190.png
+I20261002 17:31:23.713381 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.713495 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.713619 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.713725 130305658701504 feature_extraction.cc:294]   Features:        81 (SIFT)
+I20261002 17:31:23.713801 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.729557 130305658701504 feature_extraction.cc:270] Processed file [192/243]
+I20261002 17:31:23.729669 130305658701504 feature_extraction.cc:273]   Name:            0191.png
+I20261002 17:31:23.729767 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.729867 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.729945 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.730165 130305658701504 feature_extraction.cc:294]   Features:        84 (SIFT)
+I20261002 17:31:23.730703 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.746412 130305658701504 feature_extraction.cc:270] Processed file [193/243]
+I20261002 17:31:23.746542 130305658701504 feature_extraction.cc:273]   Name:            0192.png
+I20261002 17:31:23.746636 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.746825 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.747012 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.747120 130305658701504 feature_extraction.cc:294]   Features:        79 (SIFT)
+I20261002 17:31:23.747242 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.764243 130305658701504 feature_extraction.cc:270] Processed file [194/243]
+I20261002 17:31:23.764377 130305658701504 feature_extraction.cc:273]   Name:            0193.png
+I20261002 17:31:23.764468 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.764547 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.764630 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.764710 130305658701504 feature_extraction.cc:294]   Features:        81 (SIFT)
+I20261002 17:31:23.764790 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.779600 130305658701504 feature_extraction.cc:270] Processed file [195/243]
+I20261002 17:31:23.779721 130305658701504 feature_extraction.cc:273]   Name:            0194.png
+I20261002 17:31:23.779837 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.779945 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.780038 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.780151 130305658701504 feature_extraction.cc:294]   Features:        96 (SIFT)
+I20261002 17:31:23.780221 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.797982 130305658701504 feature_extraction.cc:270] Processed file [196/243]
+I20261002 17:31:23.798099 130305658701504 feature_extraction.cc:273]   Name:            0195.png
+I20261002 17:31:23.798191 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.799264 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.799520 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.799619 130305658701504 feature_extraction.cc:294]   Features:        92 (SIFT)
+I20261002 17:31:23.799723 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.815678 130305658701504 feature_extraction.cc:270] Processed file [197/243]
+I20261002 17:31:23.815789 130305658701504 feature_extraction.cc:273]   Name:            0196.png
+I20261002 17:31:23.815892 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.815971 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.816043 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.816153 130305658701504 feature_extraction.cc:294]   Features:        89 (SIFT)
+I20261002 17:31:23.816218 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.830500 130305658701504 feature_extraction.cc:270] Processed file [198/243]
+I20261002 17:31:23.830621 130305658701504 feature_extraction.cc:273]   Name:            0197.png
+I20261002 17:31:23.830707 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.831381 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.832067 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.832572 130305658701504 feature_extraction.cc:294]   Features:        88 (SIFT)
+I20261002 17:31:23.832779 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.848546 130305658701504 feature_extraction.cc:270] Processed file [199/243]
+I20261002 17:31:23.848688 130305658701504 feature_extraction.cc:273]   Name:            0198.png
+I20261002 17:31:23.848807 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.848925 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.849025 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.849125 130305658701504 feature_extraction.cc:294]   Features:        96 (SIFT)
+I20261002 17:31:23.849216 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.866581 130305658701504 feature_extraction.cc:270] Processed file [200/243]
+I20261002 17:31:23.866741 130305658701504 feature_extraction.cc:273]   Name:            0199.png
+I20261002 17:31:23.867622 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.868161 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.868750 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.868953 130305658701504 feature_extraction.cc:294]   Features:        93 (SIFT)
+I20261002 17:31:23.869040 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.884427 130305658701504 feature_extraction.cc:270] Processed file [201/243]
+I20261002 17:31:23.884526 130305658701504 feature_extraction.cc:273]   Name:            0200.png
+I20261002 17:31:23.884613 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.884714 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.884783 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.884866 130305658701504 feature_extraction.cc:294]   Features:        93 (SIFT)
+I20261002 17:31:23.884949 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.900859 130305658701504 feature_extraction.cc:270] Processed file [202/243]
+I20261002 17:31:23.901011 130305658701504 feature_extraction.cc:273]   Name:            0201.png
+I20261002 17:31:23.901118 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.901234 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.901345 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.901462 130305658701504 feature_extraction.cc:294]   Features:        103 (SIFT)
+I20261002 17:31:23.901707 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.916485 130305658701504 feature_extraction.cc:270] Processed file [203/243]
+I20261002 17:31:23.916608 130305658701504 feature_extraction.cc:273]   Name:            0202.png
+I20261002 17:31:23.916721 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.916818 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.916910 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.916991 130305658701504 feature_extraction.cc:294]   Features:        100 (SIFT)
+I20261002 17:31:23.917057 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.940413 130305658701504 feature_extraction.cc:270] Processed file [204/243]
+I20261002 17:31:23.940525 130305658701504 feature_extraction.cc:273]   Name:            0203.png
+I20261002 17:31:23.940615 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.940673 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.940731 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.940814 130305658701504 feature_extraction.cc:294]   Features:        102 (SIFT)
+I20261002 17:31:23.940880 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.953487 130305658701504 feature_extraction.cc:270] Processed file [205/243]
+I20261002 17:31:23.953588 130305658701504 feature_extraction.cc:273]   Name:            0204.png
+I20261002 17:31:23.953671 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.953729 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.953790 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.953862 130305658701504 feature_extraction.cc:294]   Features:        99 (SIFT)
+I20261002 17:31:23.953938 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.965803 130305658701504 feature_extraction.cc:270] Processed file [206/243]
+I20261002 17:31:23.965920 130305658701504 feature_extraction.cc:273]   Name:            0205.png
+I20261002 17:31:23.966023 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.966105 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.966164 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.966232 130305658701504 feature_extraction.cc:294]   Features:        97 (SIFT)
+I20261002 17:31:23.966288 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:23.996387 130305658701504 feature_extraction.cc:270] Processed file [207/243]
+I20261002 17:31:23.996492 130305658701504 feature_extraction.cc:273]   Name:            0206.png
+I20261002 17:31:23.996593 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:23.996674 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:23.996755 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:23.997584 130305658701504 feature_extraction.cc:294]   Features:        98 (SIFT)
+I20261002 17:31:23.998169 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.013776 130305658701504 feature_extraction.cc:270] Processed file [208/243]
+I20261002 17:31:24.013888 130305658701504 feature_extraction.cc:273]   Name:            0207.png
+I20261002 17:31:24.013974 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.014059 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.014144 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.014229 130305658701504 feature_extraction.cc:294]   Features:        110 (SIFT)
+I20261002 17:31:24.014309 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.032822 130305658701504 feature_extraction.cc:270] Processed file [209/243]
+I20261002 17:31:24.032961 130305658701504 feature_extraction.cc:273]   Name:            0208.png
+I20261002 17:31:24.033066 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.033168 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.033281 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.033440 130305658701504 feature_extraction.cc:294]   Features:        110 (SIFT)
+I20261002 17:31:24.033610 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.053892 130305658701504 feature_extraction.cc:270] Processed file [210/243]
+I20261002 17:31:24.054011 130305658701504 feature_extraction.cc:273]   Name:            0209.png
+I20261002 17:31:24.054125 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.054280 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.054414 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.054530 130305658701504 feature_extraction.cc:294]   Features:        110 (SIFT)
+I20261002 17:31:24.054630 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.078679 130305658701504 feature_extraction.cc:270] Processed file [211/243]
+I20261002 17:31:24.078873 130305658701504 feature_extraction.cc:273]   Name:            0210.png
+I20261002 17:31:24.079019 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.079163 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.079273 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.079390 130305658701504 feature_extraction.cc:294]   Features:        114 (SIFT)
+I20261002 17:31:24.079547 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.104387 130305658701504 feature_extraction.cc:270] Processed file [212/243]
+I20261002 17:31:24.104621 130305658701504 feature_extraction.cc:273]   Name:            0211.png
+I20261002 17:31:24.104780 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.104920 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.105068 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.105222 130305658701504 feature_extraction.cc:294]   Features:        134 (SIFT)
+I20261002 17:31:24.105385 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.128786 130305658701504 feature_extraction.cc:270] Processed file [213/243]
+I20261002 17:31:24.128960 130305658701504 feature_extraction.cc:273]   Name:            0212.png
+I20261002 17:31:24.129073 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.129179 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.129317 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.129475 130305658701504 feature_extraction.cc:294]   Features:        125 (SIFT)
+I20261002 17:31:24.129626 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.152122 130305658701504 feature_extraction.cc:270] Processed file [214/243]
+I20261002 17:31:24.152277 130305658701504 feature_extraction.cc:273]   Name:            0213.png
+I20261002 17:31:24.152461 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.152586 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.152714 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.152841 130305658701504 feature_extraction.cc:294]   Features:        117 (SIFT)
+I20261002 17:31:24.152985 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.176597 130305658701504 feature_extraction.cc:270] Processed file [215/243]
+I20261002 17:31:24.176811 130305658701504 feature_extraction.cc:273]   Name:            0214.png
+I20261002 17:31:24.176961 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.177123 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.177273 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.177392 130305658701504 feature_extraction.cc:294]   Features:        114 (SIFT)
+I20261002 17:31:24.177529 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.200398 130305658701504 feature_extraction.cc:270] Processed file [216/243]
+I20261002 17:31:24.200532 130305658701504 feature_extraction.cc:273]   Name:            0215.png
+I20261002 17:31:24.200634 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.200734 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.200855 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.200953 130305658701504 feature_extraction.cc:294]   Features:        134 (SIFT)
+I20261002 17:31:24.201070 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.224094 130305658701504 feature_extraction.cc:270] Processed file [217/243]
+I20261002 17:31:24.224225 130305658701504 feature_extraction.cc:273]   Name:            0216.png
+I20261002 17:31:24.224328 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.224430 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.224533 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.224634 130305658701504 feature_extraction.cc:294]   Features:        125 (SIFT)
+I20261002 17:31:24.224760 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.244589 130305658701504 feature_extraction.cc:270] Processed file [218/243]
+I20261002 17:31:24.244724 130305658701504 feature_extraction.cc:273]   Name:            0217.png
+I20261002 17:31:24.244886 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.244993 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.245096 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.245199 130305658701504 feature_extraction.cc:294]   Features:        131 (SIFT)
+I20261002 17:31:24.245339 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.268957 130305658701504 feature_extraction.cc:270] Processed file [219/243]
+I20261002 17:31:24.269105 130305658701504 feature_extraction.cc:273]   Name:            0218.png
+I20261002 17:31:24.269232 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.269332 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.269439 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.269561 130305658701504 feature_extraction.cc:294]   Features:        130 (SIFT)
+I20261002 17:31:24.269683 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.290017 130305658701504 feature_extraction.cc:270] Processed file [220/243]
+I20261002 17:31:24.290158 130305658701504 feature_extraction.cc:273]   Name:            0219.png
+I20261002 17:31:24.290261 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.290363 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.290464 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.290568 130305658701504 feature_extraction.cc:294]   Features:        129 (SIFT)
+I20261002 17:31:24.290668 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.309059 130305658701504 feature_extraction.cc:270] Processed file [221/243]
+I20261002 17:31:24.309195 130305658701504 feature_extraction.cc:273]   Name:            0220.png
+I20261002 17:31:24.309301 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.309408 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.309504 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.309606 130305658701504 feature_extraction.cc:294]   Features:        118 (SIFT)
+I20261002 17:31:24.309714 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.344432 130305658701504 feature_extraction.cc:270] Processed file [222/243]
+I20261002 17:31:24.344577 130305658701504 feature_extraction.cc:273]   Name:            0221.png
+I20261002 17:31:24.344684 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.344787 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.344891 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.345000 130305658701504 feature_extraction.cc:294]   Features:        132 (SIFT)
+I20261002 17:31:24.345101 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.363976 130305658701504 feature_extraction.cc:270] Processed file [223/243]
+I20261002 17:31:24.364120 130305658701504 feature_extraction.cc:273]   Name:            0222.png
+I20261002 17:31:24.364243 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.364352 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.364459 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.364562 130305658701504 feature_extraction.cc:294]   Features:        129 (SIFT)
+I20261002 17:31:24.364669 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.383280 130305658701504 feature_extraction.cc:270] Processed file [224/243]
+I20261002 17:31:24.383415 130305658701504 feature_extraction.cc:273]   Name:            0223.png
+I20261002 17:31:24.383547 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.383650 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.383753 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.383854 130305658701504 feature_extraction.cc:294]   Features:        109 (SIFT)
+I20261002 17:31:24.383954 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.400255 130305658701504 feature_extraction.cc:270] Processed file [225/243]
+I20261002 17:31:24.400382 130305658701504 feature_extraction.cc:273]   Name:            0228.png
+I20261002 17:31:24.400513 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.400610 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.400726 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.400813 130305658701504 feature_extraction.cc:294]   Features:        112 (SIFT)
+I20261002 17:31:24.400927 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.418277 130305658701504 feature_extraction.cc:270] Processed file [226/243]
+I20261002 17:31:24.418424 130305658701504 feature_extraction.cc:273]   Name:            0225.png
+I20261002 17:31:24.418589 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.418701 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.418885 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.418961 130305658701504 feature_extraction.cc:294]   Features:        123 (SIFT)
+I20261002 17:31:24.419047 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.435325 130305658701504 feature_extraction.cc:270] Processed file [227/243]
+I20261002 17:31:24.435442 130305658701504 feature_extraction.cc:273]   Name:            0226.png
+I20261002 17:31:24.435568 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.435695 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.435800 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.435901 130305658701504 feature_extraction.cc:294]   Features:        129 (SIFT)
+I20261002 17:31:24.435981 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.454624 130305658701504 feature_extraction.cc:270] Processed file [228/243]
+I20261002 17:31:24.454794 130305658701504 feature_extraction.cc:273]   Name:            0227.png
+I20261002 17:31:24.454902 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.455012 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.455115 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.455278 130305658701504 feature_extraction.cc:294]   Features:        119 (SIFT)
+I20261002 17:31:24.455543 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.477350 130305658701504 feature_extraction.cc:270] Processed file [229/243]
+I20261002 17:31:24.477496 130305658701504 feature_extraction.cc:273]   Name:            0224.png
+I20261002 17:31:24.477584 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.477691 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.477797 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.477906 130305658701504 feature_extraction.cc:294]   Features:        122 (SIFT)
+I20261002 17:31:24.478008 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.499773 130305658701504 feature_extraction.cc:270] Processed file [230/243]
+I20261002 17:31:24.499909 130305658701504 feature_extraction.cc:273]   Name:            0229.png
+I20261002 17:31:24.500025 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.500129 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.500260 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.500431 130305658701504 feature_extraction.cc:294]   Features:        113 (SIFT)
+I20261002 17:31:24.500553 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.521388 130305658701504 feature_extraction.cc:270] Processed file [231/243]
+I20261002 17:31:24.521529 130305658701504 feature_extraction.cc:273]   Name:            0230.png
+I20261002 17:31:24.521648 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.521757 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.521859 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.521961 130305658701504 feature_extraction.cc:294]   Features:        115 (SIFT)
+I20261002 17:31:24.522070 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.543593 130305658701504 feature_extraction.cc:270] Processed file [232/243]
+I20261002 17:31:24.543740 130305658701504 feature_extraction.cc:273]   Name:            0231.png
+I20261002 17:31:24.543869 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.544003 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.544124 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.544231 130305658701504 feature_extraction.cc:294]   Features:        129 (SIFT)
+I20261002 17:31:24.544348 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.566461 130305658701504 feature_extraction.cc:270] Processed file [233/243]
+I20261002 17:31:24.566593 130305658701504 feature_extraction.cc:273]   Name:            0232.png
+I20261002 17:31:24.566737 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.566879 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.566999 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.567131 130305658701504 feature_extraction.cc:294]   Features:        110 (SIFT)
+I20261002 17:31:24.567226 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.590584 130305658701504 feature_extraction.cc:270] Processed file [234/243]
+I20261002 17:31:24.590761 130305658701504 feature_extraction.cc:273]   Name:            0233.png
+I20261002 17:31:24.590942 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.591099 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.591242 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.591445 130305658701504 feature_extraction.cc:294]   Features:        128 (SIFT)
+I20261002 17:31:24.591680 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.615901 130305658701504 feature_extraction.cc:270] Processed file [235/243]
+I20261002 17:31:24.616078 130305658701504 feature_extraction.cc:273]   Name:            0234.png
+I20261002 17:31:24.616193 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.616341 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.616474 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.616617 130305658701504 feature_extraction.cc:294]   Features:        107 (SIFT)
+I20261002 17:31:24.616736 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.639658 130305658701504 feature_extraction.cc:270] Processed file [236/243]
+I20261002 17:31:24.639800 130305658701504 feature_extraction.cc:273]   Name:            0235.png
+I20261002 17:31:24.639963 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.640191 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.640321 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.640439 130305658701504 feature_extraction.cc:294]   Features:        113 (SIFT)
+I20261002 17:31:24.640579 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.645449 130305658701504 feature_extraction.cc:270] Processed file [237/243]
+I20261002 17:31:24.645628 130305658701504 feature_extraction.cc:273]   Name:            0236.png
+I20261002 17:31:24.645761 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.645886 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.646062 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.646226 130305658701504 feature_extraction.cc:294]   Features:        114 (SIFT)
+I20261002 17:31:24.646396 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.651966 130305658701504 feature_extraction.cc:270] Processed file [238/243]
+I20261002 17:31:24.652150 130305658701504 feature_extraction.cc:273]   Name:            0237.png
+I20261002 17:31:24.652321 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.652513 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.652666 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.652823 130305658701504 feature_extraction.cc:294]   Features:        117 (SIFT)
+I20261002 17:31:24.652946 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.658850 130305658701504 feature_extraction.cc:270] Processed file [239/243]
+I20261002 17:31:24.659019 130305658701504 feature_extraction.cc:273]   Name:            0238.png
+I20261002 17:31:24.659207 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.659493 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.659647 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.659784 130305658701504 feature_extraction.cc:294]   Features:        125 (SIFT)
+I20261002 17:31:24.659957 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.664469 130305658701504 feature_extraction.cc:270] Processed file [240/243]
+I20261002 17:31:24.664597 130305658701504 feature_extraction.cc:273]   Name:            0239.png
+I20261002 17:31:24.664731 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.664870 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.665019 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.665147 130305658701504 feature_extraction.cc:294]   Features:        111 (SIFT)
+I20261002 17:31:24.665268 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.669477 130305658701504 feature_extraction.cc:270] Processed file [241/243]
+I20261002 17:31:24.669588 130305658701504 feature_extraction.cc:273]   Name:            0240.png
+I20261002 17:31:24.669681 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.669781 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.669884 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.670006 130305658701504 feature_extraction.cc:294]   Features:        116 (SIFT)
+I20261002 17:31:24.670125 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.743549 130305658701504 feature_extraction.cc:270] Processed file [242/243]
+I20261002 17:31:24.743713 130305658701504 feature_extraction.cc:273]   Name:            0241.png
+I20261002 17:31:24.743830 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.743955 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.744052 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.744164 130305658701504 feature_extraction.cc:294]   Features:        110 (SIFT)
+I20261002 17:31:24.744273 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.748111 130305658701504 feature_extraction.cc:270] Processed file [243/243]
+I20261002 17:31:24.748219 130305658701504 feature_extraction.cc:273]   Name:            0242.png
+I20261002 17:31:24.748321 130305658701504 feature_extraction.cc:282]   Dimensions:      256 x 256
+I20261002 17:31:24.748424 130305658701504 feature_extraction.cc:285]   Camera:          #1 - PINHOLE
+I20261002 17:31:24.748524 130305658701504 feature_extraction.cc:289]   Focal Length:    307.20px
+I20261002 17:31:24.748629 130305658701504 feature_extraction.cc:294]   Features:        116 (SIFT)
+I20261002 17:31:24.748730 130305658701504 feature_extraction.cc:297]   Mask:            Yes
+I20261002 17:31:24.752131 130306111698624 timer.cc:90] Elapsed time: 0.072 [minutes]
+I20261002 17:31:24.842047 130306111698624 feature_matching.cc:196] === Feature matching & geometric verification ===
+I20261002 17:31:24.852594 130305658701504 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:31:24.852610 130305667094208 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:31:24.852638 130305675486912 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:31:24.852657 130306103305920 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:31:24.852686 130306094913216 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:31:24.852691 130306086520512 sift.cc:1685] Creating SIFT CPU feature matcher
+I20261002 17:31:24.855742 130306111698624 pairing.cc:181] Generating exhaustive image pairs...
+I20261002 17:31:24.856177 130306111698624 pairing.cc:214] Processing block [1/5, 1/5]
+I20261002 17:31:28.040116 130306111698624 feature_matching.cc:218] in 3.184s
+I20261002 17:31:28.040228 130306111698624 pairing.cc:214] Processing block [1/5, 2/5]
+I20261002 17:31:30.770906 130306111698624 feature_matching.cc:218] in 2.731s
+I20261002 17:31:30.771019 130306111698624 pairing.cc:214] Processing block [1/5, 3/5]
+I20261002 17:31:33.265276 130306111698624 feature_matching.cc:218] in 2.494s
+I20261002 17:31:33.265381 130306111698624 pairing.cc:214] Processing block [1/5, 4/5]
+I20261002 17:31:35.887188 130306111698624 feature_matching.cc:218] in 2.622s
+I20261002 17:31:35.887290 130306111698624 pairing.cc:214] Processing block [1/5, 5/5]
+I20261002 17:31:38.125529 130306111698624 feature_matching.cc:218] in 2.238s
+I20261002 17:31:38.125644 130306111698624 pairing.cc:214] Processing block [2/5, 1/5]
+I20261002 17:31:40.848461 130306111698624 feature_matching.cc:218] in 2.723s
+I20261002 17:31:40.848583 130306111698624 pairing.cc:214] Processing block [2/5, 2/5]
+I20261002 17:31:44.221338 130306111698624 feature_matching.cc:218] in 3.373s
+I20261002 17:31:44.221455 130306111698624 pairing.cc:214] Processing block [2/5, 3/5]
+I20261002 17:31:46.702649 130306111698624 feature_matching.cc:218] in 2.481s
+I20261002 17:31:46.702757 130306111698624 pairing.cc:214] Processing block [2/5, 4/5]
+I20261002 17:31:49.264622 130306111698624 feature_matching.cc:218] in 2.562s
+I20261002 17:31:49.264740 130306111698624 pairing.cc:214] Processing block [2/5, 5/5]
+I20261002 17:31:51.412036 130306111698624 feature_matching.cc:218] in 2.147s
+I20261002 17:31:51.412156 130306111698624 pairing.cc:214] Processing block [3/5, 1/5]
+I20261002 17:31:54.334272 130306111698624 feature_matching.cc:218] in 2.922s
+I20261002 17:31:54.334374 130306111698624 pairing.cc:214] Processing block [3/5, 2/5]
+I20261002 17:31:56.989664 130306111698624 feature_matching.cc:218] in 2.655s
+I20261002 17:31:56.989781 130306111698624 pairing.cc:214] Processing block [3/5, 3/5]
+I20261002 17:31:59.740047 130306111698624 feature_matching.cc:218] in 2.750s
+I20261002 17:31:59.740173 130306111698624 pairing.cc:214] Processing block [3/5, 4/5]
+I20261002 17:32:02.779082 130306111698624 feature_matching.cc:218] in 3.039s
+I20261002 17:32:02.779194 130306111698624 pairing.cc:214] Processing block [3/5, 5/5]
+I20261002 17:32:05.029635 130306111698624 feature_matching.cc:218] in 2.250s
+I20261002 17:32:05.029733 130306111698624 pairing.cc:214] Processing block [4/5, 1/5]
+I20261002 17:32:08.018311 130306111698624 feature_matching.cc:218] in 2.989s
+I20261002 17:32:08.018418 130306111698624 pairing.cc:214] Processing block [4/5, 2/5]
+I20261002 17:32:10.881309 130306111698624 feature_matching.cc:218] in 2.863s
+I20261002 17:32:10.881432 130306111698624 pairing.cc:214] Processing block [4/5, 3/5]
+I20261002 17:32:13.661699 130306111698624 feature_matching.cc:218] in 2.780s
+I20261002 17:32:13.661937 130306111698624 pairing.cc:214] Processing block [4/5, 4/5]
+I20261002 17:32:17.071150 130306111698624 feature_matching.cc:218] in 3.409s
+I20261002 17:32:17.071263 130306111698624 pairing.cc:214] Processing block [4/5, 5/5]
+I20261002 17:32:19.739202 130306111698624 feature_matching.cc:218] in 2.668s
+I20261002 17:32:19.739315 130306111698624 pairing.cc:214] Processing block [5/5, 1/5]
+I20261002 17:32:22.499189 130306111698624 feature_matching.cc:218] in 2.760s
+I20261002 17:32:22.499318 130306111698624 pairing.cc:214] Processing block [5/5, 2/5]
+I20261002 17:32:25.234024 130306111698624 feature_matching.cc:218] in 2.735s
+I20261002 17:32:25.234124 130306111698624 pairing.cc:214] Processing block [5/5, 3/5]
+I20261002 17:32:27.968764 130306111698624 feature_matching.cc:218] in 2.735s
+I20261002 17:32:27.968856 130306111698624 pairing.cc:214] Processing block [5/5, 4/5]
+I20261002 17:32:32.545681 130306111698624 feature_matching.cc:218] in 4.577s
+I20261002 17:32:32.545801 130306111698624 pairing.cc:214] Processing block [5/5, 5/5]
+I20261002 17:32:35.498523 130306111698624 feature_matching.cc:218] in 2.953s
+I20261002 17:32:35.498633 130306111698624 timer.cc:90] Elapsed time: 1.178 [minutes]
+Traceback (most recent call last):
+  File "/mnt/f/AIRI_task/molmo-motion/scripts/run_dobbe_rgb_colmap.py", line 230, in <module>
+    main()
+  File "/mnt/f/AIRI_task/molmo-motion/scripts/run_dobbe_rgb_colmap.py", line 226, in main
+    clean_main()
+  File "/mnt/f/AIRI_task/molmo-motion/scripts/dobbe_colmap_clean.py", line 328, in main
+    graph = audit_database(db, frames, mask_path, run)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/molmo-motion/scripts/dobbe_colmap_clean.py", line 175, in audit_database
+    points = np.frombuffer(data, np.float32).reshape(n, cols)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: a bytes-like object is required, not 'NoneType'
