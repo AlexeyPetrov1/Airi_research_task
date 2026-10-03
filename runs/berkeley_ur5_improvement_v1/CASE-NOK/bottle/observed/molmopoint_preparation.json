@@ -1,0 +1,56 @@
+{
+  "scene": "bottle",
+  "source_frame": 47,
+  "t0_source_frame_index": 47,
+  "source_camera": "observation.images.image",
+  "object_phrase": "ranch bottle",
+  "prompt": "point to ranch bottle gripped and picked up by the robot gripper",
+  "future_used": false,
+  "input_modality": "image",
+  "input_real_frame_count": 1,
+  "input_source_indices": [
+    47
+  ],
+  "frame_0_maps_to_source_frame": 47,
+  "model_input_rgb_sha256": "0cfc98a5f1ad66dc148946f2037efb53c34e9e8457e87911d9e51ff3cb9cb91e",
+  "observed_rgb_sha256": "13cba929accf34502449766e366d92aaf175ccd116a41f77e1b3425ec8773c59",
+  "input_shapes": {
+    "input_ids": [
+      1,
+      789
+    ],
+    "attention_mask": [
+      1,
+      789
+    ],
+    "token_type_ids": [
+      1,
+      789
+    ],
+    "pixel_values": [
+      5,
+      729,
+      588
+    ],
+    "image_token_pooling": [
+      725,
+      4
+    ],
+    "image_grids": [
+      1,
+      4
+    ],
+    "image_num_crops": [
+      1
+    ]
+  },
+  "pointing_metadata_shapes": {
+    "token_pooling": [
+      725,
+      4
+    ],
+    "subpatch_mapping": "list",
+    "image_sizes": "list"
+  },
+  "created_utc": "2026-10-02T22:59:30.628736+00:00"
+}

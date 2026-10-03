@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "all_required_groups_reviewed": true,
+  "evaluation_priority": "Visual agreement of motion direction, arc, amplitude, phase and object alignment; metrics are secondary.",
+  "method": "Human-readable model inspection of actual saved images: all three-column contact sheets at +0.2, +1.0 and +2.0 s; decoded ten-frame strips of the corrected column; common-bounds plots of all 24 IDs and all 30 model steps. No continuous video playback claimed.",
+  "full_24_ID_cases_reviewed": {
+    "CASE-AUGE": {"cup": [0, 1, 2], "bottle": [0, 1, 2]},
+    "CASE-NOK": {"cup": [0, 1, 2], "bottle": [0, 1, 2]},
+    "CASE-NOK-STRICT": {"cup": [0, 1, 2], "bottle": [0, 1, 2]}
+  },
+  "all10_corrected_columns_reviewed": "All 18 full-case P8 movies, cup/bottle fixed (x1/3), cup/bottle oracle (cross-scene transfer column), cup H1 first-P8 (x1/3): 23 decoded strips. Other columns reviewed at the three sampled contact-sheet times, rather than claimed inspected at every time.",
+  "all24_common_bounds_plots_reviewed": ["cup/all24_actual.png", "cup/all24_one_third.png", "bottle/all24_actual.png", "bottle/all24_one_third.png"],
+  "fixed_scaling": "Reduces wide arcs in both scenes. Cup still bends right late; bottle turns/rises too early. Spatial shrinkage and step-to-frame remapping have distinct effects.",
+  "oracle_and_transfer": "Better early proximity can coexist with a late endpoint below or beside the object. Future-fitted coefficients are not independent prediction results. Endpoint amplitude agreement alone does not establish a pure FPS error.",
+  "CASE_AUGE_cup": "Groups 01/02 mainly lift; group 00 retains a rightward late arc. x1/3 is closer, raw outputs remain excessive. Intergroup disagreement is visible.",
+  "CASE_AUGE_bottle": "Broad placement arcs persist; group 01 changes from a vertical baseline shape toward a rightward arc. Correction reduces amplitude but leaves early placement and shape error.",
+  "CASE_NOK_cup": "All three groups mainly lift upward and are more coherent. x1/3 stays near the cup; early lift remains too fast/high.",
+  "CASE_NOK_bottle": "All groups retain broad rightward placement arcs. Correction improves proximity without matching middle-frame direction and timing.",
+  "CASE_NOK_STRICT_cup": "Fresh trust/filter/smoothing preserves the upward motion seen in ray-only MoGe. All corrected groups approach the cup; early phase remains too fast, group 02 is lower late. No uniform superiority over ray-only MoGe across time.",
+  "CASE_NOK_STRICT_bottle": "Fresh geometry does not remove the broad rightward arc. Corrected trajectories turn toward the pot early and remain displaced from the bottle, with differing late group endpoints.",
+  "strict_flagged_ID30": {"group": 1, "excluded": false, "figure": "bottle/strict_retained_id30.png", "finding": "Its prediction has the same broad misplaced arc; x1/3 reduces it but leaves a low/right late endpoint. Fresh native Z has a 12 mm step followed by a plateau; smoother preserves image rays and alters H3 position by up to 8.20 mm. The outlier flag remains a depth/eligibility limitation, not certified away by visual review."},
+  "H1_cup_first_8": "Premature large placement arc persists and x1/3 still ends right of the lifting cup. Changing history and checkpoint together does not isolate a causal factor.",
+  "ShareRobot_pairs_reviewed": ["sources/share_native_pixel_pairs_cup.png", "sources/share_native_pixel_pairs_bottle.png"],
+  "ShareRobot_finding": "Same physical scenes and poses in paired images; independent exact decoded RGB SHA256 proves all 60 frames match unique original source indices.",
+  "limitations": ["Two selected scenes do not establish universal calibration or a single FPS cause.", "Corrected MolmoMotion does not surpass constant velocity on these references.", "Kalib applicability audited; no actual calibration without verified TCP correspondences.", "Future reference is tracker-based, and 3D_est uses measured sensor Z with estimated camera rays."]
+}

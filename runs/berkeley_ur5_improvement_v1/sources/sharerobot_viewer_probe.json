@@ -1,0 +1,1990 @@
+[
+  {
+    "dataset": "FedorX8/ShareRobot-test",
+    "splits_status": 200,
+    "splits_response": {
+      "splits": [
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Affordance_discriminative",
+          "split": "test"
+        },
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Affordance_generative",
+          "split": "test"
+        },
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Future_prediction",
+          "split": "test"
+        },
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Past_description",
+          "split": "test"
+        },
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Planning_remaining",
+          "split": "test"
+        },
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Planning_task",
+          "split": "test"
+        },
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Planning_with_context",
+          "split": "test"
+        },
+        {
+          "dataset": "FedorX8/ShareRobot-test",
+          "config": "Success",
+          "split": "test"
+        }
+      ],
+      "pending": [],
+      "failed": []
+    },
+    "checks": [
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Affordance_discriminative",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1d100e9.jpg?Expires=1790998334&Signature=tRiKUj2XAngkb27GNpnTMIQhs6lnVPY6NfmTZawV1OhzLaHAd1mL7swSkRKbxSPVJIizUz7TjoNGzZYeUOxNJbPdSARc4e1Xxg3ZZwO1Xn7b9ivOgVdBHBzp4IdqRWHG-dJsn2nxJAepF817ZcQk6HuXSxWRP9m9mzl~XU0K333i49qpcMn~TeFqoO1KIpoYitUg7bfxjUSNrkFhlL25O6Mo4V4HfIoAmsM0O7bu0XttsKmPu~~kFsXF~xpN~LvVrE1wx0LZbBCyhH7Ijh7kom23PNuMY1xnrlcxgoM~eQ8cZjJQDchzZLaoPCUZwTDajPjOmnz0bRTfHyXv4eyCxw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1d300ea.jpg?Expires=1790998334&Signature=hWy7p5aQ~rV4K~sn6CyO6wZHGrs0bVZynhvHM6lS9vr28RhyB996jluTw21V~fSvbSy2YJ~E3A5Lg5VEFESCP7j1thqLkaoE3Eo6NS6RiJNMPhrc3gHx4HXSmE76s-ye8FfT9l~AsC-ahK4fmt~DXkhjc2win28EmcPVsOrPNTcfsNP02BdSSv9uNG2acyf09yCvb-3GMnayMzmWppopL8E9X5KZ2e1nt5yWhDFQn4aTbADTX3dsp05GTZaJEb6ixcMkU-12RvDzclJzeaCfcT6KCKrdUu4t3fPKG9HiyoxsQeKvEh-9-Y8veWiQid8gRuRo3aos840EPKhqNbYtDw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1d500eb.jpg?Expires=1790998334&Signature=ct9WurN-DC7sG3brXUg0IDy4xJK126lb9~dSn652LuiSwijxjOlMssEiIu33C19K3ql-wibJipDAvSRIR9wsaxcGEGIVNAjmlTm5huXTabQbKiBHosMEJN-FNyhKV1ZKaPCFdi1R8fDJBqRXBFYp1XEwCgBAXyJx35W4gWgl9gQj7BhQubhvgWtcuCCWLYLIgoW5DhYEvY~l6ZylB3R1k-wQ5OtuZZARYQJSyDqeRvrKURhKuRZC7i1K4CHVJ0Kzt13NMsLicDNtiSVLl21uu1Cn-PgPDRO~Ng-8PBdbG5ohSnvVoF~L2BwRO75S5OGejovEdCrKK5sM3NTwMzIqUw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1d700ec.jpg?Expires=1790998334&Signature=q1Z6zarf7t3a9fPId~SvldBppRjXV0xIkCjTzzgLp-kkMdLyxVGs0KY36RO8x7QFOdnl7RuI2yNvGx2x8MrryNIHEUnvRb-o~TxJuUmVgF2ottLgcTKUWKFRBBk3saGkZjBkL350Z1iY1LaSgyKI7tE2tqq~vSpt1R27UIC1CiQQlled2guhE9Z1tow9JffzaefqHDd3tE9-lDODE7exKVeQwA7RK-DMtrAPv2U2iCNUggiKjGnKKaQ8aBEBI3c-7LDmjVq4pKpQEkQSplXrtcF~~rz8cTth6O~626D-aEqSQCrPF7LBlbC-SU0oRlJ-q5SiI-YaIT31b19BlLOnFQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1d900ed.jpg?Expires=1790998334&Signature=DMNheaCTV02hRrxJjtAkGcRgitv5zt7SiQYYJzDVT5TVyxorbCzvH~~cq6VAe7mGlyUBBFvBQNLqZFvEdUHRjn5rSNBXhEZo6uoMvC~QirrTf-sDaR96SZqSQ-LXkqbioBsSnKIoiqjKJN7k-rdjmV4SW1ZM9HJPFkIF2B4mu-xC44ChN6AdUBROSWJowV4f2Zx4LbiYDIjcbulmOBgp51G1r9Ddph1JwauFU0Vix~oknVienwREmnnyPWVIvjzY-BjP8rY4w8W7rpgH6ilwbgc38kuRf43v1-8VifrnBVfBEMSX4XYwiQCnolPOZ-919Aeidb0~mEZIZxpIYKckDQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1db00ee.jpg?Expires=1790998334&Signature=T5Wjts8iqDCpD7f7GM3ucmSCDEB71XaDrMrdrDdZyJgYGza4G6mc-XUVxJb3ljtSBFAcm21-BjU~a2ugA3RroVwVKCVQbiJ~E93T5NaqtRm-bam28pwzkWiZp3Rh-iKzo1rSTNvM6ldoRCmGgptkJHcRWEYgBaFkKjwFEC~V9jVZWbpPsOi8uHJTa-y8T7NnNP8wytksaKDO6VA5JDoB7baX-ufBBHa4AcXUkTltGMHSvBlJOQfqpK6Nlukif~FjSk137~010vNuuJvtUVSJVj50bGps3blPhkByQOdpD~lkIgjzNgBXUx4WwQN-WyaVQR8KlyLxg5Jl0H7A5Q4LjQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1dd00ef.jpg?Expires=1790998334&Signature=XEYyfIaeQpa6mS6QGcM8PVWzPIZ6NZ1FdBKGKGMa3cObds~GwpDZmWpXCO6zw1tIQcdYSTZzaubn09aGQ8qLPannh7sBELyRocAsw-xRsJR2Z0Tpzt0LyKt564fBPSellzzX55y7vAWVS0DnihWWotDUVBmTM2oH9aaLwHoGY2f0RklYRSw06D3Kt1q5k-aZF7iSS76TlCevSM5A~jBIhpvo2bVlg3EPNRUnUEuVZoqwt7Ltfqhb6oGi76cFNbc7yty7CF4xB0hRhxmsMncFOsXCm9WNQYrKAVUtKfdloHmZWIu0T-Ojj8UOuRIPAGlm9~l39Uy~L-hJQbCQQz~sxw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_discriminative/test/0/frames/image-1df00f0.jpg?Expires=1790998334&Signature=f7hSJkC9YLEs5L5jnGKCwnhDIU4LG4VewpijjQ93iPv9IaXu450Fhi9sbZZuskBTfVOmLmK6VQjvfjtjURztReoDej9PsKJgdpUxNIrCMShcDOCplfJZDC8vzDBYi-8e9tVlhQGvWQYht9wsxDM94CWpLPD6aA-vSomhw8cZbyIGOSAjQreswMxg7Gc8D-qFPTJlasfqUZkt8xPVVC0gxDIVa8tlL8thBkYiOFOPzCgxGVL1D0YXaBDTuYDZ9gkUY8vPHE9JO1ixlFnRNjUkxwJnuD-d0luKb645oi0fiwOuLOHYTTnvpl~~OgN3ztCgnsXq0IjauL3eZr1B244~rQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            }
+          ],
+          "category": "Affordance_discriminative",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image>\nIs <lift and move the can towards the other can> what you're working on at the moment?"
+            },
+            {
+              "from": "gpt",
+              "value": "no"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Affordance_discriminative",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": 500,
+            "response": {
+              "error": "Unexpected error."
+            }
+          }
+        ]
+      },
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Affordance_generative",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1d100e9.jpg?Expires=1790998356&Signature=Jj2bXuXmD0iVfdfg-nSLPbvwu4slGsFccAubv1jZnO1ils6LVgPI1d~aof95l4Ed4g5S0L~633G2VKpazC2cDM4IlLShSQBOr~Mqi1sNTz0qTPlgDvW1JlQsYx8FlrIijIRpnnXwlKPZ6fBySPYjj9VqBD2mKz1FLeLDaUZdv5dIhfGCJSEqER70y1K~CUhifV7gtKz1tlLsLwyw2FFjjcWamRYRfMdN97lP53IGfT8r5n3DYVMQd3Y9wkx9jsjU97T4dpZsUBy3qhF3pUZdOE618iX4IsMODLi2wh0TZL4cgxFV3fhcSz2vbjcaiYT~lws80YKpbbIPo7Rdw~cZ6Q__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1d300ea.jpg?Expires=1790998356&Signature=kNE2Nva7WybbFEqRcsVWLmRxW9FrFlogmdce9WHe0l28LU1xTQ-dP1Oib3smg8y2jLgj3A3Ts9yJj-mlGRHOs5Dbl1Iar~PMqy8d25at-GBYNCfGF-ee8Jhe2pjpRwtHs37Fam3gRHdLnU2TuEfdvlpZCHYtRQU6yfFREnJTjw5uo0tYcxGGa44Am9WhAup6ilMXZqbYXkqk96By7Sbp8lUTdHxmngrM6UoAeHJhdF9hfz3aRhnGDzA72PjQRdBtQPMaZyrK4MJXmyd5X1HRNQDA~h0xAsqx6BVwoP1WkIApzK~T9TB5v2p6CeUoTP9fEVHQ6H8qDKzPQVl~iAeZ2A__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1d500eb.jpg?Expires=1790998356&Signature=sZRITSm0JmruVQSQMqNCbiV~DmEpZGiYLfU6xtErFhLBB2Rbo5yp5vpnLj-BNR1jROgOwzh7sTxW8BuUBWd82QEntQTrafrw5HiX3wrKkLbVdMn09cAlQQaXa7twsNSwleaD~4wQxkHixpWZLL9m6x-3KH08QH18NWaB~8OPQ3Wl6wye22oQwqSvyTkjhmy~SyDm1Hu7WJANYQJBE7tEJGcWyNbYS61InUantyQ8SjSyLJ7ZypZq1EEkBEa79JKDCnVXicBtBZQZ10E1UfnEU5-XbWWUXILdt0LcdX60-R29-V1MN3F9jy~JVclgzFlJoe6rqnrrJp11FQuvEeOqoA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1d700ec.jpg?Expires=1790998356&Signature=slcKl6At~B2WlcUelYhkoY~X3rdY070foXKxBmAyplpRZ8z7uNPoJfUhHPqeNLWAH81yro5LZlZnKDVhAYI0~aP1b868UWZm2vX7firUrvhh5Blrohv0H1B2qwHXn7~gCOmzLMu211tNrkgoQJBp4CIy1hKbn732EmamsOAmZ6HE1vyi7J52d09Nhc8Gj-sM5AmNesdkpy1cKzluKZqqKlCBBGtzq6F0oFhKCcSWoMIQEVnhdPWF2eFn0uhulqUpRlGMv8HSYeyVISKrJrzizD~~knrRHNHUEMEobsmuJHZLjSfFfF5Q8jrWo59Vl6IZ1WwpIQh1T4fme7VMAiMRlg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1d900ed.jpg?Expires=1790998356&Signature=eaHBeTXor63uR3rgokYWk-Ki21U-z4abWdzw9z~es5d6~TNynuDXSQDru3CiUi6OqvSBYCd1vHH8fVoIQuCJhiE9l9T3HqiBRtq2ahq7pTw4pSGUG05F5PeGS13NGb4NrpO-XQrQ5jjy4496NcOp7GiqcXeooElpSu6eYC0MbcsnN2KIISspbkhI1qZLOd3Z4aN963mXFqU9j3-irii33jE~0J7bO4Fc5NH2Crc9JwknI5k5f9qZf~EYzVJGAPa~8E296qmEsHzYE5Y0n47JH0m9EqHkcQ9uwSDj4aqSMLYKM7sXDbd1HVi4vDl~~imKea51x2sFb~TAEsNr9rIHcA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1db00ee.jpg?Expires=1790998356&Signature=BjNgpKZCJlENfTr2CPa7Y~O6hWVqA4bNqZQt-NRFhB90dcSTO5ygXG0VbxjNPQI8HICDQ9FX-0BwKL296NhhOgQAxO0L-oXugyfj56Hw5vKaNTG62ro1xJxgsdVfOJN37~SBP5~VE8qU5HyiR9n-~jsHtNE5ufPl4h~jg-fXohQDv~ufmIiAH6ja2vSXmdGIcJ3wKYCNWBJyj9BuN-pSpFv9NhBYukkRBBiRFopUbOjketoxLYM1DV3C5XDL6ut9OnRkZz0KeZVmEhxafp~~vNBCrkWeBSI4QGU5~0an-a0c5pxMsFXJ7NudJRnIgzJH~ePi8ViYslBsMUfki9Llgw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1dd00ef.jpg?Expires=1790998356&Signature=a7AU7Al18wauoXTjh3x9lIIlYu9tyMmkp-VPXkb5bxBNvs3CofSZduwvjt0K4ukbvDiMRUg4Tk0LFmPJQwOSCnmdpJn5cgzrvr5I8Houl5PIzakksPeizbA0iIn-BmnMt6OL8IxfArCw~r3Fm2DrDWTh74KFj4JhP4WwdQUiJYDl-Fo1Ts9oTCEKU5bS1H3x1JVq0cLwKkbkl5D7~2ypfdWMeS0TRfOHKRZXDWowhLS6eFbdM37H1SKcm9Udj5P3edSPW2Er45GxEIJLq1VTU5z5ieu5NewYFjYnK~SidXCTn5hl4CsHSYNc89BzNiTKOgBd6Mrrnnfwlh2BmxT1Uw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1df00f0.jpg?Expires=1790998356&Signature=ayZqGsb9ji-BvB7MCw~WFlWNN-yGiIzbAhPZNO7A0wH-iwwylic-JYW8thBrF8i6umJvLM0jaus4ruCkKt-u49z5Uvr-XZy7-FkLyvwsLVdBym-7OSPXBtaSOdB7t9SiqFQRBUwHDRC7v-tFxwFOtzOfOh687l-7E3L0a8MmluKYlQnFgl~8Gj6aAH1C~Yti0QSCW3SMVKdJqPGaigCervMucWi4d8Kgi5UpMF88EvAbrtxrru9w5ywiK6rBsm3R67so0x7TfYFR~xUcrtavoKcAGTDiJUvAWduCke3V1MO~qq9NWqlRQH6mPFOA5wlb0tP0U8si4v8bnoNPoVUAKg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1e100f1.jpg?Expires=1790998356&Signature=oY7etqcHRRomzC9cjWhgxQaE~skCt3ABwa9kivQVkeCcdSu9-6oXj7DgoAD47G5h9WS~CWplUA7Xe~GpuMB~6rSSQprj-9pOfeR3K3FEocwJIaFHnLJH5a8QRJvSwFhSFUFijWoCsloZY6eU1MdBkqWvOQ7HWj6LNxX0sYvWBUgv30YhnAJcT~dpyjibwtlPxojFDYyMWZUhA8~t67DGswahHiZRPYwmODDugnQAuBiiBegMMQ5EVwXYtey9p51xrq9oDQa7-WH7R11s~R1RdgSDn~aKMQBxZA4N2U8wub2VNNFNiNwaGt3VbgIp0-XX86In3gKjDUNPjhemukxFCA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-1e300f2.jpg?Expires=1790998356&Signature=Mk4EWgjDdIPjgMbEEwDn6zfAmOARSQmgo8Bj4qMWX~2VSX5sSWMLZ5VmhwndSyZsJyUhLULcG2LowxHU51FdLRXxwsZDINQLMc7Cgi75V7ob~iZows-MT3WSDvS9uoDrM2IjHYAOwCx~y1mHxLXAUF0Tarvm2a~oyGE6ds3o09qjTl8jZ9Qoe1IYNa8MMjSUne8sQD0lf-tUOD0yeBP7-UK4sDhD8OYB4meNYfpTz3438ywpERFTaCb44zNU-XHVz8FpYa1M~ILTG9qMBJTpIIkPv8s2Es8JNk77pd~10sUS7g1juBrMM5pXUPGapV9IJ9mOsfxdmfz4DWWMhjtLlg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-2c0011a.jpg?Expires=1790998356&Signature=w02FVUADKhbISclqHD-JRw9dUKn137aTARPVNYVv3TB7xGQ88SA8MV-3vxmpirERqZapJ-MsxNGIQP59MtFx~wjv0orZLCb4zQtKhQ~Cmw6ckHE70CI8zFqiGWtfGS-BUPbqIVc4ySl~noJDJ4Za5uDrPYJGQgeiH8LKp69Fq2gfmLCv2yoHnubnylN1SOe0QF1Q2yhwXNZzEi1Zdb3orii4M0sIzXOvv6-WSOO1Sqfg3OZ6j9OUCYYb2MqWvvL47~7BkCI-sJDwom2eM1Tq6-M~Qm65zXcakXz0Yh9n40ojluBy5OD1gvz-8FiTXArujaWJxKK37y3yHcxPRvQQkw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Affordance_generative/test/0/frames/image-2c2011b.jpg?Expires=1790998356&Signature=iKiI04dk-hd1VpeMllmbA7TD67Xrb3mF3aoIwvpehgxbI5ZZtShs5Mm-HcTUI6dkC-ibo38-SgGgmE4xzdVRgtjt1Sk5VA2pQY7fqp1gT3zLkZE01Rsj5WahXfy-05aSIuIUdoL0lIb4mzCTLNUN6xig-2YxHga67~GXS0ax4letO6jTqcAz3GDpWEQ7Nz3nKkwWAc-YYRUmcgTZw6mfiphkCqQbXmbVbAFLmNYDjqy8xZjcFZUMkFZR2DJsWtTvslivGQYFvyQs2ap7EvS-BrXKq~CmcWcondyME75hLKLVts-JpU5vr2osaQo-gSfAu33uwHm5kcb22JgCCu2KTQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            }
+          ],
+          "category": "Affordance_generative",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nConsidering the circumstances, what task can you begin now?"
+            },
+            {
+              "from": "gpt",
+              "value": "<move the purple object towards the slot>"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Affordance_generative",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": 500,
+            "response": {
+              "error": "Unexpected error."
+            }
+          }
+        ]
+      },
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Future_prediction",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1d100e9.jpg?Expires=1790998379&Signature=Qew2ikYIZrxslIPWJbEdghtSRFCeNrIzNhVGXizGTX9sYsscnsdWKtvDEQeHnSPBvuHmAd0iP7ZN2hheONyiF0Yd~BB6c6rZVguVLl7KpuuUCzXG4rbWN67epukjFJLIQ8wUrTDyKLkx8u7H8fl56fLZvbmExPKuHZFStKOnUez2muBfsOtqcrv65XGtUQXic--SPgKPIttzx-MeTR1byR~wcOXLbHm0ppl3UtouEE6~xiufsxj~k07lkT7qNpovAPBgqx5x0X~IIH-rqizf2T2dLQL1qnhiMPYPzSYb~j9r5t0Gm8WUvGcSxnRcITi2bBO7f1fceXewWGT0D1iDFQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1d300ea.jpg?Expires=1790998379&Signature=VqrHL3cBOwQZYdwwNu3T7P3eeOFiX9padH2H1mxtktwd-tJHv~o8dYUte-xQbmpulModsmqukwuOfFT~MuVQfWT6WgMQMI3aMpy2C1YjKO~bbdAClq1iDMnjd1TAExOUbI3z7v9Af3zLSJkhZklsV0NCl0eMa45i6xSMyL-Prx-yw~-bmMNbR5AxAFwmSVfuQA64jv2UZk66cBGVX0SI1PYd94AEmQCW4CAJc41w-r4Z3MR4RP4~v6BeuxfDWahZgV7i6Ob34Zo0ObRTkh~bzdyGY6wsPBhwtejoxqHo8L5Nwjiysji2B3GBc1TPvTwHPRo4BK88hpHSdsM~D7eSYA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1d500eb.jpg?Expires=1790998379&Signature=R-dsprs~50TP21eVxfHo7l1dQwuzXMvoPRq-Uki3J-yNUQw2LppspvMGE0PRO0cVUENCB5NNEvn5HQeHWOBnv9pgti4hPTqRgaacDGFBvK0ZXpDqq3bpaUi5pwxaZGm5ARE0D9ThjHXYxdVr-WmfUjwS4pO9IajIaucdlW5btjaS7jAex1HoA4TiRymD~AVDcTcU9YBg0-c5o7gO~L130h6p4V-oJEMD4hbjHYbVJcsnvemJOrZ10g371XZ-56m3Uz3r0C4NdaC12dNQNh55xyHqIsEGEBJr3dN2nl~MujErkJR6zLsTlJ0WCXGpnVGNsBpwD0Gctm1DlPgAzuMjZQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1d700ec.jpg?Expires=1790998379&Signature=cUHPn26cOn8sY7foJMN4q38iEoRuyRL~lwAuWHeMTNBFbHUTW5xE2EYOhm4WQjyDsCmkHmbMymYYhmkKKUOyEIn6TKvQQVrMK3qFQrQokPLXmq~1-s9azeC4Jg46kxUT-fY1VyQQFEHlbCi0eSW0jDe4nCW0bY3IzuUATynqpcENotO9xPc2hB-ezuEsrVBQB25nNxEmc14LIcA2XJE3PGMJLc-0A~tnYyA3AGuReqEgPoz4Rnum~zLVElWtb~oQCq~bFPZrDvGRD0wtLhuVUNHqRzX4uzSO~hoOWV5NFVgE7b0k8nHRqTFlYeoAC41ywtUzkbwYr0hjGUoseCYHMA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1d900ed.jpg?Expires=1790998379&Signature=nSR1LL~KrlRaVb7W3xyFkYlZZl5p~jXM4To7~dZazDMkgf8vF8aZDKPRRx9w2Gw4aLYWDoK0Bj9GaryLIWQDSmA5j2Mz21dqaUL~JyhqLjgGzBpCqFFKFfOB3JKlKO9nXEUFrzCh1bQFSlJ5JFwHad016aoPOsimyYU96WlfzUDLaQpHTvxt1n~PYAAFdh~d8BHKtMYJDIJIE6tiIUhOVbzt7eEFkvouhJckXNegIfpLKz8tJPOGtzh5~dYL-aA3uk7vc58y6A3upsStjVdjREG5Rgl1u6-ZS5eeIbUHzxMZap5pTWVfP4yAQWmFsmCdr09M1ko0kKmrW~5Bq1V1QQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1db00ee.jpg?Expires=1790998379&Signature=dckoWuPduIGMSfj-3n6sRkU8-2qna4pfBmCVRyg6bWXN-Jjp8mWGTZeL2zphMEzU4pknoyKSQr5QEI-o2LD4LZ8GCd2revBb4ns5EnLqVYYuWfq4O5q7KZV66GwuRe926wRA0-fpR3Sr6JzvpyP9CtG3nD8CE2oc30~WBzVzJQIXEiqzJLqqlAACDDaEN2m8IE~CMRga1xHPCo-7T7OedS9-NsWXpQXZGp8cF3IzI8Jw2vt9dGH1SfNWWhJKYGG8gZE7F9lc7tlzmMzZrHiFlXObqZnR20IQTl5f5w2~YVLP5hfaONHNy2gL3vWCyHJQq~GxD97Aw4~PplJ9oxdzbQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1dd00ef.jpg?Expires=1790998379&Signature=w2M3x~4VYwzGwUi8wYNBBAaSMp63gRyLpdGnArw8adSIxuxQOd4Dno6S0MiQcIQ-1qmtsKw4Xix21wokGeXnObmvK7ZUgFDkkYURIm3TtgVGl3U08GmvQbSLiepTN~Hu63mVlmbKpudQveW4K~~OXBqIs~q7BuIGPf7LWkdLNK0WFi3AVRjaOl0EaksEEWkmHNf91OAITO7geUV1NRoXNfWowd2UkmM3-VBQ8rN5vZabN0fgxumo3t0ChizVjEJjz6QBdSL-o6W7Ct-N6cH82S5Xo2isETe1ohoHqxfGsMBNAAyMPbJmm3iR-YqDRYC5~eQtuJH2tVYwxaXMLQWosg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1df00f0.jpg?Expires=1790998379&Signature=VK11lN9sbpWsGEdQBfWI1-HtKomkpcgsuTN7-6JFtF6XrOe1hmRUqAZRjXL8bgxTT4~krZ-iLvhhFr~Pr7MM-KmaqQU2HQFpC8waZA~QkLPZEEB9CqI5SSnu1a6A7AxCYSFdmeof5RlHmUeEMkDGQhrOMNxnOOPtg-Nkr--RGrUsdQwbY0mfs0bRCpq9lwY97QfaTqHYPG40vUSb9xO2Tu1uG~ODRtviNHTMUrraJhPFKtbAhOl1kKtuKY3Zmp7aOsjYMbaf9Sja5SNQAC9rbefFjfE9LC2nj1h97a4-ZN45vztY~KvmBZOsbbIULPX1I1eh6bXSqEo1kTVvHthXeA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1e100f1.jpg?Expires=1790998379&Signature=LTo-yFV8xQWZ8tf5OfTQWxBGdwAUitevQocnG0~-gAvyDZ3FLbmqDI1eFp2-OlpMCVco-D1UvebBxSgL7fPLIIA7Dii2cofzx73gwwQmNznny9YK7CO3Jg8UoA3Evf72U-MXQcRJLXWMFlhpwQiYNWNFuqjRD0dhh0v8zNfNPD1RaAlMZJoQqDNL3929xTYoEyJqay90js-IZx6iBya~5T1ns-NUyGb8OVIHEOLRNAwlElZxxLR0Ra65cDlAXPv~aNeAyFQ7rjo-LnISrB2Ucy-bylVSc8O9x6OiebAzwskqzA0e7Wze4jVFIVN4nGOlIIBxVChFw1Qs96UPImRHlw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-1e300f2.jpg?Expires=1790998379&Signature=Iogn~4xu3yjCVMlKgvdp7D-zF7kfGY3TVV-1AnIB-E1Ag4x19QX~1Whl4lT9YEQwb1BJCSeSiLYapHkcHCVIAs46P2HI~pe49ZfY2pQbPCfHT4zmlzt5KdjHqwk~8ANBi-YEI4Kf6GWJDwnCTorAXY2yxghOfH4FulqZOuEp8NhCC4lgvuD14a8LeWino0~GwOnPyBinE~mldtJZKUjZJQz5lJ55RR-IMnRCG452OwFIqT5pX9f9AWlEgp3VK-V1daRbsRa9l1ptQ~Plf8bIgGxAFLsprx80NhfRDQyMylP-pYNK-LbWBZeZ0oDVs7oA7S33REwuO6A1uazmcB~mRg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2c0011a.jpg?Expires=1790998379&Signature=rVx3A04LVwJEKQC4nvtWBxY1fhJMB0D3SUQQny2it~PQxjHGLcyjRTSRmFlEmAHz6w1SZYpGrLQajOX9vtuIHKJI3LYiAI63Ml2mRNUr6qUH-R0ZjeA9HQn1DhjatBTEhNRRS7tZsRSMuvz-NXBqndZE4MDkaehZmbeQmL1Mb-bvkMbQWZxUbnoo7JHYYrKoof08Bb4~ga1-8RKyxt6dJaAsl2OQlIIyexVQVQ-CWLNBSMDvnQqCleHOS8EOcrhtpszK-D5dlM1Kx3p807cDo4msxrLhgB96KIGaU6yODo3Xkp5Tv3oV2FpTVnyo1PECWWqAUMeqqUiNQBt5qXJ3eA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2c2011b.jpg?Expires=1790998379&Signature=UnMz9NibrIzTRGak2Kf6k8HAgXZbltFYSl6SEQG2DRcz3JPE~~L5eSy11qvcZxkoaIq4KaoO3O1FI2gcIvu73vqJ7MaX-XuJxhZuEsQlMANGuVMrKgE2VgdfNXtBDLEguR2OrvZ43fVTgnni7IHx6sjhBhoa58B5BUEB6xHWPEIxs3AShr-c0jqV-Aev3Eu8cnFYGXQXxoxKI3KGF5RQe759BeXV21rDBrKM7fX4rLRakb8driFj5HIlwSjgGT01kTHI~Hk8N7DW-Hr1J4Wu~9X1860OSJElXbje~9Ya3r9-vCF3rkkxa4BMc3fRRXNgPIB5D-iEb4jWq49sQY8TIg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2c4011c.jpg?Expires=1790998379&Signature=RtA55eyAyXlashYupUZHU1~vC21dwHZihoLjivDexiEWFehkeg6DknRCGXEli2boaQR1y6TU5XmYRE6TX-Xx9bC2wKt62VHdmVT7ikIbtWBGbtjO7~zthRFqySLNhtl9GVa56JHt5DOWnCYqmn8AqJ6WUBNFpX9IOw0uzUyRvgGsREcgOEuIwm6Mfp4-giyhsj00kvwTvDUbFBGlerXXeseQH5W5DE2HLNpfjfe1uR0zG98NFA1zu0VX7BHYx86V0P4ITOB~SdYZsJXD0lelqZLsv0o-QjN5fXr0DP8CCPPiCMbDiifIOnHkUC8fX56YSFfilVjLTZ7x8qco2CzLtQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2c6011d.jpg?Expires=1790998379&Signature=Rl8NwFJr9UMftPDdSMk4CEKlAz3lvwbtENzfwyiI0GAtxpxTeu7Y4GT3HSxYZ6RvD7e0fQYuxinWa~rqYUhE0lFQVm2-oMTtJNKNuNvOc6qrWnqzIkJqBCOQ5~AB4m6w7ZAJKyXeSl-p-nqrCCgA4aj3zzL91jnBw5fw0CmzYypE4kUXvlkWKdMirdnykRr6nZnIbu8lO3-ZwVLi-62VFZAA59jJFK-C-hUMJIhySqDmBQBeXNn8FkwrH7R38UaamcNVFqLZZViKO~-Xxm-xXs1yrbNvW~0djlEOkuTrpMysDmlBaVcpG3s6VASN9AGxw5iEJGc0HKuPM-AFZtnfaw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2c8011e.jpg?Expires=1790998379&Signature=vGr20pHQ4dpeirwngTf2qCgrCtYq2MG2MXwLs59Aso8KDOm1IFAKKPgc7Y~ayksaiVnU63FwMlAkDsXp~7LXnq2jlCjg52hG8A9ndWe0Y9OtQTzFbAv4Xptnp-dUZdBBtNjx0qewDmQf4ZH1T1WBxENvcsBtdf1Q-0~2AacU9USW5YX3BHdZDWaEIKcfu-qlX3pFCEtZbc-UdRcfFaqiYgOVxGEjU8Z1K39cCd~dtWHyjcUMUqF9dPBj9Dx7bvlGUc7HQqd9Bm-Xg1kczKt~8Tqr7EiIK1A9C-j9IjogXR2Eu1VidQUmhO-hd2tOr03mw8rXdu3215rXqHSMeS2ceA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2ca011f.jpg?Expires=1790998379&Signature=Tm2wKkcm-ZqODulNe3kKPBH6yQ8LoaGyoBNvUtDRxnrHhxxHpSfYz2Cp7bLm5Ukh8TXVuoOMThg84iCQoMoZujZvnTuGtGcZpu8idCwBqPt~pBS2qpM5eBMploeHUubmp2yiXMQEnvHuTilC74zZ-JGjx~AxUudhyrlWnlYSFsfDiHTsNWkGuRpr0A~cV6hVRWayVoSS2zR4H2uEdD13imnnfnyAzBBoAoky8Yz1GEzj3UxTe17nkPZ-s4u-B2L0lUE6xP3KPeSUk6LzSM~oEs5a7FT7IpEAwLaXSDe3ut~dfmX0HCDXk0OW14E8ZEpeT8hU~PBk9eF5mbpyHYKPGA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2cc0120.jpg?Expires=1790998379&Signature=rKog-uXPcUifUy1p4GCHeLfjHbjRuv2CxVaqX3vlHCtH3Arvopk3G3HgcFiqJfnPsFB-j9UWpApKrTyIlQpbAI0Rf0M-ryvdY4WXhNyNv9XUA28gJcIYl0OLURTMDa9RagwvPk4U-Ua61ZNuld~Utx1dIPeSrNbjegeKtES0SzbG~ielOMVTQHLJPGPA9n8~JMCwYVV~VqcoLppT3UJYJKxgjJceEmEh9qbxGHeYOMLkFdnIwyageh4uOAsVmtM79JDTsro4OJQXxOrgVO4nsxFIVvi19i5rKwnS-lZbjgVu4vkerO~7l7nLJLKfbse~vALhFOk64C9ZXGqamUYn7w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Future_prediction/test/0/frames/image-2ce0121.jpg?Expires=1790998379&Signature=F-o2TPpH51WOg9c6Ylg4-RMhHBvhTymSz-6W20M8-6oh-OkUScSXnD3k8ekbBxlHdatr38Y4JUetrO4Dm2pBn6uO2GR-Ehrqm8f1e92M6ua5Rfn0p~004j3QHXlD4xiySJHk73fZXWaA4q30MPstmnpA881uxknEkc6MyoIm~yPa05DLZt7Ul0vxDHV-CGlPUWOrX~O4aVwunRrMbuD41FqNFGnd9unJQwYjTEl7W2EEGJyZjVGeacU9MpG6NIp4HALyunQTUR8aQ8aewCkZLD~vJQQC5XdJ8f9nvYi0JsaIO9WBfWM1qPivdpxa0TWkjSUJzzBS5FJsRp2SvJqWEw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            }
+          ],
+          "category": "Future_prediction",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWhat do you think will happen after <lift the pot> is completed?"
+            },
+            {
+              "from": "gpt",
+              "value": "<move the pot towards the cloth>"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Future_prediction",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Future_prediction",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_10/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          }
+        ]
+      },
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Past_description",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1d100e9.jpg?Expires=1790998420&Signature=GWfs05ju7XL9M1JTmaULn2e3YGWHrWWYeqikqSnzrJQ2EjuecO3p9UuGem5ck8-Oil0DsIcWTzVlPk6JVGSOS~xGmiKFAvx7Ulcv5En0537I~cdoWFf1I7rRwF2ffyGt-5kIH1hTYYSSlvyvM4BlK5tbX3gek6ilzu~g4AtfFxoxzweM2UL3bpJwHwvSdkvPHDrbpM~j6~n125OSehbkyUDAbS88N5ibu8IZynLt8BVqqUOcQayXjyaSSeN0Jzrf3K9-4F~AozReYOU~7z~cc11LChoMPZdOadYfiZxBwycH1Mj2p7xTfwa68BlaNfTWRVr7p-mX~a9OdYEcYaKyyA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1d300ea.jpg?Expires=1790998420&Signature=BjaVaJaAgCGeb9pq8xRWwfJMW40RXPHPRsTtNGsIX0vau~EwoFlb~0gfyGCk3hGAGiMBN2PZvY5D2lDQgTl-hfCYERmyohUJ2uM0ViDP~-8Zx40FSZXn4Bi3VUvQzXPnG13nnL-Xv-HRKCCnj2RnXBWXF3KO8AwXxuXHFrH5qT8PsUXtSKlFLzFGF2AYgX6TasVtzZkxU~ms4fkUayNjtQhZh~X3R7lrZlF0s75SC283VqR45QE~UzKzhewN9kFvUkGZSvaPxB4CZwjK2staITrkDobxOvLepnqZfkQD7oE4cRTSP4N6Jkb3w5ifGnoDcyAT63-emX5HFYXzyUEf4w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1d500eb.jpg?Expires=1790998420&Signature=PSFo8-kcpmVMy-Cnd-I4FmQWn0tQmzAJ~GC6nIKSLYaogqOAH9KoHl~U~Cb4IgblJH5l8Jb0VaunlLUqVvxHnuQ3IWI8ajTxQqPNUaaK2BpAfSoAYvX-0vKrtIM3XgHL0XxJ6z7GTc~ExUu5KLbrjVi4sW17IGw1mglyK-OB-OEsKwhH5cwSqNV4eRxB25rUEdiN38wmGrMhUIhZDsTAco6TMd3swoUAWrdYY5o963-8DchZH~JhgVdNZPBPTifOvSSDVPx19qi3o~xtUK~2GXagbRAP9c-YgIQeXJxvwazV16M-urWkBmHSdKDy5CTIYBvcHdX6O39WTG~vnqX28A__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1d700ec.jpg?Expires=1790998420&Signature=o5mTA99INR4dhMHkg7GWj-JocYwthHc6J~ZeGiT3rUsHKFsA6ldQpUBVYVv2hYO9O05AaiXatxRckIhHJzxdq6qRGs2ITI-wrC7YDQxYLJkD01YdILDooThGdUr96TnVuAe1tC6mlRL-3rqxz258IrsD3DvsP2aBbAiVrZWj1pfCO47e~~MLjI8wf8RcidalfWjYcZemxqdoAOfPwKfQSQnt3xUSAR-IldDx~iCqk92AaChDMcEfI8C3ebrOOSzjPoigVKC21BVkdVlRZLSLxyklIWwPRs051GPA~I6LymULRqEjtGkDi5CeG1ouZ~xv1U-D~qo0jOe9IhsL3TzzsQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1d900ed.jpg?Expires=1790998420&Signature=tNs3e1JD6EFt2O4f79Eyp1mzi-myaK7xpHJcCAFBDifi9NQ1ng91MxhTeRF~48xCspWuPq31uWfuYQtAsBdtcYeU0nccl77HS3IOMTREp7hvUvY8lA1e6scStAciiNxYw8eakXgSTRJtvfzvXPZZewgndHnHwbJyebxHRzS4X2sxkhwVrwDTgY8BRWmLsfj0E5s6uPQs2iPivrxUeNFabuD1moK3zlVcEov6mEnJFayMEEvfPuKZHDjkPbw3krNud0x90N1nBGkPmChWTtwTbhPxtOMzZPgNcGL-iWlcSiRNEJmzqgTQjEVejns2jarOlrgAtEKq5sgKptHOsBxqfg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1db00ee.jpg?Expires=1790998420&Signature=j3U4B-H3caO53hoBuSjTMvnu915z96-glIBGD5qJ2pp5Urc3CgoZhbLI~wfJTFcmQSZJZLyypeqtVdiz10kJMS6IFzhR9YbyyaFMwcy20eXHBPL9VZGFn14GZAPieMt-f~D~6Qnu5uy1Wt0fXooWHCXbNFUyBLzlbqCGyj7DS2m0SPIOIhUJTew3Wd0oPxcjUaqzqhJhhNxetBQ16CG2OEoMlT7U6X9639UhU2h4rC8O8I~W-116LthX9~RQqDPLUwuATspYS1Ze1UnnxivoUM17ZBIvjSYfNvW8n8YtHZ6xBnJchLWv5YV1C-mnkcvPKTarighjL76Izb0HS31Bcg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1dd00ef.jpg?Expires=1790998420&Signature=IcfrLeEPkZqZEoxTGeDr7~tYkMnBxNfcjzVexevA0UeJPFe1~ohAEFs7KdpNU8~3bQZb8n6cibl9asRCAPCzCSNuZhVma7u14-Ht6vWq8PX9tiRM5LddIFZc1F1ephwFZYIRm-spZFVb45rmTbNjTWmbxPPgFbxX9xND9q0GMLK~ql3VjdZh9ZVAmhJZTPoDCj582-uYMPbsjgtwOULjG1dLbOL6J636YC01FAUM1vLdgD6siw6Cw1-l5ruvHBJOeILb~S8jezHS1WHmbeMhMP8IFYCgxWA1XishOOyYSjdn~~4FWPZbiqcOJqu9kI6IXgf5Jo1YF2GlTAzoXnpq9g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1df00f0.jpg?Expires=1790998420&Signature=bqhAPrTTerlE00GvhAENjhY8RvjaBLOCaJcBuqED0ye1ldzh9PDU5dqUBkJayzBzmoJGR2TJU2J5N8iZjuVmGuO2bwU67VfFLO1xAchwrzzX-e3OUb2kIcaEvixV9jb0TT7rZxPDPcYZLlUT0V7C9CFlCJq2NNW7ld5WiuJMxDt7EIlicVfJq~eQBB5DMTq-kzXdXM1CSJVcPwkd7H~AUeelclahYDr~zXjuwp44TY-uTz2FLdAbWGc~KY~XsS~byaZb8niPBIznASX~rZIOi3Hs~5sIy3fJphL~WPOgKRvU5Pb8JjYLn3aeLiOFUN-9b1sUKXLpYmJQxDaWp88t9g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1e100f1.jpg?Expires=1790998420&Signature=f7Di4oNvrItGxd39tWE8qNIBPNdkdQSip96o6Wx7Q1T4RKWnZEXJzdR1ak9Lsx4J~EWHOjjq5GmxOzIYuacXQ2sIzl1g~R0dP-fYsfKsXrYaYL6cV50kVMloahWXzxvir0SYSUWOM2E0EcsLeObDQ0fxgAgHcQM5toWcUJyRGQlzUgjSoPwnj5SMpzS1pMKwHPTKGshMlJ3HKMU~Nu4AAa4v1NR3hyxhzhs8y0pmcUton4IMxhugYY9ekUBfxXvC2jGd3RgqxVHyTItfnilW3RT0NOhdGuBmq2ka3aTLfZVsySEbAusaHshBGGGZhWBt6UnX3LI43aW30uBisp84xQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-1e300f2.jpg?Expires=1790998420&Signature=YfkczMR9oCUfqmzA~nBZbg3iOe21BLrl7AA10Q8Uj5wTxg6gfiTs1jf3zV1RIAXz8cOTVcwP-JJquDFjQtbjMycBYMrecpbPe5OiEJ31ssuQBDE29P8f-Eyg6iZJ9IR3oP14RJH~Uy~YQZCYHfnfEaXoXTtJWtfT0tlIqKcnzDiJIKRGzjSjoR3wIpAFw1bKEh0I9pBaGWc8VUGUflN0UJuETt2GnXN2MY8rrkZELarjXU9hclyzOna8-BbcVhU0L1-fArQLD7Hmqxz-Ltx30BNerpyFKi5JTGVOrn1a5FG9KkN7rLWH~kBygPexL9ZyMsALqb8ztmyMVSoVzOtZFw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c0011a.jpg?Expires=1790998420&Signature=caLMcdR~r6NYbs7DjKrjOAqcIuux2sjLpWlMCeUm-huUyD-nIeOx4A6X0-H8LloyrFwxT~~cfT2FpLGGqX0D0iyze3WiDTZl-B46ddxMgdf-opLMqNlUR5qAbnfZqjluzWLiwHQMqEsk6NwyrHcdE4Rg8Xd-mqYbesEWlgLq13p4SHgdfXITCrpqoaAHd5rBZ6KlfxBMX7PZDqJHzIBTsFmhfEE21uMggu9vqKx6pptk~PjpcrJS1bYoh46-mehhMkhgoO~4QmDK8JCWO74GsULdtCU9PaC4pkqXa3cu09DCoiUgFHlET6lbi-Tf1Oa6jgHv9xPWw5zhIbywwuujGg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c2011b.jpg?Expires=1790998420&Signature=e0a4qJuyPGVY7-SYRYTKM0b-r15dPT~zoCTvexEQd-lpRNLbdEN6jhPm1WvKg7SiSyTENEekiBgzVgeWWj9vzVDrzEIm4l0BaT3f8cI5jADilKHvgjMdrD9YPpVhpfpDWoahn-0~-9UtPuQFAO6RMOG1flKk7753qyOJX0HZWSf0mVTRfOb5e6aGqqrLg2ElJjz~i-peKHs4v0bSP6iQ2DSnM1zy~hb-LsAArlE4w-68O-CzOgniAm557SVfAZIgDP4~Zdnlp4PjRe8A6QmzzZtJWvGwAAidnl0PqXWBhm9ar6U3o8LdSxG4f6FmnwtseYJ9lDaENrc1vP5oGutgdw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c4011c.jpg?Expires=1790998420&Signature=XTdE-ATt5Wvtg3GZZ4gJubDptYvrzrsRt9gP-fY4lI6OUbJcRatnoHRzsj~yELGZ9U8WDB8vNJH0QJUkFuerepPRRsv0q2G8Rnb1F96EVgi7O4~S5R3pPJwSloiP6zMvD0W-RO~QKWyYEWlsoxgfLDNOoJMG40-ShjxFb4H9cNDhMSgMcbm6yYP40NQZbe2CqqaEtVI6UGOyjB6xvn2a345KWjiB2dHLXGGC5JLv9MZvret6K7s5Nr5m-8d0mtqtUptCa8brZWq2PoeWi-xaq7hQuMtuz7~tI9~E7DABkoR~6Z-SYcY5xW71kECFs9fbEvDUC56ow93R1nVREY3J7w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c6011d.jpg?Expires=1790998420&Signature=nDwFZe0u6vcnHJ73a-xEhfgKjLjFd9Lco0rO5jiegWTvPkz0DA0FWA4MnwyOoLA5GfY8sjw-DjHg44yZ-ArtdZIe9gt2yz1nCT~hTi4SIdCbk1GRZ3~X1Xg5I3ZAINe94-JV5MvWpD8lekEHaxhdRVzb0fGARNiutT7P0~R8Lz26B10eBTZpcCUze76ceSeyLTX72LQ-c-ak93xyuasr7WRydZZC8SnS9~h6O7WU1LXE1Va70Tk5hhDnYE2YBeo~f-NwDAJqSZUj~cexOF4WFdjI~8HFqxRDbGS589YR~v4o71f~8A9CGb-ApxjT39LVdoIv0ujlgx8BJhAK3bm97Q__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c8011e.jpg?Expires=1790998420&Signature=tYEaStlplqHYikvhVcd~Bl3EC72hEdLTj2mS4M8JDEDdlq2pWe8iEBDqBNCkgQz31VRa2zLLIjBRio6uZtK2e-lwcxRewtGpDMi0tjaj7iFo67UGk~2l5-Zgfna~WDA9NxeRIYkxfkgnVXuTkMTk2zKPuq80jtF-jHTgwzoMKHkQhvurUw3tJ1iRepjNrtEmuwmcSoJJbuHbB2LuBWwL~-6WSTiSaa9iUEvIPWDgKfJ5vOPyEFDUWfBcnt26UbXfVHyRsFuEzWIG0qyXElxkuFOjTYE4fAY3kcH0N4NuSGJJt8b19oZ9SssInSKgcJKWWc-m8C3~34yYfIGmZl0jtw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2ca011f.jpg?Expires=1790998420&Signature=eJF8GjKzvNOt8mRvrLwdEjJ1I4RYuJd2e-WgczZ~kQOOnOEL2DRqP8K2mT5C0zNbrrSSk6SC0i-ALm4GN~B6BrkH6rrbx-TzR4mx2W4VYJ1skjuAVFRkhC2iiJo39PkvjDK05DNhScRf2EQPFCb1QAUUP6hYeckTXLOIhqYbZhk5s6oNNA-ZHAFy2Wn1~Go99eVVf64BzZuq0whL2~KcNzza9D5mhH6Hub6lV7sadwsbbg9Epoa4ogRo~9VccYLoZF3iFRE3-gGr3W-MnxYR4s4CxzhjcX7gADrAHn8lD1BPlutWqPjiilYI9hr4TC2txPXZ4mjdPtoyw~SOcndijA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2cc0120.jpg?Expires=1790998420&Signature=PWGTVSrE8ByQgyFEDDXQo0ZtwBVI5n1peZumTGDxK7yD6XQhuafZPivs6bJIOxKtCjqwMpoZLQIycaMEbVBBn1xzaCHdG3pYVY8unomiFTNeUbFJ7impoElwls9uBtuEtnwFV-jNwY7kiXuH6JQYdZFto2iZ2GJ-YkdQ1Tsv1CZZIij7IBlUsDtOKA-YPMpzMEcQNhyQ6FxrMUOxbgBM0MBbLwBNwym5zstJyVxvwth29~UT4sGGzXRyn8ikz~m0QDkBhCm72Oa4GfQzulB8EJePZX7HRdVD1HEMCysF-A3OPqRmu4RR~NDOF~pza1gFfJTmBquMezhZgiDQGvxXPg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2ce0121.jpg?Expires=1790998420&Signature=bV2mcEiUYEAsYNVJz1EE~yzwV6NN~SfpX0ho8xLComZ5YR0hViLtsv3tKzTNS0JfjNQ6qGIyipMSxVpcuVSQNi4JQpRFzP~opSZN68GOUaZAsitzQCEy4XJcG3zUUUN7C0-PY~sROhUmzOd62O4zK~UOlIJwWO-w~tFGV74adE8hpjJ5ueyHEpkVRhejiSUzdxUCqzS9dNJDTeWyJXbNK8ZMQ1bsaFKBRwC5tsfru0xpnMvGn0A6Xsk47lM6J1cwE4fdPOKC45EPQpawvVAvvh7mBfxSDNDQZjAjJU9muB7pTDE7orUeqGi9Sgqrx8mKtNprpcc-GtWiy-0OjbeJFA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2d00122.jpg?Expires=1790998420&Signature=MX2DGfyf-pOyO4l12Ro9elH8Rgloak9HjJXwHtCfW2on3fpSxkRGN~atBUure2o6hNA9OtL9Rvx0sfohGZ6AvPrU5cgoHu1nEPr0HGA65LIdI5uYhn9SgMGwWGPf1k4JZ8dFxcMfDuK3QO-MXQD2h6S6YAEPcDywxdg3o8kr2zBoAy6pKJrFA7lp801CFsWF4~MmpalZUzn2x7iSf~BFTzA18IlnJAYzmkub3AP7AHt1JU58zeQtDe7wA2gb0HzpEdqauTP5JBPe2~MiYKrCN-D5TGE6sHKHK273OSWO8WBnhs-Ys0v1rwEak6GIzNWOnJvCkPksk21q8hW9Qnhb~g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2d20123.jpg?Expires=1790998420&Signature=mcR3HPLFdM~qE-H7AknbkKS5PytZ0di32C9rPjGJT5LIIpjjaPQWauFWiOglxVTe~3hY4ZRNoszfCammJC8gGxITSl7FFJ-Ulk5AP1qHQEktEcf6cUO4gBRE9PlXKPFZuZ2vahzC-RJa6wsYqoODqmHAwCSF2VWOFfeDoCVypb27ySpaXA8v7K-HnAy3lKWrzDUPJvPTgffAs81zfMH00sTorwue5gfHXIOUIsBXx9i5JO3bgtAHcf-mm72ewCDb-FGz7NmWtG5yWyftxJ-hfLSov41pXv6H7NRp0nRjveUvvX6Oi6pMTLk3USMsWt9beLVbokhp6JuzBBG~dTxJsg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c3011b.jpg?Expires=1790998420&Signature=VQR-dv-63OcGx7QtWIjS31fYZn0QCQxT~pRZaM7-F16KuBKdiJ8aqE8mpAfkloVxa-l8ApJRICGFR4LAGBJ0eF7KaDrzWlw69a6NCfU6-j18lhdUHEN44yCepjq5-pOXZH2z0WeOyYK0FWeuUkwS3jB90Zgwute6SgocUt7Fw0CNHSYPN1vuqXX45n6mmL~bSzg2ocgqLNTNg6YOnvzZvo6OD-m1on1Ve24rjYc3xFq20EwtI6Fhe7I0bce76d2jDJsO970soGY7Unw7Fq1-nqcezFTXe3OSkh5uzkyBzqziS1nLZbqm9j429exXhkVD2eweEecazzt03gJyiSzelw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c5011c.jpg?Expires=1790998420&Signature=W2XUPQowjM03jOL2-07Q4TAbqak8XSTTb0STb476cwHN93iSaVMwbX9jYFqNWKImBLnLQf3QcO7aBVbQmtEn~oh20LEaSygBUsqKEXV4jxNAyAQeYTtf1rlMg3WdrKPcU0ZVEhIdd4YHa5F4zHCDeF4WMN6Z7q4gcFEn1rXiIL5H5FSsUv2Jl4hBz07eV6ScpUrRk8cWj95QzCgjDbWQAukiIBWVLgIRdljtuN3WM-6wcqV3mjQLZhQ8OA7RVnl-pOHpjyQNTRo3~TpYEcG7aJkYQBCYfjywv28QRH2yHq7kFZcJhGNMAE9~~YGTuICRkV3f1ololqv5TJ~CUF3maQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c7011d.jpg?Expires=1790998420&Signature=YQo5YFNpu2TL0vEVMp5cgG2P7fhB6vI9~e9fQ1JIurcxXRxpLXShLRrfZ50shMtTEowiab0xd8tp6DaTO3cwUNdX8cBKZUkdTfI5ylfnb37ksHfht6V4RrAksMUldWYX~RCJdk~Tft1PXGUKQDgEgvrtRBx~U48bfYoqvR7rnJGVgIUo9vds7J4GxaSR7fIMjlCesOAaYSXcsNT9Q-DwiBsG5kHfl8Y4I6sR0cZO-Tse3-bztN~dtCWj3wTWOkUqy-hayNoRvYgpKkN7FryrbgMSzqfNKKl-ZtBg2xwHMf68hD6-eSUGdk8gTMvw1ApEuZEiqZQuNUE77t1kxF0T1Q__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2c9011e.jpg?Expires=1790998420&Signature=nrSqXIVmNHvkjbRi1qdfDWA7OM3ehSi4Lrs2-LxLkxeTaVbaddYfi7ozhjsNhzZW25x3CXhqu-wb90hIamN7XJcCi8I6zg9QN~csxmKz2coxYNz9u5Sspab46KDtWB3oYotLLxr8eJVDhgaT2KJeZe9RSyaZYVpnK4-kakRTjttMRMBh-h9KibZ1-57Sin1GiZlD1ksDNQl9f4Wyz0dQR5clbtAFk-UmsKv~CAWH7KRUdeDZMfD7ZNsK45O29aGXhkGG5fFJTjHnvQY52Gg4P~yfUYZQBS9i0gg65k8zsLAnZoHxK1O-b4f~UgBOdJJivu4~1qNBFflG7J5le0nKjg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2cb011f.jpg?Expires=1790998420&Signature=Ie3qwXl45vTKzS2N0iu1AWLjjPB6HOncPWGayeIDFmb4I4lr3c3d-ewTH5Z3amgmPd3TGgHFd1FfZQrPrwpU6S~0w7qIhKUAMv8qKkP0fLEis5~eVycP79bKjzuZPH7hYBewg9DYncEUW55d7~J3ldVPrCErRLKHl1WNwaZcCU6YZjGop4hh~UWplvQ~7oIZ9Sqe6ySDkTFYazY7MkN0icvjEJMDzDCYogWlfY9djygUuW1RYMRwxQNELoceg2DkicwarB1zPnQtzDQzaiJRKy73GxiOxzKiPjKbqJ1Og7WPt6u2vYeJgtcc-5~GAzSFImoTgB18KgQPBL3l2PfW5A__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Past_description/test/0/frames/image-2cd0120.jpg?Expires=1790998420&Signature=suZVTFFjy0OwLaVf7y3GhCgDQoE8YWMolnqjHHc1UtxPYoHaxFhyz7bTXOoi~ToQguGUi2bPxK2SoMenbQ6aUsoIJuQX7U0YhojL1hgWbgxCjUMM3VaMT4N5ki6kIuqO0c9njp68FAYIblO65MwkiYWhEFy2amgkKkPUpILd~9nvnlQEmYQW~~lk4ATFvgJef8RSKM4dfbrmI6sTBnELsFg9oRH5hkK8qDIQEHzDB7gxh5hMsVwN8Cuy-3KtPZh~GgvsIWHyLYRD2TTJRQXDaPmpDAiEO2IjDFY3PcJusXpdru7SD1tZtfQkxU4FVIps0RShKeNNte2EQif4olbfFA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            }
+          ],
+          "category": "Past_description",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWhat happened immediately before this?"
+            },
+            {
+              "from": "gpt",
+              "value": "<release the green object>"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Past_description",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": null,
+            "response": {
+              "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Past_description",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_10/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          }
+        ]
+      },
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Planning_remaining",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1d100e9.jpg?Expires=1790998445&Signature=iK39xy13HEW3qBXkXSsgNoR0g4RzUGaCjyRAtgf~jlbFuWc~G12FyZNMsJqaj1cVWdcBDSQWSb~vRDGIAixuBqb~DfKjwFA0FmDnzUL2E2xVREdmLuTjDOQlUQ7cNM4XaOlZK0WpNiCb9aInkZSfjgOWmdp3DgT5D0mRPO191sk8PvutOWzaSlp2zTAmgPLKSd028MNMCLmgBTM78~NvAU43u2b3ZbPxKohM1SreQ5qLzizz~7~WpynwGX-6TQqy3q~WxmL7-PO-TD-V57ryKI8dGtlg4yZrs~X-sUCd6VnEH7UFpAMni3MonV-J1Gw~6Qxp2ee~5Hg6whGTeO6ZjQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1d300ea.jpg?Expires=1790998445&Signature=Ab2fTE9wr4~GmoW-o6pKbmUlJuKO42A3yVQNeMflvlKC4D4aGbnaGdi6nf8gJC57EUl0DEEB6QFG~TaovVU8Kn8JgXR82oEtzA3nmJoYpBaqL96XxFGev7EvPpv4h1F-K90pwp986KOTQBcSMCNsfEfgQrYJk9rPy~pTsL9ijLbApkqmhm7qWf1IZ-pQF1Vq-NK6VqHKQtSHn5wQJy6HEhGSd-v-bVNgcbt19snez39SOg8gNtevqY~MmQsAc6Y4OCLpFV0yliT5RBOL6Y9rrRniWhy6mHHZjwfgJlM5TmBNThuvKbLAALn5nydfy9MC-Ag1YnGRJW2sgQvM5uh2IQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1d500eb.jpg?Expires=1790998445&Signature=NrzPeI3cePxlyrBdgUANf-aKfRzeoXGuEqvK-OET0xBpOmitDjp-aEO1FjnBACydyDBwkAHj0wtpmNd0~nvlPVQW2I1TMRB9wilGRT94wdnavJwBrOtpkpGSsNHlTGa9NwzSPKlREGk3lD7rCLMR~hW2YlJvApdzEW-yDBqHG4~drmmhFl03e81NCuEQnnmUev0OXXEy9yJpB5VUuEztmOyMUwvdcjpRnp1Ko07OXTq2bD8FOZ7CLNZZv5OQ~15jx1n3TLrsUowCKlDQ8bBnkBIuIbnBDg-oOl1hSun5jmKdnsgL5KbuIpo5kvAqe7RbyOu~iSCy-eDQwjjzpjxM3g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1d700ec.jpg?Expires=1790998445&Signature=vVtzdWVMazr8nqzsq12UHU9rcM833yKtnzMm8rVaNgQOhKmMpxv9BdqKGxRGtBvwp4O8YNLLPIurFOk7Q~A3weB~vX0XwBoNgUo78-VGWUcPiHSP26cyRJahEZ-Ikb64bYmj6lBjnYhtOUQi8Tld9TXjtNu4eqpaRVjNc7WugBFG-7lbkQdzUgineumOaZr7xwJvzX376CvpEQMTGtBF-8a6me5JiX4UhSvi7NHLHLPKXvLc1QfpjIAnckpYL2TIPTFOrXDCXaf2s9Fm9kWBQT0J4MnSqJOH70lhXSc9Kf0Lt6JJolK71nwbZKiXG2a0Z7CV9oYNkhW75R4ET0LbYA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1d900ed.jpg?Expires=1790998445&Signature=aaSYLc7grR-OoKyoGC2tIET3CVaytx09iR0tmRcCwTEeuVJD3nXttsM6XthuOhleAaXFM4aty-l1yzTIQq-ceRfOFM2VLg0NNLovInBFmFSMueGomnYf6u8zCFCG5bt1bRZ4Y-ysjrfKqTxs4T4dg133QBoCVTiWbGgXoIpQ68U90e-axcPlMaX2v8FvOvUyDPRZ3tq2r-X4YyUHAeTka9SDlFgofyfhVZdf-0uB9dKcJKkNdVajWhJHnIEKPfRSWtDvRgT8k~u8N05ezXPOPofo1YgBQkLANiwJlrd5ku4yzmPu9HowDK-d8vPviG3r~dKHS6kPmv00jOQ3JwQCtA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1db00ee.jpg?Expires=1790998445&Signature=HqsfDYjcsLv4OfaqY3OMPsRsMovz~-n1ZZMW5GedVQdeXSYECHAGIxf8vXFfPPq1w1V8i32kUGz7zbBn44TncVdiL1PQc5PAdSsthONQGa-im7ioOHTLYa-PwkdS-zGolsebocEyRgFFCn-Iokcr~0Y7hTTpj3oE8-WVS-8ITiFsPyTbRB0aSZy~INGdSV8dURZ-8X6jCaGMiXkYXn1O3WQUdW868srIRe4KRdkg-i2axTYuuOTulR5NpdH5L~NIfjn77ed9tWgESG6yJU-jlfYWUNBaEgPkXZGiKziOfVHMKzo3nVGBM~PdqTg~G-0v~Ev2MShWQpXEc0PrlxjOPA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1dd00ef.jpg?Expires=1790998445&Signature=lZ0Amfno9YTZFrg6rdS-0aiOxq2kuA34AMSa1iPFCTXeTN2SQf9zsZxvC2nkhAooOxqRBi9-TPid77eYmpkIXdqIa4rscs~uw-ngzBv0mVBVF42zxyGpdvbOuzdQ8rSvwh9Rqa4FKzzsDHQqwPY6xJukHV4ggZtDek2kFWPC7GjZiK9vtHn7qolanf0x9xmpb7lvp7t~AfAxHRAy0A8kp31xBNgWkVAxuRCjMeaT3tRjM8cfWy-MVIPXznbaffdelV8Fv6bSloBvyHx00scvhHqI-BMsY0Y5ugZFTOR-ygKBGoM5OgzeES1anIDtYREIwMWnaWeYCCHNYSq7Y2xbZw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1df00f0.jpg?Expires=1790998445&Signature=kl1k76AeoYvKt~3veHiKLmXkZxixDcs1~HozqGCq0gEXHXl~UNGIUKikpSM9kuwCbdFQoXLwrLwEWlWqdaHPwKt7qfZdD6reWsUE3fn7gJjnMeaQvjA4bFMO88fWhvSYZhl3K~13kmioRuqrj9aoQOIsOqxJniS2ThW61a14BH2qiQ9sxc4H1qSeLh59bUesMnn~-cwSF1WjcD~JVU1O6DQEqTTsUzmuqK1qtZ4vBPB7IV1d7oAjIMH-0KNspUccwWiOV35Yzr95ckDuWgUMdkyx8U7YjsNhnfKXSpcAiXq3PBwqmLdtr1nsABDgyMXTCiO3vMqtRDf8X2d7nwn5Hw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1e100f1.jpg?Expires=1790998445&Signature=hpeKBKmJKiBFQDL1Wk7B~4-rPghpTvzizCs1K3kgGxT-0gnHV-nqDeHrrc3~MQLMBw3Ek85vEUBxmQdudD3uaxDKf5UIPzfQIDPL5jbTl3zdy4RabGr5YsI5W8BWiI4XfqdVHNgzn43GHa2Aw7PQDUQ0z-OtQU7Rm~ogJMX4vBR~~7WI81T-ePg0b3zjPSCO7zFHNUyW9aCQw0BfRbvvhmaoInLOZ2czkKT-XFkc~3DDIV-dJy16ZO5A2xwVQVvIaPXfNgwDGv7NYHAiAhB7Ld8M1RPF3y7J9lDwjzLfj7sZEHWiH0yXWPI2ABWWC0sojlSMOMWOG9vJkbraXvZwcg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-1e300f2.jpg?Expires=1790998445&Signature=ZowG30K-7SQjvphEnTyecXOGhXwvk-2-VsiOVz4KN-BNRREMDJYm6bPBuj1pvt10mIT2aAjUNgdx2vBAAArfV3GPLP7MfKspTooFVVg1jQ-1JgdjkuLI9YduYG-2jEoou8COu-4om2kxDC4NyR6s8afGCm-Rz0U5IE2ususHnwJV~0Ou-Wny8yrukm2~uzrx41p9doHAyHMCp8uqPE6A~4foQXwPAUoRMVyT9aj~hblctgXLCSUHXlmRjmR1kij~GK0ZExY1Ft2V4OYHErAmetVEEMQSQj0u6fGY4HO6WLVHW57iaZ2A9XNrqK41Zbkw1ivfm9sooFGspsIY3PIRNw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-2c0011a.jpg?Expires=1790998445&Signature=FfmaWf~h4uee6PCKswpQ7RdKORCXcwdkQtCET5ZyO9KNEoU7AZqFFD4QktTzm8NFzfY-y5XLGccXWna7hLmdsX3R34q6GNJePQ-12v0SyHdzRVTUrIs97XkeYaxXJIRGD605zErRBxUMDamy9Pr3~dNIRGcG-9h51v6Qzu7FRzqvy8YwZJpdBNhYGc2VIGCZ-ibjydDw9czY7kifFK0i4WrGP0hEA5hkpsF~IuXawgRDGOcFoNDea3Lbn6AVkul9g6gyPpf4Xih33dZwButl4T59iAF7lhB~LBbiQiEwJFVL2AhFE5PbXVy-9NBo8Cdh1AkCHEDX-DWgrLFsj7Vi7w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-2c2011b.jpg?Expires=1790998445&Signature=GcOYyEwirEKMTidqtWBWVOPsSLnsrHb7OPn6BBf~FSZl0P~60utJmABwuotCth97-wFotrCQRBOfz~sN1nmh5C1dsGkPpXfMJK6k605HpaUCyQeEQJe3PKG9vZoXFdx2ARskhJ~PehGY0wKECPvhvb5XwoNn03hvEu5ReP5-V9no05iuMp~3vbMGADdm8o3AOjeH48F7R7iVf2lawb9mTnf~ms2AZyL~qauUURLq86vbrBPEFwaZYhGUNho5z-7z5kXVD10THIaXe5tIrohAs7VaSMDrOftyW1fMpdYMSUz42GrpaZC5Dj9KsNfrJv1ABUESJd3ni0SN6XwhQCl71w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-2c4011c.jpg?Expires=1790998445&Signature=ByTHYaIadckDJtkPkXFrMjH7-mMEmDVeD709um~lcfBQaNZ493vTLGVEURVpKnArkPXigvS6PbxKSPASW~FB-ma94fuaOgPV6J13PBE6AlX4KH2RyvSssgudhdC05S1Ylepx4aRMK1njD~9X2oj6cKmCdG~UlZnYsJos8NjD1nXViyRdfyz8ixkadBF2ULblVSxJbCwBe5qmRnrJ8kLLrpEmITYYCjyYbT6cn~sV1JPHuMLNDo5aGUyrseNeAFSf1OX-12LuKtC5tEYPU-FfK9AtdzWZF5cBn0qThNlCEXj~ZBJGfmp7ee7lQmr9lAtfuvu3Sj~j9DKDirDQs18WNA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-2c6011d.jpg?Expires=1790998445&Signature=VuILLuMsMbNq7hgaaIZla1uzd4OUvwqvvr4M~5v1rfudrRI0J2wmH8A7v3ER-XmjolJyhHOQXIiaJpHjMtL0X6aX62wM32fnuiv6cLXXDBVUO~pBqXAAuUdxfZiTAy6cJmiPMgKknbpQZl8Wfmh57~tA0NDrx0cRRFQH0MprJxIU-K7qKPZTpjWzICi56YXLW1C-33mw5zcz8hh246phBBSiH1V5vAdrtcC359KItnuBQMe2BeJrcowTp8gC8JBOXf4vRSoSzDShGwvDQ7uFRYel1uU6XFdTtrzxxmfDeHW07XjGv-40dN39saPwBip2bjE~NgWQC1aHRDJgcXROGA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_remaining/test/0/frames/image-2c8011e.jpg?Expires=1790998445&Signature=l8ocp6~zdDAO9wt-XejQtvci1p7E2G6DXqD6os4quPf1-1APaQqkMZ7NdcDkj888xdEgV-PKPzD~30GNOvcXnniq9rdPb8jW83pPj4An0jkoXR~QErT1VW~CUeWAWiP9VMJ0Ky9D7xlFIvUzhRBTjRVqiRCsuVVpKy4Kq2bzuXLWx8p1JSH9OxZjDgW8alxx2blvGzHck59fjPDKkFuOII1eAnNbYnfJK1~OzMFj0qTD3wxkiZVwMzCwZUgiy~f-GXE1PjNxf~f2aUXH5eBdSmPBQG3dQXZx8~YO452DlJmtXd5fiNecn9M4eBs4EQ1qlnO~WAUbGLV44e3R3FKjAw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 256,
+              "width": 256
+            }
+          ],
+          "category": "Planning_remaining",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nGiven the progress so far: 1-<reach for the door handle>, 2-<grasp the door handle>, what's the next set of five steps to move closer to <closing a door>?"
+            },
+            {
+              "from": "gpt",
+              "value": "3-<pull the door closed>"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Planning_remaining",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Planning_remaining",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_10/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          }
+        ]
+      },
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Planning_task",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1d100e9.jpg?Expires=1790998486&Signature=u0sKj~ppr0R8IUQlP-WvyUrKDObHUg0l46ktrDKV3q9dhFUwPkFyusNbjxMIjae61rznOLvirzXFlWZHxfasQKPfDe1Uvvj6YVzu0VDn9W4PSmGCmdVka23aOjbUrzYLhtkBmwK63QmpZBpLbZRwKmd-z7XjYOnewW6YZrnzF6cQfG0P1OehQs6ExVJ5ZMzfEmvHTSiagA2LojRW71dODUiQOvrfpJewlmB2XuV9NXhtTlgzwUPfHaZqo8IWpQ1AqigK8grSC-ZNBCFOYbloRKvB0i9Fa53taFKXTpgTK0q-TnPuylYmH5TCQlmZ2QikRnIQ~wFgMcR5nhPaNLpCnQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1d300ea.jpg?Expires=1790998486&Signature=V0IACigLBW02qTdEMxIB9MHvBe8NYfjwmOcCJ6DgT2j7twawrFmt7i0BP7NZ4TynDTgyK3chU1-xiYVrsyzyAu~2~bCTEFx8v6amTL5cOY7GceHQdCvUxoBOtX1dR~3heJ0kQ7RDWOe~Wum~qVdF5h8xjytAhP9VNU2whl3EdczeOA4nv2C7RnGt05HK8WWbz3YXNIJQAKDqIcL3ipQAPCfMxaiuoEpKIZuEllVH1YeAYDWsko-iyXPRXRJskPW5-vyesfE0sN93X35qzuaXLiR9ZbS7Bp~Y7gth9EGuxo~Xkg3O-0Ht3S-Y5aYt94Bl6abXGSfrKeeHL1yR78fZjg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1d500eb.jpg?Expires=1790998486&Signature=HBDy05T1W2oOuAVoZCtzXSzFJ5Of0rjjONN0Z3ZrXT2fVL-DzoAGARUENigI3Qha3unM7AxbUEKZoyUmBcahKOTsexy~CIVc~lEFrGQIw-8Bh9892t-kQYsiTyIGcfvbR5E-z-3YcLDEcQvACt9ErU0h-Otrfq2qiPfNOTzqhrUpZ9JxdqOGvDrUoimR~lysQC7oWQ40xs8fwHRQmc0UJMaCFQ2zK~eWTfEqb9ZopgvuYYci-UeuyqfkN2IVuX4fSwZXfJB7dFr5AN1l~DMN80pf4upBypZ2Q0oUgoYfWpEOAow0unMG~UaPBlpvmkFtzdv5YoRUEmuEZH02l2ygXQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1d700ec.jpg?Expires=1790998486&Signature=Y6Igb2Kzxwk02xkdm2FVATROepvJFF-h866BKJiqf3cNfuWASwGoMXExevRjr-RITNL1-O6AUB3m49JA8p1UYJCSwjtdEt7hk8wC-IK45dUmPNjz7t34NmZQlsv7BiCiBaFwMQcKuxBuaHgA5~Eoi9zsXkhCsFmkCCEvXXCp8vVJqFiwnWvgNJ6dNBdngHECo7oEAfTMewSmFl0lLi0z8rS28VJvL7UdLaszCSZVBExDX3yWVo10yRHYXTpCF-syKMSc5ReIQELuuAODtEB~piRhhatpFYpGVq3nzSP61szpT4JmmQlW9kkHTHXuHPW46K3MkjR3FPHYpMPd88TTTA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1d900ed.jpg?Expires=1790998486&Signature=e6v9HFJ7nsr9ijrRNDi2RIRZh9dAqIZmqzqSp0f0PM8slZ90A~5q0aGPC8tukA~9xHiwATItzQSrgktYH-T5gvdgJWeWOJHj3nrnC9D0OtUOZyBewSQ~43iPPHOgPGlTsscjoYOzfXl7T92dv~aEvSFQdTHouyzNX1panBb0M0~EzwwW1d6Q9kwqZq~I6XN~L9DKVrFgWDgt3lfmBVZAbpLCFtlSoGhQhhHj-QRiNngjZLY4p58Y1ikyDG~UrdHgCRheR8Bw15ca2u4WHM3xV0krCHYLqtPOpEntQHRi0BUG~puQGGvzVc~VBd~6nKS27ZOGB2hZMe8NhTRysI4DOQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1db00ee.jpg?Expires=1790998486&Signature=sUpZ6RLt~vbFhffbZMhgtz1tfeXU0pr0aGIZFlloOMELSNZkHFfTg-v-lgUA3KO0Lo8nzhYCtPCE--UIkmtBwKQzdic6QDld7e3rTEmOZAHw3LrWiK~hmDZXg3pt6~ST7jR82WESkUmDJEPpd8M-o7d9cAb5yXBlvQrYTI1OkOXRLiHZt8eMeuevcgV2-gIVZNMQla~R5qeewNN4rKoXjIXJDhhMCovNiL1n-QBo0j96mK2BsStMRU~ArgcNJS1WvnyfH58VVYPFW05nfTYk~jm5pr-4ZxDddqYI08N~LUP2JeUTRnJjbTIDkqo8CV8SQqtDLKVutyzAcBAjFgEmvQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1dd00ef.jpg?Expires=1790998486&Signature=QUn3moOOSNPLTy6JP4LpKffBmsfPWG4znWEMb4nLRYMdFGinl1RJN3yEw42xA1ybDRBupTMxew7OAonZcAuQxK4d4t4HSXYjM-wA0QwLk9WQ7K1FDnXPa8bzQ6Yp6tg46mr00d0nJJoWpn~VKZ-6rYFxuh9BIOgQDPEtv~TaeYnbHx8InBqQ82Z1DlCgLg7gDRjukws4mipnQ6-bTyXTLJH1aZU7n5PtHhD4OLTuzYXtIPd-Jt8sPq0~xmcwlZVTfjTBVbKDEPtovlVGyrJ0KsajOdXvmbZDjWEFe~nXWo5n1k2-4YzvM63oub8A8ma2555x1OX7wIl4PgLtuCxZoA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1df00f0.jpg?Expires=1790998486&Signature=PUDUi3iC53b3qpnIBCI0di3JR5aYQpmeeo6INnJP2T6EzJYHgSqAQ4NBufwJwt2z~4yDn9sTh4bLkvdoBPE9N5oCdva33waf1i5f2dSDM441PCo2yWrDjuv-7xdHDFyav7e8oao-ZktIOObnjvIu7hCJHHmvqlw3l45jYZgaub1E6AZBnLF~y~OO6SQO5u3C4ujrVg37~qv840EpFZCybkH66ptN1nV7ZChc9Eb1TMKJYy7LAdFBlw6sfpTc4cEXj6CefB~8Uw5q92x8CK6h2SBu-958b0N2sQFRxj57cyA7wU4fC8KjS~h6mK07VoGz6S2BprcNY4NWJ0RMWKDRaw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1e100f1.jpg?Expires=1790998486&Signature=SNVHGZl45vq~mFXQFqC~DoFc2uNAgg4SWN-SiYl9LjVAboCL12kUUSPY9YccJWb2OCBaWbH1me0qBfzLHbr41ryEH~3RiQrT54fyzCFmZNkOsLTIdgu2GYO6NwGQJgs4s5dnwLOVJobySq-Y2FhaUpBVVcIl3utxZuP7eKBx2n27D~Jk7VvODIOkUiVtbrgdQPAugAWNJKhkvFwhnuc-NxqYlY3zoKfOS8rQVKWEY6rcWsAUqNjTAfJhg30c8MK9bPwX6Uh1ckvVR~JERdL5XE6muvwpK0z4QKbMIkt2J3tKOCEXGO1xlADjaoOEPh9-vQQsgy93F3idL5whj9xfmg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-1e300f2.jpg?Expires=1790998486&Signature=udPBTUypOwgmWdZA4FlYTXCQO~6dKh7ZgKNxOWDlkLEWxRqa2hX~JhvF4FZ9UkEkv7egdfFZwbS1sapWXmzG5nrMJ6f36ZxH6oRub728z-j5GAoR6HBZL74vVgEj6Pzh9FYcs8pAjaqmUYOEq8CRqukzHF7dbWzZFgoi9jPGuekh0HOTSBhxxZe2OZiPw~-JnTUiua-koahOIgK2HWNPnuIvf-PAl6vP3Xjerb9hIOuYtM1xuLqYCoMOvjh1nhaOXvuF5CBHMm4ZAXdOZmMXB4LTm-EXCUUfxzzIiIqCW5amEmqYLgAg4hIwp3aD-bf7liVtuoiGpHZ~Aju6n7B5sQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-2c0011a.jpg?Expires=1790998486&Signature=awooPjsHtsBo4TCJz~6Q8R3E5p3LwX-KDzMrO2MBv3E9EBl7Y9PApcWf~3bOazHq0QThU2W6CvpALF7R~KVY46IPYHLJhivSZzROV9Vz7euWMYo-INcBcSI4Dn-b4h5r2O225TAFFr18DCvsXi8Qs~j6gV6lVwhaS6F-msH-q3N5K4PgMtlwZ0TL8IrHEnu02Z7hPsQXehGuOvvi4uQMOFsP2pQvRzTZOkOmhcjPFmlNTkJwNr4X48Iec54riHfAf4hYqL8b4SbvtpVh3wD-bd7teeqiARlE0M2Tds5-v8GWU1GzOvEo7bYAllfDUZXeOI5xs2aPs2rJq3AWlIDMjA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-2c2011b.jpg?Expires=1790998486&Signature=L7Zzh39c4mf7WvUqDa95F4Jaaux7HXpsYvmONATaobe1GG4gZNISnXS~QxNpiDfpIc4SEj2WxI9MuyYB-A~DgWY7ah97RwRPdffFtM09EGihnws634iiG201gqDmsz-eAJ~TqIQLO13GDIJqXvUSYPTe5QHMkZzq5q8nvXWdxMbTEX-Rv6h6SJc2uTlUnuWkb94UG0ANiFb4Oi6~rcIcp0w6eSZ0tjmu0QP6aWwI4S~vVlPJbw9VZNYT7ognded3hsZG0nqo~9x8DkYMzyIzcRC8B7DC~6hnQY-RMlmRuBrHOeqrUmdNcXLW7gdKypj6C9sqaaVu4cqtWYNZavBVyA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-2c4011c.jpg?Expires=1790998486&Signature=dfzjbBct9M9ul9bqzmYt8KgEgB3cHDnJ1XUIGN3lQ7d-p4htBRVcWilvEH6ZHFU1MhpbIHeC0QNmKNy9o06bkGC9iadsPvWG7fm2n1J9rUnGRFQdceNpaSZObCoG1G86YiF966-O3Qf4nc-hmaMIkz48P5oFlFKX2D6EX6x1ir9EZ4qF-e-Ij1s71a79cAXfXLT6tTgg~sRGxceG1Xnl7cfkvDwW2XCD45-ShJsQlL1eJ0aVgNtDQ4ckAy6mtD9Pqe8H5BSnxZsn6r~DgRuzbJwudnEGB9fXpL7l0sKtJRL61BpBtj0REI4xSCJmS4TNks0W-mftGNB~arWcJmN0IA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-2c6011d.jpg?Expires=1790998486&Signature=wvf2s7HDNX6dQJwLvBbwERwae8vzcTMovbCfO9FPmzGbTzg1u8cI3Ph0Y3LZmSxbLmZds6PsdTGFBdf8fg4n4D2bgdAgnFWTlfrtaqQrehs1cYA4olwKpTaikVNVl2mG-P7ulwMmCdoOQbF9sL~q4tOqnuqx-ewTOQMobriEJ-vDL9s9lc0rqXBdx3SzWBSwWjT9ZU95JKwhWAaGChSPhl4LXbALZm74jkUCfUdikpXHUmdTDqN5KqOjQL2OlHt~5iOgStHn7Plc11hDMJZIv~gwS4icIuWmboLgCn3w9iNYll50LqZQqYcRckQygAu7-OER4U9I9fjAoBq688-ghg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_task/test/0/frames/image-2c8011e.jpg?Expires=1790998486&Signature=jbAULjZYztBRJM1OBUAN9rWvrFlj5w9bp8HW-PS7uTIsIevh96iF7pkZMmGlpK2r7xQoFtIWo~A6lnh49K-oIy~fUoLASropjT31yCM0SU6tdQTJ4hM56ZTDmLLM6MnlZ5bLxea9YOh9SKi6iJ1TghyUvx--wYKPnx7IzVK0zHMq~fGP~d92~XQr1KO0-ljoAsptq4FBRuEHUPNJoVX6t5TJxCpF5GIzdrjy1x-vQyac6GQ~jWfo951ubgTRGs3oN9kDyjdv70t22JvOfsAIkOeSkaw7z2Oa44CUgpdMJKbuRxZA0nyTBFmoEJNC6kuI~94pOQyxKYVH7mcK25PBQQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            }
+          ],
+          "category": "Planning_task",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nGiven the goal of <placing a sushi roll into a pot>, what is the most logical next move?"
+            },
+            {
+              "from": "gpt",
+              "value": "<move the sushi towards the pot>"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Planning_task",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": 200,
+            "response": {
+              "features": [
+                {
+                  "feature_idx": 0,
+                  "name": "frames",
+                  "type": {
+                    "feature": {
+                      "_type": "Image"
+                    },
+                    "_type": "List"
+                  }
+                },
+                {
+                  "feature_idx": 1,
+                  "name": "category",
+                  "type": {
+                    "dtype": "string",
+                    "_type": "Value"
+                  }
+                },
+                {
+                  "feature_idx": 2,
+                  "name": "conversation",
+                  "type": {
+                    "feature": {
+                      "from": {
+                        "dtype": "string",
+                        "_type": "Value"
+                      },
+                      "value": {
+                        "dtype": "string",
+                        "_type": "Value"
+                      }
+                    },
+                    "_type": "List"
+                  }
+                },
+                {
+                  "feature_idx": 3,
+                  "name": "id",
+                  "type": {
+                    "dtype": "int64",
+                    "_type": "Value"
+                  }
+                }
+              ],
+              "rows": [],
+              "num_rows_total": 0,
+              "num_rows_per_page": 100,
+              "partial": false
+            }
+          }
+        ]
+      },
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Planning_with_context",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1d100e9.jpg?Expires=1790998522&Signature=jUq2cR06ppF8kdJw-bEeni-4UakqDZ2SafUEpyJaZk-RYZT8psGjNmzQMnd2ozAifNt1Cy46oXvEITtmhKXsm~3x4RbOhAtAODZzJyo-NmPXiWAz-a1BtF-5Hw3rNOrMPCMIhaz1oxXPy4JCC-bspSWNx1pOS-2E22OPrVl1gycgDsbLRXVh39JLnGRys2-wgMLs2GiW9nkHtwH771z67rWThPtQersE1oKvp9sdkLqTW9y27FHlrwSICz0h0MyDe4rkVvxLGcEpPMRh-77SZ9VAiAy2Ifb5IG~cQMqdAlvWc2NGy26t4LKqxtOyhh3QM99B1Hb05uxtY6JOiaiBIw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1d300ea.jpg?Expires=1790998522&Signature=ZrwCqzuqpFB10yNP~zPtHDaudKvhDRXXxugaNdcGkrPgDQy-OaloMZxRojcE9-1LPm~Nc6fFtdcjjBrsPPeczmkbPtwFBr2--wZMn9BgNlOXINWuUbkowA9I0YxA-1s1RlwspF4hWW9DZWlaCihVmgjIPGk8AkEuB0PxlvbFIyp-PRfT796W~lxly9lw32bW17Kz3ULZjy4MzeCNSEjjKs2-kugXR7kUd04BLg6TwR5ryeImnISkOZK0jp1gTbcTlAhzINMEarEVpGT3ca3K3UHcHuPEeK28XBRqh6tVIUfLsV8cSiebYLbK-7WSmDZfM9Ew--ty7GRbP7PuuqAnqA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1d500eb.jpg?Expires=1790998522&Signature=gfLpeLWSJxFIyRfFjZTwvXZDnYzYgEFxjK~jKnQ7a62Yhv1RG8ho-UHsHcu3EtOR031PB33SiCJCyrAUKQLvKFBg8ueMJgn848lGPXuqDrVaEemepjvXyIMeNCrx90wtCVTyrd7L2TjEaN0t6xzM2OCj5WxklcjxostYa1LoThBgH53na4dHTpCpp6s-07Ogtt5aLkOy3RHKNovj-b9hu24g8CrrNJGlh5GNNGtlq7F5M~0nrC4fGjrTkOOJ4Xsv88eWnu35jJgWGAR33flg5KCDnjWnfUH48l~zD8B1zLm9i36ZhhbvgYmSgyGZS01yBkaliW7m1dpr92mUVDO~JA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1d700ec.jpg?Expires=1790998522&Signature=fxoK~1WAG7IYN-eD0RBisYKgTQ136EV8HuWeKtPC4LsENyO0wwEtyGqn~J5uKuxpQy~sNK2vMAUUGyqGebUYqRsaO5hayJqLYV8uRS~GY0ZbREIyJvvHYx-4MRZUYTlcDVGGenSwzJYxYlBJhAKfOfmNkyDQA7iUQ1UPqjX9tBwJG7VJA2QQO89hJOkgRMF1THZBpmpDOiEEFLlAAYaTXyjMKBnxZ7RDMYkNn01foo6~d92lquyrjvmLoXp38uKh376Bydu0tRPvk7njDlkPdijYjLa2d34IXN6h9Y2YPWqDQpVuakgvQVsJXUWtDEndwnTnBzTreuwdsxqBVLqSXA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1d900ed.jpg?Expires=1790998522&Signature=hg2TXJS1tUG8icwSvsYt4NPhYMjj-7ha9Rb9Uby~u5EZPW4097yK2N3M01VGLLsUS43V4JUEbMaxCxd0pgODmQZUOiWvj2kfaRzttQcAZNcYnFaYzNuUtkEUnP3UU~g4FvA2vzemDX50LUZWfwf6gh6nUbLTiHa4A9m~E5RtOR8oPQ0XqjpHAnS3lP-e4si0bn71IZmT~Q~mGd4LLxIfmtsYNfRBcv3k28ASg3Bj5uv2rjjIhHO-MJlm9jsf3RIaPWZY5xtTqBAdNHEXhk8iTezZC0zJlBuI~EN4l0OTre4rV3pqfQMwL1xRjNI9DLJcYSD19tcPfZ2s1-VaCZOusg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1db00ee.jpg?Expires=1790998522&Signature=ntVo7hlwgsLwzt4S4OH664vmNjmVnD08yQLcrCrRPfPS9U5NJ4tziUmEeR8ef73eYn6KdLm54Y27QRtHMWEKNifZ3GoFWB2vqTgYM3OMwOtyY4Bxcefmpu67oQ6Qs23ujXKdO75L2zrOn3ZlnRl~B0F2W09mAKGRtT1g5O4nsI8QSmFH2Gj0NuMWYWB9JrogCpexNgvUafijS3VOwENzt8~CfnucrjJOQLjygRnOMRtSCgDezU9-RsMpwy6IZRbEHtzbQuzlh8srs8ZG1qc6dxMemEogjFJYJKa5EsOlkDn-jeeYXcA08xuUbfR3A4QfQD6vREIGhqw~KcDp7gq2wg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1dd00ef.jpg?Expires=1790998522&Signature=jTbtv2tOBxcnTGuRr9vPonP5OXBPIZXNDOyA3eAX0OPyVbEG0tYccwkJL24w5X32NWeL5kJzvSa4j6ADPmVmPu~oY5ENKN30E9eLPfPDGOWfmBq0eMMGZmmcGImV34-FtdoC8j~ydRnS6O5PP-f89vS~LFQs3FeYNkHKdaJL7JKPxZ54tHkLjXaqoURyCBWc0lSUd~NQ-dspm1ZchCt9L5Bq0BPCBXZ-yNYfc1Gs~O~lGTuec6xuMKdOdDdiUUmm3fnqexKILtWHHfMW47FbssYowZUyag07qHhOF1u1L2fN7f2wtR2ywl5opBKwXCIR419Q-iNDsmmPjGbaoYm4Zw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1df00f0.jpg?Expires=1790998522&Signature=I6ZenOcMyEA0BCAHV~LC9CIfntciiwiFX8QgiE2qk85JDiAc5r3AcHFQJJ1kWx8X0oGYxQ6AT3FbbmB2RKMPA9ZExLQND-~BtrJv05GcIyWRAv37Y~KOP8PHLOoIvR-pg8f05Tht~Oix4APxAJrbuDrtyYQir9KxLT5r4ADJpPoRrPybjOvSZs0ruKpamnQJLK97NbmYRVgP0V7Mrq943mRRWEWvIjmj5hyKAS87ZzFytmwqBATJuCiJ0xu9fGkwD40AtuEHxSPQlKdtcOaSfC0jSwbgiOvvdAxVgHiJHXdrV1R~QrzZVHdrfTL6wZouBhw2R7GR9LwBkUL9KWZz8A__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1e100f1.jpg?Expires=1790998522&Signature=EcP5mCztGmMz4BdJ3kWXq9kntfw5i5v84v5HqwzZ1JxjZolWp95VrGxFG6LaEKCvl4rWPAl2LnU3vBjfPT7wVvFgV-XsSqOR0eQ-xak3uJFriwupjnmfUugMVVUe~qlyDbIIGFWILGk-HUz3WLDbNy07l3X-fw6YCvqeyglB90o920Lo-3FJH5V5Fnb6OlSzPtRZRDJIpDnKYqCkszoZlGY~d-5kVNL9aoKyrvPFWEQoEucxyujZxOmc1sSew8oyRhv3wnKUESUlLYE~yEEZrZqX2~krBmE4k3cYz2DoMCJxuqM8-moxSkCPkry~Mmwl0rIb0Ccc2Ld~LVfugHEVlA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-1e300f2.jpg?Expires=1790998522&Signature=uMuYj3lbPpAGASbosnRc5LSXUgS5BRG7ySfjG8fblwB3X8N~75YRfXTiPGDQ-sEZ~Fo38tcesciefYvvql1AzN5UKfiWGAlfd0YDYsfQ2LeNwobeE4JqAPay4iTViw5QkOj6KmeH~6VtUdlb7vuySHfmhfhNUQDDbHdVb1gW7XwwyYTNnWp380kxgtBQOneRp-A0wRFfYrVq16vsUHLlWOEUYRgFYCZOOiIvMxpIYjgKo8xgTmuqNLHVq~MKztfU07wOSgLZfyC5MoAU0NaVdHAaB5hdLMY5nomyr7BqsGQ0OyHjhcQP-zwZ~qzf2rn66tIv3nIyRYFryjxtWGnD6w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c0011a.jpg?Expires=1790998522&Signature=OmCVUm5qeuZRhMfR6rhOQVsTuzsHTWZhR1aeN62Wu8gnwUIGIdYczwGc~hW-nw4TEKDiwpsi0qsr5zgH4P~u-4YBPPS5XZlyNElj~vP7iTSN3RuTdD6MUR5HUWEw7Atd4JpTtzHEnrZGCkR8Bd0aHJNuGh93DOgw3IuBc8mAcv7MKL8aPjUORtPjc-eFNaVrt~UtlPsHKOH0y2RDmBtwpGz1PWIRUoB16CHFg6HNvRWkmqioOrnlS1P7pgdAHqXl2BX-8R3hz7dyF5K4QwfVc828wGJs45uAJCEa3z7d~1UNTFVoe7mwPTZ2~CeRG5hjNOoiJWtFz6PLPmg9ATjB7g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c2011b.jpg?Expires=1790998522&Signature=HqNYsqXHYKOC0r0Xj7tpRtv5H4W7HLXplPjalzDIfFTLfCbhOMxifwKLR2dOFo83OLryECxZmfjG2mdwuXatQ0xPO6MiSujcHBgE9HZtrEHQhJ-NZwa-0W9dv5wsOEzDMr94dZ3oUvYJYI4eZzjQwWW8Hb9effiABJ57AvZiLt4VsEJ~nRuzeoprGfIGgPLG9zTD4L7X~0PMDaRl3dXugrghiNaRW5PWrpUgz5E296jwNPF1pTL6JSnn286tpUTgJUbbTWo1Rdyj0zTbHaY79MawMmJ5TUGDhuKT-GlxSs2ftYP8Lkxsdd0cQK97LroiQ7EZFzSEjev1MJWa4dk-yw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c4011c.jpg?Expires=1790998522&Signature=diIzfAhtT-iCrLUTR5jcqYpORiIRCZ35jXjsIy9vlVRhFmOpdqv0ktqbmN~Y6i0MCMkL7CuPtL98r2I2HnPmpFl2LtH5SW65i8cDmk0bshGrFU2y1lZ8DLjga92Pn5sBN7X9kfYItMgcDBrKq0yPVbda9fjor7Uq8rxWLHUgA8tMXkiIN7BDt1LzOr~iYwT~LOoTtkK~o6uIdMUNmV68wn1ew1JXco6ywd3YvgLUdo1cHvUA~KYObWHpOYW7~T4Omnoz5zGJoobadEYYbvA9DOobJcI-BlOwFh79WpwekGHD1bg83ks~4bZbr10KnUZyS-lhWjvpPo3m4hOp13~knw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c6011d.jpg?Expires=1790998522&Signature=loPubnNrxNUVCO07hNgyiN4lg9TbtmfX21RbF-nuT0c4ih1vnnqtPYx5grTVJfXNqDujxb-qokLxKsmH-0Bw6rVNrW5qqwkgKfF0ySSBZgsXsSyJ86pxaTfl7pdK58IcSKZ2sFCW7Edqa7AHx38K0JOhiE~9~VfjD0qzeKHb~-nw2NlCd9RN0V5fz3JFHbUy2xJ0MHyY6W-uFC~mtHC2VQXb1fwBiRTI~2wlpANsGBcp78AOeYpgjEvPYFQ1X4TvfhTRTgkapIka-alBWf6YcXzaCwYmuUmZZqEBCI4Et9x8exd2AXPFodOi9a6guTh5mMdKlxN1kBYu9uVR6m7wvw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c8011e.jpg?Expires=1790998522&Signature=Ohcarv43gUqT4WIkqSZ4rPoH6eHi1FFNBO0UyRrx65TFTh9JpSiBHDK1lpqy5zq-D-j-cC4JjdzYPoSNKdONKy~qud4uThLmpXc0pHr3x9ffAxOwTjbWvpJpeYwG9a-VIoxABv2~BzQy3oJwLF4CaIkMDLRlAtxMsoxSn-ClTUJG2P00KmPfwLK2-XueCF3tGasf9D4QiuGkQ5F5zdhnS-Cl4Fmu~-ZBC5KnVKENM9RWp-uGQChnyA7689Bz7-rzz5PodlF~Sf8yyZmhKmfuPDvMEQAcWgzUoV~v7y6W1umya2-0nE-5XWLS4FR4C2fr~vbyTCHVgpjCaHPShRKxwQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2ca011f.jpg?Expires=1790998522&Signature=COcjfAqZBdaii~cM2~EBprnSKOafyFNh-~fdwDJejyN3pCZHFrkl-5yriXFVbIzeEkWAPQxJvaLF86hCnVXEaYL899dndIJLzrEuNBlEnRkXwhnbKCtAhbSZLv~IYKabL4RsUfWz-4uf-q8AnkGbQBzLDAe1nvNWKik6VqTVT4l9EercbLCn-smsdPMLNT7mhFmKqHWCh7WfYV8PW~3LM0TyXcOUnwDVqO98d1Gs4giD9Jstfgl0UJKbOCP82iKPsM6D0NaemD7igmTJoEy89Oid5iJzn48LgRPODGunvsTH6oyD3H5nWrI9Tajx3gCIW3g0fyLkA-Pu57pT4NE6bg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2cc0120.jpg?Expires=1790998522&Signature=frKFgTvv~ucBaxs9T2hX89crrvAQBgh6r~IJYDI42NeczNodmiL73RfH37i4rHnU0dq~WecudgpiDNORZIm7nV4HkFKswGExaEZ6KFvsN4QtfsjJ2qWGHdMY29JQ9Vh4dUrsmXkjr1ivpICVfsWxjiHzBMPfPLE0DzUBP3CU2UjcfhZGEU09c5P4ru-e8UcpYpqUIh9flRy4Y9~SJcvHddkAyHGtereQXNu4rhUWUxRphvG~xVaIgxxazm8H0WhkvX3RO~lWT6dRoHtUB~bin0DA9CMcAv8gxCzl~ITVRtujHiKb6Oe5f1xCVe9V6An6dyCyeBZcGQeoGyFg9IbytA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2ce0121.jpg?Expires=1790998522&Signature=VfupELkUZwVELhB8vxpIkDug0wHygmahWEKLpFQSqRp3FHMSICnpY5i2yLa2cTv~Bq~mseZP9MqLzLyAklyU4CLNpzx3Ttbogvrrw9qpcB~hRy3fKhfSVlNuRsYGOtac5gN2EyZT0oMrxV3ddkxAic0HFrUmCcJTdVu0IQSes1UTNN8t6jo-u9RVroKF6ni~5OF0f6OycFUbPitZOeert1QtXlulv5ybQCvbL5VnB-CRW9dYBdjkdKKQ5HJXFev~vYlcT8Ewr5Swcueg5wX3M4hK~XyUucdljIZaQv8mkI5b1NBAdK9NTKs1VBoOwPEvhjkdIUidYMdQKDl5s0JXpQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2d00122.jpg?Expires=1790998522&Signature=WC3lv2WoXrUb0KB59LV9sY0CJJs6Bhx4v2URumu9c-DXRzphey5J9S4XvDjtUMz9JzWsDywc7eS-~isoWQ6ks4qbztNFPqDZRBg7975qD4ZRTPg7ZSUi4rfjVUmfa7-K9RsnKZKrgxZx-IgMoiVddlGwKqwBSAfu8wOIYqL6x7PTUpmc6F3~81c~e-1rnIbw3eh22flBQea3FLYejrpvXsRZ~1vCAJun0BFtDlnuLv19Rwk3PyCobpjr4ZSaMjUwqtsncKW~n8abUjzrtEQw7hB5v6ywlSjXeAj4mxQHhMPt6CW5tSZA504rcJbM3kPGt24H1S5uMjMjT-9nkqg92A__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2d20123.jpg?Expires=1790998522&Signature=da7K90DVQFtR-djyYRFYyvDHTRxyNi2BW8DF4IAxjpDm7t1peZPYXP8bwYFoeOha~bPw9LUIxyNkUD8ekaajCTuo7xEWww7f2JPFwjNbWFDFeqIv0pBAUlsrpApTv4yM3O2syrd6EJ6FwPdDScKZniODFWQTNBlvR5AzAC6sNhj5MCYJEwOrOuh41tsDcWcSEXAUG~8qpkXcJE4N3sN5BkmGk74zukx0LiJHCSfR25tqNJL55jdS2AjH4donnofoX4tjTqKSuhK3D492Q8X6S9fGizIyG4vJc5s59uOxQtsI4ObM0t-Tu6uZ4FEXprp1bHDJ~kFpBwkBphHEVTYgMw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c3011b.jpg?Expires=1790998522&Signature=BtlcjobO6HHIstBgsYr8e1GMYkDn87WlkSyQfCixjWjVAe-eBZ8MYl5o-bsinRavCgVP9fLhVPMboxEQXtSEWPpUh-FY-tC-OhG00nczlSDfmBd9If~JppwknOOwdY8pUxG35b6TPFJgXApojN7wTCFk1QGgTjI8~cc1Xqa72LSFFpRbwoOaUXHyPmOZX06rEC3xdpDeT2u8kQqQ--WcgbssQRU9~oeN-JD0ZSHjYWv41AM5QrB1-VPY49gTJDoPn6j9gJDuhQz49e8fVx4kW628KImsIa64~l6AwRvwKh4UUf9KWPIzaMKw~F~47JQfj~YirsaiiJ1TdrhdHZB80w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c5011c.jpg?Expires=1790998522&Signature=tmSzUyUPg-T7AWa774fU38DhOD89S~uvcAExO4tKjTTJiml24TNIHbmJzHgvfG3H3V0TAJloVQSt4dzoXHxRnn7TGZAGu-5bi~U42HUTPnquYYN26iNWNq7P3XuwXhaF8diHGpgKhT9lu0Jd~pti~~6Vj1vqZN0zGxMjfYVIf2RZ7mPTLDXXq4EFiCRYY6ML~HPTROQBl94umjtyfsGMmlchW2MMla8ayTEEyZtm43NlOdoSSdyhKL38cLmpeunbeEuhc~B92Mxjxk7B~hJvLFwV45uditbDR5LjUofInL4IW1DjrPWQuICijJISnvW7~X~Pu66c5bOQ9pqhRTOvyA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c7011d.jpg?Expires=1790998522&Signature=wuru77fRsVNWsHG3emBUffxMuDdTryzgHrIXJpueCTUJAQIGZSmnRFcIVg~xClPnnAnVi4Kmgmp33TpQ8ZDYSi400dBJ-IWgyU9sCY2D8JKUZpvbKbeWQn1RVYOcpODcUm~dIdhCQZ-xYfho2UuoAjs6zu8pRBStjdL0DYNKO3yqqpKmQCElg~d5qSSbFWinSnfTRP-846tAB44w8Att5Ti8RSNLf3PQLdV5cW0~Hk5D9gLizFDKMfQurXJqygNJxj4S766qsFBaRtdK3hyz5r4dKEStZMh-aFZZhm6O1cZ0SAb4vi2dOPC8XDHgRqWvTyrvS~Bvp8loLCg6N2Cdsg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2c9011e.jpg?Expires=1790998522&Signature=ECaIvwpnEJeEgnOeO4PJDEwDBmSdXrSKVirfRya4BYhzwNgxa8psyCULx0E5BEDUJlFFfec6vbuu~1JFIuDJgY3bkMfj~FGPIJKOZbOVKIbI-E9Cc6eB1VcsMwGzYRWJdXpVKFw3-l-WIJWYKUJb0zClpw5cXfdWrjnO6kV9NXTSg0iuVkW8LIVJhedxglzVwdqfgOuK5MNXAtZGhgUvFwVZHi~9Sb55xEiPhvrYrXFxKBhQk49h4AyTJCu6ug-bWqC-dNOsQlqZB3ZPDr65885F5BjADGyLLHvulIGJRlstlm-8Rz4rBteRDsHUuG8d5xMuYYP6UJ9EywhE3grY9Q__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2cb011f.jpg?Expires=1790998522&Signature=eXErWnu90leUa1x0Qct5uLyElSdrM82GZKgDmbF2L5XRM8o3vJxKixwl6ieqyImxTOwrZYlzNwYcRjij-BcbH0s~IQ9AS~0O~~nrGTYoljZXd47Yqu8NRoxRPyoM0YRpssB0A78FVhfH32aCIVx9aO6DxR4SFbx6RQOrEbSSXJH6Mo0e9uw80QIYbu1g4e7NOX7g~3i2umeSZGoWQEm1R6xnKJQ5aUPVOvwRSGHEx3SMGERsMLNJPaH5E55AMyAdSgGLPtzCgSgG-ziaSvx2BWDDUk6DLk1UDnwhDE~pFwnLrgf17rndMSGTwwYK761X89FKBjT0yMycG1O44KqU4A__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Planning_with_context/test/0/frames/image-2cd0120.jpg?Expires=1790998522&Signature=X9PDHUJOnxZ7rGbO-5~cZGePDMcgdURPz77amzuZ79v0y4BU-jfsOxHym7X1QGctcZ231WJSxAqLS97wEGrfC8QsiE0RnC7f4TmixXQFw6gRAqsnrtfEpSt4uIKiQc1JV-EqFbQQvK72aIP6WSZwtZ3SVb1EEOXr6VHp~f-DjBsJz838ustFlVmQ~vQhbLwsKH01Fy5hs6xcndbynYcnOs~wapWbm0MiUl2hIbQojGkrBp6q8SLFjpWPrhoDTgaCX-n74pLuojtrfolTtYrJzlmSERi3O0vj5Z2F8QvED9mp~qkje4nnazFvYANuaoiC9Qwg-SCPOeyJuoXQ0QFaBw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            }
+          ],
+          "category": "Planning_with_context",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nConsidering the goal of <place the knife beside the pot>, and having done 1-<reach for the knife>, 2-<grab the knife>, 3-<lift the knife>, 4-<move the knife towards the pot>, what should you do next?"
+            },
+            {
+              "from": "gpt",
+              "value": "<place the knife beside the pot>"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": 200,
+            "response": {
+              "features": [
+                {
+                  "feature_idx": 0,
+                  "name": "frames",
+                  "type": {
+                    "feature": {
+                      "_type": "Image"
+                    },
+                    "_type": "List"
+                  }
+                },
+                {
+                  "feature_idx": 1,
+                  "name": "category",
+                  "type": {
+                    "dtype": "string",
+                    "_type": "Value"
+                  }
+                },
+                {
+                  "feature_idx": 2,
+                  "name": "conversation",
+                  "type": {
+                    "feature": {
+                      "from": {
+                        "dtype": "string",
+                        "_type": "Value"
+                      },
+                      "value": {
+                        "dtype": "string",
+                        "_type": "Value"
+                      }
+                    },
+                    "_type": "List"
+                  }
+                },
+                {
+                  "feature_idx": 3,
+                  "name": "id",
+                  "type": {
+                    "dtype": "int64",
+                    "_type": "Value"
+                  }
+                }
+              ],
+              "rows": [],
+              "num_rows_total": 0,
+              "num_rows_per_page": 100,
+              "partial": false
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Planning_with_context",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_10/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          }
+        ]
+      },
+      {
+        "dataset": "FedorX8/ShareRobot-test",
+        "config": "Success",
+        "split": "test",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "frames",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "category",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "conversation",
+            "type": {
+              "feature": {
+                "from": {
+                  "dtype": "string",
+                  "_type": "Value"
+                },
+                "value": {
+                  "dtype": "string",
+                  "_type": "Value"
+                }
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "id",
+            "type": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "frames": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1d100e9.jpg?Expires=1790998553&Signature=sC2W8ZoLdiKcWlryV3tEu1aZSr~jHQNuYiG9uL4IdPmM9KXG6bEcSlxQJ~qokp1rQniWY89~pLrb8j2Uy5SOGRvuhK2ZzEaChM1e5uxy~ONFm90nPV1h86FEjisjQVOPobqTRNrev8ruipgy2pLWJiak0KNFyACVTKWFodsNtRM~7-6C30XqrFddrfniXYw9vk9Wg2GdMdU7FaGxc1UjiyO8OPBg7Wpa73q7iBdBlBvC0ZcxpzvVm23sd02JBDM6yUoD91ep5op1lypaduTJB8IHaeWYkS9H~99allTllut9Nm8Kjm7omw5Ubc90d5F-QFx4KJT2IG2EfVt1I7E-fg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1d300ea.jpg?Expires=1790998553&Signature=EUCKNNVC6bcXdlAsSPy0q29lzLSjvqrFTmGas3a6OxldBPuu3EyculFH~DIn7nyGHGqz1rFGdtU8BC7Jlft06PpIELilyPpmvvo-nG9u32hS0jBZwR6QLrGqicUTJ7oIX2bNtAyZA~PJWhkeAgHkw1VkoHVQofGKT-6mMHjisSZNw1deig9iVxx01~c9brF1qkr4p2M03X4dnmpUfR1BV2pyl4dxkdWVMRTC2GoMBYrxSHGwUQCRDnvEYvpFT6k19Vc7vH~Yy3MfQqagNJDARWPMNVrS96cPrFs-vfgF5EV5xZy3oNd1COQi7reOhxl3RE31hrdITagP83hG1kTzTw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1d500eb.jpg?Expires=1790998553&Signature=fYBqJFSfK~XB6fZB7M80nZkve~nWpHt0rXXG3QmILvrNl1F3b5MwTJTILCE5TmD9MdkTI2bMzQcAdq16Bj5rmJAEW5r~~nPaqbHkIPvshEJ2bDFoPv3k3ERY1~KMiWF4CpWOGwLNwn9KnVYBUMwHa7pg5cRu3qUDr-KK3zI1GlKOdVK77AKIqPlZ~oHov-2GdoUl1GDqfGznTJOr9QUIe-~Yd2cutRf5w3VSX4vPWMktr-Y0KyU3IzlHw-ENiiwMUEN03xbQ563Lhzz9~2cOVDOV-v5-hmk-07rP455qPCpnWd-v2wm0W7Nuum8VOORfROsGrM~f15c1T47nRz34IA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1d700ec.jpg?Expires=1790998553&Signature=TpcLz87tgbJYCIgZ44CaJZakD7JvxsFJJte0flZ9QabBUecCMIAtrdzqFUqidFLOUGY-Pih1kYlAMnpk282CXx1dDJVV4Uk~5L9SQE01xd5ldpQxBhGYuk61JP8IcZVeUf4EAf5B~C~H-5SyPPIemw99wAXKhG1yyYcRWaGe4-8yBWxr9sw1IUzaTa4fI~5Ls6Leygc8LzfJ9GwOSL33vsr~Pm3JLp~9tzW-~jWpEEEuDG4PVYNg06UckjOxthsz2QYzcaiXMYZMjVa-Epyk5XFEb4aJ8jWf25q51lfTcpvJ2x-2Toq3kLKQbW4KhDI74e~k4BfVLVIsxK1rNb8wEA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1d900ed.jpg?Expires=1790998553&Signature=lGwKoXpvDdJvx0d1zCKumXfQ5N8v7vojropHCDZRKM8hIGqNaLcQcTIcnRaAglCAJNBH9lA44uxn02WthLDAZC-YMbowb286ZqAdWIez7F~Xip-iXhfCpzuJaUtPR9IOu7YLphm0rvlu0mqEibHS36uNK6OPHzK0vve8tjSmC8ySOyC93GbqVu2d8mF4S9NsHpP8NIWnmyxps8erunUKacGwkjaVMTZDbKXmPoPFq~qNwCI57JODBjgbaY45VWtPR17PTs9Kk5h6WiyTWCGNs1UUrmUPqDIfjUoz6UWbjLcyhum7YoqoVICG5t0OavBFgGD~JUsKzOIxgyuwzuLe6g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1db00ee.jpg?Expires=1790998553&Signature=V78ls73r0Os34G8XSeVeHzzMRpVq6xD3uXM05q~MhNVm4Wy9Kj6qAp1TDKgFp~iVcqBDrpHU8r3ci8092Z6n2joFzB73uRv68WNJVEWnslOihx~hxrJp9AEpiYOSI~NoZ2GIYCVG8AXfm3JKDOwOmjUbSGUzl6taysLD5D9iHcPmvbnJpgY7mFyAUD7N~~ALWIQNWXSb-2sHnLWyqkmMZ4y2EGudKQmknFCcvJxTNhvq~D2HBTkvgdXs~ce08cSQ1XA8arIHVIeceo~g1LrgbSwJSOdTaAS0ocPUvLMxtkcpv2RfcCl0GxD8LiAVW0MYND7tEqvCtSsvbO8hwTYyRw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1dd00ef.jpg?Expires=1790998553&Signature=SFouZhPBz-Qzhds-yaksY4PHAEujA5kVhK0MLvlrPWpu8eqo104-DJwJFd2P9mFqZUnP757DICU9P6nfcLSbMtsYbV0oNp~bWy-RSifbh7555I119n4foEESAZ03zseBOvcGB49gbQX3XIXmdnjCHA75n8ZWiXTJZJai0Yrff2a-yDgizSAHwXgM660FFxkK~HwzWGh0zNdlF0DOfPvnkkr6ieWsfFDdm0NuULt3SPAmb3Vg2vV~90qPTCDSWP7E5~DaLOU7IyszG9xKurKu4~oYYhSBAHk1kabpQ4ThPCTg9rrI12P5b0WQnsHrvYS4-EB5GMVFlvyh6hv9q3GEWg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1df00f0.jpg?Expires=1790998553&Signature=j656rr-v83uSBt0NBHLIuEKw2suCRQvivQldTC6QbU37BsgcZYJjZlw6m6NQ7Jo9M9b44kURb2ZMbsCSINjP1T8sJ911Nm7IWanbO63P7cwyAux~zwLRN9JQwQfGUM~asSS9wWDw2PQHvkR28dFIxPm7L5O-E-ESncYF0F9aUjnWlAEfvQeMhWiZqL66HGbinwn93YdOCN2ziXpahy19ddvIghc8PZthiNhVpz8PEJWszPzxjhtSdE9NwS14FGbHqNwh52UpsXq7y44XdQ9VnbkHQbuIjpERdMh04ylmf8eMfJ14ZyzE-MIQXKjL-Q2U0~iWlG4RR3IP0358Bkhm1g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1e100f1.jpg?Expires=1790998553&Signature=cq~I1rVv0J4coned9pvugNf22w5LD~bolh2DqcpOxYrQ-GkgEruxHPte8qMJYjeDKHDLlo6gIDnhjjDDwB1OSbJ2JFRlLq7alMmOmjNO-VSNE0Unncn9-FptcVPAsVMF81oh5KRy3dhDeSuDNsobpxmqGAt6BWnLoMJvKbeoHuy5xd98HAmEz0X9j-aUKAH1xhBcz7zNACrkjLGihUMhL4TTkCipWRE3D7AUAojfi3MwuHBbgq0q3o5iAiMnNkckL0mOvCKhNxuUEVgtG3WfIgZusmFytg6ndupNRADVUF7LTfT8JKE605nK34zmUnckhgNVJEV1kM-jAAeMtDyoug__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-1e300f2.jpg?Expires=1790998553&Signature=lnSr8wVo8tcpkNNLZHdZPcFKWNPKO7HS5iSv4xEzsciYeRBLeU0xNy-fbs0zUxVpnpgj8nTe83UonNUGbUU2eATee~edIBKKsSBAI5quM0N8oc0cs9wLzJIZJV7cCsvtHbTRK-RQu5RVJAcHzHHrlXP97LD2Cx~qEKJARoGaiBqFbeGrHNCHWptkZ8v53xuB6vygSe3XTj2qR~HllOO3kcvkZnrmG8orpfIywNG3WKXAeOStKCMEBcKJBc-7gbHUbqna-FklKQzoUuSCStd2NDpdgcFskosi37xwIsRhVWp7Oml7fNhLQIX~GqAju6xR1B8ZYcrFKxLMYUyWoCTDMQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-2c0011a.jpg?Expires=1790998553&Signature=poy0K3-HHH56L321UEj~stQ4RUlgdvhAWfRE8-qOPDuYl3ZDvdhf55IlCh5ZsmtjaQNM5z2tWsosnj4uleksFtYVWb4giZ~muTrI46nKgKPu8lItzrAged4Gga2jNS-FZvnmCoILdTNWDU5jhgYmIaMrzIYcd9T0XTgWirBmicgkB6HL0o3upJ1EvSW7cPWbFR0zXP92gmri0OlIBOCpsyiaox5zrXPA~m9LFa8rHKK3J11d0LuHPZhX557E1-zjkt0Zg5VeE73wUyknwleA9H6v1ulLQsOa7MzajHocXWUCImM6c1N8NJj2ZFbAoZPkwuUM-55JBwrWHqhRTdNWTQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-2c2011b.jpg?Expires=1790998553&Signature=qXokVOMPSGpPsbQJWhAwt94j4~fHl8Kvq5hvWrflj1svSJHDhZ5P5vpoQ0kfbvt9KYMKS5DtuhUUCh4fWc~0Txf2A5qDSUexGo6JN1Fy11avDH3H0n4RqAWpd5I701RYf0Kp~vte2ZrWMzFXmxgOPdu47e1r2AaEQU5Ldg34lYLYF4gWvfF1zAZ12Ha7UQgijGYyPiMj4jbcP16U3b-Tg4lQ~X7MxVW~dJBg8oT3-VkmTMnA5pQvHxt4OB6aH7A8RqlbcQOQwvfuZOk403vYysFS19YPqK2MxtG846OYD3rYKhxPDhG3NItdFjDGO~zMfz5VGqUEN2~uGrRzxhEQ1g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-2c4011c.jpg?Expires=1790998553&Signature=DpNVcgXeb3ZqQK8GtakDf4GjVcQQ-BWLA8qUCVSzIo8yJ0TC3H8Aj6~2ov1iICbLn-pv9vrBGq0w6~VcaY0BGQzZVNL-0ZsXGF7mFxfVqQ6D2HQhzXnlB9tFYQ9qE5Q2btxPPfC3itQaXM-i-t~1aD6zErX9qNCHaaxGTh~FqH4vzQ7SxeYDmfVt3RT-la7grg1ziptn1~O64MM8LH1dP3aEt5xxYI6JYupjTeG~2Sskm8EYigdHxtnxMBRIqlCDARscdBR4jNEJ-sh~c5jnjonVfZvm9NPKggJAo1TcQhZKFXIPPuwdzHjow2KvfgFSQIzn1kxyILpNc8FiHZ2EQw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-2c6011d.jpg?Expires=1790998553&Signature=ZuQeXV1Xgq0Nnd1w0vfNetlLQv3WDRhbiF6YmvktE2xipWqCdqiY~aiehd5xLYiauoAG7IVzBOhrlBNcfFTZOjeLJrkR-MxxoC2D4ANbgrO2H8Sh3~G1q4-6K8PWD0L9eW8nrTOmhLp4FIvLNCUmrxJB7OwHVf2gG4obIJOTtQUt-1ypQ207XsbUCRT~tsCDqqy7Nbsbt9mlxacLIZSk75fiFtBnR2iqr~LRrMPOhqVSbiyvl3f1V85bS289-f~A9W7yMmJVHdeAiubSGiyT3HiEnrL-EvAMZerchAKFYsnZdXAyAyy~XaVq2AK-RnX7Fc1I9aK73Wxm8vNpUVvB0w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/FedorX8/ShareRobot-test/--/37fe17465b8f6c79d855e5cd923713107d8e7547/--/Success/test/0/frames/image-2c8011e.jpg?Expires=1790998553&Signature=XDrQetI0PCIqGPwIi5KstzQDHcslh-GlOxPzhyJE7uiZcHFMsoUIOoeSfQz7Mf33gQUw2atbybSm6gkQcSVTKOH8iUt6p4EOkYUNul4Tv0rgbcS5lmDxkXJYQPRfTxNgP0Oxj~aNSL0IGaoQQNGQDlQ5eXUkb7wEz7uVFPDx4kqBJCf-sg0PPIZMQGcyha3s9rswJ-XVnrAvZLbScxdVCaROkWm~y7njtHkgye8IoicSeF0dRx0tTvKZhwpTg5XJB-FhB4LMRVjLywHKm8Nub-5JbWvxYYwl05TKRElSydavXKsiE0zwuFCVSWc6vYuGQAWl9hEmL~-1tnzZc~G7vg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 224,
+              "width": 224
+            }
+          ],
+          "category": "Success",
+          "conversation": [
+            {
+              "from": "human",
+              "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nHas <grab the red object> reached completion?"
+            },
+            {
+              "from": "gpt",
+              "value": "no"
+            }
+          ],
+          "id": 0
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Success",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "FedorX8/ShareRobot-test",
+                "config": "Success",
+                "split": "test",
+                "query": "berkeley_autolab_ur5#episode_10/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dataset": "advaitgupta/sharerobot-bench",
+    "splits_status": 200,
+    "splits_response": {
+      "splits": [
+        {
+          "dataset": "advaitgupta/sharerobot-bench",
+          "config": "default",
+          "split": "train"
+        }
+      ],
+      "pending": [],
+      "failed": []
+    },
+    "checks": [
+      {
+        "dataset": "advaitgupta/sharerobot-bench",
+        "config": "default",
+        "split": "train",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "images",
+            "type": {
+              "feature": {
+                "_type": "Image"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "question",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "options",
+            "type": {
+              "feature": {
+                "dtype": "string",
+                "_type": "Value"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "answer",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 4,
+            "name": "task",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "images": [
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1d100e9.jpg?Expires=1790998595&Signature=r~5e9ASQmisdQ2q3S11LON9qZCycT0GrLTuYPzxjWKgBqsfjhe5ZcyYlJRbt6l5YyFa8Tz-SCXnWEoyvAndBm7SGj-I0vna5WOx5HXMPKuuf8REDTvTJgtZA9I-3~e1UEpXA60yZkAJ9Z-n6mF~lWXg0EupVrcRRU~qJ46qOjgz39jLgkJq1DiMcKnGZNC5De3WlCmFXcs3k~45T9G3rWJS4rD~t5FWNiJVzzhsFDhYVFw-wHsPMMnaFGiG066cZBAbXf5UElmvc22zj5t-vFBfj3AOV8ONolkb8W560mDminr5AkHga-r714zXRRG~BNkWon~5cxxUG8IAR8WM0nw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1d300ea.jpg?Expires=1790998595&Signature=amefKNCVtEsJVv9BQSuIU0MaALDhlOR7LPSEJDARAzgKKS6VAAIOjc~fC7GsmzDq1h7zeLXflqvjFcwygyc48FivY6Ocy6ekjFsWtMEtNDZjG1JFMlDcYClynmHdOc0C1KD7HjScYR42UlaIWoO~LoQWejbI92z7iEpYiXjc2lsBZK5xbzxZBqAPthmX7GVNMd3cYSnjjHIvRBwIB7VI00-zjuFBjTvv8Cq2yYig6aZhy0CAUWim5J2xuq3izCOmqbonWI4BsikJ2AyqbQTXdDjg4ILKl8LWeeHUKMtpUStvqAYr3Vyo81yVAiUM2Njv5eH5x~49hgAGYMabnA9CSQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1d500eb.jpg?Expires=1790998595&Signature=buoUuPYsv2hEHl8yGNpRpIFWQON2HJXnMJnLdFmXtgg6DGvQ1TXUCKUGpE0a6woplqSdXwsnD~0V0B-7FK3URqiQ15KGfj9sHfbzbrNP-kU9QSrHfSpFcxGrH8qW7G4yYbIyfgtwfWFlzO7lnbneX5c-lWCVhJLonoF06nk5e0VHA0ns2VtiTWgoBDJWyBA5tS4BFFkokyC6Sp5Vh-50lPWt8NsgcKZ269IVPJI2h4Rnj1VuwGK~NyL1gl4r6OR8f4mUtveWWdB0Dkb8vTndopCDmI5fCSrjtXdYQXphVnHaKnr4SMOrvIyStasFyiRwxpQCf0i6IOox~UT9bwwrDg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1d700ec.jpg?Expires=1790998595&Signature=PEqOeHZsIDFljhP32k6Oxv7tadloxxorDe1MZu0JenvTaJR02J7sQD-5Rajg4fGhWMRF9l8~c8j4gF00J3afUzKw7OplHf9KAVXle0MdQ1Ci1OIft7mcYHJsRSCZCWdr4jUjwzCDQWlU35-4agwji5-3u9kLqs6ejhprCZsU-lXPzrQRQd93xhBlAzS6JSo~C5ohiYbnlOKifpdW5hSoOamP4~9Mk3Jri2iKsazRkj-4xfaucT-zhqfsLYwrQuIl5AZp37qJve-B~Wz1-dc78xcQDkqRdler2bRNVB7ZiRaHdV0TsvxQM9AMx5hHgM6ZH8qu1tJ1xh9tZ7dkGOeeBw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1d900ed.jpg?Expires=1790998595&Signature=cC5TCWB4XiyZ8VkoWuvjvSMmmVA6EtRN28ohlP9GMz-bbbwqhtDjft~PeixNG-cO-cM0o7j4WXtuqVB9qHy1nrLpnI9aYx4kE1YSH05wfmykfJCekN2Q37TbPEYJwmArw9Rm5Oph9V99C1ywvtMtE3HxUBxjjK56Q5tg7TY--2TUZaRjyYl2mzUiEG5pVlT5FHYXS1L1dTRXnNlaxQTi3vWpUd07yWJIe1ppiTKU-XhiyF0g4WEjEmJFscRKXFw0CRr36S3GesjbAYaGFxeQ3lMTXBYsuj3ivnWTtpELmfXgYuCMeg4Ek5aV8uFjicLAZC45XEonxj4DdNrhfJbCUg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1db00ee.jpg?Expires=1790998595&Signature=X~ViD6Iu0iIHyneyM0ZQvO1WIsh3oXg7RfAZ2YiJQsp-wOTOdfoEETeDjfxhYPBqgKtn3Ingg9f-S0~kXo7mqupP7xcRWdk3lDmpdHjBjEOlhGbr7lDhyFp0vwD-hClmNK9eTn~hYKPFvBxmLv4LEo9IrQLh15VPq4JBj~q2U8suNJIIw0xFPij3Ph6PGCWICEAz15N-8nh-~JNJQs-2nA8l-a83GWmGmg28oLSwn37qiad3Hg~rOcw0WKjdMYd3MbvNAV8ZMKhmn4hLZ0shbXCvRvVwiwwIwCf19JsflkokyOcUpJXgoywSagBM0P1aK5I4DGGkZlUcS4hBdbJ0YQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1dd00ef.jpg?Expires=1790998595&Signature=SoOfnzL1FFK0hqDYjFfIhwcW1dNP8erx1uI-25ZB5vqau0xkdscIAKLDhPCL0SDKh7U5JuYupkO93BkltBkTo7kYmQVMNHE6HdpZtJtCKOwMghUBsHrfAfFGv0kbZ~AA2-bHPkeOhoK3K23NHb5126wBoU4aSfr~G41gfSHOHYtHppQkl5uAnngYHZD9-r1JxoznW0Iw0Eo93ICTxTe5Ng0xA3POEnM8UpClg3Kquwo-piSFy0v4JvsKs2iT~1IbLthjq1vK3q1rmfm-Ream~B6~xMdU~RRnEehtl5Pv9fK5fPE~9zUupZH9voq8R6gPmSqIKb17FcOjbtJuKhZj1g__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1df00f0.jpg?Expires=1790998595&Signature=TI3LA5LD1XtuJMIYUqSdcmHyaltfOZ1SVP5Qs03YBx5CdMhF5H8BxBFsI-gFURBg4ojE7jiqyGBMNfCp0VczB8drGJwA8zU1d4PVtPmj05H7xlRWl5QCKbPSqRx6v-pj58cP-Q9N-b9Lhx7ukNPIgbKrvylf8z8LVoA30fiyQCYyC-QQEQdtLsaTx5mfyKyhkgdyyfsrdgBA3C0EM~nGWR4R6GRAP0Wd7dm9Hzcfr7TcdcA18y18qYoFcga-nWgOVBMmoUXVaRd--9~fQpNqn~DX2FrpSACqtxfaKhVBqgTj3vcf7nJA5GQD-Pj5cuReNWoXw~7Y6WbtXvr9CJDRNA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1e100f1.jpg?Expires=1790998595&Signature=eGifjgzzGkLnYz-xRBdauJuzbr~E7ONiphsBn9V4ab2CuwJkXz0s37NEMIRhhHummJaOj38ArzSrl2Opx-5DGid0RXXLFXsjjwb40Fy5fASjTZhf4IZNUAJPMLdDTnyjcsrmfgHcSkKmzDssdOzk3z6Lb0vkgh4a7k3EXx0mWRs-SRbBbzegtOcNejcAcnrne56uZy9jiALsE5UIwG0zYnSuse6duzqXZ5L~qOIdaGUo5GEAALgaBCnW7oLFBE54JeDZ~Eh-lZ4jvqVwisC2cyRDGkeSIM7eOfQ59e5eY3MWCjwaQdu3OyChs6jVSZezBL5j08qGAV39F~saCqgPsA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-1e300f2.jpg?Expires=1790998595&Signature=HU7SSVBqlMEar5gBZsvjT-q9BkX9xjhG0kQbr0mT6~cfZi4yxv7xfH8pj58sT2TBX7w2QGK7qpTXQ9vvLEIgtQEYgjBKJvLZDlvx4csrdazsK07T1YrYuAaqluyYlJpf5~kB9Kzv-PAQ8hP3eHgmudwtJXwTy8x3up3aYXTYZl8cRAgQxA2LBHOsIuf7R-T-HgP2t1yQdTHNvPvgizomWA~PIzVN2fagibn88GaKIJLtSLbz2VQ14O8nmFDKxOlhsL-GBFVHlaDB6xTj5fYdZVACx7fUOXfOEGpdUMBNTnvINo3Mn1Eafr~spMJkVQLMqXZ~FcjcqOOj5lmiBtkJfw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c0011a.jpg?Expires=1790998595&Signature=L2ZgCNCyARxWbEuRozTe1AEWeKYCjk3lwH0dEcsgI~bs7FHYz7WJOABsawZT0PXWwZKkri3jRcYauEJKR9om8O4I8-J249dnh83FCcFlM673DBgvOq-hctJ70GKM1FCHFMBGrwgAnaaUaUn64u4OVvurX4ALPNDEuHzOA8dQfSgz8pzWsiAFZ-pSixbu57aKhcOvP3BgWJv5Suhmdbfsc48-NJbIdHYHWdte3PSUTXKhSZtiZJUI30uKMu-5zXFEcpt2xuQAJqWFDldgCDURqBz~4c0ICPcGwDMQfkPtlouFcK8rSzOO1z5eP4Er0rSjTWW0wGhaflA2xKA8tuKHZg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c2011b.jpg?Expires=1790998595&Signature=qBqJHwc~JEMXxqYrq5VGVVJuwaaBnJNfG6b84zeCjJhhFjkJy8L8qZvhnXdCqWpSCECY8BYVU9woSs6u-gKfb-aYWp6BOxYlAmJUjpTDI7Budp28xIQZbfhS9bl1jKJYc3~FW7o0tYaPyQfwJFlBE24cNgVbbIk0Pz9ByuFC02WkVETjEk8kFoQLUcHaUJEAop36nfXHU-mTqoTR6DbUIPVTd9PXwoVI8une08XgkjzRDH1Jh90UHHqlGGB0BjWSZ22qUpoLIT2f5-MSK3hWWwZAQun7e8nP1wtlFNzbZFE8Bcd~X-2HeC9~kCVSqMVwJ8FFTz482ExcgemhFTUQLQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c4011c.jpg?Expires=1790998595&Signature=EK5TI~bK2Pwuk8UgzH4SHH6r5MsgxzUnjPt3WK0C0Cdet7eVkya-tycVN872kUDUBK7rDbTgTokZues~DCazcS7hcEzTAT8LwL5w0D6enw-OriZSi-4vF5zJm2MSTpBJ7AUZPeGpO6DHhs0INJEJOz114TP723~~aAgHegT1CAqxKjUIMGzRCTkxdHZPB1-MWzB9tPrkNFAGp9sOWzLdiQdykgXXKk9R~3BXHWrjbN7hvDgattXYTH0-txDfcY4cjxF-tC840BTKDc8FrSCQPJrP9SBA126wC8aN0p6XzOJ4ZhPkruTUkEB39UwWQnrUCvWixYjd3LZFAVbbPUkKfA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c6011d.jpg?Expires=1790998595&Signature=Pe3q7DAVbjA40VFUkaVfaAwP47bEo9jp8xGUHq~naWdnYTyiIkqz~WddmhCI1sKTrInhgwAvGgCFilT9ZDSopMtYA~ctYKaIKWcYMJ9Yth9L6gjU~pXHXiXzURMzKMJsdVqZxdZ8I1yoZ~1uPMt6Q~LCO1mMoJ3z0cGdswU1cd3aP7hnaDXjXgjxv22-eZTw0ulhwWjUxGurIHL5vyIOoAJ10AVbwPYu9n~~6m-W4i6QHDA4lU3aMH-IvBfpJv8gc6akL2NfhIVkD4wFZCwuEx-7Vgap4USrSWRPTxWt3hIzuFXLJGAqSLgBm~K4OSXfOIeJQwV8-dbQn4Cp6oMTRg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c8011e.jpg?Expires=1790998595&Signature=TDj58KnwThMaPf~Mfj~z00fuYaLq9KcrlZUrCdZhEvALUeyh500iIlJdZJm3~Ei6atXoZTZpfgoRu2JRY42ZcdOrSn6E1ZZZ9X0wbajFbv7vQwpcTGebqYP8Z7aHXwNleM~XoIACzb7v~1rineWup2umLOFdm5ZxDmxBs-7~9hyx17qYaNO8WG0clx-gw8CSD7014p3y~gv2jF1Lq5NnSOOHsUVKPsJmSXFxTM-mrM5JCMLSpTi5gVi-Q7aaSsrMxhTX33DOLryaof8qgs2ExkujoCrIIVusW54JugeZT3fFc2w15UuMwRTVEBdBz-im6ff0r94fS~42UPLum4YsZw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2ca011f.jpg?Expires=1790998595&Signature=qRQkDHzxV592qm2hEb79smv1nATNuWcep7-k3k-njyry6fLpVEp1BvUhTD3wU-8CmcywDxBeTQWNrbnwA29H4dNfNUZeHObKRcuLUEmxFfV4BX1zgLiCN8pyrCDPYRRmWc6rDIaMmr6F0DE~CFgIcbIivKrhVAbw0jjGhJ5k7Wu4mjfP5-mqx7ohz1gkim76xD-kB2iO9PyPta6~4ZvCa1R6NMnq3pfQPzEoOVtCkjoK-S1AmBM86RaGmjU4pOt8v5AR17WBE6sSODRyAoPvc~9A6ejSuXUU6IeSIcYwcglRGNmXn~9NRh72cgXIxYPUzQ8h6MrguZXu7oZZt3axxw__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2cc0120.jpg?Expires=1790998595&Signature=AFLkhxFBzi2OHNmGCN79GMUHkl8z5-~elyNP876JaDkXdwCKZPdxJ7VA6rWrAGsX4Y3E2QU0HjqecRvHFU-0H2UU1iFaPM9DJk4s9STxQ7BCOUzoyyA-OgHwzL~G1-z5L4cFfQrti~4RePNSDbO6VJ4KMJ0T6cWEdBdWOvsjoX6UeU6d6yjfJVDRg5lXSxQFmGY3UeN4LWPOWXCUitgALzaygKVFBECDUm26eGxriatIV-u8Uo6WOVc3ZQ4duw6dSP~gop22OYVqAfh4KoD-EtLbHZehf0bWkRSIYYFL2pu8AqIRkPF0TvE27JcM1s8E8yLN20zfWEVd92C8FBiIiA__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2ce0121.jpg?Expires=1790998595&Signature=L0OUd6aIA8ljhcLGJjPyfSRpZ~Q~ZbgHr-J5CqerU~D15EAqOdKH0uGKlQV1Myfq~RtYpQQCmoh2OUHom-vU0ZUiz6Xnbfyr48bsIlPI9ODLUZTeVf3DyW6yjEKenF9ZsO-MxYKn0yuX2Q7mCHy6tRF6xXpAVGepvS1ROL4F9Z6JNw6oHGTPECJYPHAfzERyo6-JjxbONl5YpQie0HmW7p2PKGvoL6Bxcr~MvWEgCB43Rjm-yLAQqHAVXvNs-m2-958M2A82Tc8vqdN4r-ia8WJ9JOCom0vc7~fqbZA4cbqAXllxumhJM6ap7dphim3GKHdQhVNU3wLUU-Xe9Zw99A__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2d00122.jpg?Expires=1790998595&Signature=bP-CAX6X05T~11peXbxXKM74IHJbp3TM3u9y-494bYFYj95Xs0~BgdQUqIjDJxbPhUTjaJlJZuZwg0qXP2Yb~0JQ5Awavtms6bW8SrNig1GOYzuPa8PRIoCoHztQUzjdqi8o-fOjlRZqOfu0Z8pMXy7oZJVRfLkh241ILRNB9xPhU-Khw06SGaEcrxyxuWfZ3zhycsuieO31i2CiS3oBWNtx1pTysuoPWo1NdhfO-NWzB-kswPaTQi~slOpUNBA1omhKAoMc2UO8IqjcyD2dw0v9yJJefaUfUTx8258BS4mTNNM4oSmyC0y5pZAEfb658ZTKZNpTOZfPtE7yM5T95w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2d20123.jpg?Expires=1790998595&Signature=s1RsYaoJz5OsjQw~dCjHBdfgmKihuqwtPQRNkLGKOA6uYTAgSmHZteXHlHY1ng6x6Zf686GsJWTR6Jfxwb-xJ6wSiv7e0zpZlglm~8TeEEyK~nwBkbN1TpeO0ZBO978xXDuh4eeQNe~-YXSZqXuh1eXlqVNlh2Rd9-wslhl6TA~UEdnmY~tVeMKbeOg-hzSuCpFnueDwSQC6UHwK49M2gHFWWXQ3CrxTFygyd2pnSmb5LA~eQMOJ0NrilpYNQiATf29-qwoasJvw~qn8r59Vy3dAEXisM-omkxeOufDbmOGR5JQcxRe8DJrmQLQNYcDntyv04PGrMo2AlzzpAV1rOQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c3011b.jpg?Expires=1790998595&Signature=gqEh3iZLCQow1EH-29lrEnlYIMm-5Sui6pj~klU0HzxNMjYw9wIr9mzkhCxHBHJE-BtH51U2dY6ZiJwT9NBamMytvkdCK3UpSmGTP-K0snp396dUR7GRm99e8i3v-q3EpU65GIbsiIyAjhGCo-k8fCIhQlkkXAM~H2ORND-wFlzUf~u76dTjog3q9NFAUHfm3LLjWzEsdSuf5i94LOrNkL-nNqeKFQA~vmCrALPEmBxW2-isF9DG4Vaw-8Gmr~juyflsLOEuFbvmq1T9QuUVXBTL5mTnb58fB6MfomjZ7gNHXDsuQlIa6r8MDpVb0NDniJ5MQZMr9IEP5Q047lTsYg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c5011c.jpg?Expires=1790998595&Signature=siXdNvTzyBgfcc10K4gM9dJ8Ccw0RTWZBkbNojCQ0z4RvcvDOY8Gao4c0Fk4GOJyOi19BN8eIysNYP5LTA~aoXECDag72EtJTFCCb8AsmwX-8PJKsI8~SjgOkM2i4rquz~fQUjJXfdSlT394ZW-w4ZETJo-EHlUXQOc9ah3RomijmkLZy6j~RKCCWi10vHN3lyXzMYWijjihcGNZrOBBHm3tpPY8Bk73Y-DBOYYwS8KfSTMmtg3Boa5AoMN4JcnLenGwVyKUi~CLteApu~dPNjHwhouHaEkIMG2S8SJlFbjOJKNMdz7oiAC~61Weggpk7cq~rU3lub9MMriOBx0v7w__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c7011d.jpg?Expires=1790998595&Signature=ciexANjijUVeh10V2wswq3iFXOnOFklYOhjVxbYWomIErfhzaJc5qcgMj7KbXj3XLXnWvDa6WvqqpcHrXBzy3a6ZinQygA2NqmUBy~qY2R6Vag0M20C0mpZhsghmcFfYlfcDU99Sutya8JdkLYpw-WMvoXtXIn5fr9CIcZXzGWEewZwu-qKE0X35GXZu6LmabS2mNXQRvwWR632ka9taXa1idD96qD4UGMmO~xBFy7NcS7HImdCmoyBj4B0~tx45zDAmDwyiRL4C47PR3EZjSmpHlUNlOAwRUKQxgF4uTC5tb8Iq-H~bVAqVWv-8Cfv4duumuHDKcZFtHANdZVuFXQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2c9011e.jpg?Expires=1790998595&Signature=baFrZIJkydGh2Mqi8yADK6v8w8gZ~WCN8tm9lkLhjojGGuBL~7eMkeDihIpKr4C2ekuibpI~ENYIo7oEeI3go0vf54Nfw5Om9PTm8h8oR4if4tPsrhJdWVabEZy~0cS-kL63XSMXx1na5yMXIVmRXmrusYhApvn0aK1SOv-AldDvP4LtEOzWHbR93Nb0nLuus3hE0kcqGoYLVYegbLSA0IaJG5SJ-cOwLnlw-Y2L9Qn9c6hf1GL97CiFM6zwlK-WdF23ftnkJzFSYHLkC57QdO1GDquK6nvi~bFEV0iaWW9SFRcSb7Y9zDaDDskLeI2YRD3ib8vOsb2ovOIO4FN8PQ__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2cb011f.jpg?Expires=1790998595&Signature=hfqwfhQYf7RssSjPZK559LstoZQq8HePYwDRIX9867HYTtsZF4Igeb-ss0LfzVtij0EBdCIGIuE79ROZvKddHhhgGfSwF2c7DwiT09VDhKjbU4d8WUJG8mva6nXfsCqmjL878XhQuJ0psGrdmtNVvZ8gX-o5S~NBbUpe98thAf-yropWCjCb1e5Tln5rxQfo~~wnVQlGK0Ri3GjkXkEHsrQVflIT5cCezgk3JtAX4QwCFCcsRHUwEyE72doY-nsgnYmy0VDEyRGRlnD~QLQh-GSPAOVE9uZFR0zAEziDxkFB0Mz6uTJld0dHD7Oxz3NVdCKAasgV3eSWm5U7EdzJ9Q__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            },
+            {
+              "src": "https://datasets-server.huggingface.co/assets/advaitgupta/sharerobot-bench/--/c81a04349d515f6ed0e5af5450442f2b715143eb/--/default/train/0/images/image-2cd0120.jpg?Expires=1790998595&Signature=Xd2CH~UO458wbG8hC8Od3TV-F7t5sqy2DuQVmToKDiWRX~hv8OXzfoZvqh8FDNUwotX03anZNs68-iy6ePY3DRA1Jc2AJgzzH6IRaqCabDh0cnr1odaIO9PGZLfN1kymlhrxvgMNY7WOTEfG~pKpzliYVqoCOuBtpvoD2oEHG2itbGSmYzYKMccTUXBVOKLIQi6NCgrDDbxWMRjzAAxkg0P4zYh5WR3QHWMacaIx-nfrv8W2Vevl~eOOfEocKSGPhPEQrlyQ1LhdbSz1gr~OPMtEi5fdAgYOj5CXKTt-~nZ5Ly2kifneAM1c5db~v02IXwlFxEew0KAzYzov6f7-Zg__&Key-Pair-Id=K3C0L9WB6U5DUC",
+              "height": 480,
+              "width": 640
+            }
+          ],
+          "question": "Considering the goal of <place the knife beside the pot>, and having done 1-<reach for the knife>, 2-<grab the knife>, 3-<lift the knife>, 4-<move the knife towards the pot>, what should you do next?",
+          "options": [
+            "<cut the food with the knife>",
+            "<place the knife in the pot>",
+            "<place the knife beside the pot>",
+            "<place the knife on the green cloth>"
+          ],
+          "answer": "c",
+          "task": "Planning_with_Context_Task"
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "advaitgupta/sharerobot-bench",
+                "config": "default",
+                "split": "train",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "advaitgupta/sharerobot-bench",
+                "config": "default",
+                "split": "train",
+                "query": "berkeley_autolab_ur5#episode_10/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dataset": "IffYuan/sharerobot_trajectory",
+    "splits_status": 200,
+    "splits_response": {
+      "splits": [
+        {
+          "dataset": "IffYuan/sharerobot_trajectory",
+          "config": "default",
+          "split": "train"
+        }
+      ],
+      "pending": [],
+      "failed": []
+    },
+    "checks": [
+      {
+        "dataset": "IffYuan/sharerobot_trajectory",
+        "config": "default",
+        "split": "train",
+        "preview_status": 200,
+        "features": [
+          {
+            "feature_idx": 0,
+            "name": "id",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 1,
+            "name": "image",
+            "type": {
+              "_type": "Image"
+            }
+          },
+          {
+            "feature_idx": 2,
+            "name": "problem",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          },
+          {
+            "feature_idx": 3,
+            "name": "answer",
+            "type": {
+              "feature": {
+                "feature": {
+                  "dtype": "int64",
+                  "_type": "Value"
+                },
+                "_type": "List"
+              },
+              "_type": "List"
+            }
+          },
+          {
+            "feature_idx": 4,
+            "name": "data_type",
+            "type": {
+              "dtype": "string",
+              "_type": "Value"
+            }
+          }
+        ],
+        "num_rows_total": null,
+        "first_row": {
+          "id": "12329935",
+          "image": {
+            "src": "https://datasets-server.huggingface.co/assets/IffYuan/sharerobot_trajectory/--/c0f02af39a87ee003cc35f6914f085d9d7911c04/--/default/train/0/image/image.jpg?Expires=1790998637&Signature=TEUav-oXExrrf59UgxCHaWQ3SRgFWnYxlR1iPz-gV78JcH8UqIWz9QeT52QsFOMROtOGvSlSwGGz8EZJ1KJCAmCve124U65kBAdbWSBmYE~qVWffYox59iCrg9KXHzyM3mS5yvEDYNc86ppQN3mx7JxouaN-32XAhNDCBMWfG4BnmB5JC5RJeXjobEkc1FRXNPoV8Urd5pMDqnf0yu9Dw0HXTCC9l5f3QYEwhyjDUdm7R-hplYc4TH1XEsmnJABjcfzacG3wmdc~DWkp7eOLwiNINb-gqXyKLak-IL8813BfyP7jhFEEMidAJexMPYjHvrhMCn07kpITEF7r5lg8Ww__&Key-Pair-Id=K3C0L9WB6U5DUC",
+            "height": 224,
+            "width": 224
+          },
+          "problem": "You are a Franka robot using the end effector control. The task is assemble one_leg.",
+          "answer": [
+            [
+              170,
+              47
+            ],
+            [
+              176,
+              77
+            ],
+            [
+              180,
+              84
+            ],
+            [
+              183,
+              90
+            ],
+            [
+              172,
+              84
+            ]
+          ],
+          "data_type": "trajectory"
+        },
+        "search_results": [
+          {
+            "query": "berkeley_autolab_ur5#episode_9/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "IffYuan/sharerobot_trajectory",
+                "config": "default",
+                "split": "train",
+                "query": "berkeley_autolab_ur5#episode_9/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          },
+          {
+            "query": "berkeley_autolab_ur5#episode_10/",
+            "status": null,
+            "response": {
+              "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='datasets-server.huggingface.co', port=443): Read timed out. (read timeout=20)\"))",
+              "endpoint": "/search",
+              "params": {
+                "dataset": "IffYuan/sharerobot_trajectory",
+                "config": "default",
+                "split": "train",
+                "query": "berkeley_autolab_ur5#episode_10/",
+                "offset": 0,
+                "length": 10
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

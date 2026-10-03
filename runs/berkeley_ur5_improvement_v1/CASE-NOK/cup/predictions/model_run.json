@@ -1,22 +1,28 @@
 {
   "model_id": "allenai/MolmoMotion-4B-H3-F30",
   "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "history_size": 3,
+  "future_horizon": 30,
   "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
   "model_bytes": 17847894425,
-  "git_commit": "4f11c56545400c437f822ad677c48a3dd2655347",
-  "inference_script_sha256": "0e315c9ad7273f312491155257b663c33e64213a3e6410a3cfad921798d4202b",
+  "git_commit": "59b21540a82270e2a67f22a24d65277fc1e4aec1",
+  "inference_script_sha256": "aa820bd80a3fe3b48cd8103e60423d02379d3a743e9f4cca0bf2991378e13b31",
   "torch_version": "2.9.1+cu128",
   "dtype": "bfloat16",
   "seed": 0,
   "decoding": "official default greedy",
   "max_new_tokens": 4800,
-  "model_load_seconds": 78.78533448199994,
+  "model_load_seconds": 86.59413430300037,
   "selected_groups": [
-    0
+    0,
+    1,
+    2
   ],
-  "mode": "pilot_first_8",
+  "mode": "full_fixed_24",
   "action": "Pick up the blue cup and put it into the brown cup.",
   "success": true,
+  "successful_chunks": 3,
+  "attempted_chunks": 3,
   "groups": [
     {
       "model_id": "allenai/MolmoMotion-4B-H3-F30",
@@ -50,19 +56,97 @@
       "raw_output_sha256": "748d8cd1934b6146e0c50daa0661e60aba151551ab4c5af8b2f5614b734644b7",
       "peak_cuda_allocated_gib": 9.607831478118896,
       "peak_cuda_reserved_gib": 10.587890625,
-      "peak_ram_gib": 22.455463409423828
+      "peak_ram_gib": 22.455463409423828,
+      "recovered_from_saved_artifacts": true,
+      "recovery_utc": "2026-10-03T02:17:26.151618+00:00",
+      "recovery_additional_forward_calls": 0,
+      "previous_failure": null
+    },
+    {
+      "model_id": "allenai/MolmoMotion-4B-H3-F30",
+      "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+      "history_size": 3,
+      "future_horizon": 30,
+      "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "model_bytes": 17847894425,
+      "git_commit": "59b21540a82270e2a67f22a24d65277fc1e4aec1",
+      "inference_script_sha256": "aa820bd80a3fe3b48cd8103e60423d02379d3a743e9f4cca0bf2991378e13b31",
+      "torch_version": "2.9.1+cu128",
+      "dtype": "bfloat16",
+      "seed": 0,
+      "decoding": "official default greedy",
+      "max_new_tokens": 4800,
+      "model_load_seconds": 86.59413430300037,
+      "selected_groups": [
+        0,
+        1,
+        2
+      ],
+      "mode": "full_fixed_24",
+      "group": "group_01",
+      "success": true,
+      "generation_started": true,
+      "prediction_seconds": 181.84800210499998,
+      "parse_status": "FULL_8x30x3",
+      "parsed_point_times": 240,
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "prediction_sha256": "95a38806d4c306f48f7c93422748f79267fcef6e63d9ff7eed0a113457e2e3ef",
+      "raw_output_sha256": "d76b397b98ea76f411936287b42069dd48b08da2feaa64dc2d55892b15620990",
+      "peak_cuda_allocated_gib": 9.625782012939453,
+      "peak_cuda_reserved_gib": 10.58984375,
+      "peak_ram_gib": 20.225421905517578
+    },
+    {
+      "model_id": "allenai/MolmoMotion-4B-H3-F30",
+      "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+      "history_size": 3,
+      "future_horizon": 30,
+      "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "model_bytes": 17847894425,
+      "git_commit": "59b21540a82270e2a67f22a24d65277fc1e4aec1",
+      "inference_script_sha256": "aa820bd80a3fe3b48cd8103e60423d02379d3a743e9f4cca0bf2991378e13b31",
+      "torch_version": "2.9.1+cu128",
+      "dtype": "bfloat16",
+      "seed": 0,
+      "decoding": "official default greedy",
+      "max_new_tokens": 4800,
+      "model_load_seconds": 86.59413430300037,
+      "selected_groups": [
+        0,
+        1,
+        2
+      ],
+      "mode": "full_fixed_24",
+      "group": "group_02",
+      "success": true,
+      "generation_started": true,
+      "prediction_seconds": 168.41545020499962,
+      "parse_status": "FULL_8x30x3",
+      "parsed_point_times": 240,
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "prediction_sha256": "0881b501e115591f97fbfd9fb4dcad6ab781c086c2dd8327b5a1d0b76924cf37",
+      "raw_output_sha256": "c6c270b069d0cc91b1c430a20782eaf4bcd24dbec5620ee5fad34589f31443d1",
+      "peak_cuda_allocated_gib": 9.622073650360107,
+      "peak_cuda_reserved_gib": 10.5859375,
+      "peak_ram_gib": 20.225421905517578
     }
   ],
-  "successful_chunks": 1,
-  "prediction_completeness": 1.0,
   "prediction_shape": [
-    8,
+    24,
     30,
     3
   ],
-  "canonical_point_count": 24,
-  "evaluated_point_count": 8,
-  "pilot_only": true,
-  "prediction_sha256": "365da07a498257f8eb8e76ce85573a30acd13bfa58cec85f939860c5f2d6eada",
-  "runtime_seconds": 152.330285872
+  "prediction_seconds": 501.6796488269996,
+  "elapsed_seconds": 351.61015462999967,
+  "peak_cuda_allocated_gib": 9.625782012939453,
+  "peak_cuda_reserved_gib": 10.58984375,
+  "completed_utc": "2026-10-03T02:23:17.573893+00:00"
 }

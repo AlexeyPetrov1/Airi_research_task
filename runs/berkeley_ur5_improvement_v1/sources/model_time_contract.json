@@ -1,0 +1,71 @@
+{
+  "sources": [
+    {
+      "path": "src/molmo_motion/processor.py",
+      "sha256": "499e900b64f0ad732f4f22b3ff50f5b1309d75bea83c7b331189f3b884a541c2",
+      "evidence": [
+        {
+          "line": 211,
+          "text": "timestamps = np.arange(H_expected, dtype=np.float64) * 1.0"
+        },
+        {
+          "line": 212,
+          "text": "video = VideoFrames(frames=frames_rgb, timestamps=timestamps, target_fps=1.0)"
+        }
+      ]
+    },
+    {
+      "path": "src/molmo_motion/data/trajectory_3d_dataset.py",
+      "sha256": "a642c37383154639af96d58f50637c355140c8543038b3662fb5fad0b8b29c98",
+      "evidence": [
+        {
+          "line": 169,
+          "text": "# Under molmo-motion-1m, DROID MP4s are pre-resampled to 15 fps (matching"
+        },
+        {
+          "line": 1565,
+          "text": "retains its 4× temporal stride because the loader internally"
+        },
+        {
+          "line": 1955,
+          "text": "hist_timestamps = [float(i) for i in range(H)]"
+        },
+        {
+          "line": 1956,
+          "text": "future_timestamps = [float(H + i) for i in range(F)]"
+        },
+        {
+          "line": 2063,
+          "text": "timestamps_arr = np.arange(n_video_frames, dtype=np.float64) * 1.0"
+        },
+        {
+          "line": 2067,
+          "text": "target_fps=1.0,"
+        }
+      ]
+    },
+    {
+      "path": "data/checkpoints/MolmoMotion-4B-H3-F30/config.yaml",
+      "sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "evidence": [
+        {
+          "line": 169,
+          "text": "time_mode: per-frame-compact"
+        }
+      ]
+    }
+  ],
+  "processor_matches_training_ordinal_time": true,
+  "physical_seconds_argument_available": false,
+  "history_time_labels": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "first_future_time_label": 3.0,
+  "model_future_step_duration_assumed_s": 0.06666666666666667,
+  "real_Berkeley_history_step_duration_s": 0.2,
+  "finding": "Public processor and training builder both use ordinal frame labels and synthetic video target_fps=1. This is not evidence of a processor-only 1 FPS bug.",
+  "limitation": "15 FPS is the documented inference interpretation and DROID training track rate; source code also handles other datasets and temporal strides. It does not prove every training sample has one identical physical rate.",
+  "causal_conclusion": "Cadence mismatch remains a hypothesis. Fixed 1/3 scaling, timewarp, oracle scale and H1 are separate controls; none alone establishes the cause."
+}

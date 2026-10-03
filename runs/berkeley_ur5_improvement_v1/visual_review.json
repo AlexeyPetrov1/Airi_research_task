@@ -1,5 +1,6 @@
 {
   "status": "in_progress",
+  "subsequent_full_group_review": "visual_review_stage2.json",
   "review_method": "Actual visual inspection of generated contact sheets at +0.2, +1.0 and +2.0 seconds; green tracker reference and pink predicted first eight fixed point IDs",
   "fixed_cup": "One-third displacement shrinks the large arc substantially, but final points curve rightward away from the actual cup. Step-equals-frame remains too high at the end.",
   "fixed_bottle": "One-third displacement shrinks the large arc and approaches the bottle better, but rightward displacement and timing differ. Step-equals-frame remains substantially too high/right.",

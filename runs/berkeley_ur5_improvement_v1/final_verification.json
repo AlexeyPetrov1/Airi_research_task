@@ -1,0 +1,181 @@
+{
+  "completed_artifact_checks_passed": true,
+  "publication_checked": false,
+  "original_artifacts_unchanged": 488,
+  "correction_checked": [
+    "cup",
+    "bottle"
+  ],
+  "completed_actual_model_groups": [
+    "CASE-AUGE/bottle/predictions/group_00/model_run.json",
+    "CASE-AUGE/bottle/predictions/group_01/model_run.json",
+    "CASE-AUGE/bottle/predictions/group_02/model_run.json",
+    "CASE-AUGE/cup/predictions/group_00/model_run.json",
+    "CASE-AUGE/cup/predictions/group_01/model_run.json",
+    "CASE-AUGE/cup/predictions/group_02/model_run.json",
+    "CASE-H1/cup/predictions/group_00/model_run.json",
+    "CASE-NOK/bottle/predictions/group_00/model_run.json",
+    "CASE-NOK/bottle/predictions/group_01/model_run.json",
+    "CASE-NOK/bottle/predictions/group_02/model_run.json",
+    "CASE-NOK/cup/predictions/group_00/model_run.json",
+    "CASE-NOK/cup/predictions/group_01/model_run.json",
+    "CASE-NOK/cup/predictions/group_02/model_run.json",
+    "CASE-NOK-STRICT/bottle/predictions/group_00/model_run.json",
+    "CASE-NOK-STRICT/bottle/predictions/group_01/model_run.json",
+    "CASE-NOK-STRICT/bottle/predictions/group_02/model_run.json",
+    "CASE-NOK-STRICT/cup/predictions/group_00/model_run.json",
+    "CASE-NOK-STRICT/cup/predictions/group_01/model_run.json",
+    "CASE-NOK-STRICT/cup/predictions/group_02/model_run.json"
+  ],
+  "pending_groups": [],
+  "movies": [
+    {
+      "path": "bottle/fixed_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "19159dd10a778cb0ca1b5e5376a435eb00cea1fdd6620b272bfa386ef2f05626"
+    },
+    {
+      "path": "bottle/oracle_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "b14854211f5c91546e640830004ee2b93d18f64e113658b0009ee858ce16a7eb"
+    },
+    {
+      "path": "CASE-AUGE/bottle/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "ffc988a0689f2873f4a75a4e92968b2563110f2395f256d61078dc307a468c03"
+    },
+    {
+      "path": "CASE-AUGE/bottle/geometry_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "efc182bcf257551e05fae2358ed6e69fd4180fcf23698b95421f484fea0b9728"
+    },
+    {
+      "path": "CASE-AUGE/bottle/geometry_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "0973a8540c17c15d288d03fbe61a7772e9b375e7dece30038dc134dbd8292a61"
+    },
+    {
+      "path": "CASE-AUGE/cup/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "3bc38d68da147f0882d11db70e1485bb37ad341705c16951ec55f81c95c5dc8d"
+    },
+    {
+      "path": "CASE-AUGE/cup/geometry_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "524c787c6eb35e6df45fd4d84c062ed5533d2be770c5e2654d8f1f3e344c2b31"
+    },
+    {
+      "path": "CASE-AUGE/cup/geometry_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "5982aca6dc26d7c48ba5dc769d9127d07d5afd07b8228d2e80bf2810d26e8388"
+    },
+    {
+      "path": "CASE-H1/cup/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "2531a1e40b34f4db352b6d88967bc7e7ce1e3fb55ecbb72209e4d9ff5881c665"
+    },
+    {
+      "path": "CASE-NOK/bottle/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "b27155e4b82828f5d576993eccbef9a1d17790b4395c25d3944751c39438adce"
+    },
+    {
+      "path": "CASE-NOK/bottle/geometry_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "e35275508bcc55ba975404a81e333db50c30ec9f556218adfd26e9def1428712"
+    },
+    {
+      "path": "CASE-NOK/bottle/geometry_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "772d7c2d000651ed0d477b887108c70298b566d41c5d55f4ae4a0cf997e3f9fe"
+    },
+    {
+      "path": "CASE-NOK/cup/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "27eb408d37ead005d5fbcc2a3fd2767ef144102159fca2f8c62cec58bb721f7f"
+    },
+    {
+      "path": "CASE-NOK/cup/geometry_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "268ad3a73738fc182123090f91b5eac8d57d8e2f1e77af06915d6f37f4cf1077"
+    },
+    {
+      "path": "CASE-NOK/cup/geometry_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "a2286e9040f2e5178c030dd321c042489fce5df6f268ce7b1a1057432e025306"
+    },
+    {
+      "path": "CASE-NOK-STRICT/bottle/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "ed02502e40328b36e3dc16490fcbda4c46e11873c0f0ec9daa77541b25b4258b"
+    },
+    {
+      "path": "CASE-NOK-STRICT/bottle/geometry_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "3147f0001c8f3308b3865e30914a671db8f3d3b76424bb779217ba261085639c"
+    },
+    {
+      "path": "CASE-NOK-STRICT/bottle/geometry_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "11146d26c17185e56c786656cd5a241203b016f1c4187cb1f22039f6bc455fc0"
+    },
+    {
+      "path": "CASE-NOK-STRICT/cup/geometry_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "7e6045e4d80859b5ab45baa0c029827cb2ad3911c99855c824e7195c85fc4b3e"
+    },
+    {
+      "path": "CASE-NOK-STRICT/cup/geometry_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "4ec3cf49c72dd5e3c96ead43e82a0991761e45ae6442a61b234b50dfd5f8a712"
+    },
+    {
+      "path": "CASE-NOK-STRICT/cup/geometry_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "293a760514d8022fda0c8a798767907d74cf48f624ddea616969350effd904e5"
+    },
+    {
+      "path": "cup/fixed_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca"
+    },
+    {
+      "path": "cup/oracle_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "36430c1b1d3285d08c83f0d072f0afcaf8cafca322c79683a8265556af7f0e49"
+    }
+  ],
+  "local_experiment_requirements_verified": true,
+  "final_checks": {
+    "full_24_ID_cases": 6,
+    "case_input_freezes_verified": true,
+    "strict_geometry_receipts_verified": true,
+    "ShareRobot_exact_image_files_checked": 60,
+    "visual_review_complete": true,
+    "Kalib": "Applicability audited; actual calibration not performed without verified TCP correspondences"
+  },
+  "required_next": "Final report publication and remote Git verification"
+}

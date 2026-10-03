@@ -63,6 +63,15 @@ def prepare(name,case,K,receipt,strict_geometry=False):
             measured_sensor_depth_unchanged=True,point_selection_frozen_by_design=True,
             selected_ids_flagged_by_new_outlier_filter=ids[drop[ids]].tolist(),
             smoothing='official consensus_gated_smooth applied to all H3-valid tracks; fixed selected identities retained'))
+        write(dst/'geometry/filter_metadata.json',dict(
+            geometry_source='native sensor depth lifted with observed-only MoGe-2 estimated rays',
+            author_functions=['compute_trust_weights', 'filter_tracks_by_trust', 'consensus_gated_smooth'],
+            trust_anchor_count=16,outlier_z_threshold=2.,
+            original_K_used=False,original_filtered_XYZ_used=False,original_trust_used=False,
+            selected_point_ids_frozen=ids.tolist(),
+            selected_ids_flagged_by_new_outlier_filter=ids[drop[ids]].tolist(),
+            flagged_selected_ids_retained=True,
+            smoothing_applied_to='all tracks with valid finite H3; point selection not repeated'))
     else:
         oldK=np.load(src/'geometry/K_median.npy')
         change=np.linalg.inv(K)@oldK
@@ -93,7 +102,8 @@ def prepare(name,case,K,receipt,strict_geometry=False):
         baseline='../../../../berkeley_ur5_molmomotion',selected_point_ids=ids.tolist(),
         only_ray_basis_changed=not strict_geometry,author_filter_not_reexecuted=not strict_geometry,
         observed_sensor_depth_sha256=sha(dst/'observed/native_depth.npy'),
-        unchanged=['RGB','mask','2D tracks','all 24 point IDs','sensor depth','smoothed Z','camera poses','instruction'])
+        unchanged=['RGB','mask','2D tracks','all 24 point IDs','sensor depth','camera poses','instruction']
+            + ([] if strict_geometry else ['smoothed Z']))
     # Stale UniDepth estimates are retained only as historical source evidence.
     audit(dst)
     write(dst/'geometry/case_provenance.json',provenance)

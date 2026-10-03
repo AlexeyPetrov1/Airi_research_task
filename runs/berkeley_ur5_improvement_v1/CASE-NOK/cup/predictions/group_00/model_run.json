@@ -30,5 +30,9 @@
   "raw_output_sha256": "748d8cd1934b6146e0c50daa0661e60aba151551ab4c5af8b2f5614b734644b7",
   "peak_cuda_allocated_gib": 9.607831478118896,
   "peak_cuda_reserved_gib": 10.587890625,
-  "peak_ram_gib": 22.455463409423828
+  "peak_ram_gib": 22.455463409423828,
+  "recovered_from_saved_artifacts": true,
+  "recovery_utc": "2026-10-03T02:17:26.151618+00:00",
+  "recovery_additional_forward_calls": 0,
+  "previous_failure": null
 }

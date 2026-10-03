@@ -1,6 +1,6 @@
-"""Independent CPU audit of completed evidence; does not claim the goal is done."""
+"""Independent CPU audit of local evidence; Git publication is checked separately."""
 from pathlib import Path
-import hashlib,json,re
+import argparse,hashlib,json,re
 import cv2
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1]
@@ -12,6 +12,7 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--final',action='store_true');args=parser.parse_args()
     protocol=json.loads((OUT/'protocol.json').read_text())
     for path,expected in protocol['source_tree_sha256'].items():
         if sha(BASE/path)!=expected:raise ValueError(f'Original artifact changed: {path}')
@@ -71,12 +72,53 @@ def main():
         sheet=np.vstack([np.hstack(tiles[:5]),np.hstack(tiles[5:])])
         cv2.imwrite(str(audit/f'{movie.stem}_all10_corrected.jpg'),sheet)
         movies.append(dict(path=str(movie.relative_to(OUT)),frames=10,fps=fps,sha256=sha(movie)))
-    result=dict(completed_artifact_checks_passed=True,goal_complete=False,
+    final_checks={}
+    if args.final:
+        if pending or len(completed)!=19:raise ValueError('Expected all 19 real groups, with no pending attempt')
+        for case in ('CASE-AUGE','CASE-NOK','CASE-NOK-STRICT'):
+            for name in ('cup','bottle'):
+                scene=OUT/case/name
+                status=json.loads((scene/'predictions/model_run.json').read_text())
+                if not status.get('success') or status.get('mode')!='full_fixed_24':raise ValueError('Incomplete full case')
+                groups=[np.load(scene/f'predictions/group_{g:02d}/future_3d.npy') for g in range(3)]
+                np.testing.assert_array_equal(np.load(scene/'predictions/future_3d.npy'),np.concatenate(groups))
+                ids=np.load(scene/'observed/selected_point_ids.npy')
+                np.testing.assert_array_equal(ids,np.load(BASE/name/'observed/selected_point_ids.npy'))
+                frozen=json.loads((scene/'predictions/input_freeze.json').read_text())
+                for path,expected in frozen['sha256'].items():
+                    if sha(scene/path)!=expected:raise ValueError(f'Case input changed after freeze: {case}/{name}/{path}')
+                for path in ('observed/native_depth.npy','observed/observed_tracks_2d.npz','observed/mask.png'):
+                    if sha(scene/path)!=sha(BASE/name/path):raise ValueError('Frozen physical inputs changed')
+                provenance=json.loads((scene/'geometry/case_provenance.json').read_text())
+                if provenance['future_used'] is not False:raise ValueError('Noncausal geometry')
+                if case=='CASE-NOK-STRICT':
+                    strict=json.loads((scene/'geometry/strict_geometry_audit.json').read_text())
+                    if strict['original_K_read_for_geometry'] or strict['original_XYZ_read_for_geometry'] or strict['original_trust_weights_reused']:
+                        raise ValueError('External geometry dependency remains')
+        mapping=json.loads((OUT/'sources/sharerobot_pixel_mapping.json').read_text())
+        if not mapping['image_mapping_confirmed']:raise ValueError('Mapping not proved')
+        from berkeley_share_extract_range import check_png
+        accepted=[]
+        for extraction in (OUT/'sources').glob('share_extract_*.json'):
+            accepted+=json.loads(extraction.read_text())['accepted_images']
+        if len(accepted)!=60:raise ValueError('Incomplete image evidence')
+        for item in accepted:
+            p=OUT/'sources'/item['local_path']
+            if sha(p)!=item['sha256']:raise ValueError('ShareRobot evidence bytes changed')
+            check_png(p.read_bytes())
+        review=json.loads((OUT/'visual_review_final.json').read_text())
+        if review['status']!='complete' or not review['all_required_groups_reviewed']:raise ValueError('Visual review unfinished')
+        final_checks=dict(full_24_ID_cases=6,case_input_freezes_verified=True,
+            strict_geometry_receipts_verified=True,ShareRobot_exact_image_files_checked=60,
+            visual_review_complete=True,Kalib='Applicability audited; actual calibration not performed without verified TCP correspondences')
+    result=dict(completed_artifact_checks_passed=True,publication_checked=False,
         original_artifacts_unchanged=len(protocol['source_tree_sha256']),correction_checked=correction,
         completed_actual_model_groups=completed,pending_groups=pending,movies=movies,
-        required_next='Visual review of full 24-ID cases and strict no-prior-K pilot; complete ShareRobot image mapping; final report and publication')
-    (OUT/'progress_verification.json').write_text(json.dumps(result,indent=2)+'\n')
-    print(json.dumps(dict(verified_groups=len(completed),pending_groups=len(pending),decoded_movies=len(movies),goal_complete=False)),flush=True)
+        local_experiment_requirements_verified=args.final,final_checks=final_checks,
+        required_next='Final report publication and remote Git verification' if args.final else
+            'Visual review of full 24-ID cases and strict no-prior-K pilot; complete ShareRobot image mapping; final report and publication')
+    (OUT/('final_verification.json' if args.final else 'progress_verification.json')).write_text(json.dumps(result,indent=2)+'\n')
+    print(json.dumps(dict(verified_groups=len(completed),pending_groups=len(pending),decoded_movies=len(movies),local_experiment_verified=args.final)),flush=True)
 
 
 if __name__=='__main__':main()

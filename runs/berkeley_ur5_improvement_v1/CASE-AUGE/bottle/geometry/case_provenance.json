@@ -1,0 +1,66 @@
+{
+  "K_source": "OXE-AugE Berkeley tuned simulation vertical FOV; centered pinhole derived at 640x480",
+  "fov_y_deg": 57.82240163683314,
+  "formula": "f=H/(2*tan(fovy/2)), cx=W/2, cy=H/2",
+  "source_commit": "0added8b6645fef1c7de2ad5d5bd7e9c1bde0d2e",
+  "source_config_sha256": "98d312c4d4a1f65f89044e4bc9686b40869d04f8ff639295b1ab4ad22b8d9bfc",
+  "limitation": "AugE tuned simulation camera is a candidate prior, not measured sensor calibration.",
+  "K": [
+    [
+      434.5584412271572,
+      0.0,
+      320.0
+    ],
+    [
+      0.0,
+      434.5584412271572,
+      240.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "future_used": false,
+  "baseline": "../../../../berkeley_ur5_molmomotion",
+  "selected_point_ids": [
+    90,
+    9,
+    44,
+    58,
+    22,
+    21,
+    85,
+    66,
+    82,
+    25,
+    41,
+    69,
+    10,
+    23,
+    48,
+    30,
+    42,
+    73,
+    76,
+    38,
+    72,
+    19,
+    81,
+    99
+  ],
+  "only_ray_basis_changed": true,
+  "author_filter_not_reexecuted": true,
+  "observed_sensor_depth_sha256": "94a2da0f1c4c859c79b9bfd2f6b02419bd8b684b51ee240e48dc39eef870380d",
+  "unchanged": [
+    "RGB",
+    "mask",
+    "2D tracks",
+    "all 24 point IDs",
+    "sensor depth",
+    "smoothed Z",
+    "camera poses",
+    "instruction"
+  ]
+}

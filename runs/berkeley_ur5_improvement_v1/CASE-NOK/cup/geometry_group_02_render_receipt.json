@@ -1,0 +1,31 @@
+{
+  "video": {
+    "frame_count": 10,
+    "fps": 5.0,
+    "bytes": 1773290
+  },
+  "point_ids": [
+    85,
+    33,
+    69,
+    58,
+    78,
+    73,
+    37,
+    89
+  ],
+  "hero_point_ids": [
+    85,
+    33,
+    69,
+    58,
+    78,
+    73,
+    37,
+    89
+  ],
+  "source_frames": "ten real 5 FPS frames",
+  "no_RGB_interpolation": true,
+  "no_prediction_clipping_for_metrics": true,
+  "visual_review_pending": true
+}

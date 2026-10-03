@@ -1,0 +1,98 @@
+[
+  {
+    "path": "cup/all24_actual.png",
+    "cases": [
+      "BASELINE-U",
+      "CASE-AUGE",
+      "CASE-NOK",
+      "CASE-NOK-STRICT"
+    ],
+    "all_24_points": true,
+    "prediction_steps": 30,
+    "reference_real_steps": 10,
+    "common_axis_bounds": [
+      [
+        0.0,
+        -107.01268641132577
+      ],
+      [
+        640.0,
+        480.0
+      ]
+    ],
+    "visual_review_pending": false,
+    "review_receipt": "visual_review_final.json"
+  },
+  {
+    "path": "cup/all24_one_third.png",
+    "cases": [
+      "BASELINE-U",
+      "CASE-AUGE",
+      "CASE-NOK",
+      "CASE-NOK-STRICT"
+    ],
+    "all_24_points": true,
+    "prediction_steps": 30,
+    "reference_real_steps": 10,
+    "common_axis_bounds": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        640.0,
+        480.0
+      ]
+    ],
+    "visual_review_pending": false,
+    "review_receipt": "visual_review_final.json"
+  },
+  {
+    "path": "bottle/all24_actual.png",
+    "cases": [
+      "BASELINE-U",
+      "CASE-AUGE",
+      "CASE-NOK",
+      "CASE-NOK-STRICT"
+    ],
+    "all_24_points": true,
+    "prediction_steps": 30,
+    "reference_real_steps": 10,
+    "common_axis_bounds": [
+      [
+        0.0,
+        -4.870854206097363
+      ],
+      [
+        640.0,
+        480.0
+      ]
+    ],
+    "visual_review_pending": false,
+    "review_receipt": "visual_review_final.json"
+  },
+  {
+    "path": "bottle/all24_one_third.png",
+    "cases": [
+      "BASELINE-U",
+      "CASE-AUGE",
+      "CASE-NOK",
+      "CASE-NOK-STRICT"
+    ],
+    "all_24_points": true,
+    "prediction_steps": 30,
+    "reference_real_steps": 10,
+    "common_axis_bounds": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        640.0,
+        480.0
+      ]
+    ],
+    "visual_review_pending": false,
+    "review_receipt": "visual_review_final.json"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "K_source": "MoGe-2 independently inferred camera rays from observed RGB; no supplied K or FOV",
+  "supplied_intrinsics": null,
+  "supplied_fov": null,
+  "checkpoint_sha256": "3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5",
+  "source_commit": "74fbce054ebed49800de42d0ad0e83495065719a",
+  "model_calls": 8,
+  "runtime_s": 16.90988739300019,
+  "limitation": "Learned focal estimate from RGB; sensor metric Z retained. Independent geometry, not calibration ground truth.",
+  "K": [
+    [
+      405.86456298828125,
+      0.0,
+      320.0
+    ],
+    [
+      0.0,
+      405.86456298828125,
+      240.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "future_used": false,
+  "baseline": "../../../../berkeley_ur5_molmomotion",
+  "selected_point_ids": [
+    90,
+    9,
+    44,
+    58,
+    22,
+    21,
+    85,
+    66,
+    82,
+    25,
+    41,
+    69,
+    10,
+    23,
+    48,
+    30,
+    42,
+    73,
+    76,
+    38,
+    72,
+    19,
+    81,
+    99
+  ],
+  "only_ray_basis_changed": true,
+  "author_filter_not_reexecuted": true,
+  "observed_sensor_depth_sha256": "94a2da0f1c4c859c79b9bfd2f6b02419bd8b684b51ee240e48dc39eef870380d",
+  "unchanged": [
+    "RGB",
+    "mask",
+    "2D tracks",
+    "all 24 point IDs",
+    "sensor depth",
+    "smoothed Z",
+    "camera poses",
+    "instruction"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "checkpoint_hf_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "history_size": 3,
+  "future_horizon": 30,
+  "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "model_bytes": 17847894425,
+  "git_commit": "59b21540a82270e2a67f22a24d65277fc1e4aec1",
+  "inference_script_sha256": "aa820bd80a3fe3b48cd8103e60423d02379d3a743e9f4cca0bf2991378e13b31",
+  "torch_version": "2.9.1+cu128",
+  "dtype": "bfloat16",
+  "seed": 0,
+  "decoding": "official default greedy",
+  "max_new_tokens": 4800,
+  "model_load_seconds": 86.59413430300037,
+  "selected_groups": [
+    0,
+    1,
+    2
+  ],
+  "mode": "full_fixed_24",
+  "group": "group_01",
+  "success": true,
+  "generation_started": true,
+  "prediction_seconds": 181.84800210499998,
+  "parse_status": "FULL_8x30x3",
+  "parsed_point_times": 240,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_sha256": "95a38806d4c306f48f7c93422748f79267fcef6e63d9ff7eed0a113457e2e3ef",
+  "raw_output_sha256": "d76b397b98ea76f411936287b42069dd48b08da2feaa64dc2d55892b15620990",
+  "peak_cuda_allocated_gib": 9.625782012939453,
+  "peak_cuda_reserved_gib": 10.58984375,
+  "peak_ram_gib": 20.225421905517578
+}

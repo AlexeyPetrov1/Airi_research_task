@@ -1,0 +1,100 @@
+{
+  "author_source": "data_generation/third_party/vipe/track-filter-smooth.py",
+  "author_source_sha256": "ceb21903da85de835b9314b61356c69d5033afcda68d73764a82cd135e9272fd",
+  "author_functions": [
+    "compute_trust_weights",
+    "filter_tracks_by_trust",
+    "consensus_gated_smooth"
+  ],
+  "anchor_count": 16,
+  "anchor_ids": [
+    88,
+    20,
+    75,
+    3,
+    90,
+    26,
+    9,
+    69,
+    48,
+    11,
+    95,
+    13,
+    83,
+    36,
+    78,
+    93
+  ],
+  "depth_patch_window_px": 5,
+  "valid_depth_interval_m": [
+    0,
+    10
+  ],
+  "depth_interval_endpoints": "exclusive",
+  "lift_wrapper": "finite-positive depth patch median; subpixel ray backprojection with fixed median K",
+  "spatial_auto_split": "not needed: one grounded object",
+  "trust_z_threshold": 2.0,
+  "smooth_parameters": {
+    "alpha": 1000.0,
+    "lambda_reg": 0.0001,
+    "p": 2,
+    "deltas": [
+      1,
+      3,
+      5
+    ],
+    "steps": 100,
+    "lr": 0.05
+  },
+  "history_indices": [
+    45,
+    46,
+    47
+  ],
+  "observed_indices": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "future_used": false,
+  "candidate_count": 100,
+  "official_kept_count": 96,
+  "eligible_h3_count": 86,
+  "selected_count": 24,
+  "group_count": 3,
+  "selected_point_ids": [
+    90,
+    9,
+    44,
+    58,
+    22,
+    21,
+    85,
+    66,
+    82,
+    25,
+    41,
+    69,
+    10,
+    23,
+    48,
+    30,
+    42,
+    73,
+    76,
+    38,
+    72,
+    19,
+    81,
+    99
+  ],
+  "selection": "spatial farthest point selection among official-kept H3-visible mask-contained points",
+  "runtime_seconds": 0.28086104200065165,
+  "max_smoothing_displacement_m": 0.013124724850058556,
+  "temporal_limitation": "Berkeley real H3 at 5 Hz (-0.4,-0.2,0s), versus MolmoMotion training 15 Hz; no frame interpolation/duplication"
+}

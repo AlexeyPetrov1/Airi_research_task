@@ -1,0 +1,7 @@
+{
+  "command": "/mnt/f/AIRI_task/.venv/bin/python -m pytest -q tests/test_berkeley_temporal_diagnostics.py tests/test_berkeley_geometry_tracks.py tests/test_berkeley_share_ranges.py",
+  "environment": "WSL Ubuntu, repository F:/AIRI_task/molmo-motion",
+  "exit_code": 0,
+  "output": ".......... [100%]\n10 passed in 22.22s",
+  "scope": ["Own-point displacement scaling and future-only oracle contract", "Complete track parsing: all point IDs and timestamps, malformed and incomplete outputs rejected", "PNG corruption/truncation rejected and partial outer gzip extraction independently exercised"]
+}

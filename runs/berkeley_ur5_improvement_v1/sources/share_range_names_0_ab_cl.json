@@ -1,0 +1,188 @@
+{
+  "revision": "3266d92902b038ce40e7fb8aac5bfd9287eb3e45",
+  "elapsed_s": 4.530268815999989,
+  "probes": [
+    {
+      "path": "planning/images/rt_frames_success.tar.gz.part.ab",
+      "url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/planning/images/rt_frames_success.tar.gz.part.ab",
+      "requested_offset": 0,
+      "requested_bytes": 4194304,
+      "content_range": "bytes 0-4194303/5368709120",
+      "bytes_read": 4194304,
+      "compressed_bytes_sha256": "8f23e4d357313ac5dc9a7d330175743a47f79a7099e52122086ab4c2064e90b6",
+      "error": "ValueError('No checksum-valid tar headers found after stored-block restart')"
+    },
+    {
+      "path": "planning/images/rt_frames_success.tar.gz.part.au",
+      "url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/planning/images/rt_frames_success.tar.gz.part.au",
+      "requested_offset": 0,
+      "requested_bytes": 4194304,
+      "content_range": "bytes 0-4194303/5368709120",
+      "bytes_read": 4194304,
+      "compressed_bytes_sha256": "0ca7e21b6724e15a663c679da8ecdcd52dbbc6756fed669f18b2dc9306b66707",
+      "error": "ValueError('No checksum-valid tar headers found after stored-block restart')"
+    },
+    {
+      "path": "planning/images/rt_frames_success.tar.gz.part.cl",
+      "url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/planning/images/rt_frames_success.tar.gz.part.cl",
+      "requested_offset": 0,
+      "requested_bytes": 4194304,
+      "content_range": "bytes 0-4194303/4945799287",
+      "bytes_read": 4194304,
+      "compressed_bytes_sha256": "ae09890a4dccd95f4c5acfc06d29580c502c76689f23257cf0db7b24dfc4fd9d",
+      "restart": {
+        "mode": "raw_dynamic_block_unknown_dictionary",
+        "compressed_offset": 82210,
+        "compressed_bit_offset": 0,
+        "unknown_dictionary_bytes": 32768
+      },
+      "recovered_output_bytes": 4162629,
+      "entries": [
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_8.png",
+          "size": 133997,
+          "recovered_uncompressed_header_offset": 33359
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_21.png",
+          "size": 133561,
+          "recovered_uncompressed_header_offset": 169039
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_24.png",
+          "size": 135658,
+          "recovered_uncompressed_header_offset": 304207
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_29.png",
+          "size": 129103,
+          "recovered_uncompressed_header_offset": 441423
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_23.png",
+          "size": 134712,
+          "recovered_uncompressed_header_offset": 572495
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_19.png",
+          "size": 132687,
+          "recovered_uncompressed_header_offset": 709199
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_12.png",
+          "size": 134601,
+          "recovered_uncompressed_header_offset": 843855
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_27.png",
+          "size": 132335,
+          "recovered_uncompressed_header_offset": 980047
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_22.png",
+          "size": 134201,
+          "recovered_uncompressed_header_offset": 1114191
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_28.png",
+          "size": 131325,
+          "recovered_uncompressed_header_offset": 1250383
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_20.png",
+          "size": 132129,
+          "recovered_uncompressed_header_offset": 1383503
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_7.png",
+          "size": 133051,
+          "recovered_uncompressed_header_offset": 1517647
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_3.png",
+          "size": 130572,
+          "recovered_uncompressed_header_offset": 1652303
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_5.png",
+          "size": 131959,
+          "recovered_uncompressed_header_offset": 1784911
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_15.png",
+          "size": 135231,
+          "recovered_uncompressed_header_offset": 1918543
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_1.png",
+          "size": 130757,
+          "recovered_uncompressed_header_offset": 2055759
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_11028/frame_26.png",
+          "size": 133367,
+          "recovered_uncompressed_header_offset": 2188367
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764",
+          "size": 0,
+          "recovered_uncompressed_header_offset": 2323535
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_13.png",
+          "size": 182410,
+          "recovered_uncompressed_header_offset": 2325071
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_11.png",
+          "size": 182553,
+          "recovered_uncompressed_header_offset": 2509391
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_17.png",
+          "size": 182604,
+          "recovered_uncompressed_header_offset": 2693711
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_6.png",
+          "size": 182359,
+          "recovered_uncompressed_header_offset": 2878031
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_4.png",
+          "size": 181901,
+          "recovered_uncompressed_header_offset": 3062351
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_14.png",
+          "size": 182446,
+          "recovered_uncompressed_header_offset": 3246159
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_0.png",
+          "size": 181694,
+          "recovered_uncompressed_header_offset": 3430479
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_16.png",
+          "size": 182301,
+          "recovered_uncompressed_header_offset": 3613775
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_9.png",
+          "size": 182714,
+          "recovered_uncompressed_header_offset": 3798095
+        },
+        {
+          "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_36/62_robo_set#episode_10764/frame_2.png",
+          "size": 181439,
+          "recovered_uncompressed_header_offset": 3982415
+        }
+      ],
+      "partial_tar_error": "ReadError('unexpected end of data')"
+    }
+  ],
+  "image_mapping_confirmed": false,
+  "exploratory_only": true,
+  "caveat": "Checksum-valid tar names after partial DEFLATE restart; no complete-stream CRC and no images accepted."
+}

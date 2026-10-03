@@ -1,0 +1,110 @@
+{
+  "revision": "3266d92902b038ce40e7fb8aac5bfd9287eb3e45",
+  "archive_part_count": 64,
+  "part_header_probes": [
+    {
+      "path": "planning/images/rt_frames_success.tar.gz.part.aa",
+      "status": 206,
+      "bytes_read": 64,
+      "content_range": "bytes 0-63/5368709120",
+      "header_hex": "1f8b0800000000000003ecfd7750536f18360c866ae8094d44a4044183d23b223528522510a4f78ef48e7411420745ba34a9a12a107a93aa3431408400912e5d",
+      "gzip_header": true,
+      "elapsed_s": 1.4956642940001075
+    },
+    {
+      "path": "planning/images/rt_frames_success.tar.gz.part.ab",
+      "status": 206,
+      "bytes_read": 64,
+      "content_range": "bytes 0-63/5368709120",
+      "header_hex": "d120e867d2963f0ec301cbc30969d9de9933a88549f9c69b64de95cf52c6113d03d437e200c0046b043dae87bbbc85594614e90fd88733a6201f4f3ed79e92b5",
+      "gzip_header": false,
+      "elapsed_s": 1.657490222999968
+    },
+    {
+      "path": "planning/images/rt_frames_success.tar.gz.part.au",
+      "status": 206,
+      "bytes_read": 64,
+      "content_range": "bytes 0-63/5368709120",
+      "header_hex": "4add377158f566905bdc0077cc0af7ac828f37963faa200437000b0289030235ea7b2d000956f5a15af8090aa1090bad52bb5a6e751f7d8f1dba243f1f10dcc7",
+      "gzip_header": false,
+      "elapsed_s": 1.4762351659996966
+    },
+    {
+      "path": "planning/images/rt_frames_success.tar.gz.part.cl",
+      "status": 206,
+      "bytes_read": 64,
+      "content_range": "bytes 0-63/4945799287",
+      "header_hex": "ae34663e5ec0ebb2b8204d156d486501a5c211f31f6ee23d69c741d1bc6435c1fc45cab2a763b244be9b93445ca983c1c1851bceeffb7a2846b38435de3cf5d1",
+      "gzip_header": false,
+      "elapsed_s": 1.4456668299999365
+    }
+  ],
+  "independently_compressed_parts": false,
+  "dataset_mirrors": [
+    "Embodied-Vision-Language-Model/ShareRobot",
+    "BAAI/ShareRobot",
+    "BAAI/ShareRobot-Bench",
+    "advaitgupta/sharerobot-bench",
+    "FedorX8/ShareRobot-test",
+    "ningweicn/ShareRobot",
+    "IffYuan/sharerobot_trajectory",
+    "christian0420/drifting-vla-v2-vu-sharerobot",
+    "st1wu/ShareRobot"
+  ],
+  "upstream_mapping_issue": {
+    "url": "https://github.com/FlagOpen/ShareRobot/issues/4",
+    "status": 200,
+    "state": "open",
+    "comments_status": 200,
+    "comments": [
+      {
+        "url": "https://api.github.com/repos/FlagOpen/ShareRobot/issues/comments/3094378733",
+        "html_url": "https://github.com/FlagOpen/ShareRobot/issues/4#issuecomment-3094378733",
+        "issue_url": "https://api.github.com/repos/FlagOpen/ShareRobot/issues/4",
+        "id": 3094378733,
+        "node_id": "IC_kwDOOO5QZM64cHjt",
+        "user": {
+          "login": "Shi-jiayu",
+          "id": 67588899,
+          "node_id": "MDQ6VXNlcjY3NTg4ODk5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/67588899?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Shi-jiayu",
+          "html_url": "https://github.com/Shi-jiayu",
+          "followers_url": "https://api.github.com/users/Shi-jiayu/followers",
+          "following_url": "https://api.github.com/users/Shi-jiayu/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Shi-jiayu/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Shi-jiayu/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Shi-jiayu/subscriptions",
+          "organizations_url": "https://api.github.com/users/Shi-jiayu/orgs",
+          "repos_url": "https://api.github.com/users/Shi-jiayu/repos",
+          "events_url": "https://api.github.com/users/Shi-jiayu/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Shi-jiayu/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2025-07-20T09:10:12Z",
+        "updated_at": "2025-07-20T09:10:12Z",
+        "body": "`49_bridge#episode_9826` matches to the original dataset 'bridge' and its episode id is 9826, and we evenly extract 30 frames of each episode. Other episode is also processed in the same way.",
+        "author_association": "COLLABORATOR",
+        "pin": null,
+        "reactions": {
+          "url": "https://api.github.com/repos/FlagOpen/ShareRobot/issues/comments/3094378733/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null,
+        "minimized": null
+      }
+    ]
+  },
+  "limitation": "The author reply supports preservation of source episode IDs and even extraction of 30 frames across datasets. Berkeley pixel identity is independently established by sharerobot_pixel_mapping.json; the reply alone is not image proof."
+}

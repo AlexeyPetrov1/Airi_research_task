@@ -62,8 +62,8 @@
     "2D tracks",
     "all 24 point IDs",
     "sensor depth",
-    "smoothed Z",
     "camera poses",
     "instruction"
-  ]
+  ],
+  "smoothed_Z_recomputed_with_independent_rays": true
 }

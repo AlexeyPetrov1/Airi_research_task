@@ -1,46 +1,52 @@
 # Улучшение Berkeley UR5 → MolmoMotion
 
-Исследование продолжается. Исходный эксперимент сохранён в [berkeley_ur5_molmomotion](../berkeley_ur5_molmomotion/); его входы и прогнозы не заменяются новыми вариантами.
+Исследование по [описанию цели](request.txt) завершено. Сохранены 19 новых настоящих вызовов MolmoMotion: AugE, MoGe с прежним Z и строгая MoGe-геометрия на всех 24 точках обеих сцен, а также H1 на первых восьми точках чашки. Исходный [baseline](../berkeley_ur5_molmomotion/) не изменён; настоящая официальная SAM 2.1, MolmoPoint и AllTracker переиспользованы.
 
-Главный результат первого этапа виден на [сравнении стакана](cup/fixed_contact_sheet.png) и [сравнении бутылки](bottle/fixed_contact_sheet.png): уменьшение перемещения относительно собственного t0 каждой точки в три раза резко сокращает слишком большие дуги. Однако к концу двух секунд траектории всё ещё расходятся с реальным движением. Сопоставление «шаг модели = кадр Berkeley» показывает другую часть дуги и само по себе задачу не решает. Это поддерживает гипотезу влияния cadence, но не доказывает, что FPS — единственная или установленная причина ошибки.
+**Главный визуальный результат:** у чашки MoGe и строгая ветка заменяют широкую дугу размещения согласованным подъёмом всех трёх групп. После фиксированного уменьшения собственного перемещения каждой точки в три раза прогноз гораздо ближе к чашке. Ранняя скорость остаётся завышенной. У бутылки широкая дуга и ранний уход вправо сохраняются. Единственная причина в виде FPS не установлена; линейная экстраполяция остаётся сильнее на этих reference.
 
-Для просмотра движения: [видео стакана](cup/fixed_comparison.mp4), [видео бутылки](bottle/fixed_comparison.mp4). Во всех колонках одинаковые реальные кадры, зелёные точки и линии — независимая tracker reference, розовые — прогноз. Первые восемь ID показаны крупно; дополнительные численные проверки используют все 24 ID.
+[Полный понятный рассказ о процессе, находках и ограничениях](research_story.md) · [План и итог каждого пункта](work_plan.md) · [Визуальная оценка](visual_review_final.json) · [Дополнительные числа](summary.md).
 
-Дополнительные метрики: ADE 2D после фиксированного `1/3` уменьшилось с 193,57 до 46,92 px для стакана и с 223,41 до 47,95 px для бутылки. Статическая/линейная экстраполяция из исходного эксперимента остаётся важной проверкой; уменьшение ошибки MolmoMotion относительно самой себя не означает превосходства над этими baseline. [Полные результаты](fixed_summary.json).
+## Сначала посмотрите траектории
 
-[Oracle и перенос коэффициента для стакана](cup/oracle_contact_sheet.png), [для бутылки](bottle/oracle_contact_sheet.png) — отдельная диагностика, которая использует будущее. Наименьшая квадратичная 3D_est ошибка достигается при alpha 0,1657 для стакана и 0,1954 для бутылки. Эти коэффициенты не близки к `1/3`. Подбор по всей траектории отличается от сопоставления конечной длины перемещения. Перенос коэффициента между сценами сохранён в [oracle_summary.json](oracle_summary.json); его нельзя смешивать с результатами независимого прогноза модели.
+На общих графиках показаны все 24 ID и все 30 шагов модели; зелёный — tracker reference, синий/оранжевый/розовый — три независимых P8-группы. Масштабы осей общие для вариантов, выход за изображение не обрезан.
 
-[Скорости стакана](cup/smoothing_velocity.png) и [бутылки](bottle/smoothing_velocity.png) показывают, что авторский smoother не увеличивает H3 скорость в три раза. Медианное отношение smoothed/raw скорости — 0,982 и 1,032, направления в основном сохраняются.
+| Сцена | Исходные выходы всех веток | Собственное перемещение ×1/3 | Фиксированный контроль и изменение времени |
+|---|---|---|---|
+| Чашка | [Все 24 точки](cup/all24_actual.png) | [Все 24 точки](cup/all24_one_third.png) | [PNG](cup/fixed_contact_sheet.png), [MP4](cup/fixed_comparison.mp4) |
+| Бутылка | [Все 24 точки](bottle/all24_actual.png) | [Все 24 точки](bottle/all24_one_third.png) | [PNG](bottle/fixed_contact_sheet.png), [MP4](bottle/fixed_comparison.mp4) |
 
-Реальный [пилот AugE на стакане](CASE-AUGE/cup/geometry_contact_sheet.png) использует первые восемь прежних точек. Вывод по изображению: размах дуги уменьшился, но необработанный прогноз продолжает заметно уходить от предмета; после `1/3` ближе промежуточные положения, а конечная дуга всё ещё расходится. Это содержательное изменение, поэтому следующий шаг — полный фиксированный 24-point run в обеих сценах.
+Ниже каждое видео показывает одну группу на одинаковых настоящих будущих RGB, при 5 FPS: baseline / новый raw прогноз / новый прогноз ×1/3. Зелёные точки и линии — будущий tracker reference, розовые — прогноз. Contact sheets показывают +0,2, +1,0 и +2,0 с. В каждой папке есть также PNG всех десяти кадров и полосы просмотренной скорректированной колонки в `video_audit/`.
 
-Камера AugE — кандидат из настройки симуляции, не измеренная калибровка RealSense. В [официальном config](sources/auge_config.py) указан вертикальный FOV 57,8224°, откуда для 640×480 получаем f=434,558 px; центр (320,240) — явно заданное предположение pinhole. В CASE-AUGE меняются только лучи: sensor Z и авторское сглаживание Z сохраняются, маски, RGB, точки и 2D tracks общие.
+| Ветка | Сцена | Группа 00 | Группа 01 | Группа 02 |
+|---|---|---|---|---|
+| CASE-AUGE | cup | [MP4](CASE-AUGE/cup/geometry_comparison.mp4), [PNG](CASE-AUGE/cup/geometry_contact_sheet.png) | [MP4](CASE-AUGE/cup/geometry_group_01_comparison.mp4), [PNG](CASE-AUGE/cup/geometry_group_01_contact_sheet.png) | [MP4](CASE-AUGE/cup/geometry_group_02_comparison.mp4), [PNG](CASE-AUGE/cup/geometry_group_02_contact_sheet.png) |
+| CASE-AUGE | bottle | [MP4](CASE-AUGE/bottle/geometry_comparison.mp4), [PNG](CASE-AUGE/bottle/geometry_contact_sheet.png) | [MP4](CASE-AUGE/bottle/geometry_group_01_comparison.mp4), [PNG](CASE-AUGE/bottle/geometry_group_01_contact_sheet.png) | [MP4](CASE-AUGE/bottle/geometry_group_02_comparison.mp4), [PNG](CASE-AUGE/bottle/geometry_group_02_contact_sheet.png) |
+| CASE-NOK | cup | [MP4](CASE-NOK/cup/geometry_comparison.mp4), [PNG](CASE-NOK/cup/geometry_contact_sheet.png) | [MP4](CASE-NOK/cup/geometry_group_01_comparison.mp4), [PNG](CASE-NOK/cup/geometry_group_01_contact_sheet.png) | [MP4](CASE-NOK/cup/geometry_group_02_comparison.mp4), [PNG](CASE-NOK/cup/geometry_group_02_contact_sheet.png) |
+| CASE-NOK | bottle | [MP4](CASE-NOK/bottle/geometry_comparison.mp4), [PNG](CASE-NOK/bottle/geometry_contact_sheet.png) | [MP4](CASE-NOK/bottle/geometry_group_01_comparison.mp4), [PNG](CASE-NOK/bottle/geometry_group_01_contact_sheet.png) | [MP4](CASE-NOK/bottle/geometry_group_02_comparison.mp4), [PNG](CASE-NOK/bottle/geometry_group_02_contact_sheet.png) |
+| CASE-NOK-STRICT | cup | [MP4](CASE-NOK-STRICT/cup/geometry_comparison.mp4), [PNG](CASE-NOK-STRICT/cup/geometry_contact_sheet.png) | [MP4](CASE-NOK-STRICT/cup/geometry_group_01_comparison.mp4), [PNG](CASE-NOK-STRICT/cup/geometry_group_01_contact_sheet.png) | [MP4](CASE-NOK-STRICT/cup/geometry_group_02_comparison.mp4), [PNG](CASE-NOK-STRICT/cup/geometry_group_02_contact_sheet.png) |
+| CASE-NOK-STRICT | bottle | [MP4](CASE-NOK-STRICT/bottle/geometry_comparison.mp4), [PNG](CASE-NOK-STRICT/bottle/geometry_contact_sheet.png) | [MP4](CASE-NOK-STRICT/bottle/geometry_group_01_comparison.mp4), [PNG](CASE-NOK-STRICT/bottle/geometry_group_01_contact_sheet.png) | [MP4](CASE-NOK-STRICT/bottle/geometry_group_02_comparison.mp4), [PNG](CASE-NOK-STRICT/bottle/geometry_group_02_contact_sheet.png) |
 
-Ветка CASE-NOK использует настоящий MoGe-2 без переданного K или FOV (`fov_x=None`). Его лучи объединяются с той же измеренной sensor Z. На стакане median focal — около 391,073 px. Это независимая оценка камеры по observed RGB, не ground truth. DELTA не выбрана для строгого no-prior-K: [официальная функция преобразования UVD→XYZ](sources/delta/densetrack3d/models/model_utils.py) при `intr=None` подставляет f=W и центр изображения. Такой результат нельзя называть свободным от заранее заданной камеры.
+[H1-контроль чашки, 8 точек](CASE-H1/cup/geometry_contact_sheet.png) · [Видео H1](CASE-H1/cup/geometry_comparison.mp4) · [Oracle чашки](cup/oracle_contact_sheet.png) · [Oracle бутылки](bottle/oracle_contact_sheet.png) · [Отмеченный, сохранённый ID 30 бутылки](bottle/strict_retained_id30.png).
 
-По ShareRobot найдены четыре planning-строки с точными sequence IDs `43_berkeley_autolab_ur5#episode_10` и `#episode_9` и соответствующими описаниями cup/bottle задач. [Поиск](sources/sharerobot_manifest_search.json) охватил все десять planning/jsons файлов и trajectory.json. Но доступные по отдельности trajectory PNG не включают эти два эпизода, а прямые planning PNG возвращают 404. [Проба архива](sources/sharerobot_mapping_probe.json) подтверждает split gzip и показывает первые пути. Метаданные соответствуют задачам; сравнение RGB по пикселям ещё не выполнено, поэтому точное image/time mapping остаётся открытым.
+## Что установлено
 
-В [пилоте CASE-NOK](CASE-NOK/cup/geometry_contact_sheet.png) дуга стала более прямым подъёмом; после `1/3` точки существенно ближе к стакану. Это наблюдение по восьми прежним точкам, поэтому требуется проверка полного набора и переноса на бутылку.
+Фиксированное `1/3` уменьшает избыточный размах, но не всегда исправляет форму и фазу. Oracle по всей будущей траектории даёт 0,1657 и 0,1954; совпадение конечной длины не означает совпадения движения. Авторское сглаживание не ускоряет H3 систематически втрое. [Аудит времени модели](sources/model_time_contract.json) обнаружил ordinal timestamps и в processor, и в training builder; отдельная ошибка processor этим не доказана.
 
-[H1-контроль](CASE-H1/cup/geometry_contact_sheet.png) завершился реальным полным ответом 8×32. Он использует только t0 с прежней геометрией BASELINE-U и показывает раннюю большую дугу к месту размещения, пока реальный стакан ещё поднимается. Удаление H3 не исправило ошибку; phase/timing также требуют объяснения. H1 меняет checkpoint вместе с размером истории, поэтому контроль не доказывает причинность одного фактора. [Raw ответ и receipt](CASE-H1/cup/predictions/group_00/).
+AugE использует официальный вертикальный FOV симуляции; это кандидатная камера. MoGe-2 действительно оценил лучи по восьми observed RGB каждой сцены, без K/FOV. CASE-NOK сохраняет старый smoothed sensor Z для контроля лучей; CASE-NOK-STRICT заново считает lift, trust, anchors, filter и smoothing по native depth и MoGe-лучам. [Строгий аудит чашки](CASE-NOK-STRICT/cup/geometry/strict_geometry_audit.json) и [бутылки](CASE-NOK-STRICT/bottle/geometry/strict_geometry_audit.json) подтверждают отсутствие старых K/XYZ/trust в расчёте. Все ID сохранены, включая отмеченный фильтром ID 30.
 
-Для проверки строгого отсутствия геометрического prior подготовлена дополнительная CASE-NOK-STRICT. Пилот CASE-NOK сохранял прежний smoothed sensor Z ради отдельного сравнения лучей; это Z было сглажено в исходной UniDepth-геометрии. В строгой ветке raw XYZ, trust weights, anchors и smoothing заново получены из native depth и прежних 2D tracks исключительно с MoGe-лучами. [Проверка входов](CASE-NOK-STRICT/cup/geometry/strict_geometry_audit.json) фиксирует отсутствие старых K/XYZ/trust weights в расчёте новой геометрии. Реальный прогноз этой ветки ещё предстоит выполнить.
+Связь ShareRobot закрыта **точным совпадением всех 60 RGB** с уникальными кадрами исходного RLDS. [Доказательство и индексы времени](sources/sharerobot_pixel_mapping.json), [пары чашки](sources/share_native_pixel_pairs_cup.png), [пары бутылки](sources/share_native_pixel_pairs_bottle.png). PNG извлечены из нужного участка split gzip без скачивания всего 343-ГБ архива. Редкие planning-кадры охватывают весь эпизод; плотная H3-история осталась исходной.
 
-Дополнительный [аудит Kalib](sources/kalib_readiness.json) показал, что PnP путь требует camera K и соответствий известной TCP 3D позиции её пиксельному положению. Существующие точки на стакане/бутылке нельзя автоматически считать TCP; запуск калибровки на таких подменённых данных не выполнен.
+[Kalib](sources/kalib_readiness.json) проверен как дополнительный метод. Реальная калибровка не выполнена: нужны проверенные TCP 3D↔pixel соответствия, а объектные точки не являются TCP. Его применимость и недостающие данные описаны явно.
 
-[План и оставшиеся проверки](work_plan.md) · [Фиксированный протокол и SHA256 источников](protocol.json) · [Проверка неизменности baseline](fixed_immutability_check.json).
+## Проверки и воспроизводимость
 
-Команды из корня репозитория в Python-окружении эксперимента:
+[Фиксированный протокол и SHA256](protocol.json) · [Итоговый аудит](final_verification.json) · [10 пройденных тестов](tests_receipt.json) · [Числа JSON](summary.json). Аудит проверяет все исходные файлы baseline, frozen входы шести полных веток, все 19 raw ответов и восстановление XYZ, 23 MP4 по десять кадров при 5 FPS, SHA256 и CRC всех 60 PNG. Сохранены payloads, input freezes, GPU receipts и снимки исполняемого inference-скрипта для новых полных запусков. Ограничение происхождения кода ранних пилотов описано в рассказе.
+
+Из корня репозитория в окружении эксперимента:
 
 ```bash
-python scripts/berkeley_temporal_diagnostics.py --stage fixed
-python scripts/berkeley_temporal_diagnostics.py --stage diagnostics
-python scripts/berkeley_improvement_sources.py sources
-python scripts/berkeley_improvement_sources.py share
-python scripts/berkeley_share_mapping_probe.py
-python scripts/berkeley_geometry_cases.py --case CASE-AUGE --scenes cup
-python scripts/berkeley_geometry_infer.py --scenes runs/berkeley_ur5_improvement_v1/CASE-AUGE/cup --groups 0
-python scripts/berkeley_geometry_compare.py --case CASE-AUGE --scene cup
+python -m pytest -q tests/test_berkeley_temporal_diagnostics.py tests/test_berkeley_geometry_tracks.py tests/test_berkeley_share_ranges.py
+python scripts/berkeley_improvement_verify.py --final
 ```
 
-Команды подготовки отказываются перезаписывать завершённые результаты. Для повторения нужен отдельный каталог запуска или сохранённый checkout до запуска; исходный baseline нельзя очищать. Скрипты сохраняют реальные raw ответы и processor payloads, строго проверяют все point/time IDs и восстановление XYZ относительно anchor. Сбой упаковки успешного пилота AugE исправлен CPU recovery без дополнительного вызова модели.
+Для нового запуска используйте отдельный каталог/checkout. Подготовка отказывается перезаписывать завершённые входы. Большие веса и полный архив датасета не входят в результаты; закреплённые revisions, SHA256 и доказательные артефакты сохранены. `progress_verification.json`, первые `visual_review*.json`, очереди и начальные mapping probes отражают исторические этапы; окончательные статусы находятся в перечисленных итоговых файлах.

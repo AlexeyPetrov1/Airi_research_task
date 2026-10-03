@@ -1,0 +1,865 @@
+{
+  "revision": "3266d92902b038ce40e7fb8aac5bfd9287eb3e45",
+  "source": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/planning/images/rt_frames_success.tar.gz.part.ah",
+  "requested_range": [
+    0,
+    5368709119
+  ],
+  "state": "all_target_pngs_extracted",
+  "accepted_images": [
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_13.png",
+      "episode": 9,
+      "frame": 13,
+      "bytes": 451660,
+      "sha256": "6b7d8f82f8a27cc3e529ee1e149285c419fc58a87b246d50a68af04a78f69842",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_13.png",
+      "compressed_position_upper_bound": 914358272
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_11.png",
+      "episode": 9,
+      "frame": 11,
+      "bytes": 450653,
+      "sha256": "2d76c2b037cdd94dbe76f5ec8a3302925ab0a3d86bf84033c9036b30a44ba83d",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_11.png",
+      "compressed_position_upper_bound": 914358272
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_17.png",
+      "episode": 9,
+      "frame": 17,
+      "bytes": 452298,
+      "sha256": "8fff82af8cbe6ebd0901f44dff0873848df985cd631246efadbaa2543df11457",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_17.png",
+      "compressed_position_upper_bound": 915406848
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_6.png",
+      "episode": 9,
+      "frame": 6,
+      "bytes": 459838,
+      "sha256": "2b0e6077c24844801ad2e7a941721478445d834c946e04669b7564018c61844a",
+      "png_chunks_crc_checked": 10,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_06.png",
+      "compressed_position_upper_bound": 915406848
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_4.png",
+      "episode": 9,
+      "frame": 4,
+      "bytes": 449172,
+      "sha256": "cfe3cca58528c17267b97d38e5c704aafc4ecb56aa3942d837f29a3d786f386f",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_04.png",
+      "compressed_position_upper_bound": 915406848
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_14.png",
+      "episode": 9,
+      "frame": 14,
+      "bytes": 452244,
+      "sha256": "8c16fb2c31978ae9c001d9623289f2cc8ddcb1307609f6d0356d46e225ebb982",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_14.png",
+      "compressed_position_upper_bound": 916455424
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_0.png",
+      "episode": 9,
+      "frame": 0,
+      "bytes": 450858,
+      "sha256": "71a9666810a8329ce2b15783b0ff6a6cf53f469e697c377db93eb1f3e594c9f5",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_00.png",
+      "compressed_position_upper_bound": 916455424
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_16.png",
+      "episode": 9,
+      "frame": 16,
+      "bytes": 452869,
+      "sha256": "c6079c863886fe46eb17b190bfabc731eb3288350bbb99876c61f6102aacaa06",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_16.png",
+      "compressed_position_upper_bound": 917504000
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_9.png",
+      "episode": 9,
+      "frame": 9,
+      "bytes": 450167,
+      "sha256": "257b8165ceace5983cfd0dbc29a8d88708e6d8788f7d621127186ebb0d40b140",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_09.png",
+      "compressed_position_upper_bound": 917504000
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_2.png",
+      "episode": 9,
+      "frame": 2,
+      "bytes": 448699,
+      "sha256": "c74dd420d84d9898efc6d48083eaff201588ae6752b84e837726e1535f0efe5f",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_02.png",
+      "compressed_position_upper_bound": 918552576
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_10.png",
+      "episode": 9,
+      "frame": 10,
+      "bytes": 450459,
+      "sha256": "47863ca8d315ea406b4f7ed67dddd6c6107d311ca1803077fd15f7edf4261a86",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_10.png",
+      "compressed_position_upper_bound": 918552576
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_25.png",
+      "episode": 9,
+      "frame": 25,
+      "bytes": 444006,
+      "sha256": "b292b2d0ab5ebc08d9386dd15e063c7b8cccf1624a4b0827c590ed1256b623c2",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_25.png",
+      "compressed_position_upper_bound": 918552576
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_18.png",
+      "episode": 9,
+      "frame": 18,
+      "bytes": 451103,
+      "sha256": "d91438254ddf2bbb28be18d56da8db25842ba9de3c91474ccf615a7bbb6ca6d3",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_18.png",
+      "compressed_position_upper_bound": 919601152
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_8.png",
+      "episode": 9,
+      "frame": 8,
+      "bytes": 453409,
+      "sha256": "a0c4e94d1367e73303d7ee64455c304688031afc8754a00650ea26a4cbcb5daf",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_08.png",
+      "compressed_position_upper_bound": 919601152
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_21.png",
+      "episode": 9,
+      "frame": 21,
+      "bytes": 446784,
+      "sha256": "bd0b57aef33d8d7baf761841fbe3688e5252f927bb50e0fa856c5eedd9ffcfad",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_21.png",
+      "compressed_position_upper_bound": 920649728
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_24.png",
+      "episode": 9,
+      "frame": 24,
+      "bytes": 445212,
+      "sha256": "7839a347997a80ffa902d37ae2df1755404ff1ec94ca15990ab0f96d1c5979ec",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_24.png",
+      "compressed_position_upper_bound": 920649728
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_29.png",
+      "episode": 9,
+      "frame": 29,
+      "bytes": 445707,
+      "sha256": "23dd3a877688d0585375e12ee53da77b7b90eb6ac3ffc6d18a9b4a344e464bf1",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_29.png",
+      "compressed_position_upper_bound": 921698304
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_23.png",
+      "episode": 9,
+      "frame": 23,
+      "bytes": 445229,
+      "sha256": "e929a12037f3b0c10da13fb41af4d4fd2fa3e3964105ff518069ca50cb4c13ab",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_23.png",
+      "compressed_position_upper_bound": 921698304
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_19.png",
+      "episode": 9,
+      "frame": 19,
+      "bytes": 447834,
+      "sha256": "c12a61b5ac3531e0f899dbae8930cda772aac1dca74acba93b7c4f3fdbec8cd5",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_19.png",
+      "compressed_position_upper_bound": 921698304
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_12.png",
+      "episode": 9,
+      "frame": 12,
+      "bytes": 451918,
+      "sha256": "a23de588b053cbd5b551ffb87c07676fa73f63ececd7cdaf531accec3efe24e8",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_12.png",
+      "compressed_position_upper_bound": 922746880
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_27.png",
+      "episode": 9,
+      "frame": 27,
+      "bytes": 444190,
+      "sha256": "6445ec0d1eec679e3197a4cfac5d565803de2b28d4aa21fc6372d0265e973831",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_27.png",
+      "compressed_position_upper_bound": 922746880
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_22.png",
+      "episode": 9,
+      "frame": 22,
+      "bytes": 448811,
+      "sha256": "3126683cd0b87aa3715be5126c0495b5fe3e38b30a09a9a62ed9e918422e1343",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_22.png",
+      "compressed_position_upper_bound": 923795456
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_28.png",
+      "episode": 9,
+      "frame": 28,
+      "bytes": 442317,
+      "sha256": "e80430391018c14e6b7f06f738d0e0909fc53b23a3586dce5d0decbc5a42a8d6",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_28.png",
+      "compressed_position_upper_bound": 923795456
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_20.png",
+      "episode": 9,
+      "frame": 20,
+      "bytes": 445324,
+      "sha256": "9716be415c95b0095a2cf123f4566da18c0eedb0606fc0593e76a5361df5fd3d",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_20.png",
+      "compressed_position_upper_bound": 924844032
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_7.png",
+      "episode": 9,
+      "frame": 7,
+      "bytes": 459871,
+      "sha256": "5d0d6645808891e7c1dad277f8fb2640ad5211fdfe82fafa4946ab631d791c51",
+      "png_chunks_crc_checked": 10,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_07.png",
+      "compressed_position_upper_bound": 924844032
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_3.png",
+      "episode": 9,
+      "frame": 3,
+      "bytes": 447827,
+      "sha256": "f67aaa98598a04b4427a23824450cdf8288cd33663afe03081ed7cf05db0e975",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_03.png",
+      "compressed_position_upper_bound": 924844032
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_5.png",
+      "episode": 9,
+      "frame": 5,
+      "bytes": 458275,
+      "sha256": "368342fe0ef2973079fe641a3459cc6bf1aa4b05d3573dbb250ae6866fe7bbe1",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_05.png",
+      "compressed_position_upper_bound": 925892608
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_15.png",
+      "episode": 9,
+      "frame": 15,
+      "bytes": 453802,
+      "sha256": "6f657047ec903127bcd06c98a0db6bfbb115c7c37ba9de5beedbc05160b8e8ed",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_15.png",
+      "compressed_position_upper_bound": 925892608
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_1.png",
+      "episode": 9,
+      "frame": 1,
+      "bytes": 451242,
+      "sha256": "6a2202c8a283a36de4d0023b6cddbc3339fe09119b3700873d7911dc6a304bd3",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_01.png",
+      "compressed_position_upper_bound": 926941184
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_26.png",
+      "episode": 9,
+      "frame": 26,
+      "bytes": 443154,
+      "sha256": "15e8359fbe4a080b0572233d3763a0d582a0cc0bebe3533d7aecd23e8be4e5d9",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_9/frame_26.png",
+      "compressed_position_upper_bound": 926941184
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_13.png",
+      "episode": 10,
+      "frame": 13,
+      "bytes": 454426,
+      "sha256": "62ceb2d56342a1a8d3c7639a968630fdf641f8e721c39a9c5f83876a98d0a77a",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_13.png",
+      "compressed_position_upper_bound": 4518313984
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_11.png",
+      "episode": 10,
+      "frame": 11,
+      "bytes": 454100,
+      "sha256": "2a9eadf25cd8253cb72086dc24ffc8ddf1ebe817c098f55a64856d0ed1864a5e",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_11.png",
+      "compressed_position_upper_bound": 4518313984
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_17.png",
+      "episode": 10,
+      "frame": 17,
+      "bytes": 448063,
+      "sha256": "9128527fe6893839b33f95fab2d87e2eda2cfb1f71f2df311f24518226eaa163",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_17.png",
+      "compressed_position_upper_bound": 4519362560
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_6.png",
+      "episode": 10,
+      "frame": 6,
+      "bytes": 451803,
+      "sha256": "cf23b29f714bc5e8940c6b01f94ddd0bb38695c6cf795b4167f00b4be6112f42",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_06.png",
+      "compressed_position_upper_bound": 4519362560
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_4.png",
+      "episode": 10,
+      "frame": 4,
+      "bytes": 425216,
+      "sha256": "1945be3f9a67d4c95e766edcc0a0831d5f55be9e1085b5d4c7ba2a2919bc9ff6",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_04.png",
+      "compressed_position_upper_bound": 4519362560
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_14.png",
+      "episode": 10,
+      "frame": 14,
+      "bytes": 453529,
+      "sha256": "c9784da9c599e025437245cdfea2d2c068ead41a812db90cdfd2f77c5a42c7b3",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_14.png",
+      "compressed_position_upper_bound": 4520411136
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_0.png",
+      "episode": 10,
+      "frame": 0,
+      "bytes": 424951,
+      "sha256": "85b91bcf186a33747b82ec7f28837c15db8a81bef58857468f0c88bebb76fba2",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_00.png",
+      "compressed_position_upper_bound": 4520411136
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_16.png",
+      "episode": 10,
+      "frame": 16,
+      "bytes": 451482,
+      "sha256": "8e4331787e64b5a5a314bf115cb1d7093c1713ba8cec802d87d472a91e91381f",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_16.png",
+      "compressed_position_upper_bound": 4521459712
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_9.png",
+      "episode": 10,
+      "frame": 9,
+      "bytes": 450235,
+      "sha256": "22bd0fd7eb398b815f73fabf52ac1f4d08e62cf4cad5b1cb787f5cfbdc29b583",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_09.png",
+      "compressed_position_upper_bound": 4521459712
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_2.png",
+      "episode": 10,
+      "frame": 2,
+      "bytes": 425718,
+      "sha256": "403cb0dac48252b4e6c9701e4d3c1ffda31f38dc4f6102440b57adef38c3a5c9",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_02.png",
+      "compressed_position_upper_bound": 4522508288
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_10.png",
+      "episode": 10,
+      "frame": 10,
+      "bytes": 455522,
+      "sha256": "9bf0aad230f84b2508e4d61d533da6b2d83119610e513f4ea78c8508402d2803",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_10.png",
+      "compressed_position_upper_bound": 4522508288
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_25.png",
+      "episode": 10,
+      "frame": 25,
+      "bytes": 438009,
+      "sha256": "b2ca716bbfd3e8cdcfba0da5201dc8879d42dd4691edd58962997944235e0354",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_25.png",
+      "compressed_position_upper_bound": 4522508288
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_18.png",
+      "episode": 10,
+      "frame": 18,
+      "bytes": 443245,
+      "sha256": "63e9be7b06b78cd0be3d11fcc3676ce9869697cfdcefdbe218e93236c815fbd5",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_18.png",
+      "compressed_position_upper_bound": 4523556864
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_8.png",
+      "episode": 10,
+      "frame": 8,
+      "bytes": 451635,
+      "sha256": "840b05ea9b873c99138c80c28d8c7cffc44ac5773a2d4a1cac2fd8c77598aa41",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_08.png",
+      "compressed_position_upper_bound": 4523556864
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_21.png",
+      "episode": 10,
+      "frame": 21,
+      "bytes": 439839,
+      "sha256": "503fe9c61eb4d80d73fb6c0f60f08e64f395b2dacdc781d5cd2e1cebb25c590f",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_21.png",
+      "compressed_position_upper_bound": 4524605440
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_24.png",
+      "episode": 10,
+      "frame": 24,
+      "bytes": 436215,
+      "sha256": "2a31d8544dc9412100b4cf8045f7f9827d1f91a336193fe40bd48728a78cbd65",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_24.png",
+      "compressed_position_upper_bound": 4524605440
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_29.png",
+      "episode": 10,
+      "frame": 29,
+      "bytes": 435412,
+      "sha256": "fd6a2edd1cb53348c1887a044c28aaa066f2b41e6f73a54fefcb0ef982a9c817",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_29.png",
+      "compressed_position_upper_bound": 4525654016
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_23.png",
+      "episode": 10,
+      "frame": 23,
+      "bytes": 437611,
+      "sha256": "2401bce48b6a8b24ac7965c34f9f87cbaf1d60b6c5760fde700bc72d6556c785",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_23.png",
+      "compressed_position_upper_bound": 4525654016
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_19.png",
+      "episode": 10,
+      "frame": 19,
+      "bytes": 440254,
+      "sha256": "6f7b6f4a6b4f98c0c08eb060f8d53bb41b5a91ace47bd8e89d7b2018c9811b0b",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_19.png",
+      "compressed_position_upper_bound": 4525654016
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_12.png",
+      "episode": 10,
+      "frame": 12,
+      "bytes": 453640,
+      "sha256": "83bb582bd28940a0669c118fa308e7bf79844c1b142af1aa3c3230ab11ecdc89",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_12.png",
+      "compressed_position_upper_bound": 4526702592
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_27.png",
+      "episode": 10,
+      "frame": 27,
+      "bytes": 436851,
+      "sha256": "fff386ffd25a2d54127eaa97062b9b339252553752b7e79d6af311c50cfcff71",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_27.png",
+      "compressed_position_upper_bound": 4526702592
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_22.png",
+      "episode": 10,
+      "frame": 22,
+      "bytes": 438629,
+      "sha256": "fbc00949e33832d8f91bb39b4e1988b3f772067f4afe90daf98c26e55c8c5402",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_22.png",
+      "compressed_position_upper_bound": 4527751168
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_28.png",
+      "episode": 10,
+      "frame": 28,
+      "bytes": 435993,
+      "sha256": "1dd7b57ec96f2c7ac6d20e117ca8b043ffc34880e1456a04cc6b3736d88eff14",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_28.png",
+      "compressed_position_upper_bound": 4527751168
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_20.png",
+      "episode": 10,
+      "frame": 20,
+      "bytes": 441311,
+      "sha256": "39072d8ce87d747024df86efa6ebc44fde378db3243724853413de3d1b2c2afe",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_20.png",
+      "compressed_position_upper_bound": 4527751168
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_7.png",
+      "episode": 10,
+      "frame": 7,
+      "bytes": 450851,
+      "sha256": "5f30b80046795c6688c1e30a3eccceefea8f95737d3b39028e1880b01ff5ba6b",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_07.png",
+      "compressed_position_upper_bound": 4528799744
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_3.png",
+      "episode": 10,
+      "frame": 3,
+      "bytes": 423733,
+      "sha256": "b04b68088129e9b8b1a328813425a0f4a70033023b21dd21341de9799b899481",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_03.png",
+      "compressed_position_upper_bound": 4528799744
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_5.png",
+      "episode": 10,
+      "frame": 5,
+      "bytes": 452113,
+      "sha256": "91d48e46393f47535a86ee795e7b8f13badb885b1cddbb6282219c1b5f5dc640",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_05.png",
+      "compressed_position_upper_bound": 4529848320
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_15.png",
+      "episode": 10,
+      "frame": 15,
+      "bytes": 453080,
+      "sha256": "4dd8b717b6dc057fb92abedb9ade306fe64052217c02eb5b1f8f193d3f020ff0",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_15.png",
+      "compressed_position_upper_bound": 4529848320
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_1.png",
+      "episode": 10,
+      "frame": 1,
+      "bytes": 425310,
+      "sha256": "c3cdf1fdc9f019f49bf828f64428b9f3a56b6a30b6830a052e6b93daab49260b",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_01.png",
+      "compressed_position_upper_bound": 4530896896
+    },
+    {
+      "member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_26.png",
+      "episode": 10,
+      "frame": 26,
+      "bytes": 437690,
+      "sha256": "6252f597a4f469e1f0530f02eda7f4113cc0a2bcbdce8356cf1ff231211b6580",
+      "png_chunks_crc_checked": 9,
+      "image_size": [
+        640,
+        480
+      ],
+      "local_path": "share_exact_frames/episode_10/frame_26.png",
+      "compressed_position_upper_bound": 4530896896
+    }
+  ],
+  "member_count": 10636,
+  "whole_gzip_crc_checked": false,
+  "pixel_mapping_confirmed": false,
+  "content_range": "bytes 0-5368709119/5368709120",
+  "restart": {
+    "mode": "raw_stored_block_unknown_dictionary",
+    "compressed_offset": 32719,
+    "synthetic_header_bytes": 1,
+    "unknown_dictionary_bytes": 32768
+  },
+  "initial_range_sha256": "47f9c56e5f133360cd6415d122ebd6beaa21f736d9f2622ef2543ef0718078ac",
+  "last_member": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_26.png",
+  "compressed_bytes_read": 4530896896,
+  "elapsed_s": 242.1111844410002
+}

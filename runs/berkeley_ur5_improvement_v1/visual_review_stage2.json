@@ -1,0 +1,15 @@
+{
+  "status": "in_progress",
+  "method": "Actual contact-sheet inspection at +0.2, +1.0 and +2.0 s; all-ten-frame corrected-column strips; all-24-point group-colored plots. No continuous video playback claimed.",
+  "reviewed_CASE_AUGE_groups": {"cup": [0, 1, 2], "bottle": [0, 1, 2]},
+  "reviewed_CASE_NOK_groups": {"cup": [0, 1, 2], "bottle": [0, 1, 2]},
+  "CASE_AUGE_cup": "x1/3 groups 01/02 mainly lift and approach the cup, while group 00 still curves right late. Raw outputs remain too large. Intergroup disagreement remains visible.",
+  "CASE_AUGE_bottle": "Raw forecasts remain broad rightward arcs. Group 01 changes from a more vertical baseline path to an arc. x1/3 improves proximity but turns toward the pot too early and leaves shape error.",
+  "CASE_NOK_cup": "All three groups now mainly lift upward. x1/3 stays much closer to the actual cup; early rise remains too fast/high. Group disagreement is smaller than baseline/AugE. This branch reuses sensor Z smoothed earlier in UniDepth geometry.",
+  "CASE_NOK_bottle": "Raw forecasts retain rightward placement arcs. x1/3 reduces overshoot, but middle frames rise and turn toward the pot too early. Late points are closer without complete temporal/shape agreement.",
+  "CASE_NOK_STRICT_cup_pilot": "Fresh independent-ray trust/smoothing also changes group 00 to an upward lift. x1/3 approaches the cup. Substantive visual effect justifies all-24-ID expansion in both scenes; expanded inference has started.",
+  "corrected_all_10_frames_reviewed": ["CASE-AUGE/cup/group_00", "CASE-AUGE/cup/group_01", "CASE-AUGE/cup/group_02", "CASE-AUGE/bottle/group_00", "CASE-AUGE/bottle/group_01", "CASE-AUGE/bottle/group_02", "CASE-NOK/cup/group_00", "CASE-NOK/cup/group_01", "CASE-NOK/cup/group_02", "CASE-NOK/bottle/group_00", "CASE-NOK/bottle/group_01", "CASE-NOK/bottle/group_02"],
+  "ShareRobot_pairs_reviewed": ["sources/share_native_pixel_pairs_cup.png", "sources/share_native_pixel_pairs_bottle.png"],
+  "ShareRobot_finding": "Visual pairs depict the same physical scenes and poses. Independent pixel SHA256 proves exact identity for all 60 images.",
+  "remaining": "Inspect strict full groups, fixed/oracle/H1 all-ten-frame strips; final report, checks and publication."
+}
