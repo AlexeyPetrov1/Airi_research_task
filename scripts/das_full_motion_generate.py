@@ -98,7 +98,7 @@ def main():
     assert all(sha256(scene/name)==digest for name,digest in freeze['sha256'].items())
     snapshot=out/'source_snapshot';snapshot.mkdir(exist_ok=True)
     import shutil
-    for name in ['das_full_motion_generate.py','das_full_motion_prepare.py','das_full_motion_diagnose.py','das_full_motion_prior.py','das_full_motion_safety.py','das_wanfun_runtime.py','das_prepare_control.py']:
+    for name in ['das_full_motion_generate.py','das_full_motion_prepare.py','das_full_motion_diagnose.py','das_full_motion_prior.py','das_full_motion_safety.py','das_full_motion_robot_prepare.py','das_full_motion_robot_ik.py','das_robot_geometry.py','das_wanfun_runtime.py','das_prepare_control.py']:
         shutil.copy2(ROOT/'scripts'/name,snapshot/name)
     log=open(out/'generation.log','a',encoding='utf8',buffering=1)
     class Tee:

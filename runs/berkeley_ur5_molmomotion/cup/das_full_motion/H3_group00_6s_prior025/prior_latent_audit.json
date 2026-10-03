@@ -1,0 +1,11 @@
+{
+  "generated_latent_sha256": "ba6ffe76f73282e866f8f6180dde7a92d153d36051f3b3fdf505ce74bfbbcc85",
+  "guide_latent_sha256": "45ac6090aa01e81b685dab107db27f0ce495e483dc910e55ac0ef915f21fd9fb",
+  "initial_anchor_excluded": true,
+  "future_all_latent_relative_RMS": 0.3178565502166748,
+  "future_moving_region_relative_RMS": 0.12148352712392807,
+  "future_background_region_relative_RMS": 0.32947295904159546,
+  "moving_latent_fraction": 0.01805555634200573,
+  "interpretation": "RMS(generated-guide)/RMS(guide), latent frames 1..12 only. Describes condition proximity, not realism, trajectory accuracy, or semantic identity.",
+  "not_directly_comparable_to_old_F": "Old F used an endpoint future-RGB guide and a different mask/temporal scope."
+}

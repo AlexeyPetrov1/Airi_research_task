@@ -60,6 +60,9 @@ def main():
         check(f'{name}: tracker cache matches actual video',tracking['video_sha256']==sha256(video) and tracking['future_real_used'] is False)
         check(f'{name}: pinned independent tracker',tracking['tracker']=='official AllTracker Net(16)' and tracking['iterations']==4 and tracking['checkpoint_sha256']==sha256('/mnt/f/AIRI_task/.cache/torch/hub/checkpoints/alltracker.pth'))
     check('selected output exists',a.chosen in configs)
+    required=['H1_group00_2s_no_prior','H2_group00_6s_no_prior','H3_group00_6s_prior025',
+        'H4_no_trajectory_control','H5_group00_6s_whole_robot_prior025']
+    check('all requested experiments completed',all(name in configs for name in required))
     if 'H1_group00_2s_no_prior' in configs:
         h1=configs['H1_group00_2s_no_prior'];h2=configs['H2_group00_6s_no_prior']
         keys=['model','checkpoint_revision','das_commit','dtype','seed','num_inference_steps','num_frames',
@@ -83,8 +86,21 @@ def main():
             'trajectory_method','timing','photographic_guide_strength']
         check('H2/H4 matched except trajectory control',all(h2[key]==h4[key] for key in keys) and h2['trajectory_control'] and not h4['trajectory_control'])
     review=json.loads((OUT/'visual_review.json').read_text())
+    check('every output reviewed in all 49 frames',all(review['variants'][name]['frames_reviewed']==49 for name in configs))
     check('selected all-frame semantic review',review['chosen_variant']==a.chosen and review['variants'][a.chosen]['frames_reviewed']==49)
     check('selected full arc accepted',review['variants'][a.chosen]['full_predicted_arc_visible'])
+    check('selected proximal arm actually moves',review['variants'][a.chosen]['proximal_arm_moves'])
+    whole=OUT/'group00_stretched_6s_whole_robot_v1'
+    check('whole robot retains exact H2 cup and local geometry',sha256(whole/'motion.npz')==sha256(OUT/'group00_stretched_6s/motion.npz'))
+    body=np.load(whole/'articulated_robot.npz')
+    check('articulated endpoints remain joined',body['forearm_endpoint_errors_px'].max()<1e-7)
+    check('fixed mounted base preserved',np.allclose(body['fk_camera'][:,1,:3,3],body['fk_camera'][0,1,:3,3],atol=1e-9))
+    selected=configs[a.chosen];selected_prep=OUT/Path(selected['preparation_root']).name
+    check('whole robot exact initial image',sha256(selected_prep/'image_t0_720x480.png')==sha256(OUT/'group00_stretched_6s/image_t0_720x480.png'))
+    for name in ['H2_group00_6s_no_prior','H3_group00_6s_prior025',a.chosen]:
+        receipt=json.loads((OUT/name/'robot_tracking.json').read_text())
+        check(f'{name}: independent robot tracks match video',receipt['video_sha256']==sha256(OUT/name/'generated_seed42.mp4') and receipt['future_real_used'] is False)
+        check(f'{name}: robot target frozen',receipt['target_sha256']==sha256(whole/'articulated_robot.npz'))
     report={'passed':len(checks),'all_passed':all(checks.values()),'chosen_variant':a.chosen,'checks':checks}
     write_json(OUT/'verification.json',report)
     manifest=[]

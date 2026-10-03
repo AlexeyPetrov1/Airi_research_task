@@ -1,0 +1,17 @@
+{
+  "accepted": true,
+  "guide_accepted": true,
+  "frames_reviewed": 49,
+  "control_sha256": "0de0c5ae270122d7ed303720adbefd70884748c96b630a98b8410a203d65f5e9",
+  "guide_sha256": "8e0c483c78fb56c1b0ebfbdd3560d362af4b4667f286058ba91e8f58a0d4b9c4",
+  "prior_masks_sha256": "9f9f654b0f8e54890b2d8c21c05442ca0ac08a356c6a578fa2ef06106a693534",
+  "cup_and_gripper_arc_unchanged": true,
+  "proximal_arm_moves": true,
+  "mounted_base_fixed": true,
+  "review_notes": [
+    "Full t0 silhouettes remain dense; no sparse metal holes in photographic guide",
+    "Upper arm tilts right about fixed base; forearm follows unchanged moving wrist junction",
+    "Much of distal arm leaves the top or right of image during the original arc; preserve this geometry",
+    "Guide is synthetic t0-only input and is not the generated result"
+  ]
+}

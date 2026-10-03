@@ -15,6 +15,18 @@ from das_full_motion_diagnose import fit_motion
 
 
 class FullMotionTests(unittest.TestCase):
+    def test_articulated_endpoints_preserve_shared_junction_and_fixed_base(self):
+        from das_full_motion_robot_prepare import endpoint_map
+        base=np.array([600.,430.]);elbow=np.array([610.,-70.]);wrist=np.array([217.,90.])
+        moved_elbow=np.array([820.,-90.]);moved_wrist=np.array([400.,-62.])
+        upper=endpoint_map(np.array([base,elbow]),np.array([base,moved_elbow]))
+        lower=endpoint_map(np.array([elbow,wrist]),np.array([moved_elbow,moved_wrist]))
+        np.testing.assert_allclose(np.r_[base,1]@upper.T,base,atol=1e-10)
+        np.testing.assert_allclose(np.r_[elbow,1]@upper.T,np.r_[elbow,1]@lower.T,atol=1e-10)
+        np.testing.assert_allclose(np.r_[wrist,1]@lower.T,moved_wrist,atol=1e-10)
+        self.assertGreater(np.linalg.det(upper[:,:2]),0)
+        self.assertGreater(np.linalg.det(lower[:,:2]),0)
+
     def test_existing_inference_is_waited_for_even_when_vram_looks_free(self):
         import das_full_motion_generate as generation
         other=SimpleNamespace(pid=12345,info={'pid':12345,'cmdline':

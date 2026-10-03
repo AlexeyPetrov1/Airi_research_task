@@ -11,7 +11,20 @@
       "local_gripper": "Travels with the cup; contact judged visually, not certified by physical reconstruction.",
       "proximal_robot": "Mostly static; the local moving gripper becomes disconnected from the proximal arm. Not accepted as realistic robot kinematics.",
       "artifacts": "Small light fragment late in the clip; changes in cup silhouette and printed motif.",
-      "acceptance": "Accepted for the requested full spatial cup arc. Appearance and full-arm realism remain limited."
+      "acceptance": "Accepted for the requested full spatial cup arc. Appearance and full-arm realism remain limited.",
+      "proximal_arm_moves": false
+    },
+    "H3_group00_6s_prior025": {
+      "frames_reviewed": 49,
+      "full_predicted_arc_visible": true,
+      "proximal_arm_moves": false,
+      "motion": "Lift, partial top exit, rightward re-entry and descent along the unchanged group_00 arc.",
+      "cup_identity": "One recognizable blue cup with a white face motif; less silhouette/motif drift than H2, but small distortions remain.",
+      "original_site_copy": false,
+      "local_gripper": "Travels with the cup; visual contact remains plausible.",
+      "proximal_robot": "Upper arm and forearm remain essentially stationary; local moving unit is disconnected.",
+      "artifacts": "Minor changing cup shape, printed detail and gripper appearance; static proximal robot.",
+      "acceptance": "Accepted for full cup arc and useful t0 prior comparison; whole-body realism requires the requested H5."
     }
   }
 }
