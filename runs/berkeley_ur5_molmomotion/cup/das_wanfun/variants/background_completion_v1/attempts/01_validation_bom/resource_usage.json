@@ -1,0 +1,16 @@
+{
+  "stage": "waiting_for_gpu",
+  "success": false,
+  "started_utc": "2026-10-03T08:58:26Z",
+  "peak_process_rss_bytes": 588922880,
+  "peak_system_ram_used_bytes": 1165938688,
+  "peak_cuda_allocated_bytes": 0,
+  "peak_cuda_reserved_bytes": 0,
+  "peak_device_used_bytes": 0,
+  "wall_seconds": 0.30125876599998946,
+  "queue_wait_seconds": 0.28453149699998903,
+  "error_type": "JSONDecodeError",
+  "error": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+  "stack_trace": "Traceback (most recent call last):\n  File \"/mnt/f/AIRI_task/das_wanfun_cup_20261003/scripts/das_generate.py\", line 105, in main\n    validation = json.loads((out/'control_validation.json').read_text())\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/f/AIRI_task/.pythons/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/json/__init__.py\", line 335, in loads\n    raise JSONDecodeError(\"Unexpected UTF-8 BOM (decode using utf-8-sig)\",\njson.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)\n",
+  "active_seconds": 0.016727269000000433
+}

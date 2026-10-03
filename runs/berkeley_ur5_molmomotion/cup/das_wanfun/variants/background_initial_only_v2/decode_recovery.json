@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "method": "Original official Wan VAE decode and save_videos_grid from frozen denoising latents; no denoising rerun",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "seconds": 39.86224363299971,
+  "peak_cuda_allocated_bytes": 10248835584,
+  "peak_cuda_reserved_bytes": 12046041088,
+  "latent_sha256": "ecb2977eea3f7b9c9a6dc0cf30497c6cbebd4c87e4370ea576f88f7cf8fe87f0",
+  "video_sha256": "c87f21e971c1997b7c83d4f33a879a6c3b79c61198ff4428a72068787578eccd",
+  "vae_checkpoint": "/mnt/f/AIRI_task/models/Wan2.1-Fun-V1.1-1.3B-Control/Wan2.1_VAE.pth",
+  "das_commit": "47dcaf13f78fe3cafd2a4aed20df1e059917599a"
+}

@@ -2,6 +2,25 @@
 
 [Полный исследовательский отчёт](../../../../report/das_wanfun_cup.md).
 
+**Исправление по замечанию пользователя:** [новое видео v6](variants/clean_reference_mask_v6/generated_molmomotion_seed42.mp4) устраняет постоянный стакан и ободок на исходном месте с 0.5 с до конца. В начале есть короткий fade; движение и узнаваемость подвижного предмета остаются несовершенными. Это расширение inference DaS с causal пустым reference и vacancy-prior, без ретуши готовых кадров. [Отчёт по шести новым вариантам](../../../../report/das_cup_dedup.md).
+
+| Новые материалы | Ссылка |
+|---|---|
+| Исходный ролик / v6, все 49 кадров | [before_after_full_duration.mp4](variants/clean_reference_mask_v6/before_after_full_duration.mp4), [контактные кадры](variants/clean_reference_mask_v6/before_after_contact_sheet.png) |
+| Увеличенное исходное место, все 6 с | [initial_site_before_after.mp4](variants/clean_reference_mask_v6/initial_site_before_after.mp4) |
+| Real / repaired control / v6, первые 2 с | [triple_comparison.mp4](variants/clean_reference_mask_v6/triple_comparison.mp4) |
+| Все 49 кадров области и полного изображения v6 | [исходное место](variants/clean_reference_mask_v6/all_49_site_repaired.png), [полный кадр](variants/clean_reference_mask_v6/all_49_full_repaired.png) |
+| Метрики v6, локальная согласованность и остаточная текстура | [metrics.json](variants/clean_reference_mask_v6/metrics.json), [local_quality.json](variants/clean_reference_mask_v6/local_quality.json), [duplicate_texture_audit.json](variants/clean_reference_mask_v6/duplicate_texture_audit.json) |
+| Общие и попарные маски всех вариантов | [variant_comparison.json](variant_comparison.json) |
+| Параметры v6, расходы и prior receipt | [config.json](variants/clean_reference_mask_v6/config.json), [resource_usage.json](variants/clean_reference_mask_v6/resource_usage.json), [vacancy_prior_receipt.json](variants/clean_reference_mask_v6/vacancy_prior_receipt.json) |
+| Визуальная и техническая проверка v6 | [qualitative_review.json](variants/clean_reference_mask_v6/qualitative_review.json), [verification.json](variants/clean_reference_mask_v6/verification.json) |
+| Итоговая проверка видео, чисел отчёта и локальных ссылок | [delivery_verification.json](delivery_verification.json) |
+| Causal пустой reference после исправления dark-blue/gripper | [clean_reference_640x480.png](repair_assets/clean_reference_mask_v2/clean_reference_640x480.png), [receipt](repair_assets/clean_reference_mask_v2/clean_reference_receipt.json) |
+| Исходный imagegen output и точный prompt, режим edit по observed t0 | [clean_plate_imagegen.png](repair_assets/clean_plate_imagegen.png), [imagegen_prompt.txt](repair_assets/imagegen_prompt.txt) |
+| Все попытки и неудачные варианты | [v1](variants/background_completion_v1), [v2](variants/background_initial_only_v2), [v3](variants/clean_background_reference_v3), [v4](variants/vacancy_prior_v4), [v5](variants/vacancy_context_v5) |
+
+Ветка исправления: `codex/das-cup-dedup-20261003-1154`. V6 выбран по устранению постоянного дубля. На общей маске исходного ролика и v6 (93/240 пар) control ADE/FDE = 143.05/230.96 → 89.29/225.51 px, real = 29.93/86.43 → 69.11/63.32 px. Это не подтверждает физическую идентичность и общее улучшение качества. Исходная no-control абляция ниже имеет прежний reference-протокол и не является парной абляцией vacancy-prior.
+
 Основной опыт выполнен 3 октября 2026 года: официальный DaS `Wanfun`, готовые обученные веса Alibaba PAI `Wan2.1-Fun-V1.1-1.3B-Control`, BF16, seed 42, 25 шагов, 49 кадров 720×480 при 8 FPS. Прогноз MolmoMotion переиспользован, реальное будущее не входило в управление. Движение исходного стакана выполнено плохо: он остаётся на месте, а вдоль управляющей траектории появляется отдельная копия/фрагмент.
 
 | Материал | Ссылка |

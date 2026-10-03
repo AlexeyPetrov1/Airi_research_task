@@ -1,0 +1,12 @@
+{
+  "stage": "load_text_encoder",
+  "success": false,
+  "started_utc": "2026-10-03T09:41:07Z",
+  "peak_process_rss_bytes": 2621276160,
+  "peak_system_ram_used_bytes": 10960023552,
+  "peak_cuda_allocated_bytes": 1048576,
+  "peak_cuda_reserved_bytes": 2097152,
+  "peak_device_used_bytes": 1945931776,
+  "wall_seconds": 79.76323011000022,
+  "queue_wait_seconds": 0.32509720200005177
+}

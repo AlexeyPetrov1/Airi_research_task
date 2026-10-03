@@ -1,0 +1,16 @@
+{
+  "applied_steps": 25,
+  "strength": 1.0,
+  "context_pixels": 24,
+  "noise_seed": 9043,
+  "protected_start_latent": true,
+  "latent_mask_shape": [
+    13,
+    60,
+    90
+  ],
+  "latent_mask_mean": 0.0372706837952137,
+  "method": "After each FlowMatch Euler step, blend only vacated-site latents with correctly noised clean-reference latents at sigma[index+1]. Foreground-touching cells protected.",
+  "native_DaS": false,
+  "postprocessed_RGB": false
+}

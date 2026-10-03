@@ -3,11 +3,11 @@ import cv2
 import numpy as np
 
 
-def temporal_warp_error(frames):
+def temporal_warp_error(frames,region_masks=None):
     h,w=frames.shape[1:3]
     xx,yy=np.meshgrid(np.arange(w,dtype=np.float32),np.arange(h,dtype=np.float32))
     values=[];fractions=[]
-    for old,new in zip(frames[:-1],frames[1:]):
+    for index,(old,new) in enumerate(zip(frames[:-1],frames[1:])):
         old_gray=cv2.cvtColor(old,cv2.COLOR_RGB2GRAY)
         new_gray=cv2.cvtColor(new,cv2.COLOR_RGB2GRAY)
         backward=cv2.calcOpticalFlowFarneback(new_gray,old_gray,None,.5,3,15,3,5,1.2,0)
@@ -15,11 +15,15 @@ def temporal_warp_error(frames):
         mx,my=xx+backward[...,0],yy+backward[...,1]
         sampled_forward=cv2.remap(forward,mx,my,cv2.INTER_LINEAR)
         valid=(mx>=0)&(mx<w-1)&(my>=0)&(my<h-1)&(np.linalg.norm(backward+sampled_forward,axis=-1)<1.)
+        if region_masks is not None:
+            region=region_masks[index]|region_masks[index+1]
+            valid&=region
         warped=cv2.remap(old,mx,my,cv2.INTER_LINEAR)
         error=np.abs(new.astype(float)-warped.astype(float)).mean(-1)
         values.append(float(error[valid].mean()) if valid.any() else None)
-        fractions.append(float(valid.mean()))
-    return {'mean_warp_MAE_0_255':float(np.mean([v for v in values if v is not None])),
+        fractions.append(float(valid.sum()/max(1,region.sum())) if region_masks is not None else float(valid.mean()))
+    present=[v for v in values if v is not None]
+    return {'mean_warp_MAE_0_255':float(np.mean(present)) if present else None,
             'per_interval_warp_MAE_0_255':values,'mean_valid_fraction':float(np.mean(fractions)),
             'method':'Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only',
             'interpretation':'Includes flow/occlusion errors; low error also rewards static video. Compare at matched times.'}

@@ -1,0 +1,82 @@
+STAGE imports; elapsed=1.6s
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:250: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:261: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:338: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+STAGE official_inference; elapsed=35.7s
+STAGE load_transformer; elapsed=36.2s
+loaded 3D transformer's pretrained weights from /mnt/f/AIRI_task/models/Wan2.1-Fun-V1.1-1.3B-Control/./ ...
+STAGE load_vae; elapsed=36.6s
+### missing keys: 0; 
+### unexpected keys: 0;
+[] []
+STAGE load_text_encoder; elapsed=39.7s
+STAGE load_clip_image_encoder; elapsed=90.2s
+### missing keys: 0; 
+### unexpected keys: 0;
+[] []
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:184: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  self.video_processor = VideoProcessor(vae_scale_factor=self.vae.spacial_compression_ratio)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:185: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  self.image_processor = VaeImageProcessor(vae_scale_factor=self.vae.spacial_compression_ratio)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:187: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  vae_scale_factor=self.vae.spacial_compression_ratio, do_normalize=False, do_binarize=True, do_convert_grayscale=True
+Enable TeaCache with threshold 0.1 and skip the first 5 steps.
+STAGE pipeline_encode_and_denoise; elapsed=121.8s
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:327: FutureWarning: Accessing config attribute `temporal_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'temporal_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.temporal_compression_ratio'.
+  (num_frames - 1) // self.vae.temporal_compression_ratio + 1,
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:328: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  height // self.vae.spacial_compression_ratio,
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:329: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  width // self.vae.spacial_compression_ratio,
+STAGE vae_encode; elapsed=133.0s
+STAGE pipeline; elapsed=154.6s
+STAGE vae_encode; elapsed=154.6s
+STAGE pipeline; elapsed=155.1s
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_image_encoder.py:526: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=self.dtype):
+STAGE vae_encode; elapsed=155.9s
+STAGE pipeline; elapsed=156.4s
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:710: FutureWarning: Accessing config attribute `latent_channels` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'latent_channels' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.latent_channels'.
+  target_shape = (self.vae.latent_channels, (num_frames - 1) // self.vae.temporal_compression_ratio + 1, width // self.vae.spacial_compression_ratio, height // self.vae.spacial_compression_ratio)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:710: FutureWarning: Accessing config attribute `temporal_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'temporal_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.temporal_compression_ratio'.
+  target_shape = (self.vae.latent_channels, (num_frames - 1) // self.vae.temporal_compression_ratio + 1, width // self.vae.spacial_compression_ratio, height // self.vae.spacial_compression_ratio)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:710: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  target_shape = (self.vae.latent_channels, (num_frames - 1) // self.vae.temporal_compression_ratio + 1, width // self.vae.spacial_compression_ratio, height // self.vae.spacial_compression_ratio)
+  0%|          | 0/25 [00:00<?, ?it/s]/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:761: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=weight_dtype), torch.cuda.device(device=device):
+STAGE denoise; elapsed=156.4s
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:953: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast(dtype=torch.float32):
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:221: UserWarning: Padding mask is disabled when using scaled_dot_product_attention. It can have a significant impact on performance.
+  warnings.warn(
+  4%|4         | 1/25 [00:22<09:02, 22.60s/it]STAGE denoise; elapsed=179.0s
+  8%|8         | 2/25 [00:30<05:27, 14.23s/it]STAGE denoise; elapsed=187.4s
+ 12%|#2        | 3/25 [00:38<04:05, 11.17s/it]STAGE denoise; elapsed=194.9s
+ 16%|#6        | 4/25 [00:46<03:28,  9.95s/it]STAGE denoise; elapsed=203.0s
+ 20%|##        | 5/25 [00:54<03:01,  9.06s/it]STAGE denoise; elapsed=210.5s
+ 24%|##4       | 6/25 [00:54<01:54,  6.02s/it]STAGE denoise; elapsed=210.6s
+ 28%|##8       | 7/25 [01:02<02:00,  6.68s/it]STAGE denoise; elapsed=218.6s
+STAGE denoise; elapsed=218.7s
+ 36%|###6      | 9/25 [01:09<01:24,  5.28s/it]STAGE denoise; elapsed=226.2s
+STAGE denoise; elapsed=226.3s
+ 44%|####4     | 11/25 [01:17<01:06,  4.78s/it]STAGE denoise; elapsed=234.3s
+STAGE denoise; elapsed=234.4s
+ 52%|#####2    | 13/25 [01:25<00:52,  4.40s/it]STAGE denoise; elapsed=241.8s
+STAGE denoise; elapsed=241.9s
+ 60%|######    | 15/25 [01:33<00:42,  4.28s/it]STAGE denoise; elapsed=249.9s
+STAGE denoise; elapsed=250.0s
+ 68%|######8   | 17/25 [01:41<00:32,  4.11s/it]STAGE denoise; elapsed=257.5s
+STAGE denoise; elapsed=257.6s
+ 76%|#######6  | 19/25 [01:49<00:24,  4.10s/it]STAGE denoise; elapsed=265.6s
+STAGE denoise; elapsed=265.7s
+ 84%|########4 | 21/25 [01:56<00:16,  4.01s/it]STAGE denoise; elapsed=273.2s
+STAGE denoise; elapsed=273.3s
+ 92%|#########2| 23/25 [02:04<00:08,  4.02s/it]STAGE denoise; elapsed=281.3s
+ 96%|#########6| 24/25 [02:12<00:04,  4.66s/it]STAGE denoise; elapsed=288.9s
+100%|##########| 25/25 [02:12<00:00,  5.30s/it]
+STAGE save_generated_latents; elapsed=289.0s
+STAGE vae_decode; elapsed=289.0s
+STAGE complete; elapsed=343.5s

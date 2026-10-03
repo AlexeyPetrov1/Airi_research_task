@@ -1,0 +1,13 @@
+{
+  "source_observed_sha256": "d4cad33c9e6604ae092ba93d60b916f9fbc7ad04ab6166008783980588e4ff40",
+  "source_mask_sha256": "39299dc0ac6d7ada19d9c3c6d40586748c66170d41e5a6c21c6e60fc0f470348",
+  "imagegen_plate_sha256": "b0b2a45abfdbbd832755c96534327d379e53870656e050565ef844bbb5c2cb4c",
+  "clean_reference_sha256": "a9eb878d759fd6acc319256e904c1a3b4d4448c3e6b402c247067aca6ed82504",
+  "future_used": false,
+  "edited_support_pixels": 5338,
+  "outside_support_exactly_unchanged": true,
+  "gripper_protection": "non-blue-dark",
+  "method": "Built-in imagegen cup removal from observed t0, resized to native geometry; composited only in dilated cup support, with selected gripper protection and 4px feather",
+  "role": "Synthetic persistent background condition; start_image and CLIP remain original observed t0",
+  "limitation": "Occluded background is estimated, not measured; this input changes the original inference protocol."
+}

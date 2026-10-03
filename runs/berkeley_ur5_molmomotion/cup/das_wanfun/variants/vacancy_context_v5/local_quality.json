@@ -1,0 +1,101 @@
+{
+  "region": "Same union of original cup mask and rendered predicted cup support, dilated 7 px; matched nearest-8Hz frames at real 5Hz times",
+  "mean_region_fraction": 0.03959505208333333,
+  "timestamp_error_max_s": 0.05,
+  "limitation": "Region includes occlusion/background. Low warp error can still reward stationary objects; no identity or perceptual-quality proof.",
+  "real": {
+    "mean_warp_MAE_0_255": 3.6076656560121845,
+    "per_interval_warp_MAE_0_255": [
+      4.381547030814842,
+      5.658957735943149,
+      3.6524843433974215,
+      5.181185851217236,
+      3.3367414981106913,
+      3.9223143182187554,
+      1.7850380668652763,
+      3.3918543105768366,
+      1.1588677489654498
+    ],
+    "mean_valid_fraction": 0.7766474936551742,
+    "method": "Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only",
+    "interpretation": "Includes flow/occlusion errors; low error also rewards static video. Compare at matched times."
+  },
+  "runs": {
+    "original": {
+      "sha256": "7355a305a8173c954df994d00944253c3ba7875937ba5804256c7573d896b127",
+      "local_RGB_MAE_0_255": 59.14337586460149,
+      "local_temporal_warp": {
+        "mean_warp_MAE_0_255": 8.360843231573531,
+        "per_interval_warp_MAE_0_255": [
+          23.982095727227335,
+          15.462583443725812,
+          8.645221832502616,
+          8.479280593024669,
+          9.381908302354399,
+          2.5675617523022636,
+          3.2230425055928413,
+          2.0035874439461883,
+          1.5023074834856573
+        ],
+        "mean_valid_fraction": 0.7256100764152726,
+        "method": "Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only",
+        "interpretation": "Includes flow/occlusion errors; low error also rewards static video. Compare at matched times."
+      },
+      "global_temporal_warp": {
+        "mean_warp_MAE_0_255": 0.7572480714939689,
+        "per_interval_warp_MAE_0_255": [
+          1.3042313343868694,
+          1.3335158553395525,
+          0.8094066494396771,
+          0.788235111235471,
+          1.0054293974875426,
+          0.3432519080582179,
+          0.47985524357291576,
+          0.4110013076004549,
+          0.34030583632501843
+        ],
+        "mean_valid_fraction": 0.980812355324074,
+        "method": "Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only",
+        "interpretation": "Includes flow/occlusion errors; low error also rewards static video. Compare at matched times."
+      }
+    },
+    "variant": {
+      "sha256": "6ee0c52f23e744062ca9c64fcc889f7d7d7c3b3cd815ccb8e5de4bd9e3a9e7de",
+      "local_RGB_MAE_0_255": 55.08900873644863,
+      "local_temporal_warp": {
+        "mean_warp_MAE_0_255": 8.456835593011334,
+        "per_interval_warp_MAE_0_255": [
+          14.427191019219157,
+          15.825463591135234,
+          10.244231328102295,
+          12.101537621690474,
+          10.489461799021452,
+          2.5163808548758637,
+          4.271617656240245,
+          2.8249661521797993,
+          3.410670314637483
+        ],
+        "mean_valid_fraction": 0.7418216938344482,
+        "method": "Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only",
+        "interpretation": "Includes flow/occlusion errors; low error also rewards static video. Compare at matched times."
+      },
+      "global_temporal_warp": {
+        "mean_warp_MAE_0_255": 0.9057509314460496,
+        "per_interval_warp_MAE_0_255": [
+          0.913626401673408,
+          1.7540938449320513,
+          1.0862033842834864,
+          0.9948233265792186,
+          1.4230964819009755,
+          0.29897263230596566,
+          0.8269480266243945,
+          0.4369501146043882,
+          0.4170441701105578
+        ],
+        "mean_valid_fraction": 0.9818637876157408,
+        "method": "Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only",
+        "interpretation": "Includes flow/occlusion errors; low error also rewards static video. Compare at matched times."
+      }
+    }
+  }
+}

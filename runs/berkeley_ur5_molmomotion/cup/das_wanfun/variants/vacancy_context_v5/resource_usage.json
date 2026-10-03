@@ -1,0 +1,14 @@
+{
+  "stage": "complete",
+  "success": true,
+  "started_utc": "2026-10-03T10:11:57Z",
+  "peak_process_rss_bytes": 22697308160,
+  "peak_system_ram_used_bytes": 23170932736,
+  "peak_cuda_allocated_bytes": 10607566848,
+  "peak_cuda_reserved_bytes": 12448694272,
+  "peak_device_used_bytes": 12878086144,
+  "wall_seconds": 343.4794376809996,
+  "queue_wait_seconds": 0.20910850600012054,
+  "output_sha256": "6ee0c52f23e744062ca9c64fcc889f7d7d7c3b3cd815ccb8e5de4bd9e3a9e7de",
+  "active_seconds": 343.27032917499946
+}

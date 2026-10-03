@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/mnt/f/AIRI_task/.venv-das/bin/python",
+    "-u",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/scripts/das_generate.py",
+    "--image",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/clean_background_reference_v3/image_t0_720x480.png",
+    "--tracking_path",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/clean_background_reference_v3/control_molmomotion_720x480.mp4",
+    "--prompt",
+    "Pick up the blue cup and put it into the brown cup.",
+    "--checkpoint_path",
+    "/mnt/f/AIRI_task/models/Wan2.1-Fun-V1.1-1.3B-Control",
+    "--das_root",
+    "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun",
+    "--output_path",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/clean_background_reference_v3/generated_molmomotion_seed42.mp4",
+    "--seed",
+    "42",
+    "--num_inference_steps",
+    "25",
+    "--reference-mode",
+    "clean-background",
+    "--reference-image",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/repair_assets/clean_reference_720x480.png"
+  ],
+  "pid": 9751,
+  "running": false,
+  "started_utc": "2026-10-03T09:33:34Z",
+  "returncode": 0,
+  "elapsed_seconds": 352.4185912180001
+}

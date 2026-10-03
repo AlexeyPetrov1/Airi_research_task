@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/mnt/f/AIRI_task/.venv-das/bin/python",
+    "-u",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/scripts/das_decode_saved.py",
+    "--artifact-dir",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/background_initial_only_v2",
+    "--das-root",
+    "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun",
+    "--device",
+    "cpu"
+  ],
+  "pid": 9017,
+  "running": false,
+  "started_utc": "2026-10-03T09:26:43Z",
+  "returncode": -15,
+  "elapsed_seconds": 279.4790270190001
+}

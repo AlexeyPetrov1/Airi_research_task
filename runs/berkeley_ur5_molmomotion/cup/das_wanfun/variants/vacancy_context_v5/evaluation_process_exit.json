@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/mnt/f/AIRI_task/.venv/bin/python",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/scripts/das_batch_evaluate.py",
+    "--scene",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup",
+    "--tracker-repo",
+    "/mnt/f/AIRI_task/molmo-motion",
+    "--tracker-checkpoint",
+    "/mnt/f/AIRI_task/.cache/torch/hub/checkpoints/alltracker.pth",
+    "--variants",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/vacancy_context_v5"
+  ],
+  "pid": 19011,
+  "running": false,
+  "started_utc": "2026-10-03T10:17:44Z",
+  "returncode": 0,
+  "elapsed_seconds": 64.01066109400017
+}

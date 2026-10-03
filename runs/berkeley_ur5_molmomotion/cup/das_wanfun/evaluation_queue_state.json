@@ -1,0 +1,18 @@
+{
+  "state": "started",
+  "wait_seconds": 405.06875702100024,
+  "command": [
+    "/mnt/f/AIRI_task/.venv/bin/python",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/scripts/das_batch_evaluate.py",
+    "--scene",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup",
+    "--tracker-repo",
+    "/mnt/f/AIRI_task/molmo-motion",
+    "--tracker-checkpoint",
+    "/mnt/f/AIRI_task/.cache/torch/hub/checkpoints/alltracker.pth",
+    "--variants",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/background_initial_only_v2",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/clean_background_reference_v3",
+    "/mnt/f/AIRI_task/das_wanfun_cup_20261003/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/vacancy_prior_v4"
+  ]
+}

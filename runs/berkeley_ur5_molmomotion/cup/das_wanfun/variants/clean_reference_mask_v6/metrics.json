@@ -1,0 +1,496 @@
+{
+  "coordinate_units": "original 640x480 pixels",
+  "evaluation_times_s": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0
+  ],
+  "sampling_generated": "linear interpolation of 8 Hz AllTracker positions to physical 5 Hz real times; endpoint visibility required",
+  "molmomotion_to_real": {
+    "ADE_px": 193.5709686279297,
+    "FDE_px": 224.484619140625,
+    "visible_pairs": 240,
+    "total_pairs": 240,
+    "coverage": 1.0,
+    "valid_points_by_time": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+    ],
+    "error_by_time_px": [
+      37.945735931396484,
+      92.88040161132812,
+      151.80490112304688,
+      207.61961364746094,
+      242.9544219970703,
+      252.525390625,
+      250.04791259765625,
+      242.6795196533203,
+      232.76708984375,
+      224.484619140625
+    ],
+    "complete_track_count": 24,
+    "complete_track_ADE_px": 193.5709686279297,
+    "complete_track_FDE_px": 224.484619140625
+  },
+  "rigid_to_molmomotion": {
+    "ADE_px": 56.2866064613909,
+    "FDE_px": 113.04198563342489,
+    "visible_pairs": 240,
+    "total_pairs": 240,
+    "coverage": 1.0,
+    "valid_points_by_time": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+    ],
+    "error_by_time_px": [
+      4.597862249293224,
+      9.344201405226123,
+      13.97216508882911,
+      16.128690730355547,
+      49.56254452611932,
+      70.54569615512195,
+      84.79448104832363,
+      96.14021387108659,
+      104.73822390612867,
+      113.04198563342489
+    ],
+    "complete_track_count": 24,
+    "complete_track_ADE_px": 56.2866064613909,
+    "complete_track_FDE_px": 113.04198563342489
+  },
+  "resampled_control_to_rigid": {
+    "ADE_px": 0.6711334234784784,
+    "FDE_px": 1.3622945764544213e-05,
+    "visible_pairs": 240,
+    "total_pairs": 240,
+    "coverage": 1.0,
+    "valid_points_by_time": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+    ],
+    "error_by_time_px": [
+      0.2562357438594203,
+      0.18536204066683903,
+      0.12024607704518224,
+      2.7417392145356345,
+      1.222585403933398e-05,
+      1.8190948388769461,
+      0.9144374809378181,
+      0.4718618050621311,
+      0.20233118500100855,
+      1.3622945764544213e-05
+    ],
+    "complete_track_count": 24,
+    "complete_track_ADE_px": 0.6711334234784784,
+    "complete_track_FDE_px": 1.3622945764544213e-05
+  },
+  "generated_to_control": {
+    "ADE_px": 89.2890055722842,
+    "FDE_px": 225.50915580742475,
+    "visible_pairs": 93,
+    "total_pairs": 240,
+    "coverage": 0.3875,
+    "valid_points_by_time": [
+      24,
+      24,
+      18,
+      8,
+      0,
+      0,
+      0,
+      4,
+      7,
+      8
+    ],
+    "error_by_time_px": [
+      17.89110278843793,
+      38.701496013073225,
+      81.88115903180862,
+      114.6269352933656,
+      null,
+      null,
+      null,
+      256.34686780456826,
+      246.47401205557327,
+      225.50915580742475
+    ],
+    "complete_track_count": 0,
+    "complete_track_ADE_px": null,
+    "complete_track_FDE_px": null
+  },
+  "generated_to_real": {
+    "ADE_px": 62.36480870535696,
+    "FDE_px": 63.322081880699976,
+    "visible_pairs": 122,
+    "total_pairs": 240,
+    "coverage": 0.5083333333333333,
+    "valid_points_by_time": [
+      24,
+      24,
+      18,
+      12,
+      8,
+      7,
+      7,
+      7,
+      7,
+      8
+    ],
+    "error_by_time_px": [
+      23.380289892473638,
+      73.99358035832358,
+      103.84153101935057,
+      95.75460086331596,
+      35.04072874855298,
+      40.29541377305009,
+      48.04692345940397,
+      55.8331666940968,
+      65.3142849723478,
+      63.322081880699976
+    ],
+    "complete_track_count": 7,
+    "complete_track_ADE_px": 37.18501935510573,
+    "complete_track_FDE_px": 71.52316505535624
+  },
+  "shared_mask_generated_to_control": {
+    "ADE_px": 89.2890055722842,
+    "FDE_px": 225.50915580742475,
+    "visible_pairs": 93,
+    "total_pairs": 240,
+    "coverage": 0.3875,
+    "valid_points_by_time": [
+      24,
+      24,
+      18,
+      8,
+      0,
+      0,
+      0,
+      4,
+      7,
+      8
+    ],
+    "error_by_time_px": [
+      17.89110278843793,
+      38.701496013073225,
+      81.88115903180862,
+      114.6269352933656,
+      null,
+      null,
+      null,
+      256.34686780456826,
+      246.47401205557327,
+      225.50915580742475
+    ],
+    "complete_track_count": 0,
+    "complete_track_ADE_px": null,
+    "complete_track_FDE_px": null
+  },
+  "shared_mask_generated_to_real": {
+    "ADE_px": 69.11092009848407,
+    "FDE_px": 63.322081880699976,
+    "visible_pairs": 93,
+    "total_pairs": 240,
+    "coverage": 0.3875,
+    "valid_points_by_time": [
+      24,
+      24,
+      18,
+      8,
+      0,
+      0,
+      0,
+      4,
+      7,
+      8
+    ],
+    "error_by_time_px": [
+      23.380289892473638,
+      73.99358035832358,
+      103.84153101935057,
+      130.6490061307997,
+      null,
+      null,
+      null,
+      53.056606473286,
+      65.3142849723478,
+      63.322081880699976
+    ],
+    "complete_track_count": 0,
+    "complete_track_ADE_px": null,
+    "complete_track_FDE_px": null
+  },
+  "shared_mask_molmomotion_to_real": {
+    "ADE_px": 126.79927825927734,
+    "FDE_px": 219.4576416015625,
+    "visible_pairs": 93,
+    "total_pairs": 240,
+    "coverage": 0.3875,
+    "valid_points_by_time": [
+      24,
+      24,
+      18,
+      8,
+      0,
+      0,
+      0,
+      4,
+      7,
+      8
+    ],
+    "error_by_time_px": [
+      37.945735931396484,
+      92.88040161132812,
+      152.2158203125,
+      201.17205810546875,
+      null,
+      null,
+      null,
+      236.4971466064453,
+      228.79920959472656,
+      219.4576416015625
+    ],
+    "complete_track_count": 0,
+    "complete_track_ADE_px": null,
+    "complete_track_FDE_px": null
+  },
+  "generated_anchor_error_px": 0.07995825260877609,
+  "generated_frame_sha256": "38574b596572400a6609a281195058e5abf7c0fb63890659fa01c83c09636255",
+  "real_tracking_sha256": "f3bbad479ae5a03fa51ec2222517b8bec96569399d51c7f1ef035beecb6fe9da",
+  "image_quality_scope": "descriptive single-clip metrics; no calibrated perceptual quality or distribution-level FVD claim",
+  "tracking_limitation": "AllTracker proxy; visibility filtering may leave too few valid target correspondences.",
+  "RGB_quality_sampling": "nearest generated 8 Hz frame to real 5 Hz time; maximum timestamp offset 0.05 s, separate from interpolated motion metrics",
+  "RGB_quality_sample_times_s": [
+    0.25,
+    0.375,
+    0.625,
+    0.75,
+    1.0,
+    1.25,
+    1.375,
+    1.625,
+    1.75,
+    2.0
+  ],
+  "no_control_ablation": false,
+  "image_metrics": {
+    "mean_generated_to_real_MAE_0_255": 16.524653754340278,
+    "mean_generated_to_real_PSNR_db": 17.705433148297825,
+    "mean_generated_laplacian_variance": 272.70851921718133,
+    "mean_real_laplacian_variance": 508.6618486367205,
+    "mean_generated_adjacent_MAE_0_255_8Hz": 1.3894753011067709,
+    "mean_real_adjacent_MAE_0_255_5Hz": 5.654325930748457,
+    "mean_generated_adjacent_MAE_0_255_at_real_5Hz_times": 1.4524620225694445,
+    "interpretation": "MAE/PSNR penalize different valid motion; adjacent MAE includes motion and different FPS. Sharpness variance is not perceptual quality."
+  },
+  "temporal_consistency_generated_nearest_5Hz_times": {
+    "mean_warp_MAE_0_255": 0.9178164380144168,
+    "per_interval_warp_MAE_0_255": [
+      0.9654714916652269,
+      1.7537461965077403,
+      1.0785835952786509,
+      1.044944231242476,
+      1.466669522936949,
+      0.26733606593738074,
+      0.8387026585082815,
+      0.41936435414461154,
+      0.4255298259084345
+    ],
+    "mean_valid_fraction": 0.9823119212962964,
+    "method": "Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only",
+    "interpretation": "Includes flow/occlusion errors; low error also rewards static video. Compare at matched times."
+  },
+  "temporal_consistency_real_at_5Hz": {
+    "mean_warp_MAE_0_255": 2.019218926763296,
+    "per_interval_warp_MAE_0_255": [
+      1.5455834125997772,
+      3.200216606583008,
+      1.3050294752043763,
+      2.953371395600969,
+      1.3038007460127508,
+      2.8629004765714683,
+      1.2073310738813305,
+      2.8453741675672184,
+      0.9493629868487609
+    ],
+    "mean_valid_fraction": 0.9380920862268519,
+    "method": "Farneback backward RGB warp; forward-backward residual <1 px; in-bounds only",
+    "interpretation": "Includes flow/occlusion errors; low error also rewards static video. Compare at matched times."
+  },
+  "object_appearance_proxy": {
+    "tracked_crop_HS_histogram_correlation_to_t0": [
+      0.6144435255834947,
+      0.5278183711048468,
+      0.3623564690301414,
+      0.2552793546146915,
+      0.15697801295819533,
+      0.0336433845771117,
+      0.024786257658027423,
+      0.0036997416604743717,
+      0.01990882290796855,
+      0.024622522107655663,
+      0.011849885475629549,
+      0.0004388186338503068,
+      -0.0023875107548060087,
+      -0.00775400567106627,
+      -0.008119005572466727,
+      -0.011920496927350305,
+      -0.01062956885930631
+    ],
+    "tracked_crop_blue_pixel_fraction": [
+      0.5577547047371837,
+      0.5035691109669046,
+      0.68234912394549,
+      0.773523685918235,
+      0.49059052563270605,
+      0.3823815704088254,
+      0.36080467229072033,
+      0.30986372485399094,
+      0.6417910447761194,
+      0.6555807916937054,
+      0.6502271252433485,
+      0.6505515898767035,
+      0.6628812459441921,
+      0.6604477611940298,
+      0.6664503569110967,
+      0.603990914990266,
+      0.6215120051914341
+    ],
+    "tracked_crop_bounds": [
+      [
+        119,
+        217,
+        186,
+        309
+      ],
+      [
+        118,
+        217,
+        185,
+        309
+      ],
+      [
+        111,
+        171,
+        178,
+        263
+      ],
+      [
+        109,
+        139,
+        176,
+        231
+      ],
+      [
+        107,
+        108,
+        174,
+        200
+      ],
+      [
+        104,
+        93,
+        171,
+        185
+      ],
+      [
+        101,
+        56,
+        168,
+        148
+      ],
+      [
+        104,
+        106,
+        171,
+        198
+      ],
+      [
+        96,
+        165,
+        163,
+        257
+      ],
+      [
+        91,
+        175,
+        158,
+        267
+      ],
+      [
+        90,
+        175,
+        157,
+        267
+      ],
+      [
+        90,
+        175,
+        157,
+        267
+      ],
+      [
+        89,
+        174,
+        156,
+        266
+      ],
+      [
+        89,
+        174,
+        156,
+        266
+      ],
+      [
+        88,
+        174,
+        155,
+        266
+      ],
+      [
+        94,
+        167,
+        161,
+        259
+      ],
+      [
+        93,
+        166,
+        160,
+        258
+      ]
+    ],
+    "interpretation": "Translated initial mask bounding box; includes background/occlusion. Color correlation cannot certify cup shape, printed motif, or physical identity."
+  }
+}

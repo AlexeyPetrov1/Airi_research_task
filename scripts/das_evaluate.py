@@ -98,7 +98,8 @@ def main():
     p.add_argument('--tracker-repo',type=Path,required=True)
     p.add_argument('--tracker-checkpoint',type=Path,required=True)
     p.add_argument('--no-control',action='store_true')
-    a=p.parse_args();scene=a.scene;out=scene/'das_wanfun'
+    p.add_argument('--artifact-dir',type=Path)
+    a=p.parse_args();scene=a.scene;out=a.artifact_dir or scene/'das_wanfun'
     generated_path=out/('generated_no_control_seed42.mp4' if a.no_control else 'generated_molmomotion_seed42.mp4')
     generated=frames(generated_path)
     assert generated.shape==(49,480,720,3)

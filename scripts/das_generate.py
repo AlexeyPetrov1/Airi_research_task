@@ -43,7 +43,18 @@ def main():
     p.add_argument('--import-only', action='store_true')
     p.add_argument('--min-free-vram-gib',type=float,default=9)
     p.add_argument('--wait-pid',type=int)
+    p.add_argument('--reference-mode',choices=['original','initial-only','clean-background'],default='original')
+    p.add_argument('--reference-image',type=Path)
+    p.add_argument('--vacancy-strength',type=float,default=0.)
+    p.add_argument('--vacancy-context-px',type=int,default=0)
+    p.add_argument('--background-bundle',type=Path)
+    p.add_argument('--reference-alpha',type=Path)
     a = p.parse_args()
+    if a.reference_mode=='clean-background' and a.reference_image is None:p.error('clean-background requires --reference-image')
+    if not 0<=a.vacancy_strength<=1:p.error('vacancy-strength must be between zero and one')
+    if not 0<=a.vacancy_context_px<=64:p.error('vacancy-context-px must be between zero and 64')
+    if a.vacancy_strength and (a.reference_mode!='clean-background' or not a.background_bundle or not a.reference_alpha):
+        p.error('vacancy prior requires clean-background reference, background-bundle, and reference-alpha')
     out = a.output_path.parent
     out.mkdir(parents=True, exist_ok=True)
     if a.import_only:
@@ -100,9 +111,13 @@ def main():
             time.sleep(15)
             free,total = torch.cuda.mem_get_info()
         state['queue_wait_seconds']=time.monotonic()-started
+        # Keep a small real CUDA allocation during CPU model loading so other
+        # queue implementations can see this process in nvidia-smi.
+        gpu_presence_guard=torch.ones(262144,device='cuda',dtype=torch.float32)
+        torch.cuda.synchronize()
         torch.cuda.reset_peak_memory_stats()
         if is_main:
-            validation = json.loads((out/'control_validation.json').read_text())
+            validation = json.loads((out/'control_validation.json').read_text(encoding='utf-8-sig'))
             if not validation.get('generation_ready') or validation['control_sha256']!=sha256(a.tracking_path):
                 raise RuntimeError('Prepared control requires recorded visual review and matching hash')
         elif not (out/'generated_molmomotion_seed42.mp4').exists() or not json.loads((out/'resource_usage.json').read_text()).get('success'):
@@ -119,6 +134,13 @@ def main():
             'no_control_method':None if is_main else 'Official control_video=None branch; zero latent condition; no black video VAE encoding',
             'command':sys.argv,'image_sha256':sha256(a.image),
             'control_sha256':sha256(a.tracking_path) if is_main else None,
+            'control_variant':validation.get('variant','original_sparse_measured_background') if is_main else None,
+            'reference_mode':a.reference_mode,
+            'persistent_reference_image_sha256':sha256(a.reference_image) if a.reference_image else sha256(a.image) if a.reference_mode=='original' else None,
+            'vacancy_strength':a.vacancy_strength,
+            'vacancy_context_px':a.vacancy_context_px,
+            'vacancy_background_bundle_sha256':sha256(a.background_bundle) if a.background_bundle else None,
+            'vacancy_reference_alpha_sha256':sha256(a.reference_alpha) if a.reference_alpha else None,
             'runtime_adapter':'AST extraction removes only unused local imports; missing distributed module shim for one GPU',
             'guidance_scale':6.0,'scheduler':'FlowMatchEulerDiscreteScheduler','teacache_threshold':0.10}
         write_json(out/f'config{stem}.json',config)
@@ -141,18 +163,45 @@ def main():
         def measured_call(self,*args,**kwargs):
             # Official no-control route; the unused tracking tensor is not encoded.
             if not is_main: kwargs['control_video']=None
+            # Native reference ablation: keep original start_image and CLIP,
+            # remove only the full_ref spatial image tokens repeated at each step.
+            if a.reference_mode=='initial-only':kwargs['ref_image']=None
+            elif a.reference_mode=='clean-background':
+                empty=np.array(Image.open(a.reference_image).convert('RGB'))
+                assert empty.shape==(480,720,3)
+                kwargs['ref_image']=torch.from_numpy(empty.copy()).permute(2,0,1)[None,:,None].float()/255
             stage('pipeline_encode_and_denoise')
             original_encode, original_decode = self.vae.encode, self.vae.decode
+            image_latents=[]
             def encode(*args,**kwargs):
-                stage('vae_encode'); value=original_encode(*args,**kwargs); stage('pipeline'); return value
+                stage('vae_encode'); value=original_encode(*args,**kwargs)
+                if a.vacancy_strength and args[0].shape[2]==1:
+                    image_latents.append(value.latent_dist.mode().detach())
+                stage('pipeline'); return value
             def decode(*args,**kwargs):
                 stage('save_generated_latents')
                 torch.save({'latents':args[0].detach().cpu(),'vae_checkpoint':str(a.checkpoint_path/'Wan2.1_VAE.pth'),
                             'dtype':'bfloat16','das_commit':config['git_commit']},out/f'generated_latents{stem}.pt')
                 stage('vae_decode'); return original_decode(*args,**kwargs)
             self.vae.encode,self.vae.decode=encode,decode
+            if a.vacancy_strength:
+                from das_vacancy_prior import make_latent_masks,VacancyPrior
+                bundle=np.load(a.background_bundle)
+                alpha=np.array(Image.open(a.reference_alpha).convert('L'))/255.
+                masks=make_latent_masks(alpha,bundle['moving_mask'],a.vacancy_context_px)
+                prior=VacancyPrior(masks,a.vacancy_strength,a.seed+9001,image_latents)
+                kwargs['callback_on_step_end']=prior
+                kwargs['callback_on_step_end_tensor_inputs']=['latents']
             self.transformer.register_forward_pre_hook(lambda *unused: stage('denoise'))
-            return original_call(self,*args,**kwargs)
+            result=original_call(self,*args,**kwargs)
+            if a.vacancy_strength:
+                np.save(out/'vacancy_latent_masks.npy',masks)
+                write_json(out/'vacancy_prior_receipt.json',{'applied_steps':prior.applied_steps,
+                    'strength':a.vacancy_strength,'context_pixels':a.vacancy_context_px,'noise_seed':a.seed+9001,'protected_start_latent':bool(not masks[0].any()),
+                    'latent_mask_shape':list(masks.shape),'latent_mask_mean':float(masks.mean()),
+                    'method':'After each FlowMatch Euler step, blend only vacated-site latents with correctly noised clean-reference latents at sigma[index+1]. Foreground-touching cells protected.',
+                    'native_DaS':False,'postprocessed_RGB':False})
+            return result
         WanFunControlPipeline.__call__=measured_call
         image = np.array(Image.open(a.image).convert('RGB'))
         assert image.shape==(480,720,3)

@@ -1,0 +1,65 @@
+{
+  "technical_status": "PASS",
+  "checks": {
+    "causal_inputs_unchanged": true,
+    "no_future_in_control": true,
+    "same_forecast_and_dense_motion": true,
+    "matched_sampling_parameters": true,
+    "reviewed_control": true,
+    "control_receipt_matches": true,
+    "generation_success": true,
+    "video_control_molmomotion_640x480.mp4": true,
+    "video_control_molmomotion_720x480.mp4": true,
+    "video_generated_molmomotion_seed42.mp4": true,
+    "video_triple_comparison.mp4": true,
+    "background_unchanged_outside_estimate": true,
+    "background_complete_in_footprint": true,
+    "estimated_background_behind_initial_cup": true,
+    "shared_mask_ADE_recomputed": true,
+    "duplicate_audit_all_49_frames": true
+  },
+  "videos": {
+    "control_molmomotion_640x480.mp4": {
+      "frames": 49,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "5c8844c1ef5b87ad126cad86c4bf974be4463faf017f6956fae7380c30154d79"
+    },
+    "control_molmomotion_720x480.mp4": {
+      "frames": 49,
+      "shape": [
+        480,
+        720,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "85465277cea5316fc891d45e251c46bb8646e917a9e492e61bfda407a60543cf"
+    },
+    "generated_molmomotion_seed42.mp4": {
+      "frames": 49,
+      "shape": [
+        480,
+        720,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "1730b1b13cf2def2c622a90cd792422b66195cd8c3934e4d5fd4a7dddb0504e2"
+    },
+    "triple_comparison.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1920,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "8b1f2af8e5cce1dc4a6b0b79a8dbb240bad11fae75f27d6dc7fa16a44da2b0b4"
+    }
+  },
+  "duplicate_removal_status": "FAIL_OR_NOT_REVIEWED",
+  "quality_status": "Technical PASS does not certify identity or trajectory accuracy; see manual review and metrics."
+}

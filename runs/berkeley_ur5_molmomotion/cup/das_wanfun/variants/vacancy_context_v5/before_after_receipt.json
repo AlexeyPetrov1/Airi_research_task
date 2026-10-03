@@ -1,0 +1,14 @@
+{
+  "original_sha256": "7355a305a8173c954df994d00944253c3ba7875937ba5804256c7573d896b127",
+  "repaired_sha256": "6ee0c52f23e744062ca9c64fcc889f7d7d7c3b3cd815ccb8e5de4bd9e3a9e7de",
+  "frames": 49,
+  "fps": 8,
+  "source_coordinates": "640x480",
+  "site_crop_xyxy": [
+    96,
+    180,
+    224,
+    340
+  ],
+  "result_videos_modified": false
+}

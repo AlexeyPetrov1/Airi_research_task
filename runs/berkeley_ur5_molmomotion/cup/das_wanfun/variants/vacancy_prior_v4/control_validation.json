@@ -1,0 +1,17 @@
+{
+    "generation_ready":  true,
+    "visual_review_required":  false,
+    "future_used":  false,
+    "control_sha256":  "85465277cea5316fc891d45e251c46bb8646e917a9e492e61bfda407a60543cf",
+    "variant":  "vacancy_prior_v4",
+    "forecast_changed":  false,
+    "reference_RGB_changed":  false,
+    "estimated_depth_pixels":  5476,
+    "object_mask_pixels":  4034,
+    "background_depth_lower_bound_m":  0.6930000376701355,
+    "method":  "Navier-Stokes interpolation of t0 inverse depth in dilated object footprint; neighbour depth clipping; unchanged measured background elsewhere",
+    "limitation":  "Depth behind observed cup is not measured. This is an explicit causal disocclusion estimate.",
+    "source_control_sha256":  "d7888ce897cd6123c87ebb078317c1204f3f0e9cf51946a5011fcaa7092b89be",
+    "identical_dense_motion_sha256":  "fc6c8bb146352866d29d726653dfb61019e31f5e9ae6a65b755c220875a2a382",
+    "visual_review":  "Reviewed original and repaired contact sheets: same upward MolmoMotion motion, static surrounding scene, same colors per moving point, former black cup footprint filled by a static estimated surface. Estimated depth is constrained behind the initial dense cup. Future frames not used."
+}

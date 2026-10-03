@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "selected_variant": "clean_reference_mask_v6",
+  "checks": {
+    "selected_generation_success": true,
+    "selected_evaluation_success": true,
+    "selected_technical_checks": true,
+    "selected_manual_persistent_duplicate_gate": true,
+    "selected_all_49_visual_frames": true,
+    "selected_raw_video_sha_matches": true,
+    "extension_and_transition_disclosed": true,
+    "identity_and_visibility_limits_disclosed": true,
+    "nine_new_tests_documented": true,
+    "documented_raw_and_common_mask_numbers": true,
+    "common_mask_count_documented": true,
+    "all_local_report_links_resolve": true,
+    "before_after_full_duration.mp4_metadata": true,
+    "initial_site_before_after.mp4_metadata": true
+  },
+  "missing_local_links": [],
+  "video_sha256": "38574b596572400a6609a281195058e5abf7c0fb63890659fa01c83c09636255",
+  "scope": "Persistent duplicate removed after 0.5s and improved evaluation/report delivered; early fade and physical identity limitations remain.",
+  "report": "report/das_cup_dedup.md"
+}
