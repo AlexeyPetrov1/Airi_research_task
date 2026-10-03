@@ -1,0 +1,22 @@
+{
+  "measured_metric_depth": true,
+  "measurement": "RealSense sensor Z16, not monocular depth",
+  "units": "meters",
+  "depth_scale_m_per_raw_unit": 0.0001,
+  "depth_scale_status": "SUPPORTED_HYPOTHESIS_NOT_RECORD_CONFIRMED",
+  "scale_evidence": "Prior independent CAD and TCP checks support 0.0001; no recorded sensor depth_units metadata found",
+  "registration_status": "published pixel geometry requires separate observed-only audit",
+  "source_indices": [
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126
+  ],
+  "future_used": false,
+  "source": "FMB obs/side_1_depth",
+  "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96"
+}

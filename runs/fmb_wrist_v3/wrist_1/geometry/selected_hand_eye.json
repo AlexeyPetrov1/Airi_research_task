@@ -1,0 +1,79 @@
+{
+  "X_source": "Independent observed RGBD + official K + TCP hand-eye; canonical ViPE hand-eye rejected",
+  "X_TCP_from_camera": [
+    [
+      0.6338855272179674,
+      -0.5951525431130935,
+      0.4939459371324121,
+      -0.16894117288954547
+    ],
+    [
+      0.7682939156563913,
+      0.55799427795663,
+      -0.31363489112824977,
+      -0.08185889130926062
+    ],
+    [
+      -0.08895840347583517,
+      0.5783042764788069,
+      0.8109565748283654,
+      -0.27168131322966727
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "future_used": false,
+  "canonical_ViPE_hand_eye_retained": true,
+  "independent_gate": true,
+  "selection_basis": "Historical physical plausibility and heldout static reprojection; no future measurements",
+  "canonical_heldout_static_reprojection": {
+    "pairs": [
+      {
+        "i": 36,
+        "j": 41,
+        "count": 29,
+        "median_px": 80.7157085311832,
+        "p90_px": 84.15892461248268
+      },
+      {
+        "i": 42,
+        "j": 43,
+        "count": 50,
+        "median_px": 18.272734991572477,
+        "p90_px": 19.24357058847245
+      },
+      {
+        "i": 42,
+        "j": 47,
+        "count": 19,
+        "median_px": 88.85894939886515,
+        "p90_px": 91.675072788555
+      },
+      {
+        "i": 46,
+        "j": 47,
+        "count": 163,
+        "median_px": 9.431944088488128,
+        "p90_px": 10.517139586288103
+      },
+      {
+        "i": 47,
+        "j": 48,
+        "count": 225,
+        "median_px": 19.652418823692646,
+        "p90_px": 21.86736765082035
+      }
+    ],
+    "correspondences": 486,
+    "median_px": 18.42116822394253,
+    "p90_px": 25.69337589332546,
+    "gate": false
+  },
+  "canonical_usable": false,
+  "canonical_X_sha256": "1e2d04fd51b88e07ebe438914cffc9c33f3dae47f4a07f3db311d595bd1c212c",
+  "selected_X_sha256": "bc52ecae1ada0f0b3e11878e0e5316bb9e07d2a4edc491dbf2b56f520e72677e"
+}

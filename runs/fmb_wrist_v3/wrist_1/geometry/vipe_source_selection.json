@@ -1,0 +1,11 @@
+{
+  "folder": "vipe_rectified_default",
+  "native_wh": [
+    256,
+    192
+  ],
+  "selection_reason": "Physical aspect ratio restored from pinned capture-code evidence; canonical 256x256 ViPE retained as control",
+  "future_used": false,
+  "K_pixel_map": "fx_model=fx; fy_model=fy*256/192; cx_model=cx; cy_model=(cy+.5)*256/192-.5",
+  "depth_pixel_map": "nearest-neighbor 256x192 -> 256x256, recorded approximate sensor registration unchanged"
+}

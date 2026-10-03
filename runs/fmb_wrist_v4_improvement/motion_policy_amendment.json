@@ -1,0 +1,384 @@
+{
+  "frozen_utc": "2026-10-03T09:24:38.426896+00:00",
+  "reason": "First built-in provisional comparison still shows endpoint drift despite lower ADE. Compare a simpler rigid-centroid motion forecast against full TCP rotation/lever-arm extrapolation.",
+  "first_stage_future_scores_already_known": true,
+  "new_parameters_selected_from_future": false,
+  "selection_data": "Only observed77..126 target points and TCP, fixed original K/X; no127..146 files opened by this selector",
+  "candidates": [
+    {
+      "family": "full_TCP_pose",
+      "window": 3,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": 0.07912809996240809,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 3,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": 0.052414536645331425,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 3,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": 0.04130383728340217,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 3,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": 0.0544701069425768,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 3,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": 0.11020997812552505,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 5,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": 0.07916026553808253,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 5,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": 0.05362888283198127,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 5,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": 0.04330770382888309,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 5,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": 0.05677027884526186,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 5,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": 0.11262648280124338,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 8,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": 0.08096244217605039,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 8,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": 0.058617065871066895,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 8,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": 0.051770671466186795,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 8,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": 0.06417213910908899,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 8,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": 0.11161732836968244,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 12,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": 0.08447383509541996,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 12,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": 0.0669294226087352,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 12,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": 0.06219609853812197,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 12,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": 0.07161712216486116,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 12,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": 0.10840828000663452,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 20,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": 0.09081134586199172,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 20,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": 0.07864556816346364,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 20,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": 0.07378315299446994,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 20,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": 0.07705083874639848,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "full_TCP_pose",
+      "window": 20,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": 0.09771467205628659,
+      "valid_observed_validation_samples": 8260
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 3,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 3,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 3,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 3,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 3,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 5,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 5,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 5,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 5,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 5,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 8,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 8,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 8,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 8,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 8,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 12,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 12,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 12,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 12,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 12,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 20,
+      "damping_tau_s": 0.15,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 20,
+      "damping_tau_s": 0.4,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 20,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 20,
+      "damping_tau_s": 1.6,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    },
+    {
+      "family": "rigid_centroid_translation",
+      "window": 20,
+      "damping_tau_s": null,
+      "observed_target_ADE_m": NaN,
+      "valid_observed_validation_samples": 0
+    }
+  ],
+  "winner": {
+    "family": "full_TCP_pose",
+    "window": 3,
+    "damping_tau_s": 0.8,
+    "observed_target_ADE_m": 0.04130383728340217,
+    "valid_observed_validation_samples": 8260
+  },
+  "validation_anchors_source_indices": [
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "caveat": "Exploratory iteration after seeing stage1 outcomes. Overlapping observed validation and the fixed full-prefix calibration do not constitute a new independent test.",
+  "forecast_hashes": {
+    "wrist_2": "bd2e078e70a95f3a41f603d494f4dc388edb7b0a764b8a8d94d446ea33e22053",
+    "wrist_1": "f0b020f865e7de9fa6a6f9ab4762f3a0ab1aa3b2fd6648c068c04910ac1b7424"
+  }
+}

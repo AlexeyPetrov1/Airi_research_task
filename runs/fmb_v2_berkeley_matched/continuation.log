@@ -1,0 +1,14 @@
+/mnt/f/AIRI_task/molmo-motion/src/molmo_motion/data/dataset.py:17: UserWarning: MOLMO_DATA_DIR is not set, data loading might fail
+  warnings.warn("MOLMO_DATA_DIR is not set, data loading might fail")
+episode_5201 h1 group_00 generating
+episode_5201 h1 group_01 generating
+episode_5201 h1 group_02 generating
+episode_5201 h1 COMPLETE (24, 32, 3)
+/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4317.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+episode_5201 future tracked (21, 24, 2)
+/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4317.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+fmb_control_n3 future tracked (21, 24, 2)
+episode_5201 {"MolmoMotion_H3": {"ADE": 134.6253067363298, "FDE": 108.76700977044656}, "static": {"ADE": 38.222415924072266, "FDE": 69.3423843383789}, "constant_velocity": {"ADE": 69.24602547558521, "FDE": 134.8809794953875}, "MolmoMotion_H1": {"ADE": 125.7941948429969, "FDE": 208.98395583430374}}
+fmb_control_n3 {"MolmoMotion_H3": {"ADE": 28.777545857683222, "FDE": 46.25478017786218}, "static": {"ADE": 28.746585845947266, "FDE": 46.21720504760742}, "constant_velocity": {"ADE": 22.34135370762252, "FDE": 33.587719953218546}}

@@ -1,0 +1,686 @@
+{
+  "recorded_utc": "2026-10-03T04:26:28.133370+00:00",
+  "reviewer": "Root assistant via built-in view_image",
+  "external_HF_VLM_used": false,
+  "HF_flag_scope": "Quality assessment only; native MolmoPoint grounding and MolmoMotion remain part of the experiment",
+  "first_blinded_review": {
+    "path": "builtin_blinded_review.json",
+    "sha256": "b580d9a2585c3efba1b360cf63b1c91c64ac9fac9e608c3021b2500210b6de41",
+    "recorded_utc": "2026-10-03T04:18:39.223269+00:00",
+    "method_map_read_before_record": false,
+    "quantitative_metrics_read_before_record": false
+  },
+  "unblinding_maps": {
+    "wrist_2": {
+      "slots": {
+        "Forecast 1": "C_sensor_tcp_official/Static",
+        "Forecast 2": "C_sensor_tcp_official/CV",
+        "Forecast 3": "A_vipe_full",
+        "Forecast 4": "B_sensor_vipe",
+        "Forecast 5": "C_sensor_tcp_official"
+      },
+      "labels_hidden_in_images": true,
+      "limitation": "Method identities hidden from first image assessment; reviewer already knows reconstruction hypotheses"
+    },
+    "wrist_1": {
+      "slots": {
+        "Forecast 1": "C_sensor_tcp_official/CV",
+        "Forecast 2": "C_sensor_tcp_official",
+        "Forecast 3": "C_sensor_tcp_official/Static"
+      },
+      "labels_hidden_in_images": true,
+      "limitation": "Method identities hidden from first image assessment; reviewer already knows reconstruction hypotheses"
+    }
+  },
+  "reviewed_images": [
+    {
+      "image": "wrist_2/viz/reference_all24_review.png",
+      "sha256": "67064ba94b4dd1410beaeb2a0af64795b7ca3c7f699d1208d271cbf852126ac4",
+      "source_indices": [
+        127,
+        136,
+        146
+      ],
+      "assessment": "All displayed frozen IDs stay on visible red target in the three sampled future frames. Target remains nearly camera-fixed while board/background moves. No obvious board/gripper leakage. Low texture prevents exact material-identity certification; blade becomes less fully visible near insertion.",
+      "review_phase": "before_method_map_and_metrics"
+    },
+    {
+      "image": "wrist_1/viz/reference_all24_review.png",
+      "sha256": "bb977cf3d2185ef4ac995783910e93cd00033d950d7baf80cc989c4af0ffa28f",
+      "source_indices": [
+        127,
+        136,
+        146
+      ],
+      "assessment": "All displayed frozen IDs stay on visible red target in the three sampled future frames. Target remains nearly camera-fixed while board/background moves. No obvious board/gripper leakage. Low texture prevents exact material-identity certification; blade becomes less fully visible near insertion.",
+      "review_phase": "before_method_map_and_metrics"
+    },
+    {
+      "image": "wrist_2/viz/blinded_review_01.png",
+      "sha256": "ca33664ae89652aa3e146e98ea90c1a0665b8ae6e40f0f198384fc723de531bb",
+      "source_indices": [
+        127
+      ],
+      "assessment": "All five forecasts are still in frame. Slots2/3 appear close to reference, with modest point offsets. Slots1/4/5 already shift head points upward. No physical3D ranking inferred.",
+      "review_phase": "before_method_map_and_metrics"
+    },
+    {
+      "image": "wrist_2/viz/blinded_review_10.png",
+      "sha256": "adb906799f4a4efa8b73bee91510c563a50b47fad5edc8b11750ba724c136ecf",
+      "source_indices": [
+        136
+      ],
+      "assessment": "Slots1/4/5 have severe upward projection errors, with6-7 of8 displayed forecasts outside image. Slot2 remains in frame but cap points shift left/down relative to green reference. Slot3 has smaller apparent2D offsets at1s and remains mostly near red surface.",
+      "review_phase": "before_method_map_and_metrics"
+    },
+    {
+      "image": "wrist_2/viz/blinded_review_20.png",
+      "sha256": "d8e88d5dfcdb5e5ff8baf9fa96dcb6256b03f1f4a85e9b68203a993c99cdbcda",
+      "source_indices": [
+        146
+      ],
+      "assessment": "Slots1/4/5 have7 of8 displayed forecasts outside, with long upward arrows. Slot2 remains in frame but forecasts are left/below cap reference. Slot3 remains in frame but cap points drift upward onto gripper/background by2s. None matches all reference points; apparent2D closeness does not certify depth.",
+      "review_phase": "before_method_map_and_metrics"
+    },
+    {
+      "image": "wrist_1/viz/blinded_review_20.png",
+      "sha256": "d89ea8e3ec04746a2544ca934f9f99dbfde0fc20c279cb8b6336deaf30874574",
+      "source_indices": [
+        146
+      ],
+      "assessment": "All three slots show severe projection mismatch at2s. Slot1 shifts far downward, including3 of8 off-image; slot2 has5 of8 outside and distorted vertically separated points; slot3 sends all8 displayed forecasts outside upward/right. Reference remains on red target.",
+      "review_phase": "before_method_map_and_metrics"
+    },
+    {
+      "image": "wrist_2/viz/forecast_errors.png",
+      "sha256": "285039aa23b8b75c795b61c31f642c603ad4d1c10c02036615a39b7fb41bc293",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "A has a large persistent absolute3D offset while looking much better in2D. B/C overlap Static closely; C CV has smaller2D error but larger3D_est error. B CV projections grow extremely large. Ranking differs between2D and3D_est."
+    },
+    {
+      "image": "wrist_2/viz/full_30step_xyz.png",
+      "sha256": "561c18bf623719d2c748e6c436cfcbbacdae89341dbe05ed898fb1a7013c4623",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "All24 forecasts over the complete30-step range are nearly flat in each of A/B/C. A has substantially larger depth than sensor-based branches. This supports a near-static model forecast, not successful prediction of the measured downward world displacement."
+    },
+    {
+      "image": "wrist_2/viz/reference_hand_eye_sensitivity.png",
+      "sha256": "2e767165b3eab5968431aa0ca58b8203829102379f92e5c62fa453a8662d2d41",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "Frozen observed-bootstrap reference differences rise over the horizon, with displayed paths below roughly14mm. This descriptive envelope is not a confidence interval or physical calibration certificate."
+    },
+    {
+      "image": "wrist_1/viz/full_30step_xyz.png",
+      "sha256": "6b4a3605954e9ef90b7a8ed4f46b93f7fd66ac7e6e7511c11cde49abb1d32e70",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "Different subsets of points diverge strongly: some Z paths rise toward0.55-0.58m, others decrease toward0.05m or change modestly. Large Y drifts and heterogeneous XYZ paths support viewpoint/group instability and fail to resemble a coherent rigid-target forecast."
+    },
+    {
+      "image": "wrist_1/viz/forecast_errors.png",
+      "sha256": "a8d4e2fcc1d90e045472a4fe1dfcb55e4bdd328127028da96619b8e51d70c0a8",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "Model3D_est error grows to about343mm at2s, well above Static/CV throughout the horizon. The2D curve has a large projection spike above7000px around1.6s; these off-image projections remain in numerical metrics."
+    },
+    {
+      "image": "wrist_future_world_motion.png",
+      "sha256": "7710f23ce1a5c9ec4423fa194a36095f3043e1c37da2f437892b5e9e08d93706",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "Independent reference displacement curves from the two wrists have similar dominant downward Z motion, ending near-90mm. Smaller XY disagreement remains. This supports short relative-motion consistency despite failed absolute cloud alignment."
+    },
+    {
+      "image": "side_future_motion_crosscheck.png",
+      "sha256": "3e748c4f9400e80bdf3e9ea62a3488ae63f98b989b6eb7dc3d6215a1fe13a6b8",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "Side1 visible-centroid motion magnitude roughly follows wrist2 reference and ends near83mm versus about90mm. Side2 is irregular and its small endpoint cannot be trusted as target material-point motion."
+    },
+    {
+      "image": "side_1/viz/side_future_color_control.png",
+      "sha256": "f5b0b22f1222d28de6c80670c92fed405ff176928e91e1008eacdba643d0ebce",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "Visible red peg moves downward toward insertion in the fixed view. The colored mask follows the visible surface in sampled frames126/127/136/146, with top clipping at126 and changing visible contour. This is an approximate centroid control."
+    },
+    {
+      "image": "side_2/viz/side_future_color_control.png",
+      "sha256": "4b108917dccb228696889088e7f0b30af02b9aff20d43a1e56f9132db52be02d",
+      "review_phase": "after_method_map_and_metrics",
+      "assessment": "Only a small red fragment at the upper image boundary is visible in the four samples. Persistent clipping and changing visible surface make centroid motion an unreliable estimate of the complete target trajectory."
+    }
+  ],
+  "point_reviews": {
+    "wrist_2": [
+      {
+        "point_id": 38,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Blade interior remains on red surface; weak texture and increasing insertion occlusion make material identity uncertain"
+      },
+      {
+        "point_id": 98,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 9,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 37,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 40,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 70,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Blade interior remains on red surface; weak texture and increasing insertion occlusion make material identity uncertain"
+      },
+      {
+        "point_id": 80,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 39,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 45,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 54,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 17,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 28,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 86,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 35,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 31,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 88,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 32,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 58,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 26,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 11,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 12,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 69,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 89,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 41,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      }
+    ],
+    "wrist_1": [
+      {
+        "point_id": 0,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Red surface near gripper/boundary; sampled membership appears correct, but contact/occlusion risk remains"
+      },
+      {
+        "point_id": 75,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Lower blade close to insertion region; visible in samples, changing apparent extent and low texture limit identity confidence"
+      },
+      {
+        "point_id": 88,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 1,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 63,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 22,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 60,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 46,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 26,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 87,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 69,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 59,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 24,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Red surface near gripper/boundary; sampled membership appears correct, but contact/occlusion risk remains"
+      },
+      {
+        "point_id": 29,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 97,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 32,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 49,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 5,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 39,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 4,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 37,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 54,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      },
+      {
+        "point_id": 38,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Red surface near gripper/boundary; sampled membership appears correct, but contact/occlusion risk remains"
+      },
+      {
+        "point_id": 98,
+        "reviewed_source_indices": [
+          127,
+          136,
+          146
+        ],
+        "visible_target_membership": "supported in sampled images",
+        "material_identity_confidence": "uncertain",
+        "assessment": "Inside visible red surface in sampled frames; low texture leaves exact correspondence uncertain"
+      }
+    ]
+  },
+  "overall_assessment": "Встроенный просмотр подтвердил: на wrist_2 прогнозы A/B/C почти статичны в camera_t0. Для primary C ADE3D_est составляет42.74mm против42.84mm у Static и74.94mm у CV; выигрыш0.11mm у Static практически мал и не является убедительным улучшением. CV лучше в2D:28.49px против109.93px у C. A выглядит ближе к reference в2D, но исходное расхождение3D равно590.76mm, а displacement-only ADE46.54mm хуже Static42.76mm. На wrist_1 C даёт несогласованные между группами траектории и ADE3D_est193.20mm против40.95mm у Static и56.72mm у CV. В reference не обнаружено явного выхода выбранных ID на фон в трёх просмотренных кадрах; низкая текстура и перекрытия не позволяют подтвердить точную материальную идентичность. Две wrist-реконструкции относительного перемещения согласуются гораздо лучше абсолютных облаков (median3.34mm, endpoint4.76mm), side_1 приблизительно поддерживает движение; side_2 сильно обрезает объект и не даёт надёжной motion-проверки. Эти выводы относятся к estimated reference при неопределённых K/X/depth scale, а не к физическому GT.",
+  "limits": "Only sampled RGB/projection images; cannot establish calibrated3D GT or exact identities on a low-texture object. Prior reconstruction hypotheses were known, so blinding hides labels but is not fully independent.",
+  "serialization_only": "These judgments record images actually viewed by the assistant in the original session; running this serializer does not perform a new image assessment."
+}

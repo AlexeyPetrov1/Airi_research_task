@@ -1,0 +1,434 @@
+{
+  "fits": [
+    {
+      "seed": 0,
+      "X_TCP_from_camera": [
+        [
+          -0.34910056376565796,
+          0.7440327785419241,
+          -0.5696876519933393,
+          0.03483981660377616
+        ],
+        [
+          -0.9254547413134095,
+          -0.3692249316123453,
+          0.0848909397779831,
+          0.02360177093962889
+        ],
+        [
+          -0.14718124255159037,
+          0.5568556135400299,
+          0.8174652943764198,
+          0.3355134714260844
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_difference_mm": 338.7552115131462,
+      "rotation_difference_deg": 17.31898034453466,
+      "heldout_reprojection": {
+        "pairs": [
+          {
+            "i": 42,
+            "j": 43,
+            "count": 50,
+            "median_px": 0.9655952593367019
+          },
+          {
+            "i": 46,
+            "j": 47,
+            "count": 27,
+            "median_px": 3.7112069780373753
+          },
+          {
+            "i": 47,
+            "j": 48,
+            "count": 43,
+            "median_px": 3.2922560806804966
+          }
+        ],
+        "correspondences": 120,
+        "median_px": 2.741216346249009,
+        "p90_px": 4.530528361321574,
+        "median_3d_correspondence_mm": 13.971573406504744,
+        "p90_3d_correspondence_mm": 27.57286558952939
+      },
+      "observed_relative_path_median_translation_difference_mm": 84.81285580712184,
+      "observed_relative_path_p90_translation_difference_mm": 88.39228077039809
+    },
+    {
+      "seed": 1,
+      "X_TCP_from_camera": [
+        [
+          -0.5970333331883542,
+          0.616444995431551,
+          -0.5133680615984977,
+          0.09372548661549372
+        ],
+        [
+          -0.7987395138532676,
+          -0.5163041330894544,
+          0.3089421162033317,
+          -0.03510795113069655
+        ],
+        [
+          -0.07460823058784954,
+          0.5944960973481173,
+          0.8006297534855974,
+          -0.04153493613245875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_difference_mm": 49.57541224927557,
+      "rotation_difference_deg": 1.4928662479811148,
+      "heldout_reprojection": {
+        "pairs": [
+          {
+            "i": 42,
+            "j": 43,
+            "count": 50,
+            "median_px": 0.4587257887616219
+          },
+          {
+            "i": 46,
+            "j": 47,
+            "count": 27,
+            "median_px": 2.6658181580586775
+          },
+          {
+            "i": 47,
+            "j": 48,
+            "count": 43,
+            "median_px": 2.6346271854991974
+          }
+        ],
+        "correspondences": 120,
+        "median_px": 1.467340072209597,
+        "p90_px": 3.7022843738193023,
+        "median_3d_correspondence_mm": 11.353250735031333,
+        "p90_3d_correspondence_mm": 24.192335882551852
+      },
+      "observed_relative_path_median_translation_difference_mm": 5.549551097451083,
+      "observed_relative_path_p90_translation_difference_mm": 6.770961892471176
+    },
+    {
+      "seed": 2,
+      "X_TCP_from_camera": [
+        [
+          -0.5365905696663009,
+          0.6677536179698867,
+          -0.5159221513303351,
+          0.05302298201419151
+        ],
+        [
+          -0.8378577198947882,
+          -0.4942946506024899,
+          0.23166190795741332,
+          -0.012716412088605147
+        ],
+        [
+          -0.10032448234554331,
+          0.5565769525176991,
+          0.82471637195354,
+          0.14537796516547696
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_difference_mm": 144.69846561717858,
+      "rotation_difference_deg": 5.19803116523479,
+      "heldout_reprojection": {
+        "pairs": [
+          {
+            "i": 42,
+            "j": 43,
+            "count": 50,
+            "median_px": 0.651851859525634
+          },
+          {
+            "i": 46,
+            "j": 47,
+            "count": 27,
+            "median_px": 2.873205894975173
+          },
+          {
+            "i": 47,
+            "j": 48,
+            "count": 43,
+            "median_px": 1.3814400206983861
+          }
+        ],
+        "correspondences": 120,
+        "median_px": 0.9509280996849074,
+        "p90_px": 3.4397789627964617,
+        "median_3d_correspondence_mm": 11.893926940115506,
+        "p90_3d_correspondence_mm": 25.586746562604944
+      },
+      "observed_relative_path_median_translation_difference_mm": 26.519796967191095,
+      "observed_relative_path_p90_translation_difference_mm": 27.949236034857872
+    },
+    {
+      "seed": 3,
+      "X_TCP_from_camera": [
+        [
+          -0.8082159442056107,
+          0.5053508516272855,
+          -0.3023367398967747,
+          -0.11887108625526797
+        ],
+        [
+          -0.588569335196973,
+          -0.710035249686396,
+          0.38656963391938876,
+          -0.047931006600287485
+        ],
+        [
+          -0.01931644888756623,
+          0.490377875686041,
+          0.8712958245280529,
+          0.1943896088162461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_difference_mm": 271.7945193148803,
+      "rotation_difference_deg": 17.64774457798638,
+      "heldout_reprojection": {
+        "pairs": [
+          {
+            "i": 42,
+            "j": 43,
+            "count": 50,
+            "median_px": 0.5502487653388851
+          },
+          {
+            "i": 46,
+            "j": 47,
+            "count": 27,
+            "median_px": 2.6941321338274733
+          },
+          {
+            "i": 47,
+            "j": 48,
+            "count": 43,
+            "median_px": 2.869997660652717
+          }
+        ],
+        "correspondences": 120,
+        "median_px": 1.7719329568100726,
+        "p90_px": 3.5646533559086366,
+        "median_3d_correspondence_mm": 12.165820816625539,
+        "p90_3d_correspondence_mm": 26.79046352905977
+      },
+      "observed_relative_path_median_translation_difference_mm": 67.1325908441546,
+      "observed_relative_path_p90_translation_difference_mm": 70.11972149885726
+    },
+    {
+      "seed": 4,
+      "X_TCP_from_camera": [
+        [
+          -0.67674996964523,
+          0.5760686683655653,
+          -0.45842596775565064,
+          0.021667632888048224
+        ],
+        [
+          -0.7286364077556658,
+          -0.6131940353468107,
+          0.30509352714866517,
+          -0.018358061694300248
+        ],
+        [
+          -0.10534924716436939,
+          0.5404978856042073,
+          0.8347236499460656,
+          0.018641234688391756
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_difference_mm": 54.412589976627935,
+      "rotation_difference_deg": 5.847511945429969,
+      "heldout_reprojection": {
+        "pairs": [
+          {
+            "i": 42,
+            "j": 43,
+            "count": 50,
+            "median_px": 0.4893173323479709
+          },
+          {
+            "i": 46,
+            "j": 47,
+            "count": 27,
+            "median_px": 2.5316829487825827
+          },
+          {
+            "i": 47,
+            "j": 48,
+            "count": 43,
+            "median_px": 1.2214138085971558
+          }
+        ],
+        "correspondences": 120,
+        "median_px": 0.8428829535910782,
+        "p90_px": 2.9390702933028137,
+        "median_3d_correspondence_mm": 11.34190917253796,
+        "p90_3d_correspondence_mm": 24.696711594252847
+      },
+      "observed_relative_path_median_translation_difference_mm": 13.934334729723979,
+      "observed_relative_path_p90_translation_difference_mm": 18.75643235480725
+    },
+    {
+      "seed": 5,
+      "X_TCP_from_camera": [
+        [
+          -0.5324813072537564,
+          0.6419422724356616,
+          -0.5517008032307633,
+          0.09402112004347529
+        ],
+        [
+          -0.8309496282188109,
+          -0.5205746893371395,
+          0.1962771208892183,
+          0.08014845291110302
+        ],
+        [
+          -0.16120289323815112,
+          0.5629494752477167,
+          0.8106179837198098,
+          0.06418554060894956
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_difference_mm": 125.87726261418122,
+      "rotation_difference_deg": 6.564135480552062,
+      "heldout_reprojection": {
+        "pairs": [
+          {
+            "i": 42,
+            "j": 43,
+            "count": 50,
+            "median_px": 0.6537740203238998
+          },
+          {
+            "i": 46,
+            "j": 47,
+            "count": 27,
+            "median_px": 3.085544676171626
+          },
+          {
+            "i": 47,
+            "j": 48,
+            "count": 43,
+            "median_px": 2.6683563669425876
+          }
+        ],
+        "correspondences": 120,
+        "median_px": 1.848904364342865,
+        "p90_px": 3.6953846319139116,
+        "median_3d_correspondence_mm": 11.964114640084823,
+        "p90_3d_correspondence_mm": 24.31228644495099
+      },
+      "observed_relative_path_median_translation_difference_mm": 36.01159233811926,
+      "observed_relative_path_p90_translation_difference_mm": 39.120615982156295
+    },
+    {
+      "seed": 6,
+      "X_TCP_from_camera": [
+        [
+          -0.5699027617818221,
+          0.6660975355990952,
+          -0.4811703598334628,
+          0.02472301339678356
+        ],
+        [
+          -0.8212582999758415,
+          -0.48117953053258444,
+          0.3065959297140657,
+          -0.05940151791266948
+        ],
+        [
+          -0.0273065346436078,
+          0.569895018810705,
+          0.8212636730676109,
+          0.2608201763238571
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_difference_mm": 264.3470269476867,
+      "rotation_difference_deg": 4.376666730665979,
+      "heldout_reprojection": {
+        "pairs": [
+          {
+            "i": 42,
+            "j": 43,
+            "count": 50,
+            "median_px": 0.6493954655326475
+          },
+          {
+            "i": 46,
+            "j": 47,
+            "count": 27,
+            "median_px": 2.5140957303630325
+          },
+          {
+            "i": 47,
+            "j": 48,
+            "count": 43,
+            "median_px": 1.1028619799296455
+          }
+        ],
+        "correspondences": 120,
+        "median_px": 0.9157348594002612,
+        "p90_px": 3.059106671666858,
+        "median_3d_correspondence_mm": 12.18088975083622,
+        "p90_3d_correspondence_mm": 26.94927017159658
+      },
+      "observed_relative_path_median_translation_difference_mm": 29.840374041333156,
+      "observed_relative_path_p90_translation_difference_mm": 34.14589060279379
+    }
+  ],
+  "jacobian_singular_values": [
+    88.51987738899649,
+    66.55716344563824,
+    40.285731996669966,
+    23.466298847327113,
+    13.15094146611202,
+    8.641277989524534
+  ],
+  "jacobian_condition_mixed_parameter_units": 10.243840956893818,
+  "interpretation": "Static pairs subsampled on training prefix only; hand-eye parameter spread and relative-path spread reported separately. Future cannot calibrate X."
+}

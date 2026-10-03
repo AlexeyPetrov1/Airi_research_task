@@ -1,5 +1,7 @@
 # Research reports
 
+- [FMB wrist v4: improvements and comparison with v3](fmb_wrist_v4_improvement.md) — past-TCP forecast, native H3/H1 controls, unchanged reference, videos and verified audit.
+- [FMB wrist v3: geometry and native forecasts](fmb_wrist_v3.md) — four-view diagnostics, wrist-camera geometry, 24-point forecasts and estimated-reference limitations.
 - [FMB: official automatic COLMAP on two episodes and two cameras](fmb_colmap_official_baseline.md) — ten native runs, side camera CAD/depth diagnostics, local wrist reconstructions and PINHOLE controls.
 - [Dobb·E: official automatic COLMAP baseline](dobbe_colmap_official_baseline.md) — causal 96/96 registered, full sequence fragmented, independent depth and trajectory diagnostics.
 - [Dobb·E: corrected COLMAP controls, four reruns and verified match graphs](dobbe_colmap_clean_rerun.md) — clean defaults, frozen foreground masks, causal versus oracle, depth validation.
@@ -23,3 +25,5 @@
 Model outputs and generated media are kept under [`../runs`](../runs). Setup and environment details are in [`../SETUP_DIAGNOSTICS.md`](../SETUP_DIAGNOSTICS.md).
 
 [Published artifacts and reproduction requirements](PUBLICATION.md).
+
+- [FMB v2 — Berkeley-matched pipeline](fmb_v2_berkeley_matched.md) — independent 24-point AllTracker experiment, H3/H1 controls, sensor-depth geometry audits, metrics and videos; FMB v1 retained as a geometry sensitivity study.

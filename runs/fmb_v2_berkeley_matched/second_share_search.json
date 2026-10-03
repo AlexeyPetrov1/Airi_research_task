@@ -1,0 +1,491 @@
+{
+  "source": "1_M_L_3_vertical_n_3.npy",
+  "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "manifest_sha256": "e49e702e20329cf2f3ce10a2359ae226940097c165301660d2e46eb7d2bf6645",
+  "scope": "Pinned ShareRobot 3266d929 trajectory subset; all referenced FMB images, every n3 frame, four cameras, both channel orders",
+  "images_checked": 48,
+  "confirmed_mapping": false,
+  "limitation": "A small MAE alone is not a proven mapping. Planning archive and all other ShareRobot episodes not exhausted.",
+  "results": [
+    {
+      "image_path": "rtx_frames_success_31/57_fmb#episode_5201/frame_0.png",
+      "http_status": 200,
+      "sha256": "80f6af8673cd2ec1d9c03c4e361154903f8104421b25ac756a1f30fb7e9b9281",
+      "best_camera": "side_1",
+      "best_source_step": 2,
+      "color": "as_stored",
+      "small_mae": 12.509440104166666,
+      "full_mae": 14.58599853515625
+    },
+    {
+      "image_path": "rtx_frames_success_31/57_fmb#episode_5201/frame_15.png",
+      "http_status": 200,
+      "sha256": "7aa736b0cf48c6be046179dead02b69238fd9299f29c788ef0d2d422f8b8435f",
+      "best_camera": "side_1",
+      "best_source_step": 93,
+      "color": "as_stored",
+      "small_mae": 13.065104166666666,
+      "full_mae": 15.037841796875
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7461/frame_15.png",
+      "http_status": 200,
+      "sha256": "d30ab7a100d49dabec7f4e812751a2823b3c476544a56ab541db4d35fd23aef5",
+      "best_camera": "side_1",
+      "best_source_step": 101,
+      "color": "as_stored",
+      "small_mae": 18.878255208333332,
+      "full_mae": 22.432139078776043
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_753/frame_15.png",
+      "http_status": 200,
+      "sha256": "ba3aa245cdc95542a65dd41f3f42ad4e49f4f8c2c9e99d274d13ff735d28994b",
+      "best_camera": "side_1",
+      "best_source_step": 109,
+      "color": "as_stored",
+      "small_mae": 20.353515625,
+      "full_mae": 23.663564046223957
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7477/frame_15.png",
+      "http_status": 200,
+      "sha256": "e3b59db458e6b3b712c1d3f8b8842eb93bc12a643a3a31ae0e966259a3a7cd2c",
+      "best_camera": "side_1",
+      "best_source_step": 125,
+      "color": "as_stored",
+      "small_mae": 21.669270833333332,
+      "full_mae": 25.22852071126302
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7173/frame_15.png",
+      "http_status": 200,
+      "sha256": "a9b2621f2f33ee938ddbd448c0b0610be17dce99bc154dbaf04debfa1679d5a1",
+      "best_camera": "side_1",
+      "best_source_step": 101,
+      "color": "as_stored",
+      "small_mae": 22.2041015625,
+      "full_mae": 25.785502115885418
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7446/frame_15.png",
+      "http_status": 200,
+      "sha256": "34aa2b6227c5735357eca8bc86bcd3d9ba03bb217fc5d509e98946d764e67c71",
+      "best_camera": "side_1",
+      "best_source_step": 132,
+      "color": "as_stored",
+      "small_mae": 22.609700520833332,
+      "full_mae": 25.98114013671875
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6943/frame_15.png",
+      "http_status": 200,
+      "sha256": "5560ee1922b8d18b603f974d390f7f338480a546901a8603e9b86bc085068f7c",
+      "best_camera": "side_1",
+      "best_source_step": 100,
+      "color": "as_stored",
+      "small_mae": 23.1494140625,
+      "full_mae": 26.607096354166668
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7629/frame_15.png",
+      "http_status": 200,
+      "sha256": "0f0fe0dd13d53fc7ee71d54ce41a2e0563b1444198aaeddf9e24c2c405405cc2",
+      "best_camera": "side_1",
+      "best_source_step": 110,
+      "color": "as_stored",
+      "small_mae": 24.107747395833332,
+      "full_mae": 27.54174296061198
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7264/frame_15.png",
+      "http_status": 200,
+      "sha256": "04f73e91cccfa0b476dd1b480014cbdb99b27e1afeb419c49b433b93a990a3da",
+      "best_camera": "side_1",
+      "best_source_step": 103,
+      "color": "as_stored",
+      "small_mae": 23.9755859375,
+      "full_mae": 27.625905354817707
+    },
+    {
+      "image_path": "rtx_frames_success_28/57_fmb#episode_2175/frame_0.png",
+      "http_status": 200,
+      "sha256": "f1fac6ecc8360b2a8527deeacb5a49d6e77bd50bc4baf58885305a333658c051",
+      "best_camera": "side_1",
+      "best_source_step": 2,
+      "color": "as_stored",
+      "small_mae": 25.3603515625,
+      "full_mae": 27.824605305989582
+    },
+    {
+      "image_path": "rtx_frames_success_29/57_fmb#episode_3893/frame_0.png",
+      "http_status": 200,
+      "sha256": "7b34e6370ae2130f8d595450b2540d53d582964f6493e67aa737bd6039383ce0",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "as_stored",
+      "small_mae": 25.66796875,
+      "full_mae": 28.898422241210938
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_712/frame_15.png",
+      "http_status": 200,
+      "sha256": "1e4adb02e039d52970dea036cdceaff47c36b4c4bed55637e90f59bdd03ebf22",
+      "best_camera": "side_1",
+      "best_source_step": 124,
+      "color": "as_stored",
+      "small_mae": 25.7939453125,
+      "full_mae": 29.054397583007812
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6907/frame_15.png",
+      "http_status": 200,
+      "sha256": "f6cbfc3850339ab631d4230b1a22f9d4284e655951dd60ffdcaf7d52328e8573",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "as_stored",
+      "small_mae": 26.583658854166668,
+      "full_mae": 29.865030924479168
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7216/frame_15.png",
+      "http_status": 200,
+      "sha256": "125aff76c548a2af1a9c62118846bf2d336d4f34285f8ce114c4919b78bb5284",
+      "best_camera": "side_1",
+      "best_source_step": 101,
+      "color": "as_stored",
+      "small_mae": 26.090169270833332,
+      "full_mae": 29.92126973470052
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7187/frame_15.png",
+      "http_status": 200,
+      "sha256": "2e555020fa76e39ec42f530f4d05e2e79d2cb98b384cd6c645e3a6e84a241dec",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "as_stored",
+      "small_mae": 26.6533203125,
+      "full_mae": 30.305801391601562
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7136/frame_15.png",
+      "http_status": 200,
+      "sha256": "b9948595fa638a639dda469b1b46d6e01069c2c9676fc8844ea2a6eef18340e0",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "as_stored",
+      "small_mae": 26.7373046875,
+      "full_mae": 30.330108642578125
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7605/frame_15.png",
+      "http_status": 200,
+      "sha256": "1ea18b589840381cd00239d7ca2f6c7f78ef9506fbe2db9dbf7ca378da087d2d",
+      "best_camera": "side_1",
+      "best_source_step": 100,
+      "color": "as_stored",
+      "small_mae": 26.443033854166668,
+      "full_mae": 30.366719563802082
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7259/frame_15.png",
+      "http_status": 200,
+      "sha256": "d644ffda5db79148320948d18fc16646f99a8c151af72def5f9eef0929ff9c1b",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "as_stored",
+      "small_mae": 26.9248046875,
+      "full_mae": 30.373911539713543
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7400/frame_15.png",
+      "http_status": 200,
+      "sha256": "3b7a54f3e48509fb4e1fb207635fcf8809065af7600ba166729878920a4c2935",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "as_stored",
+      "small_mae": 27.234049479166668,
+      "full_mae": 30.702799479166668
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7325/frame_15.png",
+      "http_status": 200,
+      "sha256": "3172d2ffe0c9359327e351366b3d0ad0d30e8585e72e170341434e25e6c6d25f",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "as_stored",
+      "small_mae": 27.620768229166668,
+      "full_mae": 31.023234049479168
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7410/frame_15.png",
+      "http_status": 200,
+      "sha256": "44b4bacda40a086b15cc361f2106ddf48fcbb26e543936b831289e09632a945b",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "BGR_to_RGB",
+      "small_mae": 29.2958984375,
+      "full_mae": 31.958750406901043
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7609/frame_15.png",
+      "http_status": 200,
+      "sha256": "82da152a8ed220342f4ef781f887c6ecfad815aaaed216e04a6420c68e355334",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "BGR_to_RGB",
+      "small_mae": 29.976236979166668,
+      "full_mae": 32.29727681477865
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7536/frame_15.png",
+      "http_status": 200,
+      "sha256": "ba4bcbd244330340aecf4543c4729ee80ca09f616b0030f20ff7db1a697383dc",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 30.394856770833332,
+      "full_mae": 32.991739908854164
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7539/frame_15.png",
+      "http_status": 200,
+      "sha256": "7844fbcfc8b017138ba21313dbb27396a9130d2975077be72d53a2533d4d05d1",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 30.353515625,
+      "full_mae": 33.07148234049479
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7033/frame_15.png",
+      "http_status": 200,
+      "sha256": "fa4995206fa30a2697ce8e4c017db4a3644411dc8036485d1e6f029d4020565a",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 30.783203125,
+      "full_mae": 33.159769694010414
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7056/frame_15.png",
+      "http_status": 200,
+      "sha256": "f6b03a33855d68c2da3e6fa55f8d58ea31e58ce3586760663ae88826d5dfab83",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 31.209309895833332,
+      "full_mae": 33.813507080078125
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7561/frame_15.png",
+      "http_status": 200,
+      "sha256": "f9e89ecc66a4202cd4d4229333e9de5519726eb251ea649e5a01e2f39e890e86",
+      "best_camera": "side_1",
+      "best_source_step": 109,
+      "color": "as_stored",
+      "small_mae": 30.122395833333332,
+      "full_mae": 33.87591552734375
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7380/frame_15.png",
+      "http_status": 200,
+      "sha256": "55aa406e3056208b6a3a8912a3dd2949335604c7c3104019859d32a5856d850a",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "BGR_to_RGB",
+      "small_mae": 31.4365234375,
+      "full_mae": 33.91690572102865
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6887/frame_15.png",
+      "http_status": 200,
+      "sha256": "6b6958aa7150151b49fa3fe457552e57feb780d0943ea3c2caea20be49b7f948",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 31.588541666666668,
+      "full_mae": 34.271341959635414
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6998/frame_15.png",
+      "http_status": 200,
+      "sha256": "ed6d9e9f2319ed6153266967aa04f484df69055031585ed476babb0ec0393197",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 31.337890625,
+      "full_mae": 34.32733662923177
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_707/frame_15.png",
+      "http_status": 200,
+      "sha256": "533d3144835e1d43b23742af4844cabacd4e04148a7400e083d2e2f212e612a8",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "BGR_to_RGB",
+      "small_mae": 32.097330729166664,
+      "full_mae": 34.76197306315104
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7283/frame_15.png",
+      "http_status": 200,
+      "sha256": "25803c6b617f15a5a4bb5f737086c8a9d6de396180858470477271571dde1d7d",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "BGR_to_RGB",
+      "small_mae": 32.774088541666664,
+      "full_mae": 35.37130228678385
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7337/frame_15.png",
+      "http_status": 200,
+      "sha256": "053579ab1aea8b0f36cee157547a6db9a22bdb7f3c9624757837a4ad29c7cc7f",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 33.368815104166664,
+      "full_mae": 35.73278299967448
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7409/frame_15.png",
+      "http_status": 200,
+      "sha256": "2b8e97b6d6d10d9258ced4a874ca9a19a26341d7b77fbc79b70a9ba976a67d28",
+      "best_camera": "side_1",
+      "best_source_step": 123,
+      "color": "as_stored",
+      "small_mae": 32.371419270833336,
+      "full_mae": 36.052164713541664
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7213/frame_15.png",
+      "http_status": 200,
+      "sha256": "4d67e23ee73e333dae6e8b4945c6adfb47b1df9b20af5f4fd57cd123b3aa476e",
+      "best_camera": "side_1",
+      "best_source_step": 123,
+      "color": "as_stored",
+      "small_mae": 32.640950520833336,
+      "full_mae": 36.54608662923177
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7501/frame_15.png",
+      "http_status": 200,
+      "sha256": "c58e1b751f6ad088bd90a81a62a022397d47fbad94dceeb5d53c646daf5b79d4",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "as_stored",
+      "small_mae": 33.239583333333336,
+      "full_mae": 36.59879048665365
+    },
+    {
+      "image_path": "rtx_frames_success_29/57_fmb#episode_390/frame_0.png",
+      "http_status": 200,
+      "sha256": "c12430b63621163f5bd4f7f90f61df1a82eaf094553147a905881cecd4c51a72",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "as_stored",
+      "small_mae": 33.448567708333336,
+      "full_mae": 36.73804219563802
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_687/frame_15.png",
+      "http_status": 200,
+      "sha256": "b71a6daf10ed209fd41bbcaf3da14497ad8a6bd83b0d25d28ca46e0e3e0840b9",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "BGR_to_RGB",
+      "small_mae": 34.134765625,
+      "full_mae": 37.25873311360677
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7327/frame_15.png",
+      "http_status": 200,
+      "sha256": "3c94e39b05e40d13a6e4939bba50eb3ab75ca3d4489a366a0dc8043b5612410d",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 34.570963541666664,
+      "full_mae": 37.9106190999349
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7025/frame_15.png",
+      "http_status": 200,
+      "sha256": "90883a9e6932018c1161ef35b978a40321482b4e2b3c1d13f9967e1ad15e5a6b",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 35.6865234375,
+      "full_mae": 38.34142049153646
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6916/frame_15.png",
+      "http_status": 200,
+      "sha256": "c93bd9d6202cc94af910c6b69c14c69399806acb0a48321acb3fea4eff12de2a",
+      "best_camera": "side_1",
+      "best_source_step": 2,
+      "color": "as_stored",
+      "small_mae": 35.635416666666664,
+      "full_mae": 38.78057352701823
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7457/frame_15.png",
+      "http_status": 200,
+      "sha256": "590564e30b32b0776efe977b721b7d84870f1aaea155cacefdd135da7a95dc2d",
+      "best_camera": "side_1",
+      "best_source_step": 102,
+      "color": "BGR_to_RGB",
+      "small_mae": 36.886393229166664,
+      "full_mae": 39.5443115234375
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7313/frame_15.png",
+      "http_status": 200,
+      "sha256": "3b312dbc4d86683f264fbdfebc837fbf63276a27968083b7ea4c3de9980cfb69",
+      "best_camera": "side_1",
+      "best_source_step": 132,
+      "color": "BGR_to_RGB",
+      "small_mae": 36.6796875,
+      "full_mae": 39.56511942545573
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7349/frame_15.png",
+      "http_status": 200,
+      "sha256": "c640edae3b577e3cfeaecb1cf039b7f047bf21e93d2aa9fb347ebe7147a64af8",
+      "best_camera": "side_1",
+      "best_source_step": 104,
+      "color": "BGR_to_RGB",
+      "small_mae": 35.658854166666664,
+      "full_mae": 39.62482706705729
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7340/frame_15.png",
+      "http_status": 200,
+      "sha256": "d12ba0f0ef07f3215251d04f57643a6e75546bc3281d000f8dff4025054a2447",
+      "best_camera": "side_1",
+      "best_source_step": 132,
+      "color": "as_stored",
+      "small_mae": 35.643229166666664,
+      "full_mae": 39.69371541341146
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_7218/frame_15.png",
+      "http_status": 200,
+      "sha256": "dbf6dec4fbc32df5989049bef249f56702953648c4ba7b3ad404726ec10209d0",
+      "best_camera": "side_2",
+      "best_source_step": 98,
+      "color": "as_stored",
+      "small_mae": 57.986002604166664,
+      "full_mae": 60.89165242513021
+    },
+    {
+      "image_path": "rtx_frames_success_33/57_fmb#episode_6925/frame_15.png",
+      "http_status": 200,
+      "sha256": "9d7575ac43ca0bb56f8a4934d705f067f7a4fac2362de52e70864f487bfcf801",
+      "best_camera": "side_2",
+      "best_source_step": 98,
+      "color": "as_stored",
+      "small_mae": 63.064778645833336,
+      "full_mae": 65.36312357584636
+    }
+  ]
+}

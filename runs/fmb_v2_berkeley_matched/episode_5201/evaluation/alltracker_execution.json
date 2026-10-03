@@ -1,0 +1,22 @@
+{
+  "source": "vendored author AllTracker Net(16)",
+  "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+  "iters": 4,
+  "native_size_wh": [
+    256,
+    256
+  ],
+  "network_size_wh": [
+    256,
+    256
+  ],
+  "flow_sampling": "bilinear dense-flow sampling; source-pixel-unit output",
+  "direction": "forward evaluation continuation",
+  "runtime_seconds": 2.3721231929998794,
+  "peak_gpu_memory_gib": 0.6081295013427734,
+  "independent_of_history_tracking": true,
+  "same_t0_point_ids": true,
+  "prediction_gated": true,
+  "future_only_for_evaluation": true,
+  "reference": "AllTracker estimated RGB correspondence, not physical GT"
+}

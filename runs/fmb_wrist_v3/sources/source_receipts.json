@@ -1,0 +1,82 @@
+[
+  {
+    "role": "calibration",
+    "repository": "functional-manipulation-benchmark/functional-manipulation-benchmark.github.io",
+    "revision": "b76d9a9477ee52bf491c40651b2a10aa1076f345",
+    "path": "static/files/side_1",
+    "url": "https://raw.githubusercontent.com/functional-manipulation-benchmark/functional-manipulation-benchmark.github.io/b76d9a9477ee52bf491c40651b2a10aa1076f345/static/files/side_1",
+    "sha256": "75041e2345f80d882144ba43247e7e1f9a49b822c64c83d561a03c057f714ccb"
+  },
+  {
+    "role": "calibration",
+    "repository": "functional-manipulation-benchmark/functional-manipulation-benchmark.github.io",
+    "revision": "b76d9a9477ee52bf491c40651b2a10aa1076f345",
+    "path": "static/files/side_2",
+    "url": "https://raw.githubusercontent.com/functional-manipulation-benchmark/functional-manipulation-benchmark.github.io/b76d9a9477ee52bf491c40651b2a10aa1076f345/static/files/side_2",
+    "sha256": "8c244888b34ccbe1e79de205974ad4b492e8cd0d910b34c8ad949ef4f4c8b247"
+  },
+  {
+    "role": "calibration",
+    "repository": "functional-manipulation-benchmark/functional-manipulation-benchmark.github.io",
+    "revision": "b76d9a9477ee52bf491c40651b2a10aa1076f345",
+    "path": "static/files/wrist_1",
+    "url": "https://raw.githubusercontent.com/functional-manipulation-benchmark/functional-manipulation-benchmark.github.io/b76d9a9477ee52bf491c40651b2a10aa1076f345/static/files/wrist_1",
+    "sha256": "b2fd75cf32a74a5e9f8ac995aaf3fdab3f85b15bc597f14fae10ef265028ce73"
+  },
+  {
+    "role": "calibration",
+    "repository": "functional-manipulation-benchmark/functional-manipulation-benchmark.github.io",
+    "revision": "b76d9a9477ee52bf491c40651b2a10aa1076f345",
+    "path": "static/files/wrist_2",
+    "url": "https://raw.githubusercontent.com/functional-manipulation-benchmark/functional-manipulation-benchmark.github.io/b76d9a9477ee52bf491c40651b2a10aa1076f345/static/files/wrist_2",
+    "sha256": "8c0ed504f391ddb569980bc81847ff52b180ab441f6b6c4bfbc17d5eb9ca874e"
+  },
+  {
+    "role": "capture",
+    "repository": "rail-berkeley/fmb",
+    "revision": "d4da6ce044a9806f41e58bf7423b5a3c05289925",
+    "path": "robot_infra/camera/__init__.py",
+    "url": "https://raw.githubusercontent.com/rail-berkeley/fmb/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/camera/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "role": "capture",
+    "repository": "rail-berkeley/fmb",
+    "revision": "d4da6ce044a9806f41e58bf7423b5a3c05289925",
+    "path": "robot_infra/camera/rs_capture.py",
+    "url": "https://raw.githubusercontent.com/rail-berkeley/fmb/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/camera/rs_capture.py",
+    "sha256": "97a3d8572a8514c5c43c58a7e273edbbfa8033e3cca6aa1b29dc37ffdf4d8604"
+  },
+  {
+    "role": "capture",
+    "repository": "rail-berkeley/fmb",
+    "revision": "d4da6ce044a9806f41e58bf7423b5a3c05289925",
+    "path": "robot_infra/camera/video_capture.py",
+    "url": "https://raw.githubusercontent.com/rail-berkeley/fmb/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/camera/video_capture.py",
+    "sha256": "02a57719690a39f5a15013f6b73ee40c01c173d81ba1c75965e7242b316c27ef"
+  },
+  {
+    "role": "capture",
+    "repository": "rail-berkeley/fmb",
+    "revision": "d4da6ce044a9806f41e58bf7423b5a3c05289925",
+    "path": "robot_infra/envs/__init__.py",
+    "url": "https://raw.githubusercontent.com/rail-berkeley/fmb/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/__init__.py",
+    "sha256": "0e11babc9186e972bbedbde841815cdf75e4acc4032d57a589531a3235714967"
+  },
+  {
+    "role": "capture",
+    "repository": "rail-berkeley/fmb",
+    "revision": "d4da6ce044a9806f41e58bf7423b5a3c05289925",
+    "path": "robot_infra/envs/franka_fmb_env.py",
+    "url": "https://raw.githubusercontent.com/rail-berkeley/fmb/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/envs/franka_fmb_env.py",
+    "sha256": "39c81bef944156079fcfcd8f376d655b532c376cfaf95694bc96da54268f70e0"
+  },
+  {
+    "role": "capture",
+    "repository": "rail-berkeley/fmb",
+    "revision": "d4da6ce044a9806f41e58bf7423b5a3c05289925",
+    "path": "robot_infra/franka_server.py",
+    "url": "https://raw.githubusercontent.com/rail-berkeley/fmb/d4da6ce044a9806f41e58bf7423b5a3c05289925/robot_infra/franka_server.py",
+    "sha256": "0d6b7ef6c51cdb760345c94c50b6799fea70a199df1b22d8dc3ddfaae5884641"
+  }
+]

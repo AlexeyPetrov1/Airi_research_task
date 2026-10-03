@@ -1,0 +1,562 @@
+{
+  "success": true,
+  "completed_utc": "2026-10-03T04:28:25.067740+00:00",
+  "checks": [
+    {
+      "requirement": "Source-matched FMB / ShareRobot5201",
+      "pass": true,
+      "evidence": "source_episode_5201_provenance.json"
+    },
+    {
+      "requirement": "Observed episode selection with alternatives and target depth support",
+      "pass": true,
+      "evidence": "selection/candidates.json; geometry_ranking.json; target_depth_support.json"
+    },
+    {
+      "requirement": "Built-in image assessment replaces HF VLM",
+      "pass": true,
+      "evidence": "builtin_visual_review_*.json"
+    },
+    {
+      "requirement": "First blinded judgments preserved before map/metric disclosure",
+      "pass": true,
+      "evidence": "builtin_blinded_review.json; immutable first assessment and per-point flags"
+    },
+    {
+      "requirement": "Four meaningful coordinate/time tests passed",
+      "pass": true,
+      "evidence": "coordinate_test_receipt.json"
+    },
+    {
+      "requirement": "Reviewed image hashes unchanged",
+      "pass": true,
+      "evidence": "Image-level visual review receipts"
+    },
+    {
+      "requirement": "Reviewed image hashes unchanged",
+      "pass": true,
+      "evidence": "Image-level visual review receipts"
+    },
+    {
+      "requirement": "Observed geometry unchanged since visual freeze",
+      "pass": true,
+      "evidence": "builtin_visual_review_observed.json:frozen_geometry_sha256"
+    },
+    {
+      "requirement": "Pinned official wrist K and capture evidence",
+      "pass": true,
+      "evidence": "sources/source_receipts.json"
+    },
+    {
+      "requirement": "Pinned official source file hashes unchanged",
+      "pass": true,
+      "evidence": "sources/source_receipts.json"
+    },
+    {
+      "requirement": "Actual H3 checkpoint weight hash verified",
+      "pass": true,
+      "evidence": "Pinned native checkpoint SHA256 from verified prior Hub download"
+    },
+    {
+      "requirement": "wrist_250 distinct observed frames and H3 boundary",
+      "pass": true,
+      "evidence": "metadata.json; observed/source_indices.npy"
+    },
+    {
+      "requirement": "wrist_2native and aspect-restored default ViPE",
+      "pass": true,
+      "evidence": "vipe_*_receipt.json"
+    },
+    {
+      "requirement": "wrist_2no temporal resampling or altered model RGB",
+      "pass": true,
+      "evidence": "vipe_rectified_default_receipt.json"
+    },
+    {
+      "requirement": "wrist_2observed grounding/SAM/AllTracker and UniDepth",
+      "pass": true,
+      "evidence": "Observed author model outputs"
+    },
+    {
+      "requirement": "wrist_2calibration estimates and heldout uncertainty disclosed",
+      "pass": true,
+      "evidence": "geometry/ hand-eye and control audits"
+    },
+    {
+      "requirement": "wrist_2regional depth comparison and temporal variation",
+      "pass": true,
+      "evidence": "geometry/depth_comparison.json"
+    },
+    {
+      "requirement": "wrist_224 same deterministic points across A/B/C",
+      "pass": true,
+      "evidence": "observed/selected_point_ids.npy; geometry/branch_selection.json"
+    },
+    {
+      "requirement": "wrist_2all selected H3 points supported by masks/visibility/depth/author filters",
+      "pass": true,
+      "evidence": "Historical SAM and filter_diagnostics.npz for all three geometries"
+    },
+    {
+      "requirement": "wrist_2primary selected before future with physical limitations",
+      "pass": true,
+      "evidence": "branch_selection.json; builtin observed review"
+    },
+    {
+      "requirement": "wrist_2/A_vipe_fullcorrect moving H3 coordinates",
+      "pass": true,
+      "evidence": "moving-camera roundtrip and group payload audit; implementation integrity only"
+    },
+    {
+      "requirement": "wrist_2/A_vipe_fullmodel inputs unchanged",
+      "pass": true,
+      "evidence": "predictions/input_freeze.json"
+    },
+    {
+      "requirement": "wrist_2/A_vipe_fullthree complete native H3 calls",
+      "pass": true,
+      "evidence": "predictions/model_run.json"
+    },
+    {
+      "requirement": "wrist_2/A_vipe_full/group_00strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/A_vipe_full/predictions/group_00"
+    },
+    {
+      "requirement": "wrist_2/A_vipe_full/group_01strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/A_vipe_full/predictions/group_01"
+    },
+    {
+      "requirement": "wrist_2/A_vipe_full/group_02strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/A_vipe_full/predictions/group_02"
+    },
+    {
+      "requirement": "wrist_2/A_vipe_fullcombined24x30 exact",
+      "pass": true,
+      "evidence": "predictions/future_3d.npy"
+    },
+    {
+      "requirement": "wrist_2/B_sensor_vipecorrect moving H3 coordinates",
+      "pass": true,
+      "evidence": "moving-camera roundtrip and group payload audit; implementation integrity only"
+    },
+    {
+      "requirement": "wrist_2/B_sensor_vipemodel inputs unchanged",
+      "pass": true,
+      "evidence": "predictions/input_freeze.json"
+    },
+    {
+      "requirement": "wrist_2/B_sensor_vipethree complete native H3 calls",
+      "pass": true,
+      "evidence": "predictions/model_run.json"
+    },
+    {
+      "requirement": "wrist_2/B_sensor_vipe/group_00strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/B_sensor_vipe/predictions/group_00"
+    },
+    {
+      "requirement": "wrist_2/B_sensor_vipe/group_01strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/B_sensor_vipe/predictions/group_01"
+    },
+    {
+      "requirement": "wrist_2/B_sensor_vipe/group_02strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/B_sensor_vipe/predictions/group_02"
+    },
+    {
+      "requirement": "wrist_2/B_sensor_vipecombined24x30 exact",
+      "pass": true,
+      "evidence": "predictions/future_3d.npy"
+    },
+    {
+      "requirement": "wrist_2/C_sensor_tcp_officialcorrect moving H3 coordinates",
+      "pass": true,
+      "evidence": "moving-camera roundtrip and group payload audit; implementation integrity only"
+    },
+    {
+      "requirement": "wrist_2/C_sensor_tcp_officialmodel inputs unchanged",
+      "pass": true,
+      "evidence": "predictions/input_freeze.json"
+    },
+    {
+      "requirement": "wrist_2/C_sensor_tcp_officialthree complete native H3 calls",
+      "pass": true,
+      "evidence": "predictions/model_run.json"
+    },
+    {
+      "requirement": "wrist_2/C_sensor_tcp_official/group_00strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/C_sensor_tcp_official/predictions/group_00"
+    },
+    {
+      "requirement": "wrist_2/C_sensor_tcp_official/group_01strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/C_sensor_tcp_official/predictions/group_01"
+    },
+    {
+      "requirement": "wrist_2/C_sensor_tcp_official/group_02strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_2/branches/C_sensor_tcp_official/predictions/group_02"
+    },
+    {
+      "requirement": "wrist_2/C_sensor_tcp_officialcombined24x30 exact",
+      "pass": true,
+      "evidence": "predictions/future_3d.npy"
+    },
+    {
+      "requirement": "wrist_2same future IDs opened after complete primary forecasts",
+      "pass": true,
+      "evidence": "evaluation/export_receipt.json; future_alltracker.npz"
+    },
+    {
+      "requirement": "wrist_2moving future camera and nominal XYZ time alignment",
+      "pass": true,
+      "evidence": "evaluation/metrics.json; future_reference.npz"
+    },
+    {
+      "requirement": "wrist_2common masks and no off-image removal",
+      "pass": true,
+      "evidence": "evaluation/metrics.json"
+    },
+    {
+      "requirement": "wrist_2ADE/FDE/time/perpoint/baselines/uncertainty",
+      "pass": true,
+      "evidence": "evaluation/metrics.json and hand_eye_reference_sensitivity.json"
+    },
+    {
+      "requirement": "wrist_2/geometry_forecasts_side_by_side.mp4complete playable video",
+      "pass": true,
+      "evidence": {
+        "frames": 20,
+        "fps": 10.0,
+        "sha256": "2128e155e1886759b0d9b6e9b586f71ee8f887e662f71bc1e4133a7fb81a1e6c"
+      }
+    },
+    {
+      "requirement": "wrist_2/primary_prediction_vs_real.mp4complete playable video",
+      "pass": true,
+      "evidence": {
+        "frames": 20,
+        "fps": 10.0,
+        "sha256": "5c57b850c3a8b2c9d3d79439ff18a05d407a2a787298ee2234707c732a9e11f3"
+      }
+    },
+    {
+      "requirement": "wrist_2required report figures exist",
+      "pass": true,
+      "evidence": "viz/*.png"
+    },
+    {
+      "requirement": "wrist_150 distinct observed frames and H3 boundary",
+      "pass": true,
+      "evidence": "metadata.json; observed/source_indices.npy"
+    },
+    {
+      "requirement": "wrist_1native and aspect-restored default ViPE",
+      "pass": true,
+      "evidence": "vipe_*_receipt.json"
+    },
+    {
+      "requirement": "wrist_1no temporal resampling or altered model RGB",
+      "pass": true,
+      "evidence": "vipe_rectified_default_receipt.json"
+    },
+    {
+      "requirement": "wrist_1observed grounding/SAM/AllTracker and UniDepth",
+      "pass": true,
+      "evidence": "Observed author model outputs"
+    },
+    {
+      "requirement": "wrist_1calibration estimates and heldout uncertainty disclosed",
+      "pass": true,
+      "evidence": "geometry/ hand-eye and control audits"
+    },
+    {
+      "requirement": "wrist_1regional depth comparison and temporal variation",
+      "pass": true,
+      "evidence": "geometry/depth_comparison.json"
+    },
+    {
+      "requirement": "wrist_124 same deterministic points across A/B/C",
+      "pass": true,
+      "evidence": "observed/selected_point_ids.npy; geometry/branch_selection.json"
+    },
+    {
+      "requirement": "wrist_1all selected H3 points supported by masks/visibility/depth/author filters",
+      "pass": true,
+      "evidence": "Historical SAM and filter_diagnostics.npz for all three geometries"
+    },
+    {
+      "requirement": "wrist_1primary selected before future with physical limitations",
+      "pass": true,
+      "evidence": "branch_selection.json; builtin observed review"
+    },
+    {
+      "requirement": "wrist_1/C_sensor_tcp_officialcorrect moving H3 coordinates",
+      "pass": true,
+      "evidence": "moving-camera roundtrip and group payload audit; implementation integrity only"
+    },
+    {
+      "requirement": "wrist_1/C_sensor_tcp_officialmodel inputs unchanged",
+      "pass": true,
+      "evidence": "predictions/input_freeze.json"
+    },
+    {
+      "requirement": "wrist_1/C_sensor_tcp_officialthree complete native H3 calls",
+      "pass": true,
+      "evidence": "predictions/model_run.json"
+    },
+    {
+      "requirement": "wrist_1/C_sensor_tcp_official/group_00strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_1/branches/C_sensor_tcp_official/predictions/group_00"
+    },
+    {
+      "requirement": "wrist_1/C_sensor_tcp_official/group_01strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_1/branches/C_sensor_tcp_official/predictions/group_01"
+    },
+    {
+      "requirement": "wrist_1/C_sensor_tcp_official/group_02strict raw parser and actual payload",
+      "pass": true,
+      "evidence": "wrist_1/branches/C_sensor_tcp_official/predictions/group_02"
+    },
+    {
+      "requirement": "wrist_1/C_sensor_tcp_officialcombined24x30 exact",
+      "pass": true,
+      "evidence": "predictions/future_3d.npy"
+    },
+    {
+      "requirement": "wrist_1same future IDs opened after complete primary forecasts",
+      "pass": true,
+      "evidence": "evaluation/export_receipt.json; future_alltracker.npz"
+    },
+    {
+      "requirement": "wrist_1moving future camera and nominal XYZ time alignment",
+      "pass": true,
+      "evidence": "evaluation/metrics.json; future_reference.npz"
+    },
+    {
+      "requirement": "wrist_1common masks and no off-image removal",
+      "pass": true,
+      "evidence": "evaluation/metrics.json"
+    },
+    {
+      "requirement": "wrist_1ADE/FDE/time/perpoint/baselines/uncertainty",
+      "pass": true,
+      "evidence": "evaluation/metrics.json and hand_eye_reference_sensitivity.json"
+    },
+    {
+      "requirement": "wrist_1/geometry_forecasts_side_by_side.mp4complete playable video",
+      "pass": true,
+      "evidence": {
+        "frames": 20,
+        "fps": 10.0,
+        "sha256": "e9bd6c57c5eca53bf82c2dfa0e919ce68a5ff14887c2d482226d7df709813502"
+      }
+    },
+    {
+      "requirement": "wrist_1/primary_prediction_vs_real.mp4complete playable video",
+      "pass": true,
+      "evidence": {
+        "frames": 20,
+        "fps": 10.0,
+        "sha256": "8be9c5740a972a9a0853e678985aaecc253fc2d478d85f7eca1b55cc0e278ebe"
+      }
+    },
+    {
+      "requirement": "wrist_1required report figures exist",
+      "pass": true,
+      "evidence": "viz/*.png"
+    },
+    {
+      "requirement": "Two wrist and two side cross-checks disclose disagreement",
+      "pass": true,
+      "evidence": "crossview_observed_audit.json; side_future_crosscheck.json"
+    },
+    {
+      "requirement": "Independent wrist world-motion replication",
+      "pass": true,
+      "evidence": "wrist_future_world_motion.json"
+    },
+    {
+      "requirement": "Local video gallery ready with unchanged HTML",
+      "pass": true,
+      "evidence": "index.html; video_gallery_receipt.json"
+    },
+    {
+      "requirement": "wrist_2real future video t0 through2s playable",
+      "pass": true,
+      "evidence": {
+        "frames": 21,
+        "fps": 10.0,
+        "sha256": "831e59af0943470bdc04f58b18e230582434df81ee3b242640c719fb14dd1217"
+      }
+    },
+    {
+      "requirement": "wrist_1real future video t0 through2s playable",
+      "pass": true,
+      "evidence": {
+        "frames": 21,
+        "fps": 10.0,
+        "sha256": "82c6d13e5340f87ae1fe4176e47097237f43c2a093e89a048f0749ec6e068b2d"
+      }
+    },
+    {
+      "requirement": "side_1real future video t0 through2s playable",
+      "pass": true,
+      "evidence": {
+        "frames": 21,
+        "fps": 10.0,
+        "sha256": "bdbb95ef678732fed78b293e2a9a48eaef884c140357cbfe252cbc92d640bfb3"
+      }
+    },
+    {
+      "requirement": "side_2real future video t0 through2s playable",
+      "pass": true,
+      "evidence": {
+        "frames": 21,
+        "fps": 10.0,
+        "sha256": "44d70cccf2b866224f3b5085ce6b76d87d350583859fdeff468b995a9f41f842"
+      }
+    },
+    {
+      "requirement": "FMBv1 914 preserved files",
+      "pass": true,
+      "evidence": "runs/fmb_v2_berkeley_matched/preserved_v1.json"
+    },
+    {
+      "requirement": "FMBv2 preserved audit and report",
+      "pass": true,
+      "evidence": "preserved_prior_runs.json"
+    },
+    {
+      "requirement": "Report figures/videos/evidence links resolve",
+      "pass": true,
+      "evidence": "report/fmb_wrist_v3.md local links"
+    },
+    {
+      "requirement": "12 actual complete P8 model calls",
+      "pass": true,
+      "evidence": {
+        "main_wrist2": 9,
+        "replication_wrist1": 3
+      }
+    },
+    {
+      "requirement": "Resource-interrupted extra attempt disclosed and preserved",
+      "pass": true,
+      "evidence": "predictions/interrupted_resource_attempt_00/"
+    }
+  ],
+  "native_model_calls": [
+    {
+      "camera": "wrist_2",
+      "geometry": "A_vipe_full",
+      "group": "group_00",
+      "seconds": 150.8006369800005,
+      "peak_cuda_allocated_gib": 9.646785259246826,
+      "raw_sha256": "ceedb40bbd8a360467949467f78639bc13ac0241d82e66e04e56c82caad76bb5"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "A_vipe_full",
+      "group": "group_01",
+      "seconds": 135.8544403220003,
+      "peak_cuda_allocated_gib": 9.616969108581543,
+      "raw_sha256": "ef5e72c50f2b470a8563732bbf4763ebe3c79ec0803c2e9df6fcc1239f158fed"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "A_vipe_full",
+      "group": "group_02",
+      "seconds": 142.51124944000003,
+      "peak_cuda_allocated_gib": 9.622387886047363,
+      "raw_sha256": "76fb8db6128fb913b3aa64c76e08769da220956a7cf003a49b3f7088026cf9cd"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "B_sensor_vipe",
+      "group": "group_00",
+      "seconds": 124.98910170700037,
+      "peak_cuda_allocated_gib": 9.56950044631958,
+      "raw_sha256": "a9f6105b443fc6112cb74ed6a0d6c15ce817ac9c4de51c994ee53fe43ebe1f0e"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "B_sensor_vipe",
+      "group": "group_01",
+      "seconds": 108.62876269099979,
+      "peak_cuda_allocated_gib": 9.522802829742432,
+      "raw_sha256": "ae9a275156482ee0ee29356095806525f6b82e6f05b256bb076214c057177db1"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "B_sensor_vipe",
+      "group": "group_02",
+      "seconds": 104.85613206699963,
+      "peak_cuda_allocated_gib": 9.517786502838135,
+      "raw_sha256": "94d982f43b77efaa0e788a494bc5a7435da702041306577c3ac6a9f11cb2eb6f"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "C_sensor_tcp_official",
+      "group": "group_00",
+      "seconds": 124.50791646800099,
+      "peak_cuda_allocated_gib": 9.574252605438232,
+      "raw_sha256": "f1bf1b9fc1c02b9e38bccb0a32fb052fee69da78bf729a6caeecd1341b75081b"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "C_sensor_tcp_official",
+      "group": "group_01",
+      "seconds": 109.74265569599993,
+      "peak_cuda_allocated_gib": 9.5324125289917,
+      "raw_sha256": "0ab1fa704bed992a511822b90950bb6296e70632a646392603b18f9d3614aab2"
+    },
+    {
+      "camera": "wrist_2",
+      "geometry": "C_sensor_tcp_official",
+      "group": "group_02",
+      "seconds": 108.57024185599948,
+      "peak_cuda_allocated_gib": 9.52394151687622,
+      "raw_sha256": "c5bac0043847b514adb7723922ec12b3cba2e96138f57aa5a769a9c107f457a0"
+    },
+    {
+      "camera": "wrist_1",
+      "geometry": "C_sensor_tcp_official",
+      "group": "group_00",
+      "seconds": 141.21514847199978,
+      "peak_cuda_allocated_gib": 9.621730327606201,
+      "raw_sha256": "888068477bf4c66dd366301af6660fa75f6be85519db6147cf9355c7bc89305d"
+    },
+    {
+      "camera": "wrist_1",
+      "geometry": "C_sensor_tcp_official",
+      "group": "group_01",
+      "seconds": 142.25328088800052,
+      "peak_cuda_allocated_gib": 9.632214069366455,
+      "raw_sha256": "1b83e3a3ca4c7f98e964147d7512f1adfa0005da12877fa8d8e8df8be90fdd0c"
+    },
+    {
+      "camera": "wrist_1",
+      "geometry": "C_sensor_tcp_official",
+      "group": "group_02",
+      "seconds": 135.2500596560003,
+      "peak_cuda_allocated_gib": 9.60160493850708,
+      "raw_sha256": "369759b30b72ee0c60403709aa0a482095b47885c63a6f3553b7e24f54f6fc3c"
+    }
+  ],
+  "total_generation_attempts": 13,
+  "successful_generation_attempts": 12,
+  "interrupted_attempts": 1,
+  "physical_geometry_certified": false,
+  "experimental_unit": "one source-matched episode; 24 point paths are not independent episodes",
+  "interpretation": "Requested controlled experiment completed, including failed geometry/cross-view validations; no calibrated physical GT or successful four-view fusion claimed.",
+  "report_sha256": "bf604b45f3af64b35ecdbf98989f9864cffc44f40ab8a7a6bd50e83fdf602a25",
+  "audit_script_sha256": "42f762f11dcf6f553146170745f2e55713d8181b13dac7c0f44a95cee41fc6ec"
+}

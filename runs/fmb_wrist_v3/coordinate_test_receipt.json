@@ -1,0 +1,14 @@
+{
+  "command": "wsl -d Ubuntu --exec /mnt/f/AIRI_task/.venv/bin/python -m pytest tests/test_fmb_wrist_math.py -q",
+  "chunk_id": "7cc982",
+  "wall_time_seconds": 7.7135318,
+  "exit_code": 0,
+  "original_token_count": 25,
+  "output": "....                                                                     [100%]\n4 passed in 3.22s\n",
+  "recorded_utc": "2026-10-03 04:16:30 UTC",
+  "source_sha256": {
+    "tests/test_fmb_wrist_math.py": "57c67af4214a81ee7240ddcf44bba3b59ec129d18d19bae99938533172166ce8",
+    "scripts/fmb_wrist_math.py": "18fa5b0ba9c1908d68e89361767e6fdbd757fed139bf290fab676112d5e317ba",
+    "scripts/fmb_wrist_evaluate.py": "62725d7f61eb38e95d72d655715b5233f9da505cdc3ba791288406863c5d4e03"
+  }
+}

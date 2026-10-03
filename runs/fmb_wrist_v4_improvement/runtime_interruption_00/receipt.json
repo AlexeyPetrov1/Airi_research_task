@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-03T09:29:38.106819+00:00",
+  "pid": 4964,
+  "verified_command": "/mnt/f/AIRI_task/.venv/bin/python scripts/fmb_wrist_v4_infer.py ",
+  "state_at_interruption": {
+    "status": "GENERATING",
+    "camera": "wrist_1",
+    "variant": "H3_rigid_observed",
+    "group": 0,
+    "pid": 4964
+  },
+  "partial_group_archived": true,
+  "generation_started": true,
+  "completed_group_discarded": false,
+  "external_process_terminated": false,
+  "reason": "First native call took692s; explicit resumption with4 CPU threads, matching the earlier continuation configuration. Frozen scientific inputs/checkpoint/greedy decoding unchanged.",
+  "original_inference_script_sha256": "8d43f3af03c4842fb4dece24b8675952e75d56955ba7a74d36c99f8bc8b9456e"
+}

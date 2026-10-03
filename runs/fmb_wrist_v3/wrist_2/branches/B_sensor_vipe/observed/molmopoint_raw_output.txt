@@ -1,0 +1,1 @@
+<points coords="<POINT_231><POINT_393><POINT_405>1<POINT_392>">red rectangular peg held by the robot gripper, above the blue board</point><|im_end|>

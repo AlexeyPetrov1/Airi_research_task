@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "preserved_v1_file_count": 914,
+  "v1_unchanged": true,
+  "scenes": {
+    "episode_5201": {
+      "success": true,
+      "frozen_inputs": 67,
+      "videos": {
+        "side_by_side.mp4": {
+          "frames": 20,
+          "fps": 10.0
+        },
+        "prediction_vs_real.mp4": {
+          "frames": 20,
+          "fps": 10.0
+        }
+      },
+      "H3_complete_groups": 3,
+      "H1_complete_groups": 3,
+      "reference_pairs_2D": 480,
+      "reference_pairs_3D_est": 436
+    },
+    "fmb_control_n3": {
+      "success": true,
+      "frozen_inputs": 67,
+      "videos": {
+        "side_by_side.mp4": {
+          "frames": 20,
+          "fps": 10.0
+        },
+        "prediction_vs_real.mp4": {
+          "frames": 20,
+          "fps": 10.0
+        }
+      },
+      "H3_complete_groups": 3,
+      "H1_complete_groups": 0,
+      "reference_pairs_2D": 480,
+      "reference_pairs_3D_est": 423
+    }
+  },
+  "checkpoint_byte_audit": {
+    "MolmoMotion-4B-H3-F30": {
+      "revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+      "expected_LFS_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+      "actual_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+      "model_bytes": 17847894425,
+      "success": true
+    },
+    "MolmoMotion-4B-H1-F32": {
+      "revision": "14e69b0d5dd55b2f09c885030b8756cd053ea6a4",
+      "expected_LFS_sha256": "a391d445764fa1d3a67ae91ff6760c056aad85f2858656b09fd2b64ce24b0d42",
+      "actual_sha256": "a391d445764fa1d3a67ae91ff6760c056aad85f2858656b09fd2b64ce24b0d42",
+      "model_bytes": 17847894425,
+      "success": true
+    }
+  },
+  "no_future_used_to_form_inputs": true,
+  "future_export_prediction_gated": true,
+  "metric_scale_is_confirmed": false,
+  "unit_of_experiment": "episode",
+  "visual_review": {
+    "observed_masks_reviewed": true,
+    "registration_reviewed": true,
+    "future_reference_reviewed": true,
+    "reviewer": "Root Codex agent using local image inspection; no external human annotation",
+    "observed_review": "Both SAM overlays contain the red rectangular peg and exclude the blue board and most gripper. Selected points cover the red exposed face. Historical tracks reviewed on the observed contact sheet.",
+    "registration_review": "Three observed RGB/depth edge panels per scene inspected. Board and peg silhouettes approximately correspond; holes, depth noise and widened/mismatched boundaries remain. No exact registration or fitted correction claimed.",
+    "camera_review": "Blue board and bin boundaries visually stationary across the eight observed frames in both scenes; background flow medians below 0.031 pixels.",
+    "future_review_samples": {
+      "episode_5201": {
+        "source_frames": [
+          127,
+          136,
+          146
+        ],
+        "point_ids": [
+          7,
+          38,
+          82,
+          4,
+          47,
+          67,
+          28,
+          32
+        ],
+        "findings": "At early/middle samples the displayed reference IDs largely follow the exposed red face. At frame 146 lower ID 7 and some boundary points lie near or slightly beyond the visible end/edge as the peg contacts the board; small drift or occlusion remains despite tracker visibility=true. ECC generally stays close, with a few-pixel discrepancy. The H3 arc away from the object is much larger than this observed discrepancy."
+      },
+      "fmb_control_n3": {
+        "source_frames": [
+          131,
+          140,
+          150
+        ],
+        "point_ids": [
+          37,
+          3,
+          92,
+          1,
+          48,
+          32,
+          21,
+          25
+        ],
+        "findings": "The reference generally follows the shrinking visible red face during insertion. Upper ID 3 approaches the gripper boundary and lower ID 21 approaches the peg end. At the late sample AllTracker and ECC differ by several pixels at multiple IDs. The almost-static H3 prediction does not follow the visible downward continuation; its tiny numerical difference from static is not a meaningful performance distinction."
+      }
+    },
+    "forecast_review": "Both prediction contact sheets, the H1/H3 error plot and the main full-extent trajectory plot inspected. H3 primary forecasts a large upward arc, H1 a wide downward/lateral continuation; control H3 is nearly stationary. Out-of-image positions remain visible in the full-extent plot and remain scored.",
+    "limitations": "Qualitative image inspection of selected point/frame samples, not manually instrumented material-point ground truth. Full visibility coverage is the model's thresholded score, not proof of correspondence accuracy."
+  }
+}

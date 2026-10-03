@@ -1,0 +1,46 @@
+{
+  "scene": "wrist_1",
+  "source_frame": 126,
+  "source_camera": "wrist_1",
+  "object_phrase": "red rectangular peg",
+  "prompt": "point to the red rectangular peg held by the robot gripper, above the blue board",
+  "future_used": false,
+  "input_modality": "image",
+  "input_real_frame_count": 1,
+  "input_source_indices": [
+    126
+  ],
+  "model_input_rgb_sha256": "42dd08728b3380b3cee49a179c81b89b42b1a897c050ba4eb5c1b25976716e5a",
+  "observed_rgb_sha256": "f366bb3d59bf5456af572064eb64d1d8d2e70c958b2870834b4ee379bdeff53c",
+  "input_shapes": {
+    "input_ids": [
+      1,
+      450
+    ],
+    "attention_mask": [
+      1,
+      450
+    ],
+    "token_type_ids": [
+      1,
+      450
+    ],
+    "pixel_values": [
+      2,
+      729,
+      588
+    ],
+    "image_token_pooling": [
+      392,
+      4
+    ],
+    "image_grids": [
+      1,
+      4
+    ],
+    "image_num_crops": [
+      1
+    ]
+  },
+  "created_utc": "2026-10-03T03:01:51.989270+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "future_used": false,
+  "source_indices": [
+    124,
+    125,
+    126
+  ],
+  "prompt_origin": "Nearest t0 KMeans candidate to actual MolmoPoint point, followed by observed AllTracker",
+  "prompt_candidate_id": 95,
+  "selected_by": "maximum SAM score; t0 original mask reused",
+  "frames": [
+    {
+      "source_index": 124,
+      "prompt_xy": [
+        188.09120178222656,
+        49.85477066040039
+      ],
+      "chosen": 2,
+      "scores": [
+        0.953125,
+        0.287109375,
+        0.96484375
+      ]
+    },
+    {
+      "source_index": 125,
+      "prompt_xy": [
+        191.32546997070312,
+        59.944984436035156
+      ],
+      "chosen": 0,
+      "scores": [
+        0.94140625,
+        0.283203125,
+        0.94140625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:26,  8.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:17<00:17,  8.79s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:26<00:08,  8.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:35<00:00,  8.90s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:35<00:00,  8.86s/it]
+{"scene": "wrist_2", "point_xy": [140.56295776367188, 45.74814987182617], "source_frame": 126, "runtime_seconds": 2.946566397999959, "raw_output": "<points coords=\"<POINT_231><POINT_393><POINT_405>1<POINT_392>\">red rectangular peg held by the robot gripper, above the blue board</point><|im_end|>"}
+{"scene": "wrist_1", "point_xy": [127.95259094238281, 99.50814819335938], "source_frame": 126, "runtime_seconds": 1.766159902000254, "raw_output": "<points coords=\"<POINT_272><POINT_394><POINT_401>1<POINT_392>\">red rectangular peg held by the robot gripper, above the blue board</point><|im_end|>"}
+ground wrist_2 5076 mask pixels
+ground wrist_1 5717 mask pixels
+/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4317.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+track wrist_2 (50, 100, 2) 100 H3-visible
+track wrist_1 (50, 100, 2) 100 H3-visible
+Traceback (most recent call last):
+  File "/mnt/f/AIRI_task/molmo-motion/scripts/fmb_wrist_preprocess.py", line 65, in <module>
+    {'sam':sam,'track':track,'unidepth':unidepth,'h3-masks':h3_masks}[a.stage](camera)
+  File "/mnt/f/AIRI_task/molmo-motion/scripts/fmb_wrist_preprocess.py", line 29, in unidepth
+    from unidepth.models import UniDepthV2
+ModuleNotFoundError: No module named 'unidepth'
+/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/mnt/f/AIRI_task/third_party/UniDepth/unidepth/utils/chamfer_distance.py:9: UserWarning: !! To run evaluation you need KNN. Please compile KNN: `cd unidepth/ops/knn with && bash compile.sh`.
+  warnings.warn(
+Cannot import NystromAttention, you can not run original UniDepth. UniDepthV2 is available.
+xFormers not available
+xFormers not available
+Not loading pretrained weights for backbone
+EdgeGuidedLocalSSI reverts to a non cuda-optimized operation, you will experince large slowdown, please install it:  `cd ./unidepth/ops/extract_patches && bash compile.sh`
+Loading weights from local directory
+Not loading pretrained weights for backbone
+EdgeGuidedLocalSSI reverts to a non cuda-optimized operation, you will experince large slowdown, please install it:  `cd ./unidepth/ops/extract_patches && bash compile.sh`
+Loading weights from local directory

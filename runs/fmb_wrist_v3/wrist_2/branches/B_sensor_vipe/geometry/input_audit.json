@@ -1,0 +1,175 @@
+{
+  "success": true,
+  "meaning": "Computational payload/coordinate integrity only; physical validation gate separately recorded",
+  "geometry_validation": {
+    "validated_geometry_gate": false,
+    "relative_rigidity_median": 0.08687326312065125,
+    "smoothing_max_displacement_m": 0.003502593011374069,
+    "static_reprojection": {
+      "pairs": [
+        {
+          "i": 0,
+          "j": 1,
+          "count": 59,
+          "median_px": 5.422233445912778,
+          "p90_px": 7.119580330397622
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "count": 35,
+          "median_px": 21.289306891249467,
+          "p90_px": 26.768819583634635
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "count": 48,
+          "median_px": 8.804794522727827,
+          "p90_px": 10.355280350356837
+        },
+        {
+          "i": 6,
+          "j": 11,
+          "count": 37,
+          "median_px": 13.04878259670671,
+          "p90_px": 13.931150413291013
+        },
+        {
+          "i": 12,
+          "j": 13,
+          "count": 34,
+          "median_px": 6.661433030030023,
+          "p90_px": 7.265933738485392
+        },
+        {
+          "i": 12,
+          "j": 17,
+          "count": 19,
+          "median_px": 16.929888142086778,
+          "p90_px": 19.3956861490866
+        },
+        {
+          "i": 18,
+          "j": 19,
+          "count": 16,
+          "median_px": 20.079667940122334,
+          "p90_px": 25.858138453487214
+        },
+        {
+          "i": 24,
+          "j": 25,
+          "count": 19,
+          "median_px": 8.994862486679747,
+          "p90_px": 10.62748180282281
+        },
+        {
+          "i": 24,
+          "j": 29,
+          "count": 5,
+          "median_px": 80.9318630878468,
+          "p90_px": 94.35478435916049
+        },
+        {
+          "i": 30,
+          "j": 31,
+          "count": 172,
+          "median_px": 18.313570928722143,
+          "p90_px": 29.96726259925256
+        },
+        {
+          "i": 30,
+          "j": 35,
+          "count": 133,
+          "median_px": 9.486583398427406,
+          "p90_px": 12.284235074314674
+        },
+        {
+          "i": 36,
+          "j": 37,
+          "count": 156,
+          "median_px": 3.3583912899600277,
+          "p90_px": 4.69847852703341
+        },
+        {
+          "i": 36,
+          "j": 41,
+          "count": 103,
+          "median_px": 15.373324823136866,
+          "p90_px": 39.565720296451026
+        },
+        {
+          "i": 42,
+          "j": 43,
+          "count": 168,
+          "median_px": 37.77728195466228,
+          "p90_px": 69.61112655412273
+        },
+        {
+          "i": 42,
+          "j": 47,
+          "count": 52,
+          "median_px": 56.25276817404606,
+          "p90_px": 72.40364856271546
+        },
+        {
+          "i": 46,
+          "j": 47,
+          "count": 128,
+          "median_px": 5.1325790752820115,
+          "p90_px": 12.159012880374458
+        },
+        {
+          "i": 47,
+          "j": 48,
+          "count": 185,
+          "median_px": 4.962327431402561,
+          "p90_px": 9.704695233035055
+        }
+      ],
+      "correspondences": 1369,
+      "median_px": 10.089121185467722,
+      "p90_px": 38.19395299928676,
+      "gate": false
+    },
+    "moving_camera_roundtrip_max_error_px": 6.610987444359533e-06
+  },
+  "finite_H3": true,
+  "group_payloads": {
+    "group_count": 3,
+    "group_names": [
+      "group_00",
+      "group_01",
+      "group_02"
+    ],
+    "selected_point_ids": [
+      38,
+      98,
+      9,
+      37,
+      40,
+      70,
+      80,
+      39,
+      45,
+      54,
+      17,
+      28,
+      86,
+      35,
+      31,
+      88,
+      32,
+      58,
+      26,
+      11,
+      12,
+      69,
+      89,
+      41
+    ],
+    "all_group_payloads_equal_canonical_history": true
+  },
+  "future_used": false,
+  "selected_points": 24
+}

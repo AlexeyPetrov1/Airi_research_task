@@ -1,0 +1,16 @@
+{
+  "MolmoMotion-4B-H3-F30": {
+    "revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+    "expected_LFS_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+    "actual_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+    "model_bytes": 17847894425,
+    "success": true
+  },
+  "MolmoMotion-4B-H1-F32": {
+    "revision": "14e69b0d5dd55b2f09c885030b8756cd053ea6a4",
+    "expected_LFS_sha256": "a391d445764fa1d3a67ae91ff6760c056aad85f2858656b09fd2b64ce24b0d42",
+    "actual_sha256": "a391d445764fa1d3a67ae91ff6760c056aad85f2858656b09fd2b64ce24b0d42",
+    "model_bytes": 17847894425,
+    "success": true
+  }
+}

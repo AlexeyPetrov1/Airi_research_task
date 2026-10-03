@@ -1,0 +1,105 @@
+{
+  "X_TCP_from_camera": [
+    [
+      0.7902181318245,
+      -0.47989149110222434,
+      0.3811291918804971,
+      -0.13858880648408345
+    ],
+    [
+      0.6103047798941559,
+      0.5599061611386585,
+      -0.5603866222148031,
+      0.43852499517856147
+    ],
+    [
+      0.055528189004712375,
+      0.6754326372678878,
+      0.7353280715022396,
+      0.12585498572169537
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "train": {
+    "pairs": [
+      {
+        "i": 0,
+        "j": 1,
+        "count": 11,
+        "median_px": 0.8336164471736542
+      },
+      {
+        "i": 6,
+        "j": 7,
+        "count": 7,
+        "median_px": 2.356244822457532
+      },
+      {
+        "i": 12,
+        "j": 13,
+        "count": 24,
+        "median_px": 1.1213047564295162
+      },
+      {
+        "i": 36,
+        "j": 37,
+        "count": 13,
+        "median_px": 0.7545750099413524
+      }
+    ],
+    "correspondences": 55,
+    "median_px": 1.058853283182031,
+    "p90_px": 2.6828972499997605,
+    "median_3d_correspondence_mm": 5.653606732111813,
+    "p90_3d_correspondence_mm": 19.22961539893082
+  },
+  "heldout": {
+    "pairs": [
+      {
+        "i": 42,
+        "j": 43,
+        "count": 20,
+        "median_px": 2.9196338419702
+      },
+      {
+        "i": 42,
+        "j": 47,
+        "count": 19,
+        "median_px": 8.986150324295116
+      },
+      {
+        "i": 46,
+        "j": 47,
+        "count": 50,
+        "median_px": 2.725726723520197
+      },
+      {
+        "i": 47,
+        "j": 48,
+        "count": 50,
+        "median_px": 1.0429627719207302
+      }
+    ],
+    "correspondences": 139,
+    "median_px": 2.576905454078231,
+    "p90_px": 3.6725026273975163,
+    "median_3d_correspondence_mm": 8.997404357340237,
+    "p90_3d_correspondence_mm": 24.794393499224846
+  },
+  "observed_only": true,
+  "ViPE_used": false,
+  "static_matches_source": "Observed conservative board/gray-background LK FB and homography filters",
+  "calibration_source": "Official factory 640x480 rectified prior mapped to 256x256, sensor Z16 x1e-4, measured robot TCP",
+  "metric_scale_confirmed": false,
+  "translation_norm_m": 0.47681286277747187,
+  "gate": true,
+  "multistart_fits": 24,
+  "optimizer_success": true,
+  "initial_prior_rotation": "24 cube rotations",
+  "limitations": "Strong RGB/depth registration and static-match assumptions. Limited rotation diversity; factory RGB K and units remain uncertain. This estimated X is an independent observed control, not measured hand-eye."
+}

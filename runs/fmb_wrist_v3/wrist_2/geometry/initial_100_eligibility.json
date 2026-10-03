@@ -1,0 +1,47 @@
+{
+  "mask_visible_margin": 98,
+  "branches": {
+    "A_vipe_full": {
+      "individual_counts": {
+        "H3_depth_valid": 100,
+        "author_trust_keep": 98,
+        "depth_spread_lt_3cm": 21,
+        "positive_Z": 100
+      },
+      "cumulative_common": 20
+    },
+    "B_sensor_vipe": {
+      "individual_counts": {
+        "H3_depth_valid": 43,
+        "author_trust_keep": 94,
+        "depth_spread_lt_3cm": 43,
+        "positive_Z": 43
+      },
+      "cumulative_common": 13
+    },
+    "C_sensor_tcp_official": {
+      "individual_counts": {
+        "H3_depth_valid": 43,
+        "author_trust_keep": 94,
+        "depth_spread_lt_3cm": 43,
+        "positive_Z": 43
+      },
+      "cumulative_common": 13
+    }
+  },
+  "common_ids": [
+    9,
+    13,
+    16,
+    22,
+    26,
+    32,
+    45,
+    47,
+    50,
+    65,
+    78,
+    86,
+    96
+  ]
+}

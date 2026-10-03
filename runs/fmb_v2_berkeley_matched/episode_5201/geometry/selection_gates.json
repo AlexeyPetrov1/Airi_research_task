@@ -1,0 +1,11 @@
+{
+  "future_used": false,
+  "min_mask_boundary_distance_px": 2.5,
+  "max_h3_step_jump_px": 20,
+  "max_depth_patch_p90_p10_m": 0.03,
+  "depth_min_valid_count_full_patch": 13,
+  "inside_SAM_mask_all_H3_frames": true,
+  "author_keep": 93,
+  "eligible": 39,
+  "selection_policy": "Deterministic farthest point selection; first point highest history trust*confidence; no future scores"
+}

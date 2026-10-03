@@ -1,0 +1,46 @@
+{
+  "scene": "episode_5201",
+  "source_frame": 126,
+  "source_camera": "side_1",
+  "object_phrase": "red rectangular peg",
+  "prompt": "point to the red rectangular peg held by the robot gripper, above the blue board",
+  "future_used": false,
+  "input_modality": "image",
+  "input_real_frame_count": 1,
+  "input_source_indices": [
+    126
+  ],
+  "model_input_rgb_sha256": "587828d045c54004896f6d32d42b896722afced8a401ecccd6936d1c3966888a",
+  "observed_rgb_sha256": "99bb8fbc6f6d3a63e511224cc6c7bcecb0158bdedece0b10894b5a56a3110152",
+  "input_shapes": {
+    "input_ids": [
+      1,
+      450
+    ],
+    "attention_mask": [
+      1,
+      450
+    ],
+    "token_type_ids": [
+      1,
+      450
+    ],
+    "pixel_values": [
+      2,
+      729,
+      588
+    ],
+    "image_token_pooling": [
+      392,
+      4
+    ],
+    "image_grids": [
+      1,
+      4
+    ],
+    "image_num_crops": [
+      1
+    ]
+  },
+  "created_utc": "2026-10-03T00:19:50.621204+00:00"
+}

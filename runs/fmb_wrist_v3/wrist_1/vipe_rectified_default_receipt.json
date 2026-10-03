@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "source_rgb_sha256": "f366bb3d59bf5456af572064eb64d1d8d2e70c958b2870834b4ee379bdeff53c",
+  "video_sha256": "a18bfbc88beb5d3ddc4ab2e64f562e7d83dce5e306283ec5c90da2f728fd2eb7",
+  "source_real_frame_count": 50,
+  "source_fps": 10,
+  "restored_size_wh": [
+    256,
+    192
+  ],
+  "transformation": "Undo official 640x480 -> 256x256 anisotropic RGB resize: 256x256 -> 256x192 pixel-center area resize",
+  "original_MolmoMotion_RGB_changed": false,
+  "temporal_resampling": false,
+  "future_used": false,
+  "pipeline": "Native default ViPE; source aspect restoration is explicit input preprocessing",
+  "evidence": "Pinned official franka_fmb_env.py _get_im cv2.resize(rgb,(256,256)); rs_capture.py 640x480 color profile",
+  "argv": [
+    "/mnt/f/AIRI_task/.venv-vipe/bin/python",
+    "-m",
+    "vipe.cli.main",
+    "infer",
+    "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_1/observed/aspect_rectified/observed_10hz.mp4",
+    "-p",
+    "default",
+    "-o",
+    "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_1/vipe_rectified_default"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 150.51525896800013,
+  "peak_child_ram_gib": 5.5019073486328125
+}

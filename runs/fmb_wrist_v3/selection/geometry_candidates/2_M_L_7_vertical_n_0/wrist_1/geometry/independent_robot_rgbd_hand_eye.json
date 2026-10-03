@@ -1,0 +1,147 @@
+{
+  "X_TCP_from_camera": [
+    [
+      0.9794544726301304,
+      0.17462670472409977,
+      -0.10086847893189903,
+      -0.49999999999966915
+    ],
+    [
+      -0.1468890279665753,
+      0.9604706825155431,
+      0.23647342660679885,
+      0.49999999992027533
+    ],
+    [
+      0.1381757920471873,
+      -0.2167984825254284,
+      0.9663880527338921,
+      -0.49999999999971917
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "train": {
+    "pairs": [
+      {
+        "i": 0,
+        "j": 1,
+        "count": 50,
+        "median_px": 7.594204329681267
+      },
+      {
+        "i": 0,
+        "j": 5,
+        "count": 50,
+        "median_px": 19.28464071722152
+      },
+      {
+        "i": 6,
+        "j": 7,
+        "count": 50,
+        "median_px": 6.133219358389555
+      },
+      {
+        "i": 6,
+        "j": 11,
+        "count": 50,
+        "median_px": 20.048970937418005
+      },
+      {
+        "i": 12,
+        "j": 13,
+        "count": 8,
+        "median_px": 3.634450567562899
+      },
+      {
+        "i": 12,
+        "j": 17,
+        "count": 7,
+        "median_px": 12.812616075536626
+      },
+      {
+        "i": 18,
+        "j": 19,
+        "count": 6,
+        "median_px": 3.472183462134671
+      },
+      {
+        "i": 30,
+        "j": 31,
+        "count": 12,
+        "median_px": 6.749575801046639
+      },
+      {
+        "i": 30,
+        "j": 35,
+        "count": 6,
+        "median_px": 33.454418102739865
+      },
+      {
+        "i": 36,
+        "j": 37,
+        "count": 19,
+        "median_px": 9.480883184580357
+      }
+    ],
+    "correspondences": 258,
+    "median_px": 8.208695834038016,
+    "p90_px": 26.823407653932822,
+    "median_3d_correspondence_mm": 21.185590852674586,
+    "p90_3d_correspondence_mm": 50.901923082024474
+  },
+  "heldout": {
+    "pairs": [
+      {
+        "i": 36,
+        "j": 41,
+        "count": 8,
+        "median_px": 12.8640279825246
+      },
+      {
+        "i": 42,
+        "j": 43,
+        "count": 36,
+        "median_px": 0.11707746088722731
+      },
+      {
+        "i": 42,
+        "j": 47,
+        "count": 23,
+        "median_px": 10.998642780438916
+      },
+      {
+        "i": 46,
+        "j": 47,
+        "count": 31,
+        "median_px": 7.617959503360036
+      },
+      {
+        "i": 47,
+        "j": 48,
+        "count": 50,
+        "median_px": 2.2090917124497236
+      }
+    ],
+    "correspondences": 148,
+    "median_px": 2.928025684646831,
+    "p90_px": 11.811411598704401,
+    "median_3d_correspondence_mm": 22.75363741261225,
+    "p90_3d_correspondence_mm": 46.537156594652934
+  },
+  "observed_only": true,
+  "ViPE_used": false,
+  "static_matches_source": "Observed conservative board/gray-background LK FB and homography filters",
+  "calibration_source": "Official factory 640x480 rectified prior mapped to 256x256, sensor Z16 x1e-4, measured robot TCP",
+  "metric_scale_confirmed": false,
+  "translation_norm_m": 0.8660254037380564,
+  "gate": false,
+  "multistart_fits": 24,
+  "optimizer_success": true,
+  "initial_prior_rotation": "24 cube rotations",
+  "limitations": "Strong RGB/depth registration and static-match assumptions. Limited rotation diversity; factory RGB K and units remain uncertain. This estimated X is an independent observed control, not measured hand-eye."
+}

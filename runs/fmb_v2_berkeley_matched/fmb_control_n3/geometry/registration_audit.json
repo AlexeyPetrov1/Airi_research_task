@@ -1,0 +1,64 @@
+{
+  "future_used": false,
+  "source_indices": [
+    123,
+    126,
+    130
+  ],
+  "diagnostics": [
+    {
+      "source_index": 123,
+      "region": "whole_scene",
+      "rgb_edge_count": 2772,
+      "median_nearest_depth_edge_px": 1.0,
+      "fraction_within_3px": 0.838023088023088
+    },
+    {
+      "source_index": 123,
+      "region": "board",
+      "rgb_edge_count": 1035,
+      "median_nearest_depth_edge_px": 1.0,
+      "fraction_within_3px": 0.9594202898550724
+    },
+    {
+      "source_index": 126,
+      "region": "whole_scene",
+      "rgb_edge_count": 2824,
+      "median_nearest_depth_edge_px": 1.0,
+      "fraction_within_3px": 0.8172804532577904
+    },
+    {
+      "source_index": 126,
+      "region": "board",
+      "rgb_edge_count": 995,
+      "median_nearest_depth_edge_px": 0.0,
+      "fraction_within_3px": 0.9557788944723619
+    },
+    {
+      "source_index": 130,
+      "region": "whole_scene",
+      "rgb_edge_count": 3001,
+      "median_nearest_depth_edge_px": 1.0,
+      "fraction_within_3px": 0.8270576474508498
+    },
+    {
+      "source_index": 130,
+      "region": "board",
+      "rgb_edge_count": 1088,
+      "median_nearest_depth_edge_px": 0.0,
+      "fraction_within_3px": 0.9816176470588235
+    },
+    {
+      "source_index": 130,
+      "region": "object_t0",
+      "rgb_edge_count": 214,
+      "median_nearest_depth_edge_px": 3.196899890899658,
+      "fraction_within_3px": 0.45794392523364486
+    }
+  ],
+  "depth_edge_threshold_sobel_m": 0.012,
+  "status": "APPROXIMATE_REGISTRATION_AUDIT_ONLY",
+  "conclusion": "Inspect object, board and gripper edges; sensor holes and unequal contours remain. No correction fitted.",
+  "limitations": "Nearest-edge distances are descriptive and include texture/internal board edges; do not certify pointwise registration.",
+  "roundtrip_is_registration_proof": false
+}

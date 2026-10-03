@@ -1,0 +1,7 @@
+{
+  "source_mapping_status": "PASS_SOURCE_EPISODE_RECOVERED",
+  "new_raw_source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+  "matches_independently_recovered_v1_source": true,
+  "source_audit_path": "runs/sharerobot_fmb_episode_5201/preflight.json",
+  "source_audit_sha256": "20bdd80f448111c4867868e27e31c4f0469e2c39d570068411ca5bb8197909f0"
+}

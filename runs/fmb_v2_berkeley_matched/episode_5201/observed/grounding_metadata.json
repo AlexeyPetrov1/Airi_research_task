@@ -1,0 +1,35 @@
+{
+  "object_phrase": "red rectangular peg",
+  "prompt": "point to red rectangular peg gripped and picked up by the robot gripper",
+  "source_frame": 126,
+  "future_used": false,
+  "object_phrase_source": "explicit user target (no recaption needed)",
+  "pointing_method": "actual official MolmoPoint-Vid-4B inference on observed t0",
+  "pointing_metadata": "/mnt/f/AIRI_task/molmo-motion/runs/fmb_v2_berkeley_matched/episode_5201/observed/molmopoint_grounding.json",
+  "pointing_metadata_sha256": "f8b0d68e56fcb05d8e97951125c54ed1aa67a96915d36c97873a0aa96648037d",
+  "segmentation_version_reason": "SAM3 weights access returned403 GatedRepo; user explicitly selected official Meta SAM2.1 earlier release",
+  "point_xy": [
+    194.32296752929688,
+    71.06370544433594
+  ],
+  "negative_points_xy": [],
+  "kmeans_source": "data_generation/third_party/sam3/querypoints_from_video.py",
+  "kmeans_source_sha256": "72f13f3b7a2f3d38201b0ea8f27f5d841acc13d7bb02313c3aa2a3a1c5fc1df7",
+  "segmentation": "official Meta SAM2.1 Hiera-Large",
+  "sam_repository": "https://github.com/facebookresearch/sam2",
+  "sam_code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "sam_config": "configs/sam2.1/sam2.1_hiera_l.yaml",
+  "checkpoint": "/mnt/f/AIRI_task/models/sam2.1_hiera_large.pt",
+  "checkpoint_sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+  "mask_scores": [
+    0.9609375,
+    0.294921875,
+    0.91015625
+  ],
+  "chosen_mask": 0,
+  "mask_area_px": 4650,
+  "query_count": 100,
+  "centers_inside_mask": 100,
+  "runtime_seconds": 32.426227158000074,
+  "input_rgb_sha256": "99bb8fbc6f6d3a63e511224cc6c7bcecb0158bdedece0b10894b5a56a3110152"
+}

@@ -1,0 +1,124 @@
+{
+  "view_visibility": [
+    {
+      "camera": "side_1",
+      "target_t0_visible_red_pixels": 4823,
+      "board_t0_visible_blue_pixels": 11140,
+      "target_sensor_valid_fraction": 0.6985278872071324,
+      "primary_target_full_contour_visible": null,
+      "K_is_official_profile_prior": true
+    },
+    {
+      "camera": "side_2",
+      "target_t0_visible_red_pixels": 265,
+      "board_t0_visible_blue_pixels": 2880,
+      "target_sensor_valid_fraction": 0.9622641509433962,
+      "primary_target_full_contour_visible": null,
+      "K_is_official_profile_prior": true
+    },
+    {
+      "camera": "wrist_1",
+      "target_t0_visible_red_pixels": 5849,
+      "board_t0_visible_blue_pixels": 8674,
+      "target_sensor_valid_fraction": 0.5440246195930928,
+      "primary_target_full_contour_visible": null,
+      "K_is_official_profile_prior": true
+    },
+    {
+      "camera": "wrist_2",
+      "target_t0_visible_red_pixels": 5262,
+      "board_t0_visible_blue_pixels": 11166,
+      "target_sensor_valid_fraction": 0.4813759026985937,
+      "primary_target_full_contour_visible": null,
+      "K_is_official_profile_prior": true
+    }
+  ],
+  "wrist_geometry_agreement": {
+    "board_bidirectional_nearest_median_mm": 154.0258843988125,
+    "board_bidirectional_nearest_p90_mm": 185.2076066557867,
+    "target_centroid_difference_mm": 196.09765441120854,
+    "interpretation": "Different surfaces/partial FOV, ambiguous factory RGB K and independently estimated X; nearest-surface agreement is not shared-point accuracy"
+  },
+  "side_checks": [
+    {
+      "side_camera": "side_1",
+      "wrist_camera": "wrist_1",
+      "matched_static_board_features": 5,
+      "valid_depth_matches": 5,
+      "future_used": false,
+      "alignment_status": "INSUFFICIENT_UNAMBIGUOUS_STATIC_CROSSVIEW_MATCHES",
+      "target_valid_centroid_frames": 48,
+      "target_t0_valid_depth_pixels": 3369,
+      "target_centroid_limitations": "Partial contours, perspective and visible surfaces change; color centroid is an approximate independent control, not the same material IDs"
+    },
+    {
+      "side_camera": "side_2",
+      "wrist_camera": "wrist_1",
+      "matched_static_board_features": 0,
+      "valid_depth_matches": 0,
+      "future_used": false,
+      "alignment_status": "INSUFFICIENT_UNAMBIGUOUS_STATIC_CROSSVIEW_MATCHES",
+      "target_valid_centroid_frames": 50,
+      "target_t0_valid_depth_pixels": 255,
+      "target_centroid_limitations": "Partial contours, perspective and visible surfaces change; color centroid is an approximate independent control, not the same material IDs"
+    }
+  ],
+  "timing_offset_sensitivity": {
+    "wrist_1": {
+      "candidate_offsets": [
+        {
+          "robot_offset_frames": -2,
+          "median_translation_mm": 36.76815770220622
+        },
+        {
+          "robot_offset_frames": -1,
+          "median_translation_mm": 30.577976233377964
+        },
+        {
+          "robot_offset_frames": 0,
+          "median_translation_mm": 27.009665366031875
+        },
+        {
+          "robot_offset_frames": 1,
+          "median_translation_mm": 31.209311448617758
+        },
+        {
+          "robot_offset_frames": 2,
+          "median_translation_mm": 33.81088127276782
+        }
+      ],
+      "chosen_for_geometry": 0,
+      "interpretation": "Sensitivity only; correlated pose drift and hand-eye fit confound offset. No timestamp correction asserted."
+    },
+    "wrist_2": {
+      "candidate_offsets": [
+        {
+          "robot_offset_frames": -2,
+          "median_translation_mm": 45.63087480497195
+        },
+        {
+          "robot_offset_frames": -1,
+          "median_translation_mm": 41.64695592155357
+        },
+        {
+          "robot_offset_frames": 0,
+          "median_translation_mm": 41.29417589946205
+        },
+        {
+          "robot_offset_frames": 1,
+          "median_translation_mm": 42.91735868615186
+        },
+        {
+          "robot_offset_frames": 2,
+          "median_translation_mm": 48.938445967237286
+        }
+      ],
+      "chosen_for_geometry": 0,
+      "interpretation": "Sensitivity only; correlated pose drift and hand-eye fit confound offset. No timestamp correction asserted."
+    }
+  },
+  "future_used": false,
+  "four_camera_exact_triangulation_used": false,
+  "hardware_synchronization_confirmed": false,
+  "requires_builtin_image_review": true
+}

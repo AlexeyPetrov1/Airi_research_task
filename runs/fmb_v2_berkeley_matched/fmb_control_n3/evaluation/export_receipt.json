@@ -1,0 +1,28 @@
+{
+  "prediction_gated": true,
+  "source_indices": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+  "nominal_hz": 10,
+  "hardware_timestamps_available": false
+}

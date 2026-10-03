@@ -1,0 +1,10 @@
+{
+  "status": "WAITING_FOR_LIVE_PROCESSES",
+  "processes": [
+    {
+      "pid": 6488,
+      "cmdline": "/mnt/f/AIRI_task/.venv/bin/python /mnt/f/AIRI_task/molmo-motion/scripts/berkeley_geometry_infer.py --scenes /mnt/f/AIRI_task/molmo-motion/runs/berkeley_ur5_improvement_v1/CASE-NOK-STRICT/cup /mnt/f/AIRI_task/molmo-motion/runs/berkeley_ur5_improvement_v1/CASE-NOK-STRICT/bottle --groups 0 1 2 "
+    }
+  ],
+  "checked_utc": "2026-10-03T02:55:39Z"
+}

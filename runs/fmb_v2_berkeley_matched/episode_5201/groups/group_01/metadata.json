@@ -1,0 +1,25 @@
+{
+  "group": 1,
+  "point_ids": [
+    66,
+    6,
+    8,
+    39,
+    72,
+    84,
+    31,
+    85
+  ],
+  "history_source_indices": [
+    124,
+    125,
+    126
+  ],
+  "history_times_relative_t0_seconds": [
+    -0.2,
+    -0.1,
+    0
+  ],
+  "coordinates": "OpenCV fixed side_1 XYZ, meters under scale hypothesis",
+  "future_used": false
+}

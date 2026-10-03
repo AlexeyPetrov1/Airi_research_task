@@ -1,0 +1,9 @@
+{
+  "slots": {
+    "Forecast 1": "C_sensor_tcp_official/CV",
+    "Forecast 2": "C_sensor_tcp_official",
+    "Forecast 3": "C_sensor_tcp_official/Static"
+  },
+  "labels_hidden_in_images": true,
+  "limitation": "Method identities hidden from first image assessment; reviewer already knows reconstruction hypotheses"
+}

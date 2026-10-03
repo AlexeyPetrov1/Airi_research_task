@@ -1,0 +1,12 @@
+{
+  "future_used": false,
+  "model_predictions_available_at_decision": false,
+  "observed_failure": "Canonical wrist_2 ViPE AX=XB estimates |t_X|=0.6674 m, exceeding predeclared 0.5m plausibility gate; heldout pose residual approximately 135mm and 20deg",
+  "repair": "Estimate TCP-camera X directly from observed static RGBD + official 640x480 K prior + robot TCP; retain canonical ViPE X and its failed evidence",
+  "wrist_2_direct_hand_eye_heldout_median_px": 1.3857571279461116,
+  "wrist_2_direct_hand_eye_heldout_p90_px": 3.2282454222498407,
+  "wrist_1_direct_hand_eye_heldout_median_px": 1.2891017808190033,
+  "wrist_1_direct_hand_eye_heldout_p90_px": 2.6246810976166643,
+  "branch_C_selection_rule": "Use canonical ViPE X if physically plausible and validated. Otherwise use independent RGBD/TCP X only if its heldout reprojection gate passes; retain both estimates.",
+  "limitations": "Estimated X; limited rotational excitation, unknown exact RGB/factory K linkage, sensor units and registration remain uncertain. Bootstrap and cross-view checks still required."
+}

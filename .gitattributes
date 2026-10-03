@@ -9,3 +9,6 @@
 /report/artifacts/** -text
 /runs/dobbe_colmap_clean_rerun_v1/** -text
 /runs/dobbe_colmap_official_v1/** -text
+/report/fmb*.md -text
+/scripts/fmb*.py -text
+/tests/test_fmb*.py -text

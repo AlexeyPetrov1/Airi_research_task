@@ -1,0 +1,26 @@
+{
+  "observed_only": true,
+  "local_ids": [
+    0,
+    11,
+    23,
+    34,
+    46,
+    47,
+    48,
+    49
+  ],
+  "source_indices": [
+    77,
+    88,
+    100,
+    111,
+    123,
+    124,
+    125,
+    126
+  ],
+  "model": "lpiccinelli/unidepth-v2-vits14",
+  "checkpoint_config_sha256": "ecc1f898690debe387d10329cca5d9d66a0a447ce83c3a2a7ae3673c7ce43cfe",
+  "K_source": "Independent UniDepth observed RGB estimates; sensor depth is not replaced in hybrids"
+}

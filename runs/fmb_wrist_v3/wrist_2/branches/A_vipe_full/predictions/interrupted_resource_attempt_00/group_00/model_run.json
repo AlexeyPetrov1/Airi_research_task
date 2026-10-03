@@ -1,0 +1,18 @@
+{
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "checkpoint_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_bytes": 17847894425,
+  "dtype": "bfloat16",
+  "seed": 0,
+  "decoding": "official default greedy",
+  "model_load_seconds": 60.355676559999665,
+  "max_new_tokens": 4800,
+  "inference_script_sha256": "b2a3a5279a20ed877fa38648a2fd340a959c8cf77e8c8d204cd1431e54b48fa4",
+  "history_size": 3,
+  "future_horizon": 30,
+  "torch_version": "2.9.1+cu128",
+  "group": "group_00",
+  "success": false,
+  "generation_started": true
+}

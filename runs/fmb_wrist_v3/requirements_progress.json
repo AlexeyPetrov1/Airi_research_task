@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "report_sha256": "bf604b45f3af64b35ecdbf98989f9864cffc44f40ab8a7a6bd50e83fdf602a25",
+  "completion_audit_required": true,
+  "completion_audit_passed": true,
+  "successful_native_calls": 12,
+  "built_in_image_reviews_complete": true,
+  "physical_geometry_certified": false
+}

@@ -1,0 +1,45 @@
+{
+  "retrieved_utc": "2026-10-03T09:39:27.925246+00:00",
+  "sources": [
+    {
+      "url": "https://huggingface.co/api/models?author=allenai&search=MolmoMotion&sort=lastModified&direction=-1&limit=10",
+      "file": "hf_model_inventory.json",
+      "sha256": "669b46469c27cd0b7136122f40e212d7204a83c2d0a178b573f7bb6927674bf2"
+    },
+    {
+      "url": "https://api.github.com/repos/allenai/molmo-motion/commits/main",
+      "file": "upstream_commit.json",
+      "sha256": "a5a8ffb189486598ebe3a9843309b92d27bc5509d91a3d54f8c3fdff1fc18f20"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/allenai/molmo-motion/61f5b21b694ad8f854ec7ecd2400005acc73f685/README.md",
+      "file": "README.md",
+      "revision": "61f5b21b694ad8f854ec7ecd2400005acc73f685",
+      "sha256": "f948cdb56b2e03968e2e7eb1feb6d125b4f1b60757a098849662327a9588f1f1",
+      "local_file_sha256": "465d4b59911eacc2e717e9a11d0a203343aa142d85b18e044c9f91b271527887"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/allenai/molmo-motion/61f5b21b694ad8f854ec7ecd2400005acc73f685/src/molmo_motion/processor.py",
+      "file": "src/molmo_motion/processor.py",
+      "revision": "61f5b21b694ad8f854ec7ecd2400005acc73f685",
+      "sha256": "0155ba1f687ddfd00ff9582dd10d164c79a0f7b00a683eed23a468444fe9b14e",
+      "local_file_sha256": "499e900b64f0ad732f4f22b3ff50f5b1309d75bea83c7b331189f3b884a541c2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/allenai/molmo-motion/61f5b21b694ad8f854ec7ecd2400005acc73f685/src/molmo_motion/data/trajectory_3d_dataset.py",
+      "file": "src/molmo_motion/data/trajectory_3d_dataset.py",
+      "revision": "61f5b21b694ad8f854ec7ecd2400005acc73f685",
+      "sha256": "70cc1eb53e2faec0feaf46019c91aa1e854a881eb678a46ebd9f7588b58d7ed6",
+      "local_file_sha256": "a642c37383154639af96d58f50637c355140c8543038b3662fb5fad0b8b29c98"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/allenai/molmo-motion/61f5b21b694ad8f854ec7ecd2400005acc73f685/data_generation/README.md",
+      "file": "data_generation/README.md",
+      "revision": "61f5b21b694ad8f854ec7ecd2400005acc73f685",
+      "sha256": "2a4215cd2e638903ec7f139c4d0dbbff2a007b562d5dfd3159224616ea65b249",
+      "local_file_sha256": "d88d4ffea5fb31139f99238b5ad35268560d4e75aaef8c995f9fe3faf89b0645"
+    }
+  ],
+  "connector_search_failure": "Hugging Face model_search returned tool not found; official public Hub API used as fallback",
+  "assessment_VLM_downloaded_or_used": false
+}

@@ -1,0 +1,31 @@
+/mnt/f/AIRI_task/molmo-motion/src/molmo_motion/data/dataset.py:17: UserWarning: MOLMO_DATA_DIR is not set, data loading might fail
+  warnings.warn("MOLMO_DATA_DIR is not set, data loading might fail")
+A_vipe_full h3 group_00 generating
+A_vipe_full h3 group_01 generating
+A_vipe_full h3 group_02 generating
+A_vipe_full h3 COMPLETE (24, 30, 3)
+B_sensor_vipe h3 group_00 generating
+B_sensor_vipe h3 group_01 generating
+B_sensor_vipe h3 group_02 generating
+B_sensor_vipe h3 COMPLETE (24, 30, 3)
+C_sensor_tcp_official h3 group_00 generating
+C_sensor_tcp_official h3 group_01 generating
+C_sensor_tcp_official h3 group_02 generating
+C_sensor_tcp_official h3 COMPLETE (24, 30, 3)
+C_sensor_tcp_official h3 group_00 generating
+C_sensor_tcp_official h3 group_01 generating
+C_sensor_tcp_official h3 group_02 generating
+C_sensor_tcp_official h3 COMPLETE (24, 30, 3)
+Prediction-gated future RGB, Z16 and robot poses exported
+/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/functional.py:505: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4317.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wrist_2 future tracking complete
+wrist_1 future tracking complete
+wrist_2 EVALUATED {'C_sensor_tcp_official': (0.042736359797232906, 109.93158852444523), 'C_sensor_tcp_official/Static': (0.04284377096192586, 110.50111564119503), 'C_sensor_tcp_official/CV': (0.07494095969203074, 28.48941072904703), 'A_vipe_full': (0.5677495575591577, 10.615756830149087), 'A_vipe_full/Static': (0.5728125437251865, 10.575815769199169), 'A_vipe_full/CV': (0.6211669537344796, 10.647971319424522), 'B_sensor_vipe': (0.04201824601890829, 103.5360687155001), 'B_sensor_vipe/Static': (0.04196649710428288, 103.54568342289336), 'B_sensor_vipe/CV': (0.05686779260951071, 352.4780029384095)}
+wrist_1 EVALUATED {'C_sensor_tcp_official': (0.19320309997162027, 1355.6100324646575), 'C_sensor_tcp_official/Static': (0.04094566589814365, 102.6603071302738), 'C_sensor_tcp_official/CV': (0.056723266602062165, 76.25786321050327)}
+wrist_2 method identities hidden for image review
+wrist_1 method identities hidden for image review
+wrist_2 future calibration sensitivity complete
+wrist_1 future calibration sensitivity complete
+Independent wrist future world-motion cross-check complete
+Side future controls [{'camera': 'side_1', 'valid_centroid_frames': 21, 'visible_valid_target_pixels': [3369, 2996, 3266, 3780, 3279, 3273, 3208, 2928, 3089, 2990, 3067, 2585, 2841, 2683, 2686, 2445, 2432, 2317, 2159, 1850, 1887], 'mask_touches_border_per_frame': [True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False], 'future_endpoint_displacement_m': 0.08260598173190135, 'median_abs_motion_magnitude_disagreement_with_wrist_m': 0.004987570301988134, 'interpretation': 'Approximate whole-visible-color centroid, not same material points. Partial contours, surface bias, official-K linkage and asynchronous frames affect agreement.', 'future_used_for_evaluation_only': True, 'calibration_fit_uses_future': False}, {'camera': 'side_2', 'valid_centroid_frames': 21, 'visible_valid_target_pixels': [255, 262, 302, 316, 291, 308, 301, 339, 371, 384, 382, 392, 404, 411, 412, 409, 394, 408, 384, 406, 404], 'mask_touches_border_per_frame': [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True], 'future_endpoint_displacement_m': 0.02318750772284094, 'median_abs_motion_magnitude_disagreement_with_wrist_m': 0.02276371280985217, 'interpretation': 'Approximate whole-visible-color centroid, not same material points. Partial contours, surface bias, official-K linkage and asynchronous frames affect agreement.', 'future_used_for_evaluation_only': True, 'calibration_fit_uses_future': False}]

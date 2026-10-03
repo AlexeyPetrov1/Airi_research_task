@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE",
+  "camera": "wrist_1",
+  "argv": [
+    "/mnt/f/AIRI_task/.venv-vipe/bin/python",
+    "-m",
+    "vipe.cli.main",
+    "infer",
+    "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_1/observed/observed_10hz.mp4",
+    "-p",
+    "default",
+    "-o",
+    "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_1/vipe_default"
+  ],
+  "nominal_fps": 10,
+  "observed_video_sha256": "f03070518704a1742ba5363cca05639a1dbec54cad8e558e40df23f376d8638d",
+  "future_used": false,
+  "started_utc": "2026-10-03T02:56:09Z",
+  "protocol_sha256": "ee2f36d859da228d352e65fbd29fb0696b2c88fbba3dbdabbecd3d36cf2ccc0a",
+  "exit_code": 0,
+  "elapsed_seconds": 179.214404286,
+  "peak_child_ram_gib": 5.5213165283203125
+}

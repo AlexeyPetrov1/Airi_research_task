@@ -1,0 +1,117 @@
+[
+  {
+    "seed": 0,
+    "translation_difference_mm": 75.54910617118861,
+    "rotation_difference_deg": 0.9121953878048578,
+    "heldout": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "median_translation_mm": 29.686622770234003,
+      "p90_translation_mm": 87.0532909660129,
+      "median_rotation_deg": 21.217483761703868,
+      "p90_rotation_deg": 29.309930861830313
+    }
+  },
+  {
+    "seed": 1,
+    "translation_difference_mm": 84.49663408678738,
+    "rotation_difference_deg": 0.653276555880912,
+    "heldout": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "median_translation_mm": 30.514692807393953,
+      "p90_translation_mm": 90.69490755157173,
+      "median_rotation_deg": 21.719530874063896,
+      "p90_rotation_deg": 29.870113546712318
+    }
+  },
+  {
+    "seed": 2,
+    "translation_difference_mm": 165.10344198400998,
+    "rotation_difference_deg": 1.6567910532160433,
+    "heldout": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "median_translation_mm": 31.191082822604326,
+      "p90_translation_mm": 89.2462387384631,
+      "median_rotation_deg": 20.812714662659687,
+      "p90_rotation_deg": 28.91773558813925
+    }
+  },
+  {
+    "seed": 3,
+    "translation_difference_mm": 56.12160211867437,
+    "rotation_difference_deg": 1.332728403401027,
+    "heldout": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "median_translation_mm": 30.38594302842862,
+      "p90_translation_mm": 90.55875687169255,
+      "median_rotation_deg": 21.481457420820664,
+      "p90_rotation_deg": 29.614230882196846
+    }
+  },
+  {
+    "seed": 4,
+    "translation_difference_mm": 156.78937411273196,
+    "rotation_difference_deg": 1.104676423494304,
+    "heldout": {
+      "frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "median_translation_mm": 30.595741165986627,
+      "p90_translation_mm": 86.21628614238358,
+      "median_rotation_deg": 21.159934331287346,
+      "p90_rotation_deg": 29.311514486797794
+    }
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "scene": "fmb_control_n3",
+  "source_frame": 130,
+  "source_camera": "side_1",
+  "object_phrase": "red rectangular peg",
+  "prompt": "point to the red rectangular peg held by the robot gripper, above the blue board",
+  "future_used": false,
+  "input_modality": "image",
+  "input_real_frame_count": 1,
+  "input_source_indices": [
+    130
+  ],
+  "model_input_rgb_sha256": "050f05bce18182d4f62460d3494044be479eee8ba209c14e52dccc1f19edaff7",
+  "observed_rgb_sha256": "24d13b103888c01c2606d3f35ebcf84be799fbfcae2761b05defec0c2099fe65",
+  "input_shapes": {
+    "input_ids": [
+      1,
+      450
+    ],
+    "attention_mask": [
+      1,
+      450
+    ],
+    "token_type_ids": [
+      1,
+      450
+    ],
+    "pixel_values": [
+      2,
+      729,
+      588
+    ],
+    "image_token_pooling": [
+      392,
+      4
+    ],
+    "image_grids": [
+      1,
+      4
+    ],
+    "image_num_crops": [
+      1
+    ]
+  },
+  "created_utc": "2026-10-03T00:19:53.798966+00:00",
+  "model_id": "allenai/MolmoPoint-Vid-4B",
+  "checkpoint": "/mnt/f/AIRI_task/models/MolmoPoint-Vid-4B",
+  "checkpoint_revision": "b331ed6c6352e6db967325493c6dae515541a919",
+  "checkpoint_code_sha256": {
+    "config.json": "6b652388cab9fa629cb6271838bcc8b6680c4efd6b561aa75497aba8153ed33a",
+    "processor_config.json": "06416426dfbcd8c92165e3c705d04eeef1bc5ae13d246043cf850cccecf77d41",
+    "modeling_molmo_point.py": "9320e8025d761629262d37d48f0422f967b0d3bfae733d9318ba0f4c68ce135b",
+    "processing_molmo2.py": "73fee7d5cc24e64fdecff90b07e2fea1985113394ffaaf9b87f42e40f3fb4aeb",
+    "image_processing_molmo2.py": "22fcc160210a3a648b6d618171686c40b900f512107f532c266af7792ac00511",
+    "chat_template.jinja": "ec66862fda57dc1aef90a21b2a0f64c18a280e2483206449bd251a73b8993101"
+  },
+  "checkpoint_shards": {
+    "model-00001-of-00004.safetensors": 4891799000,
+    "model-00002-of-00004.safetensors": 4844690992,
+    "model-00003-of-00004.safetensors": 4844691024,
+    "model-00004-of-00004.safetensors": 4867859988
+  },
+  "author_loader": "data_generation/third_party/sam3/molmo2_pointing.py",
+  "author_loader_sha256": "c184c89e54372aceb19472c2a27090dc8589a63ff8fe8eb50642f9f84b6bef50",
+  "success": true,
+  "point_xy": [
+    165.87852478027344,
+    77.41629791259766
+  ],
+  "candidate_points": [
+    [
+      1.0,
+      0.0,
+      165.87851851851852,
+      77.4162962962963
+    ]
+  ],
+  "chosen_candidate_index": 0,
+  "selection_rule": "first valid native decoded point at t0 in deterministic generated order",
+  "pointing_method": "actual official MolmoPoint-Vid-4B constrained greedy generation",
+  "coordinate_decoder": "model.extract_image_points",
+  "raw_output": "<points coords=\"<POINT_260><POINT_394><POINT_400>1<POINT_392>\">red rectangular peg held by the robot gripper, above the blue board</point><|im_end|>",
+  "runtime_seconds": 1.607703980999986,
+  "model_load_seconds": 71.912955706,
+  "peak_gpu_memory_gib": 9.162875652313232,
+  "transformers_version": "4.57.6",
+  "torch_version": "2.9.1+cu128",
+  "dtype": "bfloat16",
+  "seed": 0,
+  "max_new_tokens": 512,
+  "logits_processor": "model.build_logit_processor_from_inputs(inputs)",
+  "no_manual_point_or_segmentation_selection": true,
+  "finished_utc": "2026-10-03T00:19:55.428430+00:00"
+}

@@ -1,0 +1,1090 @@
+{
+  "side_1": [
+    {
+      "fx": 954.065,
+      "fy": 954.065,
+      "ppx": 938.613,
+      "ppy": 547.202,
+      "width": 1920.0,
+      "height": 1080.0,
+      "profile_index": 0,
+      "K_256_resize": [
+        [
+          127.20866666666667,
+          0,
+          124.71506666666667
+        ],
+        [
+          0,
+          226.14874074074075,
+          129.32565925925925
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 636.044,
+      "fy": 636.044,
+      "ppx": 625.742,
+      "ppy": 364.802,
+      "width": 1280.0,
+      "height": 720.0,
+      "profile_index": 1,
+      "K_256_resize": [
+        [
+          127.2088,
+          0,
+          124.7484
+        ],
+        [
+          0,
+          226.1489777777778,
+          129.38515555555557
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 380.209,
+      "fy": 380.209,
+      "ppx": 311.477,
+      "ppy": 242.87,
+      "width": 640.0,
+      "height": 480.0,
+      "profile_index": 2,
+      "K_256_resize": [
+        [
+          152.08360000000002,
+          0,
+          124.29079999999999
+        ],
+        [
+          0,
+          202.77813333333333,
+          129.29733333333334
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 421.379,
+      "fy": 421.379,
+      "ppx": 414.554,
+      "ppy": 243.181,
+      "width": 848.0,
+      "height": 480.0,
+      "profile_index": 3,
+      "K_256_resize": [
+        [
+          127.20875471698113,
+          0,
+          124.79932075471697
+        ],
+        [
+          0,
+          224.73546666666667,
+          129.4632
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 318.022,
+      "fy": 318.022,
+      "ppx": 312.871,
+      "ppy": 182.401,
+      "width": 640.0,
+      "height": 360.0,
+      "profile_index": 4,
+      "K_256_resize": [
+        [
+          127.2088,
+          0,
+          124.8484
+        ],
+        [
+          0,
+          226.1489777777778,
+          129.56293333333335
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 210.689,
+      "fy": 210.689,
+      "ppx": 207.277,
+      "ppy": 121.591,
+      "width": 424.0,
+      "height": 240.0,
+      "profile_index": 5,
+      "K_256_resize": [
+        [
+          127.20845283018868,
+          0,
+          124.95026415094338
+        ],
+        [
+          0,
+          224.73493333333332,
+          129.7304
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 190.105,
+      "fy": 190.105,
+      "ppx": 155.738,
+      "ppy": 121.435,
+      "width": 320.0,
+      "height": 240.0,
+      "profile_index": 6,
+      "K_256_resize": [
+        [
+          152.084,
+          0,
+          124.49040000000001
+        ],
+        [
+          0,
+          202.77866666666665,
+          129.564
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 238.516,
+      "fy": 238.516,
+      "ppx": 234.653,
+      "ppy": 136.801,
+      "width": 480.0,
+      "height": 270.0,
+      "profile_index": 7,
+      "K_256_resize": [
+        [
+          127.20853333333332,
+          0,
+          124.91493333333332
+        ],
+        [
+          0,
+          226.1485037037037,
+          129.68168888888889
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 636.044,
+      "fy": 636.044,
+      "ppx": 625.742,
+      "ppy": 404.802,
+      "width": 1280.0,
+      "height": 800.0,
+      "profile_index": 8,
+      "K_256_resize": [
+        [
+          127.2088,
+          0,
+          124.7484
+        ],
+        [
+          0,
+          203.53408,
+          129.19664
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 477.033,
+      "fy": 477.033,
+      "ppx": 469.307,
+      "ppy": 273.601,
+      "width": 960.0,
+      "height": 540.0,
+      "profile_index": 9,
+      "K_256_resize": [
+        [
+          127.2088,
+          0,
+          124.78186666666667
+        ],
+        [
+          0,
+          226.1489777777778,
+          129.44417777777778
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    }
+  ],
+  "side_2": [
+    {
+      "fx": 950.407,
+      "fy": 950.407,
+      "ppx": 957.469,
+      "ppy": 541.55,
+      "width": 1920.0,
+      "height": 1080.0,
+      "profile_index": 0,
+      "K_256_resize": [
+        [
+          126.72093333333333,
+          0,
+          127.2292
+        ],
+        [
+          0,
+          225.28165925925927,
+          127.98592592592593
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 633.605,
+      "fy": 633.605,
+      "ppx": 638.313,
+      "ppy": 361.034,
+      "width": 1280.0,
+      "height": 720.0,
+      "profile_index": 1,
+      "K_256_resize": [
+        [
+          126.721,
+          0,
+          127.2626
+        ],
+        [
+          0,
+          225.2817777777778,
+          128.04542222222221
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 378.751,
+      "fy": 378.751,
+      "ppx": 318.991,
+      "ppy": 240.618,
+      "width": 640.0,
+      "height": 480.0,
+      "profile_index": 2,
+      "K_256_resize": [
+        [
+          151.50039999999998,
+          0,
+          127.2964
+        ],
+        [
+          0,
+          202.00053333333332,
+          128.09626666666665
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 419.763,
+      "fy": 419.763,
+      "ppx": 422.882,
+      "ppy": 240.685,
+      "width": 848.0,
+      "height": 480.0,
+      "profile_index": 3,
+      "K_256_resize": [
+        [
+          126.72090566037734,
+          0,
+          127.31343396226414
+        ],
+        [
+          0,
+          223.87359999999998,
+          128.132
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 316.802,
+      "fy": 316.802,
+      "ppx": 319.156,
+      "ppy": 180.517,
+      "width": 640.0,
+      "height": 360.0,
+      "profile_index": 4,
+      "K_256_resize": [
+        [
+          126.72080000000001,
+          0,
+          127.36240000000001
+        ],
+        [
+          0,
+          225.28142222222223,
+          128.2232
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 209.882,
+      "fy": 209.882,
+      "ppx": 211.441,
+      "ppy": 120.342,
+      "width": 424.0,
+      "height": 240.0,
+      "profile_index": 5,
+      "K_256_resize": [
+        [
+          126.72120754716981,
+          0,
+          127.46437735849057
+        ],
+        [
+          0,
+          223.87413333333333,
+          128.39813333333333
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 189.376,
+      "fy": 189.376,
+      "ppx": 159.496,
+      "ppy": 120.309,
+      "width": 320.0,
+      "height": 240.0,
+      "profile_index": 6,
+      "K_256_resize": [
+        [
+          151.5008,
+          0,
+          127.49680000000001
+        ],
+        [
+          0,
+          202.00106666666667,
+          128.36293333333333
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 237.602,
+      "fy": 237.602,
+      "ppx": 239.367,
+      "ppy": 135.388,
+      "width": 480.0,
+      "height": 270.0,
+      "profile_index": 7,
+      "K_256_resize": [
+        [
+          126.72106666666667,
+          0,
+          127.42906666666666
+        ],
+        [
+          0,
+          225.2818962962963,
+          128.34195555555556
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 633.605,
+      "fy": 633.605,
+      "ppx": 638.313,
+      "ppy": 401.034,
+      "width": 1280.0,
+      "height": 800.0,
+      "profile_index": 8,
+      "K_256_resize": [
+        [
+          126.721,
+          0,
+          127.2626
+        ],
+        [
+          0,
+          202.7536,
+          127.99088
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 475.203,
+      "fy": 475.203,
+      "ppx": 478.735,
+      "ppy": 270.775,
+      "width": 960.0,
+      "height": 540.0,
+      "profile_index": 9,
+      "K_256_resize": [
+        [
+          126.7208,
+          0,
+          127.296
+        ],
+        [
+          0,
+          225.28142222222223,
+          128.10444444444443
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    }
+  ],
+  "wrist_1": [
+    {
+      "fx": 956.945,
+      "fy": 956.945,
+      "ppx": 936.347,
+      "ppy": 547.106,
+      "width": 1920.0,
+      "height": 1080.0,
+      "profile_index": 0,
+      "K_256_resize": [
+        [
+          127.59266666666667,
+          0,
+          124.41293333333333
+        ],
+        [
+          0,
+          226.83140740740743,
+          129.30290370370372
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 637.963,
+      "fy": 637.963,
+      "ppx": 624.231,
+      "ppy": 364.737,
+      "width": 1280.0,
+      "height": 720.0,
+      "profile_index": 1,
+      "K_256_resize": [
+        [
+          127.5926,
+          0,
+          124.4462
+        ],
+        [
+          0,
+          226.83128888888888,
+          129.36204444444445
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 381.357,
+      "fy": 381.357,
+      "ppx": 310.574,
+      "ppy": 242.832,
+      "width": 640.0,
+      "height": 480.0,
+      "profile_index": 2,
+      "K_256_resize": [
+        [
+          152.54280000000003,
+          0,
+          123.92960000000001
+        ],
+        [
+          0,
+          203.3904,
+          129.27706666666666
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 422.651,
+      "fy": 422.651,
+      "ppx": 413.553,
+      "ppy": 243.138,
+      "width": 848.0,
+      "height": 480.0,
+      "profile_index": 3,
+      "K_256_resize": [
+        [
+          127.59275471698113,
+          0,
+          124.4971320754717
+        ],
+        [
+          0,
+          225.41386666666668,
+          129.44026666666667
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 318.982,
+      "fy": 318.982,
+      "ppx": 312.116,
+      "ppy": 182.369,
+      "width": 640.0,
+      "height": 360.0,
+      "profile_index": 4,
+      "K_256_resize": [
+        [
+          127.59280000000001,
+          0,
+          124.5464
+        ],
+        [
+          0,
+          226.83164444444446,
+          129.54017777777779
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 211.325,
+      "fy": 211.325,
+      "ppx": 206.777,
+      "ppy": 121.569,
+      "width": 424.0,
+      "height": 240.0,
+      "profile_index": 5,
+      "K_256_resize": [
+        [
+          127.59245283018866,
+          0,
+          124.64837735849055
+        ],
+        [
+          0,
+          225.41333333333333,
+          129.70693333333332
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 190.678,
+      "fy": 190.678,
+      "ppx": 155.287,
+      "ppy": 121.416,
+      "width": 320.0,
+      "height": 240.0,
+      "profile_index": 6,
+      "K_256_resize": [
+        [
+          152.54240000000001,
+          0,
+          124.12960000000001
+        ],
+        [
+          0,
+          203.38986666666665,
+          129.54373333333334
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 239.236,
+      "fy": 239.236,
+      "ppx": 234.087,
+      "ppy": 136.776,
+      "width": 480.0,
+      "height": 270.0,
+      "profile_index": 7,
+      "K_256_resize": [
+        [
+          127.59253333333332,
+          0,
+          124.61306666666665
+        ],
+        [
+          0,
+          226.83117037037036,
+          129.6579851851852
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 637.963,
+      "fy": 637.963,
+      "ppx": 624.231,
+      "ppy": 404.737,
+      "width": 1280.0,
+      "height": 800.0,
+      "profile_index": 8,
+      "K_256_resize": [
+        [
+          127.5926,
+          0,
+          124.4462
+        ],
+        [
+          0,
+          204.14816,
+          129.17584000000002
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 478.472,
+      "fy": 478.472,
+      "ppx": 468.173,
+      "ppy": 273.553,
+      "width": 960.0,
+      "height": 540.0,
+      "profile_index": 9,
+      "K_256_resize": [
+        [
+          127.59253333333332,
+          0,
+          124.47946666666667
+        ],
+        [
+          0,
+          226.83117037037036,
+          129.42142222222222
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    }
+  ],
+  "wrist_2": [
+    {
+      "fx": 954.556,
+      "fy": 954.556,
+      "ppx": 948.038,
+      "ppy": 541.118,
+      "width": 1920.0,
+      "height": 1080.0,
+      "profile_index": 0,
+      "K_256_resize": [
+        [
+          127.27413333333334,
+          0,
+          125.97173333333333
+        ],
+        [
+          0,
+          226.26512592592596,
+          127.88352592592594
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 636.37,
+      "fy": 636.37,
+      "ppx": 632.025,
+      "ppy": 360.745,
+      "width": 1280.0,
+      "height": 720.0,
+      "profile_index": 1,
+      "K_256_resize": [
+        [
+          127.274,
+          0,
+          126.005
+        ],
+        [
+          0,
+          226.2648888888889,
+          127.94266666666667
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 380.405,
+      "fy": 380.405,
+      "ppx": 315.233,
+      "ppy": 240.445,
+      "width": 640.0,
+      "height": 480.0,
+      "profile_index": 2,
+      "K_256_resize": [
+        [
+          152.162,
+          0,
+          125.79320000000001
+        ],
+        [
+          0,
+          202.88266666666664,
+          128.004
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 421.595,
+      "fy": 421.595,
+      "ppx": 418.717,
+      "ppy": 240.494,
+      "width": 848.0,
+      "height": 480.0,
+      "profile_index": 3,
+      "K_256_resize": [
+        [
+          127.27396226415095,
+          0,
+          126.05607547169811
+        ],
+        [
+          0,
+          224.85066666666668,
+          128.03013333333334
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 318.185,
+      "fy": 318.185,
+      "ppx": 316.013,
+      "ppy": 180.373,
+      "width": 640.0,
+      "height": 360.0,
+      "profile_index": 4,
+      "K_256_resize": [
+        [
+          127.274,
+          0,
+          126.1052
+        ],
+        [
+          0,
+          226.2648888888889,
+          128.1208
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 210.798,
+      "fy": 210.798,
+      "ppx": 209.358,
+      "ppy": 120.247,
+      "width": 424.0,
+      "height": 240.0,
+      "profile_index": 5,
+      "K_256_resize": [
+        [
+          127.2742641509434,
+          0,
+          126.20671698113208
+        ],
+        [
+          0,
+          224.8512,
+          128.2968
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 190.202,
+      "fy": 190.202,
+      "ppx": 157.616,
+      "ppy": 120.223,
+      "width": 320.0,
+      "height": 240.0,
+      "profile_index": 6,
+      "K_256_resize": [
+        [
+          152.1616,
+          0,
+          125.99280000000002
+        ],
+        [
+          0,
+          202.88213333333334,
+          128.2712
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 238.639,
+      "fy": 238.639,
+      "ppx": 237.009,
+      "ppy": 135.279,
+      "width": 480.0,
+      "height": 270.0,
+      "profile_index": 7,
+      "K_256_resize": [
+        [
+          127.27413333333334,
+          0,
+          126.17146666666666
+        ],
+        [
+          0,
+          226.26512592592596,
+          128.23860740740741
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 636.37,
+      "fy": 636.37,
+      "ppx": 632.025,
+      "ppy": 400.745,
+      "width": 1280.0,
+      "height": 800.0,
+      "profile_index": 8,
+      "K_256_resize": [
+        [
+          127.274,
+          0,
+          126.005
+        ],
+        [
+          0,
+          203.63840000000002,
+          127.89840000000001
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    },
+    {
+      "fx": 477.278,
+      "fy": 477.278,
+      "ppx": 474.019,
+      "ppy": 270.559,
+      "width": 960.0,
+      "height": 540.0,
+      "profile_index": 9,
+      "K_256_resize": [
+        [
+          127.27413333333334,
+          0,
+          126.0384
+        ],
+        [
+          0,
+          226.26512592592596,
+          128.00204444444446
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "mapping_status": "CANDIDATE: requires RGB profile and actual crop/resize validation"
+    }
+  ]
+}

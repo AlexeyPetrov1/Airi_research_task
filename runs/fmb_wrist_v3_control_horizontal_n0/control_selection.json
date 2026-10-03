@@ -1,0 +1,17 @@
+{
+  "source": "1_M_L_3_horizontal_n_0.npy",
+  "candidate_t0": 216,
+  "future_used": false,
+  "selection_reason": "Main 5201 observed ViPE hand-eye fails physical gate; direct hand-eye bootstrap has large parameter and relative-path spread. Horizontal n0 has stronger multi-axis excitation and target depth support.",
+  "primary_5201_preserved": true,
+  "source_robot_rotation_max_deg": 56.11043299984557,
+  "source_rotation_singular_values_rad": [
+    2.59700018,
+    0.33612023,
+    0.13193654
+  ],
+  "wrist2_t0_supported_depth_interior_pixels": 3111,
+  "wrist1_t0_supported_depth_interior_pixels": 1504,
+  "share_robot_mapping_status": "UNVERIFIED_FMB_ONLY",
+  "main_bootstrap_evidence": "../fmb_wrist_v3/wrist_2/geometry/independent_robot_rgbd_bootstrap.json"
+}

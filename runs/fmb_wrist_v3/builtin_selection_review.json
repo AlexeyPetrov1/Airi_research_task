@@ -1,0 +1,32 @@
+{
+  "review_method": "Assistant built-in image inspection through view_image; no separate Hugging Face VLM",
+  "external_model_inference_used": false,
+  "future_images_reviewed": false,
+  "reviewed_images": [
+    "selection/all_candidates.png",
+    "wrist_2/viz/observed_prefix_review.png",
+    "wrist_2/viz/registration_review.png",
+    "wrist_1/viz/registration_review.png"
+  ],
+  "observed_source_indices_sample": [77,87,97,107,117,124,125,126],
+  "target": "Red rectangular peg held between the gripper fingers",
+  "image_findings": [
+    "The target is large and visible in both wrist views, with gripper occluding its upper/right portion.",
+    "In wrist_2 the peg stays nearly stationary in RGB while the blue board and static table move substantially. This is suitable for testing camera-motion compensation.",
+    "The blue board has distinctive holes and the environment has edges useful for static-background correspondences.",
+    "The target faces have little texture; tracker persistence is uncertain even when a point remains inside the silhouette.",
+    "Registration sheets show holes and varying sensor support in the nearby peg/gripper region. Dark depth-map pixels alone cannot distinguish missing from very near positive depth; quantitative support audit is required.",
+    "Side_2 shows only a small target fragment at the top border; its object-motion control is potentially incomplete.",
+    "Many unusual distractors are unnecessary. More objects can increase occlusion; the board's distinctive shapes already provide useful static geometry."
+  ],
+  "quantitative_target_probe": {
+    "wrist_2_approximate_target_valid_sensor_fraction_t0": 0.48019047619047617,
+    "wrist_2_approximate_interior_supported_5x5_pixels_t0": 2162,
+    "wrist_1_approximate_target_valid_sensor_fraction_t0": 0.5410628019323671,
+    "wrist_1_approximate_interior_supported_5x5_pixels_t0": 2658,
+    "mask_limitation": "Observed color component; final eligibility must use actual SAM and all H3 frames."
+  },
+  "initial_selection": "Retain source-matched episode 5201 for Phase A. It passes initial target visibility/support screening and tests substantial background motion; accept primary geometry only after historical reconstruction and final track audit.",
+  "backup_if_geometric_gate_fails": "Horizontal red-peg trial n0 has much greater robot rotation diversity in its observed prefix. Any supplemental scene must remain separate and use its own observed-only selection and calibration.",
+  "visual_review_limitation": "Qualitative source-image review, not instrumented depth registration or material-point ground truth. Full track/forecast review remains pending."
+}

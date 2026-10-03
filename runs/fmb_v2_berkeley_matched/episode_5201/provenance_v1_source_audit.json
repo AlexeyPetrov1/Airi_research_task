@@ -1,0 +1,330 @@
+{
+  "share_robot_id": "57_fmb#episode_5201",
+  "source_dataset": "FMB",
+  "source_file": "1_M_L_3_vertical_n_2.npy",
+  "source_episode": "/media/nvmep3p/fmb2/np_release/single_object_manipulation/1_M_L_3_vertical_n_2.npy",
+  "source_npy_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+  "source_rlds_record_sha256": "081fb9b8233758b491b84d24b741fd7a9cbcaa01c5349b10b70e8b699e90ad53",
+  "source_step_count": 148,
+  "source_mapping_status": "PASS_SOURCE_EPISODE_RECOVERED",
+  "source_mapping_evidence": "RLDS ordinal 5201 points to NPY path; two ShareRobot RGBs match steps 0 and 74; all 148 RLDS depth maps equal NPY depth after float32 cast",
+  "share_frames_individually_matched": 2,
+  "share_frames_total_listed": 29,
+  "share_robot_sampling_rule": "unknown_not_required",
+  "mapping_pairs": [
+    {
+      "share_frame_id": "frame_0",
+      "share_section": "Trajectory",
+      "share_file": "runs\\sharerobot_transfer_berkeley_ur5_episode_26\\reserve_fmb_episode_5201_frame_0.png",
+      "share_sha256": "80f6af8673cd2ec1d9c03c4e361154903f8104421b25ac756a1f30fb7e9b9281",
+      "source_episode": "/media/nvmep3p/fmb2/np_release/single_object_manipulation/1_M_L_3_vertical_n_2.npy",
+      "source_step": 0,
+      "timestamp": null,
+      "share_resolution": [
+        256,
+        256
+      ],
+      "source_resolution": [
+        256,
+        256
+      ],
+      "documented_image_transform": "JPEG decode only; no resize/crop/color transform",
+      "source_file": "source_side_1_step_000.png",
+      "pixel_mae": 1.2309417724609375,
+      "second_best_pixel_mae": 2.162877400716146,
+      "phash_distance": 0,
+      "ssim": 0.9891681812571699
+    },
+    {
+      "share_frame_id": "frame_15",
+      "share_section": "Trajectory",
+      "share_file": "runs\\sharerobot_transfer_berkeley_ur5_episode_26\\reserve_fmb_episode_5201_frame_15.png",
+      "share_sha256": "7aa736b0cf48c6be046179dead02b69238fd9299f29c788ef0d2d422f8b8435f",
+      "source_episode": "/media/nvmep3p/fmb2/np_release/single_object_manipulation/1_M_L_3_vertical_n_2.npy",
+      "source_step": 74,
+      "timestamp": null,
+      "share_resolution": [
+        256,
+        256
+      ],
+      "source_resolution": [
+        256,
+        256
+      ],
+      "documented_image_transform": "JPEG decode only; no resize/crop/color transform",
+      "source_file": "source_side_1_step_074.png",
+      "pixel_mae": 1.2477773030598958,
+      "second_best_pixel_mae": 2.1878814697265625,
+      "phash_distance": 0,
+      "ssim": 0.9892051472697783
+    }
+  ],
+  "camera": "side_1",
+  "camera_model": "RealSense D405",
+  "camera_serial": "128422270679",
+  "intrinsics_status": "BLOCKED_EXACT_WORKING_K",
+  "intrinsics_source": "https://functional-manipulation-benchmark.github.io/static/files/side_1",
+  "intrinsics_file_sha256": "75041e2345f80d882144ba43247e7e1f9a49b822c64c83d561a03c057f714ccb",
+  "intrinsics_profile": "rectified.2",
+  "intrinsics_resolution": [
+    640,
+    480
+  ],
+  "working_resolution": [
+    256,
+    256
+  ],
+  "K_source": [
+    [
+      380.209,
+      0,
+      311.477
+    ],
+    [
+      0,
+      380.209,
+      242.87
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "image_transform_rgb": "full-frame cv2.resize from 640x480 to 256x256 in official environment code",
+  "image_transform_depth": "unknown in published code; capture leaves aligned depth at 640x480 but released NPY is 256x256",
+  "K_working": null,
+  "K_working_if_same_resize": [
+    [
+      152.0836,
+      0,
+      124.29079999999999
+    ],
+    [
+      0,
+      202.77813333333333,
+      129.29733333333334
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "depth_representation": "Z16-derived uint16 count domain; 256x256 preprocessing unknown",
+  "depth_scale": 0.0001,
+  "depth_scale_status": "PASS_INFERRED_GEOMETRIC",
+  "depth_scale_evidence": "INFERRED_GEOMETRIC",
+  "depth_scale_fit_m_per_unit": 9.803859996587632e-05,
+  "depth_scale_candidate_table": [
+    {
+      "scale_m_per_unit": 0.01,
+      "frame0_median_depth_m": 38.61,
+      "frame0_p05_depth_m": 27.42,
+      "frame0_p95_depth_m": 69.11,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 0.0,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 5.295366292828214,
+        "p95_m": 9.727677371737895,
+        "rmse_m": 5.951739991553274
+      },
+      "ratio_to_tcp_motion_estimate": 102.00064059952547
+    },
+    {
+      "scale_m_per_unit": 0.001,
+      "frame0_median_depth_m": 3.861,
+      "frame0_p05_depth_m": 2.742,
+      "frame0_p95_depth_m": 6.9110000000000005,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 0.0,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 0.48067877548509375,
+        "p95_m": 0.8865513462202683,
+        "rmse_m": 0.5421896820517575
+      },
+      "ratio_to_tcp_motion_estimate": 10.200064059952547
+    },
+    {
+      "scale_m_per_unit": 0.0001,
+      "frame0_median_depth_m": 0.3861,
+      "frame0_p05_depth_m": 0.2742,
+      "frame0_p95_depth_m": 0.6911,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 0.6976792144545441,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 0.006374614821592369,
+        "p95_m": 0.011574907786998104,
+        "rmse_m": 0.007534873907616113
+      },
+      "ratio_to_tcp_motion_estimate": 1.0200064059952547
+    },
+    {
+      "scale_m_per_unit": 5e-05,
+      "frame0_median_depth_m": 0.19305,
+      "frame0_p05_depth_m": 0.1371,
+      "frame0_p95_depth_m": 0.34555,
+      "frame0_fraction_in_d405_ideal_7_to_50_cm": 1.0,
+      "tcp_motion_fixed_scale_residual": {
+        "median_m": 0.027866261647456956,
+        "p95_m": 0.04690376830508747,
+        "rmse_m": 0.029818022747707836
+      },
+      "ratio_to_tcp_motion_estimate": 0.5100032029976274
+    }
+  ],
+  "camera_fps": 15,
+  "environment_hz": 10,
+  "nominal_dt": 0.1,
+  "timestamp_source": "FMB environment code nominal control frequency; not hardware timestamps",
+  "exact_timestamps_available": false,
+  "timing_status": "PASS_NOMINAL_LOCAL_SEGMENTS_WITH_PAUSE_EXCEPTIONS",
+  "timing_pause_exception_steps": [
+    23,
+    147
+  ],
+  "camera_motion_status": "STATIC_SUPPORTED",
+  "camera_motion_checks": [
+    {
+      "source_steps": [
+        0,
+        37
+      ],
+      "background_correspondences": 426,
+      "ransac_inliers": 387,
+      "median_background_displacement_px": 0.0,
+      "p95_background_displacement_px": 1.1999969482421875,
+      "displacement_over_diagonal": 0.0,
+      "affine_partial_2d": [
+        [
+          1.0006642483792896,
+          0.0013703388910773064,
+          -0.29222051981303926
+        ],
+        [
+          -0.0013703388910773064,
+          1.0006642483792896,
+          0.08117154556857763
+        ]
+      ],
+      "visualization": "camera_motion_0_37.png",
+      "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+    },
+    {
+      "source_steps": [
+        37,
+        74
+      ],
+      "background_correspondences": 609,
+      "ransac_inliers": 566,
+      "median_background_displacement_px": 0.0,
+      "p95_background_displacement_px": 1.1999969482421875,
+      "displacement_over_diagonal": 0.0,
+      "affine_partial_2d": [
+        [
+          0.9995981615765528,
+          -5.634935085672366e-07,
+          0.03978104116681057
+        ],
+        [
+          5.634935085672366e-07,
+          0.9995981615765528,
+          0.07848376647533152
+        ]
+      ],
+      "visualization": "camera_motion_37_74.png",
+      "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+    },
+    {
+      "source_steps": [
+        74,
+        110
+      ],
+      "background_correspondences": 113,
+      "ransac_inliers": 89,
+      "median_background_displacement_px": 0.0,
+      "p95_background_displacement_px": 1.4296823024749754,
+      "displacement_over_diagonal": 0.0,
+      "affine_partial_2d": [
+        [
+          0.9998472486491068,
+          0.0019701329253256246,
+          -0.23108954771632492
+        ],
+        [
+          -0.0019701329253256246,
+          0.9998472486491068,
+          0.27539001434805643
+        ]
+      ],
+      "visualization": "camera_motion_74_110.png",
+      "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+    },
+    {
+      "source_steps": [
+        110,
+        147
+      ],
+      "background_correspondences": 79,
+      "ransac_inliers": 57,
+      "median_background_displacement_px": 1.2000045776367188,
+      "p95_background_displacement_px": 2.4154034614562985,
+      "displacement_over_diagonal": 0.0033145756808664944,
+      "affine_partial_2d": [
+        [
+          0.9966096917208846,
+          0.005811898879235928,
+          -1.6190202060344157
+        ],
+        [
+          -0.005811898879235928,
+          0.9966096917208846,
+          1.3186254954900272
+        ]
+      ],
+      "visualization": "camera_motion_110_147.png",
+      "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+    },
+    {
+      "source_steps": [
+        0,
+        147
+      ],
+      "background_correspondences": 34,
+      "ransac_inliers": 11,
+      "median_background_displacement_px": 1.0,
+      "p95_background_displacement_px": 2.220001220703125,
+      "displacement_over_diagonal": 0.002762135864009951,
+      "affine_partial_2d": [
+        [
+          0.9930013889143466,
+          0.0023221085573169606,
+          -0.6386700550745396
+        ],
+        [
+          -0.0023221085573169606,
+          0.9930013889143466,
+          1.1599086552802012
+        ]
+      ],
+      "visualization": "camera_motion_0_147.png",
+      "mask": "x=20..234, y=83..244; upper object/gripper excluded"
+    }
+  ],
+  "history_3d_status": "NOT_CONSTRUCTED_EXACT_K_BLOCKED",
+  "history_points_total": 24,
+  "history_points_validated": 0,
+  "leakage_check": "MODEL_NOT_RUN; robot-motion scale diagnostic uses episode steps 112..140, so independent calibration must be frozen before a later prediction window",
+  "decision": "BLOCKED",
+  "outcome": "VERIFIED_BLOCKER",
+  "blocking_reasons": [
+    "The exact 256x256 depth-pixel intrinsic matrix cannot be reproduced: the official 640x480 capture code aligns depth to color but has no depth resize, while the published NPY depth is 256x256. The calibration JSON does not identify an active color stream/profile or describe the missing transformation. Full-frame resize K is a plausible candidate, not a verified input K."
+  ],
+  "non_blocking_limitations": [
+    "Only two ShareRobot PNGs are individually matched; source episode is recovered and full ShareRobot sampling is not needed.",
+    "No actual timestamps; nominal 10 Hz has gripper-command pause exceptions.",
+    "Scale inference uses the target episode's later TCP trajectory and is diagnostic; an unbiased future test should confirm/freeze calibration independently."
+  ],
+  "model_generation_calls": 0,
+  "metric_pairs": 0,
+  "coverage_valid_pairs": 0,
+  "coverage_denominator": 240,
+  "next_minimal_unblock": "Obtain the original FMB 640x480 -> 256x256 depth preprocessing/alignment transform and active color intrinsics for side_1 serial 128422270679, or a calibrated 256x256 aligned RGB-D camera profile for that recording. Confirm depth scale independently before target-window prediction."
+}

@@ -1,0 +1,22 @@
+{
+  "model_id": "MolmoMotion-4B-H3-F30",
+  "revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "history": 3,
+  "horizon": 30,
+  "dtype": "bfloat16",
+  "seed": 0,
+  "decoding": "Native greedy, best-of-1",
+  "point_features_enabled": false,
+  "internal_model_class": "Molmo2",
+  "camera": "wrist_1",
+  "variant": "H3_rigid_observed",
+  "group": 0,
+  "input_spec_sha256": "9dca48e7cfd86e19e4543bcdf6d2c173544a5bc654e72a8bfdd24e233cee5ce6",
+  "processor_inputs_sha256": "6db079b1bf484ec599a5fda285fa96ee407ade8c13a19741d3c78d5727d6fc4a",
+  "script_sha256": "8d43f3af03c4842fb4dece24b8675952e75d56955ba7a74d36c99f8bc8b9456e",
+  "config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "model_load_seconds": 60.20144357200002,
+  "future_input_used": false,
+  "generation_started": true,
+  "success": false
+}

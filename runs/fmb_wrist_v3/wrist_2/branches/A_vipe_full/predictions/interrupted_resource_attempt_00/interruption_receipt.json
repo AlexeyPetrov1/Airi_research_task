@@ -1,0 +1,12 @@
+{
+  "interrupted_utc": "2026-10-03T03:41:11.114804+00:00",
+  "pid": 16863,
+  "verified_cmdline": "/mnt/f/AIRI_task/.venv/bin/python -u /mnt/f/AIRI_task/molmo-motion/scripts/fmb_v2_infer.py --scene-dir /mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_2/branches/A_vipe_full /mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_2/branches/B_sensor_vipe /mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official /mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official ",
+  "generation_started": true,
+  "complete_output_available": false,
+  "reason": "Concurrent DAS GPU workload, total device occupancy >11.6GiB on12GB GPU; first native call unfinished after >13min. Stop only own process to serialize compute.",
+  "external_process_terminated": false,
+  "future_opened": false,
+  "retry_same_frozen_inputs": true,
+  "original_status_sha256": "efb6cc026ceeb623885404d490b294c8ec51a10696e797dd99141481b89513e7"
+}

@@ -1,0 +1,1022 @@
+[
+  {
+    "source_file": "1_L_L_4_vertical_n_0.npy",
+    "source_sha256": "e6c3aa8e518d75b003a78ac405e33aa30c2ddc94dea2901a5ee568e0fb353cdb",
+    "frame_count": 142,
+    "candidate_t0": 95,
+    "observed_indices": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "L",
+      "color": 4,
+      "shape": 1,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      94.5634053347062,
+      271.45524802692523,
+      191.1026895989421
+    ],
+    "rotation_diversity_singular_values_rad": [
+      0.8510768516716677,
+      0.13473230778910886,
+      0.034232808789620844
+    ],
+    "max_rotation_deg": 17.360342087375926,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.9628594970703125,
+        "median_raw_depth": 3718.0,
+        "laplacian_variance_t0": 377.00664325780235
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9681689453125,
+        "median_raw_depth": 4082.0,
+        "laplacian_variance_t0": 358.82894516340457
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.7407318115234375,
+        "median_raw_depth": 3058.0,
+        "laplacian_variance_t0": 305.6358587013092
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.7789730834960937,
+        "median_raw_depth": 3301.0,
+        "laplacian_variance_t0": 415.6255807389971
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_horizontal_n_0.npy",
+    "source_sha256": "62b4f148196bf4ddc0803666c21fe9c6bed4fefc4239f2421a077764da79e695",
+    "frame_count": 302,
+    "candidate_t0": 216,
+    "observed_indices": [
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "horizontal",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      104.78958757039302,
+      220.89493440349048,
+      261.0318312646004
+    ],
+    "rotation_diversity_singular_values_rad": [
+      2.597000184112512,
+      0.336120225671909,
+      0.13193654211112296
+    ],
+    "max_rotation_deg": 56.11043299984557,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.9577578735351563,
+        "median_raw_depth": 3769.0,
+        "laplacian_variance_t0": 400.76719703897834
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9440118408203125,
+        "median_raw_depth": 4224.0,
+        "laplacian_variance_t0": 349.8230682006106
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.71431884765625,
+        "median_raw_depth": 4246.0,
+        "laplacian_variance_t0": 396.02765621594153
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.722393798828125,
+        "median_raw_depth": 3764.0,
+        "laplacian_variance_t0": 466.21300376742147
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_horizontal_n_4.npy",
+    "source_sha256": "ec6e003da6f5317eb950f4a5e232323ce2494afe1cfb148cb036892defc00a2c",
+    "frame_count": 241,
+    "candidate_t0": 192,
+    "observed_indices": [
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "horizontal",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      127.75609925903869,
+      286.8045471846717,
+      248.98428608636274
+    ],
+    "rotation_diversity_singular_values_rad": [
+      2.7582170959804166,
+      0.17823364788872884,
+      0.10235853525342195
+    ],
+    "max_rotation_deg": 53.243278237909,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.9491876220703125,
+        "median_raw_depth": 3724.0,
+        "laplacian_variance_t0": 402.9988153241575
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9378396606445313,
+        "median_raw_depth": 4184.0,
+        "laplacian_variance_t0": 338.14883356913924
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.686751708984375,
+        "median_raw_depth": 3979.0,
+        "laplacian_variance_t0": 442.75280660390854
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.713267822265625,
+        "median_raw_depth": 3484.0,
+        "laplacian_variance_t0": 587.1488108278718
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_horizontal_n_8.npy",
+    "source_sha256": "f7aa71525760cb8ca8625cb336819f791a50b2354b93113baa77bf81f83c1c3b",
+    "frame_count": 257,
+    "candidate_t0": 226,
+    "observed_indices": [
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "horizontal",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      135.64631674291948,
+      297.9446243674554,
+      239.43986640837335
+    ],
+    "rotation_diversity_singular_values_rad": [
+      2.7766365478630957,
+      0.19120313143408327,
+      0.06373976065622562
+    ],
+    "max_rotation_deg": 55.09390173021394,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.94952880859375,
+        "median_raw_depth": 3705.0,
+        "laplacian_variance_t0": 369.13169547822326
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9355148315429688,
+        "median_raw_depth": 4176.0,
+        "laplacian_variance_t0": 355.0398005952593
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.6893896484375,
+        "median_raw_depth": 3860.0,
+        "laplacian_variance_t0": 339.0229335294571
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.6807931518554687,
+        "median_raw_depth": 3446.0,
+        "laplacian_variance_t0": 561.5169804652687
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_2.npy",
+    "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+    "frame_count": 148,
+    "candidate_t0": 126,
+    "observed_indices": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      204.88458647178197,
+      303.0918634543289,
+      130.31937488694916
+    ],
+    "rotation_diversity_singular_values_rad": [
+      0.5625212458500266,
+      0.09553309563228224,
+      0.06124664236369592
+    ],
+    "max_rotation_deg": 11.123932240128612,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.95508544921875,
+        "median_raw_depth": 3775.0,
+        "laplacian_variance_t0": 420.422436931869
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9434457397460938,
+        "median_raw_depth": 4216.0,
+        "laplacian_variance_t0": 357.3350257256534
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.7472723388671875,
+        "median_raw_depth": 3567.0,
+        "laplacian_variance_t0": 273.94982051849365
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.7568020629882812,
+        "median_raw_depth": 3777.0,
+        "laplacian_variance_t0": 552.2216725787148
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_3.npy",
+    "source_sha256": "d82b8659f4534f250bda56be4932b365ef27db6202148d485c9adc9b1cd12885",
+    "frame_count": 165,
+    "candidate_t0": 115,
+    "observed_indices": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      164.181934076221,
+      378.91537444329913,
+      187.8371278531336
+    ],
+    "rotation_diversity_singular_values_rad": [
+      0.3632856355911953,
+      0.18043210293021594,
+      0.10065535680889341
+    ],
+    "max_rotation_deg": 6.895808538795929,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.970833740234375,
+        "median_raw_depth": 3808.0,
+        "laplacian_variance_t0": 406.5417004674673
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9330612182617187,
+        "median_raw_depth": 4097.0,
+        "laplacian_variance_t0": 363.30691683199257
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.7598779296875,
+        "median_raw_depth": 2898.0,
+        "laplacian_variance_t0": 388.6978209903464
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.746199951171875,
+        "median_raw_depth": 3356.0,
+        "laplacian_variance_t0": 499.5783265752252
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_4.npy",
+    "source_sha256": "0c3b76100b09bdf5f88c2aba5b26dcf1f4725de1afd439a603436d5319ae095c",
+    "frame_count": 190,
+    "candidate_t0": 143,
+    "observed_indices": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      178.62265697755743,
+      181.18351579330403,
+      49.35820011603453
+    ],
+    "rotation_diversity_singular_values_rad": [
+      1.6314785128605414,
+      0.0901501986919628,
+      0.037853558051510694
+    ],
+    "max_rotation_deg": 36.09752960755232,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.9610308837890625,
+        "median_raw_depth": 3828.0,
+        "laplacian_variance_t0": 389.0852315425873
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9475189208984375,
+        "median_raw_depth": 4241.0,
+        "laplacian_variance_t0": 363.09464384405874
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.7534716796875,
+        "median_raw_depth": 3922.0,
+        "laplacian_variance_t0": 357.26877525355667
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.77079345703125,
+        "median_raw_depth": 4259.0,
+        "laplacian_variance_t0": 541.2134282058105
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_5.npy",
+    "source_sha256": "e7af87b1d20b2f55689ffd4a6f446f6f99ac48cef34697fc53454a0cfb235adf",
+    "frame_count": 172,
+    "candidate_t0": 121,
+    "observed_indices": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      43.25375700772144,
+      382.4167360691936,
+      206.98422485562716
+    ],
+    "rotation_diversity_singular_values_rad": [
+      1.595544110200256,
+      0.22967660101099058,
+      0.05757785274001566
+    ],
+    "max_rotation_deg": 29.082389804006933,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.965408935546875,
+        "median_raw_depth": 3821.0,
+        "laplacian_variance_t0": 389.75787208764814
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9260870361328125,
+        "median_raw_depth": 4152.0,
+        "laplacian_variance_t0": 370.98387535568327
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.727288818359375,
+        "median_raw_depth": 3736.0,
+        "laplacian_variance_t0": 652.6519856413361
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.7402484130859375,
+        "median_raw_depth": 3856.0,
+        "laplacian_variance_t0": 720.7527632378042
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "1_M_L_3_vertical_n_6.npy",
+    "source_sha256": "f20ac14882a620eb9ebf43615b25b43b9836b9fd2adb2c72d4958fc15046aade",
+    "frame_count": 160,
+    "candidate_t0": 114,
+    "observed_indices": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      108.62674913474218,
+      375.6492868267777,
+      177.270942629736
+    ],
+    "rotation_diversity_singular_values_rad": [
+      0.29718221500793085,
+      0.11333252474788275,
+      0.03206199179530546
+    ],
+    "max_rotation_deg": 7.1663394432660725,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.9639727783203125,
+        "median_raw_depth": 3828.0,
+        "laplacian_variance_t0": 396.39637567009777
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.9206625366210938,
+        "median_raw_depth": 4136.0,
+        "laplacian_variance_t0": 358.0765026116278
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.7326400756835938,
+        "median_raw_depth": 3483.0,
+        "laplacian_variance_t0": 377.2670699709561
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.7509979248046875,
+        "median_raw_depth": 3822.0,
+        "laplacian_variance_t0": 638.5987767791376
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  },
+  {
+    "source_file": "2_M_L_7_vertical_n_0.npy",
+    "source_sha256": "150b12a9f0d9e148be609bc5c39ea0b25114efb651840536e8c3f54eec144f53",
+    "frame_count": 175,
+    "candidate_t0": 114,
+    "observed_indices": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 7,
+      "shape": 2,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "primitive_at_t0": "insert",
+    "tcp_translation_range_mm": [
+      38.3865378877985,
+      385.4933310216695,
+      187.72406899125392
+    ],
+    "rotation_diversity_singular_values_rad": [
+      0.4266867272861935,
+      0.13517263295430396,
+      0.029473258432042595
+    ],
+    "max_rotation_deg": 7.6410633656783284,
+    "qualities": {
+      "side_1": {
+        "valid_depth_fraction": 0.9788461303710938,
+        "median_raw_depth": 3828.0,
+        "laplacian_variance_t0": 458.9240650497377
+      },
+      "side_2": {
+        "valid_depth_fraction": 0.926190185546875,
+        "median_raw_depth": 4241.0,
+        "laplacian_variance_t0": 400.1316525225993
+      },
+      "wrist_1": {
+        "valid_depth_fraction": 0.7525927734375,
+        "median_raw_depth": 3888.0,
+        "laplacian_variance_t0": 803.3049417303409
+      },
+      "wrist_2": {
+        "valid_depth_fraction": 0.7499472045898438,
+        "median_raw_depth": 4267.0,
+        "laplacian_variance_t0": 676.7288253447041
+      }
+    },
+    "future_pixel_accessed": false,
+    "selection_future_poses_accessed": false
+  }
+]

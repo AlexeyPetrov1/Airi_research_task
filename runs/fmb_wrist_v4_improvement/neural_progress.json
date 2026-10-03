@@ -1,0 +1,23 @@
+[
+  {
+    "camera": "wrist_2",
+    "variant": "H3_rigid_observed",
+    "ADE_mm": 50.27731732844266,
+    "FDE_mm": 95.9948755577537,
+    "not_used_for_selection": true
+  },
+  {
+    "camera": "wrist_2",
+    "variant": "H1_native",
+    "ADE_mm": 43.12344635160655,
+    "FDE_mm": 89.27807801106682,
+    "not_used_for_selection": true
+  },
+  {
+    "camera": "wrist_1",
+    "variant": "H3_rigid_observed",
+    "ADE_mm": 105.82421648215293,
+    "FDE_mm": 203.62838147708212,
+    "not_used_for_selection": true
+  }
+]

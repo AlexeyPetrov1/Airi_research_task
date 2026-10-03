@@ -1,0 +1,10 @@
+{
+  "future_used": false,
+  "old_query_sha256": "45ae445f36dc88d29a685a26f25afbc26e4dd5dc2dbafdd945bdf1d84018344f",
+  "new_query_sha256": "146a949b3b8c308ecb1a4f3c5e5c6548214c12f16900bf8d6397f50ee01f2bdc",
+  "reason": "Initial 100 produced only 13 common eligible tracks on wrist_2. Retain 24-point requirement and all quality thresholds.",
+  "sampling_rule": "Author KMeans seed0,100 points on SAM interior margin>=2.5 px and 5x5 sensor and ViPE t0 depth finite, >=13 valid, p90-p10<0.03m",
+  "support_pixels": 2117,
+  "source_t0": 126,
+  "original_candidates_preserved": "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_1/geometry/initial_100_candidates"
+}

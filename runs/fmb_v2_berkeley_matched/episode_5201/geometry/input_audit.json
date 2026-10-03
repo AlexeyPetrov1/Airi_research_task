@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "future_used": false,
+  "selected_points": 24,
+  "historical_xyz_shape": [
+    3,
+    24,
+    3
+  ],
+  "finite": true,
+  "positive_z": true,
+  "history_smoothing_max_displacement_m": 0.006011712830513716,
+  "raw_history_speed_max_m_s": 0.1859702318906784,
+  "history_speed_max_m_s": 0.19795145094394684,
+  "pairwise_distance_change_max_m": 0.018592923879623413,
+  "pairwise_distance_change_median_m": 0.004878554958850145,
+  "implementation_roundtrip_max_error_px": 1.1444091796875e-05,
+  "depth_coverage_h3": 1.0,
+  "mask_area_px": 4650,
+  "official_kept_count": 93,
+  "eligible_h3_count": 39,
+  "camera_fixed": true,
+  "author_filter_source_sha256": "ceb21903da85de835b9314b61356c69d5033afcda68d73764a82cd135e9272fd",
+  "author_filter_adapter": "Guard empty dropped_mw only in diagnostic print; no algorithm change or vendored-file edit",
+  "author_filter_parameters": "Same compute_trust_weights, z_thresh=2, default consensus_gated_smooth as Berkeley",
+  "temporal_limitation": "H3 uses nominal 10Hz [-0.2,-0.1,0] rather than training 15Hz",
+  "runtime_seconds": 10.131748547000143,
+  "group_payload_audit": {
+    "group_count": 3,
+    "group_names": [
+      "group_00",
+      "group_01",
+      "group_02"
+    ],
+    "selected_point_ids": [
+      7,
+      38,
+      82,
+      4,
+      47,
+      67,
+      28,
+      32,
+      66,
+      6,
+      8,
+      39,
+      72,
+      84,
+      31,
+      85,
+      65,
+      60,
+      37,
+      58,
+      41,
+      46,
+      5,
+      12
+    ],
+    "all_group_payloads_equal_canonical_history": true
+  }
+}

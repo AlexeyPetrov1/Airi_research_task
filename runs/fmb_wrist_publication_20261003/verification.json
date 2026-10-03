@@ -1,0 +1,9 @@
+{
+  "verified_utc": "2026-10-03T11:42:25.440036+00:00",
+  "success": true,
+  "staged_files_verified": 1592,
+  "report_links_verified": 151,
+  "manifest_sha256": "a07e2b813e2f7c7fa307328668e32051be841e3e80280b03c1a4ecb44462e4e8",
+  "method": "SHA256 of every staged Git blob equals publication manifest; report targets are included in index",
+  "unchanged_hashed_bytes": true
+}

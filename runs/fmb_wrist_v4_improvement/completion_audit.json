@@ -1,0 +1,465 @@
+{
+  "success": true,
+  "completed_utc": "2026-10-03T11:38:27.050202+00:00",
+  "checks": [
+    {
+      "requirement": "All planned native variants finished",
+      "pass": true,
+      "evidence": "inference_status.json"
+    },
+    {
+      "requirement": "Observed policy selection stays before source127",
+      "pass": true,
+      "evidence": "Observed selectors and their source bounds"
+    },
+    {
+      "requirement": "Two motion families actually validated",
+      "pass": true,
+      "evidence": "motion_policy_amendment_v2.json; NaN-empty comparison rejected"
+    },
+    {
+      "requirement": "Winner selected by observed target error",
+      "pass": true,
+      "evidence": "Observed ranking, no future ADE selection"
+    },
+    {
+      "requirement": "Exploratory prior future knowledge disclosed",
+      "pass": true,
+      "evidence": "Preregistration and amendment limitations"
+    },
+    {
+      "requirement": "Built-in image assessment, no external assessment VLM",
+      "pass": true,
+      "evidence": "builtin_visual_review.json"
+    },
+    {
+      "requirement": "Actual reviewed images preserved",
+      "pass": true,
+      "evidence": "Reviewed image SHA256"
+    },
+    {
+      "requirement": "Five meaningful coordinate tests pass",
+      "pass": true,
+      "evidence": "coordinate_tests.json"
+    },
+    {
+      "requirement": "Tested source code unchanged",
+      "pass": true,
+      "evidence": "Test/code hashes"
+    },
+    {
+      "requirement": "wrist_2only50 observed TCP poses",
+      "pass": true,
+      "evidence": "Observed archive compared to original prefix"
+    },
+    {
+      "requirement": "wrist_2same X/K/24 point IDs",
+      "pass": true,
+      "evidence": "Fixed original geometry and query set"
+    },
+    {
+      "requirement": "wrist_2forecast reconstructs from observed poses alone",
+      "pass": true,
+      "evidence": "Replayed frozen motion policy; no future TCP passed"
+    },
+    {
+      "requirement": "wrist_2/H3_rigid_observedfrozen inputs unchanged",
+      "pass": true,
+      "evidence": "input_spec.json"
+    },
+    {
+      "requirement": "wrist_2/H3_rigid_observedgenuine unchanged RGB frames",
+      "pass": true,
+      "evidence": "Original source RGB, no guessed future image"
+    },
+    {
+      "requirement": "wrist_2/H3_rigid_observedsame point order",
+      "pass": true,
+      "evidence": "24 frozen IDs and finite H1/H3"
+    },
+    {
+      "requirement": "wrist_2/H3_rigid_observed/group0 actual strict output",
+      "pass": true,
+      "evidence": "wrist_2/variants/H3_rigid_observed/group_00"
+    },
+    {
+      "requirement": "wrist_2/H3_rigid_observed/group1 actual strict output",
+      "pass": true,
+      "evidence": "wrist_2/variants/H3_rigid_observed/group_01"
+    },
+    {
+      "requirement": "wrist_2/H3_rigid_observed/group2 actual strict output",
+      "pass": true,
+      "evidence": "wrist_2/variants/H3_rigid_observed/group_02"
+    },
+    {
+      "requirement": "wrist_2/H3_rigid_observedcombined native output exact",
+      "pass": true,
+      "evidence": "H3_rigid_observed"
+    },
+    {
+      "requirement": "wrist_2/H1_nativefrozen inputs unchanged",
+      "pass": true,
+      "evidence": "input_spec.json"
+    },
+    {
+      "requirement": "wrist_2/H1_nativegenuine unchanged RGB frames",
+      "pass": true,
+      "evidence": "Original source RGB, no guessed future image"
+    },
+    {
+      "requirement": "wrist_2/H1_nativesame point order",
+      "pass": true,
+      "evidence": "24 frozen IDs and finite H1/H3"
+    },
+    {
+      "requirement": "wrist_2/H1_native/group0 actual strict output",
+      "pass": true,
+      "evidence": "wrist_2/variants/H1_native/group_00"
+    },
+    {
+      "requirement": "wrist_2/H1_native/group1 actual strict output",
+      "pass": true,
+      "evidence": "wrist_2/variants/H1_native/group_01"
+    },
+    {
+      "requirement": "wrist_2/H1_native/group2 actual strict output",
+      "pass": true,
+      "evidence": "wrist_2/variants/H1_native/group_02"
+    },
+    {
+      "requirement": "wrist_2/H1_nativecombined native output exact",
+      "pass": true,
+      "evidence": "H1_native"
+    },
+    {
+      "requirement": "wrist_2unchanged reference and masks",
+      "pass": true,
+      "evidence": "Exact original reference SHA/masks"
+    },
+    {
+      "requirement": "wrist_2/v3_Molmo_H3original metrics reproduced",
+      "pass": true,
+      "evidence": "Recomputed original baseline metrics"
+    },
+    {
+      "requirement": "wrist_2/v3_Staticoriginal metrics reproduced",
+      "pass": true,
+      "evidence": "Recomputed original baseline metrics"
+    },
+    {
+      "requirement": "wrist_2/v3_CVoriginal metrics reproduced",
+      "pass": true,
+      "evidence": "Recomputed original baseline metrics"
+    },
+    {
+      "requirement": "wrist_2every method keeps original masks and off-image errors",
+      "pass": true,
+      "evidence": "No masks narrowed for improved numbers"
+    },
+    {
+      "requirement": "wrist_2practical forecast improves over both old model and Static",
+      "pass": true,
+      "evidence": "Numerical improvement on the same reference, not attributed to neural retraining"
+    },
+    {
+      "requirement": "wrist_2bounded neural residual uses observed radius",
+      "pass": true,
+      "evidence": "Observed clipping rule and exact hybrid decomposition"
+    },
+    {
+      "requirement": "wrist_2no future camera poses used in forecast",
+      "pass": true,
+      "evidence": "metrics.json and reconstructed prediction above"
+    },
+    {
+      "requirement": "wrist_2seven observed-fit reference sensitivity",
+      "pass": true,
+      "evidence": "calibration_ranking_sensitivity.json"
+    },
+    {
+      "requirement": "wrist_2new comparison video plays to final frame",
+      "pass": true,
+      "evidence": {
+        "sha256": "f667389a222c16861b763e6eaf4f6edb2c35d5b125d2dea82f78a09cae7f625b",
+        "frames": 20.0,
+        "fps": 10.0
+      }
+    },
+    {
+      "requirement": "wrist_2complete30/32 step plots exist",
+      "pass": true,
+      "evidence": "Complete native trajectories shown, no clipped coordinate range"
+    },
+    {
+      "requirement": "wrist_1only50 observed TCP poses",
+      "pass": true,
+      "evidence": "Observed archive compared to original prefix"
+    },
+    {
+      "requirement": "wrist_1same X/K/24 point IDs",
+      "pass": true,
+      "evidence": "Fixed original geometry and query set"
+    },
+    {
+      "requirement": "wrist_1forecast reconstructs from observed poses alone",
+      "pass": true,
+      "evidence": "Replayed frozen motion policy; no future TCP passed"
+    },
+    {
+      "requirement": "wrist_1/H3_rigid_observedfrozen inputs unchanged",
+      "pass": true,
+      "evidence": "input_spec.json"
+    },
+    {
+      "requirement": "wrist_1/H3_rigid_observedgenuine unchanged RGB frames",
+      "pass": true,
+      "evidence": "Original source RGB, no guessed future image"
+    },
+    {
+      "requirement": "wrist_1/H3_rigid_observedsame point order",
+      "pass": true,
+      "evidence": "24 frozen IDs and finite H1/H3"
+    },
+    {
+      "requirement": "wrist_1/H3_rigid_observed/group0 actual strict output",
+      "pass": true,
+      "evidence": "wrist_1/variants/H3_rigid_observed/group_00"
+    },
+    {
+      "requirement": "wrist_1/H3_rigid_observed/group1 actual strict output",
+      "pass": true,
+      "evidence": "wrist_1/variants/H3_rigid_observed/group_01"
+    },
+    {
+      "requirement": "wrist_1/H3_rigid_observed/group2 actual strict output",
+      "pass": true,
+      "evidence": "wrist_1/variants/H3_rigid_observed/group_02"
+    },
+    {
+      "requirement": "wrist_1/H3_rigid_observedcombined native output exact",
+      "pass": true,
+      "evidence": "H3_rigid_observed"
+    },
+    {
+      "requirement": "wrist_1/H1_nativefrozen inputs unchanged",
+      "pass": true,
+      "evidence": "input_spec.json"
+    },
+    {
+      "requirement": "wrist_1/H1_nativegenuine unchanged RGB frames",
+      "pass": true,
+      "evidence": "Original source RGB, no guessed future image"
+    },
+    {
+      "requirement": "wrist_1/H1_nativesame point order",
+      "pass": true,
+      "evidence": "24 frozen IDs and finite H1/H3"
+    },
+    {
+      "requirement": "wrist_1/H1_native/group0 actual strict output",
+      "pass": true,
+      "evidence": "wrist_1/variants/H1_native/group_00"
+    },
+    {
+      "requirement": "wrist_1/H1_native/group1 actual strict output",
+      "pass": true,
+      "evidence": "wrist_1/variants/H1_native/group_01"
+    },
+    {
+      "requirement": "wrist_1/H1_native/group2 actual strict output",
+      "pass": true,
+      "evidence": "wrist_1/variants/H1_native/group_02"
+    },
+    {
+      "requirement": "wrist_1/H1_nativecombined native output exact",
+      "pass": true,
+      "evidence": "H1_native"
+    },
+    {
+      "requirement": "wrist_1unchanged reference and masks",
+      "pass": true,
+      "evidence": "Exact original reference SHA/masks"
+    },
+    {
+      "requirement": "wrist_1/v3_Molmo_H3original metrics reproduced",
+      "pass": true,
+      "evidence": "Recomputed original baseline metrics"
+    },
+    {
+      "requirement": "wrist_1/v3_Staticoriginal metrics reproduced",
+      "pass": true,
+      "evidence": "Recomputed original baseline metrics"
+    },
+    {
+      "requirement": "wrist_1/v3_CVoriginal metrics reproduced",
+      "pass": true,
+      "evidence": "Recomputed original baseline metrics"
+    },
+    {
+      "requirement": "wrist_1every method keeps original masks and off-image errors",
+      "pass": true,
+      "evidence": "No masks narrowed for improved numbers"
+    },
+    {
+      "requirement": "wrist_1practical forecast improves over both old model and Static",
+      "pass": true,
+      "evidence": "Numerical improvement on the same reference, not attributed to neural retraining"
+    },
+    {
+      "requirement": "wrist_1bounded neural residual uses observed radius",
+      "pass": true,
+      "evidence": "Observed clipping rule and exact hybrid decomposition"
+    },
+    {
+      "requirement": "wrist_1no future camera poses used in forecast",
+      "pass": true,
+      "evidence": "metrics.json and reconstructed prediction above"
+    },
+    {
+      "requirement": "wrist_1seven observed-fit reference sensitivity",
+      "pass": true,
+      "evidence": "calibration_ranking_sensitivity.json"
+    },
+    {
+      "requirement": "wrist_1new comparison video plays to final frame",
+      "pass": true,
+      "evidence": {
+        "sha256": "b5b23e3ffa29ec6e7124eb096ba92372bbb3b29cbd0ce8fd20c2a298ad2e005b",
+        "frames": 20.0,
+        "fps": 10.0
+      }
+    },
+    {
+      "requirement": "wrist_1complete30/32 step plots exist",
+      "pass": true,
+      "evidence": "Complete native trajectories shown, no clipped coordinate range"
+    },
+    {
+      "requirement": "Entire prior run and report preserved",
+      "pass": true,
+      "evidence": {
+        "preserved_files": 924
+      }
+    },
+    {
+      "requirement": "12 complete native P8 calls",
+      "pass": true,
+      "evidence": "Two neural variants, two cameras, three groups each"
+    },
+    {
+      "requirement": "Incomplete extra call disclosed, no outside process killed",
+      "pass": true,
+      "evidence": "Runtime interruption ledger"
+    },
+    {
+      "requirement": "Final report and all evidence/video links resolve",
+      "pass": true,
+      "evidence": "Completed full report"
+    },
+    {
+      "requirement": "Reproduction commands and limitations documented",
+      "pass": true,
+      "evidence": "REPRODUCE.md"
+    },
+    {
+      "requirement": "Local video gallery present and hash verified",
+      "pass": true,
+      "evidence": "index.html"
+    }
+  ],
+  "native_calls": [
+    {
+      "camera": "wrist_2",
+      "variant": "H3_rigid_observed",
+      "group": 0,
+      "seconds": 692.033791785,
+      "peak_cuda_allocated_gib": 9.571310997009277
+    },
+    {
+      "camera": "wrist_2",
+      "variant": "H3_rigid_observed",
+      "group": 1,
+      "seconds": 118.93877089600005,
+      "peak_cuda_allocated_gib": 9.541937828063965
+    },
+    {
+      "camera": "wrist_2",
+      "variant": "H3_rigid_observed",
+      "group": 2,
+      "seconds": 115.39312835999999,
+      "peak_cuda_allocated_gib": 9.524987697601318
+    },
+    {
+      "camera": "wrist_2",
+      "variant": "H1_native",
+      "group": 0,
+      "seconds": 143.1523245110002,
+      "peak_cuda_allocated_gib": 9.544275760650635
+    },
+    {
+      "camera": "wrist_2",
+      "variant": "H1_native",
+      "group": 1,
+      "seconds": 118.01065732899997,
+      "peak_cuda_allocated_gib": 9.497485637664795
+    },
+    {
+      "camera": "wrist_2",
+      "variant": "H1_native",
+      "group": 2,
+      "seconds": 117.19490936600005,
+      "peak_cuda_allocated_gib": 9.488037586212158
+    },
+    {
+      "camera": "wrist_1",
+      "variant": "H3_rigid_observed",
+      "group": 0,
+      "seconds": 145.45120596299967,
+      "peak_cuda_allocated_gib": 9.600465297698975
+    },
+    {
+      "camera": "wrist_1",
+      "variant": "H3_rigid_observed",
+      "group": 1,
+      "seconds": 125.65232972700005,
+      "peak_cuda_allocated_gib": 9.576784133911133
+    },
+    {
+      "camera": "wrist_1",
+      "variant": "H3_rigid_observed",
+      "group": 2,
+      "seconds": 121.70541252099974,
+      "peak_cuda_allocated_gib": 9.569301128387451
+    },
+    {
+      "camera": "wrist_1",
+      "variant": "H1_native",
+      "group": 0,
+      "seconds": 137.40572177700005,
+      "peak_cuda_allocated_gib": 9.543996334075928
+    },
+    {
+      "camera": "wrist_1",
+      "variant": "H1_native",
+      "group": 1,
+      "seconds": 129.82910250800023,
+      "peak_cuda_allocated_gib": 9.539822578430176
+    },
+    {
+      "camera": "wrist_1",
+      "variant": "H1_native",
+      "group": 2,
+      "seconds": 140.60471461399993,
+      "peak_cuda_allocated_gib": 9.55857801437378
+    }
+  ],
+  "successful_generations": 12,
+  "interrupted_generations": 1,
+  "initialization_failures_before_new_generations": 2,
+  "report_sha256": "03d9a06518752b6870fad5bc53c92c6064eafcd429290e8236f3185ecb3c83b2",
+  "audit_script_sha256": "365f1244d7f205fd29d516d15dec0a780c59f0db8624c02e206072d571532fee",
+  "experimental_unit": "One previously studied episode, two views sharing the robot stream",
+  "result": "Actual practical forecast improved on unchanged estimated reference; native ablations and negative results retained, improvement attribution separated from neural model changes.",
+  "physical_geometry_certified": false
+}

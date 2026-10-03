@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-03T04:15:40.330971+00:00",
+  "prediction_receipts": [
+    {
+      "path": "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_2/branches/A_vipe_full/predictions/model_run.json",
+      "sha256": "be71f43ba269710bb3bfd4962bc68671ec649c7b4ebeb17656ca91805bbb53ac"
+    },
+    {
+      "path": "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_2/branches/B_sensor_vipe/predictions/model_run.json",
+      "sha256": "c31b48ecd12bcceba1b2e653d195671792ae6b0a7517cbd594b12fd3964dfd0e"
+    },
+    {
+      "path": "/mnt/f/AIRI_task/molmo-motion/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/model_run.json",
+      "sha256": "095aacc6dd81c9c9f12c9142c45adb90011eee2b990ef5d790d8d9ed969c0f8b"
+    }
+  ],
+  "source_indices": [
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "future_used_for_evaluation_only": true,
+  "nominal_source_fps": 10,
+  "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96"
+}
