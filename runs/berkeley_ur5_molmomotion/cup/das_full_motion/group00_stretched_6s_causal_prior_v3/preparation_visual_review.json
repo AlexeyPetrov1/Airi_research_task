@@ -1,0 +1,8 @@
+﻿{
+    "prior_masks_sha256":  "2ef6d1e2e0fe2e988eff5f66d45c42943a7b68556221a06c492d55a28c6bd139",
+    "accepted":  true,
+    "control_sha256":  "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479",
+    "guide_accepted":  true,
+    "guide_sha256":  "0cb7e60e7bcca81bc9c4e5091ac3917e77100ae4acd18015cb96eedaed3ad0fc",
+    "review":  "Viewed all seven guide checkpoints. One complete recognizable cup follows raw group00 up/right/down path; original site is clear. First RGB is byte-identical to model start image. Proximal forearm absent in this guide but receives zero local prior weight; it is synthesized independently. Cup uses sparse-anchor affine projection; local wrist/gripper use their own projected surface. Small local approximation errors documented in preparation.json. Control is byte-identical to H2."
+}

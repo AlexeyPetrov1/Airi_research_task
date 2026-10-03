@@ -1,0 +1,7 @@
+{
+  "/mnt/f/AIRI_task/molmo-motion/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca",
+  "/mnt/f/AIRI_task/molmo-motion/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+  "/mnt/f/AIRI_task/das_reference_repair_20261003/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca",
+  "/mnt/f/AIRI_task/das_reference_repair_20261003/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+  "/mnt/f/AIRI_task/das_reference_repair_20261003/runs/berkeley_ur5_molmomotion/cup/das_reference_repair/guided_endpoint_background/generated_seed42.mp4": "52b4f4b482adfe5d20c843df2049ad39f6d5f6d7ba6249bc5e56148f1732905f"
+}

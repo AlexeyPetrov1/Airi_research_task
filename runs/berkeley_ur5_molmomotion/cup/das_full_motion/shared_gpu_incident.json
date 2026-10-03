@@ -1,0 +1,16 @@
+{
+  "date_utc": "2026-10-03",
+  "attempts": ["H3_first_attempt_paging", "H3_second_attempt_shared_gpu"],
+  "success": false,
+  "actual_generated_video": false,
+  "external_process_pid": 5840,
+  "external_work": "molmo-motion-final/outputs/inference_verified; motion_experiments.run --mode inference",
+  "observation": "During a cached-guide transfer the DaS process had approximately 0.2 GB allocated CUDA memory, while global GPU use was 11666 MiB on the 12 GB RTX 4070. Another MolmoMotion model was active. Both attempts stalled in CPU-to-CUDA transfers; no denoising output was produced.",
+  "initial_hypothesis": "Unused VAE allocation cache alone might cause paging. This was not established by an isolated experiment.",
+  "revised_interpretation": "Concurrent model VRAM contention explains the observed transfer delays. Cache release is retained as a resource precaution, without claiming it was the sole cause.",
+  "owned_processes_stopped": [6240, 11438],
+  "external_process_stopped": false,
+  "user_decision": "Wait for the other inference to finish; do not stop it.",
+  "recovery": "Wait for existing motion_experiments inference processes and over 9 GiB free VRAM before importing Torch/loading DaS. Reuse the exact saved guide latents from the first attempt, with source-guide SHA checks and final tensor equality validation.",
+  "archival_policy": "Original resource logs, snapshots and latent files are retained. This separate note corrects the interpretation without rewriting those historical logs."
+}

@@ -1,0 +1,148 @@
+STAGE imports 3.1s
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:250: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:261: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_transformer3d.py:338: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+STAGE official_model_loading 122.5s
+loaded 3D transformer's pretrained weights from /mnt/f/AIRI_task/models/Wan2.1-Fun-V1.1-1.3B-Control/./ ...
+### missing keys: 0; 
+### unexpected keys: 0;
+[] []
+### missing keys: 0; 
+### unexpected keys: 0;
+[] []
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:184: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  self.video_processor = VideoProcessor(vae_scale_factor=self.vae.spacial_compression_ratio)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:185: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  self.image_processor = VaeImageProcessor(vae_scale_factor=self.vae.spacial_compression_ratio)
+/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py:187: FutureWarning: Accessing config attribute `spacial_compression_ratio` directly via 'AutoencoderKLWan' object attribute is deprecated. Please access 'spacial_compression_ratio' over 'AutoencoderKLWan's config object instead, e.g. 'unet.config.spacial_compression_ratio'.
+  vae_scale_factor=self.vae.spacial_compression_ratio, do_normalize=False, do_binarize=True, do_convert_grayscale=True
+Enable TeaCache with threshold 0.1 and skip the first 5 steps.
+STAGE encode_photographic_guide 243.8s
+STAGE pipeline 479.3s
+Traceback (most recent call last):
+  File "/mnt/f/AIRI_task/das_full_motion_20261003/scripts/das_full_motion_generate.py", line 169, in main
+    self.transformer.register_forward_pre_hook(lambda *unused:stage('denoise'))
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/models/pipelines_wanfun.py", line 209, in _infer_wanfun_ctrl
+    video_generate = pipe(
+                     ^^^^^
+  File "/mnt/f/AIRI_task/das_full_motion_20261003/scripts/das_full_motion_generate.py", line 152, in guided_call
+    # shared-memory paging despite very small live guide latents.
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py", line 548, in __call__
+    prompt_embeds, negative_prompt_embeds = self.encode_prompt(
+                                            ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py", line 281, in encode_prompt
+    prompt_embeds = self._get_t5_prompt_embeds(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py", line 224, in _get_t5_prompt_embeds
+    prompt_embeds = self.text_encoder(text_input_ids.to(device), attention_mask=prompt_attention_mask.to(device))[0]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_text_encoder.py", line 301, in forward
+    x = block(x, attention_mask, pos_bias=e)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_text_encoder.py", line 161, in forward
+    x = fp16_clamp(x + self.attn(self.norm1(x), mask=mask, pos_bias=e))
+                                 ^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/hooks.py", line 170, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/hooks.py", line 360, in pre_forward
+    set_module_tensor_to_device(
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/utils/modeling.py", line 343, in set_module_tensor_to_device
+    new_value = value.to(device, non_blocking=non_blocking)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/mnt/f/AIRI_task/das_full_motion_20261003/scripts/das_full_motion_generate.py", line 179, in <module>
+    return result
+                ^^
+  File "/mnt/f/AIRI_task/das_full_motion_20261003/scripts/das_full_motion_generate.py", line 169, in main
+    self.transformer.register_forward_pre_hook(lambda *unused:stage('denoise'))
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/models/pipelines_wanfun.py", line 209, in _infer_wanfun_ctrl
+    video_generate = pipe(
+                     ^^^^^
+  File "/mnt/f/AIRI_task/das_full_motion_20261003/scripts/das_full_motion_generate.py", line 152, in guided_call
+    # shared-memory paging despite very small live guide latents.
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py", line 548, in __call__
+    prompt_embeds, negative_prompt_embeds = self.encode_prompt(
+                                            ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py", line 281, in encode_prompt
+    prompt_embeds = self._get_t5_prompt_embeds(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/pipeline/pipeline_wan_fun_control.py", line 224, in _get_t5_prompt_embeds
+    prompt_embeds = self.text_encoder(text_input_ids.to(device), attention_mask=prompt_attention_mask.to(device))[0]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_text_encoder.py", line 301, in forward
+    x = block(x, attention_mask, pos_bias=e)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun/videox_fun/models/wan_text_encoder.py", line 161, in forward
+    x = fp16_clamp(x + self.attn(self.norm1(x), mask=mask, pos_bias=e))
+                                 ^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/hooks.py", line 170, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/hooks.py", line 360, in pre_forward
+    set_module_tensor_to_device(
+  File "/mnt/f/AIRI_task/.venv/lib/python3.11/site-packages/accelerate/utils/modeling.py", line 343, in set_module_tensor_to_device
+    new_value = value.to(device, non_blocking=non_blocking)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,78 @@
+{
+  "repo_id": "alibaba-pai/Wan2.1-Fun-V1.1-1.3B-Control",
+  "revision": "a116c52b08182f7a5916eae7a47fcd61a9467a04",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 2313
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11357
+    },
+    {
+      "path": "README.md",
+      "bytes": 19054
+    },
+    {
+      "path": "README_en.md",
+      "bytes": 19736
+    },
+    {
+      "path": "Wan2.1_VAE.pth",
+      "bytes": 507609880
+    },
+    {
+      "path": "config.json",
+      "bytes": 567
+    },
+    {
+      "path": "configuration.json",
+      "bytes": 56
+    },
+    {
+      "path": "diffusion_pytorch_model.safetensors",
+      "bytes": 3129305312
+    },
+    {
+      "path": "google/umt5-xxl/special_tokens_map.json",
+      "bytes": 6623
+    },
+    {
+      "path": "google/umt5-xxl/spiece.model",
+      "bytes": 4548313
+    },
+    {
+      "path": "google/umt5-xxl/tokenizer.json",
+      "bytes": 16837417
+    },
+    {
+      "path": "google/umt5-xxl/tokenizer_config.json",
+      "bytes": 61728
+    },
+    {
+      "path": "models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth",
+      "bytes": 4772359047
+    },
+    {
+      "path": "models_t5_umt5-xxl-enc-bf16.pth",
+      "bytes": 11361920418
+    },
+    {
+      "path": "xlm-roberta-large/sentencepiece.bpe.model",
+      "bytes": 5069051
+    },
+    {
+      "path": "xlm-roberta-large/special_tokens_map.json",
+      "bytes": 280
+    },
+    {
+      "path": "xlm-roberta-large/tokenizer.json",
+      "bytes": 17082660
+    },
+    {
+      "path": "xlm-roberta-large/tokenizer_config.json",
+      "bytes": 418
+    }
+  ]
+}

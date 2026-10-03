@@ -1,0 +1,15 @@
+{
+  "generation_conditions_frozen": true,
+  "entries": {
+    "group00_physical_2s": "Accepted trajectory control; scheduled H1; guide disabled.",
+    "group00_stretched_4s": "CPU-only temporal comparison; no diffusion claim.",
+    "group00_stretched_6s": "Accepted trajectory control; completed H2 and scheduled H4; guide disabled.",
+    "all24_stretched_6s": "CPU-only ordinary Kabsch diagnostic; does not reproduce group_00 exactly.",
+    "robust24_stretched_6s": "CPU-only Huber Kabsch diagnostic; does not reproduce group_00 exactly.",
+    "group00_stretched_6s_silhouette": "Rejected guide prototype: full-surface affine fit is affected by depth at the silhouette edge. Never used for successful diffusion.",
+    "group00_stretched_6s_anchor_silhouette": "Rejected guide prototype: extrapolating the cup anchor map to the wrist/gripper distorts their displacement. Never used for successful diffusion.",
+    "group00_stretched_6s_causal_prior": "Rejected guide prototype: exact first-frame resize differs from the saved initial image. Never used for successful diffusion.",
+    "group00_stretched_6s_causal_prior_v2": "First-frame resize corrected; superseded by identical guide plus more complete diagnostics in v3. Never used for successful diffusion.",
+    "group00_stretched_6s_causal_prior_v3": "Accepted t0-only guide; cup affine fit to eight projected forecast anchors, separate wrist/gripper fit to its own dense control surface. Exact initial guide image. Scheduled H3 strength 0.25."
+  }
+}

@@ -15,7 +15,8 @@
 /report/artifacts/** -text
 /runs/dobbe_colmap_clean_rerun_v1/** -text
 /runs/dobbe_colmap_official_v1/** -text
-/runs/berkeley_ur5_molmomotion/cup/das_full_motion/** -text
+/runs/berkeley_ur5_molmomotion/cup/das_full_motion/** -text whitespace=cr-at-eol
 /runs/berkeley_ur5_molmomotion/cup/das_full_motion/**/*.log -whitespace
 /runs/berkeley_ur5_molmomotion/cup/das_full_motion/**/gpu_info.txt -whitespace
 /scripts/das_full_motion_*.py text eol=lf
+/tests/test_das_full_motion.py text eol=lf

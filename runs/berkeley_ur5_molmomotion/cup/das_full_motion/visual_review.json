@@ -1,0 +1,17 @@
+{
+  "chosen_variant": "H2_group00_6s_no_prior",
+  "review_scope": "Current completed outputs only; update after the pending matched experiments finish.",
+  "variants": {
+    "H2_group00_6s_no_prior": {
+      "frames_reviewed": 49,
+      "full_predicted_arc_visible": true,
+      "motion": "Lift on the left, partial exit above the frame, rightward re-entry, lowering to the raw forecast endpoint above/right of the brown cup.",
+      "cup_identity": "One recognizable blue cup with the white printed motif; silhouette and motif deform during travel.",
+      "original_site_copy": false,
+      "local_gripper": "Travels with the cup; contact judged visually, not certified by physical reconstruction.",
+      "proximal_robot": "Mostly static; the local moving gripper becomes disconnected from the proximal arm. Not accepted as realistic robot kinematics.",
+      "artifacts": "Small light fragment late in the clip; changes in cup silhouette and printed motif.",
+      "acceptance": "Accepted for the requested full spatial cup arc. Appearance and full-arm realism remain limited."
+    }
+  }
+}

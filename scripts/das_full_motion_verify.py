@@ -37,6 +37,12 @@ def main():
         latents=torch.load(out/'generated_latents.pt',map_location='cpu',weights_only=False)['latents']
         check(f'{name}: real finite latent output',latents.shape==(1,16,13,60,90) and torch.isfinite(latents).all().item())
         if config['photographic_guide_strength']>0:
+            if config.get('cached_guide_from'):
+                cache=OUT/config['cached_guide_from']/'photographic_guide_latents.pt'
+                check(f'{name}: frozen latent cache bytes',sha256(cache)==config['cached_guide_latents_sha256'])
+                cached=torch.load(cache,map_location='cpu',weights_only=False)
+                consumed=torch.load(out/'photographic_guide_latents.pt',map_location='cpu',weights_only=False)
+                check(f'{name}: exactly identical cached guide',torch.equal(cached['latents'],consumed['latents']) and cached['guide_sha256']==consumed['guide_sha256']==config['guide_sha256'])
             receipt=json.loads((out/'photographic_prior_receipt.json').read_text())
             check(f'{name}: partial prior every step',receipt['applied_steps']==config['num_inference_steps'] and 0<receipt['strength']<1)
             check(f'{name}: correct noise schedule',receipt['sigma_after_each_step'][-1]==0 and np.all(np.diff(receipt['sigma_after_each_step'])<=0))
@@ -57,6 +63,12 @@ def main():
             'resolution','fps','offload','guidance_scale','teacache','persistent_reference','prompt',
             'trajectory_method','timing','control_sha256','trajectory_control']
         check('H2/H3 matched except appearance prior',all(h2[key]==h3[key] for key in keys))
+    if 'H4_no_trajectory_control' in configs:
+        h2=configs['H2_group00_6s_no_prior'];h4=configs['H4_no_trajectory_control']
+        keys=['model','checkpoint_revision','das_commit','dtype','seed','num_inference_steps','num_frames',
+            'resolution','fps','offload','guidance_scale','teacache','persistent_reference','prompt',
+            'trajectory_method','timing','photographic_guide_strength']
+        check('H2/H4 matched except trajectory control',all(h2[key]==h4[key] for key in keys) and h2['trajectory_control'] and not h4['trajectory_control'])
     review=json.loads((OUT/'visual_review.json').read_text())
     check('selected all-frame semantic review',review['chosen_variant']==a.chosen and review['variants'][a.chosen]['frames_reviewed']==49)
     check('selected full arc accepted',review['variants'][a.chosen]['full_predicted_arc_visible'])

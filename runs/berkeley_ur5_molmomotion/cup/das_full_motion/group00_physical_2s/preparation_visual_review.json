@@ -1,0 +1,6 @@
+﻿{
+    "accepted":  true,
+    "guide_accepted":  false,
+    "control_sha256":  "62dc8fef7711a59e8776d65bff9293b43b73ed734548e493dfb8c05fa8229256",
+    "review":  "Viewed 5 checkpoint panels and timing comparison. Full rise/right/down arc occurs by frame16, final pose holds through48. Matches stretched path phase-by-phase. Mid-arc partial clipping is inherited from raw forecast. Only local wrist/gripper are coupled; proximal arm is free."
+}

@@ -20,6 +20,29 @@ OUT=ROOT/'runs/berkeley_ur5_molmomotion/cup/das_full_motion'
 DAS=Path('/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun')
 MODEL=Path('/mnt/f/AIRI_task/models/Wan2.1-Fun-V1.1-1.3B-Control')
 
+def wait_for_gpu_before_import(out):
+    """Respect an existing MolmoMotion inference before allocating model RAM/VRAM."""
+    started=time.monotonic();last_message=-60.
+    while True:
+        active=[]
+        for process in psutil.process_iter(['pid','cmdline']):
+            command=process.info['cmdline'] or []
+            if process.pid!=os.getpid() and 'motion_experiments.run' in command:
+                if '--mode' in command and command[command.index('--mode')+1]=='inference':
+                    active.append(process.pid)
+        free=int(subprocess.check_output(['/usr/lib/wsl/lib/nvidia-smi',
+            '--query-gpu=memory.free','--format=csv,noheader,nounits'],text=True).strip().splitlines()[0])
+        elapsed=time.monotonic()-started
+        if not active and free>9216:
+            return elapsed
+        write_json(out/'resource_usage.json',{'success':False,'stage':'wait_for_existing_gpu_work',
+            'preflight_wait_seconds':elapsed,'other_inference_pids':active,'free_gpu_MiB':free,
+            'own_model_loaded':False})
+        if elapsed-last_message>=60:
+            print(f'Waiting without loading DaS: inference PIDs={active}, free VRAM={free} MiB',flush=True)
+            last_message=elapsed
+        time.sleep(5)
+
 class PhotographicPrior:
     def __init__(self,guide,strength,seed,mask):
         self.guide=guide;self.strength=strength;self.seed=seed;self.mask=mask;self.noise=None;self.steps=0;self.sigmas=[]
@@ -74,10 +97,12 @@ def main():
         def write(self,value):self.original.write(value);log.write(value)
         def flush(self):self.original.flush();log.flush()
     sys.stdout,sys.stderr=Tee(sys.stdout),Tee(sys.stderr)
+    preflight_wait=wait_for_gpu_before_import(out)
     import torch
     torch.set_num_threads(4)
     started=time.monotonic();finished=threading.Event()
     state={'success':False,'stage':'queue','started_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),
+        'preflight_wait_seconds':preflight_wait,
         'peak_process_rss_bytes':0,'peak_system_ram_used_bytes':0,'peak_cuda_allocated_bytes':0,'peak_cuda_reserved_bytes':0}
     def monitor():
         while not finished.is_set():
@@ -148,8 +173,9 @@ def main():
                     guide_latents=self.vae.encode(tensor)[0].mode().detach()
                     del tensor,guide
                 # The following text encoder offloads large layers to CUDA.
-                # Retaining the unused VAE allocation pool can trigger WDDM
-                # shared-memory paging despite very small live guide latents.
+                # Release its unused allocation pool before the next large
+                # module. This does not solve contention with another model;
+                # the preflight above waits for that model to finish first.
                 torch.cuda.empty_cache()
                 assert guide_latents.shape==(1,16,13,60,90)
                 torch.save({'latents':guide_latents.cpu(),'guide_sha256':prep['guide_sha256']},out/'photographic_guide_latents.pt')

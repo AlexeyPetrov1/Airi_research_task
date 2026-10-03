@@ -3,6 +3,8 @@ import sys
 from pathlib import Path
 import unittest
 import subprocess
+from types import SimpleNamespace
+from unittest.mock import patch
 import numpy as np
 from scipy.spatial.transform import Rotation
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
@@ -11,6 +13,20 @@ from das_full_motion_diagnose import fit_motion
 
 
 class FullMotionTests(unittest.TestCase):
+    def test_existing_inference_is_waited_for_even_when_vram_looks_free(self):
+        import das_full_motion_generate as generation
+        other=SimpleNamespace(pid=12345,info={'pid':12345,'cmdline':
+            ['python','-m','motion_experiments.run','--mode','inference']})
+        with patch.object(generation.psutil,'process_iter',side_effect=[[other],[]]), \
+                patch.object(generation.os,'getpid',return_value=67890), \
+                patch.object(generation.subprocess,'check_output',return_value='11000\n'), \
+                patch.object(generation.time,'sleep') as sleep, \
+                patch.object(generation,'write_json') as receipt:
+            generation.wait_for_gpu_before_import(Path('/tmp/unused'))
+        sleep.assert_called_once_with(5)
+        self.assertFalse(receipt.call_args.args[1]['own_model_loaded'])
+        self.assertEqual(receipt.call_args.args[1]['other_inference_pids'],[12345])
+
     def test_real_future_access_fails_closed(self):
         source=str(Path(__file__).resolve().parents[1]/'scripts')
         program=('import sys; sys.path.insert(0,'+repr(source)+'); '

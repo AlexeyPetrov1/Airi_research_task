@@ -1,0 +1,25 @@
+Read-only py-spy sample, transcribed from the successful tool output before interrupting this attempt.
+Command: wsl -d Ubuntu -u root -- /mnt/f/AIRI_task/.venv-das/bin/py-spy dump --pid 6240
+
+Thread 6240 (active): MainThread
+    set_module_tensor_to_device (accelerate/utils/modeling.py:343)
+    pre_forward (accelerate/hooks.py:360)
+    new_forward (accelerate/hooks.py:170)
+    _call_impl (torch/nn/modules/module.py:1786)
+    _wrapped_call_impl (torch/nn/modules/module.py:1775)
+    forward (videox_fun/models/wan_text_encoder.py:161)
+    _call_impl (torch/nn/modules/module.py:1786)
+    _wrapped_call_impl (torch/nn/modules/module.py:1775)
+    forward (videox_fun/models/wan_text_encoder.py:301)
+    new_forward (accelerate/hooks.py:175)
+    _call_impl (torch/nn/modules/module.py:1786)
+    _wrapped_call_impl (torch/nn/modules/module.py:1775)
+    _get_t5_prompt_embeds (videox_fun/pipeline/pipeline_wan_fun_control.py:224)
+    encode_prompt (videox_fun/pipeline/pipeline_wan_fun_control.py:281)
+    __call__ (videox_fun/pipeline/pipeline_wan_fun_control.py:548)
+    decorate_context (torch/utils/_contextlib.py:120)
+    guided_call (das_full_motion_generate.py:152)
+    _infer_wanfun_ctrl (pipelines_wanfun.py:209)
+    decorate_context (torch/utils/_contextlib.py:120)
+    main (das_full_motion_generate.py:169)
+    <module> (das_full_motion_generate.py:179)

@@ -18,12 +18,23 @@ def main():
     args=parser.parse_args()
     generation='/mnt/f/AIRI_task/.venv-das/bin/python'
     analysis='/mnt/f/AIRI_task/.venv/bin/python'
-    deadline=time.monotonic()+1800
+    deadline=None
     while True:
-        state=json.loads((OUT/'H3_group00_6s_prior025/resource_usage.json').read_text())
-        if state.get('error'):raise RuntimeError(state['error'])
+        try:
+            state=json.loads((OUT/'H3_group00_6s_prior025/resource_usage.json').read_text())
+        except (FileNotFoundError,json.JSONDecodeError):
+            # Torch imports precede the first heartbeat. A heartbeat file may
+            # also be between truncation and write when read concurrently.
+            time.sleep(2)
+            continue
+        if state.get('stage')=='wait_for_existing_gpu_work':
+            deadline=None
+        elif deadline is None:
+            deadline=time.monotonic()+1800
+        elif time.monotonic()>deadline:
+            raise TimeoutError('H3 has not completed; preserve outputs and inspect its resource log')
+        if state.get('error_type'):raise RuntimeError(state.get('error') or state['error_type'])
         if state.get('success'):break
-        if time.monotonic()>deadline:raise TimeoutError('H3 has not completed; preserve outputs and inspect its resource log')
         time.sleep(5)
     def free_gpu():
         while True:

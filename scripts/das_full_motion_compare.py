@@ -1,5 +1,6 @@
 """Compare timing at equal phase and prior ablations on shared visibility."""
 import json
+import argparse
 import cv2
 import numpy as np
 from PIL import Image
@@ -9,7 +10,24 @@ from das_robot_evaluate import frames, labeled, valid
 from das_evaluate import metrics
 
 
+def before_after(chosen):
+    old=frames(SCENE/'das_reference_repair/guided_endpoint_background/generated_seed42.mp4')
+    new=frames(OUT/chosen/'generated_seed42.mp4')
+    beforeafter=[]
+    for i in range(49):
+        a=cv2.resize(old[i],(640,480));b=cv2.resize(new[i],(640,480))
+        beforeafter.append(np.concatenate([labeled(a,'OLD F: real endpoint, lift only (2s + hold)'),
+            labeled(b,f'NEW {chosen}: full raw arc (6s, observed-only)')],axis=1))
+    save_video(OUT/'before_after_full_arc.mp4',beforeafter)
+
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--chosen',default='H2_group00_6s_no_prior')
+    parser.add_argument('--before-after-only',action='store_true')
+    args=parser.parse_args()
+    if args.before_after_only:
+        before_after(args.chosen)
+        return
     names=['H1_group00_2s_no_prior','H2_group00_6s_no_prior']
     data={name:np.load(OUT/name/'motion_measurements.npz') for name in names}
     indices={names[0]:np.arange(17),names[1]:np.arange(17)*3}
@@ -46,15 +64,7 @@ def main():
     for i in range(17):
         phaseclip.append(np.concatenate([labeled(videos[name][indices[name][i]],f'{name}: equal forecast phase {i}/16') for name in names],axis=1))
     save_video(OUT/'timing_comparison_equal_phase.mp4',phaseclip,fps=8)
-    old=frames(SCENE/'das_reference_repair/guided_endpoint_background/generated_seed42.mp4')
-    chosen=prior if (OUT/prior/'generated_seed42.mp4').exists() else names[1]
-    new=frames(OUT/chosen/'generated_seed42.mp4')
-    beforeafter=[]
-    for i in range(49):
-        a=cv2.resize(old[i],(640,480));b=cv2.resize(new[i],(640,480))
-        beforeafter.append(np.concatenate([labeled(a,'OLD F: real endpoint, lift only (2s + hold)'),
-            labeled(b,'NEW: full raw Molmo arc (6s, observed-only)')],axis=1))
-    save_video(OUT/'before_after_full_arc.mp4',beforeafter)
+    before_after(args.chosen)
     write_json(OUT/'matched_comparisons.json',report)
     print(json.dumps(report,ensure_ascii=False),flush=True)
 
