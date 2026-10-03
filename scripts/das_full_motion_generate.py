@@ -199,7 +199,7 @@ def main():
                 write_json(out/'photographic_prior_receipt.json',{'applied_steps':prior.steps,'sigma_after_each_step':prior.sigmas,
                     'strength':a.strength,'initial_strength':1.,'noise_seed':42,'latent_shape':list(guide_latents.shape),
                     'formula':'After Euler step: x <- (1-w)x + w[(1-sigma_next)*guide + sigma_next*fixed_noise]',
-                    'spatial_weights':'moving surface 1.0, original vacancy 0.5, background 0.03; multiplied by strength',
+                    'spatial_weights':'Frozen prior_masks.npz; causal VAE temporal averaging and trilinear spatial downsampling; multiplied by strength; first latent overridden to 1.0',
                     'prior_masks_sha256':prep['prior_masks_sha256'],
                     'postprocessed_RGB':False,'native_DaS':False,'future_used':False})
             return result
