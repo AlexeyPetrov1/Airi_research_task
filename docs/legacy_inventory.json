@@ -1281,9 +1281,10 @@
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
     "borrowed_functions": [
-      "expand"
+      "expand",
+      "extent_diagnostics"
     ],
-    "replacement": "Selected functions borrowed unchanged: expand",
+    "replacement": "Selected functions borrowed unchanged: expand, extent_diagnostics",
     "selected_experiment_command": "molmo-motion-experiment --config configs/berkeley_bottle.json configs/berkeley_cup.json",
     "sha256": "7f75e65ea4818452a67d81291852279274e18acd8ec6f0e79327331406482a9a"
   },
@@ -1499,8 +1500,11 @@
       "sharerobot_transfer_berkeley_ur5_episode_26"
     ],
     "disposition": "Retained in place; historical preparation and diagnostics remain available.",
-    "borrowed_functions": [],
-    "replacement": "No full replacement; archival script retained",
+    "borrowed_functions": [
+      "scores",
+      "controls"
+    ],
+    "replacement": "Selected functions borrowed unchanged: scores, controls",
     "selected_experiment_command": "molmo-motion-experiment --config configs/berkeley_bottle.json configs/berkeley_cup.json",
     "sha256": "cbd29ac60d9760e5083aa0533fd99dab89f5331d2a2bb2b3fba968c0a6ff2ae9"
   },

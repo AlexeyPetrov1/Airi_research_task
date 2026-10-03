@@ -12,7 +12,8 @@ def main():
     parser.add_argument("--run",type=Path,required=True)
     args=parser.parse_args()
     manifest=read_json(ROOT/"tests/golden/manifest.json")
-    for relative,digest in manifest["source_sha256"].items():
+    hashes={**manifest["source_sha256"],**read_json(ROOT/"docs/supplemental_reference_manifest.json")["source_sha256"]}
+    for relative,digest in hashes.items():
         for folder in (ROOT/"data/legacy",ROOT/"tests/golden/source"):
             if sha(folder/relative)!=digest:
                 raise ValueError(f"Frozen source changed: {folder/relative}")
@@ -38,7 +39,7 @@ def main():
             cap.release()
             assert count==receipt["frame_count"]
         print(result["name"],status["mode"],"verified",flush=True)
-    print(f"PASS: {len(manifest['source_sha256'])} preserved sources; {len(summaries)} expected experiment statuses")
+    print(f"PASS: {len(hashes)} preserved sources plus raw DAVIS RGB; {len(summaries)} expected experiment statuses")
 
 
 if __name__=="__main__":main()

@@ -96,6 +96,24 @@
     "function_sha256": "92c58a2f3b924b774248fa6a118079e1e2d1dcce756364776d25a9eb63ce5694"
   },
   {
+    "original_path": "scripts/berkeley_arc_expansion.py",
+    "function": "extent_diagnostics",
+    "original_file_sha256": "7f75e65ea4818452a67d81291852279274e18acd8ec6f0e79327331406482a9a",
+    "function_sha256": "f78e6b9cc2baaabf699eabffd090307c419d6546ec9993d0dc5bf2e93d9b9301"
+  },
+  {
+    "original_path": "scripts/berkeley_baseline_comparison.py",
+    "function": "scores",
+    "original_file_sha256": "cbd29ac60d9760e5083aa0533fd99dab89f5331d2a2bb2b3fba968c0a6ff2ae9",
+    "function_sha256": "0632541f9d9914ea1c9b439c1742eb0bb2d057cd2099a98f72067509a9c9a4f4"
+  },
+  {
+    "original_path": "scripts/berkeley_baseline_comparison.py",
+    "function": "controls",
+    "original_file_sha256": "cbd29ac60d9760e5083aa0533fd99dab89f5331d2a2bb2b3fba968c0a6ff2ae9",
+    "function_sha256": "6bc81654a0b12500a390c57377932d2070e12e448b51e3f18c0074fa03ec0697"
+  },
+  {
     "original_path": "scripts/berkeley_arc_phase.py",
     "function": "temporal_expand",
     "original_file_sha256": "c687dcd639e479cbb35cdfab55e0ad4de51f3bba7872e75560db576baa160f9d",

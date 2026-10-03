@@ -1,0 +1,6 @@
+{
+  "purpose": "Additional unchanged original detailed metric report used by the expanded regression audit",
+  "source_sha256": {
+    "runs/berkeley_ur5_arc_expansion_v1/results.json": "a827337caa0d0ab1b9572c9a1f5eed0377dbac21d1acc91235989ca4751ff0b7"
+  }
+}

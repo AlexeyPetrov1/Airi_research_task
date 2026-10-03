@@ -35,6 +35,7 @@ def load(config, root, evaluation=True):
     phase = "runs/berkeley_ur5_arc_expansion_v1/phase_schedule"
     old = phase+"/bottle/timing_group_02.mp4" if scene == "bottle" else "runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
     metadata = dict(meta, title="Berkeley UR5 · "+scene,
+                    comparison_method="reference_0333" if scene == "bottle" else None,
                     primary="late_036_lift005" if scene == "bottle" else "original_physical",
                     shown_indices=list(range(16, 24)) if scene == "bottle" else list(range(8)),
                     geometry="fixed camera; "+meta["K_source"], conditional_3d=True,
@@ -75,7 +76,18 @@ def finish(sample, raw):
         constant[..., 1] -= .005*(3*phase**2-2*phase**3)[None]
         methods = {"reference_0333": third[:, alignment], "scale_036_lift005": constant[:, alignment],
                    "late_036_lift005": late[:, alignment], "raw_MolmoMotion": raw[:, alignment]}
-    velocity = linear_velocity(sample.points_3d_history.astype(float), sample.history_timestamps.astype(float))
+    # Preserve each executed script's arithmetic: cup centers float32 XYZ;
+    # the bottle expansion script explicitly promotes its candidate geometry.
+    if sample.episode_id == "cup":
+        baseline_history = sample.points_3d_history
+        observed_times = np.asarray(sample.metadata["history_timestamps"], dtype=np.float64)
+        observed_times -= observed_times[-1]
+    else:
+        baseline_history = sample.points_3d_history.astype(float)
+        observed_times = sample.history_timestamps.astype(float)
+    velocity = linear_velocity(baseline_history, observed_times)
     methods.update({"Static": np.repeat(p0[:, None], 10, axis=1),
                     "Constant velocity": p0[:, None]+velocity[:, None]*sample.future_times[None, :, None]})
+    if sample.episode_id == "bottle":
+        methods["Object translation"] = p0[:, None]+np.median(velocity, axis=0)[None, None]*sample.future_times[None, :, None]
     return methods, {name: project(xyz, sample.camera_intrinsics) for name, xyz in methods.items()}

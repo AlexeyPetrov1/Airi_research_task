@@ -1,0 +1,2818 @@
+{
+  "cup": {
+    "episode_id": 10,
+    "t0": 63,
+    "K": [
+      [
+        434.5584411621094,
+        0.0,
+        320.0
+      ],
+      [
+        0.0,
+        434.5584411621094,
+        240.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_ids": [
+      67,
+      46,
+      41,
+      91,
+      94,
+      40,
+      10,
+      17,
+      53,
+      44,
+      42,
+      28,
+      83,
+      72,
+      13,
+      19,
+      85,
+      33,
+      69,
+      58,
+      78,
+      73,
+      37,
+      89
+    ],
+    "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+    "methods": {
+      "reference_0333": {
+        "ADE_2D_px": 28.111423998077885,
+        "FDE_2D_px": 36.22668667872244,
+        "median_2D_px": 25.23086647091343,
+        "P90_2D_px": 53.60852948891572,
+        "ADE_2D_image_diagonal_fraction": 0.035139279997597354,
+        "PWT_native_px": {
+          "5": 0.0375,
+          "10": 0.125,
+          "20": 0.3875,
+          "40": 0.8666666666666667
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          4.853773421422469,
+          13.785473380737232,
+          22.624239533640964,
+          30.260984107001146,
+          34.31569965306044,
+          34.494973796204526,
+          36.1152616012385,
+          34.320950046822865,
+          34.116197761928284,
+          36.22668667872244
+        ],
+        "moving_step_direction_coverage": 0.7666666666666667,
+        "direction_error_median_degrees": 10.140666088574832,
+        "projected_speed_MAE_px_per_s": 34.318328880173986,
+        "median_projected_path_length_ratio": 1.1211451638527812,
+        "median_endpoint_displacement_ratio": 0.9522580825980576,
+        "conditional_3D_est": {
+          "ADE_m": 0.04621860460888187,
+          "FDE_m": 0.07243065988826998,
+          "PWT_m": {
+            "0.01": 0.08403361344537816,
+            "0.02": 0.15546218487394958,
+            "0.05": 0.5504201680672269,
+            "0.1": 0.9621848739495799,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 4.978004365332534,
+          "P90": 34.893993469076165,
+          "within_P8_median": 0.5045927462390305,
+          "across_P8_median": 8.998822039455693
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 37.796397071434136
+          },
+          {
+            "group": 1,
+            "ADE_px": 22.288601711299613
+          },
+          {
+            "group": 2,
+            "ADE_px": 24.24927321149992
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "median_higher_px_by_time": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "farther_pair_fraction": 0.0,
+          "higher_pair_fraction": 0.0,
+          "median_path_length_ratio_vs_one_third": 1.0,
+          "median_endpoint_farther_px": 0.0,
+          "median_endpoint_higher_px": 0.0,
+          "median_camera_up_difference_mm": 0.0
+        }
+      },
+      "scale_036": {
+        "ADE_2D_px": 32.241711472796624,
+        "FDE_2D_px": 38.36059320622,
+        "median_2D_px": 30.536871192750375,
+        "P90_2D_px": 58.260903011790695,
+        "ADE_2D_image_diagonal_fraction": 0.04030213934099578,
+        "PWT_native_px": {
+          "5": 0.03333333333333333,
+          "10": 0.1,
+          "20": 0.2875,
+          "40": 0.6916666666666667
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          5.801341745393114,
+          16.10991308473247,
+          26.39439672976596,
+          35.33230415658634,
+          40.3357423551716,
+          40.61710583693564,
+          41.9838507015149,
+          39.56775021267068,
+          37.91411669897554,
+          38.36059320622
+        ],
+        "moving_step_direction_coverage": 0.7666666666666667,
+        "direction_error_median_degrees": 10.140666088574815,
+        "projected_speed_MAE_px_per_s": 38.27110788672587,
+        "median_projected_path_length_ratio": 1.211036173983447,
+        "median_endpoint_displacement_ratio": 1.0285437277294012,
+        "conditional_3D_est": {
+          "ADE_m": 0.05109219132729264,
+          "FDE_m": 0.07501256813803403,
+          "PWT_m": {
+            "0.01": 0.06722689075630252,
+            "0.02": 0.12605042016806722,
+            "0.05": 0.4411764705882353,
+            "0.1": 0.9369747899159664,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.3963525223879625,
+          "P90": 37.30607350114172,
+          "within_P8_median": 0.5432313091249322,
+          "across_P8_median": 9.728771268653055
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 41.46678285489321
+          },
+          {
+            "group": 1,
+            "ADE_px": 26.17926434463535
+          },
+          {
+            "group": 2,
+            "ADE_px": 29.07908721886131
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            0.9824511970279666,
+            2.299114668230903,
+            3.716399395940144,
+            5.063449407582155,
+            6.089356986999043,
+            6.498309746143988,
+            6.525494112687234,
+            6.460843881576622,
+            6.424683865588719,
+            6.424683865588719
+          ],
+          "median_higher_px_by_time": [
+            0.9822222721835487,
+            2.2990169087922254,
+            3.7163389363041546,
+            5.063405088564025,
+            6.085685017934338,
+            6.424670857596851,
+            6.424670857596851,
+            6.424670857596851,
+            6.424670857596851,
+            6.424670857596851
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0801446887122457,
+          "median_endpoint_farther_px": 6.424683865588719,
+          "median_endpoint_higher_px": 6.424670857596851,
+          "median_camera_up_difference_mm": 7.3748328288396126
+        }
+      },
+      "scale_038": {
+        "ADE_2D_px": 35.554567191967,
+        "FDE_2D_px": 40.962400081600265,
+        "median_2D_px": 34.83348400535202,
+        "P90_2D_px": 61.97425172475094,
+        "ADE_2D_image_diagonal_fraction": 0.04444320898995875,
+        "PWT_native_px": {
+          "5": 0.016666666666666666,
+          "10": 0.1,
+          "20": 0.22083333333333333,
+          "40": 0.5875
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          6.51776315478659,
+          17.861035484189358,
+          29.234604663613812,
+          39.1540402244209,
+          44.87568519815022,
+          45.287719943001626,
+          46.51822201678588,
+          43.74895624477716,
+          41.385244908344255,
+          40.962400081600265
+        ],
+        "moving_step_direction_coverage": 0.7666666666666667,
+        "direction_error_median_degrees": 10.140666088574868,
+        "projected_speed_MAE_px_per_s": 41.34946407552528,
+        "median_projected_path_length_ratio": 1.278473863036548,
+        "median_endpoint_displacement_ratio": 1.0857681846372027,
+        "conditional_3D_est": {
+          "ADE_m": 0.055013750101402234,
+          "FDE_m": 0.07762647162193965,
+          "PWT_m": {
+            "0.01": 0.037815126050420166,
+            "0.02": 0.10504201680672269,
+            "0.05": 0.3487394957983193,
+            "0.1": 0.9327731092436975,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.681067060775813,
+          "P90": 40.400990475914604,
+          "within_P8_median": 0.5720377703651234,
+          "across_P8_median": 10.209323853305863
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 44.33066165560315
+          },
+          {
+            "group": 1,
+            "ADE_px": 29.457788892002156
+          },
+          {
+            "group": 2,
+            "ADE_px": 32.875251028295715
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            1.71941830373168,
+            4.023752069070225,
+            6.504186313134383,
+            8.866753212974409,
+            10.671669841262862,
+            11.380115296447386,
+            11.417191760392782,
+            11.307308102483248,
+            11.244146422727397,
+            11.244146422727397
+          ],
+          "median_higher_px_by_time": [
+            1.7190176414198248,
+            4.023580971339356,
+            6.504080497199979,
+            8.861623972053508,
+            10.656999371449018,
+            11.244123656750418,
+            11.244123656750418,
+            11.244123656750418,
+            11.244123656750418,
+            11.244123656750418
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.1402672992229168,
+          "median_endpoint_farther_px": 11.244146422727397,
+          "median_endpoint_higher_px": 11.244123656750418,
+          "median_camera_up_difference_mm": 12.905957450469337
+        }
+      },
+      "scale_040": {
+        "ADE_2D_px": 38.98909186765694,
+        "FDE_2D_px": 44.150053189173114,
+        "median_2D_px": 39.19918096279595,
+        "P90_2D_px": 65.81519589286216,
+        "ADE_2D_image_diagonal_fraction": 0.04873636483457117,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.1,
+          "20": 0.2,
+          "40": 0.525
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          7.237700446412039,
+          19.61759647902824,
+          32.08410435445733,
+          42.98957654807716,
+          49.433756516378914,
+          50.007399809493336,
+          51.13446519206473,
+          48.066415220487634,
+          45.16985092099691,
+          44.150053189173114
+        ],
+        "moving_step_direction_coverage": 0.7666666666666667,
+        "direction_error_median_degrees": 10.14066608857485,
+        "projected_speed_MAE_px_per_s": 44.45166892558325,
+        "median_projected_path_length_ratio": 1.3459282145101548,
+        "median_endpoint_displacement_ratio": 1.1429339075525227,
+        "conditional_3D_est": {
+          "ADE_m": 0.05911757926820928,
+          "FDE_m": 0.08074513292435248,
+          "PWT_m": {
+            "0.01": 0.02100840336134454,
+            "0.02": 0.09663865546218488,
+            "0.05": 0.31092436974789917,
+            "0.1": 0.9285714285714286,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.882142455161297,
+          "P90": 43.394996773344104,
+          "within_P8_median": 0.600702385680222,
+          "across_P8_median": 10.804480920496747
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 47.27531446593848
+          },
+          {
+            "group": 1,
+            "ADE_px": 32.9368855054474
+          },
+          {
+            "group": 2,
+            "ADE_px": 36.755075631584944
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            2.456495775758893,
+            5.748647914084591,
+            9.292391140559605,
+            12.689911461292049,
+            15.270600013128352,
+            16.268870331129158,
+            16.30681676780022,
+            16.15448505946442,
+            16.064423203130247,
+            16.064423203130247
+          ],
+          "median_higher_px_by_time": [
+            2.4559233383914716,
+            5.748403462014821,
+            9.292239958404181,
+            12.660413137343369,
+            15.249403821268288,
+            16.064390677460906,
+            16.064390677460906,
+            16.064390677460906,
+            16.064390677460906,
+            16.064390677460906
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.2004019943652176,
+          "median_endpoint_farther_px": 16.064423203130247,
+          "median_endpoint_higher_px": 16.064390677460906,
+          "median_camera_up_difference_mm": 18.437082072099056
+        }
+      },
+      "scale_042": {
+        "ADE_2D_px": 42.50530824755175,
+        "FDE_2D_px": 47.70770860367477,
+        "median_2D_px": 42.9738221150414,
+        "P90_2D_px": 69.77114489985732,
+        "ADE_2D_image_diagonal_fraction": 0.05313163530943969,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.1,
+          "20": 0.14583333333333334,
+          "40": 0.44583333333333336
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          7.960365431780403,
+          21.37886691943234,
+          34.94201811438123,
+          46.837846854416455,
+          54.00812044036476,
+          54.76519892374903,
+          55.81380666371873,
+          52.4829370323346,
+          49.156213491665206,
+          47.70770860367477
+        ],
+        "moving_step_direction_coverage": 0.7916666666666666,
+        "direction_error_median_degrees": 10.251562074675341,
+        "projected_speed_MAE_px_per_s": 47.558996568213104,
+        "median_projected_path_length_ratio": 1.4133992346064217,
+        "median_endpoint_displacement_ratio": 1.1989059022957858,
+        "conditional_3D_est": {
+          "ADE_m": 0.06337069085234892,
+          "FDE_m": 0.08429896288995649,
+          "PWT_m": {
+            "0.01": 0.004201680672268907,
+            "0.02": 0.09243697478991597,
+            "0.05": 0.2857142857142857,
+            "0.1": 0.9033613445378151,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 6.202878687108576,
+          "P90": 46.355815400961646,
+          "within_P8_median": 0.6292150019945875,
+          "across_P8_median": 11.514256003095428
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 50.29020281704309
+          },
+          {
+            "group": 1,
+            "ADE_px": 36.538236736523615
+          },
+          {
+            "group": 2,
+            "ADE_px": 40.68748518908854
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            3.1936836521745233,
+            7.47380229476895,
+            12.081014026179325,
+            16.527148291197115,
+            19.887318254320164,
+            21.164601612964425,
+            21.194372873434688,
+            21.00237491897331,
+            20.88551441453859,
+            20.88551441453859
+          ],
+          "median_higher_px_by_time": [
+            3.19293940214898,
+            7.473484472307405,
+            12.080817467876486,
+            16.459772786430236,
+            19.85731608204931,
+            20.898587664579665,
+            20.885472127469185,
+            20.885472127469185,
+            20.885472127469185,
+            20.885472127469185
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.2605487778130948,
+          "median_endpoint_farther_px": 20.88551441453859,
+          "median_endpoint_higher_px": 20.885472127469185,
+          "median_camera_up_difference_mm": 23.96820669372876
+        }
+      },
+      "lift_005": {
+        "ADE_2D_px": 29.27369083633658,
+        "FDE_2D_px": 36.18066845356765,
+        "median_2D_px": 27.36023530228792,
+        "P90_2D_px": 54.37614638819744,
+        "ADE_2D_image_diagonal_fraction": 0.036592113545420725,
+        "PWT_native_px": {
+          "5": 0.0375,
+          "10": 0.12083333333333333,
+          "20": 0.35833333333333334,
+          "40": 0.8416666666666667
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          4.952819364638934,
+          14.165992357965829,
+          23.42376744438903,
+          31.573627250386163,
+          36.18303646905448,
+          36.64286129610977,
+          38.2343749143347,
+          36.22177352746284,
+          35.15798728545642,
+          36.18066845356765
+        ],
+        "moving_step_direction_coverage": 0.7666666666666667,
+        "direction_error_median_degrees": 10.140666088574868,
+        "projected_speed_MAE_px_per_s": 34.86432157029946,
+        "median_projected_path_length_ratio": 1.1469051630228106,
+        "median_endpoint_displacement_ratio": 0.9929110836591328,
+        "conditional_3D_est": {
+          "ADE_m": 0.04758413055293531,
+          "FDE_m": 0.07256690665041123,
+          "PWT_m": {
+            "0.01": 0.08403361344537816,
+            "0.02": 0.14285714285714285,
+            "0.05": 0.4957983193277311,
+            "0.1": 0.9621848739495799,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 4.978004365332534,
+          "P90": 34.893993469076165,
+          "within_P8_median": 0.5045927462390305,
+          "across_P8_median": 8.9988220394557
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 38.27019296404453
+          },
+          {
+            "group": 1,
+            "ADE_px": 23.55306220726009
+          },
+          {
+            "group": 2,
+            "ADE_px": 25.997817337705122
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            0.10306363466600743,
+            0.38747950977484,
+            0.8124500326747075,
+            1.3306038675093461,
+            1.8995769129861912,
+            2.4087160026642493,
+            2.8602716448507053,
+            3.268877032806266,
+            3.5461418371392597,
+            3.6482868318398687
+          ],
+          "median_higher_px_by_time": [
+            0.10450059079047946,
+            0.3920909137656565,
+            0.8203569626510756,
+            1.3386912647525406,
+            1.9015500919780806,
+            2.4302433261028398,
+            2.906591185651365,
+            3.2882460372435105,
+            3.5532338568022794,
+            3.6487603081633466
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0229165836327472,
+          "median_endpoint_farther_px": 3.6482868318398687,
+          "median_endpoint_higher_px": 3.6487603081633466,
+          "median_camera_up_difference_mm": 2.8699999999999974
+        }
+      },
+      "lift_010": {
+        "ADE_2D_px": 30.554656679290215,
+        "FDE_2D_px": 36.69449027862782,
+        "median_2D_px": 29.662673216071866,
+        "P90_2D_px": 55.28690341154092,
+        "ADE_2D_image_diagonal_fraction": 0.03819332084911277,
+        "PWT_native_px": {
+          "5": 0.0375,
+          "10": 0.1125,
+          "20": 0.32083333333333336,
+          "40": 0.725
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          5.052106333691009,
+          14.54711807856509,
+          24.224459224147157,
+          32.88791647059494,
+          38.052545514028154,
+          38.82097169749368,
+          40.423827884137644,
+          38.26738747227876,
+          36.57574383933786,
+          36.69449027862782
+        ],
+        "moving_step_direction_coverage": 0.7875,
+        "direction_error_median_degrees": 10.136398992022274,
+        "projected_speed_MAE_px_per_s": 35.52372511316156,
+        "median_projected_path_length_ratio": 1.1748421561914273,
+        "median_endpoint_displacement_ratio": 1.0304629440649227,
+        "conditional_3D_est": {
+          "ADE_m": 0.04906466569638583,
+          "FDE_m": 0.07305786721656403,
+          "PWT_m": {
+            "0.01": 0.08403361344537816,
+            "0.02": 0.14285714285714285,
+            "0.05": 0.4579831932773109,
+            "0.1": 0.9621848739495799,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 4.978004365332534,
+          "P90": 34.893993469076165,
+          "within_P8_median": 0.504592746239034,
+          "across_P8_median": 8.9988220394557
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 38.81099486769041
+          },
+          {
+            "group": 1,
+            "ADE_px": 25.018128374050736
+          },
+          {
+            "group": 2,
+            "ADE_px": 27.83484679612949
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            0.20616577234385947,
+            0.7750795651833737,
+            1.6252128826701764,
+            2.6617291014788584,
+            3.7993860858230093,
+            4.81743251078349,
+            5.72056498119391,
+            6.537782707755142,
+            7.092317898502323,
+            7.296610657381791
+          ],
+          "median_higher_px_by_time": [
+            0.20900118158098735,
+            0.7841818275312988,
+            1.640713925302137,
+            2.6773825295051097,
+            3.8031001839561327,
+            4.8604866522056795,
+            5.81318237130273,
+            6.576492074486978,
+            7.106467713604545,
+            7.2975206163267075
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0477710997403957,
+          "median_endpoint_farther_px": 7.296610657381791,
+          "median_endpoint_higher_px": 7.2975206163267075,
+          "median_camera_up_difference_mm": 5.740000000000002
+        }
+      },
+      "scale_036_lift005": {
+        "ADE_2D_px": 33.597379203823,
+        "FDE_2D_px": 39.233780647848796,
+        "median_2D_px": 32.95631350740018,
+        "P90_2D_px": 59.25108253332208,
+        "ADE_2D_image_diagonal_fraction": 0.04199672400477875,
+        "PWT_native_px": {
+          "5": 0.03333333333333333,
+          "10": 0.1,
+          "20": 0.24583333333333332,
+          "40": 0.6666666666666666
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          5.901626701777302,
+          16.492480612257328,
+          27.197555213243163,
+          36.6505315160292,
+          42.2120193956933,
+          42.8235459102803,
+          44.220604998504825,
+          41.698301837707554,
+          39.54334520488826,
+          39.233780647848796
+        ],
+        "moving_step_direction_coverage": 0.7666666666666667,
+        "direction_error_median_degrees": 10.140666088574832,
+        "projected_speed_MAE_px_per_s": 38.960884384427786,
+        "median_projected_path_length_ratio": 1.2368004145230231,
+        "median_endpoint_displacement_ratio": 1.0679368305271058,
+        "conditional_3D_est": {
+          "ADE_m": 0.05266040000361023,
+          "FDE_m": 0.07574010608413152,
+          "PWT_m": {
+            "0.01": 0.06722689075630252,
+            "0.02": 0.12605042016806722,
+            "0.05": 0.40336134453781514,
+            "0.1": 0.9411764705882353,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.3963525223879625,
+          "P90": 37.30607350114172,
+          "within_P8_median": 0.5432313091249288,
+          "across_P8_median": 9.728771268653055
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 42.045910574720565
+          },
+          {
+            "group": 1,
+            "ADE_px": 27.770548837580076
+          },
+          {
+            "group": 2,
+            "ADE_px": 30.975678199168367
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            1.08554594671822,
+            2.690663275721649,
+            4.5296369617691745,
+            6.40149160313554,
+            7.999907167665604,
+            8.938845132781466,
+            9.392707939876175,
+            9.8167114100901,
+            10.104428054831075,
+            10.210428924802251
+          ],
+          "median_higher_px_by_time": [
+            1.085320716463258,
+            2.6905820310663557,
+            4.529589574873512,
+            6.388702425491857,
+            7.9879722499427,
+            8.87942561486237,
+            9.392700718274043,
+            9.816704984085064,
+            10.104422164456835,
+            10.210423230909583
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.1031581237200796,
+          "median_endpoint_farther_px": 10.210428924802251,
+          "median_endpoint_higher_px": 10.210423230909583,
+          "median_camera_up_difference_mm": 10.716551095247272
+        }
+      },
+      "scale_038_lift005": {
+        "ADE_2D_px": 37.00644184130315,
+        "FDE_2D_px": 42.31551652672386,
+        "median_2D_px": 37.14114712399241,
+        "P90_2D_px": 63.07290670122902,
+        "ADE_2D_image_diagonal_fraction": 0.04625805230162894,
+        "PWT_native_px": {
+          "5": 0.0125,
+          "10": 0.1,
+          "20": 0.20416666666666666,
+          "40": 0.5541666666666667
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          6.61867797856615,
+          18.244759337407327,
+          30.03992298252058,
+          40.47569080352216,
+          46.75719634125147,
+          47.525701248633936,
+          48.82031126070374,
+          45.99308915806682,
+          43.273552775635444,
+          42.31551652672386
+        ],
+        "moving_step_direction_coverage": 0.7666666666666667,
+        "direction_error_median_degrees": 10.140666088574868,
+        "projected_speed_MAE_px_per_s": 42.0586190146534,
+        "median_projected_path_length_ratio": 1.3042412855462615,
+        "median_endpoint_displacement_ratio": 1.1240814207199743,
+        "conditional_3D_est": {
+          "ADE_m": 0.056704432918584964,
+          "FDE_m": 0.07874199970129667,
+          "PWT_m": {
+            "0.01": 0.037815126050420166,
+            "0.02": 0.10084033613445378,
+            "0.05": 0.3235294117647059,
+            "0.1": 0.9327731092436975,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.681067060775813,
+          "P90": 40.400990475914604,
+          "within_P8_median": 0.5720377703651234,
+          "across_P8_median": 10.209323853305863
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 44.979375080452904
+          },
+          {
+            "group": 1,
+            "ADE_px": 31.208472104606493
+          },
+          {
+            "group": 2,
+            "ADE_px": 34.83147833885006
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            1.8238051827823574,
+            4.415330160710054,
+            7.317485129185517,
+            10.213167477817962,
+            12.583813100300226,
+            13.825294200193909,
+            14.21242098065374,
+            14.636460232723493,
+            14.924201157810359,
+            15.03021097313227
+          ],
+          "median_higher_px_by_time": [
+            1.8233922591929286,
+            4.415175590467811,
+            7.3173923984667795,
+            10.18702114448827,
+            12.558659603434862,
+            13.701639411599558,
+            14.212404011638625,
+            14.63644406233692,
+            14.92418552531079,
+            15.030195537985364
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.1633108237409495,
+          "median_endpoint_farther_px": 15.03021097313227,
+          "median_endpoint_higher_px": 15.030195537985364,
+          "median_camera_up_difference_mm": 16.090356805970277
+        }
+      },
+      "scale_036_lift010": {
+        "ADE_2D_px": 35.03063660353785,
+        "FDE_2D_px": 40.49710283233634,
+        "median_2D_px": 34.99317899953734,
+        "P90_2D_px": 60.32942794401225,
+        "ADE_2D_image_diagonal_fraction": 0.043788295754422314,
+        "PWT_native_px": {
+          "5": 0.03333333333333333,
+          "10": 0.1,
+          "20": 0.21666666666666667,
+          "40": 0.6083333333333333
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          6.002071881055731,
+          16.875488321432893,
+          28.001570060399462,
+          37.9699650490892,
+          44.08970331807452,
+          45.05128501496941,
+          46.51030742796116,
+          43.923453725679586,
+          41.38541840438017,
+          40.49710283233634
+        ],
+        "moving_step_direction_coverage": 0.7875,
+        "direction_error_median_degrees": 10.13639899202231,
+        "projected_speed_MAE_px_per_s": 39.663502500569145,
+        "median_projected_path_length_ratio": 1.2632904829563216,
+        "median_endpoint_displacement_ratio": 1.1054231159761023,
+        "conditional_3D_est": {
+          "ADE_m": 0.054321616634377734,
+          "FDE_m": 0.07677892161542009,
+          "PWT_m": {
+            "0.01": 0.06722689075630252,
+            "0.02": 0.12605042016806722,
+            "0.05": 0.3445378151260504,
+            "0.1": 0.9453781512605042,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.3963525223879625,
+          "P90": 37.30607350114172,
+          "within_P8_median": 0.5432313091249288,
+          "across_P8_median": 9.728771268653048
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 42.68666863976495
+          },
+          {
+            "group": 1,
+            "ADE_px": 29.489486427726696
+          },
+          {
+            "group": 2,
+            "ADE_px": 32.91575474312189
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            1.1868781921408464,
+            3.082212292156413,
+            5.3428749405003835,
+            7.691124141178385,
+            9.903998390287924,
+            11.377140686878903,
+            12.360732383871898,
+            13.208739430862323,
+            13.784172799379256,
+            13.996174569772279
+          ],
+          "median_higher_px_by_time": [
+            1.186728054185238,
+            3.0821471533405003,
+            5.342840213442869,
+            7.6799320824082145,
+            9.903983341010331,
+            11.35134713307167,
+            12.36073057895122,
+            13.208739110573262,
+            13.784173471316805,
+            13.996175604222316
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.126785786682719,
+          "median_endpoint_farther_px": 13.996174569772279,
+          "median_endpoint_higher_px": 13.996175604222316,
+          "median_camera_up_difference_mm": 14.175064010942977
+        }
+      },
+      "scale_038_lift010": {
+        "ADE_2D_px": 38.512463619246965,
+        "FDE_2D_px": 43.92553833243618,
+        "median_2D_px": 38.825836008502904,
+        "P90_2D_px": 64.26748541258193,
+        "ADE_2D_image_diagonal_fraction": 0.04814057952405871,
+        "PWT_native_px": {
+          "5": 0.004166666666666667,
+          "10": 0.1,
+          "20": 0.1875,
+          "40": 0.5208333333333334
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          6.719717001681384,
+          18.628842695454356,
+          30.84594680180875,
+          41.7983319683236,
+          48.639768751874875,
+          49.78058468032708,
+          51.16683259945008,
+          48.31251993836673,
+          45.30655342274657,
+          43.92553833243618
+        ],
+        "moving_step_direction_coverage": 0.7875,
+        "direction_error_median_degrees": 10.13639899202231,
+        "projected_speed_MAE_px_per_s": 42.77162953805477,
+        "median_projected_path_length_ratio": 1.330008713836198,
+        "median_endpoint_displacement_ratio": 1.1615241399389564,
+        "conditional_3D_est": {
+          "ADE_m": 0.05847448124674616,
+          "FDE_m": 0.08013329578387739,
+          "PWT_m": {
+            "0.01": 0.037815126050420166,
+            "0.02": 0.10084033613445378,
+            "0.05": 0.3067226890756303,
+            "0.1": 0.9285714285714286,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.681067060775813,
+          "P90": 40.400990475914604,
+          "within_P8_median": 0.5720377703651234,
+          "across_P8_median": 10.209323853305863
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 45.68603976565856
+          },
+          {
+            "group": 1,
+            "ADE_px": 33.03724272903101
+          },
+          {
+            "group": 2,
+            "ADE_px": 36.81410836305132
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            1.9250955470446565,
+            4.8069086405746635,
+            8.130784337432498,
+            11.554778469705592,
+            14.503815496348231,
+            16.265217771766146,
+            17.180695890654007,
+            18.02877449658478,
+            18.604256422318933,
+            18.81627608208828
+          ],
+          "median_higher_px_by_time": [
+            1.9247073000618684,
+            4.806770209596266,
+            8.130704299733551,
+            11.50719691746744,
+            14.4840164632771,
+            16.16634749063053,
+            17.18068436652682,
+            18.028764467923438,
+            18.604247393871177,
+            18.81626741922031
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.1862947969593454,
+          "median_endpoint_farther_px": 18.81627608208828,
+          "median_endpoint_higher_px": 18.81626741922031,
+          "median_camera_up_difference_mm": 19.378964416682727
+        }
+      },
+      "static": {
+        "ADE_2D_px": 46.11426402624995,
+        "FDE_2D_px": 83.60798940267681,
+        "median_2D_px": 45.207438356850005,
+        "P90_2D_px": 79.74214902237375,
+        "ADE_2D_image_diagonal_fraction": 0.05764283003281243,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.1,
+          "20": 0.2,
+          "40": 0.42916666666666664
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          7.558348978229578,
+          15.759499373901079,
+          24.812869790944802,
+          33.22447478972882,
+          41.3968128593282,
+          51.017080469948006,
+          59.1321830499165,
+          67.6316601968843,
+          77.00172135094141,
+          83.60798940267681
+        ],
+        "moving_step_direction_coverage": 0.0,
+        "direction_error_median_degrees": null,
+        "projected_speed_MAE_px_per_s": 41.853877604696464,
+        "median_projected_path_length_ratio": 5.680879144467882e-08,
+        "median_endpoint_displacement_ratio": 5.686564989201115e-08,
+        "conditional_3D_est": {
+          "ADE_m": 0.06601198823963006,
+          "FDE_m": 0.11684740099493651,
+          "PWT_m": {
+            "0.01": 0.012605042016806723,
+            "0.02": 0.09243697478991597,
+            "0.05": 0.37815126050420167,
+            "0.1": 0.7857142857142857,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 0.0,
+          "P90": 0.0,
+          "within_P8_median": 0.0,
+          "across_P8_median": 0.0
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 45.74727727777164
+          },
+          {
+            "group": 1,
+            "ADE_px": 46.18011728272517
+          },
+          {
+            "group": 2,
+            "ADE_px": 46.41539751825303
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            -12.264123604747887,
+            -28.700263531007387,
+            -46.3924655956007,
+            -63.20779408649297,
+            -75.30139244612411,
+            -80.20625008736872,
+            -81.95402513609267,
+            -81.98589513956662,
+            -80.25744264312142,
+            -80.18664210358943
+          ],
+          "median_higher_px_by_time": [
+            -12.261272728158275,
+            -28.69904902146807,
+            -46.391716423677835,
+            -63.20724627794742,
+            -75.30103518772032,
+            -80.1864840405217,
+            -80.1864840405217,
+            -80.1864840405217,
+            -80.1864840405217,
+            -80.1864840405217
+          ],
+          "farther_pair_fraction": 0.0,
+          "higher_pair_fraction": 0.0,
+          "median_path_length_ratio_vs_one_third": 3.849860263358204e-08,
+          "median_endpoint_farther_px": -80.18664210358943,
+          "median_endpoint_higher_px": -80.1864840405217,
+          "median_camera_up_difference_mm": -92.18541036049524
+        }
+      },
+      "CV_3D": {
+        "ADE_2D_px": 2.906427821435215,
+        "FDE_2D_px": 7.373617230827496,
+        "median_2D_px": 2.1492328230757547,
+        "P90_2D_px": 6.507548448045872,
+        "ADE_2D_image_diagonal_fraction": 0.0036330347767940187,
+        "PWT_native_px": {
+          "5": 0.8333333333333334,
+          "10": 0.9875,
+          "20": 1.0,
+          "40": 1.0
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          0.7055676396287689,
+          1.0227724896246926,
+          1.1515110646448345,
+          1.546176479438693,
+          2.255621253242938,
+          2.505956065117189,
+          3.240090239737372,
+          4.2885490481890285,
+          4.974416703901135,
+          7.373617230827496
+        ],
+        "moving_step_direction_coverage": 1.0,
+        "direction_error_median_degrees": 2.1350166362634293,
+        "projected_speed_MAE_px_per_s": 4.335691279131704,
+        "median_projected_path_length_ratio": 1.061601810830688,
+        "median_endpoint_displacement_ratio": 1.0624346764756218,
+        "conditional_3D_est": {
+          "ADE_m": 0.014769791600014247,
+          "FDE_m": 0.026905830083905954,
+          "PWT_m": {
+            "0.01": 0.5378151260504201,
+            "0.02": 0.7941176470588235,
+            "0.05": 0.9453781512605042,
+            "0.1": 1.0,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 4.884280586924017,
+          "P90": 23.068309799518413,
+          "within_P8_median": 4.721617798418469,
+          "across_P8_median": 4.95644067715061
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 2.881741039037275
+          },
+          {
+            "group": 1,
+            "ADE_px": 3.4341108987831355
+          },
+          {
+            "group": 2,
+            "ADE_px": 2.403431526485234
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            -4.149420434421508,
+            -12.196233842630614,
+            -21.482238161134163,
+            -29.817155517712113,
+            -33.44703309010097,
+            -29.75785470601433,
+            -23.40108127760238,
+            -14.811786667465668,
+            -4.390727782735915,
+            6.4773132227756705
+          ],
+          "median_higher_px_by_time": [
+            -4.2609850485458765,
+            -12.458010396274432,
+            -21.870425535470787,
+            -30.338526717288516,
+            -34.24110206759764,
+            -30.247200668718037,
+            -20.690897593195643,
+            -11.951805927046138,
+            -3.0482209603234907,
+            6.024660034940496
+          ],
+          "farther_pair_fraction": 0.10833333333333334,
+          "higher_pair_fraction": 0.1375,
+          "median_path_length_ratio_vs_one_third": 0.9544189923521871,
+          "median_endpoint_farther_px": 6.4773132227756705,
+          "median_endpoint_higher_px": 6.024660034940496,
+          "median_camera_up_difference_mm": -22.691881627251163
+        }
+      },
+      "object_translation_3D": {
+        "ADE_2D_px": 1.9902117073298877,
+        "FDE_2D_px": 5.614255645312379,
+        "median_2D_px": 1.381851444593925,
+        "P90_2D_px": 4.2191756903095605,
+        "ADE_2D_image_diagonal_fraction": 0.0024877646341623597,
+        "PWT_native_px": {
+          "5": 0.925,
+          "10": 1.0,
+          "20": 1.0,
+          "40": 1.0
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          0.6745559701212863,
+          0.8827801340712543,
+          0.7477049490392038,
+          1.0253262435552821,
+          1.618049163014866,
+          1.4760091059963019,
+          2.010385189924684,
+          2.8199173115332727,
+          3.0331333607303463,
+          5.614255645312379
+        ],
+        "moving_step_direction_coverage": 1.0,
+        "direction_error_median_degrees": 1.4410337681364456,
+        "projected_speed_MAE_px_per_s": 3.8479293622057584,
+        "median_projected_path_length_ratio": 1.0635881328398973,
+        "median_endpoint_displacement_ratio": 1.0652228888309594,
+        "conditional_3D_est": {
+          "ADE_m": 0.007480509581793352,
+          "FDE_m": 0.012463359371286781,
+          "PWT_m": {
+            "0.01": 0.7689075630252101,
+            "0.02": 0.9201680672268907,
+            "0.05": 1.0,
+            "0.1": 1.0,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9916666666666667,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 0.0,
+          "P90": 6.938893903907228e-15,
+          "within_P8_median": 0.0,
+          "across_P8_median": 0.0
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 1.744084426146392
+          },
+          {
+            "group": 1,
+            "ADE_px": 2.0561726116191243
+          },
+          {
+            "group": 2,
+            "ADE_px": 2.170378084224146
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            -4.0619835665815,
+            -11.975982572227906,
+            -21.159929714426774,
+            -29.398423891550177,
+            -33.97578820229073,
+            -28.538419918423134,
+            -22.729784305046312,
+            -13.116381229536483,
+            -2.892631902135598,
+            8.46525929709297
+          ],
+          "median_higher_px_by_time": [
+            -4.20604935715491,
+            -12.206146504477886,
+            -21.55032464739662,
+            -29.925332931353054,
+            -34.572257094918015,
+            -28.772604930557762,
+            -19.69661269564436,
+            -10.465880185076799,
+            -1.0764158355534335,
+            8.475910398191132
+          ],
+          "farther_pair_fraction": 0.12083333333333333,
+          "higher_pair_fraction": 0.14583333333333334,
+          "median_path_length_ratio_vs_one_third": 0.9552248038738744,
+          "median_endpoint_farther_px": 8.46525929709297,
+          "median_endpoint_higher_px": 8.475910398191132,
+          "median_camera_up_difference_mm": -22.91646171071717
+        }
+      }
+    }
+  },
+  "bottle": {
+    "episode_id": 9,
+    "t0": 47,
+    "K": [
+      [
+        434.5584411621094,
+        0.0,
+        320.0
+      ],
+      [
+        0.0,
+        434.5584411621094,
+        240.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "point_ids": [
+      90,
+      9,
+      44,
+      58,
+      22,
+      21,
+      85,
+      66,
+      82,
+      25,
+      41,
+      69,
+      10,
+      23,
+      48,
+      30,
+      42,
+      73,
+      76,
+      38,
+      72,
+      19,
+      81,
+      99
+    ],
+    "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+    "methods": {
+      "reference_0333": {
+        "ADE_2D_px": 44.650445522294625,
+        "FDE_2D_px": 34.25549115802614,
+        "median_2D_px": 48.761807590470696,
+        "P90_2D_px": 61.785412136608215,
+        "ADE_2D_image_diagonal_fraction": 0.05581305690286828,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.11666666666666667,
+          "40": 0.35
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          14.413172244784874,
+          33.08981879600887,
+          45.721700782004916,
+          51.81435099179313,
+          57.00355573177462,
+          61.446287033070064,
+          60.310514962237015,
+          49.82382803496623,
+          38.625735488280405,
+          34.25549115802614
+        ],
+        "moving_step_direction_coverage": 0.9041666666666667,
+        "direction_error_median_degrees": 58.42167845824069,
+        "projected_speed_MAE_px_per_s": 38.81884362283864,
+        "median_projected_path_length_ratio": 1.5230774428143605,
+        "median_endpoint_displacement_ratio": 0.9105617410911668,
+        "conditional_3D_est": {
+          "ADE_m": 0.05755446965264414,
+          "FDE_m": 0.05968829662808776,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.09361702127659574,
+            "0.05": 0.30638297872340425,
+            "0.1": 0.9914893617021276,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.501993141391075,
+          "P90": 21.54891452437771,
+          "within_P8_median": 3.937538431503067,
+          "across_P8_median": 6.312651304550151
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 41.76605317799078
+          },
+          {
+            "group": 1,
+            "ADE_px": 42.62863939386024
+          },
+          {
+            "group": 2,
+            "ADE_px": 49.55664399503286
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "median_higher_px_by_time": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "farther_pair_fraction": 0.0,
+          "higher_pair_fraction": 0.0,
+          "median_path_length_ratio_vs_one_third": 1.0,
+          "median_endpoint_farther_px": 0.0,
+          "median_endpoint_higher_px": 0.0,
+          "median_camera_up_difference_mm": 0.0
+        }
+      },
+      "scale_036": {
+        "ADE_2D_px": 50.29318744880913,
+        "FDE_2D_px": 35.25714426757306,
+        "median_2D_px": 55.548104580523315,
+        "P90_2D_px": 69.84686757678125,
+        "ADE_2D_image_diagonal_fraction": 0.06286648431101141,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.12083333333333333,
+          "40": 0.32916666666666666
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          16.497718824804924,
+          37.58438087794361,
+          52.14170137471027,
+          59.40462001467023,
+          65.24998407180506,
+          69.83633817042546,
+          68.1374944616605,
+          56.31444215782483,
+          42.50805026667337,
+          35.25714426757306
+        ],
+        "moving_step_direction_coverage": 0.9041666666666667,
+        "direction_error_median_degrees": 58.481747230735174,
+        "projected_speed_MAE_px_per_s": 44.58467935401901,
+        "median_projected_path_length_ratio": 1.6436311092014355,
+        "median_endpoint_displacement_ratio": 0.9843289382303341,
+        "conditional_3D_est": {
+          "ADE_m": 0.06426671186614019,
+          "FDE_m": 0.06147802225591343,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.06382978723404255,
+            "0.05": 0.2680851063829787,
+            "0.1": 0.9787234042553191,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.94766623372627,
+          "P90": 23.127975133913697,
+          "within_P8_median": 4.1754183943201255,
+          "across_P8_median": 6.844268209367026
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 46.71797507498398
+          },
+          {
+            "group": 1,
+            "ADE_px": 47.95539762464431
+          },
+          {
+            "group": 2,
+            "ADE_px": 56.20618964679909
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            2.085393175726905,
+            4.509784092018521,
+            6.492728799649122,
+            7.826199081349486,
+            8.703868809041147,
+            9.353649210591051,
+            9.438426348736058,
+            8.900013283910475,
+            8.0742872670818,
+            7.565843391655157
+          ],
+          "median_higher_px_by_time": [
+            1.9177476681365988,
+            4.063920689332363,
+            5.554390227628517,
+            6.192594444937043,
+            6.4765658002975925,
+            6.535778553155367,
+            6.354239572131846,
+            6.241553276300024,
+            6.231823343219503,
+            6.238356765169655
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0799666675629052,
+          "median_endpoint_farther_px": 7.565843391655157,
+          "median_endpoint_higher_px": 6.238356765169655,
+          "median_camera_up_difference_mm": 7.372692724068965
+        }
+      },
+      "scale_038": {
+        "ADE_2D_px": 54.80148199746139,
+        "FDE_2D_px": 37.11187251141647,
+        "median_2D_px": 60.57041900383043,
+        "P90_2D_px": 76.26705542693273,
+        "ADE_2D_image_diagonal_fraction": 0.06850185249682673,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.10833333333333334,
+          "40": 0.2375
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          18.061879061655414,
+          40.95474163473995,
+          56.957031988933295,
+          65.11409490403048,
+          71.49712627554906,
+          76.26343255902877,
+          74.24710019986463,
+          61.58859068482908,
+          46.218950154566734,
+          37.11187251141647
+        ],
+        "moving_step_direction_coverage": 0.9041666666666667,
+        "direction_error_median_degrees": 58.52680148489393,
+        "projected_speed_MAE_px_per_s": 48.907009374051675,
+        "median_projected_path_length_ratio": 1.733923944193541,
+        "median_endpoint_displacement_ratio": 1.0397458783577842,
+        "conditional_3D_est": {
+          "ADE_m": 0.06958750048939194,
+          "FDE_m": 0.06368098811689563,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.029787234042553193,
+            "0.05": 0.23829787234042554,
+            "0.1": 0.9404255319148936,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 6.247773661896581,
+          "P90": 24.141917602045734,
+          "within_P8_median": 4.313323791450388,
+          "across_P8_median": 7.263052912392498
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 50.691263089291155
+          },
+          {
+            "group": 1,
+            "ADE_px": 52.333298174148275
+          },
+          {
+            "group": 2,
+            "ADE_px": 61.37988472894474
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            3.648920678294175,
+            7.892081701433888,
+            11.362873255489994,
+            13.700937976564795,
+            15.216708289234312,
+            16.357726083689172,
+            16.511952511646754,
+            15.576012242051348,
+            14.138008096334971,
+            13.248239660045854
+          ],
+          "median_higher_px_by_time": [
+            3.356388058861313,
+            7.113305768164892,
+            9.721213965079315,
+            10.843933583243853,
+            11.318750260961608,
+            11.419128773223576,
+            11.119350319098018,
+            10.924880059886476,
+            10.911066401943017,
+            10.923140553955193
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.139938429376921,
+          "median_endpoint_farther_px": 13.248239660045854,
+          "median_endpoint_higher_px": 10.923140553955193,
+          "median_camera_up_difference_mm": 12.90221226712069
+        }
+      },
+      "scale_040": {
+        "ADE_2D_px": 59.50182249795393,
+        "FDE_2D_px": 39.82432905095561,
+        "median_2D_px": 65.83574825349181,
+        "P90_2D_px": 82.69870785890137,
+        "ADE_2D_image_diagonal_fraction": 0.07437727812244241,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.07916666666666666,
+          "40": 0.20416666666666666
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          19.626446962240124,
+          44.32453799759109,
+          61.77216476015324,
+          70.8334366112253,
+          77.78244423391719,
+          82.77485097010462,
+          80.50855954550342,
+          67.11780502405378,
+          50.45364982379491,
+          39.82432905095561
+        ],
+        "moving_step_direction_coverage": 0.9041666666666667,
+        "direction_error_median_degrees": 58.57185797000961,
+        "projected_speed_MAE_px_per_s": 53.22749468716873,
+        "median_projected_path_length_ratio": 1.8241123318944656,
+        "median_endpoint_displacement_ratio": 1.0952415726471072,
+        "conditional_3D_est": {
+          "ADE_m": 0.07511296225577598,
+          "FDE_m": 0.06658721853525852,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.0,
+            "0.05": 0.1829787234042553,
+            "0.1": 0.8553191489361702,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 6.49474916490983,
+          "P90": 25.286844807955877,
+          "within_P8_median": 4.5018258013709875,
+          "across_P8_median": 7.51453812958117
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 54.85501027308658
+          },
+          {
+            "group": 1,
+            "ADE_px": 56.97794347257441
+          },
+          {
+            "group": 2,
+            "ADE_px": 66.6725137482008
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            5.212005223772625,
+            11.274344632381336,
+            16.233531686776104,
+            19.580046410697577,
+            21.744815994200565,
+            23.369326490429195,
+            23.59000371955419,
+            22.25285957320549,
+            20.1992511675165,
+            18.937525955803117
+          ],
+          "median_higher_px_by_time": [
+            4.795311137104676,
+            10.163929945355463,
+            13.886934589393107,
+            15.501200573325434,
+            16.147931009375966,
+            16.286722171484982,
+            15.88411115973193,
+            15.608502001133004,
+            15.594931402637272,
+            15.608502001133004
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.1999074153071954,
+          "median_endpoint_farther_px": 18.937525955803117,
+          "median_endpoint_higher_px": 15.608502001133004,
+          "median_camera_up_difference_mm": 18.431731810172415
+        }
+      },
+      "scale_042": {
+        "ADE_2D_px": 64.35401230383042,
+        "FDE_2D_px": 43.242443086227034,
+        "median_2D_px": 71.37480587530472,
+        "P90_2D_px": 89.26080957336357,
+        "ADE_2D_image_diagonal_fraction": 0.08044251537978803,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.008333333333333333,
+          "40": 0.17916666666666667
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          21.191278709915313,
+          47.69371895566914,
+          66.58680513030933,
+          76.5598971076786,
+          84.09659520594958,
+          89.35116320821403,
+          86.88775330352549,
+          72.84197244540232,
+          55.08849588541339,
+          43.242443086227034
+        ],
+        "moving_step_direction_coverage": 0.9041666666666667,
+        "direction_error_median_degrees": 58.61691663051831,
+        "projected_speed_MAE_px_per_s": 57.55820361658682,
+        "median_projected_path_length_ratio": 1.9141967021723447,
+        "median_endpoint_displacement_ratio": 1.1508162828868318,
+        "conditional_3D_est": {
+          "ADE_m": 0.08081091487660728,
+          "FDE_m": 0.07014528802150292,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.0,
+            "0.05": 0.14042553191489363,
+            "0.1": 0.6978723404255319,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 6.795626042464651,
+          "P90": 26.46242825954371,
+          "within_P8_median": 4.608068449062062,
+          "across_P8_median": 7.899575863395013
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 59.18030502482918
+          },
+          {
+            "group": 1,
+            "ADE_px": 61.82447880356849
+          },
+          {
+            "group": 2,
+            "ADE_px": 72.05725308309358
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            6.774647271285486,
+            14.657313389866278,
+            21.104705469032908,
+            25.463530733052856,
+            28.276932603336846,
+            30.38205736009983,
+            30.668955920801878,
+            28.930555874328313,
+            26.26069350719736,
+            24.63372137165242
+          ],
+          "median_higher_px_by_time": [
+            6.234517028299621,
+            13.21347011703753,
+            18.052352352828862,
+            20.16441287122393,
+            20.964160875851277,
+            21.138635901865214,
+            20.648646003059028,
+            20.293042822780848,
+            20.283431292822797,
+            20.293042822780848
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.2598736256060499,
+          "median_endpoint_farther_px": 24.63372137165242,
+          "median_endpoint_higher_px": 20.293042822780848,
+          "median_camera_up_difference_mm": 23.961251353224128
+        }
+      },
+      "lift_005": {
+        "ADE_2D_px": 44.7393120373007,
+        "FDE_2D_px": 31.789111782500864,
+        "median_2D_px": 49.330018175307195,
+        "P90_2D_px": 62.35632739810678,
+        "ADE_2D_image_diagonal_fraction": 0.055924140046625874,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.12916666666666668,
+          "40": 0.3416666666666667
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          14.523817655304137,
+          33.484614752437224,
+          46.46070508505907,
+          52.817645684291925,
+          58.055558610584036,
+          62.2983988716318,
+          60.76863466570353,
+          49.78624638374992,
+          37.40838688174447,
+          31.789111782500864
+        ],
+        "moving_step_direction_coverage": 0.9,
+        "direction_error_median_degrees": 55.736131527245206,
+        "projected_speed_MAE_px_per_s": 39.436515352072,
+        "median_projected_path_length_ratio": 1.5316434902782816,
+        "median_endpoint_displacement_ratio": 0.9449535272346761,
+        "conditional_3D_est": {
+          "ADE_m": 0.057748731996377596,
+          "FDE_m": 0.05759389273062979,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.08936170212765958,
+            "0.05": 0.31063829787234043,
+            "0.1": 0.9914893617021276,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.501993141391075,
+          "P90": 21.54891452437771,
+          "within_P8_median": 3.937538431503067,
+          "across_P8_median": 6.312651304550151
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 41.708444650332666
+          },
+          {
+            "group": 1,
+            "ADE_px": 42.56363317277167
+          },
+          {
+            "group": 2,
+            "ADE_px": 49.94585828879775
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            0.10899533322389487,
+            0.39451608386531234,
+            0.7778475797367506,
+            1.1992836926530401,
+            1.585143070332819,
+            1.9247791828877467,
+            2.260345558407259,
+            2.625257918335457,
+            2.977899188009822,
+            3.1183426507247063
+          ],
+          "median_higher_px_by_time": [
+            0.1166183272658543,
+            0.432474609751182,
+            0.898544755399044,
+            1.4611740723075286,
+            2.06958217118013,
+            2.673718861535548,
+            3.2281892331539126,
+            3.6952080413067847,
+            4.003041478830795,
+            4.109228720682665
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0062572168676183,
+          "median_endpoint_farther_px": 3.1183426507247063,
+          "median_endpoint_higher_px": 4.109228720682665,
+          "median_camera_up_difference_mm": 2.870000000000001
+        }
+      },
+      "lift_010": {
+        "ADE_2D_px": 44.966202403574684,
+        "FDE_2D_px": 29.660144656419934,
+        "median_2D_px": 49.59648552625309,
+        "P90_2D_px": 63.11850733303679,
+        "ADE_2D_image_diagonal_fraction": 0.056207753004468355,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.14583333333333334,
+          "40": 0.3416666666666667
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          14.634551742760328,
+          33.88030790784392,
+          47.20510641261679,
+          53.84166610917339,
+          59.161204256256745,
+          63.25237841924545,
+          61.394496269066735,
+          50.02686755496666,
+          36.6053007073969,
+          29.660144656419934
+        ],
+        "moving_step_direction_coverage": 0.9,
+        "direction_error_median_degrees": 49.62898606561248,
+        "projected_speed_MAE_px_per_s": 39.93826248368414,
+        "median_projected_path_length_ratio": 1.5424482335925989,
+        "median_endpoint_displacement_ratio": 0.9798858270737949,
+        "conditional_3D_est": {
+          "ADE_m": 0.05809104198516925,
+          "FDE_m": 0.055831206803280575,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.08936170212765958,
+            "0.05": 0.31063829787234043,
+            "0.1": 0.9957446808510638,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.501993141391075,
+          "P90": 21.54891452437771,
+          "within_P8_median": 3.937538431503067,
+          "across_P8_median": 6.312651304550151
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 41.768873370629386
+          },
+          {
+            "group": 1,
+            "ADE_px": 42.67231555691986
+          },
+          {
+            "group": 2,
+            "ADE_px": 50.45741828317481
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            0.21805884009948961,
+            0.7896451577105381,
+            1.558029790788467,
+            2.406034811663872,
+            3.187628618357337,
+            3.8794278534153577,
+            4.564868431585857,
+            5.306820751791072,
+            6.017066574913365,
+            6.30679897088298
+          ],
+          "median_higher_px_by_time": [
+            0.2332366545317086,
+            0.864949219502364,
+            1.7970895107980596,
+            2.9223481446150856,
+            4.139164342360289,
+            5.3474377230710815,
+            6.456378466307825,
+            7.390416082613584,
+            8.006082957661576,
+            8.218457441365302
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0143471583294317,
+          "median_endpoint_farther_px": 6.30679897088298,
+          "median_endpoint_higher_px": 8.218457441365302,
+          "median_camera_up_difference_mm": 5.74
+        }
+      },
+      "scale_036_lift005": {
+        "ADE_2D_px": 50.62454338678886,
+        "FDE_2D_px": 33.578378237510385,
+        "median_2D_px": 55.807952115888725,
+        "P90_2D_px": 70.71871707205986,
+        "ADE_2D_image_diagonal_fraction": 0.06328067923348607,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.1375,
+          "40": 0.32916666666666666
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          16.60804298746191,
+          37.978651475413066,
+          52.88431497541353,
+          60.43206059121794,
+          66.37473181545833,
+          70.83478651350711,
+          68.84555811261752,
+          56.69516573162036,
+          42.01374342766842,
+          33.578378237510385
+        ],
+        "moving_step_direction_coverage": 0.9,
+        "direction_error_median_degrees": 55.945875617598084,
+        "projected_speed_MAE_px_per_s": 45.20644085776171,
+        "median_projected_path_length_ratio": 1.6520847438941848,
+        "median_endpoint_displacement_ratio": 1.0187319063016398,
+        "conditional_3D_est": {
+          "ADE_m": 0.06469923013968802,
+          "FDE_m": 0.05997569696066582,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.06382978723404255,
+            "0.05": 0.26382978723404255,
+            "0.1": 0.9702127659574468,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.94766623372627,
+          "P90": 23.127975133913697,
+          "within_P8_median": 4.1754183943201255,
+          "across_P8_median": 6.844268209367026
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 46.878548160093125
+          },
+          {
+            "group": 1,
+            "ADE_px": 48.2122827746028
+          },
+          {
+            "group": 2,
+            "ADE_px": 56.78279922567066
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            2.1913209441625625,
+            4.905393519106383,
+            7.267027696084789,
+            8.97715633275537,
+            10.25492061935644,
+            11.232248304490547,
+            11.68979306160498,
+            11.58973763955683,
+            11.232181085974261,
+            11.020370625028697
+          ],
+          "median_higher_px_by_time": [
+            2.0392841023139,
+            4.4946514380143014,
+            6.427555160320765,
+            7.700500960811752,
+            8.549270639254544,
+            9.165272751825299,
+            9.645196748704109,
+            9.954812451310687,
+            10.23087223663228,
+            10.364032024381899
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0864751143184614,
+          "median_endpoint_farther_px": 11.020370625028697,
+          "median_endpoint_higher_px": 10.364032024381899,
+          "median_camera_up_difference_mm": 10.724279672304785
+        }
+      },
+      "scale_038_lift005": {
+        "ADE_2D_px": 55.29808908914542,
+        "FDE_2D_px": 36.07868724951303,
+        "median_2D_px": 61.00731019693788,
+        "P90_2D_px": 77.15901614099556,
+        "ADE_2D_image_diagonal_fraction": 0.06912261136143177,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.11666666666666667,
+          "40": 0.22916666666666666
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          18.172002803883505,
+          41.34867976303727,
+          57.701772142151924,
+          66.15563980258021,
+          72.6643581170589,
+          77.34843907219688,
+          75.10462679376984,
+          62.2185131913976,
+          46.18817195586511,
+          36.07868724951303
+        ],
+        "moving_step_direction_coverage": 0.9,
+        "direction_error_median_degrees": 56.090052332982616,
+        "projected_speed_MAE_px_per_s": 49.53148218230522,
+        "median_projected_path_length_ratio": 1.7423013238012528,
+        "median_endpoint_displacement_ratio": 1.07415912706136,
+        "conditional_3D_est": {
+          "ADE_m": 0.0701793867357108,
+          "FDE_m": 0.06264244883844779,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.02553191489361702,
+            "0.05": 0.23829787234042554,
+            "0.1": 0.9361702127659575,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 6.247773661896584,
+          "P90": 24.141917602045734,
+          "within_P8_median": 4.313323791450388,
+          "across_P8_median": 7.263052912392498
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 51.007712259455076
+          },
+          {
+            "group": 1,
+            "ADE_px": 52.816817282403704
+          },
+          {
+            "group": 2,
+            "ADE_px": 62.06973772557749
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            3.7543471936927837,
+            8.287673930031112,
+            12.135416291937638,
+            14.865917149010365,
+            16.798153094626272,
+            18.27865139884277,
+            18.76448890219291,
+            18.28379051532732,
+            17.361407895450412,
+            16.776173456124575
+          ],
+          "median_higher_px_by_time": [
+            3.477936366914548,
+            7.538766590741432,
+            10.59422957527849,
+            12.331170123493223,
+            13.400649351710499,
+            14.034239650783164,
+            14.34613065429393,
+            14.617969757177278,
+            14.918799075511075,
+            15.073145424491415
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.1465169655279965,
+          "median_endpoint_farther_px": 16.776173456124575,
+          "median_endpoint_higher_px": 15.073145424491415,
+          "median_camera_up_difference_mm": 16.365396989385292
+        }
+      },
+      "scale_036_lift010": {
+        "ADE_2D_px": 51.09813564749481,
+        "FDE_2D_px": 32.38004676244932,
+        "median_2D_px": 56.431283376008,
+        "P90_2D_px": 71.63243557233017,
+        "ADE_2D_image_diagonal_fraction": 0.0638726695593685,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.14166666666666666,
+          "40": 0.3333333333333333
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          16.718448905009378,
+          38.373723888296915,
+          53.631575684761685,
+          61.47684198005288,
+          67.54407138453121,
+          71.91896434320665,
+          69.69698261552139,
+          57.31578341882943,
+          41.92491749228922,
+          32.38004676244932
+        ],
+        "moving_step_direction_coverage": 0.9,
+        "direction_error_median_degrees": 50.786852949060545,
+        "projected_speed_MAE_px_per_s": 45.71994332595571,
+        "median_projected_path_length_ratio": 1.662616340945922,
+        "median_endpoint_displacement_ratio": 1.0536398356851193,
+        "conditional_3D_est": {
+          "ADE_m": 0.06527349404455081,
+          "FDE_m": 0.05884393070299407,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.059574468085106386,
+            "0.05": 0.25957446808510637,
+            "0.1": 0.9659574468085106,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 5.947666233726267,
+          "P90": 23.127975133913697,
+          "within_P8_median": 4.1754183943201255,
+          "across_P8_median": 6.844268209367026
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 47.164406973865724
+          },
+          {
+            "group": 1,
+            "ADE_px": 48.663591084634525
+          },
+          {
+            "group": 2,
+            "ADE_px": 57.46640888398419
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            2.302376960018371,
+            5.302399906475063,
+            8.047286312828426,
+            10.10344584680606,
+            11.825700544042249,
+            13.124387576113321,
+            13.875500194159699,
+            14.204860375728138,
+            14.436400919188017,
+            14.550561276757108
+          ],
+          "median_higher_px_by_time": [
+            2.1608205364911726,
+            4.931170256000456,
+            7.314853019797738,
+            9.172924025678398,
+            10.65232610311233,
+            11.875071603422356,
+            12.873683323367999,
+            13.629505085455577,
+            14.24496971450111,
+            14.500811985514318
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.0951115412895447,
+          "median_endpoint_farther_px": 14.550561276757108,
+          "median_endpoint_higher_px": 14.500811985514318,
+          "median_camera_up_difference_mm": 13.534854243596396
+        }
+      },
+      "scale_038_lift010": {
+        "ADE_2D_px": 55.93131540249973,
+        "FDE_2D_px": 35.56035099417247,
+        "median_2D_px": 61.80968176224239,
+        "P90_2D_px": 78.29848451159503,
+        "ADE_2D_image_diagonal_fraction": 0.06991414425312466,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.12083333333333333,
+          "40": 0.225
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          18.28220363697845,
+          41.7433604041042,
+          58.45071915295109,
+          67.21260144917086,
+          73.87101211433773,
+          78.50962024042944,
+          76.09024778704247,
+          63.061937419061394,
+          46.5311008267491,
+          35.56035099417247
+        ],
+        "moving_step_direction_coverage": 0.9,
+        "direction_error_median_degrees": 51.78335888709593,
+        "projected_speed_MAE_px_per_s": 50.05428355920533,
+        "median_projected_path_length_ratio": 1.7526493243987527,
+        "median_endpoint_displacement_ratio": 1.1090536251650835,
+        "conditional_3D_est": {
+          "ADE_m": 0.07090680307560365,
+          "FDE_m": 0.06199866128914921,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.02127659574468085,
+            "0.05": 0.23404255319148937,
+            "0.1": 0.9276595744680851,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 6.247773661896581,
+          "P90": 24.141917602045734,
+          "within_P8_median": 4.313323791450388,
+          "across_P8_median": 7.263052912392498
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 51.45187203816853
+          },
+          {
+            "group": 1,
+            "ADE_px": 53.48620652897248
+          },
+          {
+            "group": 2,
+            "ADE_px": 62.855867640358156
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            3.8613070226052493,
+            8.683809087334794,
+            12.915581683985003,
+            16.003876479206397,
+            18.327055587941423,
+            20.14669552707735,
+            21.033294939248634,
+            20.978286706356606,
+            20.49626249122379,
+            20.205959772178666
+          ],
+          "median_higher_px_by_time": [
+            3.5994846749677833,
+            7.975315126659666,
+            11.470054592068252,
+            13.859205996162316,
+            15.46346546397261,
+            16.69127767279788,
+            17.705943459685784,
+            18.3190713417045,
+            18.92573032453329,
+            19.191539881061757
+          ],
+          "farther_pair_fraction": 1.0,
+          "higher_pair_fraction": 1.0,
+          "median_path_length_ratio_vs_one_third": 1.154921771312122,
+          "median_endpoint_farther_px": 20.205959772178666,
+          "median_endpoint_higher_px": 19.191539881061757,
+          "median_camera_up_difference_mm": 19.453761319716772
+        }
+      },
+      "static": {
+        "ADE_2D_px": 60.80925190351923,
+        "FDE_2D_px": 102.199074276501,
+        "median_2D_px": 63.23499491428801,
+        "P90_2D_px": 98.95034281218393,
+        "ADE_2D_image_diagonal_fraction": 0.07601156487939904,
+        "PWT_native_px": {
+          "5": 0.0,
+          "10": 0.0,
+          "20": 0.1,
+          "40": 0.3
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          11.8817822971221,
+          23.309637957568214,
+          35.26532727891138,
+          47.17797260398976,
+          58.42390368254096,
+          68.7692540658947,
+          78.78806300438983,
+          86.71508413752206,
+          95.56241973075235,
+          102.199074276501
+        ],
+        "moving_step_direction_coverage": 0.0,
+        "direction_error_median_degrees": null,
+        "projected_speed_MAE_px_per_s": 51.667004881980006,
+        "median_projected_path_length_ratio": 1.0502365308889731e-07,
+        "median_endpoint_displacement_ratio": 1.0623893759270706e-07,
+        "conditional_3D_est": {
+          "ADE_m": 0.07460051801449553,
+          "FDE_m": 0.12465181961400172,
+          "PWT_m": {
+            "0.01": 0.0,
+            "0.02": 0.09787234042553192,
+            "0.05": 0.30638297872340425,
+            "0.1": 0.6893617021276596,
+            "0.2": 1.0
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 0.0,
+          "P90": 0.0,
+          "within_P8_median": 0.0,
+          "across_P8_median": 0.0
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 60.450141230032855
+          },
+          {
+            "group": 1,
+            "ADE_px": 60.73137175677781
+          },
+          {
+            "group": 2,
+            "ADE_px": 61.24624272374704
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            -26.094743784422498,
+            -56.37749897160661,
+            -81.25846024857393,
+            -97.06944195012646,
+            -108.56756239332645,
+            -116.69867162378347,
+            -118.08297393093221,
+            -111.01257919637905,
+            -100.30422431065361,
+            -93.81880989427763
+          ],
+          "median_higher_px_by_time": [
+            -23.949005415774735,
+            -50.79787154871977,
+            -69.28528486245827,
+            -77.45729199843603,
+            -81.47908607134647,
+            -81.77150186922259,
+            -79.57132570971656,
+            -77.8602437270724,
+            -77.48429172984382,
+            -76.66856564765126
+          ],
+          "farther_pair_fraction": 0.0,
+          "higher_pair_fraction": 0.0,
+          "median_path_length_ratio_vs_one_third": 6.964990294364961e-08,
+          "median_endpoint_farther_px": -93.81880989427763,
+          "median_endpoint_higher_px": -76.66856564765126,
+          "median_camera_up_difference_mm": -92.15865905086198
+        }
+      },
+      "CV_3D": {
+        "ADE_2D_px": 11.045306980476239,
+        "FDE_2D_px": 11.934213097449204,
+        "median_2D_px": 11.286192687936264,
+        "P90_2D_px": 17.22069347794645,
+        "ADE_2D_image_diagonal_fraction": 0.013806633725595298,
+        "PWT_native_px": {
+          "5": 0.14583333333333334,
+          "10": 0.42083333333333334,
+          "20": 0.9791666666666666,
+          "40": 1.0
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          3.522434276372581,
+          6.3987618272344315,
+          9.41746709475143,
+          11.917066267348511,
+          13.572721316004353,
+          14.156690182542862,
+          14.35025166862085,
+          12.73045742346028,
+          12.453006650977885,
+          11.934213097449204
+        ],
+        "moving_step_direction_coverage": 1.0,
+        "direction_error_median_degrees": 6.515250259357046,
+        "projected_speed_MAE_px_per_s": 11.501071995433913,
+        "median_projected_path_length_ratio": 0.9174686055773904,
+        "median_endpoint_displacement_ratio": 0.9280956917328569,
+        "conditional_3D_est": {
+          "ADE_m": 0.042617802095926825,
+          "FDE_m": 0.09767167488359241,
+          "PWT_m": {
+            "0.01": 0.16170212765957448,
+            "0.02": 0.3617021276595745,
+            "0.05": 0.6638297872340425,
+            "0.1": 0.9361702127659575,
+            "0.2": 0.9914893617021276
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 4.004484311226523,
+          "P90": 22.24522840367055,
+          "within_P8_median": 4.569178911930754,
+          "across_P8_median": 3.724400228005381
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 11.018040481037456
+          },
+          {
+            "group": 1,
+            "ADE_px": 10.728718697417651
+          },
+          {
+            "group": 2,
+            "ADE_px": 11.389161762973611
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            -17.642077177705396,
+            -38.97735708084144,
+            -54.9668000587515,
+            -61.12463431301079,
+            -63.36169626859945,
+            -61.874857019409134,
+            -53.17242704713418,
+            -36.16830329859902,
+            -14.285742887274068,
+            3.2186047799613036
+          ],
+          "median_higher_px_by_time": [
+            -16.007307855461335,
+            -34.578184326408405,
+            -44.79704070319582,
+            -44.40118470145751,
+            -38.79119809231585,
+            -30.507056862447456,
+            -19.964024239711094,
+            -9.40593737113636,
+            3.0954325840108936,
+            15.134843355135317
+          ],
+          "farther_pair_fraction": 0.0625,
+          "higher_pair_fraction": 0.17083333333333334,
+          "median_path_length_ratio_vs_one_third": 0.60006634297153,
+          "median_endpoint_farther_px": 3.2186047799613036,
+          "median_endpoint_higher_px": 15.134843355135317,
+          "median_camera_up_difference_mm": -27.571690267113702
+        }
+      },
+      "object_translation_3D": {
+        "ADE_2D_px": 11.36990099947021,
+        "FDE_2D_px": 10.89524300546391,
+        "median_2D_px": 12.401982937313544,
+        "P90_2D_px": 15.454378912573924,
+        "ADE_2D_image_diagonal_fraction": 0.014212376249337761,
+        "PWT_native_px": {
+          "5": 0.1,
+          "10": 0.30416666666666664,
+          "20": 1.0,
+          "40": 1.0
+        },
+        "reference_visible_pair_coverage": 1.0,
+        "prediction_pair_coverage": 1.0,
+        "error_by_horizon_px": [
+          3.6148072280334596,
+          6.603182995363963,
+          9.741524776481315,
+          12.363820724990232,
+          14.16143165283907,
+          14.904910704286523,
+          15.240343568163132,
+          13.455732490979871,
+          12.718012848100614,
+          10.89524300546391
+        ],
+        "moving_step_direction_coverage": 1.0,
+        "direction_error_median_degrees": 6.538297858345511,
+        "projected_speed_MAE_px_per_s": 11.01934393974438,
+        "median_projected_path_length_ratio": 0.9196586586399871,
+        "median_endpoint_displacement_ratio": 0.9295740244055377,
+        "conditional_3D_est": {
+          "ADE_m": 0.039735076177692494,
+          "FDE_m": 0.09378603780550303,
+          "PWT_m": {
+            "0.01": 0.17872340425531916,
+            "0.02": 0.3829787234042553,
+            "0.05": 0.6595744680851063,
+            "0.1": 0.9787234042553191,
+            "0.2": 0.9957446808510638
+          },
+          "valid_pair_coverage": 0.9791666666666666,
+          "reference": "same native future sensor Z and tracker pixels, reexpressed with the method candidate K; not calibrated 3D ground truth"
+        },
+        "pair_distance_drift_3D_mm": {
+          "median": 0.0,
+          "P90": 3.469446951953614e-14,
+          "within_P8_median": 0.0,
+          "across_P8_median": 0.0
+        },
+        "groups_P8": [
+          {
+            "group": 0,
+            "ADE_px": 11.694201720169795
+          },
+          {
+            "group": 1,
+            "ADE_px": 11.31840311037768
+          },
+          {
+            "group": 2,
+            "ADE_px": 11.097098167863152
+          }
+        ],
+        "expansion_vs_one_third": {
+          "median_farther_px_by_time": [
+            -17.517831755737944,
+            -39.135843737749674,
+            -54.98388661404058,
+            -61.774764178834815,
+            -64.40809151936983,
+            -62.381591813659355,
+            -54.823879290343896,
+            -37.761060450985646,
+            -15.729696252551335,
+            1.282943315961127
+          ],
+          "median_higher_px_by_time": [
+            -15.905764897457914,
+            -34.58584716815366,
+            -44.59497496011974,
+            -44.69990985045209,
+            -40.34555510257306,
+            -31.315767071001645,
+            -19.76859439771242,
+            -9.347852225295881,
+            2.0860757294123715,
+            12.365622726561426
+          ],
+          "farther_pair_fraction": 0.058333333333333334,
+          "higher_pair_fraction": 0.16666666666666666,
+          "median_path_length_ratio_vs_one_third": 0.5906825863228087,
+          "median_endpoint_farther_px": 1.282943315961127,
+          "median_endpoint_higher_px": 12.365622726561426,
+          "median_camera_up_difference_mm": -26.0903857963179
+        }
+      }
+    }
+  }
+}

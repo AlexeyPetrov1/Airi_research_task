@@ -15,7 +15,8 @@ FUNCTIONS = {
     "evaluate_author_davis": (["metrics", "parse_raw_forecast", "project"], "import numpy as np\nimport re\nfrom decimal import Decimal\n"),
     "berkeley_evaluate": (["project", "velocity", "metric_values"], "import numpy as np\n"),
     "berkeley_temporal_diagnostics": (["scale_displacement"], "import numpy as np\n"),
-    "berkeley_arc_expansion": (["expand"], "import numpy as np\nfrom .berkeley_temporal_diagnostics import scale_displacement\n"),
+    "berkeley_arc_expansion": (["expand", "extent_diagnostics"], "import numpy as np\nfrom .berkeley_temporal_diagnostics import scale_displacement\n"),
+    "berkeley_baseline_comparison": (["scores", "controls"], "import numpy as np\nfrom .berkeley_evaluate import velocity\nTHRESHOLDS=(5,10,20,40)\nTIMES=np.arange(1,11)/5\n"),
     "berkeley_arc_phase": (["temporal_expand"], "import numpy as np\n"),
     "dobbe_vipe_geometry": (["project", "stats"], "import numpy as np\n"),
 }

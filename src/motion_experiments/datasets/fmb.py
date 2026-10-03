@@ -53,6 +53,8 @@ def load(config, root, evaluation=True):
                             evaluation=dict(rgb=rgb, xyz=ref["GT_3D_est"], uv=ref["GT_2D_est"],
                                             mask3=ref["common_mask3d"], mask2=ref["common_mask2d"],
                                             motion=motion, robot_initial=observed["camera_points"][-1],
+                                            method_initial={name:observed["camera_points"][-1] for name in
+                                                            ("Selected_policy_plus_bounded_Molmo","Observed_selected_motion_policy")},
                                             cap=diagnosis["camera_relative_target_drift_last10_p90_mm"]/1000,
                                             expected=expected))
 

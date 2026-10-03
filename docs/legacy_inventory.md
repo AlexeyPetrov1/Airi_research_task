@@ -303,7 +303,7 @@ Related saved experiments (dataset-level):
 Shared-scale and camera-up controls on frozen, genuine CASE-AUGE forecasts.
 
 Dataset: **berkeley**. Retained in place; historical preparation and diagnostics remain available.
-Replacement: Selected functions borrowed unchanged: expand.
+Replacement: Selected functions borrowed unchanged: expand, extent_diagnostics.
 Frozen selected experiment: `molmo-motion-experiment --config configs/berkeley_bottle.json configs/berkeley_cup.json`.
 
 Functions: `sha`, `snapshot`, `expand`, `scene_data`, `extent_diagnostics`, `annotated`, `render_families`, `grid_plot`, `gallery`, `generate`, `verify`.
@@ -364,7 +364,7 @@ Related saved experiments (dataset-level): berkeley_ur5_arc_expansion_v1, berkel
 Compare all saved Berkeley forecasts and causal baselines without ML calls.
 
 Dataset: **berkeley**. Retained in place; historical preparation and diagnostics remain available.
-Replacement: No full replacement; archival script retained.
+Replacement: Selected functions borrowed unchanged: scores, controls.
 Frozen selected experiment: `molmo-motion-experiment --config configs/berkeley_bottle.json configs/berkeley_cup.json`.
 
 Functions: `scores`, `controls`, `overview`, `main`.
