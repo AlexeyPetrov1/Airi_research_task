@@ -1,0 +1,13 @@
+{
+  "host_boot_utc": "2026-10-03T20:17:34.500Z",
+  "wsl_boot_utc": "2026-10-03T20:19:16Z",
+  "evidence": "Win32_OperatingSystem.LastBootUpTime and Linux PID 1 start time; old live inference and queue PIDs no longer present.",
+  "cause": "Unknown; this task did not request or execute a host/WSL restart.",
+  "own_state_at_interruption": "Preflight wait only; DaS model not loaded, no diffusion video generated.",
+  "archived_folder": "H3_wait_interrupted_by_reboot",
+  "damaged_heartbeat": "resource_usage.json contains NUL bytes after reboot; retain it as evidence, never treat it as success.",
+  "external_inference_state": "Three of seven case summaries complete; external process terminated with the reboot.",
+  "h2_post_reboot_verification": "19 checks passed, including actual video hash, dimensions, latent shape/finiteness and preserved original baselines.",
+  "recovery_change": "Future heartbeats flush/fsync a temporary file, then replace resource_usage.json. Interrupted-write regression test confirms preservation of the previous valid status. This reduces incomplete-write exposure; it is not a guarantee against every storage or power failure.",
+  "gpu_restart": "External work resumed as inference_remaining_20261003T2019 (PID 667 observed live). Follow the user's existing choice to wait for it before loading DaS."
+}

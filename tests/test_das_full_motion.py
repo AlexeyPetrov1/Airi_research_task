@@ -3,6 +3,8 @@ import sys
 from pathlib import Path
 import unittest
 import subprocess
+import tempfile
+import json
 from types import SimpleNamespace
 from unittest.mock import patch
 import numpy as np
@@ -21,11 +23,21 @@ class FullMotionTests(unittest.TestCase):
                 patch.object(generation.os,'getpid',return_value=67890), \
                 patch.object(generation.subprocess,'check_output',return_value='11000\n'), \
                 patch.object(generation.time,'sleep') as sleep, \
-                patch.object(generation,'write_json') as receipt:
+                patch.object(generation,'write_status') as receipt:
             generation.wait_for_gpu_before_import(Path('/tmp/unused'))
         sleep.assert_called_once_with(5)
         self.assertFalse(receipt.call_args.args[1]['own_model_loaded'])
         self.assertEqual(receipt.call_args.args[1]['other_inference_pids'],[12345])
+
+    def test_interrupted_heartbeat_preserves_previous_valid_status(self):
+        import das_full_motion_generate as generation
+        with tempfile.TemporaryDirectory() as folder:
+            out=Path(folder);generation.write_status(out,{'stage':'previous'})
+            with patch.object(generation.os,'fsync',side_effect=OSError('simulated interrupted write')):
+                with self.assertRaises(OSError):generation.write_status(out,{'stage':'new'})
+            self.assertEqual(json.loads((out/'resource_usage.json').read_text()),{'stage':'previous'})
+            generation.write_status(out,{'stage':'new'})
+            self.assertEqual(json.loads((out/'resource_usage.json').read_text()),{'stage':'new'})
 
     def test_real_future_access_fails_closed(self):
         source=str(Path(__file__).resolve().parents[1]/'scripts')

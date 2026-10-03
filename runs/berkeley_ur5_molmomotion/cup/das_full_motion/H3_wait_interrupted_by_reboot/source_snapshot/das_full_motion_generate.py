@@ -20,15 +20,6 @@ OUT=ROOT/'runs/berkeley_ur5_molmomotion/cup/das_full_motion'
 DAS=Path('/mnt/f/AIRI_task/third_party/DiffusionAsShader-Wanfun')
 MODEL=Path('/mnt/f/AIRI_task/models/Wan2.1-Fun-V1.1-1.3B-Control')
 
-def write_status(out,state):
-    # A reboot interrupted a direct heartbeat write. Publish a complete file
-    # by replacement so readers keep the preceding valid status during writes.
-    temporary=out/f'.resource_usage.{os.getpid()}.tmp'
-    with temporary.open('w',encoding='utf8') as stream:
-        json.dump(state,stream,ensure_ascii=False,indent=2)
-        stream.write('\n');stream.flush();os.fsync(stream.fileno())
-    os.replace(temporary,out/'resource_usage.json')
-
 def wait_for_gpu_before_import(out):
     """Respect an existing MolmoMotion inference before allocating model RAM/VRAM."""
     started=time.monotonic();last_message=-60.
@@ -44,7 +35,7 @@ def wait_for_gpu_before_import(out):
         elapsed=time.monotonic()-started
         if not active and free>9216:
             return elapsed
-        write_status(out,{'success':False,'stage':'wait_for_existing_gpu_work',
+        write_json(out/'resource_usage.json',{'success':False,'stage':'wait_for_existing_gpu_work',
             'preflight_wait_seconds':elapsed,'other_inference_pids':active,'free_gpu_MiB':free,
             'own_model_loaded':False})
         if elapsed-last_message>=60:
@@ -120,7 +111,7 @@ def main():
             ram=psutil.virtual_memory();state['peak_system_ram_used_bytes']=max(state['peak_system_ram_used_bytes'],ram.total-ram.available)
             if torch.cuda.is_initialized():
                 state['peak_cuda_allocated_bytes']=torch.cuda.max_memory_allocated();state['peak_cuda_reserved_bytes']=torch.cuda.max_memory_reserved()
-            write_status(out,state);finished.wait(1)
+            write_json(out/'resource_usage.json',state);finished.wait(1)
     thread=threading.Thread(target=monitor,daemon=True);thread.start()
     def stage(name):
         if state['stage']!=name:print(f'STAGE {name} {time.monotonic()-started:.1f}s',flush=True)
@@ -227,6 +218,6 @@ def main():
         state.update(error_type=type(e).__name__,error=str(e),stack_trace=traceback.format_exc());traceback.print_exc();raise
     finally:
         state['wall_seconds']=time.monotonic()-started
-        finished.set();thread.join();write_status(out,state);log.flush()
+        finished.set();thread.join();write_json(out/'resource_usage.json',state);log.flush()
 
 if __name__=='__main__':main()
