@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "original_baseline_files_unchanged": 488,
+  "model_metrics_and_geometry_matched_CV_checked_against_prior_saved_results": true,
+  "PWT_monotonicity_checked": true,
+  "translation_preserves_pair_distances": true,
+  "movies": [
+    {
+      "path": "bottle/baselines_group_00_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "9fdac04623967c7047d37e7fe9d1cfa3a9ec80c944911ac84ae2f4f874b90f4f"
+    },
+    {
+      "path": "bottle/baselines_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "49556e50b3869a664fe6bd80ab9cc5179399b6c5890d8ac53e4eb1398871a487"
+    },
+    {
+      "path": "bottle/baselines_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "e6b19eeeec4fe2bdb76bdac947b55c8745c4f2d024e95fea5f6242bc8a54c670"
+    },
+    {
+      "path": "cup/baselines_group_00_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "fe1eacc7b96248ebf33d28571dec63b95f1b7f171e2d6336034d392a0d94932a"
+    },
+    {
+      "path": "cup/baselines_group_01_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "c799a71a45bb7d8ea70d1bd9fa6fd2c188054537cd8b2930d21de44d642e0ca6"
+    },
+    {
+      "path": "cup/baselines_group_02_comparison.mp4",
+      "frames": 10,
+      "fps": 5.0,
+      "sha256": "6522c0956abbef2e66df53cf6e2ed8d1672ad8ce487010b60e01abce65a7a96b"
+    }
+  ],
+  "script_sha256": "cbd29ac60d9760e5083aa0533fd99dab89f5331d2a2bb2b3fba968c0a6ff2ae9",
+  "results_sha256": "51c339c5c1581b36e9e9377859d44642c597cc710a96c03d1e3f286247643e73"
+}

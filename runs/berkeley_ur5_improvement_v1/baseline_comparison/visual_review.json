@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "priority": "Visual comparison before metric interpretation",
+  "reviewed_contact_sheets": "Both scenes, all three P8 groups: static / geometry-matched CV / chosen corrected model at +0.2, +1.0, +2.0 s",
+  "reviewed_decoded_CV_strips": "Both scenes, groups 00/01/02, all ten physical future frames",
+  "reviewed_all24_plots": ["cup/all24_baselines.png", "bottle/all24_baselines.png"],
+  "continuous_video_playback_claimed": false,
+  "cup": "CV follows the upward point motion substantially more closely throughout the inspected frames. The chosen corrected strict MolmoMotion follows the same broad direction but rises too early and differs late. The all24 uniform object translation has a similarly close upward path and consistent groups.",
+  "bottle": "CV follows the reference direction more closely than the corrected model. It underestimates some mid-horizon displacement and retains a small late positional error. The model turns toward the pot too early and leaves a pronounced sideways/low endpoint. The all24 uniform translation is close but is not an exact match either.",
+  "static": "Points remain at t0 as the object rises; static visibly accumulates error in both scenes.",
+  "scope": "Comparison uses the same frozen tracker-based reference, not newly annotated ground truth. No independent held-out generalization claim or closed-loop robot success measurement."
+}
