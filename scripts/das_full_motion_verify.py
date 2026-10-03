@@ -56,6 +56,9 @@ def main():
             check(f'{name}: guide disabled',config['guide_sha256'] is None and not (out/'photographic_prior_receipt.json').exists())
         metrics=json.loads((out/'motion_metrics.json').read_text())
         check(f'{name}: independent measurements match video',metrics['video_sha256']==sha256(video))
+        tracking=json.loads((out/'cup_tracking.json').read_text())
+        check(f'{name}: tracker cache matches actual video',tracking['video_sha256']==sha256(video) and tracking['future_real_used'] is False)
+        check(f'{name}: pinned independent tracker',tracking['tracker']=='official AllTracker Net(16)' and tracking['iterations']==4 and tracking['checkpoint_sha256']==sha256('/mnt/f/AIRI_task/.cache/torch/hub/checkpoints/alltracker.pth'))
     check('selected output exists',a.chosen in configs)
     if 'H3_group00_6s_prior025' in configs:
         h2=configs['H2_group00_6s_no_prior'];h3=configs['H3_group00_6s_prior025']
