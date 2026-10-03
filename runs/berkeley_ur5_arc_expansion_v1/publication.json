@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "experiment_commit": "f4d11202a909c0bd03f39f66d52067b95801ba1c",
+  "published_branch": "main",
+  "remote_main_matched_experiment_commit": true,
+  "verification_methods": ["git ls-remote origin refs/heads/main", "GitHub connector fetch of pinned README", "GitHub connector fetch of pinned final_verification.json"],
+  "published_files_in_experiment_commit": 173,
+  "staged_source_and_artifact_bytes_verified": "artifact_manifest.json",
+  "published_readme": "https://github.com/AlexeyPetrov1/Airi_research_task/blob/f4d11202a909c0bd03f39f66d52067b95801ba1c/runs/berkeley_ur5_arc_expansion_v1/README.md",
+  "published_final_verification": "https://github.com/AlexeyPetrov1/Airi_research_task/blob/f4d11202a909c0bd03f39f66d52067b95801ba1c/runs/berkeley_ur5_arc_expansion_v1/final_verification.json",
+  "scope": "15 settings per scene, all 24 points, all 30 prediction steps, 30 videos, metrics, visual review, readable research story, local interactive gallery, scripts and tests",
+  "unrelated_worktree_changes_excluded": [".gitattributes", "report/README.md", "DobbE/FMB scripts, reports and visualizations"],
+  "note": "This publication receipt is committed after verifying the experiment commit. It does not claim its own future commit SHA."
+}
