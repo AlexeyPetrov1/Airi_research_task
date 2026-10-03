@@ -5,11 +5,11 @@ Logical final distributable tree; excludes .git, ignored checkpoints, generated 
 | Measurement | BEFORE | AFTER |
 |---|---:|---:|
 | Files | 948 | 191 |
-| Bytes | 307592043 | 63389987 |
-| MiB | 293.34 | 60.45 |
+| Bytes | 307592043 | 63392269 |
+| MiB | 293.34 | 60.46 |
 | Duplicate bytes by SHA-256 | 156076517 | 0 |
 
-Saved **244202056 bytes (79.39%)**.
+Saved **244199774 bytes (79.39%)**.
 
 | Top-level path | BEFORE bytes | AFTER bytes |
 |---|---:|---:|
@@ -19,7 +19,7 @@ Saved **244202056 bytes (79.39%)**.
 | README.md | 11964 | 5764 |
 | configs | 2737 | 2906 |
 | data | 151696772 | 0 |
-| docs | 2177892 | 409483 |
+| docs | 2177892 | 411765 |
 | fixtures | 0 | 60538661 |
 | legacy | 16213 | 0 |
 | pyproject.toml | 891 | 2717 |
@@ -55,7 +55,7 @@ Largest 20 artifacts after packaging:
 | fixtures/fmb_wrist_1/observed.npz | 399645 |
 | fixtures/shared/dobbe_history.npz | 369285 |
 | fixtures/dobbe_pure_vipe/media/legacy_comparison.mp4 | 367852 |
-| docs/packaging_report.json | 211320 |
+| docs/packaging_report.json | 211300 |
 
 Full before/after largest-20 lists and SHA-256 duplicate groups: [packaging_report.json](packaging_report.json).
 

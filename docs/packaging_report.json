@@ -4834,14 +4834,14 @@
   },
   "after": {
     "files": 191,
-    "bytes": 63389987,
+    "bytes": 63392269,
     "by_directory": {
       ".gitattributes": 166,
       ".gitignore": 116,
       "LICENSE": 11555,
       "README.md": 5764,
       "configs": 2906,
-      "docs": 409483,
+      "docs": 411765,
       "fixtures": 60538661,
       "pyproject.toml": 2717,
       "src": 1836266,
@@ -4946,8 +4946,8 @@
       },
       {
         "path": "docs/packaging_report.json",
-        "bytes": 211320,
-        "sha256": "ef95064749be6e323fbac70926613fda7143eb65108643f6a9b458f18ce008ba"
+        "bytes": 211300,
+        "sha256": "47507424e0e3afcdfaf75c37a03d1cf53378fa954ed7526240a5d78b4962b59d"
       }
     ],
     "duplicates": [
@@ -4991,6 +4991,6 @@
     ],
     "duplicated_bytes": 0
   },
-  "saved_bytes": 244202056,
-  "saved_percentage": 79.39153874666387
+  "saved_bytes": 244199774,
+  "saved_percentage": 79.39079685491085
 }
