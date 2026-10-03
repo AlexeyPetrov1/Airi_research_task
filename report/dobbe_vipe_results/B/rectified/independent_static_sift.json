@@ -1,0 +1,56 @@
+{
+  "method": "SIFT mutual Lowe .7; fundamental RANSAC 1px; t0 background mask; depth/c2w not used for match selection",
+  "future_used": false,
+  "aggregate_px": {
+    "count": 167,
+    "median": 0.6315464025060181,
+    "p90": 30.88121512055296
+  },
+  "pairs": [
+    {
+      "to_raw": 1,
+      "mutual_ratio_matches": 1
+    },
+    {
+      "to_raw": 23,
+      "mutual_ratio_matches": 0
+    },
+    {
+      "to_raw": 47,
+      "mutual_ratio_matches": 2
+    },
+    {
+      "to_raw": 69,
+      "mutual_ratio_matches": 1
+    },
+    {
+      "to_raw": 93,
+      "mutual_ratio_matches": 0
+    },
+    {
+      "to_raw": 117,
+      "mutual_ratio_matches": 24,
+      "fundamental_inliers": 19,
+      "count": 19,
+      "median": 17.215682757442753,
+      "p90": 47.63124003864726
+    },
+    {
+      "to_raw": 119,
+      "mutual_ratio_matches": 45,
+      "fundamental_inliers": 35,
+      "count": 35,
+      "median": 1.008157274206702,
+      "p90": 32.79288485542837
+    },
+    {
+      "to_raw": 121,
+      "mutual_ratio_matches": 123,
+      "fundamental_inliers": 113,
+      "count": 113,
+      "median": 0.5386127633294792,
+      "p90": 15.051467776199798
+    }
+  ],
+  "gate_changed": false
+}

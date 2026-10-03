@@ -1,0 +1,57 @@
+{
+  "future_used": false,
+  "eligible_count": 72,
+  "selected_ids": [
+    59,
+    74,
+    13,
+    19,
+    71,
+    81,
+    8,
+    35
+  ],
+  "sensor_object_median_Z": [
+    0.218505859375,
+    0.22186279296875,
+    0.2232666015625
+  ],
+  "original_unsupported_ids": [
+    50,
+    32
+  ],
+  "original_selected_measured_Z_t0": [
+    0.2047119140625,
+    1.048828125,
+    0.2254638671875,
+    0.235595703125,
+    0.2073974609375,
+    0.202880859375,
+    0.43896484375,
+    0.21044921875
+  ],
+  "paired_measured_Z_t0": [
+    0.2047119140625,
+    0.281494140625,
+    0.2218017578125,
+    0.2203369140625,
+    0.203369140625,
+    0.2113037109375,
+    0.23388671875,
+    0.2105712890625
+  ],
+  "paired_world_xyz_disagreement_estimated_units": {
+    "median": 0.031418420870484125,
+    "p90": 0.05960877268944088
+  },
+  "paired_input_sha256": {
+    "paired_vipe/points_3d_world.npy": "6dde775676deceff3f18f5b13e05049bcbfd7dcb8126e44e948238298e52c350",
+    "paired_vipe/points_2d_t0.npy": "166e927d5693e63aeed43ae07680885ef1106afa0e89c68d92b593362afaae2e",
+    "paired_vipe/c2w_t0.npy": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+    "paired_vipe/geometry_gate.json": "986a2ddf7ec680526a96d2e8624b83f5e714d7bd5c00bcb7549b88a91212bdc2",
+    "paired_hybrid/points_3d_world.npy": "8f0adcc6f8d36e566bb26e9f2117ea89c11b4c21ca0c62abf711612636a7258d",
+    "paired_hybrid/points_2d_t0.npy": "166e927d5693e63aeed43ae07680885ef1106afa0e89c68d92b593362afaae2e",
+    "paired_hybrid/c2w_t0.npy": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+    "paired_hybrid/geometry_gate.json": "6af6dafde33239099d2d5ee06f083626269a3dde9431c5c6da6135570f192f20"
+  }
+}

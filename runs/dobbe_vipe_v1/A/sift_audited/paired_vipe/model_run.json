@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "success": true,
+  "variant": "paired_vipe",
+  "action": "Pick up the red cup.",
+  "geometry_branch": "sift_audited",
+  "model_reused": false,
+  "ram_peak_scope": "whole process, including earlier variants if model is reused",
+  "torch_version": "2.9.1+cu128",
+  "input_freeze_sha256": "93056f8ac901d8ad3e402080bc4f416c20f53634a4c481db1c9c61c06177d310",
+  "stage": "complete",
+  "elapsed_seconds": 198.58363656100028,
+  "peak_cuda_allocated_gib": 9.579847812652588,
+  "peak_ram_gib": 22.35708236694336,
+  "prediction_seconds": 144.979234937,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite": true,
+  "parsed_point_frames": 240,
+  "expected_point_frames": 240,
+  "prediction_sha256": "e5a57171594e4425e7b85f3ed8e0642048de48c81403cffd84756513e362a1f7"
+}

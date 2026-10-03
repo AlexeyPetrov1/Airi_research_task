@@ -1,0 +1,256 @@
+{
+  "status": "PASS_K_ONLY_ARTIFACT_AUDIT",
+  "calibration_validation": "unvalidated candidates; not a calibration certification",
+  "correspondences_sha256": "7a6fdac9d6b94d8c0bf3fc16c7a470627d18312e99d458ed4fda77201e28d46b",
+  "correspondence_count": 22,
+  "external_diagnostics": {
+    "A": {
+      "z": {
+        "n_3d": 22,
+        "n_px": 22,
+        "median_3d_m": 0.056415051516179954,
+        "p90_3d_m": 0.13961659942626656,
+        "median_reprojection_px": 75.04791082493503,
+        "p90_reprojection_px": 135.6102138107277,
+        "pairs": [
+          {
+            "pair": [
+              0,
+              20
+            ],
+            "n": 5,
+            "median_3d_m": 0.04260993348778405,
+            "median_px": 45.837994712036945,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              20,
+              40
+            ],
+            "n": 5,
+            "median_3d_m": 0.09938249825237423,
+            "median_px": 135.84648258770713,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              40,
+              60
+            ],
+            "n": 3,
+            "median_3d_m": 0.016971261256243923,
+            "median_px": 30.396953878358065,
+            "positive_z": 3
+          },
+          {
+            "pair": [
+              60,
+              80
+            ],
+            "n": 4,
+            "median_3d_m": 0.05051505784399554,
+            "median_px": 74.78937027490582,
+            "positive_z": 4
+          },
+          {
+            "pair": [
+              80,
+              95
+            ],
+            "n": 5,
+            "median_3d_m": 0.14005018257257643,
+            "median_px": 93.07946829336878,
+            "positive_z": 5
+          }
+        ]
+      },
+      "ray": {
+        "n_3d": 22,
+        "n_px": 22,
+        "median_3d_m": 0.05631335974039181,
+        "p90_3d_m": 0.13961205929021217,
+        "median_reprojection_px": 75.15461966141237,
+        "p90_reprojection_px": 135.59978192420675,
+        "pairs": [
+          {
+            "pair": [
+              0,
+              20
+            ],
+            "n": 5,
+            "median_3d_m": 0.04259907413821162,
+            "median_px": 45.82202294721927,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              20,
+              40
+            ],
+            "n": 5,
+            "median_3d_m": 0.09937776288748255,
+            "median_px": 135.83731152541668,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              40,
+              60
+            ],
+            "n": 3,
+            "median_3d_m": 0.016918451785125004,
+            "median_px": 30.306571535338726,
+            "positive_z": 3
+          },
+          {
+            "pair": [
+              60,
+              80
+            ],
+            "n": 4,
+            "median_3d_m": 0.05043776467026131,
+            "median_px": 74.89915822047055,
+            "positive_z": 4
+          },
+          {
+            "pair": [
+              80,
+              95
+            ],
+            "n": 5,
+            "median_3d_m": 0.1400459696690004,
+            "median_px": 93.1306384941332,
+            "positive_z": 5
+          }
+        ]
+      }
+    },
+    "B": {
+      "z": {
+        "n_3d": 22,
+        "n_px": 22,
+        "median_3d_m": 0.07140345879170602,
+        "p90_3d_m": 0.1405602369271332,
+        "median_reprojection_px": 10.265283516738616,
+        "p90_reprojection_px": 13.434513272908728,
+        "pairs": [
+          {
+            "pair": [
+              0,
+              20
+            ],
+            "n": 5,
+            "median_3d_m": 0.04848341299143935,
+            "median_px": 8.325851703026677,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              20,
+              40
+            ],
+            "n": 5,
+            "median_3d_m": 0.08119043964007408,
+            "median_px": 11.638479988533856,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              40,
+              60
+            ],
+            "n": 3,
+            "median_3d_m": 0.03289298843944833,
+            "median_px": 7.629196514471371,
+            "positive_z": 3
+          },
+          {
+            "pair": [
+              60,
+              80
+            ],
+            "n": 4,
+            "median_3d_m": 0.0721320882806085,
+            "median_px": 11.377291610610012,
+            "positive_z": 4
+          },
+          {
+            "pair": [
+              80,
+              95
+            ],
+            "n": 5,
+            "median_3d_m": 0.1411423666055741,
+            "median_px": 11.235105642202827,
+            "positive_z": 5
+          }
+        ]
+      },
+      "ray": {
+        "n_3d": 22,
+        "n_px": 22,
+        "median_3d_m": 0.07202674339032167,
+        "p90_3d_m": 0.1402269139055294,
+        "median_reprojection_px": 10.091197441618602,
+        "p90_reprojection_px": 13.082646971530398,
+        "pairs": [
+          {
+            "pair": [
+              0,
+              20
+            ],
+            "n": 5,
+            "median_3d_m": 0.04747345921389499,
+            "median_px": 8.293682462492733,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              20,
+              40
+            ],
+            "n": 5,
+            "median_3d_m": 0.08328902569436229,
+            "median_px": 11.307897999001845,
+            "positive_z": 5
+          },
+          {
+            "pair": [
+              40,
+              60
+            ],
+            "n": 3,
+            "median_3d_m": 0.03163981268327542,
+            "median_px": 7.206689190533212,
+            "positive_z": 3
+          },
+          {
+            "pair": [
+              60,
+              80
+            ],
+            "n": 4,
+            "median_3d_m": 0.06527156992893965,
+            "median_px": 12.130610306849318,
+            "positive_z": 4
+          },
+          {
+            "pair": [
+              80,
+              95
+            ],
+            "n": 5,
+            "median_3d_m": 0.1408132705654193,
+            "median_px": 11.780067561058686,
+            "positive_z": 5
+          }
+        ]
+      }
+    }
+  },
+  "independent_unprojection_transform_check": "PASS",
+  "same_calibration_RGB_prefix": "PASS",
+  "only_K_differs": "PASS",
+  "limits": "22 automatic feature correspondences, depth-Z/ray ambiguity and uncertain labels; do not treat a smaller diagnostic error as certification"
+}

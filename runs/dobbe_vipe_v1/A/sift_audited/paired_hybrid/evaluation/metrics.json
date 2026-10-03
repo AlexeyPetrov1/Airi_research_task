@@ -1,0 +1,183 @@
+{
+  "prediction_sha256": "03978383629dafd88635ae81edb1a9cd66f9366814e3ec049e98fd5bec0402fb",
+  "point_frames_visible": 240,
+  "comparison_point_frames": 240,
+  "forecast_projection_invalid_point_frames": 0,
+  "stationary_projection_invalid_point_frames": 0,
+  "total_point_frames": 240,
+  "conditional_forecast_pixel_errors": {
+    "count": 240,
+    "median": 201.1089038722709,
+    "p90": 448.4777571184657,
+    "mean_ADE_px": 225.6487418192773,
+    "FDE_visible_mean_px": 485.4544241811087
+  },
+  "conditional_stationary_baseline_pixel_errors": {
+    "count": 240,
+    "median": 200.5297348106044,
+    "p90": 449.2445724631785,
+    "mean_ADE_px": 225.61741086075716
+  },
+  "per_future_frame": [
+    {
+      "count": 8,
+      "median": 8.343523367366954,
+      "p90": 10.48913784426227
+    },
+    {
+      "count": 8,
+      "median": 18.031361179961543,
+      "p90": 22.198362347206626
+    },
+    {
+      "count": 8,
+      "median": 27.85420363020934,
+      "p90": 33.32016782437589
+    },
+    {
+      "count": 8,
+      "median": 37.675004783363335,
+      "p90": 43.31884098784204
+    },
+    {
+      "count": 8,
+      "median": 47.59819912166925,
+      "p90": 53.40364904530643
+    },
+    {
+      "count": 8,
+      "median": 57.021962109075524,
+      "p90": 64.58655390039684
+    },
+    {
+      "count": 8,
+      "median": 66.42904973029744,
+      "p90": 75.25573676513184
+    },
+    {
+      "count": 8,
+      "median": 76.20604768832509,
+      "p90": 88.06534378926447
+    },
+    {
+      "count": 8,
+      "median": 87.11891363482158,
+      "p90": 100.13949628311799
+    },
+    {
+      "count": 8,
+      "median": 100.93202731159977,
+      "p90": 114.43101524769271
+    },
+    {
+      "count": 8,
+      "median": 116.73122005571588,
+      "p90": 130.6324102278592
+    },
+    {
+      "count": 8,
+      "median": 133.44573495982144,
+      "p90": 147.58370651187934
+    },
+    {
+      "count": 8,
+      "median": 150.93692646863644,
+      "p90": 164.81869612688627
+    },
+    {
+      "count": 8,
+      "median": 169.3719851484904,
+      "p90": 182.8169810102547
+    },
+    {
+      "count": 8,
+      "median": 188.98699007748763,
+      "p90": 200.7338660495563
+    },
+    {
+      "count": 8,
+      "median": 211.21935084242065,
+      "p90": 221.5970386961131
+    },
+    {
+      "count": 8,
+      "median": 236.1860188378363,
+      "p90": 245.27560895920132
+    },
+    {
+      "count": 8,
+      "median": 260.2037999598785,
+      "p90": 267.78566962196834
+    },
+    {
+      "count": 8,
+      "median": 285.0805169605614,
+      "p90": 290.4844398495512
+    },
+    {
+      "count": 8,
+      "median": 309.53176801864953,
+      "p90": 313.1896962122994
+    },
+    {
+      "count": 8,
+      "median": 334.6133660200228,
+      "p90": 336.9799880361813
+    },
+    {
+      "count": 8,
+      "median": 356.3986313074594,
+      "p90": 361.5613913967725
+    },
+    {
+      "count": 8,
+      "median": 379.07528735990013,
+      "p90": 387.8944248974207
+    },
+    {
+      "count": 8,
+      "median": 397.16469467689865,
+      "p90": 411.00396391548884
+    },
+    {
+      "count": 8,
+      "median": 415.88378249893583,
+      "p90": 431.97041613645183
+    },
+    {
+      "count": 8,
+      "median": 431.12405280011296,
+      "p90": 448.475523093237
+    },
+    {
+      "count": 8,
+      "median": 443.6888318208862,
+      "p90": 465.59209753435783
+    },
+    {
+      "count": 8,
+      "median": 457.0454518288372,
+      "p90": 483.6769411581308
+    },
+    {
+      "count": 8,
+      "median": 463.2540995983629,
+      "p90": 491.02919594004413
+    },
+    {
+      "count": 8,
+      "median": 479.27581896946015,
+      "p90": 516.9230206319647
+    }
+  ],
+  "observed_prefix_published_pose_audit_px": {
+    "count": 387,
+    "median": 35.71310293062832,
+    "p90": 100.95590212554303
+  },
+  "projection_pose_source": "published DobbE labels c2w * CAMERA_TO_LABEL, relative to t0",
+  "K_source": "causal ViPE only; fixed for evaluation",
+  "future_fit": false,
+  "metric_3d_ground_truth": false,
+  "interpretation": "Pixel comparison is conditional on the published pose/basis and estimated K; future 2D tracking is model-derived, not manual GT."
+}

@@ -1,0 +1,7 @@
+{
+  "stage": "vipe",
+  "error_type": "RuntimeError",
+  "error": "vipe_no_vda failed; see /mnt/f/AIRI_task/molmo-motion/runs/dobbe_vipe_v1/B/vipe_no_vda.log",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/f/AIRI_task/molmo-motion/scripts/dobbe_vipe_v1.py\", line 360, in main\n    globals()[args.stage](scene)\n  File \"/mnt/f/AIRI_task/molmo-motion/scripts/dobbe_vipe_v1.py\", line 277, in vipe\n    run_receipt(dest, \"vipe_no_vda\", [sys.executable, \"-m\", \"vipe.cli.main\", \"infer\",\n  File \"/mnt/f/AIRI_task/molmo-motion/scripts/dobbe_vipe_v1.py\", line 267, in run_receipt\n    raise RuntimeError(f\"{name} failed; see {dest / (name+'.log')}\")\nRuntimeError: vipe_no_vda failed; see /mnt/f/AIRI_task/molmo-motion/runs/dobbe_vipe_v1/B/vipe_no_vda.log\n",
+  "future_used": false
+}

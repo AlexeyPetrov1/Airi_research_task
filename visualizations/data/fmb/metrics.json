@@ -1,0 +1,456 @@
+{
+  "status": "QUANTITATIVE_2D_RESULT_WITH_CALIBRATION_AND_TRACKING_UNCERTAINTY",
+  "source_episode": "ShareRobot episode_5201 / FMB 1_M_L_3_vertical_n_2.npy",
+  "t0": 126,
+  "history_steps": [
+    124,
+    125,
+    126
+  ],
+  "future_steps": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "prediction_completeness_finite_pairs": 240,
+  "prediction_total_pairs": 240,
+  "GT_valid_pairs": 160,
+  "GT_total_pairs": 160,
+  "GT_coverage": 1.0,
+  "image_diagonal_px": 362.03867196751236,
+  "metrics": {
+    "MolmoMotion": {
+      "ADE_2D_px": 124.14220324136434,
+      "FDE_2D_px": 225.40028066096016,
+      "ADE_2D_norm": 0.34289763181018484,
+      "FDE_2D_norm": 0.6225861989715467,
+      "valid_pairs": 160,
+      "coverage": 1.0,
+      "FDE_valid_points": 8,
+      "mean_error_0.5s_px": 72.99827685264613,
+      "valid_points_0.5s": 8,
+      "mean_error_1.0s_px": 206.7590793277639,
+      "valid_points_1.0s": 8,
+      "mean_error_1.5s_px": 100.3091035226207,
+      "valid_points_1.5s": 8,
+      "mean_error_2.0s_px": 225.40028066096016,
+      "valid_points_2.0s": 8
+    },
+    "stationary": {
+      "ADE_2D_px": 41.07227590683263,
+      "FDE_2D_px": 74.0631416838566,
+      "ADE_2D_norm": 0.11344720629877424,
+      "FDE_2D_norm": 0.20457245984623068,
+      "valid_pairs": 160,
+      "coverage": 1.0,
+      "FDE_valid_points": 8,
+      "mean_error_0.5s_px": 19.668048482805997,
+      "valid_points_0.5s": 8,
+      "mean_error_1.0s_px": 40.29944795697566,
+      "valid_points_1.0s": 8,
+      "mean_error_1.5s_px": 53.80387047375512,
+      "valid_points_1.5s": 8,
+      "mean_error_2.0s_px": 74.0631416838566,
+      "valid_points_2.0s": 8
+    },
+    "constant_velocity": {
+      "ADE_2D_px": 72.39618578581303,
+      "FDE_2D_px": 143.61571576249375,
+      "ADE_2D_norm": 0.1999681011765216,
+      "FDE_2D_norm": 0.39668611914304325,
+      "valid_pairs": 160,
+      "coverage": 1.0,
+      "FDE_valid_points": 8,
+      "mean_error_0.5s_px": 31.33538822492111,
+      "valid_points_0.5s": 8,
+      "mean_error_1.0s_px": 68.68470853639838,
+      "valid_points_1.0s": 8,
+      "mean_error_1.5s_px": 108.05907213558157,
+      "valid_points_1.5s": 8,
+      "mean_error_2.0s_px": 143.61571576249375,
+      "valid_points_2.0s": 8
+    }
+  },
+  "annotation_repeatability": {
+    "method": "BLIND_ALGORITHMIC_REPEAT_DIRECT_MASK_ECC_VS_SEQUENTIAL_MASK_ECC",
+    "note": "Second algorithm reads source RGB and frozen t0 points only, not primary GT or prediction; this is not an independent human annotation.",
+    "observations": [
+      {
+        "step": 127,
+        "point_id": 0,
+        "primary_uv": [
+          198.4215542847287,
+          40.67484501427987
+        ],
+        "repeat_uv": [
+          198.42534094067196,
+          40.676899946127065
+        ],
+        "difference_px": 0.004308306875008341,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9994768476760777,
+          "warp": [
+            [
+              0.9989199042320251,
+              -0.00030308187706395984,
+              2.0482895374298096
+            ],
+            [
+              0.009371944703161716,
+              0.9845486283302307,
+              4.375173568725586
+            ]
+          ]
+        }
+      },
+      {
+        "step": 127,
+        "point_id": 7,
+        "primary_uv": [
+          198.1653613086437,
+          70.2080390728546
+        ],
+        "repeat_uv": [
+          198.16651850830203,
+          70.2110158098582
+        ],
+        "difference_px": 0.003193755506893626,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9994768476760777,
+          "warp": [
+            [
+              0.9989199042320251,
+              -0.00030308187706395984,
+              2.0482895374298096
+            ],
+            [
+              0.009371944703161716,
+              0.9845486283302307,
+              4.375173568725586
+            ]
+          ]
+        }
+      },
+      {
+        "step": 132,
+        "point_id": 0,
+        "primary_uv": [
+          198.01217718159273,
+          58.214629612496736
+        ],
+        "repeat_uv": [
+          198.0131217397029,
+          58.35901620651464
+        ],
+        "difference_px": 0.14438968357231777,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9990153920725826,
+          "warp": [
+            [
+              0.9604984521865845,
+              -0.00698179192841053,
+              9.423482894897461
+            ],
+            [
+              0.0330243818461895,
+              0.9307199716567993,
+              19.291223526000977
+            ]
+          ]
+        }
+      },
+      {
+        "step": 132,
+        "point_id": 7,
+        "primary_uv": [
+          197.57071255228283,
+          86.15301885930688
+        ],
+        "repeat_uv": [
+          197.56354336880395,
+          86.27235926075707
+        ],
+        "difference_px": 0.11955554612834098,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9990153920725826,
+          "warp": [
+            [
+              0.9604984521865845,
+              -0.00698179192841053,
+              9.423482894897461
+            ],
+            [
+              0.0330243818461895,
+              0.9307199716567993,
+              19.291223526000977
+            ]
+          ]
+        }
+      },
+      {
+        "step": 137,
+        "point_id": 0,
+        "primary_uv": [
+          188.9172731350191,
+          81.45914077805422
+        ],
+        "repeat_uv": [
+          188.9185694579046,
+          81.77041915092445
+        ],
+        "difference_px": 0.3112810721353997,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9987060351253423,
+          "warp": [
+            [
+              0.8840028643608093,
+              0.006522913463413715,
+              14.895298957824707
+            ],
+            [
+              0.049615196883678436,
+              0.827638566493988,
+              43.04872131347656
+            ]
+          ]
+        }
+      },
+      {
+        "step": 137,
+        "point_id": 7,
+        "primary_uv": [
+          188.91348959284733,
+          106.34569869080444
+        ],
+        "repeat_uv": [
+          188.8932561457168,
+          106.58717234652318
+        ],
+        "difference_px": 0.24231986874574268,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9987060351253423,
+          "warp": [
+            [
+              0.8840028643608093,
+              0.006522913463413715,
+              14.895298957824707
+            ],
+            [
+              0.049615196883678436,
+              0.827638566493988,
+              43.04872131347656
+            ]
+          ]
+        }
+      },
+      {
+        "step": 142,
+        "point_id": 0,
+        "primary_uv": [
+          185.5725286548898,
+          95.22214840310855
+        ],
+        "repeat_uv": [
+          185.5265100876877,
+          96.01104783919914
+        ],
+        "difference_px": 0.7902404879474227,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9979008911019387,
+          "warp": [
+            [
+              0.8500226140022278,
+              0.023845486342906952,
+              17.57746696472168
+            ],
+            [
+              0.06454665213823318,
+              0.7251736521720886,
+              57.94009780883789
+            ]
+          ]
+        }
+      },
+      {
+        "step": 142,
+        "point_id": 7,
+        "primary_uv": [
+          186.10498006423936,
+          117.15667057493006
+        ],
+        "repeat_uv": [
+          186.02936902447436,
+          117.75012074132724
+        ],
+        "difference_px": 0.5982475485375424,
+        "direct_registration": {
+          "success": true,
+          "score": 0.9979008911019387,
+          "warp": [
+            [
+              0.8500226140022278,
+              0.023845486342906952,
+              17.57746696472168
+            ],
+            [
+              0.06454665213823318,
+              0.7251736521720886,
+              57.94009780883789
+            ]
+          ]
+        }
+      },
+      {
+        "step": 146,
+        "point_id": 0,
+        "primary_uv": [
+          180.81321022800228,
+          114.42049631344373
+        ],
+        "repeat_uv": [
+          180.70684848371093,
+          116.5339782921493
+        ],
+        "difference_px": 2.1161566328988712,
+        "direct_registration": {
+          "success": true,
+          "score": 0.995703014532241,
+          "warp": [
+            [
+              0.8045946359634399,
+              0.05653652548789978,
+              20.54475975036621
+            ],
+            [
+              0.040128905326128006,
+              0.5229794383049011,
+              90.3403549194336
+            ]
+          ]
+        }
+      },
+      {
+        "step": 146,
+        "point_id": 7,
+        "primary_uv": [
+          182.37893364676808,
+          130.69317748681283
+        ],
+        "repeat_uv": [
+          182.20179558935706,
+          132.2133292149648
+        ],
+        "difference_px": 1.5304375740247547,
+        "direct_registration": {
+          "success": true,
+          "score": 0.995703014532241,
+          "warp": [
+            [
+              0.8045946359634399,
+              0.05653652548789978,
+              20.54475975036621
+            ],
+            [
+              0.040128905326128006,
+              0.5229794383049011,
+              90.3403549194336
+            ]
+          ]
+        }
+      }
+    ],
+    "count": 10,
+    "mean_px": 0.5860130476372294,
+    "median_px": 0.2768004704405712,
+    "p90_px": 1.5890094799121661,
+    "max_px": 2.1161566328988712
+  },
+  "alternative_dense_flow_2D_disagreement_px": {
+    "median": 13.938494765541702,
+    "p90": 21.46510801986489,
+    "max": 30.319030958034777
+  },
+  "metrics_using_dense_flow_alternative_GT": {
+    "MolmoMotion": {
+      "ADE_2D_px": 112.48291689824842,
+      "FDE_2D_px": 215.90684866997833,
+      "ADE_2D_norm": 0.3106930988531029,
+      "FDE_2D_norm": 0.5963640499967163,
+      "valid_pairs": 160,
+      "coverage": 1.0,
+      "FDE_valid_points": 8,
+      "mean_error_0.5s_px": 61.222563877377546,
+      "valid_points_0.5s": 8,
+      "mean_error_1.0s_px": 189.85393182838345,
+      "valid_points_1.0s": 8,
+      "mean_error_1.5s_px": 82.93004553878004,
+      "valid_points_1.5s": 8,
+      "mean_error_2.0s_px": 215.90684866997833,
+      "valid_points_2.0s": 8
+    },
+    "stationary": {
+      "ADE_2D_px": 27.40863723898219,
+      "FDE_2D_px": 64.70646291852499,
+      "ADE_2D_norm": 0.07570637990143139,
+      "FDE_2D_norm": 0.17872804186048788,
+      "valid_pairs": 160,
+      "coverage": 1.0,
+      "FDE_valid_points": 8,
+      "mean_error_0.5s_px": 7.75141424742766,
+      "valid_points_0.5s": 8,
+      "mean_error_1.0s_px": 23.368144645369917,
+      "valid_points_1.0s": 8,
+      "mean_error_1.5s_px": 36.57564001598557,
+      "valid_points_1.5s": 8,
+      "mean_error_2.0s_px": 64.70646291852499,
+      "valid_points_2.0s": 8
+    },
+    "constant_velocity": {
+      "ADE_2D_px": 82.80850019974343,
+      "FDE_2D_px": 150.34452288571794,
+      "ADE_2D_norm": 0.22872832824658654,
+      "FDE_2D_norm": 0.4152719986201064,
+      "valid_pairs": 160,
+      "coverage": 1.0,
+      "FDE_valid_points": 8,
+      "mean_error_0.5s_px": 41.92375762658937,
+      "valid_points_0.5s": 8,
+      "mean_error_1.0s_px": 81.06519699559361,
+      "valid_points_1.0s": 8,
+      "mean_error_1.5s_px": 120.59527459600656,
+      "valid_points_1.5s": 8,
+      "mean_error_2.0s_px": 150.34452288571794,
+      "valid_points_2.0s": 8
+    }
+  },
+  "limitations": [
+    "GT tracks textureless surface coordinates by RGB mask affine registration; it is an image-derived proxy, not individually visible fiducials.",
+    "Camera K is a direct-resize hypothesis; exact active COLOR K and depth preprocessing are unrecorded.",
+    "Nominal 10 Hz FMB history differs from model typical 15 Hz timing; no source hardware timestamps.",
+    "One episode does not establish general model quality."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "future_used": false,
+  "scene": "A",
+  "method_selected_before_any_A_prediction": true,
+  "source_main_gate_retained": "A/rectified/geometry_gate.json",
+  "geometry_gate_sha256": "add2f2a79aaa06847295b8595ef78a886475c3c12494c1acd8430ab195b0a23c",
+  "numeric_thresholds_unchanged": {
+    "static_median_px_max": 4.0,
+    "static_p90_px_max": 10.0,
+    "static_pairs_min": 3,
+    "static_observations_min": 30,
+    "rigid_relative_median_max": 0.15,
+    "history_visible_points_min": 8,
+    "depth_ratio_median_min": 0.5,
+    "depth_ratio_median_max": 2.0,
+    "focal_relative_range_max": 0.15
+  },
+  "match_npz_sha256": {
+    "static_sift_00036.npz": "cc588abbd646b24b11d0c899264357e832ea705bd9592372bd3f51689d9d6fa7",
+    "static_sift_00046.npz": "d1d54e5ad71c34113b154fda274ea38b4cf99245a0d11253ca175e213f3beb51",
+    "static_sift_00047.npz": "46298bb5ee71805c83f54ed87975a80f0b993d9b0e5f708c575e4ab7f589c4fb",
+    "static_sift_00048.npz": "e9485f5226d9fc858450c0bb0c10821ec0b45e8f68bb9f5db721afe065fb2f6f"
+  },
+  "reason": "Background AllTracker and independent RGB correspondences disagree; explore validation-method sensitivity without changing original decisions or observing A future."
+}

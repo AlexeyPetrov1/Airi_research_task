@@ -1,0 +1,18 @@
+{
+  "future_used": false,
+  "same_point_ids": [
+    59,
+    74,
+    13,
+    19,
+    71,
+    81,
+    8,
+    35
+  ],
+  "same_uv": true,
+  "same_c2w": true,
+  "both_unsmoothed": true,
+  "selection": "paired_selection_audit.json",
+  "initial_unsafe_pair_preserved": "rejected_sensor_queries"
+}

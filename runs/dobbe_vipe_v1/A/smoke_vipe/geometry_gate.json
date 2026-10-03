@@ -1,0 +1,31 @@
+{
+  "molmo_ready": false,
+  "status": "REJECT_ESTIMATED_GEOMETRY",
+  "checks": {
+    "complete_history_eight": true,
+    "sixteen_real_anchors": true,
+    "static_evidence": true,
+    "static_median": false,
+    "static_p90": false,
+    "rigid_history": true,
+    "stable_focal": true,
+    "depth_scale_supported": true
+  },
+  "metric_ground_truth": false,
+  "future_used": false,
+  "legacy_eight_query_source": "runs/dobbe_rgbd_study/approx_history/points_2d_at_t0_candidate.npy",
+  "rigid_history_unsmoothed": {
+    "absolute_estimated_units": {
+      "count": 84,
+      "median": 0.0017334780582007325,
+      "p90": 0.015761213711818566
+    },
+    "relative_to_t0_median_pair_distance": {
+      "count": 84,
+      "median": 0.014620253262266111,
+      "p90": 0.13293097948217883
+    },
+    "t0_median_pair_distance": 0.11856689669492405
+  },
+  "smoothing": false
+}

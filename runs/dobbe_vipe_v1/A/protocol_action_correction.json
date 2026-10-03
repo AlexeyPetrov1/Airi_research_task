@@ -1,0 +1,7 @@
+{
+  "prior_protocol_sha256": "625d661276299799c3d0e1cf9b097d9a45fd3268901360eb4396db98db96be16",
+  "prior_action": "Pick up the red cup and place it to the left on the countertop.",
+  "action": "Pick up the red cup.",
+  "reason": "A: reuse prior exact instruction. B: identify tape roll from observed prefix only.",
+  "before_reconstruction_tracking_or_prediction": true
+}

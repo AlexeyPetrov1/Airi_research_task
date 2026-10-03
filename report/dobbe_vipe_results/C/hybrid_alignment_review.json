@@ -1,0 +1,12 @@
+{
+  "spatial_alignment_supported": true,
+  "future_used": false,
+  "reviewed_images": [
+    "measured_depth_edges_00030.png"
+  ],
+  "review_method": "Visual RGB/depth-edge overlay on observed history only",
+  "interpretation": "Drawer front and fixed shelf edges align coarsely after the known vertical resize. This is support for an approximate alignment hypothesis, not calibrated registration; own hybrid static gate remains required.",
+  "image_sha256": {
+    "measured_depth_edges_00030.png": "5e234c423c6430e911a1fe944bc749a21f3ae4b1d268a68804638e348dc2e165"
+  }
+}

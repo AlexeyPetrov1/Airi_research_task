@@ -1,0 +1,80 @@
+{
+  "molmo_ready": true,
+  "status": "PASS_ESTIMATED_GEOMETRY",
+  "checks": {
+    "complete_history_eight": true,
+    "sixteen_real_anchors": true,
+    "static_evidence": true,
+    "static_median": true,
+    "static_p90": true,
+    "rigid_history": true,
+    "stable_focal": true,
+    "depth_scale_supported": true,
+    "measured_object_queries_supported": true
+  },
+  "metric_ground_truth": false,
+  "future_used": false,
+  "selected_ids": [
+    59,
+    74,
+    13,
+    19,
+    71,
+    81,
+    8,
+    35
+  ],
+  "smoothing": false,
+  "depth_source": "ViPE",
+  "rigid_history_unsmoothed": {
+    "absolute_estimated_units": {
+      "count": 84,
+      "median": 0.0009151032190563464,
+      "p90": 0.002928404612283924
+    },
+    "relative_to_t0_median_pair_distance": {
+      "count": 84,
+      "median": 0.009833441785710197,
+      "p90": 0.03146781224263851
+    },
+    "t0_median_pair_distance": 0.09306031794342445
+  },
+  "static_cross_frame_px": {
+    "count": 67,
+    "median": 0.6522628034691955,
+    "p90": 5.9283160149737855,
+    "pairs": [
+      {
+        "vipe_index": 36,
+        "count": 8,
+        "median": 1.4365743042104107,
+        "p90": 5.192018030642613
+      },
+      {
+        "vipe_index": 46,
+        "count": 18,
+        "median": 0.7332343699810269,
+        "p90": 10.555372278817003
+      },
+      {
+        "vipe_index": 47,
+        "count": 22,
+        "median": 0.7369467378929353,
+        "p90": 6.798821836736652
+      },
+      {
+        "vipe_index": 48,
+        "count": 19,
+        "median": 0.5026114484626749,
+        "p90": 1.3459147716688493
+      }
+    ]
+  },
+  "paired_selection_protocol_sha256": "5a7a2e6a0004aef7d4d0a62424a654cb6e2d4730a949a770d9783dd8ea6319b7",
+  "selection_scope": "one common sensor-supported pool for both sources; differs from main pure_vipe eight",
+  "translation_scale": "ViPE retained unchanged",
+  "static_validation": "independent_sift",
+  "validation_scope": "late observed prefix/H3 only; no reliable SIFT matches for early frames",
+  "selection_caveat": "validation method introduced after seeing reconstruction audits; separate exploratory control",
+  "source_geometry_gate_sha256": "add2f2a79aaa06847295b8595ef78a886475c3c12494c1acd8430ab195b0a23c"
+}

@@ -1,0 +1,2057 @@
+{
+  "scope": "Local review bundle; no external publication performed",
+  "metric_ground_truth": false,
+  "artifacts": {
+    "A/protocol.json": {
+      "sha256": "786871a8610851b3c641e850c9dd041e65234624db6e784e27791d9c162227c4",
+      "bytes": 1985,
+      "source": "runs/dobbe_vipe_v1/A/protocol.json"
+    },
+    "A/frame_map.json": {
+      "sha256": "ce5997a7fad51534072953aaccc58967e2a20cd6ed7b76e9f860b2ade33faf9c",
+      "bytes": 4768,
+      "source": "runs/dobbe_vipe_v1/A/frame_map.json"
+    },
+    "A/mask_annotation.json": {
+      "sha256": "a3e56e620f9ba55f62a4dd2ce4e6b9632bc0bfba0e48f6bb5bf0f65ce288ba00",
+      "bytes": 1001,
+      "source": "runs/dobbe_vipe_v1/A/mask_annotation.json"
+    },
+    "A/mask_t0.png": {
+      "sha256": "83f3278e355a4b1d2e8d82601cd56951e2d96cbce11bdb7ab6522d8d3991ee15",
+      "bytes": 1207,
+      "source": "runs/dobbe_vipe_v1/A/mask_t0.png"
+    },
+    "A/query_overlay.png": {
+      "sha256": "8f0f860a19805bf4b063ed1f16152395ae2357949c851dae2d15feece0a1c223",
+      "bytes": 84791,
+      "source": "runs/dobbe_vipe_v1/A/query_overlay.png"
+    },
+    "A/query_points.npz": {
+      "sha256": "d679a0dc9ad3e04be79f2c2caf57f9d715bbce7c9bc6db2aa205cfcae324954b",
+      "bytes": 4828,
+      "source": "runs/dobbe_vipe_v1/A/query_points.npz"
+    },
+    "A/geometry_gate.json": {
+      "sha256": "54cd1800be50fbb42bd766d9922e925cb1571a8d9f0dd0c49dd64b115f426350",
+      "bytes": 3694,
+      "source": "runs/dobbe_vipe_v1/A/geometry_gate.json"
+    },
+    "A/geometry_diagnostics.png": {
+      "sha256": "545968022e3801a7cdf1567c2ceb5a49d933c0c839751bcd632aaa617d731879",
+      "bytes": 1161834,
+      "source": "runs/dobbe_vipe_v1/A/geometry_diagnostics.png"
+    },
+    "A/camera_diagnostics.png": {
+      "sha256": "8f8e4234eca238342320056327970aa084b6b7bb8b5038f181bf292950b0b767",
+      "bytes": 58549,
+      "source": "runs/dobbe_vipe_v1/A/camera_diagnostics.png"
+    },
+    "A/causal_tracks.mp4": {
+      "sha256": "1c1c9763fd95a4baaa7802ee8c1c2cd894d296f5e5b4329e1dea1ce7ac123239",
+      "bytes": 86104,
+      "source": "runs/dobbe_vipe_v1/A/causal_tracks.mp4"
+    },
+    "A/independent_static_sift.json": {
+      "sha256": "ae7769665c762bf94e0678c1d36c8904377a7133c83e4eea90f27c01c832313f",
+      "bytes": 1298,
+      "source": "runs/dobbe_vipe_v1/A/independent_static_sift.json"
+    },
+    "A/hybrid_alignment_review.json": {
+      "sha256": "7d5ddd916b1758d3d308ee849f5acad9444720d52b826c0cc04e6551610646ef",
+      "bytes": 754,
+      "source": "runs/dobbe_vipe_v1/A/hybrid_alignment_review.json"
+    },
+    "A/alltracker_execution.json": {
+      "sha256": "14c6ef7331199bd4687588f18b08f212f4249d25c1f4092d069de220103965a8",
+      "bytes": 781,
+      "source": "runs/dobbe_vipe_v1/A/alltracker_execution.json"
+    },
+    "A/vipe_no_vda_execution.json": {
+      "sha256": "a88d5a345b3eed7c0be6c6b18dff5a16fc258defa096874a8dfcea3fe34b741f",
+      "bytes": 704,
+      "source": "runs/dobbe_vipe_v1/A/vipe_no_vda_execution.json"
+    },
+    "A/protocol_action_correction.json": {
+      "sha256": "dfdee6990e67c80c6d01a1279fa6f8f1f93f60414fa425eab135ff37c3c15129",
+      "bytes": 373,
+      "source": "runs/dobbe_vipe_v1/A/protocol_action_correction.json"
+    },
+    "A/vipe/pose/causal_15hz.npz": {
+      "sha256": "63a46a3de0a02be4f5f1b91d0f024f5d37c47d5f8a9030350afaa52bd4febeb1",
+      "bytes": 4102,
+      "source": "runs/dobbe_vipe_v1/A/vipe/pose/causal_15hz.npz"
+    },
+    "A/vipe/intrinsics/causal_15hz.npz": {
+      "sha256": "92cb88b0e127bcb41a0a1f4813ad4ce38a862a272004f4cb00bf16b9e9774eed",
+      "bytes": 1702,
+      "source": "runs/dobbe_vipe_v1/A/vipe/intrinsics/causal_15hz.npz"
+    },
+    "A/vipe/intrinsics/causal_15hz_camera.txt": {
+      "sha256": "9277f6ba5942709f57b39867bd7264a2f003a094b160147cfe6983f3a16a0bfa",
+      "bytes": 590,
+      "source": "runs/dobbe_vipe_v1/A/vipe/intrinsics/causal_15hz_camera.txt"
+    },
+    "A/frames/00047.png": {
+      "sha256": "98926b5b55162661cf38048d25cebce4ddbd2889c9fb811e3c79e8e26b1d63f5",
+      "bytes": 85347,
+      "source": "runs/dobbe_vipe_v1/A/frames/00047.png"
+    },
+    "A/frames/00048.png": {
+      "sha256": "d231cf79ee95a5d7a63d5abe396ed50e0bebee37cca505cc121d50d8530147bc",
+      "bytes": 85077,
+      "source": "runs/dobbe_vipe_v1/A/frames/00048.png"
+    },
+    "A/frames/00049.png": {
+      "sha256": "ec86ce9f05d2883ddba68994c742ef3be0a689d9c39325bd7c283ffb76584a15",
+      "bytes": 84905,
+      "source": "runs/dobbe_vipe_v1/A/frames/00049.png"
+    },
+    "A/measured_depth_edges_00047.png": {
+      "sha256": "134969040095ba925cfc5c97916898452e1bf76511bf5ed4f4d9683de743fc45",
+      "bytes": 86275,
+      "source": "runs/dobbe_vipe_v1/A/measured_depth_edges_00047.png"
+    },
+    "A/measured_depth_edges_00048.png": {
+      "sha256": "e05f12a6f3d3fa5efd1f904ec6831f1076e8b3f69e991bd3c03e76d9f9a7b366",
+      "bytes": 85986,
+      "source": "runs/dobbe_vipe_v1/A/measured_depth_edges_00048.png"
+    },
+    "A/measured_depth_edges_00049.png": {
+      "sha256": "5230c48de2ef512712f837ca2240bb05572e59c516af7efbd4c56f8a47b1d5c7",
+      "bytes": 85797,
+      "source": "runs/dobbe_vipe_v1/A/measured_depth_edges_00049.png"
+    },
+    "A/static_sift_00036.npz": {
+      "sha256": "ce4db7c7ab3f3e0cc8d9b122b749e92b009afcbdba89c5d7e44fe2db8dcc1015",
+      "bytes": 1278,
+      "source": "runs/dobbe_vipe_v1/A/static_sift_00036.npz"
+    },
+    "A/static_sift_00046.npz": {
+      "sha256": "e23ea487d9654e2a2cb164998dcd7a8f5528977db77c5b94160d5bf4160df29e",
+      "bytes": 1608,
+      "source": "runs/dobbe_vipe_v1/A/static_sift_00046.npz"
+    },
+    "A/static_sift_00047.npz": {
+      "sha256": "7a82a0f144889651b85fc373a7bcfd6813e786b2e2fd898053c63d2009ca002e",
+      "bytes": 1740,
+      "source": "runs/dobbe_vipe_v1/A/static_sift_00047.npz"
+    },
+    "A/static_sift_00048.npz": {
+      "sha256": "871d582b7a56083cdab6e69171e4cd423443954029f19b07bd2a1795e092f1e4",
+      "bytes": 1641,
+      "source": "runs/dobbe_vipe_v1/A/static_sift_00048.npz"
+    },
+    "A/smoke_vipe/geometry_gate.json": {
+      "sha256": "d51654fc9fd34c5ca76451c8c1b4bb5125d216b2e27b2e4c12d131af85151cb4",
+      "bytes": 868,
+      "source": "runs/dobbe_vipe_v1/A/smoke_vipe/geometry_gate.json"
+    },
+    "A/smoke_vipe/points_3d_world.npy": {
+      "sha256": "7a5c235014ddaaa189eb523c0c94c92a6cb5a27830aee23e746651bdec6c5994",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/smoke_vipe/points_3d_world.npy"
+    },
+    "A/smoke_vipe/points_2d_t0.npy": {
+      "sha256": "0e7792aa08690aac28b1f8863459532e86fff9083681c4f29a084c46f6810071",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/smoke_vipe/points_2d_t0.npy"
+    },
+    "A/smoke_vipe/c2w_t0.npy": {
+      "sha256": "3e4841d773f4370b4d8646cd1e05c48023aa9c415af70691fdf147e13f9839b1",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/smoke_vipe/c2w_t0.npy"
+    },
+    "A/smoke_vipe/points_3d_camera_t0_diagnostic.npy": {
+      "sha256": "351d5a9ca97a6fb6c143b99b883415cc799a2b03a5d348190f3329c153df5e49",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/smoke_vipe/points_3d_camera_t0_diagnostic.npy"
+    },
+    "A/smoke_vipe/processor_equivalence.json": {
+      "sha256": "4c94e416471bab93e6a87438a878dc56a6289427aa9a9b3eef86bbbdbf4b081b",
+      "bytes": 408,
+      "source": "runs/dobbe_vipe_v1/A/smoke_vipe/processor_equivalence.json"
+    },
+    "A/smoke_vipe/model_run.json": {
+      "sha256": "bbe5b4eb5548ae3a6a7aae7e06fbf454dcf30516024342e1d0f429d603628755",
+      "bytes": 124,
+      "source": "runs/dobbe_vipe_v1/A/smoke_vipe/model_run.json"
+    },
+    "A/pure_vipe/geometry_gate.json": {
+      "sha256": "1b646397959d100fe7229ad3abf8e00837863e44a4c7d013d87773bc8f7acf2f",
+      "bytes": 517,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe/geometry_gate.json"
+    },
+    "A/pure_vipe/points_3d_world.npy": {
+      "sha256": "9150df761cdc352e34e6bb10f055a7ae036a2e731addac10a26853fe1a931042",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe/points_3d_world.npy"
+    },
+    "A/pure_vipe/points_2d_t0.npy": {
+      "sha256": "ce11f315d4f7ab49c7db4ff14b37e9b53d47b63b8bb762cf5e0e1764c8f664b2",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe/points_2d_t0.npy"
+    },
+    "A/pure_vipe/c2w_t0.npy": {
+      "sha256": "3e4841d773f4370b4d8646cd1e05c48023aa9c415af70691fdf147e13f9839b1",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe/c2w_t0.npy"
+    },
+    "A/pure_vipe/model_run.json": {
+      "sha256": "bbe5b4eb5548ae3a6a7aae7e06fbf454dcf30516024342e1d0f429d603628755",
+      "bytes": 124,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe/model_run.json"
+    },
+    "A/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "718eacfccdd8181968ae0c4c8b7dc402010c128fa2bee0d37e9bfc0ecac54210",
+      "bytes": 518,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "A/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "0a36d9cd05d1fabe804d5511dc2fcc6856f52ce17dcc33728c8a813640eb7df3",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "A/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "ce11f315d4f7ab49c7db4ff14b37e9b53d47b63b8bb762cf5e0e1764c8f664b2",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "A/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "3e4841d773f4370b4d8646cd1e05c48023aa9c415af70691fdf147e13f9839b1",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "A/hybrid/geometry_gate.json": {
+      "sha256": "266826c3d5f591ec0b9805d77718f47b5f88bc1ce73026aa88ab9f6281e1c6af",
+      "bytes": 1228,
+      "source": "runs/dobbe_vipe_v1/A/hybrid/geometry_gate.json"
+    },
+    "A/hybrid/points_3d_world.npy": {
+      "sha256": "e7116472190acbb2191060e46c682ec00315b6493115b90bc6136e3b1f963338",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/hybrid/points_3d_world.npy"
+    },
+    "A/hybrid/points_2d_t0.npy": {
+      "sha256": "ce11f315d4f7ab49c7db4ff14b37e9b53d47b63b8bb762cf5e0e1764c8f664b2",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/hybrid/points_2d_t0.npy"
+    },
+    "A/hybrid/c2w_t0.npy": {
+      "sha256": "3e4841d773f4370b4d8646cd1e05c48023aa9c415af70691fdf147e13f9839b1",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/hybrid/c2w_t0.npy"
+    },
+    "A/hybrid/model_run.json": {
+      "sha256": "bbe5b4eb5548ae3a6a7aae7e06fbf454dcf30516024342e1d0f429d603628755",
+      "bytes": 124,
+      "source": "runs/dobbe_vipe_v1/A/hybrid/model_run.json"
+    },
+    "A/rectified/protocol.json": {
+      "sha256": "71707b7d780dc10dc9cf4d17e579c3fcd38495e033f71d1a689202e4549b3825",
+      "bytes": 2401,
+      "source": "runs/dobbe_vipe_v1/A/rectified/protocol.json"
+    },
+    "A/rectified/frame_map.json": {
+      "sha256": "b12da0067df4bc7c0cd7992fa04c6595ad7bbbea08b2eb43f3f0bc4e63f56e1f",
+      "bytes": 1083,
+      "source": "runs/dobbe_vipe_v1/A/rectified/frame_map.json"
+    },
+    "A/rectified/mask_annotation.json": {
+      "sha256": "a3e56e620f9ba55f62a4dd2ce4e6b9632bc0bfba0e48f6bb5bf0f65ce288ba00",
+      "bytes": 1001,
+      "source": "runs/dobbe_vipe_v1/A/rectified/mask_annotation.json"
+    },
+    "A/rectified/mask_t0.png": {
+      "sha256": "83f3278e355a4b1d2e8d82601cd56951e2d96cbce11bdb7ab6522d8d3991ee15",
+      "bytes": 1207,
+      "source": "runs/dobbe_vipe_v1/A/rectified/mask_t0.png"
+    },
+    "A/rectified/query_points.npz": {
+      "sha256": "d679a0dc9ad3e04be79f2c2caf57f9d715bbce7c9bc6db2aa205cfcae324954b",
+      "bytes": 4828,
+      "source": "runs/dobbe_vipe_v1/A/rectified/query_points.npz"
+    },
+    "A/rectified/geometry_gate.json": {
+      "sha256": "bda636c2e39ef17120dd6bd2920ce83ca264ffd91ca9698281d96909bc420866",
+      "bytes": 3749,
+      "source": "runs/dobbe_vipe_v1/A/rectified/geometry_gate.json"
+    },
+    "A/rectified/geometry_diagnostics.png": {
+      "sha256": "f0d22aa381d4e234e7b12ff2a315d3520a489c919833bcabd4d46912ed08720f",
+      "bytes": 1152014,
+      "source": "runs/dobbe_vipe_v1/A/rectified/geometry_diagnostics.png"
+    },
+    "A/rectified/camera_diagnostics.png": {
+      "sha256": "1b89ecfe260ca91bcf13434eda991113a17f5d498dff43d3865cab82264137ab",
+      "bytes": 53381,
+      "source": "runs/dobbe_vipe_v1/A/rectified/camera_diagnostics.png"
+    },
+    "A/rectified/causal_tracks.mp4": {
+      "sha256": "1e9c621607320175b08065913c792c9aa51bcda33f50a3f9fcc039487d07a0ee",
+      "bytes": 88447,
+      "source": "runs/dobbe_vipe_v1/A/rectified/causal_tracks.mp4"
+    },
+    "A/rectified/independent_static_sift.json": {
+      "sha256": "f909b9071e258afa6f05830eaf4c3258ce831a3e0906c4106275286aac5427af",
+      "bytes": 1297,
+      "source": "runs/dobbe_vipe_v1/A/rectified/independent_static_sift.json"
+    },
+    "A/rectified/hybrid_alignment_review.json": {
+      "sha256": "7d5ddd916b1758d3d308ee849f5acad9444720d52b826c0cc04e6551610646ef",
+      "bytes": 754,
+      "source": "runs/dobbe_vipe_v1/A/rectified/hybrid_alignment_review.json"
+    },
+    "A/rectified/alltracker_execution.json": {
+      "sha256": "14c6ef7331199bd4687588f18b08f212f4249d25c1f4092d069de220103965a8",
+      "bytes": 781,
+      "source": "runs/dobbe_vipe_v1/A/rectified/alltracker_execution.json"
+    },
+    "A/rectified/vipe_no_vda_execution.json": {
+      "sha256": "792c6b20e0d77184a91e140e775af71c9a116507e0e91359f3bfa680a1211de3",
+      "bytes": 724,
+      "source": "runs/dobbe_vipe_v1/A/rectified/vipe_no_vda_execution.json"
+    },
+    "A/rectified/vipe/pose/causal_15hz.npz": {
+      "sha256": "214b37cc9519b840d5a406c0f1e1429580aa05c2bfcd02076b81bbc47cc6cb67",
+      "bytes": 4102,
+      "source": "runs/dobbe_vipe_v1/A/rectified/vipe/pose/causal_15hz.npz"
+    },
+    "A/rectified/vipe/intrinsics/causal_15hz.npz": {
+      "sha256": "a67cb089108680f407e7dafaa575f1ed64965c3d6f09c72b7b7b13f7f58af205",
+      "bytes": 1702,
+      "source": "runs/dobbe_vipe_v1/A/rectified/vipe/intrinsics/causal_15hz.npz"
+    },
+    "A/rectified/vipe/intrinsics/causal_15hz_camera.txt": {
+      "sha256": "9277f6ba5942709f57b39867bd7264a2f003a094b160147cfe6983f3a16a0bfa",
+      "bytes": 590,
+      "source": "runs/dobbe_vipe_v1/A/rectified/vipe/intrinsics/causal_15hz_camera.txt"
+    },
+    "A/rectified/frames/00047.png": {
+      "sha256": "98926b5b55162661cf38048d25cebce4ddbd2889c9fb811e3c79e8e26b1d63f5",
+      "bytes": 85347,
+      "source": "runs/dobbe_vipe_v1/A/rectified/frames/00047.png"
+    },
+    "A/rectified/frames/00048.png": {
+      "sha256": "d231cf79ee95a5d7a63d5abe396ed50e0bebee37cca505cc121d50d8530147bc",
+      "bytes": 85077,
+      "source": "runs/dobbe_vipe_v1/A/rectified/frames/00048.png"
+    },
+    "A/rectified/frames/00049.png": {
+      "sha256": "ec86ce9f05d2883ddba68994c742ef3be0a689d9c39325bd7c283ffb76584a15",
+      "bytes": 84905,
+      "source": "runs/dobbe_vipe_v1/A/rectified/frames/00049.png"
+    },
+    "A/rectified/measured_depth_edges_00047.png": {
+      "sha256": "134969040095ba925cfc5c97916898452e1bf76511bf5ed4f4d9683de743fc45",
+      "bytes": 86275,
+      "source": "runs/dobbe_vipe_v1/A/rectified/measured_depth_edges_00047.png"
+    },
+    "A/rectified/measured_depth_edges_00048.png": {
+      "sha256": "e05f12a6f3d3fa5efd1f904ec6831f1076e8b3f69e991bd3c03e76d9f9a7b366",
+      "bytes": 85986,
+      "source": "runs/dobbe_vipe_v1/A/rectified/measured_depth_edges_00048.png"
+    },
+    "A/rectified/measured_depth_edges_00049.png": {
+      "sha256": "5230c48de2ef512712f837ca2240bb05572e59c516af7efbd4c56f8a47b1d5c7",
+      "bytes": 85797,
+      "source": "runs/dobbe_vipe_v1/A/rectified/measured_depth_edges_00049.png"
+    },
+    "A/rectified/static_sift_00036.npz": {
+      "sha256": "cc588abbd646b24b11d0c899264357e832ea705bd9592372bd3f51689d9d6fa7",
+      "bytes": 1278,
+      "source": "runs/dobbe_vipe_v1/A/rectified/static_sift_00036.npz"
+    },
+    "A/rectified/static_sift_00046.npz": {
+      "sha256": "d1d54e5ad71c34113b154fda274ea38b4cf99245a0d11253ca175e213f3beb51",
+      "bytes": 1608,
+      "source": "runs/dobbe_vipe_v1/A/rectified/static_sift_00046.npz"
+    },
+    "A/rectified/static_sift_00047.npz": {
+      "sha256": "46298bb5ee71805c83f54ed87975a80f0b993d9b0e5f708c575e4ab7f589c4fb",
+      "bytes": 1740,
+      "source": "runs/dobbe_vipe_v1/A/rectified/static_sift_00047.npz"
+    },
+    "A/rectified/static_sift_00048.npz": {
+      "sha256": "e9485f5226d9fc858450c0bb0c10821ec0b45e8f68bb9f5db721afe065fb2f6f",
+      "bytes": 1641,
+      "source": "runs/dobbe_vipe_v1/A/rectified/static_sift_00048.npz"
+    },
+    "A/rectified/smoke_vipe/geometry_gate.json": {
+      "sha256": "33e451df89edc88b7974efe2db29498ce4caad1920a9520fedbb42e6e078d77e",
+      "bytes": 868,
+      "source": "runs/dobbe_vipe_v1/A/rectified/smoke_vipe/geometry_gate.json"
+    },
+    "A/rectified/smoke_vipe/points_3d_world.npy": {
+      "sha256": "ff8aa513505d524b906a49fe9c278ff8e4ac68f527853d0974530b3ff89ca535",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/rectified/smoke_vipe/points_3d_world.npy"
+    },
+    "A/rectified/smoke_vipe/points_2d_t0.npy": {
+      "sha256": "0e7792aa08690aac28b1f8863459532e86fff9083681c4f29a084c46f6810071",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/smoke_vipe/points_2d_t0.npy"
+    },
+    "A/rectified/smoke_vipe/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/smoke_vipe/c2w_t0.npy"
+    },
+    "A/rectified/smoke_vipe/model_run.json": {
+      "sha256": "bbe5b4eb5548ae3a6a7aae7e06fbf454dcf30516024342e1d0f429d603628755",
+      "bytes": 124,
+      "source": "runs/dobbe_vipe_v1/A/rectified/smoke_vipe/model_run.json"
+    },
+    "A/rectified/pure_vipe/geometry_gate.json": {
+      "sha256": "fa84c440b2c573a96a333e8d334718b7645faa3af8cc122c6a404aeb50c88532",
+      "bytes": 517,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe/geometry_gate.json"
+    },
+    "A/rectified/pure_vipe/points_3d_world.npy": {
+      "sha256": "04f99e2c4317653c1c8538943b964232df5b92a79a794217a5cff7e64c4958f8",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe/points_3d_world.npy"
+    },
+    "A/rectified/pure_vipe/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe/points_2d_t0.npy"
+    },
+    "A/rectified/pure_vipe/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe/c2w_t0.npy"
+    },
+    "A/rectified/pure_vipe/model_run.json": {
+      "sha256": "bbe5b4eb5548ae3a6a7aae7e06fbf454dcf30516024342e1d0f429d603628755",
+      "bytes": 124,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe/model_run.json"
+    },
+    "A/rectified/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "34e986d5bcf40c28e1836cd5c38a25ef629740a07db7f8b7c67fbc821f51ae7d",
+      "bytes": 518,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "A/rectified/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "01f0a35b59afeb2936230e75b9ae4c2d1291bc8c83d35de7d2b28b244b0b450c",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "A/rectified/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "A/rectified/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "A/rectified/hybrid/geometry_gate.json": {
+      "sha256": "cfbbf52e7e433208142ba4a9a0f099e208c49f8c99a2be247aa5fab749105cdd",
+      "bytes": 1222,
+      "source": "runs/dobbe_vipe_v1/A/rectified/hybrid/geometry_gate.json"
+    },
+    "A/rectified/hybrid/points_3d_world.npy": {
+      "sha256": "76d371fb683435d4277273640095a2b64992702ee1b20bab5a131898e7107b39",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/rectified/hybrid/points_3d_world.npy"
+    },
+    "A/rectified/hybrid/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/hybrid/points_2d_t0.npy"
+    },
+    "A/rectified/hybrid/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/rectified/hybrid/c2w_t0.npy"
+    },
+    "A/rectified/hybrid/model_run.json": {
+      "sha256": "bbe5b4eb5548ae3a6a7aae7e06fbf454dcf30516024342e1d0f429d603628755",
+      "bytes": 124,
+      "source": "runs/dobbe_vipe_v1/A/rectified/hybrid/model_run.json"
+    },
+    "A/sift_audited/protocol.json": {
+      "sha256": "b0328b169285d8d9ad265abb939e8552122f8b0b3cbf32af322e4f7b4e1c179b",
+      "bytes": 2624,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/protocol.json"
+    },
+    "A/sift_audited/frame_map.json": {
+      "sha256": "b12da0067df4bc7c0cd7992fa04c6595ad7bbbea08b2eb43f3f0bc4e63f56e1f",
+      "bytes": 1083,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/frame_map.json"
+    },
+    "A/sift_audited/mask_annotation.json": {
+      "sha256": "a3e56e620f9ba55f62a4dd2ce4e6b9632bc0bfba0e48f6bb5bf0f65ce288ba00",
+      "bytes": 1001,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/mask_annotation.json"
+    },
+    "A/sift_audited/mask_t0.png": {
+      "sha256": "83f3278e355a4b1d2e8d82601cd56951e2d96cbce11bdb7ab6522d8d3991ee15",
+      "bytes": 1207,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/mask_t0.png"
+    },
+    "A/sift_audited/query_points.npz": {
+      "sha256": "d679a0dc9ad3e04be79f2c2caf57f9d715bbce7c9bc6db2aa205cfcae324954b",
+      "bytes": 4828,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/query_points.npz"
+    },
+    "A/sift_audited/geometry_gate.json": {
+      "sha256": "add2f2a79aaa06847295b8595ef78a886475c3c12494c1acd8430ab195b0a23c",
+      "bytes": 3679,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/geometry_gate.json"
+    },
+    "A/sift_audited/geometry_diagnostics.png": {
+      "sha256": "f0d22aa381d4e234e7b12ff2a315d3520a489c919833bcabd4d46912ed08720f",
+      "bytes": 1152014,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/geometry_diagnostics.png"
+    },
+    "A/sift_audited/camera_diagnostics.png": {
+      "sha256": "1b89ecfe260ca91bcf13434eda991113a17f5d498dff43d3865cab82264137ab",
+      "bytes": 53381,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/camera_diagnostics.png"
+    },
+    "A/sift_audited/causal_tracks.mp4": {
+      "sha256": "1e9c621607320175b08065913c792c9aa51bcda33f50a3f9fcc039487d07a0ee",
+      "bytes": 88447,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/causal_tracks.mp4"
+    },
+    "A/sift_audited/independent_static_sift.json": {
+      "sha256": "f909b9071e258afa6f05830eaf4c3258ce831a3e0906c4106275286aac5427af",
+      "bytes": 1297,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/independent_static_sift.json"
+    },
+    "A/sift_audited/hybrid_alignment_review.json": {
+      "sha256": "7d5ddd916b1758d3d308ee849f5acad9444720d52b826c0cc04e6551610646ef",
+      "bytes": 754,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/hybrid_alignment_review.json"
+    },
+    "A/sift_audited/alltracker_execution.json": {
+      "sha256": "14c6ef7331199bd4687588f18b08f212f4249d25c1f4092d069de220103965a8",
+      "bytes": 781,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/alltracker_execution.json"
+    },
+    "A/sift_audited/control_protocol.json": {
+      "sha256": "2d5ce2d8d91bb305cf45bffbcde1d6db3bf8f1444066d699bd6b05f5da487418",
+      "bytes": 1199,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/control_protocol.json"
+    },
+    "A/sift_audited/ablation_input_audit.json": {
+      "sha256": "0eb24dde1c6ea895e156673c2c687612c9c1a23857ab39c9477682a7f8d626ca",
+      "bytes": 290,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/ablation_input_audit.json"
+    },
+    "A/sift_audited/paired_selection_protocol.json": {
+      "sha256": "5a7a2e6a0004aef7d4d0a62424a654cb6e2d4730a949a770d9783dd8ea6319b7",
+      "bytes": 874,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_selection_protocol.json"
+    },
+    "A/sift_audited/paired_selection_audit.json": {
+      "sha256": "224fc26003d2ff6f11f1296ea0919fd87304900f7019f4736fe36de4c0584e2d",
+      "bytes": 1678,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_selection_audit.json"
+    },
+    "A/sift_audited/ablation_input_audit_initial.json": {
+      "sha256": "ea7559c34c48825252cd1300649342e2682a677d9bf25e74643c4b9ba83fc736",
+      "bytes": 990,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/ablation_input_audit_initial.json"
+    },
+    "A/sift_audited/paired_depth_comparison.png": {
+      "sha256": "799e1df4e3eaaba64c15c1663674ca2212904381deffa5eec86279cbf0bdfca4",
+      "bytes": 151773,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_depth_comparison.png"
+    },
+    "A/sift_audited/paired_forecast_summary.json": {
+      "sha256": "cdeaee738d336c46db645bdf389ce30b5504d43c1ac073885d116aa8e4b97248",
+      "bytes": 565,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_forecast_summary.json"
+    },
+    "A/sift_audited/vipe_no_vda_execution.json": {
+      "sha256": "792c6b20e0d77184a91e140e775af71c9a116507e0e91359f3bfa680a1211de3",
+      "bytes": 724,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/vipe_no_vda_execution.json"
+    },
+    "A/sift_audited/vipe/pose/causal_15hz.npz": {
+      "sha256": "214b37cc9519b840d5a406c0f1e1429580aa05c2bfcd02076b81bbc47cc6cb67",
+      "bytes": 4102,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/vipe/pose/causal_15hz.npz"
+    },
+    "A/sift_audited/vipe/intrinsics/causal_15hz.npz": {
+      "sha256": "a67cb089108680f407e7dafaa575f1ed64965c3d6f09c72b7b7b13f7f58af205",
+      "bytes": 1702,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/vipe/intrinsics/causal_15hz.npz"
+    },
+    "A/sift_audited/vipe/intrinsics/causal_15hz_camera.txt": {
+      "sha256": "9277f6ba5942709f57b39867bd7264a2f003a094b160147cfe6983f3a16a0bfa",
+      "bytes": 590,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/vipe/intrinsics/causal_15hz_camera.txt"
+    },
+    "A/sift_audited/frames/00047.png": {
+      "sha256": "98926b5b55162661cf38048d25cebce4ddbd2889c9fb811e3c79e8e26b1d63f5",
+      "bytes": 85347,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/frames/00047.png"
+    },
+    "A/sift_audited/frames/00048.png": {
+      "sha256": "d231cf79ee95a5d7a63d5abe396ed50e0bebee37cca505cc121d50d8530147bc",
+      "bytes": 85077,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/frames/00048.png"
+    },
+    "A/sift_audited/frames/00049.png": {
+      "sha256": "ec86ce9f05d2883ddba68994c742ef3be0a689d9c39325bd7c283ffb76584a15",
+      "bytes": 84905,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/frames/00049.png"
+    },
+    "A/sift_audited/measured_depth_edges_00047.png": {
+      "sha256": "134969040095ba925cfc5c97916898452e1bf76511bf5ed4f4d9683de743fc45",
+      "bytes": 86275,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/measured_depth_edges_00047.png"
+    },
+    "A/sift_audited/measured_depth_edges_00048.png": {
+      "sha256": "e05f12a6f3d3fa5efd1f904ec6831f1076e8b3f69e991bd3c03e76d9f9a7b366",
+      "bytes": 85986,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/measured_depth_edges_00048.png"
+    },
+    "A/sift_audited/measured_depth_edges_00049.png": {
+      "sha256": "5230c48de2ef512712f837ca2240bb05572e59c516af7efbd4c56f8a47b1d5c7",
+      "bytes": 85797,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/measured_depth_edges_00049.png"
+    },
+    "A/sift_audited/static_sift_00036.npz": {
+      "sha256": "cc588abbd646b24b11d0c899264357e832ea705bd9592372bd3f51689d9d6fa7",
+      "bytes": 1278,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/static_sift_00036.npz"
+    },
+    "A/sift_audited/static_sift_00046.npz": {
+      "sha256": "d1d54e5ad71c34113b154fda274ea38b4cf99245a0d11253ca175e213f3beb51",
+      "bytes": 1608,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/static_sift_00046.npz"
+    },
+    "A/sift_audited/static_sift_00047.npz": {
+      "sha256": "46298bb5ee71805c83f54ed87975a80f0b993d9b0e5f708c575e4ab7f589c4fb",
+      "bytes": 1740,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/static_sift_00047.npz"
+    },
+    "A/sift_audited/static_sift_00048.npz": {
+      "sha256": "e9485f5226d9fc858450c0bb0c10821ec0b45e8f68bb9f5db721afe065fb2f6f",
+      "bytes": 1641,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/static_sift_00048.npz"
+    },
+    "A/sift_audited/rejected_sensor_queries/hybrid/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/hybrid/c2w_t0.npy"
+    },
+    "A/sift_audited/rejected_sensor_queries/hybrid/geometry_gate.json": {
+      "sha256": "ed9e84dd095c4ad415963a71cc4eddde847c587c8cbc6e8e7d4f3d8eee4be6c0",
+      "bytes": 2283,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/hybrid/geometry_gate.json"
+    },
+    "A/sift_audited/rejected_sensor_queries/hybrid/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/hybrid/points_2d_t0.npy"
+    },
+    "A/sift_audited/rejected_sensor_queries/hybrid/points_3d_world.npy": {
+      "sha256": "76d371fb683435d4277273640095a2b64992702ee1b20bab5a131898e7107b39",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/hybrid/points_3d_world.npy"
+    },
+    "A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "a9d2cd78fd3efcc8aa3f643e8e16e6fcfb21dc732ef57f78bd46d4055e303c1c",
+      "bytes": 873,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "01f0a35b59afeb2936230e75b9ae4c2d1291bc8c83d35de7d2b28b244b0b450c",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/rejected_sensor_queries/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "A/sift_audited/smoke_vipe/geometry_gate.json": {
+      "sha256": "eb266542c77bc7d030743252d85c68640ed38f6dee61fe95149bd279d129240a",
+      "bytes": 1223,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/geometry_gate.json"
+    },
+    "A/sift_audited/smoke_vipe/points_3d_world.npy": {
+      "sha256": "ff8aa513505d524b906a49fe9c278ff8e4ac68f527853d0974530b3ff89ca535",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/points_3d_world.npy"
+    },
+    "A/sift_audited/smoke_vipe/points_2d_t0.npy": {
+      "sha256": "0e7792aa08690aac28b1f8863459532e86fff9083681c4f29a084c46f6810071",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/points_2d_t0.npy"
+    },
+    "A/sift_audited/smoke_vipe/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/c2w_t0.npy"
+    },
+    "A/sift_audited/smoke_vipe/points_3d_camera_t0_diagnostic.npy": {
+      "sha256": "ec55297658af23c0d3d0b0559b72ab15f4699c6baa37a23537c534399d51eb60",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/points_3d_camera_t0_diagnostic.npy"
+    },
+    "A/sift_audited/smoke_vipe/processor_equivalence.json": {
+      "sha256": "8a649ab8ef4eba68f36d742247dd601347ba38c7882a739ac46a437b632ad3de",
+      "bytes": 408,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/processor_equivalence.json"
+    },
+    "A/sift_audited/smoke_vipe/model_run.json": {
+      "sha256": "7804f4cec1275290324961620318d92c2aee673b709482c11751c701e2e9755c",
+      "bytes": 808,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/model_run.json"
+    },
+    "A/sift_audited/smoke_vipe/input_freeze.json": {
+      "sha256": "b482d625a79912dad9bf3daffac3eca7c5ef575142d500b6ed0c6bca3aa1fb52",
+      "bytes": 1325,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/input_freeze.json"
+    },
+    "A/sift_audited/smoke_vipe/prediction_15hz.npy": {
+      "sha256": "f348243e386ddb20e3b4fea5023fefb1cdf028fb254798a76f0dda6474c6cc75",
+      "bytes": 3008,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/prediction_15hz.npy"
+    },
+    "A/sift_audited/smoke_vipe/prediction_parsed_visibility.npy": {
+      "sha256": "543c66bf5cdc35c9d67f7e08b24f76c6fd38d8d410a59deabfeeda8d7632431c",
+      "bytes": 368,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/prediction_parsed_visibility.npy"
+    },
+    "A/sift_audited/smoke_vipe/raw_model_output.txt": {
+      "sha256": "d63cb16f60fcb018693426310cfe68b372ac0b3c5c97f92d4a1c6917c8c18de0",
+      "bytes": 3221,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/raw_model_output.txt"
+    },
+    "A/sift_audited/smoke_vipe/forecast_3d.png": {
+      "sha256": "580dd7d602dcc3424d688faca200979b57cb1304285cc76d5126a9ce51049956",
+      "bytes": 233878,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/forecast_3d.png"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/metrics.json": {
+      "sha256": "7ff25aa08772664727ce4d54f69607f02f01fe9dd1bb359ba506cbb2630feaf4",
+      "bytes": 4136,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/metrics.json"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/future_access_receipt.json": {
+      "sha256": "211d047edde4b3a10b5952d5ff91255bbbd1b1a9f0a14551b37a148c5b01718e",
+      "bytes": 1086,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/future_access_receipt.json"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/alltracker_execution.json": {
+      "sha256": "140d792931c258631fd33737fa74e5f674c456c79a0ae107148de3f2c82df66e",
+      "bytes": 684,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/alltracker_execution.json"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/observed_future_tracks.npz": {
+      "sha256": "0116315b0eeffd8c54ec8cf60347d3e7da5812c7275757665d1f6218be8a7d33",
+      "bytes": 4802,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/observed_future_tracks.npz"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/conditional_projection.npz": {
+      "sha256": "2f1a742ad504e143ca53c5dae97e50ba7004ac96f3e8eb126deb69217bd1643f",
+      "bytes": 15100,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/conditional_projection.npz"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/future_comparison.png": {
+      "sha256": "ea92609ec648912b84634273ab622a03c0ba487efe5f48246bef29930e080ba5",
+      "bytes": 1035320,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/future_comparison.png"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/conditional_error_over_time.png": {
+      "sha256": "643691074713c3ee51240730c3b7bc542a4d7cbb09162d32ffa9b369c33b6759",
+      "bytes": 100570,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/conditional_error_over_time.png"
+    },
+    "A/sift_audited/smoke_vipe/evaluation/future_overlay.mp4": {
+      "sha256": "08a17d5d9afa265f7c8c688a409d47bd4a3ef104e36af2f30b61479af1127767",
+      "bytes": 273527,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/smoke_vipe/evaluation/future_overlay.mp4"
+    },
+    "A/sift_audited/pure_vipe/geometry_gate.json": {
+      "sha256": "2c9756a6a6996750c0421b1499427ed17b28427c8d4d688e892e566f54b77fcd",
+      "bytes": 872,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/geometry_gate.json"
+    },
+    "A/sift_audited/pure_vipe/points_3d_world.npy": {
+      "sha256": "04f99e2c4317653c1c8538943b964232df5b92a79a794217a5cff7e64c4958f8",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/points_3d_world.npy"
+    },
+    "A/sift_audited/pure_vipe/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/points_2d_t0.npy"
+    },
+    "A/sift_audited/pure_vipe/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/c2w_t0.npy"
+    },
+    "A/sift_audited/pure_vipe/points_3d_camera_t0_diagnostic.npy": {
+      "sha256": "f4c6190233316c827a2ce2c7935f340319c032a381c9bdafa4dd84ee7ebdad1d",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/points_3d_camera_t0_diagnostic.npy"
+    },
+    "A/sift_audited/pure_vipe/processor_equivalence.json": {
+      "sha256": "7418f64fb3c3645a63c5091a968e77d53017dc2b812d4a691e6603b1f573a26d",
+      "bytes": 408,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/processor_equivalence.json"
+    },
+    "A/sift_audited/pure_vipe/model_run.json": {
+      "sha256": "e056aee80eb254144a3e2a64e05204efb20772fac718953ae36155c4d63ad434",
+      "bytes": 806,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/model_run.json"
+    },
+    "A/sift_audited/pure_vipe/input_freeze.json": {
+      "sha256": "2e94f7c46fec14dcf9cf777d0dfbd546d9d84e9bbd6af30a2b4d3eb770e56d4a",
+      "bytes": 1320,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/input_freeze.json"
+    },
+    "A/sift_audited/pure_vipe/prediction_15hz.npy": {
+      "sha256": "e0f293f6ea2aeeea81c30e1d081f6ab14b601d189fdae72e8a324cccac14b864",
+      "bytes": 3008,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/prediction_15hz.npy"
+    },
+    "A/sift_audited/pure_vipe/prediction_parsed_visibility.npy": {
+      "sha256": "543c66bf5cdc35c9d67f7e08b24f76c6fd38d8d410a59deabfeeda8d7632431c",
+      "bytes": 368,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/prediction_parsed_visibility.npy"
+    },
+    "A/sift_audited/pure_vipe/raw_model_output.txt": {
+      "sha256": "ea6876f9f3261c4c139abbf3486d262ce954e2a934bf6eb980087db2cd74f6d0",
+      "bytes": 3191,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/raw_model_output.txt"
+    },
+    "A/sift_audited/pure_vipe/forecast_3d.png": {
+      "sha256": "8a9e13553560fdd1023f36567ef565a8c15b8e96264e3e8ff93852f486a96271",
+      "bytes": 220153,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/forecast_3d.png"
+    },
+    "A/sift_audited/pure_vipe/evaluation/metrics.json": {
+      "sha256": "973a4d1ae688135c7e06727504a13a155764d41193910170b219f790c3e4e8e4",
+      "bytes": 4129,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/metrics.json"
+    },
+    "A/sift_audited/pure_vipe/evaluation/future_access_receipt.json": {
+      "sha256": "1bcb5042c756bd2e4c05831574dedd52d6d385cf0b8de8a91be74c503176cf40",
+      "bytes": 1086,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/future_access_receipt.json"
+    },
+    "A/sift_audited/pure_vipe/evaluation/alltracker_execution.json": {
+      "sha256": "6e3f76ff2b49771fad33aff2e7a8afe91222b397875b31030c8df826774a1a5f",
+      "bytes": 684,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/alltracker_execution.json"
+    },
+    "A/sift_audited/pure_vipe/evaluation/observed_future_tracks.npz": {
+      "sha256": "fa11af3d4206b221764f08861af791ba1f9ad7318564b7b38b285687e74b3481",
+      "bytes": 4802,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/observed_future_tracks.npz"
+    },
+    "A/sift_audited/pure_vipe/evaluation/conditional_projection.npz": {
+      "sha256": "684c4f8c85107a01ee9a3d03f73a7a9723fd23c62ffe49f34f91add9c9f09fa6",
+      "bytes": 15100,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/conditional_projection.npz"
+    },
+    "A/sift_audited/pure_vipe/evaluation/future_comparison.png": {
+      "sha256": "f8b1a0ba8b2ac7a05e769c8a8a172f6d1a1d8ab6a3b262448a1fec402faa02ab",
+      "bytes": 1038508,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/future_comparison.png"
+    },
+    "A/sift_audited/pure_vipe/evaluation/conditional_error_over_time.png": {
+      "sha256": "c3c5238ef7fd1e7f8ced8e6bf9f85840918970d95eaa0042f026a55da1d28e0a",
+      "bytes": 100371,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/conditional_error_over_time.png"
+    },
+    "A/sift_audited/pure_vipe/evaluation/future_overlay.mp4": {
+      "sha256": "1d7430a0580dfdeac11f1bb21beb7bc299e4b90ef7ccf9cf0a882a7a83b669a0",
+      "bytes": 271893,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe/evaluation/future_overlay.mp4"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "a9d2cd78fd3efcc8aa3f643e8e16e6fcfb21dc732ef57f78bd46d4055e303c1c",
+      "bytes": 873,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "01f0a35b59afeb2936230e75b9ae4c2d1291bc8c83d35de7d2b28b244b0b450c",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/points_3d_camera_t0_diagnostic.npy": {
+      "sha256": "30ff8c756fcf8526adbd7cc7c75a7e5e60b28c4d44f6e5de6ee2dbcf3292fb83",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/points_3d_camera_t0_diagnostic.npy"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/processor_equivalence.json": {
+      "sha256": "656c388cdf6a9d5c9ae1f360c1978a62c322982273aa65f3bca60bb287099583",
+      "bytes": 408,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/processor_equivalence.json"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/model_run.json": {
+      "sha256": "5f330de389488c88056bfae3d210ea81c9c7a1448386cdbc270c2ff89df0ef90",
+      "bytes": 816,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/model_run.json"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/input_freeze.json": {
+      "sha256": "531da4119a7c34fce291a3065c166b355a9e02897befa29ee737d7630fa701d8",
+      "bytes": 1375,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/input_freeze.json"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/prediction_15hz.npy": {
+      "sha256": "e182755b9ff415404027565d409c2f99e5441c157a00226bde26706185b99448",
+      "bytes": 3008,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/prediction_15hz.npy"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/prediction_parsed_visibility.npy": {
+      "sha256": "543c66bf5cdc35c9d67f7e08b24f76c6fd38d8d410a59deabfeeda8d7632431c",
+      "bytes": 368,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/prediction_parsed_visibility.npy"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/raw_model_output.txt": {
+      "sha256": "5860d4ae51dba968b6ba06fa28265ee433402f0c256d2c1b791f0b9dad495a54",
+      "bytes": 3221,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/raw_model_output.txt"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/forecast_3d.png": {
+      "sha256": "fc947e3e9d7029451fb30523184f096e30e07b5aa59aede8466eabdf0ac42cf0",
+      "bytes": 215201,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/forecast_3d.png"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/metrics.json": {
+      "sha256": "2db0e5728ba65778cf94dd35d6f461b5ac3f489bcf0bfdbb9a0f1744e5ec1a6e",
+      "bytes": 4127,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/metrics.json"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/future_access_receipt.json": {
+      "sha256": "05f4f97ed05adc82b85543d9ab99da1e1637ca5e4831c7ae2107ed18a19d5cd3",
+      "bytes": 1086,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/future_access_receipt.json"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/alltracker_execution.json": {
+      "sha256": "6e3f76ff2b49771fad33aff2e7a8afe91222b397875b31030c8df826774a1a5f",
+      "bytes": 684,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/alltracker_execution.json"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/observed_future_tracks.npz": {
+      "sha256": "fa11af3d4206b221764f08861af791ba1f9ad7318564b7b38b285687e74b3481",
+      "bytes": 4802,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/observed_future_tracks.npz"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/conditional_projection.npz": {
+      "sha256": "5197b9413665e508456fa8275e09cc452b03e6f64f2fa63e4b1f7ff4387d00b7",
+      "bytes": 15100,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/conditional_projection.npz"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/future_comparison.png": {
+      "sha256": "78402e8c2bca8f4cc4fb4ac2f6a67207b9f97bac85d323f10dafd13b9f49755f",
+      "bytes": 1038309,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/future_comparison.png"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/conditional_error_over_time.png": {
+      "sha256": "b16642dae2054ee815d6ced4c44878a0b6a358ebb3f2c5942c006e428ee12197",
+      "bytes": 100121,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/conditional_error_over_time.png"
+    },
+    "A/sift_audited/pure_vipe_unsmoothed/evaluation/future_overlay.mp4": {
+      "sha256": "b9e95e390fe58e9ececa12034fb041074b734891f5968cac0ce660920afd296c",
+      "bytes": 272441,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/pure_vipe_unsmoothed/evaluation/future_overlay.mp4"
+    },
+    "A/sift_audited/hybrid/geometry_gate.json": {
+      "sha256": "5aa32b3d0c0316a68679882512ac5c7474048acc83717fcb3081d89ffe7ff1a4",
+      "bytes": 2313,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/hybrid/geometry_gate.json"
+    },
+    "A/sift_audited/hybrid/points_3d_world.npy": {
+      "sha256": "76d371fb683435d4277273640095a2b64992702ee1b20bab5a131898e7107b39",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/hybrid/points_3d_world.npy"
+    },
+    "A/sift_audited/hybrid/points_2d_t0.npy": {
+      "sha256": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/hybrid/points_2d_t0.npy"
+    },
+    "A/sift_audited/hybrid/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/hybrid/c2w_t0.npy"
+    },
+    "A/sift_audited/hybrid/model_run.json": {
+      "sha256": "1b6c4b84ad71448bbc7b8b8157c6bbc019f8422fe79bbf1f19c32ef6c86fdc9a",
+      "bytes": 126,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/hybrid/model_run.json"
+    },
+    "A/sift_audited/paired_vipe/geometry_gate.json": {
+      "sha256": "986a2ddf7ec680526a96d2e8624b83f5e714d7bd5c00bcb7549b88a91212bdc2",
+      "bytes": 2224,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/geometry_gate.json"
+    },
+    "A/sift_audited/paired_vipe/points_3d_world.npy": {
+      "sha256": "6dde775676deceff3f18f5b13e05049bcbfd7dcb8126e44e948238298e52c350",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/points_3d_world.npy"
+    },
+    "A/sift_audited/paired_vipe/points_2d_t0.npy": {
+      "sha256": "166e927d5693e63aeed43ae07680885ef1106afa0e89c68d92b593362afaae2e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/points_2d_t0.npy"
+    },
+    "A/sift_audited/paired_vipe/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/c2w_t0.npy"
+    },
+    "A/sift_audited/paired_vipe/points_3d_camera_t0_diagnostic.npy": {
+      "sha256": "624fdfe44e740915c8315732b2397094c17d4fb5ada2f5e690d8c5d6437cb3a7",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/points_3d_camera_t0_diagnostic.npy"
+    },
+    "A/sift_audited/paired_vipe/processor_equivalence.json": {
+      "sha256": "fb504b1430b00061e40a9af7e258b07a51ee8ab2d1728ad6472c54d74234d028",
+      "bytes": 408,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/processor_equivalence.json"
+    },
+    "A/sift_audited/paired_vipe/model_run.json": {
+      "sha256": "ea902f907adf28799492fd2402c622983a8878ee4fb6ffdb3be285331dfeda81",
+      "bytes": 803,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/model_run.json"
+    },
+    "A/sift_audited/paired_vipe/input_freeze.json": {
+      "sha256": "93056f8ac901d8ad3e402080bc4f416c20f53634a4c481db1c9c61c06177d310",
+      "bytes": 1330,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/input_freeze.json"
+    },
+    "A/sift_audited/paired_vipe/prediction_15hz.npy": {
+      "sha256": "e5a57171594e4425e7b85f3ed8e0642048de48c81403cffd84756513e362a1f7",
+      "bytes": 3008,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/prediction_15hz.npy"
+    },
+    "A/sift_audited/paired_vipe/prediction_parsed_visibility.npy": {
+      "sha256": "543c66bf5cdc35c9d67f7e08b24f76c6fd38d8d410a59deabfeeda8d7632431c",
+      "bytes": 368,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/prediction_parsed_visibility.npy"
+    },
+    "A/sift_audited/paired_vipe/raw_model_output.txt": {
+      "sha256": "f447523a8a1defea62d513f35d6cff35f56ccc99e24e7823b840f1eb0a0e96af",
+      "bytes": 3071,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/raw_model_output.txt"
+    },
+    "A/sift_audited/paired_vipe/forecast_3d.png": {
+      "sha256": "6304e5443ec8c3000f58dd2cc7a070d419afea638e10a14ece8f29df4fcbe41f",
+      "bytes": 236724,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/forecast_3d.png"
+    },
+    "A/sift_audited/paired_vipe/evaluation/metrics.json": {
+      "sha256": "ffd9611151918034a6953000b0882de5a14cd4643dbcf1dc51b84482bb9d0b87",
+      "bytes": 4137,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/metrics.json"
+    },
+    "A/sift_audited/paired_vipe/evaluation/future_access_receipt.json": {
+      "sha256": "37a7ffc3a2c5feeb4d21924acb2489f4c39468787e0aa1e7a341ae868b35eeec",
+      "bytes": 1086,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/future_access_receipt.json"
+    },
+    "A/sift_audited/paired_vipe/evaluation/alltracker_execution.json": {
+      "sha256": "f68ac51f02ecec6c9d374e30c5757144b13212414309daf7bb97aae57f0987c8",
+      "bytes": 684,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/alltracker_execution.json"
+    },
+    "A/sift_audited/paired_vipe/evaluation/observed_future_tracks.npz": {
+      "sha256": "416ca636d456191f705b332d947a880a75d6627d0619058aa270ed5a522b6242",
+      "bytes": 4802,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/observed_future_tracks.npz"
+    },
+    "A/sift_audited/paired_vipe/evaluation/conditional_projection.npz": {
+      "sha256": "8ea34c54c4151674ba89e08202ff4c01ab44076215de973df04902941f946755",
+      "bytes": 15100,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/conditional_projection.npz"
+    },
+    "A/sift_audited/paired_vipe/evaluation/future_comparison.png": {
+      "sha256": "1e7e1dd32fa553be6af204c4ca05b15cbd8f7c094d4a956b49b13fc621a4a7fe",
+      "bytes": 1040174,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/future_comparison.png"
+    },
+    "A/sift_audited/paired_vipe/evaluation/conditional_error_over_time.png": {
+      "sha256": "073a4d4605140f7f5cb7918d6cd535249f5cffe4b7519ffb1a37de3775fed887",
+      "bytes": 98057,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/conditional_error_over_time.png"
+    },
+    "A/sift_audited/paired_vipe/evaluation/future_overlay.mp4": {
+      "sha256": "2ba590231edfd37862c763cefb5ab9fc3738e90fab8eb884511a4d166b39606c",
+      "bytes": 274255,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_vipe/evaluation/future_overlay.mp4"
+    },
+    "A/sift_audited/paired_hybrid/geometry_gate.json": {
+      "sha256": "6af6dafde33239099d2d5ee06f083626269a3dde9431c5c6da6135570f192f20",
+      "bytes": 2299,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/geometry_gate.json"
+    },
+    "A/sift_audited/paired_hybrid/points_3d_world.npy": {
+      "sha256": "8f0adcc6f8d36e566bb26e9f2117ea89c11b4c21ca0c62abf711612636a7258d",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/points_3d_world.npy"
+    },
+    "A/sift_audited/paired_hybrid/points_2d_t0.npy": {
+      "sha256": "166e927d5693e63aeed43ae07680885ef1106afa0e89c68d92b593362afaae2e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/points_2d_t0.npy"
+    },
+    "A/sift_audited/paired_hybrid/c2w_t0.npy": {
+      "sha256": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/c2w_t0.npy"
+    },
+    "A/sift_audited/paired_hybrid/points_3d_camera_t0_diagnostic.npy": {
+      "sha256": "a410b9be031066941bc38b40bbeaf8081ccf6b1c81bfe0da05d5b921bcbdd517",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/points_3d_camera_t0_diagnostic.npy"
+    },
+    "A/sift_audited/paired_hybrid/processor_equivalence.json": {
+      "sha256": "648f9c7405e556264aac3899c21c62043340de2696aa9e332bc9b7b352c5894f",
+      "bytes": 408,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/processor_equivalence.json"
+    },
+    "A/sift_audited/paired_hybrid/model_run.json": {
+      "sha256": "a811e9fe089b3c5ec84f5ffa35e1e73f17a0f1d140e380f6a0b46c33409020a6",
+      "bytes": 809,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/model_run.json"
+    },
+    "A/sift_audited/paired_hybrid/input_freeze.json": {
+      "sha256": "90e655cda090a368c0d6285ea9c509135eaf4bba5b3f0b54ea86b20d1f3ec818",
+      "bytes": 1340,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/input_freeze.json"
+    },
+    "A/sift_audited/paired_hybrid/prediction_15hz.npy": {
+      "sha256": "03978383629dafd88635ae81edb1a9cd66f9366814e3ec049e98fd5bec0402fb",
+      "bytes": 3008,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/prediction_15hz.npy"
+    },
+    "A/sift_audited/paired_hybrid/prediction_parsed_visibility.npy": {
+      "sha256": "543c66bf5cdc35c9d67f7e08b24f76c6fd38d8d410a59deabfeeda8d7632431c",
+      "bytes": 368,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/prediction_parsed_visibility.npy"
+    },
+    "A/sift_audited/paired_hybrid/raw_model_output.txt": {
+      "sha256": "c3a43db977205fc477c29060a415303a75552beb317b1a174bcd430a7b98697f",
+      "bytes": 3011,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/raw_model_output.txt"
+    },
+    "A/sift_audited/paired_hybrid/forecast_3d.png": {
+      "sha256": "1e095b7c05a03887d076f4f3fa37ce4f9169f2f4861ba0fde07a42cd4ccccffa",
+      "bytes": 241290,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/forecast_3d.png"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/metrics.json": {
+      "sha256": "98c7e9b07fdf8f05171eabc6c0e071442eb78f72783245cd7dc5d8d66f69046f",
+      "bytes": 4128,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/metrics.json"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/future_access_receipt.json": {
+      "sha256": "e375cd712e6e5e60460f5488e9cca2d4b41acf76cfed86686a0ed3bb5b52ebb5",
+      "bytes": 1086,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/future_access_receipt.json"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/alltracker_execution.json": {
+      "sha256": "f68ac51f02ecec6c9d374e30c5757144b13212414309daf7bb97aae57f0987c8",
+      "bytes": 684,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/alltracker_execution.json"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/observed_future_tracks.npz": {
+      "sha256": "416ca636d456191f705b332d947a880a75d6627d0619058aa270ed5a522b6242",
+      "bytes": 4802,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/observed_future_tracks.npz"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/conditional_projection.npz": {
+      "sha256": "4f4154044995e70774c5e3c25ce8f1274187d90020d61f80f3dc0b8d3aa633a1",
+      "bytes": 15100,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/conditional_projection.npz"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/future_comparison.png": {
+      "sha256": "8fe2c853b1eb3a31d9b8530785416b7bda26ccfb499a50770ecf4575df6a4450",
+      "bytes": 1040051,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/future_comparison.png"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/conditional_error_over_time.png": {
+      "sha256": "622b1046453d53049df318de54f06e860ec488aa2bb430dadc84e3c918840e21",
+      "bytes": 93444,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/conditional_error_over_time.png"
+    },
+    "A/sift_audited/paired_hybrid/evaluation/future_overlay.mp4": {
+      "sha256": "bdcc555a55f5ee4d9196f469cdc50e2181b122ff37881116352f2208da24f39d",
+      "bytes": 273253,
+      "source": "runs/dobbe_vipe_v1/A/sift_audited/paired_hybrid/evaluation/future_overlay.mp4"
+    },
+    "B/protocol.json": {
+      "sha256": "9f9eb4cb9f57bfdc0387736d96fc7096c8c431a6e1133e38d3bb93cc1d9e8ee1",
+      "bytes": 2101,
+      "source": "runs/dobbe_vipe_v1/B/protocol.json"
+    },
+    "B/frame_map.json": {
+      "sha256": "cf7bc1a0cceb95b492dd62dee7c78d86fdb5c5ac5111af9d525b9a5e34d35c02",
+      "bytes": 5884,
+      "source": "runs/dobbe_vipe_v1/B/frame_map.json"
+    },
+    "B/mask_annotation.json": {
+      "sha256": "a7b8e8e4280d24317365c9e56975dbddd57a2d8c06770c0430acc30c9652210d",
+      "bytes": 1243,
+      "source": "runs/dobbe_vipe_v1/B/mask_annotation.json"
+    },
+    "B/mask_t0.png": {
+      "sha256": "d16b206d2e4dc786131260df7564a3e7cc826f2a01f6c113f1cf3d6bdf3ca0f5",
+      "bytes": 1111,
+      "source": "runs/dobbe_vipe_v1/B/mask_t0.png"
+    },
+    "B/query_overlay.png": {
+      "sha256": "4f3ac9bb80d275cfdaa5d652f13724166ec9f806acad7716ac373b99706f4cc0",
+      "bytes": 162403,
+      "source": "runs/dobbe_vipe_v1/B/query_overlay.png"
+    },
+    "B/query_points.npz": {
+      "sha256": "2037027b743c4615370f0c5b2f5ca5e83952ec30cf8c4c538eb0ee32f8d54440",
+      "bytes": 6796,
+      "source": "runs/dobbe_vipe_v1/B/query_points.npz"
+    },
+    "B/geometry_gate.json": {
+      "sha256": "471011e657d43be8f4e05ece097d480be32c356a43ea37386f5139fb8efb709b",
+      "bytes": 3685,
+      "source": "runs/dobbe_vipe_v1/B/geometry_gate.json"
+    },
+    "B/geometry_diagnostics.png": {
+      "sha256": "a01ea28dce9b3762a83f5046ede7dd964c05009bf2f678b90f85379182d31af7",
+      "bytes": 1973512,
+      "source": "runs/dobbe_vipe_v1/B/geometry_diagnostics.png"
+    },
+    "B/camera_diagnostics.png": {
+      "sha256": "969c1f906998e0e11cec906017fd08b314cfbc079505b9fcf5e8a399902a92bf",
+      "bytes": 59434,
+      "source": "runs/dobbe_vipe_v1/B/camera_diagnostics.png"
+    },
+    "B/causal_tracks.mp4": {
+      "sha256": "9d5f0698bf524586f26d6b7e4dc93bf355b3c6df428325c309b20705d95f37df",
+      "bytes": 995750,
+      "source": "runs/dobbe_vipe_v1/B/causal_tracks.mp4"
+    },
+    "B/independent_static_sift.json": {
+      "sha256": "8813ff48eea7d795553a40059e2a73c7c1cbe0a3e36c1f088a3537aadd8a5de1",
+      "bytes": 1178,
+      "source": "runs/dobbe_vipe_v1/B/independent_static_sift.json"
+    },
+    "B/alltracker_execution.json": {
+      "sha256": "71758d6ef750ee4e0a2daa4c2ef6cf08e77fb8fe7750283c68acdcdfcd7888d3",
+      "bytes": 779,
+      "source": "runs/dobbe_vipe_v1/B/alltracker_execution.json"
+    },
+    "B/vipe_no_vda_execution.json": {
+      "sha256": "af99597c7c099b78bc16e7ea7079bb8be03e19950344fcfdc747fd05d2bf9df7",
+      "bytes": 660,
+      "source": "runs/dobbe_vipe_v1/B/vipe_no_vda_execution.json"
+    },
+    "B/vipe_no_vda_gdown6_failure_execution.json": {
+      "sha256": "ba7af5e91e5a7c94717e37ecd136edc3752ec7e67849744511947759caafea4d",
+      "bytes": 658,
+      "source": "runs/dobbe_vipe_v1/B/vipe_no_vda_gdown6_failure_execution.json"
+    },
+    "B/protocol_action_correction.json": {
+      "sha256": "21f7816e9501fcf020d96d6ba73efb7ffe977f8536c926cfec23e587b3f7e1ac",
+      "bytes": 359,
+      "source": "runs/dobbe_vipe_v1/B/protocol_action_correction.json"
+    },
+    "B/vipe/pose/causal_15hz.npz": {
+      "sha256": "fbfb88a79d9a0312ea4f1c315bdab801974526b7838407b0592a05e35f5562ae",
+      "bytes": 4966,
+      "source": "runs/dobbe_vipe_v1/B/vipe/pose/causal_15hz.npz"
+    },
+    "B/vipe/intrinsics/causal_15hz.npz": {
+      "sha256": "80ba736e395bb5089a191547a3e1294ff2e10faac850e9c9f0eee82eb0068e67",
+      "bytes": 1990,
+      "source": "runs/dobbe_vipe_v1/B/vipe/intrinsics/causal_15hz.npz"
+    },
+    "B/vipe/intrinsics/causal_15hz_camera.txt": {
+      "sha256": "8e462c080fdd26ebdbdce252f4a7bd915ab6f303e8e7c21a047d7b0ab606e94c",
+      "bytes": 734,
+      "source": "runs/dobbe_vipe_v1/B/vipe/intrinsics/causal_15hz_camera.txt"
+    },
+    "B/frames/00059.png": {
+      "sha256": "098b7a8089417e48c09bac6b5a7b3445e6f1564b78e59c7a98c2d086fa39de0e",
+      "bytes": 160933,
+      "source": "runs/dobbe_vipe_v1/B/frames/00059.png"
+    },
+    "B/frames/00060.png": {
+      "sha256": "56c267a9ad8b69907a7f61d9cf381a390eccef06bfd3e23097fb8665e34b0fff",
+      "bytes": 159385,
+      "source": "runs/dobbe_vipe_v1/B/frames/00060.png"
+    },
+    "B/frames/00061.png": {
+      "sha256": "b0fdb4144f1a1a75b6286794ca262c4e46c46c714c78a9404141721064c1528f",
+      "bytes": 160333,
+      "source": "runs/dobbe_vipe_v1/B/frames/00061.png"
+    },
+    "B/measured_depth_edges_00059.png": {
+      "sha256": "eaf2274d7c92f5d14480c130dd5eef1b45d641ea3f8b8bbc6d66f15af6fec143",
+      "bytes": 161039,
+      "source": "runs/dobbe_vipe_v1/B/measured_depth_edges_00059.png"
+    },
+    "B/measured_depth_edges_00060.png": {
+      "sha256": "1b27ecf815c7146dee8d92b3d2274d507612519abbb0146705bd99833fdd151b",
+      "bytes": 160299,
+      "source": "runs/dobbe_vipe_v1/B/measured_depth_edges_00060.png"
+    },
+    "B/measured_depth_edges_00061.png": {
+      "sha256": "13459aba34952677746555d8299a1178fd94617a364f9729982c98aa39fc353c",
+      "bytes": 160941,
+      "source": "runs/dobbe_vipe_v1/B/measured_depth_edges_00061.png"
+    },
+    "B/static_sift_00058.npz": {
+      "sha256": "fd262e06fe4638de16a01e585169e1f421300ea6692aa1a0d7e846a9ab1244d6",
+      "bytes": 1641,
+      "source": "runs/dobbe_vipe_v1/B/static_sift_00058.npz"
+    },
+    "B/static_sift_00059.npz": {
+      "sha256": "db0560fb32f6e366659f9db254867a3329fb83b88a0e31178c3abe407fc2443a",
+      "bytes": 2169,
+      "source": "runs/dobbe_vipe_v1/B/static_sift_00059.npz"
+    },
+    "B/static_sift_00060.npz": {
+      "sha256": "9958ca16de64f6ada579ac74d65dabb9992e7a9a27454af416c6142716966403",
+      "bytes": 4743,
+      "source": "runs/dobbe_vipe_v1/B/static_sift_00060.npz"
+    },
+    "B/pure_vipe/geometry_gate.json": {
+      "sha256": "cf53efa0cd0f21076c20b71c2bcf80dad7d5f792de922053e17c03c404642c6d",
+      "bytes": 516,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe/geometry_gate.json"
+    },
+    "B/pure_vipe/points_3d_world.npy": {
+      "sha256": "d7f312dd7361feb28ce236e4448299777e4dd570c0383a06ca84822abd708860",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe/points_3d_world.npy"
+    },
+    "B/pure_vipe/points_2d_t0.npy": {
+      "sha256": "3c566023fcf1991588ce85be5e706cb876e4dc3fb24b7b59d691b6426f96d1d9",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe/points_2d_t0.npy"
+    },
+    "B/pure_vipe/c2w_t0.npy": {
+      "sha256": "d7076386f9791fff9f7989a02aa0a703aad8db958688eaed5ea81b894ed1bcd3",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe/c2w_t0.npy"
+    },
+    "B/pure_vipe/model_run.json": {
+      "sha256": "57dc4eff775594393b35ae715ca040317cbed3e1a3a56e377595884c9a2eea56",
+      "bytes": 153,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe/model_run.json"
+    },
+    "B/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "ed61f488d319c39fe27ae1277e39f572267ac2350ab9d247f0b376274519b4c7",
+      "bytes": 517,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "B/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "8515fefb2ce6ebd744388bd55c93da36a73942f4907ccb0d7eac2f6f4c686a2e",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "B/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "3c566023fcf1991588ce85be5e706cb876e4dc3fb24b7b59d691b6426f96d1d9",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "B/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "d7076386f9791fff9f7989a02aa0a703aad8db958688eaed5ea81b894ed1bcd3",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "B/hybrid/geometry_gate.json": {
+      "sha256": "a8e54ec8a9132de71a80ef9c0eb9186744811c3826ed262245d6d651fba245a9",
+      "bytes": 1229,
+      "source": "runs/dobbe_vipe_v1/B/hybrid/geometry_gate.json"
+    },
+    "B/hybrid/points_3d_world.npy": {
+      "sha256": "7093f972e534228e13bf782cbbdf32557335f9474878b2ed005ada1ff28a39b4",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/hybrid/points_3d_world.npy"
+    },
+    "B/hybrid/points_2d_t0.npy": {
+      "sha256": "3c566023fcf1991588ce85be5e706cb876e4dc3fb24b7b59d691b6426f96d1d9",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/hybrid/points_2d_t0.npy"
+    },
+    "B/hybrid/c2w_t0.npy": {
+      "sha256": "d7076386f9791fff9f7989a02aa0a703aad8db958688eaed5ea81b894ed1bcd3",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/hybrid/c2w_t0.npy"
+    },
+    "B/default/protocol.json": {
+      "sha256": "43b4919c9e2d5094fa7f806643033ae50e5eb53b4e5b47f0bd7f507f88d889f3",
+      "bytes": 2434,
+      "source": "runs/dobbe_vipe_v1/B/default/protocol.json"
+    },
+    "B/default/frame_map.json": {
+      "sha256": "5e8b374baea8269a64c24d4db3a3721a5bdda588625e34286e1975fe65d05503",
+      "bytes": 1232,
+      "source": "runs/dobbe_vipe_v1/B/default/frame_map.json"
+    },
+    "B/default/mask_annotation.json": {
+      "sha256": "a7b8e8e4280d24317365c9e56975dbddd57a2d8c06770c0430acc30c9652210d",
+      "bytes": 1243,
+      "source": "runs/dobbe_vipe_v1/B/default/mask_annotation.json"
+    },
+    "B/default/mask_t0.png": {
+      "sha256": "d16b206d2e4dc786131260df7564a3e7cc826f2a01f6c113f1cf3d6bdf3ca0f5",
+      "bytes": 1111,
+      "source": "runs/dobbe_vipe_v1/B/default/mask_t0.png"
+    },
+    "B/default/query_points.npz": {
+      "sha256": "2037027b743c4615370f0c5b2f5ca5e83952ec30cf8c4c538eb0ee32f8d54440",
+      "bytes": 6796,
+      "source": "runs/dobbe_vipe_v1/B/default/query_points.npz"
+    },
+    "B/default/geometry_gate.json": {
+      "sha256": "692f1fe8ed405a12f9b876bf3a8b1a1cd60c905f3138c42dac19f81d6925281f",
+      "bytes": 3739,
+      "source": "runs/dobbe_vipe_v1/B/default/geometry_gate.json"
+    },
+    "B/default/geometry_diagnostics.png": {
+      "sha256": "4fc319a316de9c587387cd28e97031b8e13398d5c637e1444ca8b4324101c059",
+      "bytes": 1918495,
+      "source": "runs/dobbe_vipe_v1/B/default/geometry_diagnostics.png"
+    },
+    "B/default/camera_diagnostics.png": {
+      "sha256": "23a147682aac13c1659a9d7e560afa73555ea5966492154113774b12ab30486b",
+      "bytes": 54917,
+      "source": "runs/dobbe_vipe_v1/B/default/camera_diagnostics.png"
+    },
+    "B/default/causal_tracks.mp4": {
+      "sha256": "053e093dcc6519efee4c7f23b287d329ec13bc253dcfaee314e6f1ae7fb17fd1",
+      "bytes": 994260,
+      "source": "runs/dobbe_vipe_v1/B/default/causal_tracks.mp4"
+    },
+    "B/default/alltracker_execution.json": {
+      "sha256": "71758d6ef750ee4e0a2daa4c2ef6cf08e77fb8fe7750283c68acdcdfcd7888d3",
+      "bytes": 779,
+      "source": "runs/dobbe_vipe_v1/B/default/alltracker_execution.json"
+    },
+    "B/default/vipe_default_execution.json": {
+      "sha256": "11bcdcb7e080d2607281d6d3e196c959a87c325a4c2f971de958596ef5074a64",
+      "bytes": 721,
+      "source": "runs/dobbe_vipe_v1/B/default/vipe_default_execution.json"
+    },
+    "B/default/vipe/pose/causal_15hz.npz": {
+      "sha256": "9b9de276493bc00f4af247c26297a6916c621d00e3a235bd8a52c01b6bd8a09b",
+      "bytes": 4966,
+      "source": "runs/dobbe_vipe_v1/B/default/vipe/pose/causal_15hz.npz"
+    },
+    "B/default/vipe/intrinsics/causal_15hz.npz": {
+      "sha256": "f6a9719894d353ab3b2bb6e0f8459e5854c1a8d852996d702c9c2a561217e6b8",
+      "bytes": 1990,
+      "source": "runs/dobbe_vipe_v1/B/default/vipe/intrinsics/causal_15hz.npz"
+    },
+    "B/default/vipe/intrinsics/causal_15hz_camera.txt": {
+      "sha256": "8e462c080fdd26ebdbdce252f4a7bd915ab6f303e8e7c21a047d7b0ab606e94c",
+      "bytes": 734,
+      "source": "runs/dobbe_vipe_v1/B/default/vipe/intrinsics/causal_15hz_camera.txt"
+    },
+    "B/default/frames/00059.png": {
+      "sha256": "098b7a8089417e48c09bac6b5a7b3445e6f1564b78e59c7a98c2d086fa39de0e",
+      "bytes": 160933,
+      "source": "runs/dobbe_vipe_v1/B/default/frames/00059.png"
+    },
+    "B/default/frames/00060.png": {
+      "sha256": "56c267a9ad8b69907a7f61d9cf381a390eccef06bfd3e23097fb8665e34b0fff",
+      "bytes": 159385,
+      "source": "runs/dobbe_vipe_v1/B/default/frames/00060.png"
+    },
+    "B/default/frames/00061.png": {
+      "sha256": "b0fdb4144f1a1a75b6286794ca262c4e46c46c714c78a9404141721064c1528f",
+      "bytes": 160333,
+      "source": "runs/dobbe_vipe_v1/B/default/frames/00061.png"
+    },
+    "B/default/measured_depth_edges_00059.png": {
+      "sha256": "eaf2274d7c92f5d14480c130dd5eef1b45d641ea3f8b8bbc6d66f15af6fec143",
+      "bytes": 161039,
+      "source": "runs/dobbe_vipe_v1/B/default/measured_depth_edges_00059.png"
+    },
+    "B/default/measured_depth_edges_00060.png": {
+      "sha256": "1b27ecf815c7146dee8d92b3d2274d507612519abbb0146705bd99833fdd151b",
+      "bytes": 160299,
+      "source": "runs/dobbe_vipe_v1/B/default/measured_depth_edges_00060.png"
+    },
+    "B/default/measured_depth_edges_00061.png": {
+      "sha256": "13459aba34952677746555d8299a1178fd94617a364f9729982c98aa39fc353c",
+      "bytes": 160941,
+      "source": "runs/dobbe_vipe_v1/B/default/measured_depth_edges_00061.png"
+    },
+    "B/default/pure_vipe/geometry_gate.json": {
+      "sha256": "d75cb9e7893b245877c00486037ade465598c95c6cbbe99b26360ac3e010196e",
+      "bytes": 517,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe/geometry_gate.json"
+    },
+    "B/default/pure_vipe/points_3d_world.npy": {
+      "sha256": "916209f4024559421f7e9792ceda4d767091f2177d66d36c6c293cdd12b97303",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe/points_3d_world.npy"
+    },
+    "B/default/pure_vipe/points_2d_t0.npy": {
+      "sha256": "b4ea40bf5d7ba6777715bbb4c8ab552b8b007790e237b2f316d49aa4d811e51c",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe/points_2d_t0.npy"
+    },
+    "B/default/pure_vipe/c2w_t0.npy": {
+      "sha256": "6bc12ac669572c1368129fa142dd324fd6ba3a5181c97fbbc36176d31642718e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe/c2w_t0.npy"
+    },
+    "B/default/pure_vipe/model_run.json": {
+      "sha256": "57dc4eff775594393b35ae715ca040317cbed3e1a3a56e377595884c9a2eea56",
+      "bytes": 153,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe/model_run.json"
+    },
+    "B/default/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "9bc9352fa006c627b188f86f97c2ff7184e84bcad7856f45d3606d6d963ac7b7",
+      "bytes": 518,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "B/default/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "a2848205da730943c82b5cdca56f323e7ccbe756a432929e7cadab68f8d13bee",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "B/default/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "b4ea40bf5d7ba6777715bbb4c8ab552b8b007790e237b2f316d49aa4d811e51c",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "B/default/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "6bc12ac669572c1368129fa142dd324fd6ba3a5181c97fbbc36176d31642718e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/default/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "B/default/hybrid/geometry_gate.json": {
+      "sha256": "d5b655b5737e24f3de40a50fa6c01e8615ea858655b8d778c2642fdeef1a1359",
+      "bytes": 1227,
+      "source": "runs/dobbe_vipe_v1/B/default/hybrid/geometry_gate.json"
+    },
+    "B/default/hybrid/points_3d_world.npy": {
+      "sha256": "6721588e2dcce46c27b6fe37aec8f388cdeab92771954582e8d61eec360d45d3",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/default/hybrid/points_3d_world.npy"
+    },
+    "B/default/hybrid/points_2d_t0.npy": {
+      "sha256": "b4ea40bf5d7ba6777715bbb4c8ab552b8b007790e237b2f316d49aa4d811e51c",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/default/hybrid/points_2d_t0.npy"
+    },
+    "B/default/hybrid/c2w_t0.npy": {
+      "sha256": "6bc12ac669572c1368129fa142dd324fd6ba3a5181c97fbbc36176d31642718e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/default/hybrid/c2w_t0.npy"
+    },
+    "B/rectified/protocol.json": {
+      "sha256": "978e80e059bb50ab412fb4b35573cffe06a77a220a884b1bf63bfd8003870b63",
+      "bytes": 2517,
+      "source": "runs/dobbe_vipe_v1/B/rectified/protocol.json"
+    },
+    "B/rectified/frame_map.json": {
+      "sha256": "c5dff2c2dd799bfd81a6b825076f1b1fb1dcb91153390d8774bb9bb551ae05f8",
+      "bytes": 1263,
+      "source": "runs/dobbe_vipe_v1/B/rectified/frame_map.json"
+    },
+    "B/rectified/mask_annotation.json": {
+      "sha256": "a7b8e8e4280d24317365c9e56975dbddd57a2d8c06770c0430acc30c9652210d",
+      "bytes": 1243,
+      "source": "runs/dobbe_vipe_v1/B/rectified/mask_annotation.json"
+    },
+    "B/rectified/mask_t0.png": {
+      "sha256": "d16b206d2e4dc786131260df7564a3e7cc826f2a01f6c113f1cf3d6bdf3ca0f5",
+      "bytes": 1111,
+      "source": "runs/dobbe_vipe_v1/B/rectified/mask_t0.png"
+    },
+    "B/rectified/query_points.npz": {
+      "sha256": "2037027b743c4615370f0c5b2f5ca5e83952ec30cf8c4c538eb0ee32f8d54440",
+      "bytes": 6796,
+      "source": "runs/dobbe_vipe_v1/B/rectified/query_points.npz"
+    },
+    "B/rectified/geometry_gate.json": {
+      "sha256": "e922d88e1cd0126b282afce6b5579de08fc92bf71b01c3f9a06b48468c83b854",
+      "bytes": 3751,
+      "source": "runs/dobbe_vipe_v1/B/rectified/geometry_gate.json"
+    },
+    "B/rectified/geometry_diagnostics.png": {
+      "sha256": "1cea339d2a1cf207db89dfb02c15d3d7772795676d7e62abaf97e36faece0cea",
+      "bytes": 1944224,
+      "source": "runs/dobbe_vipe_v1/B/rectified/geometry_diagnostics.png"
+    },
+    "B/rectified/camera_diagnostics.png": {
+      "sha256": "ec66b983e2768b2d4d02d12e1d3203d90b4eec48d747d93e5e55518d2ea97533",
+      "bytes": 58422,
+      "source": "runs/dobbe_vipe_v1/B/rectified/camera_diagnostics.png"
+    },
+    "B/rectified/causal_tracks.mp4": {
+      "sha256": "adfbd3d8429f33eeb9b9903c8358c900082af9078100f26bda723c4411333a20",
+      "bytes": 966158,
+      "source": "runs/dobbe_vipe_v1/B/rectified/causal_tracks.mp4"
+    },
+    "B/rectified/independent_static_sift.json": {
+      "sha256": "5ecb64cda65a951d3b30d5a5ba52546c0d34e47b77bce295fd95ce3f07f9fd2f",
+      "bytes": 1182,
+      "source": "runs/dobbe_vipe_v1/B/rectified/independent_static_sift.json"
+    },
+    "B/rectified/alltracker_execution.json": {
+      "sha256": "71758d6ef750ee4e0a2daa4c2ef6cf08e77fb8fe7750283c68acdcdfcd7888d3",
+      "bytes": 779,
+      "source": "runs/dobbe_vipe_v1/B/rectified/alltracker_execution.json"
+    },
+    "B/rectified/vipe_no_vda_execution.json": {
+      "sha256": "cb6a4bd569eab1949d0ea4b50519fa349ae8b78e21c037f74d260e2f17cf1418",
+      "bytes": 724,
+      "source": "runs/dobbe_vipe_v1/B/rectified/vipe_no_vda_execution.json"
+    },
+    "B/rectified/vipe/pose/causal_15hz.npz": {
+      "sha256": "4eee7b8bc2c13edd7af3667cbceb86afb6b1022f769294b0320a1c9899868666",
+      "bytes": 4966,
+      "source": "runs/dobbe_vipe_v1/B/rectified/vipe/pose/causal_15hz.npz"
+    },
+    "B/rectified/vipe/intrinsics/causal_15hz.npz": {
+      "sha256": "e164c8a4f74616e59775a14f6f1d44c46fffb7ffe145dd963eccc6fd8e885842",
+      "bytes": 1990,
+      "source": "runs/dobbe_vipe_v1/B/rectified/vipe/intrinsics/causal_15hz.npz"
+    },
+    "B/rectified/vipe/intrinsics/causal_15hz_camera.txt": {
+      "sha256": "8e462c080fdd26ebdbdce252f4a7bd915ab6f303e8e7c21a047d7b0ab606e94c",
+      "bytes": 734,
+      "source": "runs/dobbe_vipe_v1/B/rectified/vipe/intrinsics/causal_15hz_camera.txt"
+    },
+    "B/rectified/frames/00059.png": {
+      "sha256": "098b7a8089417e48c09bac6b5a7b3445e6f1564b78e59c7a98c2d086fa39de0e",
+      "bytes": 160933,
+      "source": "runs/dobbe_vipe_v1/B/rectified/frames/00059.png"
+    },
+    "B/rectified/frames/00060.png": {
+      "sha256": "56c267a9ad8b69907a7f61d9cf381a390eccef06bfd3e23097fb8665e34b0fff",
+      "bytes": 159385,
+      "source": "runs/dobbe_vipe_v1/B/rectified/frames/00060.png"
+    },
+    "B/rectified/frames/00061.png": {
+      "sha256": "b0fdb4144f1a1a75b6286794ca262c4e46c46c714c78a9404141721064c1528f",
+      "bytes": 160333,
+      "source": "runs/dobbe_vipe_v1/B/rectified/frames/00061.png"
+    },
+    "B/rectified/measured_depth_edges_00059.png": {
+      "sha256": "eaf2274d7c92f5d14480c130dd5eef1b45d641ea3f8b8bbc6d66f15af6fec143",
+      "bytes": 161039,
+      "source": "runs/dobbe_vipe_v1/B/rectified/measured_depth_edges_00059.png"
+    },
+    "B/rectified/measured_depth_edges_00060.png": {
+      "sha256": "1b27ecf815c7146dee8d92b3d2274d507612519abbb0146705bd99833fdd151b",
+      "bytes": 160299,
+      "source": "runs/dobbe_vipe_v1/B/rectified/measured_depth_edges_00060.png"
+    },
+    "B/rectified/measured_depth_edges_00061.png": {
+      "sha256": "13459aba34952677746555d8299a1178fd94617a364f9729982c98aa39fc353c",
+      "bytes": 160941,
+      "source": "runs/dobbe_vipe_v1/B/rectified/measured_depth_edges_00061.png"
+    },
+    "B/rectified/static_sift_00058.npz": {
+      "sha256": "344e4193c3dc827871190fbbcd4141eedc571f5e697cb782b38e153cf68d1b83",
+      "bytes": 1641,
+      "source": "runs/dobbe_vipe_v1/B/rectified/static_sift_00058.npz"
+    },
+    "B/rectified/static_sift_00059.npz": {
+      "sha256": "e9a341a1b72ce067ba92d3bb53f0344b5d2bcd10a9b2abb2b90db6bc16f9f71e",
+      "bytes": 2169,
+      "source": "runs/dobbe_vipe_v1/B/rectified/static_sift_00059.npz"
+    },
+    "B/rectified/static_sift_00060.npz": {
+      "sha256": "0a4a0d9651cac4c196af0df13b72bc7517f694bd977dcc5bf6e64cf8c505d8e5",
+      "bytes": 4743,
+      "source": "runs/dobbe_vipe_v1/B/rectified/static_sift_00060.npz"
+    },
+    "B/rectified/pure_vipe/geometry_gate.json": {
+      "sha256": "adc32925991f4c79a3a547d39ef67a066c6df7ef6f82a563ea04550baaeedb97",
+      "bytes": 515,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe/geometry_gate.json"
+    },
+    "B/rectified/pure_vipe/points_3d_world.npy": {
+      "sha256": "ef3e1e484f19947a2ce42a845df1c2e980a9735ac5ae0d389661eee54d82119d",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe/points_3d_world.npy"
+    },
+    "B/rectified/pure_vipe/points_2d_t0.npy": {
+      "sha256": "3d88c4bae2a70888aa41ad18e9e166ba30315069193300beb7203509ec80256d",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe/points_2d_t0.npy"
+    },
+    "B/rectified/pure_vipe/c2w_t0.npy": {
+      "sha256": "a35b1ee78b238b113952d7aeff081f0765f95837de8dd35e7499d61e7b220f89",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe/c2w_t0.npy"
+    },
+    "B/rectified/pure_vipe/model_run.json": {
+      "sha256": "72adcc40a5c09c99ad6aa75eaed9f0888356f65f9a3b653e5e1396cb3e1365bd",
+      "bytes": 132,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe/model_run.json"
+    },
+    "B/rectified/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "54920eaad79ced416e1322cafa043be1e919fb51ad2f34d3646532eabc70aca0",
+      "bytes": 516,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "B/rectified/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "09703b6edc9a7f5cfc9a8d9b517ad17f9bdd8c82dc54b68268cc366ff2562cda",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "B/rectified/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "3d88c4bae2a70888aa41ad18e9e166ba30315069193300beb7203509ec80256d",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "B/rectified/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "a35b1ee78b238b113952d7aeff081f0765f95837de8dd35e7499d61e7b220f89",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/rectified/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "B/rectified/hybrid/geometry_gate.json": {
+      "sha256": "0d706e5ed18116541089940f77cc35c817c5b21624fd246d3aa39edcc0de796d",
+      "bytes": 1226,
+      "source": "runs/dobbe_vipe_v1/B/rectified/hybrid/geometry_gate.json"
+    },
+    "B/rectified/hybrid/points_3d_world.npy": {
+      "sha256": "b63ac72cb549dad9983553e3e255fb5f89f6cd140fe12ba3ae26d2c3b71ecefd",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/B/rectified/hybrid/points_3d_world.npy"
+    },
+    "B/rectified/hybrid/points_2d_t0.npy": {
+      "sha256": "3d88c4bae2a70888aa41ad18e9e166ba30315069193300beb7203509ec80256d",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/rectified/hybrid/points_2d_t0.npy"
+    },
+    "B/rectified/hybrid/c2w_t0.npy": {
+      "sha256": "a35b1ee78b238b113952d7aeff081f0765f95837de8dd35e7499d61e7b220f89",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/B/rectified/hybrid/c2w_t0.npy"
+    },
+    "C/protocol.json": {
+      "sha256": "936e01c1ba6ad66c5cfa934b06c2ea50af16f2b88452819d88a7bd521bcea083",
+      "bytes": 1829,
+      "source": "runs/dobbe_vipe_v1/C/protocol.json"
+    },
+    "C/frame_map.json": {
+      "sha256": "3f724802cd43aae76005cbb783c10aba3d7d04c99b54469088d052fb324d87ad",
+      "bytes": 3020,
+      "source": "runs/dobbe_vipe_v1/C/frame_map.json"
+    },
+    "C/mask_annotation.json": {
+      "sha256": "9b0cc8d10490771265630755fda38323541dfe060e37d657f02cba9a3a4c583f",
+      "bytes": 1290,
+      "source": "runs/dobbe_vipe_v1/C/mask_annotation.json"
+    },
+    "C/mask_t0.png": {
+      "sha256": "937162c8b671c3c1af28d0ee23de72c37b3e6de6bd8f6e62fdb3334076ed43d9",
+      "bytes": 1704,
+      "source": "runs/dobbe_vipe_v1/C/mask_t0.png"
+    },
+    "C/query_overlay.png": {
+      "sha256": "e2c18bf44e85ed90fd336b834c96de5b39ee4b25154cc87c067c38314b4cea03",
+      "bytes": 95550,
+      "source": "runs/dobbe_vipe_v1/C/query_overlay.png"
+    },
+    "C/query_points.npz": {
+      "sha256": "48aa6ff0def0b58a334e569d3c5e75591fc50dcc590c1a0cb219e621d8e0c7f5",
+      "bytes": 4684,
+      "source": "runs/dobbe_vipe_v1/C/query_points.npz"
+    },
+    "C/geometry_gate.json": {
+      "sha256": "0cdd272102b0c453dd795d9e7dbc5ec858bf21b735afe053c7e2a2f225dfd520",
+      "bytes": 3722,
+      "source": "runs/dobbe_vipe_v1/C/geometry_gate.json"
+    },
+    "C/geometry_diagnostics.png": {
+      "sha256": "ebe725ee8a5f915da4f6ef8d6cb8c12b793b3a25feabd66850195fc8376782c0",
+      "bytes": 1308960,
+      "source": "runs/dobbe_vipe_v1/C/geometry_diagnostics.png"
+    },
+    "C/camera_diagnostics.png": {
+      "sha256": "96f57eb4ccd2315ce15743cdf11687c4b44ed8de069c4991da57dd6938f1a886",
+      "bytes": 55969,
+      "source": "runs/dobbe_vipe_v1/C/camera_diagnostics.png"
+    },
+    "C/causal_tracks.mp4": {
+      "sha256": "cc9b890c4fec07dec86d0cd5c90b2f806df6082c44945c81fe80670750d58844",
+      "bytes": 74286,
+      "source": "runs/dobbe_vipe_v1/C/causal_tracks.mp4"
+    },
+    "C/hybrid_alignment_review.json": {
+      "sha256": "3bb53cd44596e3ae27f253518f46c4e6cf15e48883ab9d695dc8ca525bdef0eb",
+      "bytes": 571,
+      "source": "runs/dobbe_vipe_v1/C/hybrid_alignment_review.json"
+    },
+    "C/alltracker_execution.json": {
+      "sha256": "e13f7d3e450e068e5badb93db2ed119fd6d73052c6f3420522b01b8f25098b45",
+      "bytes": 781,
+      "source": "runs/dobbe_vipe_v1/C/alltracker_execution.json"
+    },
+    "C/vipe_no_vda_execution.json": {
+      "sha256": "055e7ffae8242722402673817dd05d32f716f777fdde848fb187c74dee30d3b0",
+      "bytes": 704,
+      "source": "runs/dobbe_vipe_v1/C/vipe_no_vda_execution.json"
+    },
+    "C/vipe/pose/causal_15hz.npz": {
+      "sha256": "8fad4afd0b690e27c42cbfba235a5dee1de99eb76452ca8a55dbd2947fb88c66",
+      "bytes": 2734,
+      "source": "runs/dobbe_vipe_v1/C/vipe/pose/causal_15hz.npz"
+    },
+    "C/vipe/intrinsics/causal_15hz.npz": {
+      "sha256": "0b5e31ede90f75c88974d78972a7b581752684c8def9b3d0f32749e28fc5147a",
+      "bytes": 1246,
+      "source": "runs/dobbe_vipe_v1/C/vipe/intrinsics/causal_15hz.npz"
+    },
+    "C/vipe/intrinsics/causal_15hz_camera.txt": {
+      "sha256": "2d16318148fc49ab858c7d25d008f4babb15494df9aa2b5d5699a6e1389d441f",
+      "bytes": 362,
+      "source": "runs/dobbe_vipe_v1/C/vipe/intrinsics/causal_15hz_camera.txt"
+    },
+    "C/frames/00028.png": {
+      "sha256": "3bc8e041be0f4908ed3c2ddb39fd52153c16026e7518fe2d9c6f01b2b1b506eb",
+      "bytes": 96042,
+      "source": "runs/dobbe_vipe_v1/C/frames/00028.png"
+    },
+    "C/frames/00029.png": {
+      "sha256": "ff377150167d15dff43bac4b9243f56ba7165bb0c71518c98c714c65eb3756f5",
+      "bytes": 94019,
+      "source": "runs/dobbe_vipe_v1/C/frames/00029.png"
+    },
+    "C/frames/00030.png": {
+      "sha256": "b8125d30a38b694428d837736cdb3056579ece20da861f029305c4da1e944d22",
+      "bytes": 93654,
+      "source": "runs/dobbe_vipe_v1/C/frames/00030.png"
+    },
+    "C/measured_depth_edges_00028.png": {
+      "sha256": "91a80f6c97f8dd70ebe25dc60524ca3e3707373ec5330171ebb1df33ee981c40",
+      "bytes": 95829,
+      "source": "runs/dobbe_vipe_v1/C/measured_depth_edges_00028.png"
+    },
+    "C/measured_depth_edges_00029.png": {
+      "sha256": "cd2994dd8da896a32d48214eeb3de1fa57c9dabebc6a68ff9151489fbbee1ad4",
+      "bytes": 93959,
+      "source": "runs/dobbe_vipe_v1/C/measured_depth_edges_00029.png"
+    },
+    "C/measured_depth_edges_00030.png": {
+      "sha256": "5e234c423c6430e911a1fe944bc749a21f3ae4b1d268a68804638e348dc2e165",
+      "bytes": 93612,
+      "source": "runs/dobbe_vipe_v1/C/measured_depth_edges_00030.png"
+    },
+    "C/pure_vipe/geometry_gate.json": {
+      "sha256": "daac3a0db6a9a2bc7015e13ad92bdb4e3bafe789c675086cfcd1341d0dc0f7fd",
+      "bytes": 511,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json"
+    },
+    "C/pure_vipe/points_3d_world.npy": {
+      "sha256": "c6625a4887010ccc132020f1de9dc420edaee4d59a07062576fea715221c4533",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy"
+    },
+    "C/pure_vipe/points_2d_t0.npy": {
+      "sha256": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy"
+    },
+    "C/pure_vipe/c2w_t0.npy": {
+      "sha256": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy"
+    },
+    "C/pure_vipe/points_3d_camera_t0_diagnostic.npy": {
+      "sha256": "dd44287ba444056d556839e4e93b44edb8a1136a50dd11eb9344ccd701df4bf7",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy"
+    },
+    "C/pure_vipe/processor_equivalence.json": {
+      "sha256": "8195fcdb937e8998e00962ed404a11a3a0168d254f19b0c573acd15cd924c24f",
+      "bytes": 408,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/processor_equivalence.json"
+    },
+    "C/pure_vipe/model_run.json": {
+      "sha256": "20f1b833e8a74c7e91d3745f31c4094ee80ab452fb0e2d04baf61f1dfff77f4d",
+      "bytes": 658,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/model_run.json"
+    },
+    "C/pure_vipe/input_freeze.json": {
+      "sha256": "d18922771cc663ad182ad56ea14a2a7fb8bfff1cc69cf50e42b669d5af450e4d",
+      "bytes": 1317,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/input_freeze.json"
+    },
+    "C/pure_vipe/prediction_15hz.npy": {
+      "sha256": "e057e17034512ccf7f0521f1143edf57b0d4b80327f31e45588e16f099ea3107",
+      "bytes": 3008,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy"
+    },
+    "C/pure_vipe/prediction_parsed_visibility.npy": {
+      "sha256": "543c66bf5cdc35c9d67f7e08b24f76c6fd38d8d410a59deabfeeda8d7632431c",
+      "bytes": 368,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/prediction_parsed_visibility.npy"
+    },
+    "C/pure_vipe/raw_model_output.txt": {
+      "sha256": "7e4ae432139913226f4bcfba640efbadd901b2fe5f6a30b6f26f2dfc3558bcae",
+      "bytes": 3300,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/raw_model_output.txt"
+    },
+    "C/pure_vipe/forecast_3d.png": {
+      "sha256": "ce6f2a78fbc9d3bf44bbe5bb07cf8d7b4190b68e97dfc9dd1c2f69aa1f1d6aec",
+      "bytes": 296807,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/forecast_3d.png"
+    },
+    "C/pure_vipe/evaluation/metrics.json": {
+      "sha256": "832a890bcaa34882aa14670e3fd88566f6af7ca53ffd040e2cf6e86dac474402",
+      "bytes": 4129,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/metrics.json"
+    },
+    "C/pure_vipe/evaluation/future_access_receipt.json": {
+      "sha256": "e15d6ae0fabab50447814a8553f48d9955cc03f0fff52b08f44ed810de52109d",
+      "bytes": 580,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_access_receipt.json"
+    },
+    "C/pure_vipe/evaluation/alltracker_execution.json": {
+      "sha256": "d0147c7cef7bd1727cf4ec8c17a53521b4ab170bf59e434e53f3647a5a6765ff",
+      "bytes": 665,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/alltracker_execution.json"
+    },
+    "C/pure_vipe/evaluation/observed_future_tracks.npz": {
+      "sha256": "bf456c01cb98b620ba75c118c9c12f677d4f9adf33cfd32bb460d08525b04b9d",
+      "bytes": 4802,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz"
+    },
+    "C/pure_vipe/evaluation/conditional_projection.npz": {
+      "sha256": "421a053d64718d188139e8bbc9160aa73751cd3d4daa475739cb42750a0f22e7",
+      "bytes": 15100,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz"
+    },
+    "C/pure_vipe/evaluation/future_comparison.png": {
+      "sha256": "f8cdfefc4a0f3a7256b13e93b4b088a0471249cb6292c8e40748b6d6d8a87358",
+      "bytes": 1411658,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_comparison.png"
+    },
+    "C/pure_vipe/evaluation/conditional_error_over_time.png": {
+      "sha256": "566de1e03895134a962d224ecab2ae04c13f84bc3865123f9646532318cf0c95",
+      "bytes": 80967,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_error_over_time.png"
+    },
+    "C/pure_vipe/evaluation/future_overlay.mp4": {
+      "sha256": "209ea60fde770fdad5669bc00ca14aa35b0cad0d1b59467cba91875bb504ae61",
+      "bytes": 367852,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+    },
+    "C/pure_vipe_unsmoothed/geometry_gate.json": {
+      "sha256": "4e655d0d59f63e6e84910a763a8fc183c0659974f8568f0f5837376f404b3896",
+      "bytes": 512,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe_unsmoothed/geometry_gate.json"
+    },
+    "C/pure_vipe_unsmoothed/points_3d_world.npy": {
+      "sha256": "717a9c3b403239bcbc8b06de294d7d8888074f388570aa08693627da01be22e8",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe_unsmoothed/points_3d_world.npy"
+    },
+    "C/pure_vipe_unsmoothed/points_2d_t0.npy": {
+      "sha256": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe_unsmoothed/points_2d_t0.npy"
+    },
+    "C/pure_vipe_unsmoothed/c2w_t0.npy": {
+      "sha256": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/C/pure_vipe_unsmoothed/c2w_t0.npy"
+    },
+    "C/hybrid/geometry_gate.json": {
+      "sha256": "532c79ea9f44bc38eb1a404b5d73dff6179b7fe7c59a433f97b162bfd16ad02f",
+      "bytes": 1224,
+      "source": "runs/dobbe_vipe_v1/C/hybrid/geometry_gate.json"
+    },
+    "C/hybrid/points_3d_world.npy": {
+      "sha256": "5f92f18bcc154750106bcb41b53b11e8caf930d34dd02e8659cc51cfafd5cf46",
+      "bytes": 416,
+      "source": "runs/dobbe_vipe_v1/C/hybrid/points_3d_world.npy"
+    },
+    "C/hybrid/points_2d_t0.npy": {
+      "sha256": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/C/hybrid/points_2d_t0.npy"
+    },
+    "C/hybrid/c2w_t0.npy": {
+      "sha256": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+      "bytes": 192,
+      "source": "runs/dobbe_vipe_v1/C/hybrid/c2w_t0.npy"
+    },
+    "C/hybrid/model_run.json": {
+      "sha256": "db72db7f998221e1556beb33db3951364ca1abd5cc5d02170ccdf55e89801bd9",
+      "bytes": 106,
+      "source": "runs/dobbe_vipe_v1/C/hybrid/model_run.json"
+    },
+    "environment.freeze.txt": {
+      "sha256": "33d1700ba92120b6dfe7de9bded38e176ed894ff610e278aae94656fc01d7b74",
+      "bytes": 2095,
+      "source": "runs/dobbe_vipe_v1/environment.freeze.txt"
+    },
+    "implementation_checks.json": {
+      "sha256": "6a6d9cf2cc71dbf5f0fc875794886b77479bc40ce81fa8ae8c7f8f9bb028b1d5",
+      "bytes": 279,
+      "source": "runs/dobbe_vipe_v1/implementation_checks.json"
+    },
+    "verification.json": {
+      "sha256": "9c55fc1e855bebd56309097de0eaf299e372d858e5f5a0d3a164796124400c4c",
+      "bytes": 2080,
+      "source": "runs/dobbe_vipe_v1/verification.json"
+    }
+  },
+  "excluded": [
+    "raw RGB-D recordings",
+    "model checkpoints",
+    "full per-frame ViPE depth",
+    "full console logs"
+  ],
+  "code_sha256": {
+    "scripts/amend_dobbe_vipe_actions.py": "f6faae2f33f73d9271f852253b3f1d254e13873db6202c3daabc812d4ed4ab06",
+    "scripts/audit_dobbe_vipe_static.py": "e8972a2537394872d7e975a0c025684898657aedb20f23f9d010b5b7b56f14a2",
+    "scripts/collect_dobbe_vipe_results.py": "f6a12bbb8a87c203101d27121c6431b1bbc3f098376c05dd3a006e09596d033e",
+    "scripts/dobbe_vipe_geometry.py": "d6db192e3f0e33a4297c8783f35e9598ab2ec0e40d7d87afedcc45d2643f00bb",
+    "scripts/dobbe_vipe_inference.py": "ef6325fc46cd3293480ac2784f2dbd7a9650662a331871f9a9e749cfddbbdade",
+    "scripts/dobbe_vipe_v1.py": "59fb91e01c86fcfc57ff09156980d657eae9604349b84b32c5026642d1edcecb",
+    "scripts/evaluate_dobbe_vipe.py": "ea995a72b1ac831049357758ed3e64c88ac276fbd9a0114cd9c64c44281546bb",
+    "scripts/plot_dobbe_vipe_ablation.py": "abc709ef59325c8dccaf627c05054787779835aed292fd128fa97e16ab035130",
+    "scripts/prepare_dobbe_vipe_depth_pair.py": "9e38ba06bd8a80f18c5036c504419560453b58b29734b114a5c86da222e2ea12",
+    "scripts/prepare_dobbe_vipe_sift_control.py": "09e6ba256e289794bdecc0d5bcc17a181e2e6d55afdfd49027991685d95a12e9",
+    "scripts/run_dobbe_vipe_sift_inference.py": "5caba80fdd8eb9ad6e9a27655024912b33f26dd91012b4570c02206ee5409ee6",
+    "scripts/run_dobbe_vipe_v1.ps1": "6a558c13c18fee6a0ef68c0e8993d9c7be69fb2ce4d52dd125be6412efac47eb",
+    "scripts/setup_dobbe_vipe_env.sh": "ae25d74dbc9cb754e4133d4e94ed852c5bb23cb93ba02fcef329efeb23ae9237",
+    "scripts/setup_dobbe_vipe_system.sh": "73634611879b7739821a11cf9ad7dd6a66770595e28af9b55e4e21b4de198512",
+    "scripts/verify_dobbe_vipe_results.py": "d7fc089be948760594e4ac6d8338c995f80f686804f2ccc9c247bbb8ff816117",
+    "tests/test_dobbe_vipe_v1.py": "f20e3e27e8741c83b3b10e008f6eb31f5099987a194d7f1e5674119672d6aa8e"
+  },
+  "author_source_sha256": {
+    "src/molmo_motion/processor.py": "499e900b64f0ad732f4f22b3ff50f5b1309d75bea83c7b331189f3b884a541c2",
+    "src/molmo_motion/modeling.py": "4d022b96f5cd995c12b462f09441d6c1b9afbb1e91bfb6d5be80bc74db939a42",
+    "data_generation/third_party/vipe/track-filter-smooth.py": "ceb21903da85de835b9314b61356c69d5033afcda68d73764a82cd135e9272fd",
+    "data_generation/third_party/alltracker/nets/alltracker.py": "11c00d1d3a2005b46fbbfb7cfccf1929a4f30280b3df59d076c9da40790cf6e8",
+    "data_generation/third_party/alltracker/nets/blocks.py": "02e0b7172bf505fc63fd9ca119c5c0ccc76a23c0c296bf047f6ffd3a2736fe1e"
+  }
+}

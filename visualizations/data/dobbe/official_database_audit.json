@@ -1,0 +1,11 @@
+{
+  "images": 96,
+  "camera_model_id": 1,
+  "initial_params": [
+    307.2,
+    307.2,
+    128.0,
+    128.0
+  ],
+  "has_prior_focal_length": false
+}

@@ -1,0 +1,59 @@
+{
+  "history_frames": [
+    124,
+    125,
+    126
+  ],
+  "future_frames": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+  ],
+  "input_frames_with_point_IDs": "included in video intro (2 s) and summary PNG",
+  "summary_frames": [
+    126,
+    133,
+    139,
+    146
+  ],
+  "summary_times_s": [
+    0,
+    0.7,
+    1.3,
+    2
+  ],
+  "gt_kind": "existing image-derived ECC RGB proxy, 160/160",
+  "gt_sha256": "3b1f3374ae3f29ac5e143536bcd4f6407a0bbd47e69e344d11801744f9c2f8a8",
+  "forecast_sha256": "b1977bc9d238a8aa09df94a4d9c39ba757c6f3042ed0dd3219fd70fc1586191a",
+  "projected_forecast_sha256": "45341afb1f56bbb534c97c37c17c34a308bb108a8a4e5eced3d3e47d200594d3",
+  "constant_velocity_sha256": "98a1e38efdd94dfb106683def8569787a17411e05e8aea63c151e6c1f55c7e16",
+  "RGB_color_order": "published BGR converted to RGB, checked against sealed PNG",
+  "trails": "mean of eight points; endpoints all eight; incremental",
+  "complete_plane_bounds": [
+    -108.69902801513672,
+    383.34883880615234,
+    -168.23561096191406,
+    323.812255859375
+  ],
+  "real_RGB_hz": 10,
+  "model_hz_assumption": 15,
+  "playback_speed": 0.5,
+  "model_run": "runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126/model_run.json"
+}

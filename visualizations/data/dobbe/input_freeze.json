@@ -1,0 +1,114 @@
+{
+  "status": "FROZEN_K_ONLY_COMPARISON",
+  "history_frames": [
+    96,
+    97,
+    98
+  ],
+  "point_ids": [
+    "cup_rgb_feature_00",
+    "cup_rgb_feature_01",
+    "cup_rgb_feature_02",
+    "cup_rgb_feature_03",
+    "cup_rgb_feature_04",
+    "cup_rgb_feature_05",
+    "cup_rgb_feature_06",
+    "cup_rgb_feature_07"
+  ],
+  "action_text": "Pick up the red cup.",
+  "model_id": "allenai/MolmoMotion-4B-H3-F30",
+  "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_pt_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+  "future_horizon": 30,
+  "seed": 0,
+  "dtype": "bfloat16",
+  "optical_to_label": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "poses_source": "Dobb-E labels only",
+  "depth_semantics": "measured camera Z hypothesis",
+  "distortion_both": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "sha256": {
+    "shared/history_depth_m.npy": "470d32af81cd22bf6611e01585f409243a36562532db15fc70be2ec19903d5de",
+    "shared/history_uv.npy": "686903edc06ad37d0ea6759bd09ceec229933b9b9e41accc3fdc3c32ea77aa0a",
+    "shared/points_2d_at_t0.npy": "0e7792aa08690aac28b1f8863459532e86fff9083681c4f29a084c46f6810071",
+    "shared/poses_c2w.npy": "7247dbf66544941a09f430cb60a7bcbf46a630512de4894ca071f63ff6513c5a",
+    "shared/rgb_0096.png": "d231cf79ee95a5d7a63d5abe396ed50e0bebee37cca505cc121d50d8530147bc",
+    "shared/rgb_0097.png": "bb71f28ec7b2ad2dcd1e82ead979039a66d36f82419c65f1601e66440551162e",
+    "shared/rgb_0098.png": "ec86ce9f05d2883ddba68994c742ef3be0a689d9c39325bd7c283ffb76584a15"
+  },
+  "geometry_sha256": {
+    "A": "5ff6c56c8721fde2dc5cf841aa30af8467433c25590b4bcfdf8e82ed822d39f7",
+    "B": "1caa7a3520664928003e113ca2d2e9ecac637a32d307689394d833f60f85b6fe"
+  },
+  "K_sha256": {
+    "A": "a73d66924f5aaf636132f1c870e47c7938b1e67745c02a5b5a4aae76df95b03a",
+    "B": "4e4d330a5a9cac6762c8c06669fb3c03e7e72cedb7f4dc80178dd6781788c011"
+  },
+  "protocol_sha256": "0342e4052029e5d06fb8ef6b53842868fdb37f15cc1e4f679113a6a2c77399f2",
+  "delta_history_mean_m": 0.038876372498690324,
+  "reconstructions": {
+    "A": {
+      "registered": 18,
+      "points3D": 101,
+      "K_opencv": [
+        [
+          1781.6948701123952,
+          0.0,
+          127.5
+        ],
+        [
+          0.0,
+          2699.5274883510565,
+          127.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "B": {
+      "registered": 85,
+      "points3D": 662,
+      "K_opencv": [
+        [
+          212.25364021465418,
+          0.0,
+          127.5
+        ],
+        [
+          0.0,
+          375.71689121388016,
+          127.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  }
+}

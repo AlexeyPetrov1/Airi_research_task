@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "tensor_equal": {
+    "input_ids": true,
+    "target_tokens": true,
+    "loss_masks": true,
+    "position_ids": true,
+    "images": true,
+    "token_pooling": true,
+    "anchor_3d": true
+  },
+  "serialized_input_ids_equal": true,
+  "anchor_equal": true,
+  "input_ids_sha256": "2d533ab12cd9bab5098e3dba487f520fa0bf0dbc8b27a1a5f0d58f2a70f388b4",
+  "world_to_camera_applied_once": true
+}

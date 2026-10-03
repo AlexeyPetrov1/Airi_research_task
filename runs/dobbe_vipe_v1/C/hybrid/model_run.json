@@ -1,0 +1,7 @@
+{
+  "status": "SKIPPED_GEOMETRY_GATE",
+  "success": false,
+  "failed_checks": [
+    "static_median"
+  ]
+}

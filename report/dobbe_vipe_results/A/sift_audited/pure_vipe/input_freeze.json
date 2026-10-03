@@ -1,0 +1,29 @@
+{
+  "scene": "A",
+  "variant": "pure_vipe",
+  "action": "Pick up the red cup.",
+  "history_raw_ids": [
+    94,
+    96,
+    98
+  ],
+  "source_fps": 30,
+  "model_history_fps": 15,
+  "future_horizon": 30,
+  "input_sha256": {
+    "pure_vipe/points_3d_world.npy": "04f99e2c4317653c1c8538943b964232df5b92a79a794217a5cff7e64c4958f8",
+    "pure_vipe/points_2d_t0.npy": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+    "pure_vipe/c2w_t0.npy": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+    "pure_vipe/geometry_gate.json": "2c9756a6a6996750c0421b1499427ed17b28427c8d4d688e892e566f54b77fcd",
+    "frames/00047.png": "98926b5b55162661cf38048d25cebce4ddbd2889c9fb811e3c79e8e26b1d63f5",
+    "frames/00048.png": "d231cf79ee95a5d7a63d5abe396ed50e0bebee37cca505cc121d50d8530147bc",
+    "frames/00049.png": "ec86ce9f05d2883ddba68994c742ef3be0a689d9c39325bd7c283ffb76584a15"
+  },
+  "protocol_sha256": "b0328b169285d8d9ad265abb939e8552122f8b0b3cbf32af322e4f7b4e1c179b",
+  "seed": 0,
+  "dtype": "bfloat16",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+  "geometry_status": "ViPE-estimated; not physical ground truth",
+  "future_used": false
+}

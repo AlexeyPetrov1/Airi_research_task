@@ -1,0 +1,100 @@
+{
+  "t0_raw": 123,
+  "method": "manual foreground polygon; A also red HSV; erode 1 pixel; KMeans 100, snap to valid pixels",
+  "polygon": [
+    [
+      0,
+      136
+    ],
+    [
+      26,
+      124
+    ],
+    [
+      63,
+      126
+    ],
+    [
+      99,
+      150
+    ],
+    [
+      109,
+      188
+    ],
+    [
+      105,
+      224
+    ],
+    [
+      87,
+      255
+    ],
+    [
+      0,
+      255
+    ]
+  ],
+  "gripper_exclusions": [
+    [
+      [
+        0,
+        217
+      ],
+      [
+        0,
+        248
+      ],
+      [
+        83,
+        202
+      ],
+      [
+        77,
+        183
+      ]
+    ],
+    [
+      [
+        61,
+        213
+      ],
+      [
+        65,
+        255
+      ],
+      [
+        86,
+        255
+      ],
+      [
+        81,
+        207
+      ]
+    ],
+    [
+      [
+        104,
+        255
+      ],
+      [
+        161,
+        255
+      ],
+      [
+        135,
+        169
+      ],
+      [
+        110,
+        169
+      ]
+    ]
+  ],
+  "query_frame": 61,
+  "object_query_count": 100,
+  "static_query_count": 150,
+  "future_used": false,
+  "mask_sha256": "d16b206d2e4dc786131260df7564a3e7cc826f2a01f6c113f1cf3d6bdf3ca0f5",
+  "query_sha256": "2037027b743c4615370f0c5b2f5ca5e83952ec30cf8c4c538eb0ee32f8d54440"
+}

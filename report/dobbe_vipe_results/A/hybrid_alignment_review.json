@@ -1,0 +1,14 @@
+{
+  "spatial_alignment_supported": true,
+  "future_used": false,
+  "reviewed_images": [
+    "measured_depth_edges_00047.png",
+    "measured_depth_edges_00049.png"
+  ],
+  "review_method": "Visual RGB/depth-edge overlay on observed history only",
+  "interpretation": "Coarse cup/table silhouettes align after the known vertical resize. Cup rim depth edge is displaced inward; sensor resolution does not establish pixel-exact registration. Only interior queries are eligible, and hybrid must pass its own static gate.",
+  "image_sha256": {
+    "measured_depth_edges_00047.png": "134969040095ba925cfc5c97916898452e1bf76511bf5ed4f4d9683de743fc45",
+    "measured_depth_edges_00049.png": "5230c48de2ef512712f837ca2240bb05572e59c516af7efbd4c56f8a47b1d5c7"
+  }
+}

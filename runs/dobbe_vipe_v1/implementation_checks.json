@@ -1,0 +1,10 @@
+{
+  "command": "/mnt/f/AIRI_task/.venv/bin/python -m pytest tests/test_dobbe_vipe_v1.py -q",
+  "passed": 9,
+  "failed": 0,
+  "warnings": 1,
+  "elapsed_seconds": 73.98,
+  "result_source": "Observed completed pytest execution",
+  "py_compile": "passed",
+  "diff_check": "passed"
+}

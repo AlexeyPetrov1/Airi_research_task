@@ -1,0 +1,16 @@
+{
+  "metric_ground_truth": false,
+  "results": {
+    "paired_vipe": {
+      "final_displacement_median": 0.0010241969721391797,
+      "final_displacement_max": 0.0013630950124934316,
+      "max_temporal_coordinate_variation": 0.0
+    },
+    "paired_hybrid": {
+      "final_displacement_median": 0.0017068299930542707,
+      "final_displacement_max": 0.022315790876746178,
+      "max_temporal_coordinate_variation": 0.010999977588653564
+    }
+  },
+  "interpretation": "Input/forecast sensitivity only; absolute 3D differences are not prediction error against GT."
+}

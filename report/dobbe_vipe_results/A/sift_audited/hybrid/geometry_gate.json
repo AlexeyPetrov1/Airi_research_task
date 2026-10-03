@@ -1,0 +1,81 @@
+{
+  "molmo_ready": false,
+  "status": "REJECT_ESTIMATED_GEOMETRY",
+  "checks": {
+    "complete_history_eight": true,
+    "sixteen_real_anchors": true,
+    "static_evidence": true,
+    "static_median": true,
+    "static_p90": true,
+    "rigid_history": true,
+    "stable_focal": true,
+    "depth_scale_supported": true,
+    "rgb_depth_alignment_reviewed": true,
+    "measured_object_queries_supported": false
+  },
+  "metric_ground_truth": false,
+  "future_used": false,
+  "selected_ids": [
+    59,
+    50,
+    27,
+    43,
+    94,
+    70,
+    32,
+    82
+  ],
+  "depth_source": "measured DobbE optical-Z hypothesis",
+  "static_cross_frame_px": {
+    "count": 67,
+    "median": 0.8551661641126195,
+    "p90": 4.5720027806245005,
+    "pairs": [
+      {
+        "vipe_index": 36,
+        "count": 8,
+        "median": 1.4745048219215224,
+        "p90": 4.7575398437415295
+      },
+      {
+        "vipe_index": 46,
+        "count": 18,
+        "median": 1.0180813849058676,
+        "p90": 4.845029060406618
+      },
+      {
+        "vipe_index": 47,
+        "count": 22,
+        "median": 0.6908091601565308,
+        "p90": 3.031973235617663
+      },
+      {
+        "vipe_index": 48,
+        "count": 19,
+        "median": 0.42489732694734395,
+        "p90": 1.5466462914054973
+      }
+    ]
+  },
+  "rigid_history_unsmoothed": {
+    "absolute_estimated_units": {
+      "count": 84,
+      "median": 0.0007793980471171268,
+      "p90": 0.061475932683693814
+    },
+    "relative_to_t0_median_pair_distance": {
+      "count": 84,
+      "median": 0.0058736281997332825,
+      "p90": 0.46328929505463
+    },
+    "t0_median_pair_distance": 0.13269448126670985
+  },
+  "translation_scale": "ViPE c2w retained unchanged; no fitted rescaling",
+  "smoothing": false,
+  "caveat": "Compare with pure_vipe_unsmoothed for a strict depth-only ablation.",
+  "static_validation": "independent_sift",
+  "validation_scope": "late observed prefix/H3 only; no reliable SIFT matches for early frames",
+  "selection_caveat": "validation method introduced after seeing reconstruction audits; separate exploratory control",
+  "source_geometry_gate_sha256": "add2f2a79aaa06847295b8595ef78a886475c3c12494c1acd8430ab195b0a23c",
+  "reason": "Two original cup rim queries sample background or mixed sensor depth; rejected before hybrid prediction"
+}

@@ -1,0 +1,41 @@
+2026-10-03 01:02:06,853 - vipe - INFO - Processing video /mnt/f/AIRI_task/molmo-motion/runs/dobbe_vipe_v1/A/causal_15hz.mp4...
+Reading video stream:   0%|          | 0/50 [00:00<?, ?it/s]Reading video stream:   2%|▏         | 1/50 [00:00<00:10,  4.81it/s]Reading video stream: 100%|██████████| 50/50 [00:00<00:00, 177.06it/s]
+SLAM Pass (1/2):   0%|          | 0/50 [00:00<?, ?it/s]SLAM Pass (1/2):   2%|▏         | 1/50 [00:01<01:19,  1.63s/it]SLAM Pass (1/2):   6%|▌         | 3/50 [00:01<00:21,  2.15it/s]SLAM Pass (1/2):  12%|█▏        | 6/50 [00:01<00:08,  4.92it/s]SLAM Pass (1/2):  22%|██▏       | 11/50 [00:01<00:03, 10.34it/s]SLAM Pass (1/2):  28%|██▊       | 14/50 [00:02<00:02, 12.68it/s]SLAM Pass (1/2):  34%|███▍      | 17/50 [00:02<00:02, 14.27it/s]SLAM Pass (1/2):  40%|████      | 20/50 [00:02<00:01, 16.08it/s]SLAM Pass (1/2):  46%|████▌     | 23/50 [00:02<00:01, 17.44it/s]SLAM Pass (1/2):  52%|█████▏    | 26/50 [00:02<00:01, 18.68it/s]SLAM Pass (1/2):  58%|█████▊    | 29/50 [00:02<00:01, 20.03it/s]SLAM Pass (1/2):  64%|██████▍   | 32/50 [00:03<00:01, 17.53it/s]SLAM Pass (1/2):  70%|███████   | 35/50 [00:03<00:01,  8.15it/s]SLAM Pass (1/2):  78%|███████▊  | 39/50 [00:04<00:01,  7.83it/s]SLAM Pass (1/2):  86%|████████▌ | 43/50 [00:04<00:00, 10.68it/s]SLAM Pass (1/2):  94%|█████████▍| 47/50 [00:04<00:00, 13.93it/s]SLAM Pass (1/2): 100%|██████████| 50/50 [00:05<00:00,  7.56it/s]SLAM Pass (1/2): 100%|██████████| 50/50 [00:05<00:00,  9.05it/s]
+2026-10-03 01:03:22,872 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 14.84674160182476 -> 7.54734194278717
+2026-10-03 01:03:23,386 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 3.563861131668091 -> 2.266872823238373
+2026-10-03 01:03:23,885 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 1.5288806557655334 -> 0.9658204317092896
+Update depth:   0%|          | 0/8 [00:00<?, ?it/s]Update depth:  38%|███▊      | 3/8 [00:00<00:00, 21.92it/s]Update depth:  75%|███████▌  | 6/8 [00:00<00:00, 21.34it/s]Update depth: 100%|██████████| 8/8 [00:00<00:00, 20.98it/s]
+2026-10-03 01:03:24,637 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 3.448038399219513 -> 0.9187779128551483
+2026-10-03 01:03:24,972 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 1.2992670834064484 -> 0.9545043706893921
+2026-10-03 01:03:25,312 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.97675621509552 -> 0.8296201452612877
+2026-10-03 01:03:25,646 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.8050977289676666 -> 0.7490133792161942
+2026-10-03 01:03:26,164 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 15.302036106586456 -> 7.902225017547607
+2026-10-03 01:03:26,661 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 3.6118345260620117 -> 2.320762276649475
+2026-10-03 01:03:27,254 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 1.556693196296692 -> 1.0223448127508163
+2026-10-03 01:03:27,837 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 1.1272218227386475 -> 0.9073149561882019
+2026-10-03 01:03:28,394 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 1.2489627078175545 -> 0.9241483807563782
+2026-10-03 01:03:28,976 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.9067664295434952 -> 0.8055408447980881
+2026-10-03 01:03:29,571 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.8373323827981949 -> 0.7663014754652977
+2026-10-03 01:03:30,173 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 1.0973657220602036 -> 0.8273536562919617
+2026-10-03 01:03:30,728 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.7812351882457733 -> 0.7034987062215805
+2026-10-03 01:03:31,325 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.7706628143787384 -> 0.7320350259542465
+2026-10-03 01:03:31,927 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.989484578371048 -> 0.7783274129033089
+2026-10-03 01:03:32,477 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.7026996314525604 -> 0.6506609469652176
+Update depth:   0%|          | 0/8 [00:00<?, ?it/s]Update depth:  38%|███▊      | 3/8 [00:00<00:00, 20.41it/s]Update depth:  75%|███████▌  | 6/8 [00:00<00:00, 20.12it/s]Update depth: 100%|██████████| 8/8 [00:00<00:00, 19.94it/s]
+2026-10-03 01:03:33,310 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 5.8670613169670105 -> 0.5857827961444855
+2026-10-03 01:03:33,704 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.8596698194742203 -> 0.6407206654548645
+2026-10-03 01:03:34,079 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.580517053604126 -> 0.5451367124915123
+2026-10-03 01:03:34,437 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.5368102416396141 -> 0.5203767605125904
+2026-10-03 01:03:34,816 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.8000555410981178 -> 0.5846781879663467
+2026-10-03 01:03:35,171 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.5413081347942352 -> 0.5041939988732338
+2026-10-03 01:03:35,547 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.5050601661205292 -> 0.4946973919868469
+2026-10-03 01:03:35,941 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.8243117369711399 -> 0.5617510825395584
+2026-10-03 01:03:36,292 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.508060410618782 -> 0.47308145463466644
+2026-10-03 01:03:36,656 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.46657826378941536 -> 0.4601752646267414
+2026-10-03 01:03:37,031 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.8329025022685528 -> 0.541547104716301
+2026-10-03 01:03:37,395 - vipe.slam.components.buffer - INFO - BA iters = 16, energy: 0.48167234659194946 -> 0.4507123865187168
+SLAM Pass (2/2):   0%|          | 0/50 [00:00<?, ?it/s]SLAM Pass (2/2):  32%|███▏      | 16/50 [00:00<00:01, 26.55it/s]SLAM Pass (2/2):  62%|██████▏   | 31/50 [00:00<00:00, 49.66it/s]SLAM Pass (2/2):  82%|████████▏ | 41/50 [00:01<00:00, 32.16it/s]SLAM Pass (2/2):  96%|█████████▌| 48/50 [00:01<00:00, 24.45it/s]SLAM Pass (2/2): 100%|██████████| 50/50 [00:02<00:00, 24.84it/s]
+2026-10-03 01:03:50,798 - vipe.pipeline.default - INFO - Saving artifacts to ArtifactPath(base_path=PosixPath('/mnt/f/AIRI_task/molmo-motion/runs/dobbe_vipe_v1/A/vipe'), artifact_name='causal_15hz')
+Aligning depth: 0it [00:00, ?it/s]                                  2026-10-03 01:03:50,821 - vipe.pipeline.processors - INFO - Minimum UV score: 0.5300
+Aligning depth: 0it [00:00, ?it/s]Aligning depth: 1it [00:00,  2.80it/s]Aligning depth: 3it [00:00,  6.25it/s]Aligning depth: 5it [00:00,  8.14it/s]Aligning depth: 7it [00:00,  9.28it/s]Aligning depth: 9it [00:01,  9.72it/s]Aligning depth: 11it [00:01, 10.13it/s]Aligning depth: 13it [00:01, 10.38it/s]Aligning depth: 15it [00:01, 10.75it/s]Aligning depth: 17it [00:01, 10.79it/s]Aligning depth: 19it [00:01, 11.01it/s]Aligning depth: 21it [00:02, 11.13it/s]Aligning depth: 23it [00:02, 11.26it/s]Aligning depth: 25it [00:02, 11.06it/s]Aligning depth: 27it [00:02, 11.08it/s]Aligning depth: 29it [00:02, 11.26it/s]Aligning depth: 31it [00:03, 11.38it/s]Aligning depth: 33it [00:03, 11.39it/s]Aligning depth: 35it [00:03, 11.09it/s]Aligning depth: 37it [00:03, 11.13it/s]Aligning depth: 39it [00:03, 11.24it/s]Aligning depth: 41it [00:03, 11.19it/s]Aligning depth: 43it [00:04, 11.25it/s]Aligning depth: 45it [00:04, 11.23it/s]Aligning depth: 47it [00:04, 11.29it/s]Aligning depth: 49it [00:04, 11.41it/s]Aligning depth: 49it [00:04, 10.38it/s]
+2026-10-03 01:03:56,112 - vipe - INFO - Finished

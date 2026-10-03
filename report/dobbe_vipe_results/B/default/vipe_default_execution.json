@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "/mnt/f/AIRI_task/.venv-vipe/bin/python",
+    "-m",
+    "vipe.cli.main",
+    "infer",
+    "/mnt/f/AIRI_task/molmo-motion/runs/dobbe_vipe_v1/B/default/causal_15hz.mp4",
+    "-p",
+    "default",
+    "-o",
+    "/mnt/f/AIRI_task/molmo-motion/runs/dobbe_vipe_v1/B/default/vipe"
+  ],
+  "cwd": "/mnt/f/AIRI_task/molmo-motion/data_generation/third_party/vipe",
+  "started_utc": "2026-10-02T22:08:03Z",
+  "protocol_sha256": "43b4919c9e2d5094fa7f806643033ae50e5eb53b4e5b47f0bd7f507f88d889f3",
+  "causal_video_sha256": "bf80325e4428ec4e14063dfd4ecff80a73fde9e6d069a3b4089eda9a7b3c8267",
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 176.46097414099995,
+  "peak_child_ram_gib": 5.541679382324219
+}

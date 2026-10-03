@@ -1,0 +1,29 @@
+﻿{
+    "elapsed_seconds":  23.4215907,
+    "argv":  [
+                 "automatic_reconstructor",
+                 "--workspace_path",
+                 "F:\\AIRI_task\\molmo-motion\\runs\\dobbe_two_colmap_v1\\official",
+                 "--image_path",
+                 "F:\\AIRI_task\\molmo-motion\\runs\\dobbe_two_colmap_v1\\official\\images",
+                 "--data_type",
+                 "video",
+                 "--single_camera",
+                 "1",
+                 "--camera_model",
+                 "PINHOLE",
+                 "--quality",
+                 "high",
+                 "--sparse",
+                 "1",
+                 "--dense",
+                 "0",
+                 "--use_gpu",
+                 "1"
+             ],
+    "clean_database":  true,
+    "executable_sha256":  "9418a14c93d4a5eec5eb33ebf48a917403b5faa7ab5d2232f23e50c206d9e427",
+    "started_utc":  "2026-10-02T19:40:02.4027094Z",
+    "exit_code":  0,
+    "executable":  "F:\\AIRI_task\\.tools\\colmap-4.2.1\\windows-cuda\\bin\\colmap.exe"
+}

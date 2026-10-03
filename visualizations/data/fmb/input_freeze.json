@@ -1,0 +1,14 @@
+{
+  "created_before_primary_prediction": true,
+  "sha256": {
+    "window_selection.json": "adaae9506fca2b224ee4d52ee46774222baabe894288f4329599a4b9bd194c69",
+    "experiment_config.json": "eb3e02f0968205010d4d2863060acbbbad6d30be633a4fd7f2354565a3a71324",
+    "k_nominal.json": "e97feb66933c742722eb46ffdc0465a82dec3864b17b6d4875d0c1a021b37286",
+    "k_sensitivity_variants.json": "68270ea0dbf59dd8837aa9d936a7e7e53b0a3f0c7f42e3770dec83e13fd55eab",
+    "history_points_2d.npy": "591789f54ad596a32de09da7927a69640f8e5618c2f60173252cbd07cd7bf08e",
+    "points_2d_at_t0.npy": "b83618c1163cea63c5bce8c2c12ff62713ff7e01af192bc3bda342ef805121b8",
+    "history_sensor_3d.npy": "0f1f3a349245593df34a4642b7b57e8c7be9bb8cd4525af2846e5ecaccb8d50c",
+    "history_depth_probe.json": "4c83f20d5e13c423b02ab67a83ecbfe643fc37fbce6815eca0cb3697b3e3bf51",
+    "preflight.json": "9f24b845533cef0aab17c9add380ba4bcf97acbe317ba03d2e319d25f53ee725"
+  }
+}

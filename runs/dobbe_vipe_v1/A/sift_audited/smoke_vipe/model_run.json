@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "success": true,
+  "variant": "smoke_vipe",
+  "action": "Pick up the red cup.",
+  "geometry_branch": "sift_audited",
+  "model_reused": false,
+  "ram_peak_scope": "whole process, including earlier variants if model is reused",
+  "torch_version": "2.9.1+cu128",
+  "input_freeze_sha256": "b482d625a79912dad9bf3daffac3eca7c5ef575142d500b6ed0c6bca3aa1fb52",
+  "stage": "complete",
+  "elapsed_seconds": 225.59816771399983,
+  "peak_cuda_allocated_gib": 9.614752292633057,
+  "peak_ram_gib": 22.398685455322266,
+  "prediction_seconds": 152.81512246400052,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite": true,
+  "parsed_point_frames": 240,
+  "expected_point_frames": 240,
+  "prediction_sha256": "f348243e386ddb20e3b4fea5023fefb1cdf028fb254798a76f0dda6474c6cc75"
+}

@@ -1,0 +1,183 @@
+{
+  "prediction_sha256": "e057e17034512ccf7f0521f1143edf57b0d4b80327f31e45588e16f099ea3107",
+  "point_frames_visible": 152,
+  "total_point_frames": 240,
+  "conditional_forecast_pixel_errors": {
+    "count": 152,
+    "median": 313.6527891730872,
+    "p90": 1214.9770408207028,
+    "mean_ADE_px": 488.84880063211733,
+    "FDE_visible_mean_px": 1267.452364349889
+  },
+  "conditional_stationary_baseline_pixel_errors": {
+    "count": 152,
+    "median": 24.753456336445453,
+    "p90": 576.5830674244095,
+    "mean_ADE_px": 168.26255262605227
+  },
+  "per_future_frame": [
+    {
+      "count": 8,
+      "median": 11.273291433073796,
+      "p90": 12.96874745981875
+    },
+    {
+      "count": 5,
+      "median": 26.976704344938426,
+      "p90": 29.70878367567867
+    },
+    {
+      "count": 6,
+      "median": 50.21592466791547,
+      "p90": 53.1275374385898
+    },
+    {
+      "count": 6,
+      "median": 75.28108684411445,
+      "p90": 77.27870769614638
+    },
+    {
+      "count": 6,
+      "median": 101.00458720788365,
+      "p90": 102.33028748613656
+    },
+    {
+      "count": 6,
+      "median": 125.99596469299794,
+      "p90": 127.90762679309825
+    },
+    {
+      "count": 5,
+      "median": 149.68359303040288,
+      "p90": 153.69089861953537
+    },
+    {
+      "count": 5,
+      "median": 174.163591232459,
+      "p90": 178.3625311208365
+    },
+    {
+      "count": 5,
+      "median": 197.9307152335689,
+      "p90": 201.18617916118558
+    },
+    {
+      "count": 5,
+      "median": 220.43800022212025,
+      "p90": 224.76905862941175
+    },
+    {
+      "count": 5,
+      "median": 243.69278267742035,
+      "p90": 251.21276132081027
+    },
+    {
+      "count": 5,
+      "median": 268.29873795310766,
+      "p90": 280.71570033395756
+    },
+    {
+      "count": 5,
+      "median": 289.9132283028615,
+      "p90": 301.6982215998565
+    },
+    {
+      "count": 5,
+      "median": 310.4975151049982,
+      "p90": 321.54337665163195
+    },
+    {
+      "count": 5,
+      "median": 342.68782617632496,
+      "p90": 348.1335527631122
+    },
+    {
+      "count": 4,
+      "median": 370.22269095734896,
+      "p90": 375.3349743488209
+    },
+    {
+      "count": 4,
+      "median": 416.63054234017,
+      "p90": 425.52151828039024
+    },
+    {
+      "count": 5,
+      "median": 471.59653776618535,
+      "p90": 496.8775185922329
+    },
+    {
+      "count": 4,
+      "median": 527.1031438499531,
+      "p90": 576.649897570882
+    },
+    {
+      "count": 5,
+      "median": 586.5069962462876,
+      "p90": 675.4927189327904
+    },
+    {
+      "count": 5,
+      "median": 670.0942107784018,
+      "p90": 779.6506650230976
+    },
+    {
+      "count": 5,
+      "median": 762.5523441443086,
+      "p90": 892.7783828455948
+    },
+    {
+      "count": 5,
+      "median": 864.3850712716634,
+      "p90": 1012.3845542981265
+    },
+    {
+      "count": 5,
+      "median": 983.851293342133,
+      "p90": 1160.723351625851
+    },
+    {
+      "count": 5,
+      "median": 1101.9073652143945,
+      "p90": 1304.7991948053934
+    },
+    {
+      "count": 4,
+      "median": 1213.321994541001,
+      "p90": 1376.4897464095104
+    },
+    {
+      "count": 5,
+      "median": 1253.6762314225887,
+      "p90": 1381.1953676735861
+    },
+    {
+      "count": 5,
+      "median": 1273.7888796917618,
+      "p90": 1390.4947141790358
+    },
+    {
+      "count": 5,
+      "median": 1293.025908148343,
+      "p90": 1409.803404279091
+    },
+    {
+      "count": 4,
+      "median": 1282.566040015331,
+      "p90": 1425.5399028270208
+    }
+  ],
+  "observed_prefix_published_pose_audit_px": {
+    "count": 372,
+    "median": 8.566251954084589,
+    "p90": 14.281887036795208
+  },
+  "projection_pose_source": "published DobbE labels c2w * CAMERA_TO_LABEL, relative to t0",
+  "K_source": "causal ViPE only; fixed for evaluation",
+  "future_fit": false,
+  "metric_3d_ground_truth": false,
+  "interpretation": "Pixel comparison is conditional on the published pose/basis and estimated K; future 2D tracking is model-derived, not manual GT.",
+  "comparison_point_frames": 152,
+  "forecast_projection_invalid_point_frames": 0,
+  "stationary_projection_invalid_point_frames": 0
+}

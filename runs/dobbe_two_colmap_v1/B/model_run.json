@@ -1,0 +1,55 @@
+{
+  "branch": "B",
+  "status": "COMPLETE",
+  "input_freeze_sha256": "fff7ea7d587461e67cd888f4bd3ad58714d11587497aefe72a53c0a6fc9de8f8",
+  "shared_parameters": {
+    "model_id": "allenai/MolmoMotion-4B-H3-F30",
+    "model_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+    "checkpoint_model_pt_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+    "action_text": "Pick up the red cup.",
+    "future_horizon": 30,
+    "seed": 0,
+    "dtype": "bfloat16",
+    "point_ids": [
+      "cup_rgb_feature_00",
+      "cup_rgb_feature_01",
+      "cup_rgb_feature_02",
+      "cup_rgb_feature_03",
+      "cup_rgb_feature_04",
+      "cup_rgb_feature_05",
+      "cup_rgb_feature_06",
+      "cup_rgb_feature_07"
+    ],
+    "history_frames": [
+      96,
+      97,
+      98
+    ]
+  },
+  "history_sha256": "1caa7a3520664928003e113ca2d2e9ecac637a32d307689394d833f60f85b6fe",
+  "torch_version": "2.9.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "shared_input_sha256": {
+    "shared/history_depth_m.npy": "470d32af81cd22bf6611e01585f409243a36562532db15fc70be2ec19903d5de",
+    "shared/history_uv.npy": "686903edc06ad37d0ea6759bd09ceec229933b9b9e41accc3fdc3c32ea77aa0a",
+    "shared/points_2d_at_t0.npy": "0e7792aa08690aac28b1f8863459532e86fff9083681c4f29a084c46f6810071",
+    "shared/poses_c2w.npy": "7247dbf66544941a09f430cb60a7bcbf46a630512de4894ca071f63ff6513c5a",
+    "shared/rgb_0096.png": "d231cf79ee95a5d7a63d5abe396ed50e0bebee37cca505cc121d50d8530147bc",
+    "shared/rgb_0097.png": "bb71f28ec7b2ad2dcd1e82ead979039a66d36f82419c65f1601e66440551162e",
+    "shared/rgb_0098.png": "ec86ce9f05d2883ddba68994c742ef3be0a689d9c39325bd7c283ffb76584a15"
+  },
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_seconds": 135.02,
+  "elapsed_seconds": 328.83,
+  "prediction_sha256": "b0b426760e983559f29a61af9d5cea0b883a3fa4e2f63107e292e7a406cc49dc",
+  "raw_output_sha256": "fbfdb522ecac9da150cb22297e4149a348807e89ced052a2b7939da920514689",
+  "parsed_visible_count": 240,
+  "text_tensor_max_error_m": 0.0,
+  "all_positive_Z": true,
+  "peak_cuda_allocated_gib": 9.589013576507568,
+  "peak_ram_gib": 22.467670440673828
+}

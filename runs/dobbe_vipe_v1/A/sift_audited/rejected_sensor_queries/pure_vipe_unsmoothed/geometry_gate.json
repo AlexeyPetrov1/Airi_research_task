@@ -1,0 +1,32 @@
+{
+  "molmo_ready": true,
+  "status": "PASS_ESTIMATED_GEOMETRY",
+  "checks": {
+    "complete_history_eight": true,
+    "sixteen_real_anchors": true,
+    "static_evidence": true,
+    "static_median": true,
+    "static_p90": true,
+    "rigid_history": true,
+    "stable_focal": true,
+    "depth_scale_supported": true
+  },
+  "metric_ground_truth": false,
+  "future_used": false,
+  "selected_ids": [
+    59,
+    50,
+    27,
+    43,
+    94,
+    70,
+    32,
+    82
+  ],
+  "depth_source": "ViPE",
+  "smoothing": false,
+  "static_validation": "independent_sift",
+  "validation_scope": "late observed prefix/H3 only; no reliable SIFT matches for early frames",
+  "selection_caveat": "validation method introduced after seeing reconstruction audits; separate exploratory control",
+  "source_geometry_gate_sha256": "add2f2a79aaa06847295b8595ef78a886475c3c12494c1acd8430ab195b0a23c"
+}

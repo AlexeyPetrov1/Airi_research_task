@@ -1,0 +1,28 @@
+{
+  "molmo_ready": false,
+  "status": "REJECT_ESTIMATED_GEOMETRY",
+  "checks": {
+    "complete_history_eight": true,
+    "sixteen_real_anchors": true,
+    "static_evidence": true,
+    "static_median": false,
+    "static_p90": false,
+    "rigid_history": true,
+    "stable_focal": true,
+    "depth_scale_supported": true
+  },
+  "metric_ground_truth": false,
+  "future_used": false,
+  "selected_ids": [
+    59,
+    50,
+    27,
+    43,
+    94,
+    70,
+    32,
+    82
+  ],
+  "depth_source": "ViPE",
+  "smoothing": false
+}

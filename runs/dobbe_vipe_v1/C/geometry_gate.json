@@ -1,0 +1,159 @@
+{
+  "status": "PASS_ESTIMATED_GEOMETRY",
+  "molmo_ready": true,
+  "metric_ground_truth": false,
+  "geometry_branch": "no_vda",
+  "checks": {
+    "complete_history_eight": true,
+    "sixteen_real_anchors": true,
+    "static_evidence": true,
+    "static_median": true,
+    "static_p90": true,
+    "rigid_history": true,
+    "stable_focal": true,
+    "depth_scale_supported": true
+  },
+  "thresholds_frozen_before_vipe": {
+    "static_median_px_max": 4.0,
+    "static_p90_px_max": 10.0,
+    "static_pairs_min": 3,
+    "static_observations_min": 30,
+    "rigid_relative_median_max": 0.15,
+    "history_visible_points_min": 8,
+    "depth_ratio_median_min": 0.5,
+    "depth_ratio_median_max": 2.0,
+    "focal_relative_range_max": 0.15
+  },
+  "static_cross_frame_px": {
+    "count": 372,
+    "median": 1.3547581215454567,
+    "p90": 3.069376147922662,
+    "pairs": [
+      {
+        "from_raw": 60,
+        "to_raw": 0,
+        "count": 62,
+        "median": 1.6426317431372728,
+        "p90": 3.2194929592440023
+      },
+      {
+        "from_raw": 60,
+        "to_raw": 10,
+        "count": 62,
+        "median": 1.592474188611674,
+        "p90": 3.254001324088994
+      },
+      {
+        "from_raw": 60,
+        "to_raw": 20,
+        "count": 62,
+        "median": 1.404012997745869,
+        "p90": 3.1922830013534704
+      },
+      {
+        "from_raw": 60,
+        "to_raw": 32,
+        "count": 62,
+        "median": 1.2814838430032507,
+        "p90": 3.15821734310652
+      },
+      {
+        "from_raw": 60,
+        "to_raw": 42,
+        "count": 62,
+        "median": 1.1754521690184119,
+        "p90": 2.643681504895775
+      },
+      {
+        "from_raw": 60,
+        "to_raw": 54,
+        "count": 62,
+        "median": 1.248701481045849,
+        "p90": 2.3485132269983056
+      }
+    ],
+    "meaning": "t0 static depth lifted once, transformed into earlier cameras vs causal RGB tracks"
+  },
+  "rigid_history_unsmoothed": {
+    "absolute_estimated_units": {
+      "count": 84,
+      "median": 0.0011629391911508885,
+      "p90": 0.007749401079092424
+    },
+    "relative_to_t0_median_pair_distance": {
+      "count": 84,
+      "median": 0.0071976458429700105,
+      "p90": 0.04796247721881093
+    },
+    "t0_median_pair_distance": 0.16157216074846736
+  },
+  "intrinsics_min": [
+    208.81808471679688,
+    208.81808471679688,
+    128.0,
+    128.0
+  ],
+  "intrinsics_max": [
+    208.81808471679688,
+    208.81808471679688,
+    128.0,
+    128.0
+  ],
+  "intrinsics_stability_interpretation": "ViPE estimates shared intrinsics and broadcasts them; temporal constancy is structural, not independent calibration evidence.",
+  "focal_relative_range": [
+    0.0,
+    0.0
+  ],
+  "depth_vipe_to_measured_ratio": {
+    "object": {
+      "count": 299,
+      "median": 1.1879775853285788,
+      "p90": 1.2357325220038866
+    },
+    "background": {
+      "count": 186,
+      "median": 1.2193186032957133,
+      "p90": 1.291634179444974
+    }
+  },
+  "measured_depth_edge_fraction_within_3px": [
+    0.9287958115183246,
+    0.8897911832946636,
+    0.8671328671328671
+  ],
+  "hybrid_alignment_status": "SPATIAL_ALIGNMENT_HYPOTHESIS_REQUIRES_VISUAL_REVIEW",
+  "object_candidates": 100,
+  "after_filter": 95,
+  "anchor_ids": [
+    76,
+    25,
+    53,
+    70,
+    48,
+    43,
+    63,
+    73,
+    40,
+    69,
+    50,
+    19,
+    61,
+    5,
+    56,
+    94
+  ],
+  "selected_ids": [
+    37,
+    97,
+    60,
+    51,
+    52,
+    67,
+    21,
+    6
+  ],
+  "selected_smoothing": "author ray-only gated, CPU 100 steps; diagnostics unsmoothed",
+  "future_used": false,
+  "protocol_sha256": "936e01c1ba6ad66c5cfa934b06c2ea50af16f2b88452819d88a7bd521bcea083",
+  "tracks_sha256": "c55deb9a73ccf4aa41c3b2f143ae223d74d97483a518fecb8e76d453bf738519"
+}

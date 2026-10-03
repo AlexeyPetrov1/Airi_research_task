@@ -1,0 +1,9 @@
+{
+  "status": "SKIPPED_GEOMETRY_GATE",
+  "success": false,
+  "failed_checks": [
+    "static_median",
+    "static_p90",
+    "depth_scale_supported"
+  ]
+}

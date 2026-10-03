@@ -1,0 +1,848 @@
+{
+  "method": "history-seeded bidirectional LK + red-surface check; no predicted positions, K or depth used",
+  "future_valid": 192,
+  "possible": 480,
+  "diagnostics": [
+    {
+      "frame": 99,
+      "valid": 8,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy"
+      ]
+    },
+    {
+      "frame": 100,
+      "valid": 8,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy"
+      ]
+    },
+    {
+      "frame": 101,
+      "valid": 8,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy"
+      ]
+    },
+    {
+      "frame": 102,
+      "valid": 8,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy"
+      ]
+    },
+    {
+      "frame": 103,
+      "valid": 8,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy"
+      ]
+    },
+    {
+      "frame": 104,
+      "valid": 8,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy"
+      ]
+    },
+    {
+      "frame": 105,
+      "valid": 8,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy"
+      ]
+    },
+    {
+      "frame": 106,
+      "valid": 6,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "LK_forward_backward_failed",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "LK_forward_backward_failed"
+      ]
+    },
+    {
+      "frame": 107,
+      "valid": 5,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "LK_forward_backward_failed",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 108,
+      "valid": 5,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 109,
+      "valid": 5,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 110,
+      "valid": 5,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 111,
+      "valid": 5,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 112,
+      "valid": 5,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 113,
+      "valid": 4,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "LK_forward_backward_failed",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 114,
+      "valid": 4,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 115,
+      "valid": 3,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "LK_forward_backward_failed",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 116,
+      "valid": 3,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 117,
+      "valid": 3,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 118,
+      "valid": 3,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 119,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "LK_forward_backward_failed",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 120,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 121,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 122,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 123,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 124,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 125,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 126,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 127,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 128,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 129,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 130,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 131,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 132,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 133,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 134,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 135,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 136,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 137,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 138,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 139,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 140,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 141,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 142,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 143,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 144,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 145,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 146,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 147,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 148,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 149,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 150,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 151,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 152,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 153,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 154,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 155,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 156,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 157,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    },
+    {
+      "frame": 158,
+      "valid": 2,
+      "reasons": [
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously",
+        "accepted_RGB_proxy",
+        "track_lost_previously",
+        "track_lost_previously",
+        "track_lost_previously"
+      ]
+    }
+  ],
+  "identity_limit": "RGB feature proxy on a low-texture cup; no guarantee of persistent microscopic surface identity"
+}

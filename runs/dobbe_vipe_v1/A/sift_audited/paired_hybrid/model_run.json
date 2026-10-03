@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "success": true,
+  "variant": "paired_hybrid",
+  "action": "Pick up the red cup.",
+  "geometry_branch": "sift_audited",
+  "model_reused": true,
+  "ram_peak_scope": "whole process, including earlier variants if model is reused",
+  "torch_version": "2.9.1+cu128",
+  "input_freeze_sha256": "90e655cda090a368c0d6285ea9c509135eaf4bba5b3f0b54ea86b20d1f3ec818",
+  "stage": "complete",
+  "elapsed_seconds": 136.79574861499987,
+  "peak_cuda_allocated_gib": 9.585100650787354,
+  "peak_ram_gib": 22.35708236694336,
+  "prediction_seconds": 136.74152399399918,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite": true,
+  "parsed_point_frames": 240,
+  "expected_point_frames": 240,
+  "prediction_sha256": "03978383629dafd88635ae81edb1a9cd66f9366814e3ec049e98fd5bec0402fb"
+}

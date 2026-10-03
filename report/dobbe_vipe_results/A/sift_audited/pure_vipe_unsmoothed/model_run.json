@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "success": true,
+  "variant": "pure_vipe_unsmoothed",
+  "action": "Pick up the red cup.",
+  "geometry_branch": "sift_audited",
+  "model_reused": true,
+  "ram_peak_scope": "whole process, including earlier variants if model is reused",
+  "torch_version": "2.9.1+cu128",
+  "input_freeze_sha256": "531da4119a7c34fce291a3065c166b355a9e02897befa29ee737d7630fa701d8",
+  "stage": "complete",
+  "elapsed_seconds": 145.16901512200002,
+  "peak_cuda_allocated_gib": 9.60912275314331,
+  "peak_ram_gib": 22.398685455322266,
+  "prediction_seconds": 145.12345423999977,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite": true,
+  "parsed_point_frames": 240,
+  "expected_point_frames": 240,
+  "prediction_sha256": "e182755b9ff415404027565d409c2f99e5441c157a00226bde26706185b99448"
+}

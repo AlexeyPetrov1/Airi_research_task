@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "same_point_ids": true,
+    "same_uv": true,
+    "same_c2w": true,
+    "both_unsmoothed": true,
+    "both_pass_geometry": true
+  },
+  "future_used": false,
+  "action": "Pick up the red cup.",
+  "world_xyz_disagreement_estimated_units": {
+    "median": 0.05900441110134125,
+    "p90": 0.6890507936477661
+  },
+  "source_files_sha256": {
+    "pure_vipe_unsmoothed/points_3d_world.npy": "01f0a35b59afeb2936230e75b9ae4c2d1291bc8c83d35de7d2b28b244b0b450c",
+    "pure_vipe_unsmoothed/points_2d_t0.npy": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+    "pure_vipe_unsmoothed/c2w_t0.npy": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510",
+    "hybrid/points_3d_world.npy": "76d371fb683435d4277273640095a2b64992702ee1b20bab5a131898e7107b39",
+    "hybrid/points_2d_t0.npy": "64c78229e6e55f017a20c14d06c9ae3d2eefbe2848c92f8212f51d15426ffd69",
+    "hybrid/c2w_t0.npy": "57062a006b21eaf0a7b302b482a2b93e76841209bbdb0f242bf0ba9077438510"
+  }
+}

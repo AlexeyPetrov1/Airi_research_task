@@ -1,0 +1,13 @@
+{
+  "repo": "lerobot-raw/dobbe_raw",
+  "format": "array_record",
+  "candidate_ordinal_assumption": 3651,
+  "shard_index": 176,
+  "shard_start_ordinal": 3634,
+  "candidate_local_index": 17,
+  "shard_records": 20,
+  "filename": "dobbe-train.array_record-00176-of-00256",
+  "bytes": 80412672,
+  "sha256": "efdc898cbe77830c5cc1273fbc83d0327d02d32f6fc82dbc5ece447568b96983",
+  "mapping_status": "UNVERIFIED_ORDINAL_HYPOTHESIS"
+}

@@ -9,6 +9,14 @@
 /report/artifacts/** -text
 /runs/dobbe_colmap_clean_rerun_v1/** -text
 /runs/dobbe_colmap_official_v1/** -text
+/report/dobbe_vipe_results/** -text
+/runs/dobbe_vipe_v1/** -text
+/runs/dobbe_two_colmap_v1/** -text
+/runs/plex_dobbe_preflight/dobbe_rgbd_sample/** -text
+/data/dobbe_oxe/** -text
+/visualizations/** -text
+/scripts/*dobbe_vipe* -text
+/tests/test_dobbe_vipe_v1.py -text
 /report/fmb*.md -text
 /scripts/fmb*.py -text
 /tests/test_fmb*.py -text

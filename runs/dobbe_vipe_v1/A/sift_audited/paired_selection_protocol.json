@@ -1,0 +1,21 @@
+{
+  "future_used": false,
+  "selection_uses": "observed H3 and original 100 object queries only",
+  "rule": "intersection of author ViPE filter, valid H3 depth, sensor patch spread <10% Z, and sensor Z within [0.5,1.5] times H3 object-query median Z in each frame; deterministic quality+3D farthest sampling",
+  "sensor_band": [
+    0.5,
+    1.5
+  ],
+  "same_numeric_geometry_gate": {
+    "static_median_px_max": 4.0,
+    "static_p90_px_max": 10.0,
+    "static_pairs_min": 3,
+    "static_observations_min": 30,
+    "rigid_relative_median_max": 0.15,
+    "history_visible_points_min": 8,
+    "depth_ratio_median_min": 0.5,
+    "depth_ratio_median_max": 2.0,
+    "focal_relative_range_max": 0.15
+  },
+  "reason": "Two original queries sampled background/mixed sensor depth near the cup rim; choose one common supported pool for both depths before either paired prediction."
+}

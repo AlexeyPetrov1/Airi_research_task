@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "source": "vendored author nets.alltracker.Net(16)",
+  "checkpoint_url": "https://huggingface.co/aharley/alltracker/resolve/main/alltracker.pth",
+  "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+  "direction": "reverse causal prefix, query raw t0; reverse outputs back",
+  "future_used": false,
+  "inference_iters": 4,
+  "dtype": "float32",
+  "input_shape": [
+    1,
+    62,
+    3,
+    256,
+    256
+  ],
+  "tracks_shape": [
+    62,
+    250,
+    2
+  ],
+  "elapsed_seconds": 3.39485778400001,
+  "peak_cuda_allocated_gib": 1.1484050750732422,
+  "query_sha256": "2037027b743c4615370f0c5b2f5ca5e83952ec30cf8c4c538eb0ee32f8d54440",
+  "tracks_sha256": "7cba16f828f16feb7252d59356713474c6ab2aa793ca4b0e01d99f1337a7c349"
+}

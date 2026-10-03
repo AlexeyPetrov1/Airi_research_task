@@ -1,0 +1,49 @@
+{
+  "molmo_ready": false,
+  "status": "REJECT_ESTIMATED_GEOMETRY",
+  "checks": {
+    "complete_history_eight": true,
+    "sixteen_real_anchors": true,
+    "static_evidence": true,
+    "static_median": false,
+    "static_p90": false,
+    "rigid_history": true,
+    "stable_focal": true,
+    "depth_scale_supported": true,
+    "rgb_depth_alignment_reviewed": true
+  },
+  "metric_ground_truth": false,
+  "future_used": false,
+  "selected_ids": [
+    59,
+    50,
+    27,
+    43,
+    94,
+    70,
+    32,
+    82
+  ],
+  "depth_source": "measured DobbE optical-Z hypothesis",
+  "static_cross_frame_px": {
+    "count": 387,
+    "median": 5.25593495194367,
+    "p90": 22.1223006554942
+  },
+  "rigid_history_unsmoothed": {
+    "absolute_estimated_units": {
+      "count": 84,
+      "median": 0.0007793980471171268,
+      "p90": 0.061475932683693814
+    },
+    "relative_to_t0_median_pair_distance": {
+      "count": 84,
+      "median": 0.0058736281997332825,
+      "p90": 0.46328929505463
+    },
+    "t0_median_pair_distance": 0.13269448126670985
+  },
+  "translation_scale": "ViPE c2w retained unchanged; no fitted rescaling",
+  "smoothing": false,
+  "caveat": "Compare with pure_vipe_unsmoothed for a strict depth-only ablation."
+}

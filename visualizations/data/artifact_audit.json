@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "main_artifacts": [
+    {
+      "name": "fmb_prediction_vs_reality.mp4",
+      "bytes": 5929582,
+      "sha256": "930fecd0ada19d53b652f59d2772e2c104c227823e47a1956b467c180ee5e756",
+      "size": [
+        1920,
+        1080
+      ],
+      "frames": 249,
+      "fps": 30.0,
+      "duration_s": 8.3,
+      "decoded_all": true
+    },
+    {
+      "name": "fmb_prediction_vs_reality_summary.png",
+      "bytes": 1789935,
+      "sha256": "941677e338ca4b7ae960afb5d4644ef2e71cf3efd0bcd13c5163180da3dcde7f",
+      "size": [
+        2560,
+        1870
+      ]
+    },
+    {
+      "name": "dobbe_two_colmap_molmo_comparison.mp4",
+      "bytes": 6688361,
+      "sha256": "05e6f73b345cc3e40465f901184d2813c05c0d54859fa020737f6e412bb688ee",
+      "size": [
+        1920,
+        1320
+      ],
+      "frames": 249,
+      "fps": 30.0,
+      "duration_s": 8.3,
+      "decoded_all": true
+    },
+    {
+      "name": "dobbe_two_colmap_molmo_comparison_summary.png",
+      "bytes": 561827,
+      "sha256": "a869bd6fa612e5a56ee29cda1c7680554d41ab2cc66a875e66f52809de45f34c",
+      "size": [
+        1920,
+        1650
+      ]
+    }
+  ],
+  "checks": [
+    "all videos completely decoded",
+    "four required deliverables",
+    "sealed inputs hash verified",
+    "A/B shared non-geometry parameters identical",
+    "both histories 3x8x3",
+    "both real predictions 8x30x3",
+    "both raw text independently parsed 240/240",
+    "t0 unproject/project numerical round trip",
+    "same RGB source on both panels",
+    "same 3D limits"
+  ]
+}

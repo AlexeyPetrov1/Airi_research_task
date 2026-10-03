@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "scene_checks": {
+    "A": {
+      "observed_frames": 50,
+      "history_raw_ids": [
+        94,
+        96,
+        98
+      ],
+      "original_gate": "REJECT_ESTIMATED_GEOMETRY",
+      "hashes_valid": true
+    },
+    "B": {
+      "observed_frames": 62,
+      "history_raw_ids": [
+        119,
+        121,
+        123
+      ],
+      "original_gate": "REJECT_ESTIMATED_GEOMETRY",
+      "hashes_valid": true
+    },
+    "C": {
+      "observed_frames": 31,
+      "history_raw_ids": [
+        56,
+        58,
+        60
+      ],
+      "original_gate": "PASS_ESTIMATED_GEOMETRY",
+      "hashes_valid": true
+    }
+  },
+  "forecasts": {
+    "C/pure_vipe": {
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "parsed_point_frames": 240,
+      "sealed_inputs_valid": true,
+      "evaluation_only_future": true
+    },
+    "A/sift_audited/smoke_vipe": {
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "parsed_point_frames": 240,
+      "sealed_inputs_valid": true,
+      "evaluation_only_future": true
+    },
+    "A/sift_audited/pure_vipe": {
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "parsed_point_frames": 240,
+      "sealed_inputs_valid": true,
+      "evaluation_only_future": true
+    },
+    "A/sift_audited/pure_vipe_unsmoothed": {
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "parsed_point_frames": 240,
+      "sealed_inputs_valid": true,
+      "evaluation_only_future": true
+    },
+    "A/sift_audited/paired_vipe": {
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "parsed_point_frames": 240,
+      "sealed_inputs_valid": true,
+      "evaluation_only_future": true
+    },
+    "A/sift_audited/paired_hybrid": {
+      "prediction_shape": [
+        8,
+        30,
+        3
+      ],
+      "parsed_point_frames": 240,
+      "sealed_inputs_valid": true,
+      "evaluation_only_future": true
+    }
+  },
+  "paired_depth_inputs_identical_except_3D": true,
+  "bundle_hashes_valid": true,
+  "metric_ground_truth": false
+}

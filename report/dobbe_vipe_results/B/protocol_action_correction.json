@@ -1,0 +1,7 @@
+{
+  "prior_protocol_sha256": "03e6992b639b78cb221cc10bd7b3c132619b1c1a0472ff0dc3a59ff921fec693",
+  "prior_action": "Pick up the object and place it on the sofa.",
+  "action": "Pick up the roll of tape.",
+  "reason": "A: reuse prior exact instruction. B: identify tape roll from observed prefix only.",
+  "before_reconstruction_tracking_or_prediction": true
+}
