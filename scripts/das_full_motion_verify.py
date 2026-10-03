@@ -60,12 +60,22 @@ def main():
         check(f'{name}: tracker cache matches actual video',tracking['video_sha256']==sha256(video) and tracking['future_real_used'] is False)
         check(f'{name}: pinned independent tracker',tracking['tracker']=='official AllTracker Net(16)' and tracking['iterations']==4 and tracking['checkpoint_sha256']==sha256('/mnt/f/AIRI_task/.cache/torch/hub/checkpoints/alltracker.pth'))
     check('selected output exists',a.chosen in configs)
+    if 'H1_group00_2s_no_prior' in configs:
+        h1=configs['H1_group00_2s_no_prior'];h2=configs['H2_group00_6s_no_prior']
+        keys=['model','checkpoint_revision','das_commit','dtype','seed','num_inference_steps','num_frames',
+            'resolution','fps','offload','guidance_scale','teacache','persistent_reference','prompt',
+            'trajectory_method','photographic_guide_strength','trajectory_control']
+        check('H1/H2 matched except temporal control',all(h1[key]==h2[key] for key in keys) and h1['timing']=='physical_2s' and h2['timing']=='stretched_6s')
+        prep1=OUT/Path(h1['preparation_root']).name;prep2=OUT/Path(h2['preparation_root']).name
+        check('H1/H2 exact same initial image',sha256(prep1/'image_t0_720x480.png')==sha256(prep2/'image_t0_720x480.png'))
     if 'H3_group00_6s_prior025' in configs:
         h2=configs['H2_group00_6s_no_prior'];h3=configs['H3_group00_6s_prior025']
         keys=['model','checkpoint_revision','das_commit','dtype','seed','num_inference_steps','num_frames',
             'resolution','fps','offload','guidance_scale','teacache','persistent_reference','prompt',
             'trajectory_method','timing','control_sha256','trajectory_control']
         check('H2/H3 matched except appearance prior',all(h2[key]==h3[key] for key in keys))
+        prep2=OUT/Path(h2['preparation_root']).name;prep3=OUT/Path(h3['preparation_root']).name
+        check('H2/H3 exact same initial image',sha256(prep2/'image_t0_720x480.png')==sha256(prep3/'image_t0_720x480.png'))
     if 'H4_no_trajectory_control' in configs:
         h2=configs['H2_group00_6s_no_prior'];h4=configs['H4_no_trajectory_control']
         keys=['model','checkpoint_revision','das_commit','dtype','seed','num_inference_steps','num_frames',
