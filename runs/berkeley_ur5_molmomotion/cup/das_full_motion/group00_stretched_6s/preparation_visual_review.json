@@ -1,0 +1,6 @@
+﻿{
+    "accepted":  true,
+    "guide_accepted":  false,
+    "control_sha256":  "da956876e1052e697d4193d3a31222ddc318413ffbdd27f577379c3b22968479",
+    "review":  "Viewed 5 checkpoints. Exact initial pose, full rise/right/descending arc. Mid-arc cup is mostly outside the original image, as predicted. Local wrist/gripper share cup transform. Proximal arm is intentionally free. Photographic guide not approved for use yet: inspect seams before a prior run."
+}
