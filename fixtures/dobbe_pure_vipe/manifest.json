@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "dataset": "dobbe",
+  "episode_id": "C/pure_vipe",
+  "action": "Close the drawer.",
+  "expected_status": "COMPLETE",
+  "observed_metadata": {
+    "title": "Dobb-E · drawer",
+    "primary": "MolmoMotion",
+    "geometry": "ViPE-estimated OpenCV world-frame geometry; not metric GT",
+    "reference": "independent AllTracker; projection conditional on published pose convention and causal ViPE K",
+    "history_indices": [
+      56,
+      58,
+      60
+    ],
+    "future_indices": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110,
+      112,
+      114,
+      116,
+      118,
+      120
+    ],
+    "future_used_for_model_input": false,
+    "metric_3d_ground_truth": false,
+    "source_fps": 30,
+    "model_fps": 15,
+    "shown_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variant": "pure_vipe",
+    "geometry_gate": {
+      "molmo_ready": true,
+      "status": "PASS_ESTIMATED_GEOMETRY",
+      "checks": {
+        "complete_history_eight": true,
+        "sixteen_real_anchors": true,
+        "static_evidence": true,
+        "static_median": true,
+        "static_p90": true,
+        "rigid_history": true,
+        "stable_focal": true,
+        "depth_scale_supported": true
+      },
+      "metric_ground_truth": false,
+      "future_used": false,
+      "selected_ids": [
+        37,
+        97,
+        60,
+        51,
+        52,
+        67,
+        21,
+        6
+      ],
+      "depth_source": "ViPE",
+      "smoothing": true
+    },
+    "old_video": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4",
+    "failure_detail": null,
+    "old_panel_crop": [
+      0,
+      56,
+      512,
+      512
+    ],
+    "legacy_metric_file": "runs/dobbe_vipe_v1/C/pure_vipe/evaluation/metrics.json",
+    "limitation": "2D ошибка условна: позы камер и K не подтверждены физической калибровкой. Эталонного 3D нет. Hybrid остановлен по static_median."
+  },
+  "future_times": [
+    0.06666666666666667,
+    0.13333333333333333,
+    0.2,
+    0.26666666666666666,
+    0.3333333333333333,
+    0.4,
+    0.4666666666666667,
+    0.5333333333333333,
+    0.6,
+    0.6666666666666666,
+    0.7333333333333333,
+    0.8,
+    0.8666666666666667,
+    0.9333333333333333,
+    1.0,
+    1.0666666666666667,
+    1.1333333333333333,
+    1.2,
+    1.2666666666666666,
+    1.3333333333333333,
+    1.4,
+    1.4666666666666666,
+    1.5333333333333334,
+    1.6,
+    1.6666666666666667,
+    1.7333333333333334,
+    1.8,
+    1.8666666666666667,
+    1.9333333333333333,
+    2.0
+  ],
+  "future_times_dtype": "<f8",
+  "source_fps": 30,
+  "model_fps": 15,
+  "geometry_description": "ViPE-estimated OpenCV world-frame geometry; not metric GT",
+  "reference_description": "independent AllTracker; projection conditional on published pose convention and causal ViPE K",
+  "limitation": "2D ошибка условна: позы камер и K не подтверждены физической калибровкой. Эталонного 3D нет. Hybrid остановлен по static_median.",
+  "history_media": "shared/dobbe_history.npz",
+  "expected_prediction_sha256": "e057e17034512ccf7f0521f1143edf57b0d4b80327f31e45588e16f099ea3107",
+  "original_source_sha256": {
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png": "3bc8e041be0f4908ed3c2ddb39fd52153c16026e7518fe2d9c6f01b2b1b506eb",
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png": "ff377150167d15dff43bac4b9243f56ba7165bb0c71518c98c714c65eb3756f5",
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png": "b8125d30a38b694428d837736cdb3056579ece20da861f029305c4da1e944d22",
+    "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz": "1050ac89d3edffeb99c131f7681d31af8a00c97dfe0417e488da3c74178935b7",
+    "data/legacy/runs/dobbe_vipe_v1/C/protocol.json": "936e01c1ba6ad66c5cfa934b06c2ea50af16f2b88452819d88a7bd521bcea083",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz": "421a053d64718d188139e8bbc9160aa73751cd3d4daa475739cb42750a0f22e7",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4": "51cc9a8ec31ce8e554800714af2d1280d1c74b741c018db5d8453b7a6160a8a4",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz": "bf456c01cb98b620ba75c118c9c12f677d4f9adf33cfd32bb460d08525b04b9d",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json": "daac3a0db6a9a2bc7015e13ad92bdb4e3bafe789c675086cfcd1341d0dc0f7fd",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy": "dd44287ba444056d556839e4e93b44edb8a1136a50dd11eb9344ccd701df4bf7",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy": "c6625a4887010ccc132020f1de9dc420edaee4d59a07062576fea715221c4533",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy": "e057e17034512ccf7f0521f1143edf57b0d4b80327f31e45588e16f099ea3107",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4": "209ea60fde770fdad5669bc00ca14aa35b0cad0d1b59467cba91875bb504ae61"
+  },
+  "observed_strides": {
+    "history_frames": [
+      196608,
+      768,
+      3,
+      1
+    ],
+    "history_timestamps": [
+      8
+    ],
+    "points_2d": [
+      8,
+      4
+    ],
+    "points_3d_history": [
+      96,
+      12,
+      4
+    ],
+    "point_ids": [
+      8
+    ],
+    "c2w_at_t0": [
+      16,
+      4
+    ]
+  }
+}

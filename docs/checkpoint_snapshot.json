@@ -1,0 +1,16 @@
+{
+  "repo": "allenai/MolmoMotion-4B-H3-F30",
+  "revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "files": {
+    "config.yaml": {
+      "sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+      "remote_hash": "6f413ad51fcc4f50741bbf7bd6e435b4ca9379a5",
+      "bytes": 5346
+    },
+    "model.pt": {
+      "sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+      "remote_hash": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+      "bytes": 17847894425
+    }
+  }
+}

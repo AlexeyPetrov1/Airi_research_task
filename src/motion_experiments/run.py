@@ -34,6 +34,8 @@ def save_inputs(sample, destination):
 
 def run_case(config, source_root, destination, checkpoint, mode, runner=None, predictions_from=None):
     start = time.monotonic()
+    if destination.resolve().is_relative_to(source_root.resolve()):
+        raise ValueError('Outputs must be outside immutable fixtures')
     destination.mkdir(parents=True, exist_ok=False)
     write_json(destination/"config.json", config)
     adapter = ADAPTERS[config["dataset"]]
@@ -55,7 +57,7 @@ def run_case(config, source_root, destination, checkpoint, mode, runner=None, pr
         return dict(name=config["name"], status=sample.status, expected_failure=True)
     batches, input_checks = build_inputs(sample, checkpoint, destination/"inputs/model")
     write_json(destination/"model_input_parity.json", dict(success=True, group_checks=input_checks,
-               scope="full stored processor packet" if sample.legacy_processor_files else
+               scope="exact typed field-wise processor fingerprints" if sample.processor_fingerprints[0]['type'] == 'dict' else
                "stored input_ids SHA-256 and camera/world equivalence; old full packet unavailable"))
     if predictions_from is not None:
         previous = read_json(predictions_from/"status.json")
@@ -181,7 +183,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", type=Path, nargs="+", required=True)
     parser.add_argument("--mode", choices=("replay", "inference"), default="inference")
-    parser.add_argument("--source-root", type=Path, default=ROOT/"data/legacy")
+    parser.add_argument("--source-root", type=Path, default=ROOT/"fixtures")
     parser.add_argument("--checkpoint", type=Path, default=ROOT/"data/checkpoints/MolmoMotion-4B-H3-F30")
     parser.add_argument("--output", type=Path)
     parser.add_argument("--predictions-from", type=Path, help="Re-render a verified completed new inference without another model call")
@@ -191,6 +193,9 @@ def main():
     configs = [read_json(p if p.is_absolute() else ROOT/p) for p in args.config]
     output = args.output or ROOT/"outputs"/datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S_%f")
     output = output.resolve()
+    for fixtures in (ROOT/'fixtures', args.source_root.resolve()):
+        if output.is_relative_to(fixtures.resolve()):
+            parser.error('Outputs must be outside immutable fixtures')
     output.mkdir(parents=True, exist_ok=False)
     os.environ.setdefault("HF_HOME", str(ROOT.parent/".cache/huggingface"))
     os.environ.setdefault("TORCH_HOME", str(ROOT.parent/".cache/torch"))

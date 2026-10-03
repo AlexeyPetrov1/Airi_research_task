@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "dataset": "berkeley",
+  "episode_id": "bottle",
+  "action": "Put the ranch bottle into the pot.",
+  "expected_status": "COMPLETE",
+  "observed_metadata": {
+    "scene": "bottle",
+    "source_episode_id": 9,
+    "episode_id": 9,
+    "instruction": "Put the ranch bottle into the pot.",
+    "task": "Put the ranch bottle into the pot.",
+    "target_object": "ranch bottle",
+    "source_task_text": 1,
+    "source_repo": "lerobot/berkeley_autolab_ur5",
+    "source_revision": "6306aa91c00b9b0de28831b7fceaa42b8096bb4f",
+    "camera": "observation.images.image",
+    "source_fps": 5,
+    "model_training_fps": 15,
+    "t0": 47,
+    "t0_source_frame": 47,
+    "t0_seconds": 9.399999618530273,
+    "observed_source_indices": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "history_source_indices": [
+      45,
+      46,
+      47
+    ],
+    "history_timestamps": [
+      9.0,
+      9.199999809265137,
+      9.399999618530273
+    ],
+    "future_source_indices": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "future_timestamps": [
+      9.600000381469727,
+      9.800000190734863,
+      10.0,
+      10.199999809265137,
+      10.399999618530273,
+      10.600000381469727,
+      10.800000190734863,
+      11.0,
+      11.199999809265137,
+      11.399999618530273
+    ],
+    "prediction_evaluation_indices": [
+      2,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29
+    ],
+    "source_video": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/videos/chunk-000/observation.images.image/episode_000009.mp4",
+    "source_parquet": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/data/chunk-000/episode_000009.parquet",
+    "source_sha256": {
+      "video": "834f1bf891b90bd1eaaf226f8573c4a404ca5cc3785fc39a3482c2ae3a86a7ca",
+      "parquet": "a80d9d9bb29e1128d56bc9e0d9dc4df2deff25d8b345c534c5b9367da1737c38"
+    },
+    "selection_reason": "White bottle body exposed through lift; ep2/5/6 have substantially stronger gripper occlusion of body.",
+    "selection_policy": "Data quality only; episode/t0 screening precedes predictions. Future screening used only to select episode/t0, never to form model inputs.",
+    "future_used_for_model_input": false,
+    "warnings": [
+      "H3 uses real adjacent 5 FPS frames [-0.4,-0.2,0] seconds; temporal distribution shift from training at 15 FPS.",
+      "Future tracking is a tracker-based reference, not manually measured physical point ground truth.",
+      "AugE tuned simulation camera is a candidate prior, not measured sensor calibration."
+    ],
+    "created_utc": "2026-10-02T22:16:49.865104+00:00",
+    "depth_source": "RealSense measured aligned metric depth (TFDS float32)",
+    "K_source": "OXE-AugE Berkeley tuned simulation vertical FOV; centered pinhole derived at 640x480",
+    "geometry_case": "CASE-AUGE"
+  },
+  "future_times": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0
+  ],
+  "future_times_dtype": "<f8",
+  "source_fps": 5,
+  "model_fps": 15,
+  "geometry_description": "fixed camera; OXE-AugE Berkeley tuned simulation vertical FOV; centered pinhole derived at 640x480",
+  "reference_description": "AllTracker 2D + sensor depth; candidate camera K, conditional 3D",
+  "limitation": "Параметры bottle и вариант выбраны в прежнем исследовании после просмотра результатов; это exploratory postprocessing, не независимый тест.",
+  "expected_prediction_sha256": "6ac2412e8b8c68e8243c742045686db9c987f9344d1018b9c980e28eba1196a6",
+  "original_source_sha256": {
+    "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz": "1600dd93a8f9d8cb1c5c74e2910b8d6fc930b46d6db89b3e83ef5a564b7ca189",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy": "7b30d04a63fb55e68e951a21175e23c0cd11faf944f2f4ff33f784993a890a81",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json": "851452edf9d0ac879fbc15e7be8e4605f52ab2bfd5d3abe831d7fe6435af99bc",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy": "0ce2b5a46af49a327e061085f5e780663a6010a4abc9fba4b8448f83db26ab70",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy": "80beca57b6612502cb2403974487daa24f12f79e1dc8cd1ce58a0b6c8d782293",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy": "468f82f4dbc720caf2389e06b42fa657984227d175122e665bc0e24e3a0c4a74",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy": "bf02e81abf22807a6ba89a4a596e4601007d6e9a46c5165f9799def8d95e0b34",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy": "334eff7cffd664d7577ec7af9a1c95cac4752a666eacaadd90ace98a9d4d495f",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy": "6ac2412e8b8c68e8243c742045686db9c987f9344d1018b9c980e28eba1196a6",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt": "a75c92e62b6bc2accc60348865218009726a475925c182d41aac503e3a024302",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt": "fa672ab1e411b178cfe00a9b3c0b8510ce2050476db0b0a355c550c58ab9f25c",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt": "8558640e5316bd75225959f35c5ae7b6483444242f34636fbe6d1026b4e30a6b",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz": "299e88631ec3a25bdbdaa0f70482a984c43cd41383016bcb1ed2ba704a7a74a8",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy": "d261bcecee0435576ac14d102d147d3403129471e9ffcd446653ea169bbc4f55",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz": "eec65beae0ec48ec3877e70c0fe385a5d936e0f0904e21473c46154fd1f658ed",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy": "8a290dfda3790d313a5ecbb66f77473f7798e921057f34d4d3b8fd067c8714cb",
+    "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4": "93f62cbb34d72a2ace83e40a2dcd4798e2928a4cf3792dd3f2c3c63516891e88"
+  },
+  "observed_strides": {
+    "history_frames": [
+      921600,
+      1920,
+      3,
+      1
+    ],
+    "history_timestamps": [
+      4
+    ],
+    "points_2d": [
+      8,
+      4
+    ],
+    "points_3d_history": [
+      288,
+      12,
+      4
+    ],
+    "point_ids": [
+      8
+    ],
+    "camera_intrinsics": [
+      24,
+      8
+    ]
+  }
+}

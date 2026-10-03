@@ -23,7 +23,8 @@ class ExperimentSample:
     metadata: dict = field(default_factory=dict)
     source_files: list[Path] = field(default_factory=list)
     model_input_files: list[Path] = field(default_factory=list)
-    legacy_processor_files: list[Path] = field(default_factory=list)
+    processor_fingerprints: list[dict] = field(default_factory=list)
+    observed_aux: dict = field(default_factory=dict)
     saved_prediction: np.ndarray | None = None
     evaluation: dict = field(default_factory=dict)
     status: str = "COMPLETE"

@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "dataset": "fmb",
+  "episode_id": "wrist_2",
+  "action": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "expected_status": "COMPLETE",
+  "observed_metadata": {
+    "source_path": "/mnt/f/AIRI_task/data/fmb/single_object_manipulation_dataset/1_M_L_3_vertical_n_2.npy",
+    "source_sha256": "f6aadf6929c12671144d5696e2ff1b75a633caffc64d7a295299b40b9d7b3d96",
+    "camera": "wrist_2",
+    "t0": 126,
+    "observed_source_indices": [
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
+    ],
+    "history_source_indices": [
+      124,
+      125,
+      126
+    ],
+    "future_source_indices": [
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146
+    ],
+    "source_fps": 10,
+    "model_fps": 15,
+    "hardware_timestamps_available": false,
+    "future_used_for_model_input": false,
+    "color_transform": "official BGR -> RGB",
+    "video_pixels_exact": true,
+    "object_info": {
+      "length": "L",
+      "size": "M",
+      "color": 3,
+      "shape": 1,
+      "angle": "vertical",
+      "distractor": "n"
+    },
+    "instruction": "Insert the red rectangular peg into the matching hole on the blue board.",
+    "target_object": "red rectangular peg",
+    "depth_scale_m_per_raw_unit": 0.0001,
+    "depth_scale_status": "SUPPORTED_HYPOTHESIS_NOT_RECORD_CONFIRMED"
+  },
+  "future_times": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0
+  ],
+  "future_times_dtype": "<f8",
+  "source_fps": 10,
+  "model_fps": 15,
+  "geometry_description": "camera_t0, moving camera with frozen observed hand-eye transform",
+  "reference_description": "AllTracker + sensor depth scale hypothesis + robot camera poses; estimated 3D",
+  "limitation": "Основной вариант использует кинематический прогноз по прошлым позам робота и ограниченную поправку MolmoMotion. Это не чистый выход нейросети; масштаб depth и hand-eye оценены.",
+  "observed_aux_arrays": {
+    "policy_reference": [
+      "camera_points",
+      "valid",
+      "uv",
+      "tcp",
+      "X",
+      "K",
+      "ids"
+    ]
+  },
+  "observed_aux_values": {
+    "motion_policy": {
+      "family": "full_TCP_pose",
+      "window": 3,
+      "damping_tau_s": 0.8,
+      "observed_target_ADE_m": 0.04130383728340217,
+      "valid_observed_validation_samples": 8260
+    }
+  },
+  "expected_prediction_sha256": "433ea139d69ba2021244d2dc7cc6eba06d11308abb2950044b0ef0b8509f55d0",
+  "original_source_sha256": {
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy": "b0d2fce623fb0a426ec3f0a1f502dcc20417275dc5ff14ffbb9fcdbaf2e1abe3",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy": "433ea139d69ba2021244d2dc7cc6eba06d11308abb2950044b0ef0b8509f55d0",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt": "a3f8603079754f5ff347593e842ab14e7b04dedf5d9a70f3e73e1e8e56da1a42",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt": "88504302447cb473ceb98ba0b2d2b64f2e19fff2f49d2a4a15183d76405e4eff",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt": "c0650809c6eaa1d8dbc2abed5388167227141b81a3c88e1bb7acf19d7f86dedd",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz": "25d69ca390037814ebdf9207d42a917b597a82369a2ac2610092279f0b77f27b",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy": "47c724b35acbde12efb4c3255c99f8cee802802d404d7b5e4e358dcac9a6ac85",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json": "0e71e5a299b03abcbb1c3694f22759f7a73085c6d34915afa4495a96981a4c99",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy": "ff3134960eef0c1c51f1988b609e0231445346b7badf706a099d28e9e1643502",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy": "aad7cef5067068ec9410d4b6c906d1b31179111fa87bb255f49d8186ddeaece3",
+    "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json": "ac49a96a692fbf6a4216a11dcd23a4fdaaec23a7e24e96d44417c1b1452d0351",
+    "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json": "e77dbbaca216b9d9ce5f943d9b6d4a3bb906433b743a2df7a6fc3dda756059c4",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz": "2d7c9469c90a54152371b6ee0402b475e51abedc5549cafec28f9af1ca82c02e",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz": "401adde92147f1ea3809890892d38d8d573a3b62e8b7afc7ecce0a212277376c",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy": "bd2e078e70a95f3a41f603d494f4dc388edb7b0a764b8a8d94d446ea33e22053",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4": "f667389a222c16861b763e6eaf4f6edb2c35d5b125d2dea82f78a09cae7f625b"
+  },
+  "observed_strides": {
+    "history_frames": [
+      196608,
+      768,
+      3,
+      1
+    ],
+    "history_timestamps": [
+      8
+    ],
+    "points_2d": [
+      8,
+      4
+    ],
+    "points_3d_history": [
+      288,
+      12,
+      4
+    ],
+    "point_ids": [
+      8
+    ],
+    "camera_intrinsics": [
+      24,
+      8
+    ],
+    "aux/policy_reference/camera_points": [
+      576,
+      24,
+      8
+    ],
+    "aux/policy_reference/valid": [
+      24,
+      1
+    ],
+    "aux/policy_reference/uv": [
+      192,
+      8,
+      4
+    ],
+    "aux/policy_reference/tcp": [
+      128,
+      32,
+      8
+    ],
+    "aux/policy_reference/X": [
+      32,
+      8
+    ],
+    "aux/policy_reference/K": [
+      24,
+      8
+    ],
+    "aux/policy_reference/ids": [
+      8
+    ]
+  }
+}

@@ -1,61 +1,12 @@
-"""Two prepared Berkeley native episodes, retaining physical 5 Hz timing."""
+"""Immutable berkeley bundle with preserved dataset-specific arithmetic."""
 import numpy as np
 
+from ..bundles import load_bundle
 from ..geometry import linear_velocity, project
-from ..io import Source
-from ..sample import ExperimentSample
 
 
 def load(config, root, evaluation=True):
-    s = Source(root)
-    scene = config["scene"]
-    base = f"runs/berkeley_ur5_molmomotion/{scene}"
-    model = ("runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle" if scene == "bottle" else base)
-    meta = s.json(model+"/metadata.json")
-    frames = s.array(model+"/observed/history_rgb.npy")
-    xyz = s.array(model+"/observed/points_3d_history.npy")
-    uv = s.array(model+"/observed/points_2d_history.npy")[-1]
-    ids = s.array(model+"/observed/selected_point_ids.npy")
-    timestamps = s.array(model+"/observed/history_timestamps.npy")
-    k = s.array(model+"/geometry/K_median.npy").astype(float)
-    model_files = s.files.copy()
-    saved = s.array(model+"/predictions/future_3d.npy")
-    processors = [s.path(model+f"/predictions/group_{g:02d}/processor_inputs.pt") for g in range(3)]
-    if not evaluation:
-        return ExperimentSample("berkeley", scene, frames, timestamps, uv, xyz, meta["instruction"], ids,
-                                np.arange(1, 11)/5, k, metadata=meta, source_files=s.files,
-                                model_input_files=model_files, legacy_processor_files=processors, saved_prediction=saved)
-    refs = s.array(base+"/evaluation/evaluation_results.npz")
-    ref3 = s.array(base+"/evaluation/ground_truth_3d_est.npz")
-    baseline_k = s.array(base+"/geometry/K_median.npy").astype(float)
-    # Same legacy conditional reference: sensor Z/tracker pixels reexpressed
-    # with the forecast's K. Do not mix the two candidate camera geometries.
-    gt3 = ref3["xyz"] @ (np.linalg.inv(k) @ baseline_k).T if scene == "bottle" else ref3["xyz"]
-    rgb = s.array(base+"/evaluation/future_rgb.npy")
-    phase = "runs/berkeley_ur5_arc_expansion_v1/phase_schedule"
-    old = phase+"/bottle/timing_group_02.mp4" if scene == "bottle" else "runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
-    metadata = dict(meta, title="Berkeley UR5 · "+scene,
-                    comparison_method="reference_0333" if scene == "bottle" else None,
-                    primary="late_036_lift005" if scene == "bottle" else "original_physical",
-                    shown_indices=list(range(16, 24)) if scene == "bottle" else list(range(8)),
-                    geometry="fixed camera; "+meta["K_source"], conditional_3d=True,
-                    reference="AllTracker 2D + sensor depth; candidate camera K, conditional 3D",
-                    history_indices=meta["history_source_indices"], future_indices=meta["future_source_indices"],
-                    old_video=old, metric_3d_ground_truth=False,
-                    old_panel_crop=[1280,0,640,480] if scene == "bottle" else [0,0,640,480],
-                    legacy_metric_file=phase+"/results.json" if scene == "bottle" else "runs/berkeley_ur5_improvement_v1/fixed_summary.json",
-                    limitation=("Параметры bottle и вариант выбраны в прежнем исследовании после просмотра результатов; это exploratory postprocessing, не независимый тест." if scene == "bottle" else
-                                "Сохранён исходный физический прогноз. Частоты входа 5 Hz и обучения 15 Hz различаются; K оценён, 3D reference условный."))
-    expected = (s.array(phase+"/bottle/projected_2d.npz") if scene == "bottle" else
-                s.array("runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz"))
-    return ExperimentSample("berkeley", scene, frames, timestamps, uv, xyz, meta["instruction"], ids,
-                            np.arange(1, 11)/5, k, metadata=metadata, source_files=s.files,
-                            model_input_files=model_files, legacy_processor_files=processors,
-                            saved_prediction=saved,
-                            evaluation=dict(rgb=rgb, xyz=gt3, uv=refs["ground_truth_2d"],
-                                            mask3=ref3["valid"], mask2=refs["common_visibility_mask"],
-                                            expected=expected, model_dir=model))
-
+    return load_bundle(config, root, evaluation=evaluation)
 
 def finish(sample, raw):
     p0 = sample.points_3d_history[-1].astype(float)

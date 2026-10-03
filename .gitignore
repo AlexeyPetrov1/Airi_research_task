@@ -7,3 +7,5 @@ __pycache__/
 data/checkpoints/
 outputs/
 *.log
+build/
+dist/

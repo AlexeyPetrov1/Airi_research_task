@@ -1,5 +1,6 @@
 {
   "name": "berkeley_cup",
   "dataset": "berkeley",
-  "scene": "cup"
+  "scene": "cup",
+  "bundle": "berkeley_cup"
 }

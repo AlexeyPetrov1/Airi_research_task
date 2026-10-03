@@ -1,94 +1,59 @@
-# MolmoMotion: финальные воспроизводимые эксперименты
+# MolmoMotion: воспроизводимые эксперименты
 
-Отдельный минимальный репозиторий для пунктов 1–2 задания AIRI. История исследования остаётся в соседнем `molmo-motion`; старые результаты не перезаписываются. Код модели скопирован из проверенного исходного репозитория без изменений: [Ai2](https://github.com/allenai/molmo-motion), Apache 2.0. Контрольные суммы находятся в `docs/model_source_snapshot.json`.
+Семь фиксированных примеров AIRI с общим CLI, метриками и визуализацией. Упаковка сохраняет поведение commit `70ed2c4`; алгоритмы и vendored-код [MolmoMotion](https://github.com/allenai/molmo-motion) не изменены.
 
-Выбранные примеры:
-
-| Конфиг | Что воспроизводится |
+| Конфиг | Пример |
 |---|---|
-| `configs/author_davis.json` | Велосипед: DAVIS `bmx-trees`, H3/F30, 8 точек, реальные кадры 3–32 |
-| `configs/fmb_wrist_1.json` | Нижняя левая панель указанного FMB видео: выбранная кинематика + ограниченная поправка MolmoMotion |
-| `configs/fmb_wrist_2.json` | Тот же FMB эпизод, вторая камера; собственные исходные точки |
-| `configs/berkeley_bottle.json` | Три варианта `timing_group_02.mp4`; основной — `late_036_lift005`, показана группа 02 |
-| `configs/berkeley_cup.json` | Левая панель `fixed_comparison.mp4`: `original_physical` |
-| `configs/dobbe.json` | `C/pure_vipe`: реальный прогноз, условная 2D диагностика |
-| `configs/dobbe_blocked.json` | Реальная ветка `C/hybrid`: `SKIPPED_GEOMETRY_GATE`, причина `static_median` |
+| `author_davis` | DAVIS BMX, авторский H3/F30, 8 точек |
+| `fmb_wrist_1`, `fmb_wrist_2` | Две FMB камеры, выбранная кинематика + ограниченная поправка MolmoMotion |
+| `berkeley_bottle` | Сохранённые bottle-варианты; основной `late_036_lift005` |
+| `berkeley_cup` | Основной `original_physical` |
+| `dobbe` | Dobb-E `pure_vipe`, условная 2D диагностика |
+| `dobbe_blocked` | Ожидаемая остановка hybrid по `static_median` до inference |
 
-## Установка
-
-Проверяемая среда: Linux/WSL2, Python 3.11, PyTorch 2.9.1+cu128, RTX 4070 12 GB. Создайте отдельную среду и установите пакет:
+Проверяемая среда: Linux/WSL2, Python 3.11, RTX 4070 12 GB. Точный снимок зависимостей: [configs/installed-packages-wsl.txt](configs/installed-packages-wsl.txt). Для TorchCodec нужны системные библиотеки FFmpeg.
 
 ```bash
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cu128
-pip install 'torchcodec==0.9.1' --index-url https://download.pytorch.org/whl/cpu --no-deps
-pip install -e '.[dev]'
-```
-
-Для TorchCodec нужны системные библиотеки FFmpeg. Точный снимок исходной рабочей среды: `configs/installed-packages-wsl.txt`. Прогноз использует BF16 и штатный greedy decoder. Модель не изменена, параметры по будущим данным не подбираются.
-
-## Данные и checkpoint
-
-`data/legacy/` содержит небольшую автономную копию подготовленных данных выбранных эпизодов: RGB history/future, исходные XYZ/UV, камеры, ID, прогнозы, метрики, сырой ответ модели и пакет процессора. Большие исходные датасеты не нужны для повторения этих фиксированных экспериментов. Это адаптеры уже подготовленных native-артефактов, а не повторный запуск ViPE/AllTracker/калибровки. Происхождение подготовки описано в `docs/legacy_inventory.md` и `docs/borrowed_functions.json`.
-
-`tests/golden/source/` — независимые копии прежних результатов, сохранённые **до** адаптации. `tests/golden/manifest.json` содержит SHA-256 и ожидаемый отрицательный статус. Эти файлы не пересоздаются новым pipeline.
-
-Для новой отрисовки DAVIS отдельно добавлены исходные RGB будущих кадров, без старых нарисованных точек. Они побайтно совпадают с декодированными кадрами прежнего эксперимента; происхождение и контрольные суммы — в `docs/evaluation_rgb_source.json`.
-
-Дополнительный старый подробный отчёт Berkeley зафиксирован в `docs/supplemental_reference_manifest.json`. Проверяются также прежние median/P90, PWT, ошибки по точкам, baseline-проекции и показатели формы; существующие эталоны не перезаписываются.
-
-Для запуска модели скачайте **только** нативный checkpoint:
-
-```bash
+pip install torchcodec==0.9.1 --index-url https://download.pytorch.org/whl/cpu --no-deps
+pip install '.[dev]'
 hf download allenai/MolmoMotion-4B-H3-F30 config.yaml model.pt \
   --revision 3f5e790a511ff2cdf21c8d2a14cb4d8409c94629 \
   --local-dir data/checkpoints/MolmoMotion-4B-H3-F30
 ```
 
-Веса занимают около 18 GB. На данной машине можно использовать уже скачанный checkpoint через `--checkpoint ../molmo-motion/data/checkpoints/MolmoMotion-4B-H3-F30`; код и данные нового репозитория самостоятельны. При конкурирующем крупном вычислении inference ожидает освобождения памяти, не прерывая другие процессы.
+Веса занимают около 18 GB. Immutable-наборы `fixtures/` содержат точные наблюдаемые входы, отдельные evaluation-данные и единственную копию прогнозов для replay. RGB хранится lossless; большие исходные датасеты и повторная подготовка геометрии не нужны. Wheel включает конфиги и fixtures.
 
-## Один способ запуска
-
-Из любого каталога после `pip install -e .`:
+Новый inference (BF16, штатный greedy decoder, seed 0):
 
 ```bash
-molmo-motion-experiment --config configs/fmb_wrist_1.json
-molmo-motion-experiment --config configs/berkeley_bottle.json configs/berkeley_cup.json
-molmo-motion-experiment --config configs/dobbe.json configs/dobbe_blocked.json
-molmo-motion-experiment --config configs/author_davis.json
+molmo-motion-experiment --config configs/fmb_wrist_1.json \
+  --checkpoint /absolute/path/to/MolmoMotion-4B-H3-F30
 ```
 
-Эквивалент: `python -m motion_experiments.run ...`. Относительные пути конфигов разрешаются от корня репозитория. По умолчанию выполняется **новый inference**. Три P8-вызова дают все 24 точки FMB/Berkeley; все точки участвуют в метриках, 8 выбранных — в основном видео.
+Эквивалент: `python -m motion_experiments.run ...`. Команда доступна из любого каталога; относительные пути конфигов разрешаются внутри установленного пакета. Для 24 точек выполняются три P8-вызова; метрики используют все точки, основное видео показывает выбранные восемь.
 
-Быстрая проверка вычислений и новой визуализации на прежнем прогнозе:
+Replay всех примеров:
 
 ```bash
 molmo-motion-experiment --config configs/author_davis.json configs/fmb_wrist_1.json \
   configs/fmb_wrist_2.json configs/berkeley_bottle.json configs/berkeley_cup.json \
-  configs/dobbe.json configs/dobbe_blocked.json --mode replay
+  configs/dobbe.json configs/dobbe_blocked.json --mode replay \
+  --checkpoint /absolute/path/to/MolmoMotion-4B-H3-F30
 ```
 
-Режим `replay` проверяет процессор и использует сохранённый neural forecast; новый вызов модели он не доказывает. Режим и `fresh_inference` записываются во все результаты. Новые запуски всегда получают отдельный каталог `outputs/<run_id>/`; существующий каталог не перезаписывается.
+Результаты создаются в уникальном `outputs/<run_id>/`: откройте `index.html`. Сохраняются входы, протокол, прогнозы, метрики, ошибки, 2D/3D координаты, графики и видео. Можно указать `--output /absolute/path/to/new/run`; существующие каталоги и fixtures защищены от записи. Для повторной отрисовки свежего завершённого inference добавьте `--mode replay --predictions-from /absolute/path/to/inference_run`.
 
-Чтобы после нового inference повторить оформление без повторной GPU-генерации, добавьте к `--mode replay` аргумент `--predictions-from outputs/<inference_run>`. Проверяются завершённый статус, SHA-256 нового прогноза и одинаковые наблюдаемые входы. Источник прогноза явно записывается в metadata.
-
-## Результаты и проверка
-
-Готовая галерея на этой машине: [outputs/final_corrected/index.html](outputs/final_corrected/index.html). Для неё выполнены 14 новых P8-вызовов модели; все шесть neural forecasts совпали с прежними координатами точно (`max_difference_m = 0`). После новой отрисовки прошёл полный набор из 51 теста без пропусков и проверка 394 сохранённых исходных артефактов. Все семь конфигов запускались из `/tmp`; отрицательная ветка Dobb-E остановилась с ожидаемой причиной. Протокол: [docs/verification.json](docs/verification.json), описание траекторий и ограничений: [docs/results.md](docs/results.md).
-
-Откройте `outputs/<run_id>/index.html`. В каждом примере: `inputs/canonical.npz`, точные пакеты процессора, `prediction_parity.json`, `metrics.json`, ошибки NPZ, прогноз и сравнение с реальным продолжением MP4, точки на изображении, полные 2D/3D траектории, XYZ по времени, ADE/FDE и графики 2D/3D ошибок. `render_receipt.json` проверяет декодированное число кадров и сохраняет координаты для проверки отрисовки.
+Полная проверка после изменений из checkout:
 
 ```bash
-pytest -q
+MOLMO_CHECKPOINT=/absolute/path/to/MolmoMotion-4B-H3-F30 pytest -q
+python tools/verify_final.py --checkpoint /absolute/path/to/MolmoMotion-4B-H3-F30 \
+  --baseline-run /absolute/path/to/baseline_replay --python /absolute/path/to/installed/env/bin/python
 ```
 
-Тесты сравнивают исходные входы, кадры, время, геометрию, прогнозы, static/CV, старые метрики и отрицательную ветку Dobb-E. Для DAVIS/FMB/Berkeley все поля сохранённых пакетов процессора сравниваются точно. Dobb-E не сохранил старый полный пакет: проверяются точный SHA-256 сериализованных input IDs и сохранённая проверка эквивалентности camera/world; полноту старого пакета подтвердить нельзя. Прогнозы сравниваются с `atol=1e-7 m`, проекции — с явно указанными допусками. Без установленного checkpoint config тесты процессора обозначены как skipped; для полной проверки config должен быть установлен.
+Verifier запускает тесты, все семь replay, новый inference всех шести успешных примеров, отрицательный gate и `--predictions-from`; сравнивает результаты с baseline и пишет [docs/final_verification.json](docs/final_verification.json) и [docs/final_verification.md](docs/final_verification.md). Без нового inference задача считается FAIL. Требования: [docs/GOAL.md](docs/GOAL.md), происхождение: [docs/provenance.json](docs/provenance.json), размеры: [docs/packaging_report.md](docs/packaging_report.md).
 
-## Существенные ограничения
-
-DAVIS сохраняет авторский пример с XYZ в общей системе первой камеры. Покадровых extrinsics нет, поэтому прогноз показан отдельно в 3D и диагностически в первой камере; достоверная 2D ошибка не заявляется. FMB использует оценённый depth scale и hand-eye, Berkeley — оценённый/candidate K; их 3D reference условный. Улучшения FMB включают роботную кинематику. Bottle сохраняет прежний исследовательский postprocessing и визуальный выбор, поэтому его нельзя выдавать за независимый blind test.
-
-Сохранены и прежние частоты истории: DAVIS 24 Hz, FMB 10 Hz, Berkeley 5 Hz при обучении checkpoint на 15 Hz. Графики показывают физическое время исходного видео; соответствие шагов и прежняя интерполяция прогноза воспроизводятся без нового пересэмплинга истории.
-
-Dobb-E `pure_vipe` действительно прошёл прежний estimated geometry gate, но не имеет подтверждённого 3D эталона. Его 2D сравнение зависит от гипотезы поз и K. Отдельный `hybrid` действительно отвергнут: median static reprojection **5.524 px > 4 px**. Для него pipeline сохраняет причину остановки и не создаёт прогноз или метрики.
+DAVIS использует общую систему первой камеры; покадрового 2D ADE/FDE нет. FMB depth/hand-eye и Berkeley K оценены, поэтому 3D reference условный. Bottle postprocessing и визуальный выбор относятся к прежнему исследованию. Частоты истории сохранены: DAVIS 24 Hz, FMB 10 Hz, Berkeley 5 Hz при обучении на 15 Hz. Dobb-E не имеет подтверждённого 3D GT; hybrid отвергается по median static reprojection 5.524 px > 4 px. Для Dobb-E исходный полный processor packet отсутствовал: сохраняется точный input IDs SHA-256 и прежнее свидетельство camera/world equivalence; для остальных примеров сравниваются точные типы, формы, dtype и SHA-256 всех полей.

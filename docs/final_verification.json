@@ -1,0 +1,349 @@
+{
+  "success": true,
+  "baseline_commit": "70ed2c413eee5e3b9dc1324e2c87ff333ee88334",
+  "started_at_utc": "2026-10-03T21:54:47.102742+00:00",
+  "execution_cwd": "/tmp",
+  "python": "/mnt/f/AIRI_task/.packaging_work/venv/bin/python",
+  "checkpoint_revision": "3f5e790a511ff2cdf21c8d2a14cb4d8409c94629",
+  "inference_run": "outputs/packaging_final_inference",
+  "checkpoint_sha256": {
+    "config.yaml": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+    "model.pt": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205"
+  },
+  "prediction_atol_m": 1e-07,
+  "prediction_rtol": 0,
+  "runtime_sha256": {
+    "src/motion_experiments/bundles.py": "19dec2b9dbd1b9783e2e438154418348189948df4f605aa07c3cd38aa5c3e023",
+    "src/motion_experiments/fingerprints.py": "0ca885767a17c75bab3d3d4593bd07fdd7950d373a44cc057f54ad6d268ad1c2",
+    "src/motion_experiments/geometry.py": "7c2c377f512d69cf3d247466829770d8dd8c21794f29e1843c071634e9c3f5c0",
+    "src/motion_experiments/io.py": "03dbfdab188efc720969263055a6c111505871b5ceab9e74baf0696e6cf6d7cb",
+    "src/motion_experiments/metrics.py": "fafd1b47e2a39a633f78baa5d753b21a6faa521e3211e86e04aa8a90d4b4b54f",
+    "src/motion_experiments/molmomotion.py": "bc22645463d1d2ddcd0c829551e31de75bdae0bfd10752344ce257d61ca206dc",
+    "src/motion_experiments/robot_motion.py": "0440bb2315846ca367312b39c8aee0b9614b1590f2afe51a08c62cb3faf0479e",
+    "src/motion_experiments/run.py": "c94f40a86b60c558dec2230535f2bc49765ea9e28920dfe31ec3cdd2b25279ba",
+    "src/motion_experiments/sample.py": "5bc0c0e1bdf403bdce115f53f6480319269981b99aab5fde0631c11327bcbb70",
+    "src/motion_experiments/visualization.py": "9b13c0262b5adc7d991ebdf7e16e13d4a5fe1e92a6955c502ed3187fe3f64d38",
+    "src/motion_experiments/__init__.py": "8da36bfe2fa062c3a585cf6ebcae1b7db33161410e6d1256f35efbd785892eb8",
+    "src/motion_experiments/datasets/berkeley.py": "645de56a725734643e5c17cfb83a17ff56aef1d9d2eacda7a46d2f412923ba5c",
+    "src/motion_experiments/datasets/davis.py": "29622246c4f836172547bafac3cd9fbe80c60c4a0d2e32486c5ee2a477bb53b2",
+    "src/motion_experiments/datasets/dobbe.py": "48a4409e7bac879d01d088cb33c991212c6f26490ce17e14229641a04ca36a86",
+    "src/motion_experiments/datasets/fmb.py": "5d4478413b585675e725f068f5c04d2737d7e968f1049fc614c65416f02d1b53",
+    "src/motion_experiments/datasets/__init__.py": "8e7ce230e203d76c6e1aa792067875c64c2c053af69edce3ec1ac0e3e5f0795b"
+  },
+  "cases": [
+    {
+      "config": "author_davis",
+      "status": "COMPLETE",
+      "fresh_inference": true,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 297.5710835699999,
+      "peak_cuda_memory": {
+        "allocated_gib": 9.738309860229492,
+        "reserved_gib": 10.58984375
+      },
+      "result": "PASS",
+      "image_dimensions_match": true,
+      "image_pixels_match": true,
+      "figure_count": 12
+    },
+    {
+      "config": "fmb_wrist_1",
+      "status": "COMPLETE",
+      "fresh_inference": true,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 440.489889337,
+      "peak_cuda_memory": {
+        "allocated_gib": 9.635071277618408,
+        "reserved_gib": 10.5859375
+      },
+      "result": "PASS",
+      "image_dimensions_match": true,
+      "image_pixels_match": true,
+      "figure_count": 13
+    },
+    {
+      "config": "fmb_wrist_2",
+      "status": "COMPLETE",
+      "fresh_inference": true,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 364.0579854939999,
+      "peak_cuda_memory": {
+        "allocated_gib": 9.57863473892212,
+        "reserved_gib": 10.5859375
+      },
+      "result": "PASS",
+      "image_dimensions_match": true,
+      "image_pixels_match": true,
+      "figure_count": 13
+    },
+    {
+      "config": "berkeley_bottle",
+      "status": "COMPLETE",
+      "fresh_inference": true,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 482.20918822600015,
+      "peak_cuda_memory": {
+        "allocated_gib": 9.660340785980225,
+        "reserved_gib": 10.5859375
+      },
+      "result": "PASS",
+      "image_dimensions_match": true,
+      "image_pixels_match": true,
+      "figure_count": 13
+    },
+    {
+      "config": "berkeley_cup",
+      "status": "COMPLETE",
+      "fresh_inference": true,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 454.44127905100004,
+      "peak_cuda_memory": {
+        "allocated_gib": 9.659496784210205,
+        "reserved_gib": 10.5859375
+      },
+      "result": "PASS",
+      "image_dimensions_match": true,
+      "image_pixels_match": true,
+      "figure_count": 13
+    },
+    {
+      "config": "dobbe",
+      "status": "COMPLETE",
+      "fresh_inference": true,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 158.1774766100002,
+      "peak_cuda_memory": {
+        "allocated_gib": 9.647338390350342,
+        "reserved_gib": 10.5859375
+      },
+      "result": "PASS",
+      "image_dimensions_match": true,
+      "image_pixels_match": true,
+      "figure_count": 13
+    },
+    {
+      "config": "dobbe_blocked",
+      "status": "SKIPPED_GEOMETRY_GATE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": null,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 0.0634456580000915,
+      "peak_cuda_memory": null,
+      "result": "PASS",
+      "checks_applicability": "Forecast/metrics/media intentionally absent after expected geometry gate",
+      "image_dimensions_match": null,
+      "image_pixels_match": null,
+      "figure_count": 0
+    }
+  ],
+  "installed_package": {
+    "model": "/mnt/f/AIRI_task/.packaging_work/venv/lib/python3.11/site-packages/molmo_motion/__init__.py",
+    "package": "/mnt/f/AIRI_task/.packaging_work/venv/lib/python3.11/site-packages/motion_experiments/__init__.py",
+    "data": "/mnt/f/AIRI_task/.packaging_work/venv/share/molmo-motion-experiments"
+  },
+  "pytest_before": ".............................................................            [100%]\n=============================== warnings summary ===============================\ntests/test_author_import_surface.py::test_top_level_public_api\n  /mnt/f/AIRI_task/molmo-motion-final/src/molmo_motion/data/dataset.py:17: UserWarning: MOLMO_DATA_DIR is not set, data loading might fail\n    warnings.warn(\"MOLMO_DATA_DIR is not set, data loading might fail\")\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n61 passed, 1 warning in 78.15s (0:01:18)\n",
+  "replay_cases": [
+    {
+      "config": "author_davis",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 61.60493063199999,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "fmb_wrist_1",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 6.246843369999965,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "fmb_wrist_2",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 6.780299060999937,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "berkeley_bottle",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 6.156060290999903,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "berkeley_cup",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 5.967082619999928,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "dobbe",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 5.486946843000055,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "dobbe_blocked",
+      "status": "SKIPPED_GEOMETRY_GATE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": null,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 0.06046878299991931,
+      "peak_cuda_memory": null,
+      "result": "PASS",
+      "checks_applicability": "Forecast/metrics/media intentionally absent after expected geometry gate"
+    }
+  ],
+  "predictions_from_cases": [
+    {
+      "config": "author_davis",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 66.09907283300026,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "fmb_wrist_1",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 6.772182358000009,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "fmb_wrist_2",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 7.290136349000022,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "berkeley_bottle",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 6.354325665999568,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "berkeley_cup",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 6.456460082999911,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "dobbe",
+      "status": "COMPLETE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": 0.0,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 5.6333478110000215,
+      "peak_cuda_memory": null,
+      "result": "PASS"
+    },
+    {
+      "config": "dobbe_blocked",
+      "status": "SKIPPED_GEOMETRY_GATE",
+      "fresh_inference": false,
+      "prediction_max_difference_m": null,
+      "metrics_match": true,
+      "baselines_match": true,
+      "visualization_geometry_match": true,
+      "runtime": 0.062260521999633056,
+      "peak_cuda_memory": null,
+      "result": "PASS",
+      "checks_applicability": "Forecast/metrics/media intentionally absent after expected geometry gate"
+    }
+  ],
+  "pytest_after": ".............................................................            [100%]\n=============================== warnings summary ===============================\ntests/test_author_import_surface.py::test_top_level_public_api\n  /mnt/f/AIRI_task/molmo-motion-final/src/molmo_motion/data/dataset.py:17: UserWarning: MOLMO_DATA_DIR is not set, data loading might fail\n    warnings.warn(\"MOLMO_DATA_DIR is not set, data loading might fail\")\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n61 passed, 1 warning in 80.48s (0:01:20)\n",
+  "fresh_model_calls": 14,
+  "finished_at_utc": "2026-10-03T22:40:06.812630+00:00",
+  "runtime_seconds": 2719.7500450611115,
+  "visual_media_verification": {
+    "path": "docs/media_verification.json",
+    "success": true,
+    "figures_checked": 77,
+    "scope": "Every generated PNG/JPEG figure has identical dimensions and decoded pixels to baseline replay"
+  }
+}

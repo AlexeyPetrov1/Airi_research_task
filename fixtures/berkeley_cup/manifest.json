@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "dataset": "berkeley",
+  "episode_id": "cup",
+  "action": "Pick up the blue cup and put it into the brown cup.",
+  "expected_status": "COMPLETE",
+  "observed_metadata": {
+    "scene": "cup",
+    "source_episode_id": 10,
+    "episode_id": 10,
+    "instruction": "Pick up the blue cup and put it into the brown cup.",
+    "task": "Pick up the blue cup and put it into the brown cup.",
+    "target_object": "blue cup",
+    "source_task_text": 2,
+    "source_repo": "lerobot/berkeley_autolab_ur5",
+    "source_revision": "6306aa91c00b9b0de28831b7fceaa42b8096bb4f",
+    "camera": "observation.images.image",
+    "source_fps": 5,
+    "model_training_fps": 15,
+    "t0": 63,
+    "t0_source_frame": 63,
+    "t0_seconds": 12.600000381469727,
+    "observed_source_indices": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "history_source_indices": [
+      61,
+      62,
+      63
+    ],
+    "history_timestamps": [
+      12.199999809265137,
+      12.399999618530273,
+      12.600000381469727
+    ],
+    "future_source_indices": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "future_timestamps": [
+      12.800000190734863,
+      13.0,
+      13.199999809265137,
+      13.399999618530273,
+      13.600000381469727,
+      13.800000190734863,
+      14.0,
+      14.199999809265137,
+      14.399999618530273,
+      14.600000381469727
+    ],
+    "prediction_evaluation_indices": [
+      2,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29
+    ],
+    "source_video": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/videos/chunk-000/observation.images.image/episode_000010.mp4",
+    "source_parquet": "/mnt/f/AIRI_task/data/berkeley_ur5_two_scenes/data/chunk-000/episode_000010.parquet",
+    "source_sha256": {
+      "video": "0331794ed344fa7b17c11fe722ac5a47038483037d4b4cbdc0f125226ab011ef",
+      "parquet": "640c5fbafec7976bd8f83d36e5e0f0f4f64ab845b6a004a34c5a1a2b7831c156"
+    },
+    "selection_reason": "Printed motif gives visible texture for persistent points; exposed cup separated from brown cup; ep4 initial overlap, ep7/12 plain sides.",
+    "selection_policy": "Data quality only; episode/t0 screening precedes predictions. Future screening used only to select episode/t0, never to form model inputs.",
+    "future_used_for_model_input": false,
+    "warnings": [
+      "H3 uses real adjacent 5 FPS frames [-0.4,-0.2,0] seconds; temporal distribution shift from training at 15 FPS.",
+      "Future tracking is a tracker-based reference, not manually measured physical point ground truth."
+    ],
+    "created_utc": "2026-10-02T22:16:43.440634+00:00",
+    "depth_source": "RealSense measured aligned metric depth (TFDS float32)",
+    "K_source": "UniDepthV2 estimated intrinsics, observed robust median"
+  },
+  "future_times": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0
+  ],
+  "future_times_dtype": "<f8",
+  "source_fps": 5,
+  "model_fps": 15,
+  "geometry_description": "fixed camera; UniDepthV2 estimated intrinsics, observed robust median",
+  "reference_description": "AllTracker 2D + sensor depth; candidate camera K, conditional 3D",
+  "limitation": "Сохранён исходный физический прогноз. Частоты входа 5 Hz и обучения 15 Hz различаются; K оценён, 3D reference условный.",
+  "expected_prediction_sha256": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+  "original_source_sha256": {
+    "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz": "8f0a6b147eb0fc60b3227bc1488d7b0e52f6c0bc56ec7139cd867775fec6a62c",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz": "5cd5c66c58ced9ef3ad286bda31d2bfee67a063258080335d93c25ba5a4c983d",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy": "fffac4f1e234b1f3dacc7ffc5cb9deab3388d45dc23ec231be327b7df2da68b8",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz": "ae277c82eb78c65e433a62a829045b3d4ab0d38dc34b0099627823b7fb769aa9",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy": "ff3ee7f56cad0b9d83d7114a4041fcb56e82680cb7300aeb67da6669689d5ac6",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json": "cb1bd498599fc94e7f54b6758599ecb7851261f703e13e715020abf7c0116768",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy": "044993555f03db3e33fe28ecbfbf26b977d86c861883d4493946a11469e83790",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy": "abdfce853ee5c60e7e4b9ab9d70a88df9e20a03e66dff544fb1bb4e985251300",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy": "02ff70af9f1602776093934c2e3257e6185fe006422cf3b59d5b5f5f269d70d0",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy": "b74aa0489dc7e297ecedda528ff55a6585b9407a7b1ac41c079f635de2ef9040",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy": "c16d7084ea005f061e9526546b3c9acbb097460b639bfe045f3f8273ed002632",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt": "8673359314531dcd460f8b20edf731b61ffc4a1f8806436f94584a1fceb1d7e3",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt": "545c1585df07399e54169250ac47dd24eb01f411efdcf7d935fbcb7b45f3f234",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt": "d4d357cf1509d978fabaf552869ea447cf52c3bd421e063c3d59595d22e0da46",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca"
+  },
+  "observed_strides": {
+    "history_frames": [
+      921600,
+      1920,
+      3,
+      1
+    ],
+    "history_timestamps": [
+      4
+    ],
+    "points_2d": [
+      8,
+      4
+    ],
+    "points_3d_history": [
+      288,
+      12,
+      4
+    ],
+    "point_ids": [
+      8
+    ],
+    "camera_intrinsics": [
+      24,
+      8
+    ]
+  }
+}

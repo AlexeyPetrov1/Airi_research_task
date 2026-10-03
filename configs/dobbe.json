@@ -1,5 +1,6 @@
 {
   "name": "dobbe",
   "dataset": "dobbe",
-  "variant": "pure_vipe"
+  "variant": "pure_vipe",
+  "bundle": "dobbe_pure_vipe"
 }

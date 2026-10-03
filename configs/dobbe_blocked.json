@@ -1,5 +1,6 @@
 {
   "name": "dobbe_blocked",
   "dataset": "dobbe",
-  "variant": "hybrid"
+  "variant": "hybrid",
+  "bundle": "dobbe_hybrid"
 }

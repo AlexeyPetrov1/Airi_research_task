@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "molmo-motion-experiments"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reproducible final MolmoMotion experiments: DAVIS, FMB, Berkeley and Dobb-E"
 requires-python = ">=3.10"
 dependencies = [
@@ -23,6 +23,23 @@ molmo-motion-experiment = "motion_experiments.run:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.data-files]
+"share/molmo-motion-experiments/configs" = ["configs/*.json"]
+"share/molmo-motion-experiments/fixtures/davis_bmx_trees" = ["fixtures/davis_bmx_trees/*.json", "fixtures/davis_bmx_trees/*.npz", "fixtures/davis_bmx_trees/*.npy"]
+"share/molmo-motion-experiments/fixtures/davis_bmx_trees/media" = ["fixtures/davis_bmx_trees/media/*"]
+"share/molmo-motion-experiments/fixtures/fmb_wrist_1" = ["fixtures/fmb_wrist_1/*.json", "fixtures/fmb_wrist_1/*.npz", "fixtures/fmb_wrist_1/*.npy"]
+"share/molmo-motion-experiments/fixtures/fmb_wrist_1/media" = ["fixtures/fmb_wrist_1/media/*"]
+"share/molmo-motion-experiments/fixtures/fmb_wrist_2" = ["fixtures/fmb_wrist_2/*.json", "fixtures/fmb_wrist_2/*.npz", "fixtures/fmb_wrist_2/*.npy"]
+"share/molmo-motion-experiments/fixtures/fmb_wrist_2/media" = ["fixtures/fmb_wrist_2/media/*"]
+"share/molmo-motion-experiments/fixtures/berkeley_bottle" = ["fixtures/berkeley_bottle/*.json", "fixtures/berkeley_bottle/*.npz", "fixtures/berkeley_bottle/*.npy"]
+"share/molmo-motion-experiments/fixtures/berkeley_bottle/media" = ["fixtures/berkeley_bottle/media/*"]
+"share/molmo-motion-experiments/fixtures/berkeley_cup" = ["fixtures/berkeley_cup/*.json", "fixtures/berkeley_cup/*.npz", "fixtures/berkeley_cup/*.npy"]
+"share/molmo-motion-experiments/fixtures/berkeley_cup/media" = ["fixtures/berkeley_cup/media/*"]
+"share/molmo-motion-experiments/fixtures/dobbe_pure_vipe" = ["fixtures/dobbe_pure_vipe/*.json", "fixtures/dobbe_pure_vipe/*.npz", "fixtures/dobbe_pure_vipe/*.npy"]
+"share/molmo-motion-experiments/fixtures/dobbe_pure_vipe/media" = ["fixtures/dobbe_pure_vipe/media/*"]
+"share/molmo-motion-experiments/fixtures/dobbe_hybrid" = ["fixtures/dobbe_hybrid/*.json", "fixtures/dobbe_hybrid/*.npz"]
+"share/molmo-motion-experiments/fixtures/shared" = ["fixtures/shared/*.npz"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

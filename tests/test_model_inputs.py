@@ -14,7 +14,7 @@ def test_exact_original_processor_packets(name):
     if not (checkpoint/"config.yaml").exists():
         pytest.skip("Install the pinned checkpoint config to exercise processor parity")
     config=read_json(ROOT/"configs"/(name+".json"))
-    sample=ADAPTERS[config["dataset"]].load(config,ROOT/"data/legacy",evaluation=False)
+    sample=ADAPTERS[config["dataset"]].load(config,ROOT/"fixtures",evaluation=False)
     batches,checks=build_inputs(sample,checkpoint)
     assert len(batches) == len(sample.point_ids)//8
     assert all(all(group.values()) for group in checks)

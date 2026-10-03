@@ -1,8 +1,0 @@
-{
-  "status": "FAILED_BEFORE_NEW_GENERATION",
-  "new_generation_started": false,
-  "error": "Resume validator referenced the local xyz slice before assigning it.",
-  "correction": "Load the group's frozen XYZ before validating its completed output.",
-  "checkpoint_or_frozen_inputs_changed": false,
-  "completed_outputs_discarded": false
-}

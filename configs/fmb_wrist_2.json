@@ -1,5 +1,6 @@
 {
   "name": "fmb_wrist_2",
   "dataset": "fmb",
-  "camera": "wrist_2"
+  "camera": "wrist_2",
+  "bundle": "fmb_wrist_2"
 }

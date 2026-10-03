@@ -9,6 +9,7 @@ from decimal import Decimal
 import numpy as np
 
 from .io import read_json, sha, write_json
+from .fingerprints import fingerprint
 
 
 def strict_parse(text, history=3, horizon=30):
@@ -52,28 +53,19 @@ def build_inputs(sample, checkpoint, dest=None):
         if sample.c2w_at_t0 is not None:
             kwargs["c2w_at_t0"] = torch.from_numpy(sample.c2w_at_t0).float()
         batch = processor(**kwargs)
-        if sample.legacy_processor_files:
-            old = torch.load(sample.legacy_processor_files[group], map_location="cpu", weights_only=False)
-            if set(batch) != set(old):
-                raise ValueError("Processor output keys differ from legacy")
-            def same(left, right):
-                if torch.is_tensor(left):
-                    return bool(torch.equal(left, right))
-                if isinstance(left, np.ndarray):
-                    return bool(np.array_equal(left, right))
-                if isinstance(left, dict):
-                    return set(left) == set(right) and all(same(left[k], right[k]) for k in left)
-                if isinstance(left, (list, tuple)):
-                    return len(left) == len(right) and all(same(a,b) for a,b in zip(left,right))
-                return left == right
-            equal = {key: same(value, old[key]) for key, value in batch.items()}
-        else:
+        expected = sample.processor_fingerprints[group]
+        if expected['type'] == 'dict':
+            actual = fingerprint(batch)
+            if set(actual['fields']) != set(expected['fields']):
+                raise ValueError("Processor output keys differ from baseline")
+            equal = {key:actual['fields'][key] == expected['fields'][key] for key in actual['fields']}
+        elif expected['type'] == 'partial':
             # Dobb-E did not save its original packet, but did save the exact
             # serialized input checksum plus camera/world processor equivalence.
-            equivalence = read_json(next(p.parent/"processor_equivalence.json" for p in sample.model_input_files
-                                        if p.name == "points_3d_world.npy"))
             import hashlib
-            equal = {"input_ids_sha256": hashlib.sha256(batch["input_ids"].numpy().tobytes()).hexdigest() == equivalence["input_ids_sha256"]}
+            equal = {"input_ids_sha256": hashlib.sha256(batch["input_ids"].numpy().tobytes()).hexdigest() == expected["input_ids_sha256"]}
+        else:
+            raise ValueError('Unsupported processor fingerprint schema')
         if not all(equal.values()):
             raise ValueError(f"Model input differs from legacy: {equal}")
         checks.append(equal)

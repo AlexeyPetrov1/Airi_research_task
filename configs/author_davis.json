@@ -1,4 +1,5 @@
 {
   "name": "author_davis",
-  "dataset": "davis"
+  "dataset": "davis",
+  "bundle": "davis_bmx_trees"
 }

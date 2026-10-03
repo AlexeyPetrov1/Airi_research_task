@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Dobb-E · drawer",
+    "primary": "MolmoMotion",
+    "geometry": "ViPE-estimated OpenCV world-frame geometry; not metric GT",
+    "reference": "independent AllTracker; projection conditional on published pose convention and causal ViPE K",
+    "history_indices": [
+      56,
+      58,
+      60
+    ],
+    "future_indices": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110,
+      112,
+      114,
+      116,
+      118,
+      120
+    ],
+    "future_used_for_model_input": false,
+    "metric_3d_ground_truth": false,
+    "source_fps": 30,
+    "model_fps": 15,
+    "shown_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variant": "pure_vipe",
+    "geometry_gate": {
+      "molmo_ready": true,
+      "status": "PASS_ESTIMATED_GEOMETRY",
+      "checks": {
+        "complete_history_eight": true,
+        "sixteen_real_anchors": true,
+        "static_evidence": true,
+        "static_median": true,
+        "static_p90": true,
+        "rigid_history": true,
+        "stable_focal": true,
+        "depth_scale_supported": true
+      },
+      "metric_ground_truth": false,
+      "future_used": false,
+      "selected_ids": [
+        37,
+        97,
+        60,
+        51,
+        52,
+        67,
+        21,
+        6
+      ],
+      "depth_source": "ViPE",
+      "smoothing": true
+    },
+    "old_video": "dobbe_pure_vipe/media/legacy_comparison.mp4",
+    "failure_detail": null,
+    "old_panel_crop": [
+      0,
+      56,
+      512,
+      512
+    ],
+    "limitation": "2D ошибка условна: позы камер и K не подтверждены физической калибровкой. Эталонного 3D нет. Hybrid остановлен по static_median."
+  },
+  "values": {
+    "xyz": null,
+    "mask3": null
+  },
+  "arrays": [
+    "rgb",
+    "uv",
+    "mask2",
+    "visibility2",
+    "initial_camera"
+  ],
+  "nested_arrays": {},
+  "strides": {
+    "rgb": [
+      196608,
+      768,
+      3,
+      1
+    ],
+    "uv": [
+      8,
+      64,
+      4
+    ],
+    "mask2": [
+      1,
+      8
+    ],
+    "visibility2": [
+      1,
+      8
+    ],
+    "initial_camera": [
+      12,
+      4
+    ],
+    "camera_intrinsics": [
+      24,
+      8
+    ],
+    "camera_poses": [
+      128,
+      32,
+      8
+    ]
+  }
+}

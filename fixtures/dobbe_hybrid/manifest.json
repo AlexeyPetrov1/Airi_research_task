@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "dataset": "dobbe",
+  "episode_id": "C/hybrid",
+  "action": "Close the drawer.",
+  "expected_status": "SKIPPED_GEOMETRY_GATE",
+  "observed_metadata": {
+    "title": "Dobb-E · drawer",
+    "primary": "MolmoMotion",
+    "geometry": "ViPE-estimated OpenCV world-frame geometry; not metric GT",
+    "reference": "independent AllTracker; projection conditional on published pose convention and causal ViPE K",
+    "history_indices": [
+      56,
+      58,
+      60
+    ],
+    "future_indices": [
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110,
+      112,
+      114,
+      116,
+      118,
+      120
+    ],
+    "future_used_for_model_input": false,
+    "metric_3d_ground_truth": false,
+    "source_fps": 30,
+    "model_fps": 15,
+    "shown_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variant": "hybrid",
+    "geometry_gate": {
+      "molmo_ready": false,
+      "status": "REJECT_ESTIMATED_GEOMETRY",
+      "checks": {
+        "complete_history_eight": true,
+        "sixteen_real_anchors": true,
+        "static_evidence": true,
+        "static_median": false,
+        "static_p90": true,
+        "rigid_history": true,
+        "stable_focal": true,
+        "depth_scale_supported": true,
+        "rgb_depth_alignment_reviewed": true
+      },
+      "metric_ground_truth": false,
+      "future_used": false,
+      "selected_ids": [
+        37,
+        97,
+        60,
+        51,
+        52,
+        67,
+        21,
+        6
+      ],
+      "depth_source": "measured DobbE optical-Z hypothesis",
+      "static_cross_frame_px": {
+        "count": 372,
+        "median": 5.524352476763141,
+        "p90": 7.838444075683769
+      },
+      "rigid_history_unsmoothed": {
+        "absolute_estimated_units": {
+          "count": 84,
+          "median": 0.0016710005395225713,
+          "p90": 0.010563614757131986
+        },
+        "relative_to_t0_median_pair_distance": {
+          "count": 84,
+          "median": 0.012011338882831743,
+          "p90": 0.07593244506781964
+        },
+        "t0_median_pair_distance": 0.13911859084344003
+      },
+      "translation_scale": "ViPE c2w retained unchanged; no fitted rescaling",
+      "smoothing": false,
+      "caveat": "Compare with pure_vipe_unsmoothed for a strict depth-only ablation."
+    },
+    "failure_detail": "static_median: 5.524352 px > 4 px; failed checks: static_median",
+    "old_panel_crop": [
+      0,
+      56,
+      512,
+      512
+    ],
+    "limitation": "2D ошибка условна: позы камер и K не подтверждены физической калибровкой. Эталонного 3D нет. Hybrid остановлен по static_median."
+  },
+  "future_times": [
+    0.06666666666666667,
+    0.13333333333333333,
+    0.2,
+    0.26666666666666666,
+    0.3333333333333333,
+    0.4,
+    0.4666666666666667,
+    0.5333333333333333,
+    0.6,
+    0.6666666666666666,
+    0.7333333333333333,
+    0.8,
+    0.8666666666666667,
+    0.9333333333333333,
+    1.0,
+    1.0666666666666667,
+    1.1333333333333333,
+    1.2,
+    1.2666666666666666,
+    1.3333333333333333,
+    1.4,
+    1.4666666666666666,
+    1.5333333333333334,
+    1.6,
+    1.6666666666666667,
+    1.7333333333333334,
+    1.8,
+    1.8666666666666667,
+    1.9333333333333333,
+    2.0
+  ],
+  "future_times_dtype": "<f8",
+  "source_fps": 30,
+  "model_fps": 15,
+  "geometry_description": "ViPE-estimated OpenCV world-frame geometry; not metric GT",
+  "reference_description": "independent AllTracker; projection conditional on published pose convention and causal ViPE K",
+  "limitation": "2D ошибка условна: позы камер и K не подтверждены физической калибровкой. Эталонного 3D нет. Hybrid остановлен по static_median.",
+  "history_media": "shared/dobbe_history.npz",
+  "original_source_sha256": {
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png": "3bc8e041be0f4908ed3c2ddb39fd52153c16026e7518fe2d9c6f01b2b1b506eb",
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png": "ff377150167d15dff43bac4b9243f56ba7165bb0c71518c98c714c65eb3756f5",
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png": "b8125d30a38b694428d837736cdb3056579ece20da861f029305c4da1e944d22",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/c2w_t0.npy": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/geometry_gate.json": "532c79ea9f44bc38eb1a404b5d73dff6179b7fe7c59a433f97b162bfd16ad02f",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_2d_t0.npy": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_3d_world.npy": "5f92f18bcc154750106bcb41b53b11e8caf930d34dd02e8659cc51cfafd5cf46",
+    "data/legacy/runs/dobbe_vipe_v1/C/protocol.json": "936e01c1ba6ad66c5cfa934b06c2ea50af16f2b88452819d88a7bd521bcea083"
+  },
+  "observed_strides": {
+    "history_frames": [
+      196608,
+      768,
+      3,
+      1
+    ],
+    "history_timestamps": [
+      8
+    ],
+    "points_2d": [
+      8,
+      4
+    ],
+    "points_3d_history": [
+      96,
+      12,
+      4
+    ],
+    "point_ids": [
+      8
+    ],
+    "c2w_at_t0": [
+      16,
+      4
+    ]
+  }
+}

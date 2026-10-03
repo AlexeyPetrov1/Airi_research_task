@@ -1,0 +1,653 @@
+{
+  "success": true,
+  "baseline_commit": "70ed2c413eee5e3b9dc1324e2c87ff333ee88334",
+  "fresh_inference_run": "outputs/packaging_final_inference",
+  "cases": {
+    "author_davis": {
+      "success": true,
+      "figures": {
+        "ade_fde.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_final.png": {
+          "dimensions": [
+            360,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_first.png": {
+          "dimensions": [
+            360,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_middle.png": {
+          "dimensions": [
+            360,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "contact_sheet.jpg": {
+          "dimensions": [
+            1080,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "errors.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "inputs.png": {
+          "dimensions": [
+            360,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "legacy_vs_unified.png": {
+          "dimensions": [
+            1080,
+            1280,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "metric_comparison.png": {
+          "dimensions": [
+            775,
+            1860,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_2d.png": {
+          "dimensions": [
+            900,
+            2100,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_3d.png": {
+          "dimensions": [
+            900,
+            1200,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "xyz_over_time.png": {
+          "dimensions": [
+            697,
+            2170,
+            4
+          ],
+          "decoded_pixels_equal": true
+        }
+      }
+    },
+    "berkeley_bottle": {
+      "success": true,
+      "figures": {
+        "ade_fde.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_final.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_first.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_middle.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "contact_sheet.jpg": {
+          "dimensions": [
+            1440,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "errors.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "inputs.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "legacy_vs_unified.png": {
+          "dimensions": [
+            1440,
+            1280,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "methods_final.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "metric_comparison.png": {
+          "dimensions": [
+            775,
+            1860,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_2d.png": {
+          "dimensions": [
+            900,
+            2100,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_3d.png": {
+          "dimensions": [
+            900,
+            1200,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "xyz_over_time.png": {
+          "dimensions": [
+            697,
+            2170,
+            4
+          ],
+          "decoded_pixels_equal": true
+        }
+      }
+    },
+    "berkeley_cup": {
+      "success": true,
+      "figures": {
+        "ade_fde.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_final.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_first.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_middle.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "contact_sheet.jpg": {
+          "dimensions": [
+            1440,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "errors.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "inputs.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "legacy_vs_unified.png": {
+          "dimensions": [
+            1440,
+            1280,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "methods_final.png": {
+          "dimensions": [
+            480,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "metric_comparison.png": {
+          "dimensions": [
+            775,
+            1860,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_2d.png": {
+          "dimensions": [
+            900,
+            2100,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_3d.png": {
+          "dimensions": [
+            900,
+            1200,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "xyz_over_time.png": {
+          "dimensions": [
+            697,
+            2170,
+            4
+          ],
+          "decoded_pixels_equal": true
+        }
+      }
+    },
+    "dobbe": {
+      "success": true,
+      "figures": {
+        "ade_fde.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_final.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_first.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_middle.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "contact_sheet.jpg": {
+          "dimensions": [
+            1920,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "errors.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "inputs.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "legacy_vs_unified.png": {
+          "dimensions": [
+            1920,
+            1280,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "methods_final.png": {
+          "dimensions": [
+            640,
+            1280,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "metric_comparison.png": {
+          "dimensions": [
+            775,
+            1860,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_2d.png": {
+          "dimensions": [
+            900,
+            2100,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_3d.png": {
+          "dimensions": [
+            900,
+            1200,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "xyz_over_time.png": {
+          "dimensions": [
+            697,
+            2170,
+            4
+          ],
+          "decoded_pixels_equal": true
+        }
+      }
+    },
+    "fmb_wrist_1": {
+      "success": true,
+      "figures": {
+        "ade_fde.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_final.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_first.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_middle.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "contact_sheet.jpg": {
+          "dimensions": [
+            1920,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "errors.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "inputs.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "legacy_vs_unified.png": {
+          "dimensions": [
+            1920,
+            1280,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "methods_final.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "metric_comparison.png": {
+          "dimensions": [
+            775,
+            1860,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_2d.png": {
+          "dimensions": [
+            900,
+            2100,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_3d.png": {
+          "dimensions": [
+            900,
+            1200,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "xyz_over_time.png": {
+          "dimensions": [
+            697,
+            2170,
+            4
+          ],
+          "decoded_pixels_equal": true
+        }
+      }
+    },
+    "fmb_wrist_2": {
+      "success": true,
+      "figures": {
+        "ade_fde.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_final.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_first.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "comparison_middle.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "contact_sheet.jpg": {
+          "dimensions": [
+            1920,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "errors.png": {
+          "dimensions": [
+            728,
+            2015,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "inputs.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "legacy_vs_unified.png": {
+          "dimensions": [
+            1920,
+            1280,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "methods_final.png": {
+          "dimensions": [
+            640,
+            1920,
+            3
+          ],
+          "decoded_pixels_equal": true
+        },
+        "metric_comparison.png": {
+          "dimensions": [
+            775,
+            1860,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_2d.png": {
+          "dimensions": [
+            900,
+            2100,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "trajectories_3d.png": {
+          "dimensions": [
+            900,
+            1200,
+            4
+          ],
+          "decoded_pixels_equal": true
+        },
+        "xyz_over_time.png": {
+          "dimensions": [
+            697,
+            2170,
+            4
+          ],
+          "decoded_pixels_equal": true
+        }
+      }
+    }
+  }
+}

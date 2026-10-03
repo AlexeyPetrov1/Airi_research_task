@@ -2,12 +2,14 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 import cv2
 import numpy as np
 
-ROOT = Path(__file__).resolve().parents[2]
+_CHECKOUT = Path(__file__).resolve().parents[2]
+ROOT = _CHECKOUT if (_CHECKOUT/'configs').is_dir() else Path(sys.prefix)/'share/molmo-motion-experiments'
 
 
 def read_json(path):

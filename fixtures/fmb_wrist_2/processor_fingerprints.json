@@ -1,0 +1,332 @@
+[
+  {
+    "type": "dict",
+    "fields": {
+      "anchor_3d": {
+        "type": "torch.Tensor",
+        "dtype": "torch.float32",
+        "shape": [
+          1,
+          3
+        ],
+        "sha256": "8b8f864cc88fad7a8aeeedafae246092fb1e671092c0bfaf5f90eb29712591b2"
+      },
+      "future_horizon": {
+        "type": "int",
+        "value": 30
+      },
+      "history_size": {
+        "type": "int",
+        "value": 3
+      },
+      "images": {
+        "type": "torch.Tensor",
+        "dtype": "torch.uint8",
+        "shape": [
+          1,
+          3,
+          729,
+          588
+        ],
+        "sha256": "de4e37f9ab4b075cfcc0a202b0456d8de9f1dff46541b17c1842b99bb117e6a9"
+      },
+      "input_ids": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          580
+        ],
+        "sha256": "2e98c8f1c0e5cfa65b8d46f3fe469a9e2a884bcb83b9a310695c5cbbf5766ab7"
+      },
+      "loss_masks": {
+        "type": "torch.Tensor",
+        "dtype": "torch.float64",
+        "shape": [
+          1,
+          580
+        ],
+        "sha256": "324306dcff6ea7bfcffdd7ae7a1976e06602cdd22757e728df114889ccee4dcc"
+      },
+      "metadata": {
+        "type": "dict",
+        "fields": {
+          "coords_2d": {
+            "type": "numpy.ndarray",
+            "dtype": "<f4",
+            "shape": [
+              8,
+              2
+            ],
+            "sha256": "73de22611cf155244bb66c94441a467a7ac22a5b8c833bdead73ba42aa555fde"
+          },
+          "image_size": {
+            "type": "tuple",
+            "items": [
+              {
+                "type": "int",
+                "value": 256
+              },
+              {
+                "type": "int",
+                "value": 256
+              }
+            ]
+          },
+          "task": {
+            "type": "str",
+            "value": "3d_trajectory"
+          }
+        }
+      },
+      "position_ids": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          580
+        ],
+        "sha256": "0a6b2c99de044e0260e1dbff6ef1ff280eaefacaad6f08c94b93bb565534010a"
+      },
+      "target_tokens": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          580
+        ],
+        "sha256": "618fd1ef5fa04482c6b3c16932d5066586ea3b2935b69d360d3bbd8aa34fb3f7"
+      },
+      "token_pooling": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          243,
+          9
+        ],
+        "sha256": "5e9b0b53613b49d8fd87e8814efe89d4686c47eddeb05ec248e65db6791bc6c4"
+      }
+    }
+  },
+  {
+    "type": "dict",
+    "fields": {
+      "anchor_3d": {
+        "type": "torch.Tensor",
+        "dtype": "torch.float32",
+        "shape": [
+          1,
+          3
+        ],
+        "sha256": "4cb6cb38ac84885ef801cb60054f1a8dde12128ab76e309b9cab2ea115ec1136"
+      },
+      "future_horizon": {
+        "type": "int",
+        "value": 30
+      },
+      "history_size": {
+        "type": "int",
+        "value": 3
+      },
+      "images": {
+        "type": "torch.Tensor",
+        "dtype": "torch.uint8",
+        "shape": [
+          1,
+          3,
+          729,
+          588
+        ],
+        "sha256": "de4e37f9ab4b075cfcc0a202b0456d8de9f1dff46541b17c1842b99bb117e6a9"
+      },
+      "input_ids": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          557
+        ],
+        "sha256": "7b9f1748c9d587d8dd50ac8dcdbfaef22826c22eacd2280aa1560f53df4e70c7"
+      },
+      "loss_masks": {
+        "type": "torch.Tensor",
+        "dtype": "torch.float64",
+        "shape": [
+          1,
+          557
+        ],
+        "sha256": "b756e1a29fd191617e970768abfc57d10bc4087b010d4f649cd18b670197c995"
+      },
+      "metadata": {
+        "type": "dict",
+        "fields": {
+          "coords_2d": {
+            "type": "numpy.ndarray",
+            "dtype": "<f4",
+            "shape": [
+              8,
+              2
+            ],
+            "sha256": "e3e383f2e39bca55976efc915b4f4508adc0f88b91b70867797d6d6269df800d"
+          },
+          "image_size": {
+            "type": "tuple",
+            "items": [
+              {
+                "type": "int",
+                "value": 256
+              },
+              {
+                "type": "int",
+                "value": 256
+              }
+            ]
+          },
+          "task": {
+            "type": "str",
+            "value": "3d_trajectory"
+          }
+        }
+      },
+      "position_ids": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          557
+        ],
+        "sha256": "1b9bae8687ab6eb515e1e5b56cdb4239909eaf707d92757084af0f8a358d5a51"
+      },
+      "target_tokens": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          557
+        ],
+        "sha256": "df18470486e761160ca9fdabb4445ce81ccedd9810999ca766cf10baa98a64ba"
+      },
+      "token_pooling": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          243,
+          9
+        ],
+        "sha256": "5e9b0b53613b49d8fd87e8814efe89d4686c47eddeb05ec248e65db6791bc6c4"
+      }
+    }
+  },
+  {
+    "type": "dict",
+    "fields": {
+      "anchor_3d": {
+        "type": "torch.Tensor",
+        "dtype": "torch.float32",
+        "shape": [
+          1,
+          3
+        ],
+        "sha256": "0c1f091dd7a8ecd8220181307043b7fb685030fbfffa739404207a57fc1b2e42"
+      },
+      "future_horizon": {
+        "type": "int",
+        "value": 30
+      },
+      "history_size": {
+        "type": "int",
+        "value": 3
+      },
+      "images": {
+        "type": "torch.Tensor",
+        "dtype": "torch.uint8",
+        "shape": [
+          1,
+          3,
+          729,
+          588
+        ],
+        "sha256": "de4e37f9ab4b075cfcc0a202b0456d8de9f1dff46541b17c1842b99bb117e6a9"
+      },
+      "input_ids": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          560
+        ],
+        "sha256": "c44cd02ad56a9253f9990eeec8f196cce25971abcd627f9af38d52e4bf5821d5"
+      },
+      "loss_masks": {
+        "type": "torch.Tensor",
+        "dtype": "torch.float64",
+        "shape": [
+          1,
+          560
+        ],
+        "sha256": "214eb17dab9f7f122e8a491c38647166a4a8400e904afa5e8bb4913e67767d1e"
+      },
+      "metadata": {
+        "type": "dict",
+        "fields": {
+          "coords_2d": {
+            "type": "numpy.ndarray",
+            "dtype": "<f4",
+            "shape": [
+              8,
+              2
+            ],
+            "sha256": "0c1bbe2a484ddbc38c370372ab99b00a9b5ea9b4167f676da8249d8516318d6e"
+          },
+          "image_size": {
+            "type": "tuple",
+            "items": [
+              {
+                "type": "int",
+                "value": 256
+              },
+              {
+                "type": "int",
+                "value": 256
+              }
+            ]
+          },
+          "task": {
+            "type": "str",
+            "value": "3d_trajectory"
+          }
+        }
+      },
+      "position_ids": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          560
+        ],
+        "sha256": "b93349590951ce01781ce503e1a134a9aa83944f7f2c14c2f293326b73873616"
+      },
+      "target_tokens": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          560
+        ],
+        "sha256": "41ebdced21decd47ed74650b508e38ef19a35693a237ce28d87b1f5a37396a13"
+      },
+      "token_pooling": {
+        "type": "torch.Tensor",
+        "dtype": "torch.int64",
+        "shape": [
+          1,
+          243,
+          9
+        ],
+        "sha256": "5e9b0b53613b49d8fd87e8814efe89d4686c47eddeb05ec248e65db6791bc6c4"
+      }
+    }
+  }
+]

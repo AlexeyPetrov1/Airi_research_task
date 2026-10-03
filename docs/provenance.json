@@ -1,0 +1,2130 @@
+{
+  "baseline_commit": "70ed2c413eee5e3b9dc1324e2c87ff333ee88334",
+  "artifacts": [
+    {
+      "new_path": "fixtures/davis_bmx_trees/evaluation.json",
+      "new_sha256": "af333a4f4001c1265f7c3352d032f37d057001cf64e5b536b6780eb44cbe2cd5",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/evaluation_rgb/davis_bmx_trees.npy",
+        "data/legacy/examples/data/davis_bmx_trees/caption.txt",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt",
+        "data/legacy/examples/data/davis_bmx_trees/meta.json",
+        "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt",
+        "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json",
+        "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/davis_bmx_trees/evaluation.npz",
+      "new_sha256": "5c932f3a666ac8fb28ed911764b6b5af027e77c5d7adc0cc5930bd4087d35bb1",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/evaluation_rgb/davis_bmx_trees.npy",
+        "data/legacy/examples/data/davis_bmx_trees/caption.txt",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt",
+        "data/legacy/examples/data/davis_bmx_trees/meta.json",
+        "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt",
+        "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json",
+        "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/davis_bmx_trees/legacy_prediction.npy",
+      "new_sha256": "a60b331517e1ca09245111e8e74b715a446c76cccaf4184c77a060b3f453b8d5",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/evaluation_rgb/davis_bmx_trees.npy",
+        "data/legacy/examples/data/davis_bmx_trees/caption.txt",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt",
+        "data/legacy/examples/data/davis_bmx_trees/meta.json",
+        "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt",
+        "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json",
+        "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/davis_bmx_trees/manifest.json",
+      "new_sha256": "886c89412d342325b3e3c5b208fb21736bc341c180d254a1f4654b94f6ab3f70",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/evaluation_rgb/davis_bmx_trees.npy",
+        "data/legacy/examples/data/davis_bmx_trees/caption.txt",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt",
+        "data/legacy/examples/data/davis_bmx_trees/meta.json",
+        "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt",
+        "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json",
+        "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/davis_bmx_trees/observed.npz",
+      "new_sha256": "7ded879cd3cd06d1bc3a69d42231e921f339e76948db51949a5212a146271936",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/evaluation_rgb/davis_bmx_trees.npy",
+        "data/legacy/examples/data/davis_bmx_trees/caption.txt",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt",
+        "data/legacy/examples/data/davis_bmx_trees/meta.json",
+        "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt",
+        "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json",
+        "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/davis_bmx_trees/processor_fingerprints.json",
+      "new_sha256": "45ad21c726c70981e5033a72da00d94358cb59b19f08aef111554ef4b8150d14",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/evaluation_rgb/davis_bmx_trees.npy",
+        "data/legacy/examples/data/davis_bmx_trees/caption.txt",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt",
+        "data/legacy/examples/data/davis_bmx_trees/meta.json",
+        "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt",
+        "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json",
+        "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/davis_bmx_trees/media/legacy_comparison.mp4",
+      "new_sha256": "09a04a65b8bcbf21de58c6cac702278b393f2eb55aa23155367f735113bb9e59",
+      "transformation": "unchanged bytes",
+      "original_paths": [
+        "data/legacy/evaluation_rgb/davis_bmx_trees.npy",
+        "data/legacy/examples/data/davis_bmx_trees/caption.txt",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg",
+        "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt",
+        "data/legacy/examples/data/davis_bmx_trees/meta.json",
+        "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt",
+        "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz",
+        "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt",
+        "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json",
+        "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_bottle/evaluation.json",
+      "new_sha256": "e9852752ce329ab731e9e8f4284e0501b13b68beebcaa70fba63288dbff5915b",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_bottle/evaluation.npz",
+      "new_sha256": "de20a7a310b6ac9e3b8f041019f3784453ef8f3610b97886169255131bf15007",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_bottle/legacy_prediction.npy",
+      "new_sha256": "6ac2412e8b8c68e8243c742045686db9c987f9344d1018b9c980e28eba1196a6",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_bottle/manifest.json",
+      "new_sha256": "10a88631a0c5bca2cc60022c4b81ee859cc3f267ba6ed4121d20dbf07372967e",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_bottle/observed.npz",
+      "new_sha256": "3c040487a8baba8f8e1c8ec5aea04bfe080605323b27662b2f794aee1adb2692",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_bottle/processor_fingerprints.json",
+      "new_sha256": "5cc9a510b2c5c377929c4ee5cb9ed03b2dd0396bb7bbbfe6f6834d2f4ab1312c",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_bottle/media/legacy_comparison.mp4",
+      "new_sha256": "93f62cbb34d72a2ace83e40a2dcd4798e2928a4cf3792dd3f2c3c63516891e88",
+      "transformation": "unchanged bytes",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_cup/evaluation.json",
+      "new_sha256": "53c826ecf628f0cfc26710704ad05702145088789f5f25c766bba08b818b2756",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_cup/evaluation.npz",
+      "new_sha256": "19f7fb9a94c721eb72ea5e7e13afee72b88f0e448f6097654a747b0ba4976dfb",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_cup/legacy_prediction.npy",
+      "new_sha256": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_cup/manifest.json",
+      "new_sha256": "1ea10de7088b8e97843442eae1546f5c49635d69954ca81b4b093d671e60306e",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_cup/observed.npz",
+      "new_sha256": "c3d3032185f0a3561a6a5080bc764c90f0b9a0a823aea2e09ff8ddb3dec1b190",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_cup/processor_fingerprints.json",
+      "new_sha256": "dcf52f5b4d5d9f255e6bd8535d3f193b6c8663e9714abc00f097e83dbb832bea",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/berkeley_cup/media/legacy_comparison.mp4",
+      "new_sha256": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca",
+      "transformation": "unchanged bytes",
+      "original_paths": [
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_pure_vipe/evaluation.json",
+      "new_sha256": "0bff43f936c2ca6000309f70867f21ab8f7980596853aa7a969443d3ebfc6dbd",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_pure_vipe/evaluation.npz",
+      "new_sha256": "dfdf63c746d12c6a0e0c24b5dcad378b71fdd96fe8cdc65689533ee4cfeeba9f",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_pure_vipe/legacy_prediction.npy",
+      "new_sha256": "e057e17034512ccf7f0521f1143edf57b0d4b80327f31e45588e16f099ea3107",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_pure_vipe/manifest.json",
+      "new_sha256": "b04eb38e526ef495c3b7fcf3da5848aabf33b320fd0bed75b100f4004cf94a6d",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_pure_vipe/observed.npz",
+      "new_sha256": "4e9d95c82732d95da8da5ed815914fb364caa40e9ae448a1240a924bcdbfcdf4",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_pure_vipe/processor_fingerprints.json",
+      "new_sha256": "f8eef9375e2906f1824ea4caf570e495399bbe21d5c9f4565268d8a239975e22",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_pure_vipe/media/legacy_comparison.mp4",
+      "new_sha256": "209ea60fde770fdad5669bc00ca14aa35b0cad0d1b59467cba91875bb504ae61",
+      "transformation": "unchanged bytes",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_hybrid/manifest.json",
+      "new_sha256": "33fe91263ae92c4f4977b40904f361c4c600f63fdcbe37db0a4d5da9c72e14e7",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json"
+      ]
+    },
+    {
+      "new_path": "fixtures/dobbe_hybrid/observed.npz",
+      "new_sha256": "1fbe9bc854c58d7053f467e7bc6fe0e3ed8b8f722fd786b4ed13d50dcbabb63a",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/c2w_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/geometry_gate.json",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_2d_t0.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_3d_world.npy",
+        "data/legacy/runs/dobbe_vipe_v1/C/protocol.json"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_1/evaluation.json",
+      "new_sha256": "0a2e35f458a8a2bd4416137843e7e9faa4ecb20f13b36b7fdd042d05c31de5fc",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_1/evaluation.npz",
+      "new_sha256": "05562d6f6db612709c22dbabcb7895a2cdae278c3149f5fd684e4d60418d6f94",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_1/legacy_prediction.npy",
+      "new_sha256": "2e765b7bc10b33306e47533cb46cfc645bb56f3eb19bb58955479262aab6b26f",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_1/manifest.json",
+      "new_sha256": "a3db4cfd5335cfb50befe0efbde28fcc6ce64576b5412d127ba2749ad4edc9c8",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_1/observed.npz",
+      "new_sha256": "23a5a54a5f476ed078f0977b3cae071bf01778d302f5761e5eb9bf3434478177",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_1/processor_fingerprints.json",
+      "new_sha256": "7d1cbac841e71fa9d7018a0b39bac47266de712637b6dd40a7f5eebd98de6899",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_1/media/legacy_comparison.mp4",
+      "new_sha256": "b5b23e3ffa29ec6e7124eb096ba92372bbb3b29cbd0ce8fd20c2a298ad2e005b",
+      "transformation": "unchanged bytes",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_2/evaluation.json",
+      "new_sha256": "c5fc850bae8fcc71c2a989f7d9cd17af7443c11545e93c8c9b5253f1ce98e1ec",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_2/evaluation.npz",
+      "new_sha256": "4710108631f186cc2ca43dfdc3e84de8d27ee5d1fa477f5b74e8382893dd5a56",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_2/legacy_prediction.npy",
+      "new_sha256": "433ea139d69ba2021244d2dc7cc6eba06d11308abb2950044b0ef0b8509f55d0",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_2/manifest.json",
+      "new_sha256": "9ee2024c1af5560a69104f70656cd26b88b465a74ecd6d073678cf347176c6b5",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_2/observed.npz",
+      "new_sha256": "508903e2d4087e12e4d6058d17f4a49ab34eb338cd6c03cdcb99506cb245d83b",
+      "transformation": "lossless exact baseline adapter arrays; restore baseline strides to preserve reduction order",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_2/processor_fingerprints.json",
+      "new_sha256": "5365dbe675f8005a6f37a3dfc2a674da72054141431f5ffd2d387cf02e5b3e48",
+      "transformation": "baseline extraction / exact typed fingerprints",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/fmb_wrist_2/media/legacy_comparison.mp4",
+      "new_sha256": "f667389a222c16861b763e6eaf4f6edb2c35d5b125d2dea82f78a09cae7f625b",
+      "transformation": "unchanged bytes",
+      "original_paths": [
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy",
+        "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy",
+        "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4"
+      ]
+    },
+    {
+      "new_path": "fixtures/shared/dobbe_history.npz",
+      "new_sha256": "4c49f8226c00040d0ffd4100f8aa7ac3944f5f9b2d58b217c38131adce3c53b8",
+      "original_paths": [
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png",
+        "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png"
+      ],
+      "transformation": "Exact PNG-decoded RGB, shared once by pure_vipe and hybrid; lossless deflate"
+    }
+  ],
+  "compression": [
+    {
+      "path": "fixtures/davis_bmx_trees/observed.npz",
+      "raw_array_bytes": 3689756,
+      "compressed_bytes": 2528739,
+      "content": {
+        "history_frames": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            3,
+            480,
+            854,
+            3
+          ],
+          "sha256": "32435007ed8528a7411bdddae6aa8184a6441c542b67248b351436acc6ab811f"
+        },
+        "history_timestamps": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3
+          ],
+          "sha256": "75efd15996eb0e8b306a9a433e0179a13e1be3a4e7d4556ca8591c3e785143b5"
+        },
+        "points_2d": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            8,
+            2
+          ],
+          "sha256": "24c9070ea9309c9988197ad83261233a077080843f3d550f9426bd99de5dfddc"
+        },
+        "points_3d_history": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            8,
+            3
+          ],
+          "sha256": "1f7ca4ea248fdc5efa513f228432c5073fbda4e120f4fb74a0721f9fba0170ee"
+        },
+        "point_ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            8
+          ],
+          "sha256": "dad72f97913b29fb29804ace4bf37828760f70bb7061d0c4eac4495562d9ab57"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "c339149e29ccc18a75ecbcde2dd3419a85ed0c0184144965f332bce55baa9a54"
+        }
+      }
+    },
+    {
+      "path": "fixtures/davis_bmx_trees/evaluation.npz",
+      "raw_array_bytes": 36898116,
+      "compressed_bytes": 27742191,
+      "content": {
+        "rgb": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            30,
+            480,
+            854,
+            3
+          ],
+          "sha256": "3c8ae44e85d4f370e2c3f19f170894f72dd54b18718b9b405a4647a88392e384"
+        },
+        "xyz": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            8,
+            30,
+            3
+          ],
+          "sha256": "19527b9540040378e9b542ef3cc6ce42774ec53cb61feaa3a8333f9d12fe64da"
+        },
+        "uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            8,
+            30,
+            2
+          ],
+          "sha256": "412a6d8818c7d2c1d577bc24f5cc3c28282c4d5528f1d1e888c885560ea53444"
+        },
+        "mask3": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            8,
+            30
+          ],
+          "sha256": "da8c10a3a84d540a5bf4dc3ef5723b2cdf42b40cd2dae11a301333daaa27bca6"
+        },
+        "mask2": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            8,
+            30
+          ],
+          "sha256": "da8c10a3a84d540a5bf4dc3ef5723b2cdf42b40cd2dae11a301333daaa27bca6"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "c339149e29ccc18a75ecbcde2dd3419a85ed0c0184144965f332bce55baa9a54"
+        }
+      }
+    },
+    {
+      "path": "fixtures/berkeley_bottle/observed.npz",
+      "raw_array_bytes": 2766132,
+      "compressed_bytes": 1258382,
+      "content": {
+        "history_frames": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            3,
+            480,
+            640,
+            3
+          ],
+          "sha256": "b15e587840c35671abb12a32649c368b5c72d08e1cadb415524289ad6d6cfc12"
+        },
+        "history_timestamps": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3
+          ],
+          "sha256": "6760f92c7d85e137b23cb459f8f903eaf7666f603addd5f2356cc1686152dd26"
+        },
+        "points_2d": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            24,
+            2
+          ],
+          "sha256": "4d9d09d3bc6d9b86344b7ce1acb1e6dcc60c57a7071d3295c9e4cfd52d1036b3"
+        },
+        "points_3d_history": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            24,
+            3
+          ],
+          "sha256": "72fe7fd41e8d00d97b808190f26546223a08ef2ae5db440a0e9ece3683c4b156"
+        },
+        "point_ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            24
+          ],
+          "sha256": "91640a3350075b0d5a79855ef17e6e61ccc063c1a88b9c90903a79adeb6444bd"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "0467648dcc1b4dd0842abbb0dd7339ea46e49a99f46869d1f9d01f78383f3968"
+        }
+      }
+    },
+    {
+      "path": "fixtures/berkeley_bottle/evaluation.npz",
+      "raw_array_bytes": 9226152,
+      "compressed_bytes": 4218078,
+      "content": {
+        "rgb": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            10,
+            480,
+            640,
+            3
+          ],
+          "sha256": "c05db762f7e67a915b59d9f7a1f879844c94e96f5eeb86767a87e6aa061f795c"
+        },
+        "xyz": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            10,
+            3
+          ],
+          "sha256": "119a94bf24645ae206a62c4b781a602f4024eca24e19f2667df55af707a07ad0"
+        },
+        "uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            10,
+            2
+          ],
+          "sha256": "5af5d63f66c5d02c734012dfa918631d1070d606ad1f286052ccc0ff2b585357"
+        },
+        "mask3": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            10
+          ],
+          "sha256": "24348f0cbf054997c0fed2b524077c7c0038cdc3adf5a30f4e5bc173a9fad698"
+        },
+        "mask2": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            10
+          ],
+          "sha256": "770da3c513c3c3a2962fac92477cfe32e3fdbf225456264429ba384a35aaa971"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "0467648dcc1b4dd0842abbb0dd7339ea46e49a99f46869d1f9d01f78383f3968"
+        }
+      }
+    },
+    {
+      "path": "fixtures/berkeley_cup/observed.npz",
+      "raw_array_bytes": 2766132,
+      "compressed_bytes": 1288990,
+      "content": {
+        "history_frames": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            3,
+            480,
+            640,
+            3
+          ],
+          "sha256": "35163a29adac8c00bdc5e7adfb1c9d35c97862a2bc706794213e3f493e9eccfc"
+        },
+        "history_timestamps": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3
+          ],
+          "sha256": "c21d29cb7bf6e6692704d665b22fd67759f74a21234a6f485777c2ff91f3b12b"
+        },
+        "points_2d": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            24,
+            2
+          ],
+          "sha256": "bb42864cc1d19f1cfd66c0b318ff52a14f6e06694ec6ef0632e5b44a8546537a"
+        },
+        "points_3d_history": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            24,
+            3
+          ],
+          "sha256": "96c105bc31f76c2e897e633e0363ae9697f72ea1e3da6dac30cc3a979f5aaa35"
+        },
+        "point_ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            24
+          ],
+          "sha256": "0fcf2f94b6cf8ad2a9ac0870550a99f1e63ed3e819b633bb865ba59e44b7e7ce"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "f7516a66a2f85d44d1c11a4c63d077f503b9c2dcc49b4c01ecbb6806566ce911"
+        }
+      }
+    },
+    {
+      "path": "fixtures/berkeley_cup/evaluation.npz",
+      "raw_array_bytes": 9226152,
+      "compressed_bytes": 4133182,
+      "content": {
+        "rgb": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            10,
+            480,
+            640,
+            3
+          ],
+          "sha256": "f588e8a4a853efbe4dceadaca71cadcbdab36241f3767e91bbc347f4c914bc3f"
+        },
+        "xyz": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            10,
+            3
+          ],
+          "sha256": "a897d916f09f4dadfba63311103759977e03aa0c418767dacd61ba5027b13acf"
+        },
+        "uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            10,
+            2
+          ],
+          "sha256": "2dedc897c299281c383c3f584d210a7d8c9a34c20b87a92c6ea738b3fc3141b8"
+        },
+        "mask3": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            10
+          ],
+          "sha256": "2148b150432b2aff49d89b050562c0fd42ce3a2c7f9bfcc34176368a80834e80"
+        },
+        "mask2": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            10
+          ],
+          "sha256": "770da3c513c3c3a2962fac92477cfe32e3fdbf225456264429ba384a35aaa971"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "f7516a66a2f85d44d1c11a4c63d077f503b9c2dcc49b4c01ecbb6806566ce911"
+        }
+      }
+    },
+    {
+      "path": "fixtures/shared/dobbe_history.npz",
+      "raw_array_bytes": 589824,
+      "compressed_bytes": 369285,
+      "content": {
+        "history_frames": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            3,
+            256,
+            256,
+            3
+          ],
+          "sha256": "cd3834f58c84667f10c24ba3aa2204fd694412747d79e7a3f0c7d03f9a8793f9"
+        }
+      }
+    },
+    {
+      "path": "fixtures/dobbe_pure_vipe/observed.npz",
+      "raw_array_bytes": 504,
+      "compressed_bytes": 1452,
+      "content": {
+        "history_timestamps": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3
+          ],
+          "sha256": "2972c9d56889243d9d30e5aa5a6db1c82d1413039c6b7529667b2da999b7de8f"
+        },
+        "points_2d": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            8,
+            2
+          ],
+          "sha256": "1b29c346a5781be4ab71bd5cc2d4d5a7671041e1e6d354c58de3e5f1e167613d"
+        },
+        "points_3d_history": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            8,
+            3
+          ],
+          "sha256": "3077e6b4d97316f67d929de42792c665fd1c064679e8279daffb4ee946a96627"
+        },
+        "point_ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            8
+          ],
+          "sha256": "cae2a9a54bde08532576c3546bcf4049ac0791b6d4c1ca236dcddbb18381d1bd"
+        },
+        "c2w_at_t0": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            4,
+            4
+          ],
+          "sha256": "38cffcc0b29529781fb4c90a0ab18ce5f26361c866268a94b9c195352d4b62d3"
+        }
+      }
+    },
+    {
+      "path": "fixtures/dobbe_pure_vipe/evaluation.npz",
+      "raw_array_bytes": 5904776,
+      "compressed_bytes": 3617520,
+      "content": {
+        "rgb": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            30,
+            256,
+            256,
+            3
+          ],
+          "sha256": "dab0e414356ea3bdec303a2452b9d145eb5ed74877924314c1d882e72b74a69b"
+        },
+        "uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            8,
+            30,
+            2
+          ],
+          "sha256": "fce28143b62d58089098fb2bd8f57aa757194ccb2d7fec4f150636b56cf16fbc"
+        },
+        "mask2": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            8,
+            30
+          ],
+          "sha256": "a3861189e9f1bdf373c8fb83bcab5b02c25784bda4cd831352597e3917ea2245"
+        },
+        "visibility2": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            8,
+            30
+          ],
+          "sha256": "a3861189e9f1bdf373c8fb83bcab5b02c25784bda4cd831352597e3917ea2245"
+        },
+        "initial_camera": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            8,
+            3
+          ],
+          "sha256": "2b04443fa707615a12feaa97939717ba7b38551dcba8a536f8946a7efd03a11d"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "ee3256318836a2148cf324a7b637d61243f280e081b26339d14d9bca7c82d10b"
+        },
+        "camera_poses": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            31,
+            4,
+            4
+          ],
+          "sha256": "178c0d79c87144344cdab0099d14fad48cae745bc21638d8c922e18585f3f5fc"
+        }
+      }
+    },
+    {
+      "path": "fixtures/dobbe_hybrid/observed.npz",
+      "raw_array_bytes": 504,
+      "compressed_bytes": 1454,
+      "content": {
+        "history_timestamps": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3
+          ],
+          "sha256": "2972c9d56889243d9d30e5aa5a6db1c82d1413039c6b7529667b2da999b7de8f"
+        },
+        "points_2d": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            8,
+            2
+          ],
+          "sha256": "1b29c346a5781be4ab71bd5cc2d4d5a7671041e1e6d354c58de3e5f1e167613d"
+        },
+        "points_3d_history": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            8,
+            3
+          ],
+          "sha256": "6804f6edcc1c144605934dad8366c3d5a06bc88ddb49001f79f0ddc4ecf3bdbf"
+        },
+        "point_ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            8
+          ],
+          "sha256": "cae2a9a54bde08532576c3546bcf4049ac0791b6d4c1ca236dcddbb18381d1bd"
+        },
+        "c2w_at_t0": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            4,
+            4
+          ],
+          "sha256": "38cffcc0b29529781fb4c90a0ab18ce5f26361c866268a94b9c195352d4b62d3"
+        }
+      }
+    },
+    {
+      "path": "fixtures/fmb_wrist_1/observed.npz",
+      "raw_array_bytes": 637560,
+      "compressed_bytes": 399645,
+      "content": {
+        "history_frames": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            3,
+            256,
+            256,
+            3
+          ],
+          "sha256": "4a31be9c884b0c1d468b8195763630effcb3af297889fa475bf54c6a489b5f94"
+        },
+        "history_timestamps": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3
+          ],
+          "sha256": "d02ca8ede3b6cb896f1814d82d197d5fa853398543f1256291d207cf0d72363c"
+        },
+        "points_2d": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            24,
+            2
+          ],
+          "sha256": "012a70476f12ef8f1a5e87cd06e4eb40229d3c89403561c9232040d503d967b7"
+        },
+        "points_3d_history": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            24,
+            3
+          ],
+          "sha256": "6aba13e435f63c652e449b8b319f4d5c9d341e16db756e6bb0f438adc5cf151f"
+        },
+        "point_ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            24
+          ],
+          "sha256": "2e4c12f3e40af8cbb0a06d2b8a273147fca65561aba00a20208f55526b3cbc97"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "c180ff3ee4e974baeec18562375871800d7a29873c06a7547ce63228688821b4"
+        },
+        "aux/policy_reference/camera_points": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            50,
+            24,
+            3
+          ],
+          "sha256": "b8f29da7ffd21b6c7f9d49e6c1310a4b2ab6b013f1d6e8074fc736f42f9b4f14"
+        },
+        "aux/policy_reference/valid": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            50,
+            24
+          ],
+          "sha256": "e03963583cf350eb5ff1ae6a0dc2b6d27b4182bc9f12698cc5b7e9b3f07cc10e"
+        },
+        "aux/policy_reference/uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            50,
+            24,
+            2
+          ],
+          "sha256": "d27384e3cefe13fad2b8d4d54c0ae7722ff8541bb72229decc495ebf4fc03f52"
+        },
+        "aux/policy_reference/tcp": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            50,
+            4,
+            4
+          ],
+          "sha256": "e869ff3ad8c1a6dd2415bfdad72604a7e9378c2b31d2d4ecf55fd8df67a7300b"
+        },
+        "aux/policy_reference/X": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            4,
+            4
+          ],
+          "sha256": "6a04530513d2a5e4aade123f320c31439cf08c913399c10ea6c9fb4f5c4b4c42"
+        },
+        "aux/policy_reference/K": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "c180ff3ee4e974baeec18562375871800d7a29873c06a7547ce63228688821b4"
+        },
+        "aux/policy_reference/ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            24
+          ],
+          "sha256": "2e4c12f3e40af8cbb0a06d2b8a273147fca65561aba00a20208f55526b3cbc97"
+        }
+      }
+    },
+    {
+      "path": "fixtures/fmb_wrist_1/evaluation.npz",
+      "raw_array_bytes": 3952968,
+      "compressed_bytes": 2516044,
+      "content": {
+        "rgb": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            20,
+            256,
+            256,
+            3
+          ],
+          "sha256": "6f909790883a5af0e4b7973dd36e713c6a725afb48673f5154deff1766199c3f"
+        },
+        "xyz": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            20,
+            3
+          ],
+          "sha256": "f624243ce87efd1d0e4156baf08402d8dbdaff08e68633585aa9a688858f34a4"
+        },
+        "uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            24,
+            20,
+            2
+          ],
+          "sha256": "f79ab2f5fef7aeafb615c120f3a7fb463e19f616ba080ee6b3896a6d6eb4d0c8"
+        },
+        "mask3": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            20
+          ],
+          "sha256": "c0e1a5815b2f3759c1b659eeac98c6b4c32bc96d5154ff23310598891b452987"
+        },
+        "mask2": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            20
+          ],
+          "sha256": "e87ebab060beb7c66837da91b9d2295d637d1fca348b1864ac0281ed0fe77274"
+        },
+        "robot_initial": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            3
+          ],
+          "sha256": "25521b23a29476370ae02b207e77bd33e618b7c6f00e04389fe32c896856a26c"
+        },
+        "method_initial/Selected_policy_plus_bounded_Molmo": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            3
+          ],
+          "sha256": "25521b23a29476370ae02b207e77bd33e618b7c6f00e04389fe32c896856a26c"
+        },
+        "method_initial/Observed_selected_motion_policy": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            3
+          ],
+          "sha256": "25521b23a29476370ae02b207e77bd33e618b7c6f00e04389fe32c896856a26c"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "c180ff3ee4e974baeec18562375871800d7a29873c06a7547ce63228688821b4"
+        },
+        "camera_poses": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            21,
+            4,
+            4
+          ],
+          "sha256": "eb1a3f601ecce736465c401baf45357bd7a0d136121ed58288ea94c40c6be312"
+        }
+      }
+    },
+    {
+      "path": "fixtures/fmb_wrist_2/observed.npz",
+      "raw_array_bytes": 637560,
+      "compressed_bytes": 473215,
+      "content": {
+        "history_frames": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            3,
+            256,
+            256,
+            3
+          ],
+          "sha256": "446f0b5703f947a10648d71d6ebccfa481650e7118e9c45d08cc9b1a9437ead8"
+        },
+        "history_timestamps": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3
+          ],
+          "sha256": "d02ca8ede3b6cb896f1814d82d197d5fa853398543f1256291d207cf0d72363c"
+        },
+        "points_2d": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            24,
+            2
+          ],
+          "sha256": "d9ed8dee52d25cf2b3a1a7307bf7da300887a1893cb7eb6afabe9f88a0178d30"
+        },
+        "points_3d_history": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            3,
+            24,
+            3
+          ],
+          "sha256": "6672e5c614630db16e2d3ffcd11d00c20219608b23a40579424cf843862a5212"
+        },
+        "point_ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            24
+          ],
+          "sha256": "4236beaccb4ed849cdd5aa9948ecc6c48927ccbf8c8b74fc0625a211e1af047a"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "231dc0a1c9e3648a00ca6cd144bf5b2e4a87544312b54088ffd1c01b7b10eb34"
+        },
+        "aux/policy_reference/camera_points": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            50,
+            24,
+            3
+          ],
+          "sha256": "765a6734c64cb22c7579101647ee59c21860f52c1b00768562153f16f0f208fd"
+        },
+        "aux/policy_reference/valid": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            50,
+            24
+          ],
+          "sha256": "5d69162d6f9d6a86171c340af533e3dbd45ef14fc85c34a83077372061df97da"
+        },
+        "aux/policy_reference/uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            50,
+            24,
+            2
+          ],
+          "sha256": "75a5a1b1463028fdb412420ebcfae9e1f86d5d8ec4362df03be6d15c8c07816e"
+        },
+        "aux/policy_reference/tcp": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            50,
+            4,
+            4
+          ],
+          "sha256": "e869ff3ad8c1a6dd2415bfdad72604a7e9378c2b31d2d4ecf55fd8df67a7300b"
+        },
+        "aux/policy_reference/X": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            4,
+            4
+          ],
+          "sha256": "61a601b6405cf13cd569e643c33197e6676705d4ebe5286777f231bbe9dbaf1c"
+        },
+        "aux/policy_reference/K": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "231dc0a1c9e3648a00ca6cd144bf5b2e4a87544312b54088ffd1c01b7b10eb34"
+        },
+        "aux/policy_reference/ids": {
+          "type": "numpy.ndarray",
+          "dtype": "<i8",
+          "shape": [
+            24
+          ],
+          "sha256": "4236beaccb4ed849cdd5aa9948ecc6c48927ccbf8c8b74fc0625a211e1af047a"
+        }
+      }
+    },
+    {
+      "path": "fixtures/fmb_wrist_2/evaluation.npz",
+      "raw_array_bytes": 3952968,
+      "compressed_bytes": 3057665,
+      "content": {
+        "rgb": {
+          "type": "numpy.ndarray",
+          "dtype": "|u1",
+          "shape": [
+            20,
+            256,
+            256,
+            3
+          ],
+          "sha256": "f2188160c58dfd180713dd65a7702825d7871fee13a961c3a3827e4ee56a2ea2"
+        },
+        "xyz": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            20,
+            3
+          ],
+          "sha256": "396c03c0f860052bb322087290e8158a4f8c95fef8ad1cf5edd6d394016904ba"
+        },
+        "uv": {
+          "type": "numpy.ndarray",
+          "dtype": "<f4",
+          "shape": [
+            24,
+            20,
+            2
+          ],
+          "sha256": "1b2d0354498af88fca0041b157eb9aa8264dac15177b194734c7392cbe274c58"
+        },
+        "mask3": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            20
+          ],
+          "sha256": "5344e95aaffef6610693d7c54cf458dd19727c624bbb6f29f33a8b8168f7ce79"
+        },
+        "mask2": {
+          "type": "numpy.ndarray",
+          "dtype": "|b1",
+          "shape": [
+            24,
+            20
+          ],
+          "sha256": "e87ebab060beb7c66837da91b9d2295d637d1fca348b1864ac0281ed0fe77274"
+        },
+        "robot_initial": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            3
+          ],
+          "sha256": "38fb721f509118d67abbbc716c34cd91b3d86fb5d902b3e51d28bb808670c713"
+        },
+        "method_initial/Selected_policy_plus_bounded_Molmo": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            3
+          ],
+          "sha256": "38fb721f509118d67abbbc716c34cd91b3d86fb5d902b3e51d28bb808670c713"
+        },
+        "method_initial/Observed_selected_motion_policy": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            24,
+            3
+          ],
+          "sha256": "38fb721f509118d67abbbc716c34cd91b3d86fb5d902b3e51d28bb808670c713"
+        },
+        "camera_intrinsics": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            3,
+            3
+          ],
+          "sha256": "231dc0a1c9e3648a00ca6cd144bf5b2e4a87544312b54088ffd1c01b7b10eb34"
+        },
+        "camera_poses": {
+          "type": "numpy.ndarray",
+          "dtype": "<f8",
+          "shape": [
+            21,
+            4,
+            4
+          ],
+          "sha256": "644e13b4c94ef86ada2cba3bec6cf167fb07a84920597ea1999487e8713eaefb"
+        }
+      }
+    }
+  ],
+  "original_source_sha256": {
+    "data/legacy/evaluation_rgb/davis_bmx_trees.npy": "06ef1ff40cb001954ae25b3eca2df5299ed523377880c3eace5a475cd09119a7",
+    "data/legacy/examples/data/davis_bmx_trees/caption.txt": "6cb867801b7be44924475e3440fb1893c1525cea511498559c4bc2fa35760cc6",
+    "data/legacy/examples/data/davis_bmx_trees/frame_t+0.jpg": "d0739527df4499edfae1245549757a2b375bcefcef6fdb94a6fc5730873570a1",
+    "data/legacy/examples/data/davis_bmx_trees/frame_t-1.jpg": "b11254687d7e89b23af556f0427aadad9a126e8340086b0ba3fd9b0a3feb479a",
+    "data/legacy/examples/data/davis_bmx_trees/frame_t-2.jpg": "3ffe0397dd72fbdbbd230ec34efc1ac991cc237916ca12b0e24fbed52e36b253",
+    "data/legacy/examples/data/davis_bmx_trees/intrinsics_K.pt": "452709a0d87840d7ef0be4f174b2ee312de621c4d6fb90ba629c2b8612fc8d46",
+    "data/legacy/examples/data/davis_bmx_trees/meta.json": "01494599627226839063d3d16a4a782896be259ece685bfcfca18b0051e5395c",
+    "data/legacy/examples/data/davis_bmx_trees/points_2d_at_t0.pt": "fb295e45c0a0a12245266e4444d1745d131c95a26ead15d0ada5bba490390300",
+    "data/legacy/examples/data/davis_bmx_trees/points_3d_history.pt": "f39fc2a9e33a56b9f3acc83235f36c856863f2c38650c9783e5f526e8042a053",
+    "data/legacy/runs/author_davis_bmx_trees_f30/ground_truth.npz": "61dc848d1566a04e137e4f87f000dabd061f087b3cae839bfbe43095819a7559",
+    "data/legacy/runs/author_davis_bmx_trees_f30/prediction.npz": "0cd15e72f1a79e81f3c5e23292994354ff4d75f4a41f73b68d17929d396295b5",
+    "data/legacy/runs/author_davis_bmx_trees_f30/processor_inputs.pt": "3ff8a5d32db2640f52304ed3bdbeec2e3ea46ef4b80568174c7e1c61592fcf9a",
+    "data/legacy/runs/author_davis_bmx_trees_f30/projection_check.json": "5c4e8f465f200693ca6e8beeaf50ed3735aa6184f5b366abb330249462569bbe",
+    "data/legacy/runs/author_davis_bmx_trees_f30/real_continuation_gt.mp4": "09a04a65b8bcbf21de58c6cac702278b393f2eb55aa23155367f735113bb9e59",
+    "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/projected_2d.npz": "1600dd93a8f9d8cb1c5c74e2910b8d6fc930b46d6db89b3e83ef5a564b7ca189",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/geometry/K_median.npy": "7b30d04a63fb55e68e951a21175e23c0cd11faf944f2f4ff33f784993a890a81",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/metadata.json": "851452edf9d0ac879fbc15e7be8e4605f52ab2bfd5d3abe831d7fe6435af99bc",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_rgb.npy": "0ce2b5a46af49a327e061085f5e780663a6010a4abc9fba4b8448f83db26ab70",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/history_timestamps.npy": "80beca57b6612502cb2403974487daa24f12f79e1dc8cd1ce58a0b6c8d782293",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_2d_history.npy": "468f82f4dbc720caf2389e06b42fa657984227d175122e665bc0e24e3a0c4a74",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/points_3d_history.npy": "bf02e81abf22807a6ba89a4a596e4601007d6e9a46c5165f9799def8d95e0b34",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/observed/selected_point_ids.npy": "334eff7cffd664d7577ec7af9a1c95cac4752a666eacaadd90ace98a9d4d495f",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/future_3d.npy": "6ac2412e8b8c68e8243c742045686db9c987f9344d1018b9c980e28eba1196a6",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_00/processor_inputs.pt": "a75c92e62b6bc2accc60348865218009726a475925c182d41aac503e3a024302",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_01/processor_inputs.pt": "fa672ab1e411b178cfe00a9b3c0b8510ce2050476db0b0a355c550c58ab9f25c",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/CASE-AUGE/bottle/predictions/group_02/processor_inputs.pt": "8558640e5316bd75225959f35c5ae7b6483444242f34636fbe6d1026b4e30a6b",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/evaluation_results.npz": "299e88631ec3a25bdbdaa0f70482a984c43cd41383016bcb1ed2ba704a7a74a8",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/future_rgb.npy": "d261bcecee0435576ac14d102d147d3403129471e9ffcd446653ea169bbc4f55",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/evaluation/ground_truth_3d_est.npz": "eec65beae0ec48ec3877e70c0fe385a5d936e0f0904e21473c46154fd1f658ed",
+    "data/legacy/runs/berkeley_ur5_molmomotion/bottle/geometry/K_median.npy": "8a290dfda3790d313a5ecbb66f77473f7798e921057f34d4d3b8fd067c8714cb",
+    "data/legacy/runs/berkeley_ur5_arc_expansion_v1/phase_schedule/bottle/timing_group_02.mp4": "93f62cbb34d72a2ace83e40a2dcd4798e2928a4cf3792dd3f2c3c63516891e88",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_arrays.npz": "8f0a6b147eb0fc60b3227bc1488d7b0e52f6c0bc56ec7139cd867775fec6a62c",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/evaluation_results.npz": "5cd5c66c58ced9ef3ad286bda31d2bfee67a063258080335d93c25ba5a4c983d",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/future_rgb.npy": "fffac4f1e234b1f3dacc7ffc5cb9deab3388d45dc23ec231be327b7df2da68b8",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/evaluation/ground_truth_3d_est.npz": "ae277c82eb78c65e433a62a829045b3d4ab0d38dc34b0099627823b7fb769aa9",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/geometry/K_median.npy": "ff3ee7f56cad0b9d83d7114a4041fcb56e82680cb7300aeb67da6669689d5ac6",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/metadata.json": "cb1bd498599fc94e7f54b6758599ecb7851261f703e13e715020abf7c0116768",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_rgb.npy": "044993555f03db3e33fe28ecbfbf26b977d86c861883d4493946a11469e83790",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/history_timestamps.npy": "abdfce853ee5c60e7e4b9ab9d70a88df9e20a03e66dff544fb1bb4e985251300",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_2d_history.npy": "02ff70af9f1602776093934c2e3257e6185fe006422cf3b59d5b5f5f269d70d0",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/points_3d_history.npy": "b74aa0489dc7e297ecedda528ff55a6585b9407a7b1ac41c079f635de2ef9040",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/observed/selected_point_ids.npy": "c16d7084ea005f061e9526546b3c9acbb097460b639bfe045f3f8273ed002632",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/future_3d.npy": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_00/processor_inputs.pt": "8673359314531dcd460f8b20edf731b61ffc4a1f8806436f94584a1fceb1d7e3",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_01/processor_inputs.pt": "545c1585df07399e54169250ac47dd24eb01f411efdcf7d935fbcb7b45f3f234",
+    "data/legacy/runs/berkeley_ur5_molmomotion/cup/predictions/group_02/processor_inputs.pt": "d4d357cf1509d978fabaf552869ea447cf52c3bd421e063c3d59595d22e0da46",
+    "data/legacy/runs/berkeley_ur5_improvement_v1/cup/fixed_comparison.mp4": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca",
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00028.png": "3bc8e041be0f4908ed3c2ddb39fd52153c16026e7518fe2d9c6f01b2b1b506eb",
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00029.png": "ff377150167d15dff43bac4b9243f56ba7165bb0c71518c98c714c65eb3756f5",
+    "data/legacy/runs/dobbe_vipe_v1/C/frames/00030.png": "b8125d30a38b694428d837736cdb3056579ece20da861f029305c4da1e944d22",
+    "data/legacy/runs/dobbe_vipe_v1/C/geometry_all.npz": "1050ac89d3edffeb99c131f7681d31af8a00c97dfe0417e488da3c74178935b7",
+    "data/legacy/runs/dobbe_vipe_v1/C/protocol.json": "936e01c1ba6ad66c5cfa934b06c2ea50af16f2b88452819d88a7bd521bcea083",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/c2w_t0.npy": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/conditional_projection.npz": "421a053d64718d188139e8bbc9160aa73751cd3d4daa475739cb42750a0f22e7",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_15hz.mp4": "51cc9a8ec31ce8e554800714af2d1280d1c74b741c018db5d8453b7a6160a8a4",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/observed_future_tracks.npz": "bf456c01cb98b620ba75c118c9c12f677d4f9adf33cfd32bb460d08525b04b9d",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/geometry_gate.json": "daac3a0db6a9a2bc7015e13ad92bdb4e3bafe789c675086cfcd1341d0dc0f7fd",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_2d_t0.npy": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_camera_t0_diagnostic.npy": "dd44287ba444056d556839e4e93b44edb8a1136a50dd11eb9344ccd701df4bf7",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/points_3d_world.npy": "c6625a4887010ccc132020f1de9dc420edaee4d59a07062576fea715221c4533",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/prediction_15hz.npy": "e057e17034512ccf7f0521f1143edf57b0d4b80327f31e45588e16f099ea3107",
+    "data/legacy/runs/dobbe_vipe_v1/C/pure_vipe/evaluation/future_overlay.mp4": "209ea60fde770fdad5669bc00ca14aa35b0cad0d1b59467cba91875bb504ae61",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/c2w_t0.npy": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/geometry_gate.json": "532c79ea9f44bc38eb1a404b5d73dff6179b7fe7c59a433f97b162bfd16ad02f",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_2d_t0.npy": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+    "data/legacy/runs/dobbe_vipe_v1/C/hybrid/points_3d_world.npy": "5f92f18bcc154750106bcb41b53b11e8caf930d34dd02e8659cc51cfafd5cf46",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/observed/points_3d_history.npy": "b286960e2bddacedfc3d91b4b2d004ad92103579df922f19cb2b8faf3077b31b",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/future_3d.npy": "2e765b7bc10b33306e47533cb46cfc645bb56f3eb19bb58955479262aab6b26f",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt": "55717688b8186829afd7d22d569fc5bdd71bd5faf6f4e1ce6b660af11e852fab",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt": "2ad29df2f280cf6bc6b114702a1735af2557058808069d88b159927f3f3c05f7",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt": "ada2bced8c7652d2ab2b73ff19636a9977a5f21ddb44c727ad49dce1e9630a5f",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_reference.npz": "69bd27e493e861b13d7e450acac70311c002ece3deb9b5c7bd7129d0ba792877",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/evaluation/future_rgb.npy": "42c2a20cdb4e41e525bbd301f490a220dbba2ac9e1bad893438f4e3ca2fefbe7",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/metadata.json": "8488214bd8fda12936eab47fd1e1b48bcb833ed537087e32dff2d8bb4a2f99c4",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/history_rgb.npy": "ed59e8a12df5651ace97495eb5c8db603ffbcebe39781c15ce77850ec77cf599",
+    "data/legacy/runs/fmb_wrist_v3/wrist_1/observed/points_2d_history.npy": "5069d799340fe63b6e8b7c7a667500dd7bd8ccd4c02ab5253077848bfb4917cf",
+    "data/legacy/runs/fmb_wrist_v4_improvement/motion_policy_amendment_v2.json": "ac49a96a692fbf6a4216a11dcd23a4fdaaec23a7e24e96d44417c1b1452d0351",
+    "data/legacy/runs/fmb_wrist_v4_improvement/observed_diagnosis.json": "e77dbbaca216b9d9ce5f943d9b6d4a3bb906433b743a2df7a6fc3dda756059c4",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/observed_reference.npz": "10e7919292d2ff7bc43dbde6b985f786a4a282fc5d1fb72071d3f294489fc01f",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/predictions_and_projections.npz": "0904ebce27d7ac97c8497ee3088b8da60942e0a7caccdf6759b910c58f40fa04",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/selected_motion_policy_v2_15hz.npy": "f0b020f865e7de9fa6a6f9ab4762f3a0ab1aa3b2fd6648c068c04910ac1b7424",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_1/viz/forecast_comparison.mp4": "b5b23e3ffa29ec6e7124eb096ba92372bbb3b29cbd0ce8fd20c2a298ad2e005b",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/observed/points_3d_history.npy": "b0d2fce623fb0a426ec3f0a1f502dcc20417275dc5ff14ffbb9fcdbaf2e1abe3",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/future_3d.npy": "433ea139d69ba2021244d2dc7cc6eba06d11308abb2950044b0ef0b8509f55d0",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_00/processor_inputs.pt": "a3f8603079754f5ff347593e842ab14e7b04dedf5d9a70f3e73e1e8e56da1a42",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_01/processor_inputs.pt": "88504302447cb473ceb98ba0b2d2b64f2e19fff2f49d2a4a15183d76405e4eff",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/branches/C_sensor_tcp_official/predictions/group_02/processor_inputs.pt": "c0650809c6eaa1d8dbc2abed5388167227141b81a3c88e1bb7acf19d7f86dedd",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_reference.npz": "25d69ca390037814ebdf9207d42a917b597a82369a2ac2610092279f0b77f27b",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/evaluation/future_rgb.npy": "47c724b35acbde12efb4c3255c99f8cee802802d404d7b5e4e358dcac9a6ac85",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/metadata.json": "0e71e5a299b03abcbb1c3694f22759f7a73085c6d34915afa4495a96981a4c99",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/history_rgb.npy": "ff3134960eef0c1c51f1988b609e0231445346b7badf706a099d28e9e1643502",
+    "data/legacy/runs/fmb_wrist_v3/wrist_2/observed/points_2d_history.npy": "aad7cef5067068ec9410d4b6c906d1b31179111fa87bb255f49d8186ddeaece3",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/observed_reference.npz": "2d7c9469c90a54152371b6ee0402b475e51abedc5549cafec28f9af1ca82c02e",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/predictions_and_projections.npz": "401adde92147f1ea3809890892d38d8d573a3b62e8b7afc7ecce0a212277376c",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/selected_motion_policy_v2_15hz.npy": "bd2e078e70a95f3a41f603d494f4dc388edb7b0a764b8a8d94d446ea33e22053",
+    "data/legacy/runs/fmb_wrist_v4_improvement/wrist_2/viz/forecast_comparison.mp4": "f667389a222c16861b763e6eaf4f6edb2c35d5b125d2dea82f78a09cae7f625b"
+  }
+}
