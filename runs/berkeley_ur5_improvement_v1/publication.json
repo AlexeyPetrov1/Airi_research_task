@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "repository": "https://github.com/AlexeyPetrov1/Airi_research_task",
+  "branch": "main",
+  "research_commit": "0177cfdcd49b6b52e9672254c05c949e769f9594",
+  "research_commit_url": "https://github.com/AlexeyPetrov1/Airi_research_task/commit/0177cfdcd49b6b52e9672254c05c949e769f9594",
+  "remote_main_confirmed_at_research_commit": true,
+  "github_connector_retrieved_published_research_story": true,
+  "published_research_files_verified_against_local_bytes_before_commit": 1212,
+  "local_audit": "final_verification.json",
+  "visual_review": "visual_review_final.json",
+  "tests": "tests_receipt.json",
+  "baseline_files_verified_unchanged": 488,
+  "genuine_new_MolmoMotion_forward_calls": 19,
+  "full_24_ID_cases": 6,
+  "ShareRobot_frames_exactly_matched": 60,
+  "scope": "Berkeley improvement research, code, raw outputs, numerical inputs/results, images, movies, source audits, readable story and reports. The research commit includes all deliverables; this receipt is committed subsequently.",
+  "Kalib": "Applicability audit complete; actual calibration not run without verified TCP correspondences.",
+  "temporary_desktop_shortcut_published": false
+}
