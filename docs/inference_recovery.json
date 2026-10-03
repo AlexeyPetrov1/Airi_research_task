@@ -1,0 +1,16 @@
+{
+  "detected_at_utc": "2026-10-03T20:19:11+00:00",
+  "old_linux_pid": 5840,
+  "old_tool_session": 80774,
+  "evidence": "Old PID and all motion_experiments / finish_verified processes are absent; old tool sessions no longer exist",
+  "cause": "unknown; no terminal traceback was retained by the lost tool session",
+  "preserved_attempt": "outputs/inference_verified",
+  "completed_cases": ["author_davis", "fmb_wrist_1", "fmb_wrist_2"],
+  "completed_prediction_max_difference_m": 0.0,
+  "incomplete_case": "berkeley_bottle/group_00",
+  "incomplete_group_has_successful_forecast": false,
+  "remaining_attempt": "outputs/inference_remaining_20261003T2019",
+  "combined_completed_artifacts": "outputs/inference_all_verified",
+  "completed_predictions_repeated": false,
+  "old_artifacts_overwritten": false
+}

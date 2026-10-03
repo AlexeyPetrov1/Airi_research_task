@@ -26,6 +26,8 @@ def load(config, root, evaluation=True):
                 future_used_for_model_input=False, metric_3d_ground_truth=False,
                 source_fps=30, model_fps=15, shown_indices=list(range(8)), variant=variant,
                 geometry_gate=gate, old_video=folder+"/evaluation/future_overlay.mp4",
+                failure_detail=(f"static_median: {gate['static_cross_frame_px']['median']:.6f} px > 4 px; "
+                                f"failed checks: {', '.join(failed)}") if failed else None,
                 old_panel_crop=[0,56,512,512],
                 legacy_metric_file=folder+"/evaluation/metrics.json",
                 limitation="2D ошибка условна: позы камер и K не подтверждены физической калибровкой. Эталонного 3D нет. Hybrid остановлен по static_median.")

@@ -47,7 +47,10 @@ def run_case(config, source_root, destination, checkpoint, mode, runner=None, pr
     if sample.failure_reason:
         write_json(destination/"status.json", dict(validation, success=False, expected_failure=True,
                                                   mode=mode, runtime_seconds=time.monotonic()-start))
-        (destination/"index.html").write_text('<meta charset="utf-8"><h1>Dobb-E: SKIPPED_GEOMETRY_GATE</h1><p>static_median: 5.524 px &gt; 4 px. Forecast and metrics remain blocked.</p>', encoding="utf8")
+        message=sample.metadata.get("failure_detail") or sample.failure_reason
+        (destination/"index.html").write_text('<meta charset="utf-8"><h1>'+html.escape(sample.metadata["title"])+': '
+            +html.escape(sample.status)+'</h1><p>'+html.escape(message)
+            +'</p><p>Forecast and metrics remain blocked.</p>', encoding="utf8")
         print(config["name"], "expected SKIPPED_GEOMETRY_GATE", flush=True)
         return dict(name=config["name"], status=sample.status, expected_failure=True)
     batches, input_checks = build_inputs(sample, checkpoint, destination/"inputs/model")
