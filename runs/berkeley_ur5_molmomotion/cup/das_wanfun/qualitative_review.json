@@ -1,0 +1,35 @@
+{
+  "scope": "Manual inspection of saved contact sheets at 0, 0.5, 1, 1.5, 2 seconds and full-duration samples at 0, 1, 2, 3, 4, 5, 6 seconds. Video metadata and all frames are decoded separately by verification; no continuous human video-rating claim.",
+  "goal_status": "PASS: research pipeline and required evaluations completed",
+  "motion_quality": "Poor: original target cup is not transported according to requested control",
+  "controlled": {
+    "image_quality": "Room, table, robot and brown cup remain recognizable; details are softer than real frames.",
+    "target_identity": "Original printed blue cup remains near its initial position. A separate blue copy or fragment appears along the upward control; the moving copy does not preserve reliable physical point identity.",
+    "deformation": "Moving blue copy becomes a narrow white-blue fragment near the robot shoulder.",
+    "grasp": "Gripper stays near the original cup and does not follow the moving copy.",
+    "temporal_consistency": "Sampled background is stable without large global jumps. Local changes and occlusions of the copy are physically implausible; low flow-warp error is partly explained by static content.",
+    "after_2_seconds": "Original cup and fragment remain approximately fixed through the sampled end of the video."
+  },
+  "no_control": {
+    "image_quality": "Background remains recognizable, but the robot gripper develops a human-like hand.",
+    "target_identity": "Original blue cup remains visible near its initial position. Additional blue cups and a light-brown fragment appear; a printed motif on some copies cannot prove physical identity.",
+    "deformation": "Hand, fingers and duplicated cups change shape and overlap inconsistently.",
+    "grasp": "Synthetic hand holds a separate cup rather than transporting the single original cup with the robot gripper.",
+    "temporal_consistency": "More local movement than controlled generation; sampled background remains stable. Smooth local motion still violates robot and object geometry.",
+    "after_2_seconds": "Synthetic hand and additional cups continue moving despite there being no verified real future beyond the evaluated horizon."
+  },
+  "metric_interpretation": "AllTracker follows the persistent original cup. Reported ADE/FDE do not measure the hallucinated moving copy. HSV and blue-pixel proxies do not certify shape, printed motif or object count.",
+  "limitations": [
+    "One preselected episode and one seed; no statistical capability claim.",
+    "MolmoMotion forecast already differs substantially from real future.",
+    "Rigid approximation has mean RMS 73.50 mm; individual contributions are not isolated.",
+    "Control uses only observed visible object geometry, with depth holes and partial out-of-frame motion.",
+    "Robot arm and gripper geometry have no separately predicted trajectory."
+  ],
+  "reviewed_artifacts": [
+    "control_contact_sheet.png", "object_cloud_t0.png", "rigid_fit_residual.png",
+    "generated_contact_sheet.png", "generated_full_duration.png",
+    "generated_contact_sheet_no_control.png", "generated_no_control_seed42.png",
+    "ablation_full_duration.png", "motion_comparison.png"
+  ]
+}

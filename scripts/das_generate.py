@@ -42,6 +42,7 @@ def main():
     p.add_argument('--num_inference_steps', type=int, default=25)
     p.add_argument('--import-only', action='store_true')
     p.add_argument('--min-free-vram-gib',type=float,default=9)
+    p.add_argument('--wait-pid',type=int)
     a = p.parse_args()
     out = a.output_path.parent
     out.mkdir(parents=True, exist_ok=True)
@@ -89,11 +90,16 @@ def main():
         state['stage']=name
         print(f'STAGE {name}; elapsed={time.monotonic()-started:.1f}s',flush=True)
     try:
+        if a.wait_pid:
+            while psutil.pid_exists(a.wait_pid):
+                print(f'Waiting for existing GPU experiment PID {a.wait_pid}',flush=True)
+                time.sleep(15)
         free,total = torch.cuda.mem_get_info()
         while free < a.min_free_vram_gib*2**30:
             print(f'GPU busy: {free/2**30:.2f} GiB free; waiting 15 s',flush=True)
             time.sleep(15)
             free,total = torch.cuda.mem_get_info()
+        state['queue_wait_seconds']=time.monotonic()-started
         torch.cuda.reset_peak_memory_stats()
         if is_main:
             validation = json.loads((out/'control_validation.json').read_text())
@@ -140,6 +146,9 @@ def main():
             def encode(*args,**kwargs):
                 stage('vae_encode'); value=original_encode(*args,**kwargs); stage('pipeline'); return value
             def decode(*args,**kwargs):
+                stage('save_generated_latents')
+                torch.save({'latents':args[0].detach().cpu(),'vae_checkpoint':str(a.checkpoint_path/'Wan2.1_VAE.pth'),
+                            'dtype':'bfloat16','das_commit':config['git_commit']},out/f'generated_latents{stem}.pt')
                 stage('vae_decode'); return original_decode(*args,**kwargs)
             self.vae.encode,self.vae.decode=encode,decode
             self.transformer.register_forward_pre_hook(lambda *unused: stage('denoise'))
@@ -176,6 +185,7 @@ def main():
         raise
     finally:
         state['wall_seconds']=time.monotonic()-started
+        state['active_seconds']=state['wall_seconds']-state.get('queue_wait_seconds',0.)
         if torch.cuda.is_initialized():
             state['peak_cuda_allocated_bytes']=torch.cuda.max_memory_allocated()
             state['peak_cuda_reserved_bytes']=torch.cuda.max_memory_reserved()

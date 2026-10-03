@@ -4,20 +4,33 @@
     "control_inputs_contain_no_evaluation": true,
     "visual_control_approved": true,
     "proper_rotations": true,
+    "orthogonal_rotations": true,
     "initial_identity": true,
     "final_pose_held": true,
     "video_control_molmomotion_640x480.mp4": true,
     "video_control_molmomotion_720x480.mp4": true,
     "video_generated_molmomotion_seed42.mp4": true,
+    "video_generated_no_control_seed42.mp4": true,
     "video_triple_comparison.mp4": true,
     "video_real_vs_generated.mp4": true,
     "video_control_vs_generated.mp4": true,
+    "video_triple_comparison_no_control.mp4": true,
+    "video_real_vs_generated_no_control.mp4": true,
+    "video_control_vs_generated_no_control.mp4": true,
+    "video_ablation_comparison.mp4": true,
     "required_generation_artifacts": true,
     "generation_success": true,
     "four_quantitative_errors": true,
     "evaluation_physical_times": true,
     "generated_tracking_shape": true,
-    "generated_real_ADE_recomputed": true
+    "generated_real_ADE_recomputed": true,
+    "ablation_parameters_match": true,
+    "ablation_native_no_control": true,
+    "ablation_generation_success": true,
+    "ablation_evaluated": true,
+    "ablation_real_ADE_recomputed": true,
+    "ablation_common_mask_recomputed": true,
+    "ablation_required_artifacts": true
   },
   "videos": {
     "control_molmomotion_640x480.mp4": {
@@ -50,6 +63,16 @@
       "fps": 8.0,
       "sha256": "7355a305a8173c954df994d00944253c3ba7875937ba5804256c7573d896b127"
     },
+    "generated_no_control_seed42.mp4": {
+      "frames": 49,
+      "shape": [
+        480,
+        720,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "90cdc8e576c51b9f82aa491de615e4bde05772e2715e7ca13f82657b04e80732"
+    },
     "triple_comparison.mp4": {
       "frames": 17,
       "shape": [
@@ -79,6 +102,46 @@
       ],
       "fps": 8.0,
       "sha256": "fa00d51b462dfe9652c66f544e83cf9876c692fab5a0360ab5ab471dbeffcfb9"
+    },
+    "triple_comparison_no_control.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1920,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "c317ddede10f4e85492170ae4f48cf1b6670df6c236fb5a06771038e59000b67"
+    },
+    "real_vs_generated_no_control.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1280,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "3cafcef4b5d41b8104fe96434ef663a5ae3702e0601b71f77abbbb01a55d176e"
+    },
+    "control_vs_generated_no_control.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1280,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "a83ccba21c0a00e8bbe8254bab9e39d504cef3caee026e1edbbbe41a244c0d3b"
+    },
+    "ablation_comparison.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1920,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "7a37f790c9f580b7bdd57a7f248e3cfdd45142ce7837e9c23bf2bd3c9e23c6a8"
     }
   },
   "status": "PASS",

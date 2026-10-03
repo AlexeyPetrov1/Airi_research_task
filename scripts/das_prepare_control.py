@@ -130,6 +130,8 @@ def main():
     p0 = np.load(scene/'observed/points_3d_history.npy')[-1].astype(float)
     ids = np.load(scene/'observed/selected_point_ids.npy')
     meta = json.loads((scene/'metadata.json').read_text(encoding='utf8'))
+    assert meta['source_episode_id']==10 and meta['t0']==63 and meta['source_fps']==5
+    assert meta['instruction']=='Pick up the blue cup and put it into the brown cup.'
     receipt = json.loads((scene/'predictions/model_run.json').read_text(encoding='utf8'))
     assert receipt['success'] and pred.shape == (24, 30, 3) and p0.shape == (24, 3)
     assert np.isfinite(pred).all() and np.isfinite(p0).all()

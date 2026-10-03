@@ -1,0 +1,11 @@
+{
+  "stage": "vae_decode",
+  "success": false,
+  "started_utc": "2026-10-03T03:23:37Z",
+  "peak_process_rss_bytes": 22630346752,
+  "peak_system_ram_used_bytes": 24649510912,
+  "peak_cuda_allocated_bytes": 2930341376,
+  "peak_cuda_reserved_bytes": 3705667584,
+  "peak_device_used_bytes": 8616927232,
+  "wall_seconds": 1008.8984970990005
+}
