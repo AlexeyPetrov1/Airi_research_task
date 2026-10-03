@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "molmo-motion-experiments"
+version = "0.1.0"
+description = "Reproducible final MolmoMotion experiments: DAVIS, FMB, Berkeley and Dobb-E"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.5", "torchvision", "transformers>=4.45,<5", "huggingface_hub>=0.24",
+    "numpy>=1.26", "pillow>=10", "omegaconf>=2.3", "h5py>=3.10", "tqdm",
+    "cached_path", "datasets", "einops", "decord", "av", "torchmetrics",
+    "packaging", "requests", "opencv-python-headless", "scipy", "torchcodec",
+    "matplotlib", "imageio[ffmpeg]",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+molmo-motion-experiment = "motion_experiments.run:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]

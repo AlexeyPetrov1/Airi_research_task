@@ -1,0 +1,166 @@
+{
+  "role": "Supplemental raw evaluation RGB from unchanged original frames; not a legacy forecast or metric",
+  "array_path": "evaluation_rgb/davis_bmx_trees.npy",
+  "array_sha256": "06ef1ff40cb001954ae25b3eca2df5299ed523377880c3eace5a475cd09119a7",
+  "shape": [
+    30,
+    480,
+    854,
+    3
+  ],
+  "dtype": "uint8",
+  "future_frame_indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "source_frames": [
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00003.jpg",
+      "sha256": "aa176ce5fbc91ff3385d4f31aa8344e72fbd2eb7351938ed7176a9650446cc33"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00004.jpg",
+      "sha256": "d38b64c8d905212d78d69ed3d9e6229912335eb22aca7eea7ba93d5f10890a2e"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00005.jpg",
+      "sha256": "98330afa015d2d89735fc39c954f40f2de35097919011455cb30eb45697afdb4"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00006.jpg",
+      "sha256": "53633c42c3ece996d8ee4d20aa52ff966161e262884ffc4f90ff1368b01751f8"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00007.jpg",
+      "sha256": "79b5a448d8e523ad2cfcb00c46f0900d95d5010f9606525b3c48d3c6b1e31f47"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00008.jpg",
+      "sha256": "c8549b64e890ceb2b35b35922e0f7b63c46befa08eb0510cf1baf0249126dba5"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00009.jpg",
+      "sha256": "862337906c37bdeec2e9108385990de78ab27550869c6c197d2858edee097185"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00010.jpg",
+      "sha256": "8d657d97eb763361cbf9972ccbe9d18714083aefdb79723f77106b398a23af58"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00011.jpg",
+      "sha256": "481f9d70d14b43ec7954678cc4a4b5b9742465f4bbabcd1d6f6ed914aaf0bb70"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00012.jpg",
+      "sha256": "f5494a3c26aa719074d2de67c1baa0cf2e8eeb67b9a276afb741e29a07a2c769"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00013.jpg",
+      "sha256": "04f3d551129ad6c3e38b7c902473e120797735a8fa0c99a4533ab627991c6b6f"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00014.jpg",
+      "sha256": "4d97e141b0620214136a42d53ac940c8eba50b384cf0f9f723a42c68a59f2712"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00015.jpg",
+      "sha256": "c88775721733b4e87c781617bb74d1434343dc46d554708150080f8342fd2ad5"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00016.jpg",
+      "sha256": "c60cd05b8af8b55b0f560b0c3b29f7ac61379e6f1255cfeb3d2f6ab22bfde690"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00017.jpg",
+      "sha256": "f98748465828713f70758d5393fa11dcdd7d76de86dfe53bd2bead888b77cbd7"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00018.jpg",
+      "sha256": "9c86304608b1ab3596db591e9d45eed4bc54512fb778556d1fcd3737a03e590d"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00019.jpg",
+      "sha256": "ba9cc974dda99b882e9c5fb469b0e2f2d334810973b3e2b8ca2018ca4291c312"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00020.jpg",
+      "sha256": "7022d5408bef73d7f3d3b1a0e973844794f0ffafdf5c45fe71416274d2c0f5ed"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00021.jpg",
+      "sha256": "c50491eb8adbda20c58fb3c69945c58b7754cdc80f801609e3bc49e5c143d339"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00022.jpg",
+      "sha256": "c1b83df284e2fb438ed9b9d9f78fd8561c72257eaff87f7b6d4de7937da6f73c"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00023.jpg",
+      "sha256": "26e94c78735c73b2dd0e7d2ab302166060ca7d7a7c5fa88ee285a02f5280cd9c"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00024.jpg",
+      "sha256": "bae8c3aeea54c6209f54e033db2e222d1d5a704c2b7a8b8ab0f3454f26026a68"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00025.jpg",
+      "sha256": "61d42ff2262c05f5c0909920e58e2d176d5cd6faffd417db4511b07891105ba5"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00026.jpg",
+      "sha256": "ba014c105ab89f7523b04d48743d7d458616c2684ff35dfc3ccdb391c26ccecd"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00027.jpg",
+      "sha256": "2408e4418067560f768a805004afd68c88dbd95d262bd9e724d7cc96de16f3c3"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00028.jpg",
+      "sha256": "2baa1d766e3b3266b11f030c751723cd7fae77694d50801755bbd4a2c9fe8b96"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00029.jpg",
+      "sha256": "94dbd6610e8e58703c7d76c36551b103d821e9f81c8b46b3b0024abed08c081e"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00030.jpg",
+      "sha256": "5fa9fc78815ec3c7356df16fe1bc44b5cb47f148e36104581278a9433061ef61"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00031.jpg",
+      "sha256": "6fe62da593f47cbb74d2c4e4a0c55e7ed4f60e9042c54382780f008c0069a6d4"
+    },
+    {
+      "path": "runs/author_davis_bmx_trees_f30/frames/00032.jpg",
+      "sha256": "2c3aa4df2f147e4bf8d3f1f52a7e5ba373ae9e9cab2770cbade20837c80329ac"
+    }
+  ]
+}

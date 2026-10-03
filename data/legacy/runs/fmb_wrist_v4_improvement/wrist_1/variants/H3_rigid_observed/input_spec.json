@@ -1,0 +1,22 @@
+{
+  "camera": "wrist_1",
+  "variant": "H3_rigid_observed",
+  "history": 3,
+  "horizon": 30,
+  "action": "Insert the red rectangular peg into the matching hole on the blue board.",
+  "source_history_indices": [
+    124,
+    125,
+    126
+  ],
+  "coordinates": "camera_t0; estimated meters; unchanged official K/frozen observed hand-eye X",
+  "input_change": "Replace noisy per-frame target coordinates by the same t0 rigid camera-attached template transformed with observed TCP",
+  "future_used": false,
+  "same_point_ids_and_group_order_as_v3": true,
+  "sha256": {
+    "history_rgb.npy": "ed59e8a12df5651ace97495eb5c8db603ffbcebe39781c15ce77850ec77cf599",
+    "history_xyz.npy": "94b27308815f3612c562b29cf87b03fcc992012ed9c01534dcab328f8d631296",
+    "point_ids.npy": "485809025f1dcfb4cec547ad86df01d009aa1f51db36ecca7ac1454cb3f4fcc1",
+    "query_uv.npy": "13374443e146d4c32719c51b8b5d7007d8b901c7fb4aa0b6097282f03e9dc2a5"
+  }
+}

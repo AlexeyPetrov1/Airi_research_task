@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "success": true,
+  "variant": "pure_vipe",
+  "action": "Close the drawer.",
+  "torch_version": "2.9.1+cu128",
+  "input_freeze_sha256": "d18922771cc663ad182ad56ea14a2a7fb8bfff1cc69cf50e42b669d5af450e4d",
+  "stage": "complete",
+  "elapsed_seconds": 264.95206125100003,
+  "peak_cuda_allocated_gib": 9.644247055053711,
+  "peak_ram_gib": 22.281173706054688,
+  "prediction_seconds": 187.25722741100026,
+  "prediction_shape": [
+    8,
+    30,
+    3
+  ],
+  "prediction_finite": true,
+  "parsed_point_frames": 240,
+  "expected_point_frames": 240,
+  "prediction_sha256": "e057e17034512ccf7f0521f1143edf57b0d4b80327f31e45588e16f099ea3107"
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "original_path": "scripts/fmb_wrist_math.py",
+    "function": "transform",
+    "original_file_sha256": "18fa5b0ba9c1908d68e89361767e6fdbd757fed139bf290fab676112d5e317ba",
+    "function_sha256": "713672512d63c1ee5963336dd6acb714e11b1df0711cb9c4a04747cdc482fcd2"
+  },
+  {
+    "original_path": "scripts/fmb_wrist_math.py",
+    "function": "project",
+    "original_file_sha256": "18fa5b0ba9c1908d68e89361767e6fdbd757fed139bf290fab676112d5e317ba",
+    "function_sha256": "96ad85e95dc1ea9a2e570ac293c5dc6121fc0aa48c2913766bcdaa03c9ba11a2"
+  },
+  {
+    "original_path": "scripts/fmb_wrist_math.py",
+    "function": "from_anchor",
+    "original_file_sha256": "18fa5b0ba9c1908d68e89361767e6fdbd757fed139bf290fab676112d5e317ba",
+    "function_sha256": "0fb732920611e7719644d0f3c5683f90172d7f3138d07447397f54a3180bdff9"
+  },
+  {
+    "original_path": "scripts/fmb_wrist_evaluate.py",
+    "function": "scores",
+    "original_file_sha256": "62725d7f61eb38e95d72d655715b5233f9da505cdc3ba791288406863c5d4e03",
+    "function_sha256": "6e388d0f177bf295ec144d252d69e0b7caf15fd5813e27707cea65d26baa8b70"
+  },
+  {
+    "original_path": "scripts/fmb_wrist_v4_evaluate.py",
+    "function": "align",
+    "original_file_sha256": "a310341d67867977c55aa058b661daa3671aaded3bfe027feb4a08be7947f6eb",
+    "function_sha256": "6083495764310e059c93962596ba4cbe1d0f2f61dddb5059639f0bed95479bc1"
+  },
+  {
+    "original_path": "scripts/fmb_wrist_v4_prepare.py",
+    "function": "forecast_tcp",
+    "original_file_sha256": "b4509ce16aa5d1eb4a74e71ed8d4c4ef51e343eaf8402203ecb385962a6b8b68",
+    "function_sha256": "96b30fdcdbdda171c130b44200f91e28d96a788074b562acb740ed523d032f04"
+  },
+  {
+    "original_path": "scripts/fmb_wrist_v4_refine.py",
+    "function": "centroid_forecast",
+    "original_file_sha256": "d9cf33d68529960e1ea9908ab83cee8aebb2afda5841b718e7222073b927777b",
+    "function_sha256": "1dc533db4995cd5b42e0d7628bc08114dbce6a7afb1e912dcb28d22dcdf06e34"
+  },
+  {
+    "original_path": "scripts/fmb_wrist_v4_refine.py",
+    "function": "predict",
+    "original_file_sha256": "d9cf33d68529960e1ea9908ab83cee8aebb2afda5841b718e7222073b927777b",
+    "function_sha256": "632c4ee34ac11084c4d6a7bf836f9ee9bb837123dfada58ad5ac5b71fba86df2"
+  },
+  {
+    "original_path": "scripts/evaluate_author_davis.py",
+    "function": "metrics",
+    "original_file_sha256": "52e7c17daa8417aee480ca7ccbfc61faceeb3376d78b476d3c243f4a9b6d8a38",
+    "function_sha256": "f2b3d35aa0bee6514e2f7129716978abd507dacb4cf3fde790e085128784555d"
+  },
+  {
+    "original_path": "scripts/evaluate_author_davis.py",
+    "function": "parse_raw_forecast",
+    "original_file_sha256": "52e7c17daa8417aee480ca7ccbfc61faceeb3376d78b476d3c243f4a9b6d8a38",
+    "function_sha256": "75b892aec4739d7700683856f9fec3f116c52787df73e31352cb34d448d7b4a7"
+  },
+  {
+    "original_path": "scripts/evaluate_author_davis.py",
+    "function": "project",
+    "original_file_sha256": "52e7c17daa8417aee480ca7ccbfc61faceeb3376d78b476d3c243f4a9b6d8a38",
+    "function_sha256": "8474c3c942706b4793539143c1859d1f7a875dda404c8bccba49155a50a20bf2"
+  },
+  {
+    "original_path": "scripts/berkeley_evaluate.py",
+    "function": "project",
+    "original_file_sha256": "43ef85cdb3666acd65928ca00a73507a2ee311eb59e6a361d2d36853f22e2129",
+    "function_sha256": "633eaecce191b4d596a7b0519cc0172fa03ef70ab5cb9cc8f3922ec386724b96"
+  },
+  {
+    "original_path": "scripts/berkeley_evaluate.py",
+    "function": "velocity",
+    "original_file_sha256": "43ef85cdb3666acd65928ca00a73507a2ee311eb59e6a361d2d36853f22e2129",
+    "function_sha256": "5e73c60a0da7c88c6bfb54461d601c9bf8739c60eaf322312255db5f17fdbfbf"
+  },
+  {
+    "original_path": "scripts/berkeley_evaluate.py",
+    "function": "metric_values",
+    "original_file_sha256": "43ef85cdb3666acd65928ca00a73507a2ee311eb59e6a361d2d36853f22e2129",
+    "function_sha256": "b477ba8684df9dd190914cda2b62ed69f467f9a89f7fe6fc576c2b4dcf029763"
+  },
+  {
+    "original_path": "scripts/berkeley_temporal_diagnostics.py",
+    "function": "scale_displacement",
+    "original_file_sha256": "0c4478bc3401cf76ad2586fe60d1a9c6024056362d9aea196ab5524fe109c588",
+    "function_sha256": "b6a8fc7fd27e36ccaf54ea949cecdd70f72dc1665cf2618bead58f35839ad102"
+  },
+  {
+    "original_path": "scripts/berkeley_arc_expansion.py",
+    "function": "expand",
+    "original_file_sha256": "7f75e65ea4818452a67d81291852279274e18acd8ec6f0e79327331406482a9a",
+    "function_sha256": "92c58a2f3b924b774248fa6a118079e1e2d1dcce756364776d25a9eb63ce5694"
+  },
+  {
+    "original_path": "scripts/berkeley_arc_phase.py",
+    "function": "temporal_expand",
+    "original_file_sha256": "c687dcd639e479cbb35cdfab55e0ad4de51f3bba7872e75560db576baa160f9d",
+    "function_sha256": "710a3fd62fa66395ed85a88322531bb9b68be4182baf8039ceb5be09013d2142"
+  },
+  {
+    "original_path": "scripts/dobbe_vipe_geometry.py",
+    "function": "project",
+    "original_file_sha256": "d6db192e3f0e33a4297c8783f35e9598ab2ec0e40d7d87afedcc45d2643f00bb",
+    "function_sha256": "cf27b110c992d15737d6965fa6eb8e37869956b02fd67c56e55268acf82e84e3"
+  },
+  {
+    "original_path": "scripts/dobbe_vipe_geometry.py",
+    "function": "stats",
+    "original_file_sha256": "d6db192e3f0e33a4297c8783f35e9598ab2ec0e40d7d87afedcc45d2643f00bb",
+    "function_sha256": "b6c7e8d09d13cfecdeb2f911e41ce0cd56f2d84a11bb89159e35460854e88ec3"
+  }
+]

@@ -1,0 +1,10 @@
+* text=auto eol=lf
+data/legacy/** -text
+tests/golden/source/** -text
+src/molmo_motion/** -text
+*.png -text
+*.jpg -text
+*.mp4 -text
+*.npy -text
+*.npz -text
+*.pt -text

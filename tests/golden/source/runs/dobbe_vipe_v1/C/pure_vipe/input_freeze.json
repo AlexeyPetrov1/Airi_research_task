@@ -1,0 +1,29 @@
+{
+  "scene": "C",
+  "variant": "pure_vipe",
+  "action": "Close the drawer.",
+  "history_raw_ids": [
+    56,
+    58,
+    60
+  ],
+  "source_fps": 30,
+  "model_history_fps": 15,
+  "future_horizon": 30,
+  "input_sha256": {
+    "pure_vipe/points_3d_world.npy": "c6625a4887010ccc132020f1de9dc420edaee4d59a07062576fea715221c4533",
+    "pure_vipe/points_2d_t0.npy": "38530c11c827657a3c6aa2734271ce000092e0b2fb5faab2212b9090174cf39e",
+    "pure_vipe/c2w_t0.npy": "f0342bc2d33a52bba4b66a498223ec8df3dc9fa9886c4d3a3ad8b8ba72b79d34",
+    "pure_vipe/geometry_gate.json": "daac3a0db6a9a2bc7015e13ad92bdb4e3bafe789c675086cfcd1341d0dc0f7fd",
+    "frames/00028.png": "3bc8e041be0f4908ed3c2ddb39fd52153c16026e7518fe2d9c6f01b2b1b506eb",
+    "frames/00029.png": "ff377150167d15dff43bac4b9243f56ba7165bb0c71518c98c714c65eb3756f5",
+    "frames/00030.png": "b8125d30a38b694428d837736cdb3056579ece20da861f029305c4da1e944d22"
+  },
+  "protocol_sha256": "936e01c1ba6ad66c5cfa934b06c2ea50af16f2b88452819d88a7bd521bcea083",
+  "seed": 0,
+  "dtype": "bfloat16",
+  "checkpoint_config_sha256": "7e518af747f12fec9e1a249209380330207adf11aad8475a7362671b6ff912a0",
+  "checkpoint_model_sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
+  "geometry_status": "ViPE-estimated; not physical ground truth",
+  "future_used": false
+}

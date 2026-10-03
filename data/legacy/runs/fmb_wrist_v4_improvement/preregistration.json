@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-10-03T09:03:54.467616+00:00",
+  "objective": "Improve the actual point forecasts and distinguish native MolmoMotion changes from robot-aware hybrid gains",
+  "cameras": [
+    "wrist_2",
+    "wrist_1"
+  ],
+  "baseline": "Frozen v3 C native H3, Static and CV",
+  "neural_variants": [
+    "H3_rigid_observed",
+    "H1_native"
+  ],
+  "planned_native_P8_calls": 12,
+  "neural_model_selection_by_future_ADE": false,
+  "robot_aware_forecast": {
+    "window": 3,
+    "damping_tau_s": 0.8,
+    "observed_score_m": 0.04650241997817354
+  },
+  "robot_forecasts_use_future_TCP": false,
+  "hybrid_rule": "Robot attached forecast plus shared median Molmo displacement residual, hard-clipped to the observed last10 camera-relative target p90 drift; preserves rigid point configuration. Report robot-only ablation and disclose that improvement may come entirely from kinematics.",
+  "reference": "Reuse exactly frozen v3 independent AllTracker/sensor/TCP reference and common masks; no calibration or reference changes",
+  "known_future_results": "v3 future already reviewed; this is an exploratory improvement study, not a new blind test",
+  "quality_assessment": "Built-in assistant image inspection; no external Hugging Face assessment VLM",
+  "scope_limits": "One previously studied episode, two viewpoints, overlapping observed validation; no claim of calibrated physical GT or generalization"
+}
