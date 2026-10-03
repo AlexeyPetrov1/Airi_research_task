@@ -23141,15 +23141,38 @@
       "bytes": 832766765,
       "sha256": "e3d0b5b77c3d031b000a19e0e25e3e2cac65d183755601bc2cf066df1a2aa492",
       "asset_prefix": "data__pointmotionbench__davis__DAVIS-2017-trainval-480p.zip",
-      "parts": [],
-      "complete": false
+      "parts": [
+        {
+          "name": "data__pointmotionbench__davis__DAVIS-2017-trainval-480p.zip",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__pointmotionbench__davis__DAVIS-2017-trainval-480p.zip",
+          "bytes": 832766765,
+          "sha256": "e3d0b5b77c3d031b000a19e0e25e3e2cac65d183755601bc2cf066df1a2aa492",
+          "id": 607811877
+        }
+      ],
+      "complete": true
     },
     {
       "path": "data/checkpoints/MolmoMotion-4B-H1-F32/model.pt",
       "bytes": 17847894425,
       "sha256": "a391d445764fa1d3a67ae91ff6760c056aad85f2858656b09fd2b64ce24b0d42",
       "asset_prefix": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt",
-      "parts": [],
+      "parts": [
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part000",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part000",
+          "bytes": 1073741824,
+          "sha256": "4466eb9512ca75367d3732013f2d299200c05b6cdfdef3ae055e801cf711e034",
+          "id": 607813248
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part001",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part001",
+          "bytes": 1073741824,
+          "sha256": "b28b25900a9b8fac11773d548b16b10aa705a8b55b509dd648d415e2b00e8a53",
+          "id": 607814695
+        }
+      ],
       "complete": false
     },
     {

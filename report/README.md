@@ -29,3 +29,5 @@ Model outputs and generated media are kept under [`../runs`](../runs), with the 
 [Published artifacts and reproduction requirements](PUBLICATION.md).
 
 - [FMB v2 — Berkeley-matched pipeline](fmb_v2_berkeley_matched.md) — independent 24-point AllTracker experiment, H3/H1 controls, sensor-depth geometry audits, metrics and videos; FMB v1 retained as a geometry sensitivity study.
+
+[Complete local inputs, checkpoints and restoration manifest](remaining_assets.md).

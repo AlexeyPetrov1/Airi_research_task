@@ -14,6 +14,7 @@ import threading
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 
 PART_BYTES = 1024**3
 LOCK = threading.Lock()
@@ -88,7 +89,9 @@ def main():
             assert asset["digest"] == "sha256:" + digest
         with LOCK:
             state["assets"][asset["name"]] = {"url": asset["browser_download_url"], "bytes": asset["size"], "sha256": digest, "id": asset["id"]}
-            state_path.write_text(json.dumps(state, indent=2) + "\n")
+            temporary = state_path.with_suffix(".tmp")
+            temporary.write_text(json.dumps(state, indent=2) + "\n")
+            temporary.replace(state_path)
             print("VERIFIED", asset["name"], asset["size"], flush=True)
 
     def upload(job):
@@ -116,6 +119,8 @@ def main():
                 response = conn.getresponse()
                 body = response.read()
                 if response.status != 201:
+                    if response.status >= 500:
+                        raise OSError(f"Upload service returned HTTP {response.status}")
                     raise RuntimeError(f"Asset upload returned HTTP {response.status}: {body[:300]!r}")
                 assert reader.remaining == 0
                 asset = json.loads(body)
