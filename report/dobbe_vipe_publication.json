@@ -1,0 +1,26 @@
+{
+  "verified_at_utc": "2026-10-03T12:43:35.079737+00:00",
+  "remote": "https://github.com/AlexeyPetrov1/Airi_research_task",
+  "branch": "main",
+  "published_artifact_commit": "a5eb694ccf935c69342bc8c8ecc7a293872d4905",
+  "remote_head_verified": "a5eb694ccf935c69342bc8c8ecc7a293872d4905",
+  "changed_files": 1547,
+  "staged_blob_bytes": 491599508,
+  "sha256_checks_passed": 420,
+  "published_paths": [
+    "report/dobbe_vipe_results",
+    "report/dobbe_vipe_v1.md",
+    "runs/dobbe_vipe_v1",
+    "runs/dobbe_two_colmap_v1",
+    "data/dobbe_oxe",
+    "runs/plex_dobbe_preflight/dobbe_rgbd_sample",
+    "visualizations",
+    "scripts",
+    "tests/test_dobbe_vipe_v1.py"
+  ],
+  "excluded_local_dependencies": [
+    "model checkpoints",
+    "other large raw datasets"
+  ],
+  "note": "Original experiment manifest records local-only status at bundle creation. This receipt records the subsequent verified GitHub publication."
+}
