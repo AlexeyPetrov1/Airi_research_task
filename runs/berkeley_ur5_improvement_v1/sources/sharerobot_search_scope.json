@@ -1,0 +1,21 @@
+{
+  "revision": "3266d92902b038ce40e7fb8aac5bfd9287eb3e45",
+  "paths": [
+    "planning/jsons/discriminative_affordance_(negative)_task.json",
+    "planning/jsons/discriminative_affordance_(positive)_task.json",
+    "planning/jsons/future_prediction_task.json",
+    "planning/jsons/generative_affordance_task.json",
+    "planning/jsons/past_description_task.json",
+    "planning/jsons/planning_remaining_steps_task.json",
+    "planning/jsons/planning_task.json",
+    "planning/jsons/planning_with_context_task.json",
+    "planning/jsons/success_(negative)_task.json",
+    "planning/jsons/success_(positive)_task.json",
+    "trajectory/trajectory.json"
+  ],
+  "target_episodes": [
+    10,
+    9
+  ],
+  "warning": "Episode numbering alone does not prove mapping; compare selected frames by pixels."
+}

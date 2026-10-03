@@ -1,0 +1,56 @@
+{
+  "scene": "cup",
+  "source_frame": 63,
+  "t0_source_frame_index": 63,
+  "source_camera": "observation.images.image",
+  "object_phrase": "blue cup",
+  "prompt": "point to blue cup gripped and picked up by the robot gripper",
+  "future_used": false,
+  "input_modality": "image",
+  "input_real_frame_count": 1,
+  "input_source_indices": [
+    63
+  ],
+  "frame_0_maps_to_source_frame": 63,
+  "model_input_rgb_sha256": "7296273b4a4d7c10ca8dd16ed5456a68cb9472fa120e14ca67add0800fa04868",
+  "observed_rgb_sha256": "46c18a8fe26e9dd07030261b2796b1224990e77d3865b003df671b554189ed1e",
+  "input_shapes": {
+    "input_ids": [
+      1,
+      789
+    ],
+    "attention_mask": [
+      1,
+      789
+    ],
+    "token_type_ids": [
+      1,
+      789
+    ],
+    "pixel_values": [
+      5,
+      729,
+      588
+    ],
+    "image_token_pooling": [
+      725,
+      4
+    ],
+    "image_grids": [
+      1,
+      4
+    ],
+    "image_num_crops": [
+      1
+    ]
+  },
+  "pointing_metadata_shapes": {
+    "token_pooling": [
+      725,
+      4
+    ],
+    "subpatch_mapping": "list",
+    "image_sizes": "list"
+  },
+  "created_utc": "2026-10-02T22:59:27.165107+00:00"
+}

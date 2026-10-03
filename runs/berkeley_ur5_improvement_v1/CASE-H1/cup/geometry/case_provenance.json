@@ -1,0 +1,62 @@
+{
+  "K_source": "Same frozen BASELINE-U UniDepth intrinsics",
+  "limitation": "H1 changes both history conditioning and checkpoint; it is a control, not a causal isolation of FPS.",
+  "K": [
+    [
+      510.4754638671875,
+      0.0,
+      324.2278137207031
+    ],
+    [
+      0.0,
+      507.927001953125,
+      245.5074920654297
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "future_used": false,
+  "baseline": "../../../../berkeley_ur5_molmomotion",
+  "selected_point_ids": [
+    67,
+    46,
+    41,
+    91,
+    94,
+    40,
+    10,
+    17,
+    53,
+    44,
+    42,
+    28,
+    83,
+    72,
+    13,
+    19,
+    85,
+    33,
+    69,
+    58,
+    78,
+    73,
+    37,
+    89
+  ],
+  "only_ray_basis_changed": true,
+  "author_filter_not_reexecuted": true,
+  "observed_sensor_depth_sha256": "bbf90bef2d47ac3d1efb9591df5be86d4a34f2b7eb32f2cf683e7c5b9b466778",
+  "unchanged": [
+    "RGB",
+    "mask",
+    "2D tracks",
+    "all 24 point IDs",
+    "sensor depth",
+    "smoothed Z",
+    "camera poses",
+    "instruction"
+  ]
+}

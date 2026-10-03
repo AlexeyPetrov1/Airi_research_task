@@ -1,0 +1,61 @@
+{
+  "revision": "3266d92902b038ce40e7fb8aac5bfd9287eb3e45",
+  "complete": true,
+  "files": [
+    {
+      "path": "planning/jsons/discriminative_affordance_(negative)_task.json",
+      "rows_examined": 102806,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/discriminative_affordance_(positive)_task.json",
+      "rows_examined": 102796,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/future_prediction_task.json",
+      "rows_examined": 102796,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/generative_affordance_task.json",
+      "rows_examined": 102796,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/past_description_task.json",
+      "rows_examined": 102806,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/planning_remaining_steps_task.json",
+      "rows_examined": 102796,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/planning_task.json",
+      "rows_examined": 102796,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/planning_with_context_task.json",
+      "rows_examined": 102796,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/success_(negative)_task.json",
+      "rows_examined": 102796,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "planning/jsons/success_(positive)_task.json",
+      "rows_examined": 102806,
+      "berkeley_rows": 1764
+    },
+    {
+      "path": "trajectory/trajectory.json",
+      "rows_examined": 6870,
+      "berkeley_rows": 164
+    }
+  ]
+}

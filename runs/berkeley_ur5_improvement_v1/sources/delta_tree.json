@@ -1,0 +1,3453 @@
+{
+  "sha": "3367cda1c74d19e73296165f9826b213211678dd",
+  "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/3367cda1c74d19e73296165f9826b213211678dd",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9b03197ff2df49929686eb6193ede36c024343c",
+      "size": 152,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c9b03197ff2df49929686eb6193ede36c024343c"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2165f62cd4ad5af7e69991454104e9a82ba2bc62",
+      "size": 367,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2165f62cd4ad5af7e69991454104e9a82ba2bc62"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8afbd200b88d0175512704990369c755c59c3525",
+      "size": 1053,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8afbd200b88d0175512704990369c755c59c3525"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb6034222907b154329ddf9892696f9e6ba7ba6",
+      "size": 9128,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3bb6034222907b154329ddf9892696f9e6ba7ba6"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bb5210be1e968ab27cb25934b98a79df37385d4",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/4bb5210be1e968ab27cb25934b98a79df37385d4"
+    },
+    {
+      "path": "assets/teaser.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f44352d19fbc41526de186810f14cb5c57f0490",
+      "size": 6249618,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2f44352d19fbc41526de186810f14cb5c57f0490"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff08bd0799d5d388ca39fd56fa52bac74ec9e88c",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/ff08bd0799d5d388ca39fd56fa52bac74ec9e88c"
+    },
+    {
+      "path": "data/DATA_PREPARATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15f06aa6bc0aaf9a459e9ca99abf332c92a2cb69",
+      "size": 2455,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/15f06aa6bc0aaf9a459e9ca99abf332c92a2cb69"
+    },
+    {
+      "path": "data/kubric",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29474de69811aa5a2fbcc3a6b5ddec88c8a0577b",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/29474de69811aa5a2fbcc3a6b5ddec88c8a0577b"
+    },
+    {
+      "path": "data/kubric/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7682bd98c8a2e503af93bdbd2dc232af0082fb88",
+      "size": 241,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7682bd98c8a2e503af93bdbd2dc232af0082fb88"
+    },
+    {
+      "path": "data/kubric/.pylintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d0325aaaeb0ed6e15506820cf70bb152213d00",
+      "size": 14736,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c1d0325aaaeb0ed6e15506820cf70bb152213d00"
+    },
+    {
+      "path": "data/kubric/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "data/kubric/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e767f77aa1a79b0a48b7fd6827b44200463a59bf",
+      "size": 5434,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e767f77aa1a79b0a48b7fd6827b44200463a59bf"
+    },
+    {
+      "path": "data/kubric/challenges",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1031bdafdbbc08244c1aeb523f322ad296013494",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/1031bdafdbbc08244c1aeb523f322ad296013494"
+    },
+    {
+      "path": "data/kubric/challenges/point_tracking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a689b21848e816406d6bd21dcd4634ac3a82fe3e",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/a689b21848e816406d6bd21dcd4634ac3a82fe3e"
+    },
+    {
+      "path": "data/kubric/challenges/point_tracking/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "593211b783892340694e604941a11788add3d78a",
+      "size": 606,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/593211b783892340694e604941a11788add3d78a"
+    },
+    {
+      "path": "data/kubric/challenges/point_tracking/dataset_mix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e029950584306a2f6dea15a5b8a780f754b772e",
+      "size": 64832,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9e029950584306a2f6dea15a5b8a780f754b772e"
+    },
+    {
+      "path": "data/kubric/challenges/point_tracking/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b461b16648809c3cb5e7ba80df0a8142975d3b6",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/0b461b16648809c3cb5e7ba80df0a8142975d3b6"
+    },
+    {
+      "path": "data/kubric/challenges/point_tracking/images/frame_15.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd40529de8b4fefb902b1abdae4d9ae39a7bbc3c",
+      "size": 57834,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fd40529de8b4fefb902b1abdae4d9ae39a7bbc3c"
+    },
+    {
+      "path": "data/kubric/challenges/point_tracking/images/frame_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "516112cafec880ba3fe8690d91e0f3ca6c6e9267",
+      "size": 61788,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/516112cafec880ba3fe8690d91e0f3ca6c6e9267"
+    },
+    {
+      "path": "data/kubric/challenges/point_tracking/images/frame_7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b42707a6346db40b9c9de07678f6d48ec0a2f25",
+      "size": 58748,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/6b42707a6346db40b9c9de07678f6d48ec0a2f25"
+    },
+    {
+      "path": "data/kubric/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a71e9c350389e51a10b0ca7be5cb64bfefa2cf5e",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/a71e9c350389e51a10b0ca7be5cb64bfefa2cf5e"
+    },
+    {
+      "path": "data/kubric/examples/animation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a4e2ea0d333476997409e9fe4c6272c64d7e6ca",
+      "size": 4920,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1a4e2ea0d333476997409e9fe4c6272c64d7e6ca"
+    },
+    {
+      "path": "data/kubric/examples/basic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a095fe84164edd1150895653cf6535aea5682dd",
+      "size": 1275,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3a095fe84164edd1150895653cf6535aea5682dd"
+    },
+    {
+      "path": "data/kubric/examples/bouncing_balls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56db68b56ba906476a221b1d32fe56cca6a2d144",
+      "size": 6853,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/56db68b56ba906476a221b1d32fe56cca6a2d144"
+    },
+    {
+      "path": "data/kubric/examples/helloworld.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd3ab7eb5d528cdfbc6bbf305ec17f8ac050d2c",
+      "size": 1618,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fdd3ab7eb5d528cdfbc6bbf305ec17f8ac050d2c"
+    },
+    {
+      "path": "data/kubric/examples/keyframing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61a5011b37737ab8e9b959494ccbbfc1f2aa60ce",
+      "size": 2765,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/61a5011b37737ab8e9b959494ccbbfc1f2aa60ce"
+    },
+    {
+      "path": "data/kubric/examples/shapenet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82686aad6d9f647e3b81b1d852c885a7f0bc854f",
+      "size": 3543,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/82686aad6d9f647e3b81b1d852c885a7f0bc854f"
+    },
+    {
+      "path": "data/kubric/examples/simulator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0fe92f94b1b25f51f3433e329801effc260d76c",
+      "size": 2147,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f0fe92f94b1b25f51f3433e329801effc260d76c"
+    },
+    {
+      "path": "data/kubric/kubric",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07979d67353b58a478502d6f9f73ad518b645b3c",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/07979d67353b58a478502d6f9f73ad518b645b3c"
+    },
+    {
+      "path": "data/kubric/kubric/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e3a4186aa95ab48748edc2e4b562aff55a05fad",
+      "size": 2156,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2e3a4186aa95ab48748edc2e4b562aff55a05fad"
+    },
+    {
+      "path": "data/kubric/kubric/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dd1352c3aadb791c0cb1fca68c9ea027a40b236",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/1dd1352c3aadb791c0cb1fca68c9ea027a40b236"
+    },
+    {
+      "path": "data/kubric/kubric/assets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4927236700bd1039cc5ed8a68d50c4ea86612fc5",
+      "size": 660,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4927236700bd1039cc5ed8a68d50c4ea86612fc5"
+    },
+    {
+      "path": "data/kubric/kubric/assets/asset_preprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1558eecaa58f583dc35d7949cd852fb1bbd8589b",
+      "size": 10864,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1558eecaa58f583dc35d7949cd852fb1bbd8589b"
+    },
+    {
+      "path": "data/kubric/kubric/assets/asset_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8477ed294b8f2b5435374973825cf92938d7e4",
+      "size": 9563,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ec8477ed294b8f2b5435374973825cf92938d7e4"
+    },
+    {
+      "path": "data/kubric/kubric/assets/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4bf9aed098d452e15122ecdbddce791a63c2476",
+      "size": 5606,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b4bf9aed098d452e15122ecdbddce791a63c2476"
+    },
+    {
+      "path": "data/kubric/kubric/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45ff84ba648478e00b3aaea8ff824fac136b9fa4",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/45ff84ba648478e00b3aaea8ff824fac136b9fa4"
+    },
+    {
+      "path": "data/kubric/kubric/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ff91d9979a51fda2ae40bb41482030a382f3e83",
+      "size": 848,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4ff91d9979a51fda2ae40bb41482030a382f3e83"
+    },
+    {
+      "path": "data/kubric/kubric/core/assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05657f01599a4c783dc68022dcbf262d513eca8d",
+      "size": 6512,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/05657f01599a4c783dc68022dcbf262d513eca8d"
+    },
+    {
+      "path": "data/kubric/kubric/core/cameras.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fd6420721535cd0c7e36fc280795227aeb4a684",
+      "size": 7067,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7fd6420721535cd0c7e36fc280795227aeb4a684"
+    },
+    {
+      "path": "data/kubric/kubric/core/color.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9725f80589a88c1e77d30e45a556196a0ffc24ea",
+      "size": 4861,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9725f80589a88c1e77d30e45a556196a0ffc24ea"
+    },
+    {
+      "path": "data/kubric/kubric/core/lights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c2067f3ee14e59c7f652fdd5e7f7e3bc4f23db",
+      "size": 1354,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/95c2067f3ee14e59c7f652fdd5e7f7e3bc4f23db"
+    },
+    {
+      "path": "data/kubric/kubric/core/materials.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "934716baa65b6fd05d864ad89082bc786dc083d8",
+      "size": 2075,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/934716baa65b6fd05d864ad89082bc786dc083d8"
+    },
+    {
+      "path": "data/kubric/kubric/core/objects.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72210062597613b279814cb068b38c652d927cf0",
+      "size": 10704,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/72210062597613b279814cb068b38c652d927cf0"
+    },
+    {
+      "path": "data/kubric/kubric/core/scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb298d6f4dd2ce8c3fd37d5b7558de306dc0a3f5",
+      "size": 7301,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fb298d6f4dd2ce8c3fd37d5b7558de306dc0a3f5"
+    },
+    {
+      "path": "data/kubric/kubric/core/traits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d093cdd9271565f1fab37c64cffb3450b39ff8",
+      "size": 4369,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/49d093cdd9271565f1fab37c64cffb3450b39ff8"
+    },
+    {
+      "path": "data/kubric/kubric/core/view.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c22c3777f7ce7814d7858c2a87f4561be9556452",
+      "size": 3421,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c22c3777f7ce7814d7858c2a87f4561be9556452"
+    },
+    {
+      "path": "data/kubric/kubric/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0083027f42930ed6babda55c5d81d92bbccccb3f",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/0083027f42930ed6babda55c5d81d92bbccccb3f"
+    },
+    {
+      "path": "data/kubric/kubric/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f330c1d70de9f12d52c657b971f71275fc9e11bd",
+      "size": 583,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f330c1d70de9f12d52c657b971f71275fc9e11bd"
+    },
+    {
+      "path": "data/kubric/kubric/datasets/movid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f330c1d70de9f12d52c657b971f71275fc9e11bd",
+      "size": 583,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f330c1d70de9f12d52c657b971f71275fc9e11bd"
+    },
+    {
+      "path": "data/kubric/kubric/datasets/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8637ded24af253f34b71fbe3015542333b72c03",
+      "size": 9526,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a8637ded24af253f34b71fbe3015542333b72c03"
+    },
+    {
+      "path": "data/kubric/kubric/file_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17eb2d6679c72245ce7cb41240048937112b584b",
+      "size": 12627,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/17eb2d6679c72245ce7cb41240048937112b584b"
+    },
+    {
+      "path": "data/kubric/kubric/kubric_typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6f195b05b7106610209d6ab47a20957f8ef88fc",
+      "size": 976,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f6f195b05b7106610209d6ab47a20957f8ef88fc"
+    },
+    {
+      "path": "data/kubric/kubric/plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "519a554bbc48220cbd62ce9f48cc1c9c56d8cc7a",
+      "size": 6386,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/519a554bbc48220cbd62ce9f48cc1c9c56d8cc7a"
+    },
+    {
+      "path": "data/kubric/kubric/post_processing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e686d7089320a2615961b90b62a4e061f66ca7",
+      "size": 2903,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/39e686d7089320a2615961b90b62a4e061f66ca7"
+    },
+    {
+      "path": "data/kubric/kubric/randomness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c1c4ba95f85c158ba85528ae5a53602edffaae1",
+      "size": 6607,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5c1c4ba95f85c158ba85528ae5a53602edffaae1"
+    },
+    {
+      "path": "data/kubric/kubric/redirect_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2473c1ec9c3b4d81c98defcca0138dc182f2304b",
+      "size": 2273,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2473c1ec9c3b4d81c98defcca0138dc182f2304b"
+    },
+    {
+      "path": "data/kubric/kubric/renderer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6862d8eb5af1b631181570f787dd2ffa52114755",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/6862d8eb5af1b631181570f787dd2ffa52114755"
+    },
+    {
+      "path": "data/kubric/kubric/renderer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e586bd374e926b28e220b42cafff40b3a2e40026",
+      "size": 628,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e586bd374e926b28e220b42cafff40b3a2e40026"
+    },
+    {
+      "path": "data/kubric/kubric/renderer/blender.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae81a2583e0ac3f340fe2152162ed6f2f3da1fa1",
+      "size": 38717,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ae81a2583e0ac3f340fe2152162ed6f2f3da1fa1"
+    },
+    {
+      "path": "data/kubric/kubric/renderer/blender_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf575f8396f19b9939a0685d860d428384f19909",
+      "size": 19154,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cf575f8396f19b9939a0685d860d428384f19909"
+    },
+    {
+      "path": "data/kubric/kubric/safeimport",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38387249fbbdd3271738fa5c8efc4858640c725d",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/38387249fbbdd3271738fa5c8efc4858640c725d"
+    },
+    {
+      "path": "data/kubric/kubric/safeimport/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f330c1d70de9f12d52c657b971f71275fc9e11bd",
+      "size": 583,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f330c1d70de9f12d52c657b971f71275fc9e11bd"
+    },
+    {
+      "path": "data/kubric/kubric/safeimport/bpy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab949bbd77d0673460350a1d2f6dc43edac11347",
+      "size": 1143,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ab949bbd77d0673460350a1d2f6dc43edac11347"
+    },
+    {
+      "path": "data/kubric/kubric/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09253ea3a638cf7c6987d033fdf4619ab0b95702",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/09253ea3a638cf7c6987d033fdf4619ab0b95702"
+    },
+    {
+      "path": "data/kubric/kubric/scripts/download_GSO.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209b51e1f7e03de3da463218535d0f906887ea05",
+      "size": 9366,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/209b51e1f7e03de3da463218535d0f906887ea05"
+    },
+    {
+      "path": "data/kubric/kubric/scripts/download_hdri_haven.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f64beef5670743cde5ac06b37df4aebc399de6c2",
+      "size": 5589,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f64beef5670743cde5ac06b37df4aebc399de6c2"
+    },
+    {
+      "path": "data/kubric/kubric/scripts/export_assets_from_blend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3309958a535e5ef1389b544264131f9423871e9",
+      "size": 1498,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d3309958a535e5ef1389b544264131f9423871e9"
+    },
+    {
+      "path": "data/kubric/kubric/scripts/kubasic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aef92123cfb4f3f4bdcffe545629d6a5fb50932",
+      "size": 7400,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2aef92123cfb4f3f4bdcffe545629d6a5fb50932"
+    },
+    {
+      "path": "data/kubric/kubric/simulator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6a2751b25965bd7c309fadcd270b7fca4a40790",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/d6a2751b25965bd7c309fadcd270b7fca4a40790"
+    },
+    {
+      "path": "data/kubric/kubric/simulator/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8378c9e25ae648f951772deeb024b7136a5247f8",
+      "size": 631,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8378c9e25ae648f951772deeb024b7136a5247f8"
+    },
+    {
+      "path": "data/kubric/kubric/simulator/pybullet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab9f2b1b31f41993b53484486b00e5b4179384d",
+      "size": 16668,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9ab9f2b1b31f41993b53484486b00e5b4179384d"
+    },
+    {
+      "path": "data/kubric/kubric/sunds",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3c524f360579b7e11ba4a38dee9e0f4c2923f0e",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/a3c524f360579b7e11ba4a38dee9e0f4c2923f0e"
+    },
+    {
+      "path": "data/kubric/kubric/sunds/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b7e7f9e1f1618295a2c96df6e63d1d6bc4a61f",
+      "size": 748,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/75b7e7f9e1f1618295a2c96df6e63d1d6bc4a61f"
+    },
+    {
+      "path": "data/kubric/kubric/sunds/kubric_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8da8d0ef8565927bb3e9b6b54043724fd71a853e",
+      "size": 13048,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8da8d0ef8565927bb3e9b6b54043724fd71a853e"
+    },
+    {
+      "path": "data/kubric/kubric/sunds/kubric_builder_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc8b591f3e67019a899e91e187d2859095c12761",
+      "size": 3140,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/dc8b591f3e67019a899e91e187d2859095c12761"
+    },
+    {
+      "path": "data/kubric/kubric/sunds/render_mock_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3572e90012635ec6ae0cea931e417d008f78f447",
+      "size": 2339,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3572e90012635ec6ae0cea931e417d008f78f447"
+    },
+    {
+      "path": "data/kubric/kubric/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631023b564adc205c99c486ebb33be0acb290693",
+      "size": 10275,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/631023b564adc205c99c486ebb33be0acb290693"
+    },
+    {
+      "path": "data/kubric/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c729dad50d219b2b856a9a3df924fb0c2e592cd",
+      "size": 316,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4c729dad50d219b2b856a9a3df924fb0c2e592cd"
+    },
+    {
+      "path": "data/kubric/requirements_dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7161bc0196c508c4c899f6940db71a39413e4df9",
+      "size": 42,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7161bc0196c508c4c899f6940db71a39413e4df9"
+    },
+    {
+      "path": "data/kubric/requirements_full.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8423e40fb27308575f0fb25856f7664b2106b065",
+      "size": 56,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8423e40fb27308575f0fb25856f7664b2106b065"
+    },
+    {
+      "path": "data/kubric/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1304d586fe40378f879cecd8309b3281ee00ca",
+      "size": 3756,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cc1304d586fe40378f879cecd8309b3281ee00ca"
+    },
+    {
+      "path": "demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ebd79ba3b3f26187b7e91d33b75472ec893946",
+      "size": 7777,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c3ebd79ba3b3f26187b7e91d33b75472ec893946"
+    },
+    {
+      "path": "demo_2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ab0dbd6aa47a40481a6b54cd4b6138d203be4d",
+      "size": 3991,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e8ab0dbd6aa47a40481a6b54cd4b6138d203be4d"
+    },
+    {
+      "path": "demo_2d_sparse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "433276ebd72e298d435cc22ea2e89436ed693e4c",
+      "size": 3830,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/433276ebd72e298d435cc22ea2e89436ed693e4c"
+    },
+    {
+      "path": "demo_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f96327b7974dd560f1affb1e97905c8e4328705",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/4f96327b7974dd560f1affb1e97905c8e4328705"
+    },
+    {
+      "path": "demo_data/car-roundabout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e498bf53148264dc53eef1374ea38134f399bc62",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/e498bf53148264dc53eef1374ea38134f399bc62"
+    },
+    {
+      "path": "demo_data/car-roundabout/car-roundabout_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a29031c82bf1692c511d94d9ebd8c60fba5268",
+      "size": 2277,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e7a29031c82bf1692c511d94d9ebd8c60fba5268"
+    },
+    {
+      "path": "demo_data/car-roundabout/color",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a0635979886722e1b20af2c71813aba54f3e4f4",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/5a0635979886722e1b20af2c71813aba54f3e4f4"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00000.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0aaf1dd8c914ee1fb906aff317e9a055fd1f866",
+      "size": 417240,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d0aaf1dd8c914ee1fb906aff317e9a055fd1f866"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00001.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e70224bb5afa660156099563ecce8393a2ed60c",
+      "size": 412302,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5e70224bb5afa660156099563ecce8393a2ed60c"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00002.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5287e480bb8e8e4c6f542e6f989c7a674f2f5156",
+      "size": 417961,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5287e480bb8e8e4c6f542e6f989c7a674f2f5156"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00003.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43479c835d6c33fc3385e5c42cc41e98e03bb8e4",
+      "size": 416282,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/43479c835d6c33fc3385e5c42cc41e98e03bb8e4"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00004.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaace9c687da106fcf3a91bb13712b9dccfbcf99",
+      "size": 409268,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/eaace9c687da106fcf3a91bb13712b9dccfbcf99"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00005.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c2de85389218100263da87ef6a6827db2ba4e53",
+      "size": 416465,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8c2de85389218100263da87ef6a6827db2ba4e53"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00006.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eaa84762c4f1dca6759d2f9141d1f4573545507",
+      "size": 417056,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2eaa84762c4f1dca6759d2f9141d1f4573545507"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00007.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0749c436438327944a45e5cc232d0fa49f9a2c",
+      "size": 413131,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5f0749c436438327944a45e5cc232d0fa49f9a2c"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00008.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79056c4168d8a3f30449d8e36e1d833b15c5d85a",
+      "size": 422165,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/79056c4168d8a3f30449d8e36e1d833b15c5d85a"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00009.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518eccadf2c7df789650e7bb0448deff8d4beab5",
+      "size": 424672,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/518eccadf2c7df789650e7bb0448deff8d4beab5"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00010.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e65a25ff7d75c6c2372784d0ef939e7dbd481eb9",
+      "size": 419788,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e65a25ff7d75c6c2372784d0ef939e7dbd481eb9"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00011.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a352265a5ee76f39b057d88e5daa2d5e45fce8",
+      "size": 425773,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/17a352265a5ee76f39b057d88e5daa2d5e45fce8"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00012.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f09f62c9eee59cdf05db643f8e920df957bab1e9",
+      "size": 427043,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f09f62c9eee59cdf05db643f8e920df957bab1e9"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00013.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b23a0d84c0b34131f4fb0e861c843c339efaacd6",
+      "size": 421982,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b23a0d84c0b34131f4fb0e861c843c339efaacd6"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00014.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5531559c8ebc69d2dbc8b132d41860978603140",
+      "size": 428105,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e5531559c8ebc69d2dbc8b132d41860978603140"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00015.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aece0e7dfdb93638238d7d8908cfe8e8095cb92c",
+      "size": 426864,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/aece0e7dfdb93638238d7d8908cfe8e8095cb92c"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00016.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ce850be866c669cddc051b2e968adde150733e",
+      "size": 409273,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/47ce850be866c669cddc051b2e968adde150733e"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00017.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a7fbce4024fbec54793258eb7dcff15c598e1c0",
+      "size": 421339,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4a7fbce4024fbec54793258eb7dcff15c598e1c0"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00018.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebb9b536f01c86648e7be89b9807ac45639c5c9",
+      "size": 420946,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/aebb9b536f01c86648e7be89b9807ac45639c5c9"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00019.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac519c10dcd11cca1d712b1c03e94b1fd25e7dff",
+      "size": 418986,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ac519c10dcd11cca1d712b1c03e94b1fd25e7dff"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00020.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a783f16c45fdff22f84584e001f828945186bae",
+      "size": 421902,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7a783f16c45fdff22f84584e001f828945186bae"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00021.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ced04c361db8aeaadeb2f51542712583577f56d",
+      "size": 422177,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1ced04c361db8aeaadeb2f51542712583577f56d"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00022.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dcced97f09bae21184332782b3cefb10b1fe97e",
+      "size": 423264,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3dcced97f09bae21184332782b3cefb10b1fe97e"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00023.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f4890e45023f0c207d5a2f6bc32cf51f5da9ec7",
+      "size": 424759,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7f4890e45023f0c207d5a2f6bc32cf51f5da9ec7"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00024.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be2dc575840367a90852447155546d1feec3872",
+      "size": 424877,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1be2dc575840367a90852447155546d1feec3872"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00025.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d44134bd5544b70328e5e54b05baffbd0a54b5f",
+      "size": 418738,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1d44134bd5544b70328e5e54b05baffbd0a54b5f"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00026.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "072dca4f888a448275141cbec6b7ce8dc6b2c019",
+      "size": 422969,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/072dca4f888a448275141cbec6b7ce8dc6b2c019"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00027.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8318f709779295a4f6a9af9812cd39ce071e6d23",
+      "size": 422736,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8318f709779295a4f6a9af9812cd39ce071e6d23"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00028.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1709dfbb19e355ceeb752028f54c8aa83961668d",
+      "size": 419318,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1709dfbb19e355ceeb752028f54c8aa83961668d"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00029.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b6dbe74230194fccefd70e223cd56f32039b96d",
+      "size": 418950,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4b6dbe74230194fccefd70e223cd56f32039b96d"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00030.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada74aaa1aedfa184fed797efaa2bf6da333df17",
+      "size": 422163,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ada74aaa1aedfa184fed797efaa2bf6da333df17"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00031.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd02f5e13f81c57ffc7d2524e926520d21b62034",
+      "size": 403751,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fd02f5e13f81c57ffc7d2524e926520d21b62034"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00032.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38293beb2904fdbb9b43d102d437c4f8be5ef4af",
+      "size": 413749,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/38293beb2904fdbb9b43d102d437c4f8be5ef4af"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00033.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bed6b6f4af9a4e9c0235aed135917040058c1b9a",
+      "size": 414695,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/bed6b6f4af9a4e9c0235aed135917040058c1b9a"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00034.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e91a728dfb7ce094d6297c94d97aa550a45852",
+      "size": 412515,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e4e91a728dfb7ce094d6297c94d97aa550a45852"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00035.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928f1ca14b76c420130d557da42731934325cf63",
+      "size": 417329,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/928f1ca14b76c420130d557da42731934325cf63"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00036.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ed9508b8f93c73e573ff4d0991a7d60de6e32e",
+      "size": 418953,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/10ed9508b8f93c73e573ff4d0991a7d60de6e32e"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00037.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f66b7dd60f60c84acfed0a3411b70504ad31c581",
+      "size": 415838,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f66b7dd60f60c84acfed0a3411b70504ad31c581"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00038.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96b785d1f85e8d85b57e7eb4b8e4fe75c1c0ac0",
+      "size": 417762,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e96b785d1f85e8d85b57e7eb4b8e4fe75c1c0ac0"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00039.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bacfd946c29e997b2558125d0db101a50069aad",
+      "size": 422563,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0bacfd946c29e997b2558125d0db101a50069aad"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00040.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5900af70b65f6083def538fab33729917bafa7",
+      "size": 418673,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/be5900af70b65f6083def538fab33729917bafa7"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00041.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e9c483e6819fc11ceb1840fcf10a89b69ee84d",
+      "size": 426182,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c4e9c483e6819fc11ceb1840fcf10a89b69ee84d"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00042.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b7249731048db5938b03c8bda105487b3e8811",
+      "size": 428736,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a4b7249731048db5938b03c8bda105487b3e8811"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00043.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55dcad057cbfd9fbdd9bcbcc2e068c671963caf5",
+      "size": 428064,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/55dcad057cbfd9fbdd9bcbcc2e068c671963caf5"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00044.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f350b93d38a9c434862e95ab7cf7159f86b5b0a3",
+      "size": 431939,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f350b93d38a9c434862e95ab7cf7159f86b5b0a3"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00045.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d6929312ec4b2879765cba80a6c1f8d8796d011",
+      "size": 436031,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9d6929312ec4b2879765cba80a6c1f8d8796d011"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00046.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5197207a119e77a118f548550305f835df5aae",
+      "size": 426438,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0a5197207a119e77a118f548550305f835df5aae"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00047.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6de2b4a3fdb45f3319a4d32f280701e727a728ae",
+      "size": 435488,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/6de2b4a3fdb45f3319a4d32f280701e727a728ae"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00048.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86a68983bfc55936b500b2872312be7a16084252",
+      "size": 438994,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/86a68983bfc55936b500b2872312be7a16084252"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00049.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54eb50a2b44b3405b1be1c6a812a27e2dd8fda47",
+      "size": 435266,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/54eb50a2b44b3405b1be1c6a812a27e2dd8fda47"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00050.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8572d3b254aebca2ffcd9842b487061f04f63f77",
+      "size": 437292,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8572d3b254aebca2ffcd9842b487061f04f63f77"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00051.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d6eaa4ffa9a74c96338e1a85152c90fea9962c6",
+      "size": 438275,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4d6eaa4ffa9a74c96338e1a85152c90fea9962c6"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00052.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6de8859e6ff1d594515dc68864aad428a5d615",
+      "size": 437766,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1e6de8859e6ff1d594515dc68864aad428a5d615"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00053.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0571d5efbbef6fe45c5c125e06f941ed7b86f620",
+      "size": 439973,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0571d5efbbef6fe45c5c125e06f941ed7b86f620"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00054.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ff4785075713bbde987ecbb78160bc16efb3a9a",
+      "size": 444470,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5ff4785075713bbde987ecbb78160bc16efb3a9a"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00055.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "700a1ff47ccc1e97f83be3fa92dd5f913af11df9",
+      "size": 442645,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/700a1ff47ccc1e97f83be3fa92dd5f913af11df9"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00056.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed90736c9a575bbd2a54a812654521002e9e2eb4",
+      "size": 448138,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ed90736c9a575bbd2a54a812654521002e9e2eb4"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00057.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c98f1d7ce92c6e0d9f51aafc97935aa57e27e27",
+      "size": 452946,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0c98f1d7ce92c6e0d9f51aafc97935aa57e27e27"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00058.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ba0fd34352d59b69c0b32f1aae1e34d61049bb",
+      "size": 450562,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f1ba0fd34352d59b69c0b32f1aae1e34d61049bb"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00059.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad5cf7d8fd898211b399af4b884acf87af17878",
+      "size": 466532,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/dad5cf7d8fd898211b399af4b884acf87af17878"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00060.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b362f19a879059683a3df2040ea98654282ed5c",
+      "size": 466423,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3b362f19a879059683a3df2040ea98654282ed5c"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00061.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa1234121e3aee29edea6c74be88967d6ad58b9",
+      "size": 446248,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/caa1234121e3aee29edea6c74be88967d6ad58b9"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00062.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43f721ac545bbe9a69235fe36fe927b4f2535d1c",
+      "size": 457696,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/43f721ac545bbe9a69235fe36fe927b4f2535d1c"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00063.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9867224e1f6f6bdd50030938d036a752476b6ff7",
+      "size": 457098,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9867224e1f6f6bdd50030938d036a752476b6ff7"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00064.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cfc2f57b88167d7da0099b7f370308c4b528228",
+      "size": 456271,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4cfc2f57b88167d7da0099b7f370308c4b528228"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00065.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73f91cd6138f1b9047e6880ca3ef45c34d61fd4a",
+      "size": 454315,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/73f91cd6138f1b9047e6880ca3ef45c34d61fd4a"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00066.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6af3e4740121e9d1d22eeb3cc21aae578f0969f",
+      "size": 454336,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d6af3e4740121e9d1d22eeb3cc21aae578f0969f"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00067.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be8d1626635c59d4ba243ff57389a9443502dc22",
+      "size": 452839,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/be8d1626635c59d4ba243ff57389a9443502dc22"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00068.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4fbda1dbda69e18192407da486fbf49ecda9b15",
+      "size": 447420,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b4fbda1dbda69e18192407da486fbf49ecda9b15"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00069.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f63fc8c812364a722d54e5bdbba8fc5c6b4e387",
+      "size": 448128,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5f63fc8c812364a722d54e5bdbba8fc5c6b4e387"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00070.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ffc10ea2bfb274dbceeafc8a6624a9755649f2",
+      "size": 447854,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/98ffc10ea2bfb274dbceeafc8a6624a9755649f2"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00071.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfff19087ef8cc0c4b32b5d2df6b8665a89c6275",
+      "size": 444660,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cfff19087ef8cc0c4b32b5d2df6b8665a89c6275"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00072.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84c38ee55dc1b49660119b0ce87eea9331b05f79",
+      "size": 442083,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/84c38ee55dc1b49660119b0ce87eea9331b05f79"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00073.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd757cdb49dd945ce1b33c32b5fe396e1af873a7",
+      "size": 442518,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fd757cdb49dd945ce1b33c32b5fe396e1af873a7"
+    },
+    {
+      "path": "demo_data/car-roundabout/color/00074.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7822c33ad1ee3d2341513ee89a7266d99f1fd536",
+      "size": 437666,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7822c33ad1ee3d2341513ee89a7266d99f1fd536"
+    },
+    {
+      "path": "demo_data/rollerblade",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a49e6f83910d7fb7f29c95b3a896cf4c914a3d3",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/2a49e6f83910d7fb7f29c95b3a896cf4c914a3d3"
+    },
+    {
+      "path": "demo_data/rollerblade/color",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3c91838aec969f80056b07574cd9b2576b88dc0",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/a3c91838aec969f80056b07574cd9b2576b88dc0"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00000.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfdd03ff9411603bc2dfee5cdc4fb9eeb7c5ddc3",
+      "size": 419176,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/dfdd03ff9411603bc2dfee5cdc4fb9eeb7c5ddc3"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00001.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38c62f9671064a83edef3dc4421fda0fc2fd41bd",
+      "size": 435320,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/38c62f9671064a83edef3dc4421fda0fc2fd41bd"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00002.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6db5512f825e89c200b7fb86625489185b66cd",
+      "size": 431307,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0e6db5512f825e89c200b7fb86625489185b66cd"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00003.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a56dd5ee3c6610de561c7187cdd76d714659fe4a",
+      "size": 434418,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a56dd5ee3c6610de561c7187cdd76d714659fe4a"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00004.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "249ff5f4f48aef35475e614114be04634a824d50",
+      "size": 442408,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/249ff5f4f48aef35475e614114be04634a824d50"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00005.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1cb4cda0f56b50ce7fd235b660ff3eb67be84ae",
+      "size": 436919,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c1cb4cda0f56b50ce7fd235b660ff3eb67be84ae"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00006.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bd6cfd20bac5853133d5065c9894b7b4b1944e8",
+      "size": 416197,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3bd6cfd20bac5853133d5065c9894b7b4b1944e8"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00007.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b13efcf2a4806ed5370bbb2cf5cd2c9f695b8f41",
+      "size": 422065,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b13efcf2a4806ed5370bbb2cf5cd2c9f695b8f41"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00008.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c4b505da1c05a9b35dc3925cd22aa40df9b1aa7",
+      "size": 391993,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9c4b505da1c05a9b35dc3925cd22aa40df9b1aa7"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00009.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8dc881e62626e8817b7351953132c0fd65e0a6",
+      "size": 392970,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/bd8dc881e62626e8817b7351953132c0fd65e0a6"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00010.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fecc13a494216fa7ebc74ed1479a3d5d1a4d622a",
+      "size": 388214,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fecc13a494216fa7ebc74ed1479a3d5d1a4d622a"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00011.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5352c8849f00dc7812e8c50550906a1451c52ae8",
+      "size": 408505,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5352c8849f00dc7812e8c50550906a1451c52ae8"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00012.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b23cbdc6e7f0e2babc0d0f95548b672a93462252",
+      "size": 398471,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b23cbdc6e7f0e2babc0d0f95548b672a93462252"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00013.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fce99224d710f7c8a6d5da4143519ee35f51c5a",
+      "size": 404735,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1fce99224d710f7c8a6d5da4143519ee35f51c5a"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00014.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a12bfb10d4d3bae07c525b3b24bb7daa3d3e1d0",
+      "size": 411479,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2a12bfb10d4d3bae07c525b3b24bb7daa3d3e1d0"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00015.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bae8a0c22e77ae634742225ea4c2e142244c56f",
+      "size": 409001,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7bae8a0c22e77ae634742225ea4c2e142244c56f"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00016.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0d2ac179680aed557b6dd5a2ee57da89943e80",
+      "size": 421323,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/dc0d2ac179680aed557b6dd5a2ee57da89943e80"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00017.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283ee62182a7e9d6b97b83c522b52a915ec46c05",
+      "size": 409869,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/283ee62182a7e9d6b97b83c522b52a915ec46c05"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00018.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33dfee022ebb17ec52db2b3f7d45c9bee8e447a0",
+      "size": 420411,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/33dfee022ebb17ec52db2b3f7d45c9bee8e447a0"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00019.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b4ffc5bb5aa3d8b2205061f88212e2e107bcd4",
+      "size": 424341,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e5b4ffc5bb5aa3d8b2205061f88212e2e107bcd4"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00020.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88620f5534ad7fb71a914cb0df3f367e8adc862e",
+      "size": 420726,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/88620f5534ad7fb71a914cb0df3f367e8adc862e"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00021.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "111f63518cf05cfe0c33df47dc1c738d59b3cd37",
+      "size": 413776,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/111f63518cf05cfe0c33df47dc1c738d59b3cd37"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00022.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cafac362a7ca11bc4c2a963f63e509aaf7ce4b6",
+      "size": 415937,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9cafac362a7ca11bc4c2a963f63e509aaf7ce4b6"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00023.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6e2b542ce98ab87519fb9465ea87e93daf42dbf",
+      "size": 413950,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c6e2b542ce98ab87519fb9465ea87e93daf42dbf"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00024.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd0ff7d7fad3e75a9ca661f8069806ff473589d7",
+      "size": 408439,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fd0ff7d7fad3e75a9ca661f8069806ff473589d7"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00025.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "811e46e3e504a32bb6f0a421445f50fda02c2e77",
+      "size": 404055,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/811e46e3e504a32bb6f0a421445f50fda02c2e77"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00026.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ca7f0c555fcddd7ea148a8fdc2129b225b102b5",
+      "size": 416830,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8ca7f0c555fcddd7ea148a8fdc2129b225b102b5"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00027.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84250ef29e708f95fc771dd775567f39a77fa431",
+      "size": 409397,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/84250ef29e708f95fc771dd775567f39a77fa431"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00028.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "701894f3b1a0e50a6a5bc4dd9a8446c2d3607d6e",
+      "size": 409218,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/701894f3b1a0e50a6a5bc4dd9a8446c2d3607d6e"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00029.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "128760dd6ccf81c49327127b71bc605c36b6dbf6",
+      "size": 412905,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/128760dd6ccf81c49327127b71bc605c36b6dbf6"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00030.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5df637c1d4bb1d74c286eb6e228398f52e262f9",
+      "size": 408248,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a5df637c1d4bb1d74c286eb6e228398f52e262f9"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00031.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89fff5dc01a73a32c2703b4d4af2eeb6e361e30e",
+      "size": 418874,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/89fff5dc01a73a32c2703b4d4af2eeb6e361e30e"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00032.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f765c887fcf15ce68f63d347de3a1dd2d85205f",
+      "size": 401587,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0f765c887fcf15ce68f63d347de3a1dd2d85205f"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00033.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25f95a45f73879826d00c075a70e03fb359551dd",
+      "size": 417334,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/25f95a45f73879826d00c075a70e03fb359551dd"
+    },
+    {
+      "path": "demo_data/rollerblade/color/00034.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49a23853d95337152d38e7a169f1f581f56aaf80",
+      "size": 427555,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/49a23853d95337152d38e7a169f1f581f56aaf80"
+    },
+    {
+      "path": "demo_data/rollerblade/rollerblade_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5646462c02a60e683ea0aafaef14dab271cde5dd",
+      "size": 6995,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5646462c02a60e683ea0aafaef14dab271cde5dd"
+    },
+    {
+      "path": "demo_data/yellow-duck",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66f8e55fc7bfad4f286828e29759910f027d305e",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/66f8e55fc7bfad4f286828e29759910f027d305e"
+    },
+    {
+      "path": "demo_data/yellow-duck/color",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b042e6f0347c5ff282c2578a50db5f0fd057d1bd",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/b042e6f0347c5ff282c2578a50db5f0fd057d1bd"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00000.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ed8b9195eb9a7f0c7296e769186ee7b5c95ee3",
+      "size": 196585,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b9ed8b9195eb9a7f0c7296e769186ee7b5c95ee3"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00001.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ffa12c8d37a2e3f5f5e2a05e5e6bdf02503c125",
+      "size": 199019,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8ffa12c8d37a2e3f5f5e2a05e5e6bdf02503c125"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00002.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304dc048daf8c9f07bea11568493b4b4fac4d834",
+      "size": 198080,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/304dc048daf8c9f07bea11568493b4b4fac4d834"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00003.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a24f64507bb8feb482c9fec8f7506d554d1e7f3",
+      "size": 198170,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1a24f64507bb8feb482c9fec8f7506d554d1e7f3"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00004.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d2eb9323782d0525268e683fab0605a7e94e745",
+      "size": 198554,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2d2eb9323782d0525268e683fab0605a7e94e745"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00005.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e173658c2093bf2308cdb416ea0c3cd8cb90d625",
+      "size": 198770,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e173658c2093bf2308cdb416ea0c3cd8cb90d625"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00006.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a601d3efa71f2007ab64e27ec8a2333c1cf991",
+      "size": 198629,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f2a601d3efa71f2007ab64e27ec8a2333c1cf991"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00007.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "336fba8493f1c8893f2038543a9bb1a9a494b280",
+      "size": 199174,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/336fba8493f1c8893f2038543a9bb1a9a494b280"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00008.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fcaa7dec7f2fceabaab922591f292306ccbe86d",
+      "size": 197869,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1fcaa7dec7f2fceabaab922591f292306ccbe86d"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00009.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8d97a391fdda0f2c593a43a63a42d0e50e12295",
+      "size": 198546,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f8d97a391fdda0f2c593a43a63a42d0e50e12295"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00010.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddabc8d7772327c48783bf3fbf4f662f8879c6bc",
+      "size": 197486,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ddabc8d7772327c48783bf3fbf4f662f8879c6bc"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00011.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bd80a01a70df0ccd9226484ce7e81ecc722d62",
+      "size": 197980,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/83bd80a01a70df0ccd9226484ce7e81ecc722d62"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00012.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db11fd65f86b30457b15f2c3eed738db406f5a61",
+      "size": 197022,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/db11fd65f86b30457b15f2c3eed738db406f5a61"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00013.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ee480d6582a5c49582b93a350afe37b5d3043a",
+      "size": 197022,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e8ee480d6582a5c49582b93a350afe37b5d3043a"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00014.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa7895b253176b6017ea7996adfea7fe8e1e7a01",
+      "size": 197113,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/aa7895b253176b6017ea7996adfea7fe8e1e7a01"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00015.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f7ce69dc7c322b8c0782c5bccf0d6b4440e28d7",
+      "size": 196522,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9f7ce69dc7c322b8c0782c5bccf0d6b4440e28d7"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00016.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96b3ed96124e15d2b8efa53d2c8875020a0459f",
+      "size": 194867,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c96b3ed96124e15d2b8efa53d2c8875020a0459f"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00017.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38ca827d95e0da4d7433a47d8e7b890d76400761",
+      "size": 196145,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/38ca827d95e0da4d7433a47d8e7b890d76400761"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00018.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb857a248a634622e8754ad68fecb0def787b29",
+      "size": 195325,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/aeb857a248a634622e8754ad68fecb0def787b29"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00019.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f581b1d1e7a5fa19a3be23f26789c390761b014b",
+      "size": 196528,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f581b1d1e7a5fa19a3be23f26789c390761b014b"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00020.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d35f15ff3194072a5bd57756bdb103a93d560b93",
+      "size": 195003,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d35f15ff3194072a5bd57756bdb103a93d560b93"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00021.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "131a6fa81b6b7683b9cedf72044a4325079253cf",
+      "size": 196687,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/131a6fa81b6b7683b9cedf72044a4325079253cf"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00022.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92300ae8c5496b8b71dedde1d18f720b9b66db4a",
+      "size": 196377,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/92300ae8c5496b8b71dedde1d18f720b9b66db4a"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00023.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa0509dc6b2b79ea2770d9779f8f47d6f3533bbb",
+      "size": 196766,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fa0509dc6b2b79ea2770d9779f8f47d6f3533bbb"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00024.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9605398b08f638c4a0c8961943036678bb4ee03e",
+      "size": 195156,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9605398b08f638c4a0c8961943036678bb4ee03e"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00025.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea9dbf0a5efbbb9e34a7a9a2f5d84486eb7602c4",
+      "size": 195662,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ea9dbf0a5efbbb9e34a7a9a2f5d84486eb7602c4"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00026.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3da97d4a663e5a2f064ecb4c2a89717561a1f9b",
+      "size": 194299,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d3da97d4a663e5a2f064ecb4c2a89717561a1f9b"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00027.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2693788e4328be449aac113074d5d33dccc882c6",
+      "size": 194632,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2693788e4328be449aac113074d5d33dccc882c6"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00028.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d59755f4668cab94a9d1c46bd646d862db1b213b",
+      "size": 194330,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d59755f4668cab94a9d1c46bd646d862db1b213b"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00029.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8eecfd1e2e9f69388597d3554008adbc0d4869d",
+      "size": 195822,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d8eecfd1e2e9f69388597d3554008adbc0d4869d"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00030.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "553f7731fb3f1ca5691d429c5c39e5a2677f40ab",
+      "size": 194351,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/553f7731fb3f1ca5691d429c5c39e5a2677f40ab"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00031.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc091fe0e59a6c7edbabbcc4303d534a7fdcf4db",
+      "size": 193576,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/bc091fe0e59a6c7edbabbcc4303d534a7fdcf4db"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00032.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852153f3f89cfd0fb9c68bf4bc7417174fc4cf9e",
+      "size": 192795,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/852153f3f89cfd0fb9c68bf4bc7417174fc4cf9e"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00033.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b953683b7e65f8d4698800b932521f9397d883c8",
+      "size": 192447,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b953683b7e65f8d4698800b932521f9397d883c8"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00034.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca54ec69b2e3546280a18b9056be800ba5b7030",
+      "size": 192741,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3ca54ec69b2e3546280a18b9056be800ba5b7030"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00035.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6956f21b5a5283142365fedf29f3de1a4416a95d",
+      "size": 193686,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/6956f21b5a5283142365fedf29f3de1a4416a95d"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00036.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2b3b14528676727a0ddea5cdb7905d951c2d2c4",
+      "size": 191377,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d2b3b14528676727a0ddea5cdb7905d951c2d2c4"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00037.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45122f9752a120783da3d77c6dfba8a70b74b451",
+      "size": 192845,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/45122f9752a120783da3d77c6dfba8a70b74b451"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00038.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bbb83d39a9d7321acecf96fd9228abae558dcf5",
+      "size": 191861,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7bbb83d39a9d7321acecf96fd9228abae558dcf5"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00039.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec82f75b537e799d38b20ed036966dd45dcc8778",
+      "size": 191826,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ec82f75b537e799d38b20ed036966dd45dcc8778"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00040.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6af40313a84db8df2bdd5f7a3f86b3f0a6e6de",
+      "size": 191563,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/dc6af40313a84db8df2bdd5f7a3f86b3f0a6e6de"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00041.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b456de93bb901b6bb36043acc40e542378d2f841",
+      "size": 192056,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b456de93bb901b6bb36043acc40e542378d2f841"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00042.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a489cd82816194160558b0dd1f387fae952287",
+      "size": 191141,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d0a489cd82816194160558b0dd1f387fae952287"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00043.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89e27c26fa9dcf6d60d53de20b9eb819c80aeec9",
+      "size": 192096,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/89e27c26fa9dcf6d60d53de20b9eb819c80aeec9"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00044.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba5e9be3b02063c11c9168d3b8a7474c82d5fbe4",
+      "size": 201263,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ba5e9be3b02063c11c9168d3b8a7474c82d5fbe4"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00045.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "892280fd2db1652fe9144d96b48000f6182ab5a2",
+      "size": 193575,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/892280fd2db1652fe9144d96b48000f6182ab5a2"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00046.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f5268bb27b085c29fc76de4bf04dceecbde279",
+      "size": 191683,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c8f5268bb27b085c29fc76de4bf04dceecbde279"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00047.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb70652ab921b7e6816720237a969131620aff84",
+      "size": 192502,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/eb70652ab921b7e6816720237a969131620aff84"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00048.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae127212514d236e01ac513ea3815d5e3ef1fd1",
+      "size": 190626,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4ae127212514d236e01ac513ea3815d5e3ef1fd1"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00049.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ab6d37d2d8cfe2c1d10dfe6e97e91bce087739",
+      "size": 190880,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/23ab6d37d2d8cfe2c1d10dfe6e97e91bce087739"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00050.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7647fceb1a2c5ca36ed8076d4830500f2ef3ebec",
+      "size": 191340,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7647fceb1a2c5ca36ed8076d4830500f2ef3ebec"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00051.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c88c27bbd942d2ccbb284c43eefbb3630663253",
+      "size": 190827,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3c88c27bbd942d2ccbb284c43eefbb3630663253"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00052.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71826daf0a94e3ea60bfb7944d734db7a2bea3cc",
+      "size": 189354,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/71826daf0a94e3ea60bfb7944d734db7a2bea3cc"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00053.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97fa4e14c77827b855ac5bfcabebdd2451ac880",
+      "size": 189501,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e97fa4e14c77827b855ac5bfcabebdd2451ac880"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00054.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed0ec4bc5e701c1e6a098fa94a1b2270cf435fbb",
+      "size": 187590,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ed0ec4bc5e701c1e6a098fa94a1b2270cf435fbb"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00055.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df02a0351b3cd7c9b1cbc7530941828f5b06b443",
+      "size": 188191,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/df02a0351b3cd7c9b1cbc7530941828f5b06b443"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00056.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4169fa8e1926e7b4ac373fd06a2fb67a74fbaee",
+      "size": 187280,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a4169fa8e1926e7b4ac373fd06a2fb67a74fbaee"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00057.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afaaa1d41f98f9cde1924e5ec64e54be4663bc47",
+      "size": 186875,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/afaaa1d41f98f9cde1924e5ec64e54be4663bc47"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00058.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce40c87d55b488a35d699e812fd5a4dcd0fe5369",
+      "size": 186276,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ce40c87d55b488a35d699e812fd5a4dcd0fe5369"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00059.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03cfd5e090ca2ec828accb8b38c129d8fe01ae70",
+      "size": 187187,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/03cfd5e090ca2ec828accb8b38c129d8fe01ae70"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00060.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e850b64195a6825d14a16174a77052b9fafb35f1",
+      "size": 185846,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e850b64195a6825d14a16174a77052b9fafb35f1"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00061.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "817e84dad8cdf6deadce215fb1f26967a8f54aa2",
+      "size": 185315,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/817e84dad8cdf6deadce215fb1f26967a8f54aa2"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00062.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a006b963a35cbce75d3e225dd2caa86b6b3fa74",
+      "size": 186547,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8a006b963a35cbce75d3e225dd2caa86b6b3fa74"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00063.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a27293b8eb5c4c29a23523eea005edac4786b3a5",
+      "size": 185360,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a27293b8eb5c4c29a23523eea005edac4786b3a5"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00064.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8b4e61c7fb769614fbd9ff9e7e40ca0a912f7f",
+      "size": 184004,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ef8b4e61c7fb769614fbd9ff9e7e40ca0a912f7f"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00065.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16731a599a48efc26cd73d7467f77bcd371849ef",
+      "size": 185153,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/16731a599a48efc26cd73d7467f77bcd371849ef"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00066.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0824bc26943493f039d456f266f61f5045b7eed8",
+      "size": 183509,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0824bc26943493f039d456f266f61f5045b7eed8"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00067.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c92083b48d48f0f9ea93ba798e44befd439bc5df",
+      "size": 184402,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c92083b48d48f0f9ea93ba798e44befd439bc5df"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00068.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c8c567df16731cc2097c7ced5ee08bcc17bfc09",
+      "size": 184002,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8c8c567df16731cc2097c7ced5ee08bcc17bfc09"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00069.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26b0b4619485e0b058ca28f72c972fd1034ae3c0",
+      "size": 182573,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/26b0b4619485e0b058ca28f72c972fd1034ae3c0"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00070.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1600b716e42c29f530f42e0b9b64ac3798bad2b7",
+      "size": 183137,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1600b716e42c29f530f42e0b9b64ac3798bad2b7"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00071.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee684bcd57e6cc6db3820eecc329bcf558f65805",
+      "size": 184239,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ee684bcd57e6cc6db3820eecc329bcf558f65805"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00072.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4581eb09d56ce167ae5dd6634add4dafa21fb9de",
+      "size": 183387,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4581eb09d56ce167ae5dd6634add4dafa21fb9de"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00073.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bd7a66c4c1052c9ae1938d96dba16ea14c583b5",
+      "size": 185370,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9bd7a66c4c1052c9ae1938d96dba16ea14c583b5"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00074.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d33d8ca852318bb40da759b08e263467b28b3ca",
+      "size": 183582,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8d33d8ca852318bb40da759b08e263467b28b3ca"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00075.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6283b8f1ccb2b4dc85b133884c52cda1c0e566c1",
+      "size": 182806,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/6283b8f1ccb2b4dc85b133884c52cda1c0e566c1"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00076.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feb46ea9e703745046fdb3c99e9c938614806469",
+      "size": 182492,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/feb46ea9e703745046fdb3c99e9c938614806469"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00077.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3056d2378da62cf7297d408282e5841011cdb0fe",
+      "size": 182667,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3056d2378da62cf7297d408282e5841011cdb0fe"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00078.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88829de0d3be074d4768aca8ccbf4867579cf779",
+      "size": 181391,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/88829de0d3be074d4768aca8ccbf4867579cf779"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00079.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b30bdadcf4fc780f9f7142a8426f443a7a1de302",
+      "size": 181659,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b30bdadcf4fc780f9f7142a8426f443a7a1de302"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00080.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfc08389ff6971307130c4364f91223bde4a5868",
+      "size": 180988,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cfc08389ff6971307130c4364f91223bde4a5868"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00081.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9fb1d53d934862816319e06d6b8ad3fcf21c196",
+      "size": 180454,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a9fb1d53d934862816319e06d6b8ad3fcf21c196"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00082.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a133c7dbe407d8be31036b30c94c8b49ec0005f7",
+      "size": 180958,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a133c7dbe407d8be31036b30c94c8b49ec0005f7"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00083.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad24b055fce76d529fd8f4910e73b91cf12c9d44",
+      "size": 181309,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ad24b055fce76d529fd8f4910e73b91cf12c9d44"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00084.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc10644919b1bb3408260319574f8b2b83a1da13",
+      "size": 180358,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/bc10644919b1bb3408260319574f8b2b83a1da13"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00085.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "444df247dc96ce641da5bb96c971d64a2ef064db",
+      "size": 180360,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/444df247dc96ce641da5bb96c971d64a2ef064db"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00086.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11553a4b607aa86ead75bddef618b499fdb02708",
+      "size": 179452,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/11553a4b607aa86ead75bddef618b499fdb02708"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00087.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3658adadee291c769d63aa918ee7839c33e79d0",
+      "size": 179854,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d3658adadee291c769d63aa918ee7839c33e79d0"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00088.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7608fbdedbfaeae5f53b9e581c2f40b93c66be63",
+      "size": 180013,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7608fbdedbfaeae5f53b9e581c2f40b93c66be63"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00089.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ab70cac8a699f544ad69ee49348c2e4a2db2829",
+      "size": 188700,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2ab70cac8a699f544ad69ee49348c2e4a2db2829"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00090.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a0b5a0b759e5539b7ca1284bd45e993628dd3fd",
+      "size": 181333,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/8a0b5a0b759e5539b7ca1284bd45e993628dd3fd"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00091.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf1e7ec0abe91bc51335da97614121d12ece759",
+      "size": 182113,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ecf1e7ec0abe91bc51335da97614121d12ece759"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00092.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd48ed89bd9dfc17faa643371f08eea360ee933f",
+      "size": 181351,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cd48ed89bd9dfc17faa643371f08eea360ee933f"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00093.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec38749abd5f2191f44b19eb94ea1ee46640af21",
+      "size": 180648,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ec38749abd5f2191f44b19eb94ea1ee46640af21"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00094.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79b905cd841039065122041f83e651e7ddb6e73",
+      "size": 179913,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e79b905cd841039065122041f83e651e7ddb6e73"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00095.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc563b639de5a9a5d57cf8f7a3d4748b4aab0630",
+      "size": 178556,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cc563b639de5a9a5d57cf8f7a3d4748b4aab0630"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00096.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0ec5d96f00639eebe4f1dd6d24bad4b1575a1d",
+      "size": 180540,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/df0ec5d96f00639eebe4f1dd6d24bad4b1575a1d"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00097.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a842bd3dfbafd92d09bdadbc1fadcdc677d5be8",
+      "size": 180038,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1a842bd3dfbafd92d09bdadbc1fadcdc677d5be8"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00098.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cbf42ba382b1123fca86b5dfb1b2abe1102e9af",
+      "size": 178419,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9cbf42ba382b1123fca86b5dfb1b2abe1102e9af"
+    },
+    {
+      "path": "demo_data/yellow-duck/color/00099.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85c5d88950f8d32d5ded2f6cb46be2c3cd883a8b",
+      "size": 178964,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/85c5d88950f8d32d5ded2f6cb46be2c3cd883a8b"
+    },
+    {
+      "path": "demo_data/yellow-duck/yellow-duck_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567d47bf81cda3295bc546027318dbcd124f63c8",
+      "size": 2839,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/567d47bf81cda3295bc546027318dbcd124f63c8"
+    },
+    {
+      "path": "demo_sparse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d936616c869a1725d7ef17ea3a0cf649f566a95",
+      "size": 7794,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1d936616c869a1725d7ef17ea3a0cf649f566a95"
+    },
+    {
+      "path": "densetrack3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6560e891ea4b05f437990f2f2f96cecf55ea8f62",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/6560e891ea4b05f437990f2f2f96cecf55ea8f62"
+    },
+    {
+      "path": "densetrack3d/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5277f46157403e47fd830fc519144b97ef69d4ae",
+      "size": 197,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5277f46157403e47fd830fc519144b97ef69d4ae"
+    },
+    {
+      "path": "densetrack3d/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0173033040dcde516090d6870f5c444c344156f0",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/0173033040dcde516090d6870f5c444c344156f0"
+    },
+    {
+      "path": "densetrack3d/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5277f46157403e47fd830fc519144b97ef69d4ae",
+      "size": 197,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5277f46157403e47fd830fc519144b97ef69d4ae"
+    },
+    {
+      "path": "densetrack3d/datasets/custom_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbd332747b9bf2dec37da55a7c95fb6cd023d844",
+      "size": 5704,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/bbd332747b9bf2dec37da55a7c95fb6cd023d844"
+    },
+    {
+      "path": "densetrack3d/datasets/cvo_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4bc04eddaf7d0cf35e67f689a448266706c672",
+      "size": 6593,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ce4bc04eddaf7d0cf35e67f689a448266706c672"
+    },
+    {
+      "path": "densetrack3d/datasets/cvo_long_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "258ae6e5f67f705b007a6bf3f5b01d45c99810be",
+      "size": 15051,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/258ae6e5f67f705b007a6bf3f5b01d45c99810be"
+    },
+    {
+      "path": "densetrack3d/datasets/dataclass_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ee31663cbac41905b34e1502009b1b6e3e1be76",
+      "size": 6129,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4ee31663cbac41905b34e1502009b1b6e3e1be76"
+    },
+    {
+      "path": "densetrack3d/datasets/dr_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26079b6d6c51b76f8708a2ff6130210802747a0c",
+      "size": 5178,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/26079b6d6c51b76f8708a2ff6130210802747a0c"
+    },
+    {
+      "path": "densetrack3d/datasets/kubric_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bd6b66c3b58b634629a6bd3461c2472b543718d",
+      "size": 39700,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5bd6b66c3b58b634629a6bd3461c2472b543718d"
+    },
+    {
+      "path": "densetrack3d/datasets/kubric_movif_3d_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "263235d0a80140d50490d439ba64d2ec8ac82e5b",
+      "size": 25238,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/263235d0a80140d50490d439ba64d2ec8ac82e5b"
+    },
+    {
+      "path": "densetrack3d/datasets/kubric_movif_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c592fa7a963154b16646658be73bf33c0a1baf25",
+      "size": 16804,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c592fa7a963154b16646658be73bf33c0a1baf25"
+    },
+    {
+      "path": "densetrack3d/datasets/lsf_augmentor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0beb4003539169a6f6e450db5673f41517a3a0",
+      "size": 2533,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/2c0beb4003539169a6f6e450db5673f41517a3a0"
+    },
+    {
+      "path": "densetrack3d/datasets/lsfodyssey_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "155cb2f9449b6148d91b84d29d67a24dafccf56e",
+      "size": 9781,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/155cb2f9449b6148d91b84d29d67a24dafccf56e"
+    },
+    {
+      "path": "densetrack3d/datasets/lsfodyssey_dataset_shuffle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f74bd516280dcd4d85f190f96238e9c4b694ca4a",
+      "size": 9757,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f74bd516280dcd4d85f190f96238e9c4b694ca4a"
+    },
+    {
+      "path": "densetrack3d/datasets/s3_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "densetrack3d/datasets/scannetv2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7145e5752696756a52371f3b1d653c1cc5e4857",
+      "size": 2918,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b7145e5752696756a52371f3b1d653c1cc5e4857"
+    },
+    {
+      "path": "densetrack3d/datasets/tap_vid_3d_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6154f7e6fc2ce635e4bddb2cc6f7401dba997d8f",
+      "size": 9500,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/6154f7e6fc2ce635e4bddb2cc6f7401dba997d8f"
+    },
+    {
+      "path": "densetrack3d/datasets/tap_vid_datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71721a227f6a5acbe9a38d4c89ae328152b78d97",
+      "size": 8010,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/71721a227f6a5acbe9a38d4c89ae328152b78d97"
+    },
+    {
+      "path": "densetrack3d/datasets/tapvid2d_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0839699a44ebea9fda3ac69cacfc2f6ab17d69dd",
+      "size": 11645,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0839699a44ebea9fda3ac69cacfc2f6ab17d69dd"
+    },
+    {
+      "path": "densetrack3d/datasets/tapvid3d_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c5ce2d323ba190111da00de5c10718ee9606d8",
+      "size": 6691,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/33c5ce2d323ba190111da00de5c10718ee9606d8"
+    },
+    {
+      "path": "densetrack3d/datasets/tartanair_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "653a7be41b344ac3ab02461d3271681d3a5850ac",
+      "size": 3457,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/653a7be41b344ac3ab02461d3271681d3a5850ac"
+    },
+    {
+      "path": "densetrack3d/datasets/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f1fceb9f5ecb6f69ccee7e239da4bd215470a47",
+      "size": 7744,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1f1fceb9f5ecb6f69ccee7e239da4bd215470a47"
+    },
+    {
+      "path": "densetrack3d/evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d973ae186983f5e64d0aa584fe462c1f7b9dbc9",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/8d973ae186983f5e64d0aa584fe462c1f7b9dbc9"
+    },
+    {
+      "path": "densetrack3d/evaluation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5277f46157403e47fd830fc519144b97ef69d4ae",
+      "size": 197,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5277f46157403e47fd830fc519144b97ef69d4ae"
+    },
+    {
+      "path": "densetrack3d/evaluation/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97e330ad4fc9cdd7e1a52177ef6e6fad4083ac05",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/97e330ad4fc9cdd7e1a52177ef6e6fad4083ac05"
+    },
+    {
+      "path": "densetrack3d/evaluation/configs/eval_dynamic_replica.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d6fca91f30333b0ef9ff0e7392d481a3edcc270",
+      "size": 97,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7d6fca91f30333b0ef9ff0e7392d481a3edcc270"
+    },
+    {
+      "path": "densetrack3d/evaluation/configs/eval_tapvid_davis_first.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37a6c9cb8879c7e09ecd760eaa9fb767ec1d78f",
+      "size": 100,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d37a6c9cb8879c7e09ecd760eaa9fb767ec1d78f"
+    },
+    {
+      "path": "densetrack3d/evaluation/configs/eval_tapvid_davis_strided.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3cf3c1c1d7fe8ad0c5986af4d2ef973dbaa02f",
+      "size": 102,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/6e3cf3c1c1d7fe8ad0c5986af4d2ef973dbaa02f"
+    },
+    {
+      "path": "densetrack3d/evaluation/configs/eval_tapvid_kinetics_first.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be89144e1b635a72180532ef31a5512d6d4960f",
+      "size": 103,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3be89144e1b635a72180532ef31a5512d6d4960f"
+    },
+    {
+      "path": "densetrack3d/evaluation/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ba0ea50dfec3f635f8007238a5ef3b01656bcae",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/9ba0ea50dfec3f635f8007238a5ef3b01656bcae"
+    },
+    {
+      "path": "densetrack3d/evaluation/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5277f46157403e47fd830fc519144b97ef69d4ae",
+      "size": 197,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5277f46157403e47fd830fc519144b97ef69d4ae"
+    },
+    {
+      "path": "densetrack3d/evaluation/core/cvo_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b5a6c355dc7f78f38a9da8959314be171b6436",
+      "size": 994,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c1b5a6c355dc7f78f38a9da8959314be171b6436"
+    },
+    {
+      "path": "densetrack3d/evaluation/core/eval_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba2e3773dd37aa3b025e380fb39cc24c851a6a7",
+      "size": 11773,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3ba2e3773dd37aa3b025e380fb39cc24c851a6a7"
+    },
+    {
+      "path": "densetrack3d/evaluation/core/evaluator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79ef15fba2d0856496cdfbc48a141b36dc5b2d2",
+      "size": 35915,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e79ef15fba2d0856496cdfbc48a141b36dc5b2d2"
+    },
+    {
+      "path": "densetrack3d/evaluation/core/sintel_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "255d1ff4cd237ba053b83f6a13c81bd8eb117d7e",
+      "size": 747,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/255d1ff4cd237ba053b83f6a13c81bd8eb117d7e"
+    },
+    {
+      "path": "densetrack3d/evaluation/core/tapvid3d_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e71d70497b64c19d6fe9f22c48f070937c53cf",
+      "size": 15596,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/92e71d70497b64c19d6fe9f22c48f070937c53cf"
+    },
+    {
+      "path": "densetrack3d/evaluation/core/traj_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6865f7910ddf55e5594f6187ca6dca2db0d94045",
+      "size": 9476,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/6865f7910ddf55e5594f6187ca6dca2db0d94045"
+    },
+    {
+      "path": "densetrack3d/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df814f97e40182252237524b06a84574071ba24d",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/df814f97e40182252237524b06a84574071ba24d"
+    },
+    {
+      "path": "densetrack3d/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5277f46157403e47fd830fc519144b97ef69d4ae",
+      "size": 197,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5277f46157403e47fd830fc519144b97ef69d4ae"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a363641e4cbb64cf84d1ccaaa9812c5ef4db3f0",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/8a363641e4cbb64cf84d1ccaaa9812c5ef4db3f0"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d/blocks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f28af54c69d63fe0c1d3e3d644a2b533417091e",
+      "size": 28550,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1f28af54c69d63fe0c1d3e3d644a2b533417091e"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d/corr4d_blocks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d577bbc9b418e8c75379aaffac37856393379f01",
+      "size": 3064,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d577bbc9b418e8c75379aaffac37856393379f01"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d/densetrack2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dcfcd73c1580a4a8ddf4da5b4cdcc3228a49f03",
+      "size": 32106,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5dcfcd73c1580a4a8ddf4da5b4cdcc3228a49f03"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d/densetrack3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04faba48e4dae2cf00a0f9c1472b1a1088ca2dee",
+      "size": 38276,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/04faba48e4dae2cf00a0f9c1472b1a1088ca2dee"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d/update_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d3f1dd5a679f2930975cc35fd2149c61fde2c6f",
+      "size": 9407,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1d3f1dd5a679f2930975cc35fd2149c61fde2c6f"
+    },
+    {
+      "path": "densetrack3d/models/densetrack3d/upsample_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e29fd486b38335c790cc5f3a82b71e97ebd48267",
+      "size": 17270,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e29fd486b38335c790cc5f3a82b71e97ebd48267"
+    },
+    {
+      "path": "densetrack3d/models/embeddings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ca0227daa3b60451809625fbf076c4d73bb356",
+      "size": 9767,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/10ca0227daa3b60451809625fbf076c4d73bb356"
+    },
+    {
+      "path": "densetrack3d/models/evaluation_predictor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa710b8ef7cb1e15a80f9e369af2af5eb3288d53",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/fa710b8ef7cb1e15a80f9e369af2af5eb3288d53"
+    },
+    {
+      "path": "densetrack3d/models/evaluation_predictor/evaluation_predictor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6405d3123a9febf610ab6f354a6f06f61fb7434",
+      "size": 18546,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b6405d3123a9febf610ab6f354a6f06f61fb7434"
+    },
+    {
+      "path": "densetrack3d/models/evaluation_predictor/evaluation_predictor2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7951ea4f07974b51232dffa3aa63f86ab8e38a73",
+      "size": 25792,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7951ea4f07974b51232dffa3aa63f86ab8e38a73"
+    },
+    {
+      "path": "densetrack3d/models/geometry_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1396baf999226d2a3d9f1ebc8be98d9c76f0800",
+      "size": 8189,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/b1396baf999226d2a3d9f1ebc8be98d9c76f0800"
+    },
+    {
+      "path": "densetrack3d/models/loss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a090247997d7bef1242a56a18651b1a1d168b691",
+      "size": 5038,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a090247997d7bef1242a56a18651b1a1d168b691"
+    },
+    {
+      "path": "densetrack3d/models/model_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "632831590854681b128d15d38c7611bef5e0a7e7",
+      "size": 21953,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/632831590854681b128d15d38c7611bef5e0a7e7"
+    },
+    {
+      "path": "densetrack3d/models/optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b365d39da49ebf77aeffb6c0a7bd244c15dd44d",
+      "size": 558,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0b365d39da49ebf77aeffb6c0a7bd244c15dd44d"
+    },
+    {
+      "path": "densetrack3d/models/predictor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68acf985345e7de5eadfc63292818e404414fdf8",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/68acf985345e7de5eadfc63292818e404414fdf8"
+    },
+    {
+      "path": "densetrack3d/models/predictor/dense_predictor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cb23802f47d1b5fe5cd891aab7e81ef2cac26d3",
+      "size": 5691,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3cb23802f47d1b5fe5cd891aab7e81ef2cac26d3"
+    },
+    {
+      "path": "densetrack3d/models/predictor/dense_predictor2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c362aae4a343f436a659c0a53aa12b42f5b4fb91",
+      "size": 2832,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c362aae4a343f436a659c0a53aa12b42f5b4fb91"
+    },
+    {
+      "path": "densetrack3d/models/predictor/dense_predictor_cotracker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7171522de2cb9f29c7c6ba68b86ea4511cbfe97",
+      "size": 11519,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e7171522de2cb9f29c7c6ba68b86ea4511cbfe97"
+    },
+    {
+      "path": "densetrack3d/models/predictor/predictor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0921482a5ef1c36fe21c57fdcda96f5444b4cacf",
+      "size": 9563,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/0921482a5ef1c36fe21c57fdcda96f5444b4cacf"
+    },
+    {
+      "path": "densetrack3d/models/predictor/predictor2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7889ce1a47414699574a0d1200613aacf8335c5e",
+      "size": 8143,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7889ce1a47414699574a0d1200613aacf8335c5e"
+    },
+    {
+      "path": "densetrack3d/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9742899949e679b01884b7817c64533aa619faca",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/9742899949e679b01884b7817c64533aa619faca"
+    },
+    {
+      "path": "densetrack3d/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5277f46157403e47fd830fc519144b97ef69d4ae",
+      "size": 197,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5277f46157403e47fd830fc519144b97ef69d4ae"
+    },
+    {
+      "path": "densetrack3d/utils/checkpoints_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa328524fcb5dc345868d46422ba321f2ad9439",
+      "size": 13,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/aaa328524fcb5dc345868d46422ba321f2ad9439"
+    },
+    {
+      "path": "densetrack3d/utils/depthcrafter_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e694115776211486e13e1d66507127418876e9aa",
+      "size": 776,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e694115776211486e13e1d66507127418876e9aa"
+    },
+    {
+      "path": "densetrack3d/utils/io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99f2c35d211a1bb9726873b872ff3f18f6fde401",
+      "size": 6578,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/99f2c35d211a1bb9726873b872ff3f18f6fde401"
+    },
+    {
+      "path": "densetrack3d/utils/logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cca6a7fdad01eabb11efec9d2d1f05f3fed5378",
+      "size": 3653,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4cca6a7fdad01eabb11efec9d2d1f05f3fed5378"
+    },
+    {
+      "path": "densetrack3d/utils/signal_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "293fa65af94abcb45731973ecad72a4502cbeb59",
+      "size": 426,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/293fa65af94abcb45731973ecad72a4502cbeb59"
+    },
+    {
+      "path": "densetrack3d/utils/traj_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb57a7e8e5fc15a79e846e96e9209d90809fb4b6",
+      "size": 2800,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/eb57a7e8e5fc15a79e846e96e9209d90809fb4b6"
+    },
+    {
+      "path": "densetrack3d/utils/utils_3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4029390cf42fb3847c656452d8d3f592ee67b06e",
+      "size": 1324,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4029390cf42fb3847c656452d8d3f592ee67b06e"
+    },
+    {
+      "path": "densetrack3d/utils/visualizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d719c07627c226c0c77a64baa70c84dab848b23",
+      "size": 13339,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9d719c07627c226c0c77a64baa70c84dab848b23"
+    },
+    {
+      "path": "densetrack3d/version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bdf9b49a56185f1ee87988877b5b3f1d2c36794",
+      "size": 221,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/4bdf9b49a56185f1ee87988877b5b3f1d2c36794"
+    },
+    {
+      "path": "dust3r",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "058cd791f2308705322ea7f7e93c3a5d58cf111d",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/058cd791f2308705322ea7f7e93c3a5d58cf111d"
+    },
+    {
+      "path": "dust3r/cloud_opt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09d7ca8f8d1c46a936261d3c47c54682c0ca698d",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/09d7ca8f8d1c46a936261d3c47c54682c0ca698d"
+    },
+    {
+      "path": "dust3r/cloud_opt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdf349087781384c42635942adf142654e65b066",
+      "size": 1399,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/fdf349087781384c42635942adf142654e65b066"
+    },
+    {
+      "path": "dust3r/cloud_opt/base_opt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b7aeedf83d68cacca7e3950a60196dc0f99322c",
+      "size": 22458,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9b7aeedf83d68cacca7e3950a60196dc0f99322c"
+    },
+    {
+      "path": "dust3r/cloud_opt/commons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be9f855a69ea18c82dcc8e5769e0149a59649bd",
+      "size": 2281,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/3be9f855a69ea18c82dcc8e5769e0149a59649bd"
+    },
+    {
+      "path": "dust3r/cloud_opt/delta_init_im_poses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db34971e64faba37808843a766fb5882ada8a6ca",
+      "size": 12889,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/db34971e64faba37808843a766fb5882ada8a6ca"
+    },
+    {
+      "path": "dust3r/cloud_opt/delta_optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca89a657c0680347c6389e4f0791db50d3b10292",
+      "size": 32465,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ca89a657c0680347c6389e4f0791db50d3b10292"
+    },
+    {
+      "path": "dust3r/cloud_opt/init_im_poses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afe6450d409c7cdccd354fac9d79f83885edba81",
+      "size": 11863,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/afe6450d409c7cdccd354fac9d79f83885edba81"
+    },
+    {
+      "path": "dust3r/cloud_opt/modular_optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06464b40276684385c18b9195be1491c6f47f07",
+      "size": 6481,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/d06464b40276684385c18b9195be1491c6f47f07"
+    },
+    {
+      "path": "dust3r/cloud_opt/optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "664d02951ea93a3f2c89adbac07130442a2d00e8",
+      "size": 30720,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/664d02951ea93a3f2c89adbac07130442a2d00e8"
+    },
+    {
+      "path": "dust3r/cloud_opt/pair_viewer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e7adc5e5b61760b074387927326f119fd74cca",
+      "size": 5107,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/85e7adc5e5b61760b074387927326f119fd74cca"
+    },
+    {
+      "path": "dust3r/cloud_opt/simple_optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3b46734a7e026984c36a08d2507ecf9baf74e14",
+      "size": 30946,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/f3b46734a7e026984c36a08d2507ecf9baf74e14"
+    },
+    {
+      "path": "dust3r/io_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "059e5a27d7bad8641f93b5d2b9ec243cdfee8b48",
+      "size": 5326,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/059e5a27d7bad8641f93b5d2b9ec243cdfee8b48"
+    },
+    {
+      "path": "dust3r/optim_factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b9c16e0e0fda3fd03c3def61abc1f354f75c584",
+      "size": 518,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9b9c16e0e0fda3fd03c3def61abc1f354f75c584"
+    },
+    {
+      "path": "dust3r/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0296d363da1574ee24ee8255f009e82e81597a83",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/0296d363da1574ee24ee8255f009e82e81597a83"
+    },
+    {
+      "path": "dust3r/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a32692113d830ddc4af4e6ed608f222fbe062e6e",
+      "size": 129,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a32692113d830ddc4af4e6ed608f222fbe062e6e"
+    },
+    {
+      "path": "dust3r/utils/device.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3b6a74dac05a2e1ba3a2b2f0faa8cea08ece745",
+      "size": 2473,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e3b6a74dac05a2e1ba3a2b2f0faa8cea08ece745"
+    },
+    {
+      "path": "dust3r/utils/flow_vis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3d97f274650633a339ddcdf7fda7284608af449",
+      "size": 4565,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e3d97f274650633a339ddcdf7fda7284608af449"
+    },
+    {
+      "path": "dust3r/utils/geometry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce365faf2acb97ffaafa1b80cb8ee0c28de0b6d6",
+      "size": 13204,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/ce365faf2acb97ffaafa1b80cb8ee0c28de0b6d6"
+    },
+    {
+      "path": "dust3r/utils/geometry_opt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ca2a2d11dacc39bd434a64ded3f3e4e1db4e00d",
+      "size": 24769,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5ca2a2d11dacc39bd434a64ded3f3e4e1db4e00d"
+    },
+    {
+      "path": "dust3r/utils/image.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054a1df42b0a42eee30d66f24152035784cb6a76",
+      "size": 4913,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/054a1df42b0a42eee30d66f24152035784cb6a76"
+    },
+    {
+      "path": "dust3r/utils/misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88c4d2dab6d5c14021ed9ed6646c3159a3a4637b",
+      "size": 3755,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/88c4d2dab6d5c14021ed9ed6646c3159a3a4637b"
+    },
+    {
+      "path": "dust3r/utils/parallel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06ae7fefdb9d2298929f0cbc20dfbc57eb7d7f7b",
+      "size": 2482,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/06ae7fefdb9d2298929f0cbc20dfbc57eb7d7f7b"
+    },
+    {
+      "path": "dust3r/utils/path_to_croco.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39226ce6bc0e1993ba98a22096de32cb6fa916b4",
+      "size": 854,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/39226ce6bc0e1993ba98a22096de32cb6fa916b4"
+    },
+    {
+      "path": "dust3r/utils/post_process.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "550a9b41025ad003228ef16f97d045fc238746e4",
+      "size": 2474,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/550a9b41025ad003228ef16f97d045fc238746e4"
+    },
+    {
+      "path": "dust3r/utils/viz_demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7940550e5acff8dbd6284d3a3d201dd2ec2ae89a",
+      "size": 7993,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7940550e5acff8dbd6284d3a3d201dd2ec2ae89a"
+    },
+    {
+      "path": "dust3r/viz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9150e8b850d9f1e6bf9ddf6e865d34fc743e276a",
+      "size": 13708,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9150e8b850d9f1e6bf9ddf6e865d34fc743e276a"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "897e7dfbc1596103723f1a74441d6be37ec84d9b",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/897e7dfbc1596103723f1a74441d6be37ec84d9b"
+    },
+    {
+      "path": "notebooks/infer_dense_3d.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a642eceb74d0cb0348aedcb14ff5c5d6f26a9880",
+      "size": 5465,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a642eceb74d0cb0348aedcb14ff5c5d6f26a9880"
+    },
+    {
+      "path": "preprocess",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ceaa5e15c5ab413d04c61b9ad22f26febcf661da",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/ceaa5e15c5ab413d04c61b9ad22f26febcf661da"
+    },
+    {
+      "path": "preprocess/preprocess_cvo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b76234ae0a77165d971dfadbd2b51b68f9fc82e",
+      "size": 2892,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9b76234ae0a77165d971dfadbd2b51b68f9fc82e"
+    },
+    {
+      "path": "preprocess/preprocess_tapvid2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb97bba11d1c60bc3ad69c356c3534c4959e00c1",
+      "size": 4945,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cb97bba11d1c60bc3ad69c356c3534c4959e00c1"
+    },
+    {
+      "path": "preprocess/preprocess_tapvid3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9415afc2486c8ed72b030ee55ba35ee0b83e0d8",
+      "size": 5225,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c9415afc2486c8ed72b030ee55ba35ee0b83e0d8"
+    },
+    {
+      "path": "preprocess/preprocess_video.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30beea489b0bdf86f28de755f3e5177a5d78121b",
+      "size": 7035,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/30beea489b0bdf86f28de755f3e5177a5d78121b"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25f5f946a6ccc9618bcf37352ac1be38841f1355",
+      "size": 1058,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/25f5f946a6ccc9618bcf37352ac1be38841f1355"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80fa564324abc734e0841d4975cc4e8c59ac8d2c",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/80fa564324abc734e0841d4975cc4e8c59ac8d2c"
+    },
+    {
+      "path": "scripts/eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2a670e65994c0c9f20ebda859d613deb4e435ad",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/c2a670e65994c0c9f20ebda859d613deb4e435ad"
+    },
+    {
+      "path": "scripts/eval/eval_2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c121d0a81ac30d58e7f2fa14dce2965ec4340314",
+      "size": 4903,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/c121d0a81ac30d58e7f2fa14dce2965ec4340314"
+    },
+    {
+      "path": "scripts/eval/eval_3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7be6d69bef1b96164ee53a569aafdf1a5b28749e",
+      "size": 5297,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/7be6d69bef1b96164ee53a569aafdf1a5b28749e"
+    },
+    {
+      "path": "scripts/eval/eval_flow2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c1adafce67f3b22c607918fc3b40ad9918cb7b",
+      "size": 4499,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/52c1adafce67f3b22c607918fc3b40ad9918cb7b"
+    },
+    {
+      "path": "scripts/eval/eval_flow2d_2dmodel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1467f3af565d465ca05a11298d7c6bd243589a2d",
+      "size": 4966,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/1467f3af565d465ca05a11298d7c6bd243589a2d"
+    },
+    {
+      "path": "scripts/train",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02c74096396281d890ae9ffcd45ed58c03c6816a",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/02c74096396281d890ae9ffcd45ed58c03c6816a"
+    },
+    {
+      "path": "scripts/train/pretrain_2d.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de8d8b56aff267e67d319ec4212d8a7ce5a3fe3",
+      "size": 500,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9de8d8b56aff267e67d319ec4212d8a7ce5a3fe3"
+    },
+    {
+      "path": "scripts/train/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16d988e0ec7606142b1b6a381a602ec0b8a5fb7e",
+      "size": 28411,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/16d988e0ec7606142b1b6a381a602ec0b8a5fb7e"
+    },
+    {
+      "path": "scripts/train/train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9900cf9c106c54a52548eb0108658bf58892eb9f",
+      "size": 571,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/9900cf9c106c54a52548eb0108658bf58892eb9f"
+    },
+    {
+      "path": "scripts/train/train_2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc7f3f21ea48bf0b6fb58e6447159e695639ab5b",
+      "size": 28327,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/cc7f3f21ea48bf0b6fb58e6447159e695639ab5b"
+    },
+    {
+      "path": "sfm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48d3726610e02fecb54804d220183d2a4736a461",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/48d3726610e02fecb54804d220183d2a4736a461"
+    },
+    {
+      "path": "sfm/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58e066258d75b45f9b905161c28778caa51a7f0",
+      "size": 733,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/e58e066258d75b45f9b905161c28778caa51a7f0"
+    },
+    {
+      "path": "sfm/run_densetrack_multiframes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26acdc427cec19b60a38d5016e2f7a251c861c68",
+      "size": 8227,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/26acdc427cec19b60a38d5016e2f7a251c861c68"
+    },
+    {
+      "path": "sfm/run_global_alignment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cd321358447aa0899b58e4982308f2e32f8f11",
+      "size": 11220,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/81cd321358447aa0899b58e4982308f2e32f8f11"
+    },
+    {
+      "path": "sfm/sfm_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a61e0aace1de85a6f07ddce00fc87203f533542b",
+      "size": 2772,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/a61e0aace1de85a6f07ddce00fc87203f533542b"
+    },
+    {
+      "path": "submodules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "439c61205cb3a829e0d4d98a392464fb335425e6",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/439c61205cb3a829e0d4d98a392464fb335425e6"
+    },
+    {
+      "path": "submodules/DepthCrafter",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "7fd136953d5d631a8c63bbdc88f7841749419af5"
+    },
+    {
+      "path": "submodules/Grounded-SAM-2",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "dd4c5141b75e4838dd486c64f773c43b4db3a07b"
+    },
+    {
+      "path": "submodules/UniDepth",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "cd8b90de1f5ffac697a6d18f9cc21503c8278325"
+    },
+    {
+      "path": "visualizer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "989d7c6d39eb53a3ecd9049ec0a7a0d8b51983b1",
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/trees/989d7c6d39eb53a3ecd9049ec0a7a0d8b51983b1"
+    },
+    {
+      "path": "visualizer/vis_densetrack3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c395186fd0367a51f79aa67e1cf9679d2e13ceb",
+      "size": 4976,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/5c395186fd0367a51f79aa67e1cf9679d2e13ceb"
+    },
+    {
+      "path": "visualizer/vis_open3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d14bef1dd02e4a28800c26f215d5e54995dd41",
+      "size": 8899,
+      "url": "https://api.github.com/repos/snap-research/DELTA_densetrack3d/git/blobs/40d14bef1dd02e4a28800c26f215d5e54995dd41"
+    }
+  ],
+  "truncated": false
+}

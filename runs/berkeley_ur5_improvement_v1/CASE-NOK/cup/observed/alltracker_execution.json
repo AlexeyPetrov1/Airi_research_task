@@ -1,0 +1,29 @@
+{
+  "source": "vendored author AllTracker Net(16)",
+  "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+  "iters": 4,
+  "native_size_wh": [
+    640,
+    480
+  ],
+  "network_size_wh": [
+    512,
+    384
+  ],
+  "flow_sampling": "bilinear dense-flow sampling; source-pixel-unit output",
+  "direction": "reverse observed-only prefix",
+  "runtime_seconds": 2.329996413000117,
+  "peak_gpu_memory_gib": 1.8810176849365234,
+  "future_used": false,
+  "source_indices": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "query_count": 100
+}

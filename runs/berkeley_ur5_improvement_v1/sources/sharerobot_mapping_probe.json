@@ -1,0 +1,252 @@
+{
+  "revision": "3266d92902b038ce40e7fb8aac5bfd9287eb3e45",
+  "target_episode_rows": [
+    {
+      "row_index": 75448,
+      "row": {
+        "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10",
+        "task": "Planning_Task",
+        "selected_step": 3,
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nThe objective is <placing one cup into another>. What should be the next step to move forward?"
+          },
+          {
+            "from": "gpt",
+            "value": "<grasp the blue cup>"
+          }
+        ],
+        "image": [
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_0.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_1.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_2.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_3.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_4.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_5.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_6.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_7.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_8.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_9.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_10.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_11.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_12.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_13.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_14.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_15.png"
+        ]
+      }
+    },
+    {
+      "row_index": 75449,
+      "row": {
+        "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10",
+        "task": "Planning_Task",
+        "selected_step": 1,
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image> <image> <image> <image> <image> <image> <image>\nWith the aim of <placing one cup into another>, what should you focus on next?"
+          },
+          {
+            "from": "gpt",
+            "value": "<release the brown cup>"
+          }
+        ],
+        "image": [
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_0.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_1.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_2.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_3.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_4.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_5.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_10/frame_6.png"
+        ]
+      }
+    },
+    {
+      "row_index": 77176,
+      "row": {
+        "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9",
+        "task": "Planning_Task",
+        "selected_step": 1,
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nWith the aim of <placing a bottle into a pot>, what should you focus on next?"
+          },
+          {
+            "from": "gpt",
+            "value": "<grasp the bottle>"
+          }
+        ],
+        "image": [
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_0.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_1.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_2.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_3.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_4.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_5.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_6.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_7.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_8.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_9.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_10.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_11.png"
+        ]
+      }
+    },
+    {
+      "row_index": 77177,
+      "row": {
+        "id": "/mnt/hpfs/baaiei/jyShi/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9",
+        "task": "Planning_Task",
+        "selected_step": 2,
+        "conversations": [
+          {
+            "from": "human",
+            "value": "<image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image> <image>\nGiven the goal of <placing a bottle into a pot>, what is the most logical next move?"
+          },
+          {
+            "from": "gpt",
+            "value": "<lift the bottle>"
+          }
+        ],
+        "image": [
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_0.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_1.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_2.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_3.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_4.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_5.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_6.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_7.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_8.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_9.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_10.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_11.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_12.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_13.png",
+          "rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5#episode_9/frame_14.png"
+        ]
+      }
+    }
+  ],
+  "metadata_mapping_confirmed": true,
+  "image_mapping_confirmed": false,
+  "direct_image_attempts": [
+    {
+      "url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/planning/images/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5%23episode_9/frame_0.png",
+      "status": 404,
+      "bytes": 15
+    },
+    {
+      "url": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/planning/images/rt_frames_success/rtx_frames_success_20/43_berkeley_autolab_ur5%23episode_10/frame_0.png",
+      "status": 404,
+      "bytes": 15
+    }
+  ],
+  "archive_probe": {
+    "source": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/planning/images/rt_frames_success.tar.gz.part.aa",
+    "bytes_fetched": 8388608,
+    "status": 206,
+    "content_range": "bytes 0-8388607/5368709120",
+    "first_entries": [
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success",
+        "size": 0
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14",
+        "size": 0
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263",
+        "size": 0
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_13.png",
+        "size": 429729
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_11.png",
+        "size": 433062
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_17.png",
+        "size": 429957
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_6.png",
+        "size": 430023
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_4.png",
+        "size": 425831
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_14.png",
+        "size": 426676
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_0.png",
+        "size": 430010
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_16.png",
+        "size": 426003
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_9.png",
+        "size": 426909
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_2.png",
+        "size": 426012
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_10.png",
+        "size": 427247
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_25.png",
+        "size": 426283
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_18.png",
+        "size": 429689
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_8.png",
+        "size": 426427
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_21.png",
+        "size": 415492
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_24.png",
+        "size": 426374
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_29.png",
+        "size": 440266
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_23.png",
+        "size": 423985
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_19.png",
+        "size": 427915
+      },
+      {
+        "path": "mnt/hpfs/baaiei/jyShi/ShareRobot/planning/rt_frames_success/rtx_frames_success_14/49_bridge#episode_4263/frame_12.png",
+        "size": 431895
+      }
+    ],
+    "error": "ReadError('unexpected end of data')"
+  },
+  "limitation": "Matching ShareRobot IDs/instructions do not prove RGB or temporal mapping. Pixel correspondence remains to be established.",
+  "required_next_evidence": "Retrieve ShareRobot frames for these exact sequences and match to native/LeRobot episode frames by pixels."
+}

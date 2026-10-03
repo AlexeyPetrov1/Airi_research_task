@@ -1,0 +1,12 @@
+{
+  "status": "in_progress",
+  "review_method": "Actual visual inspection of generated contact sheets at +0.2, +1.0 and +2.0 seconds; green tracker reference and pink predicted first eight fixed point IDs",
+  "fixed_cup": "One-third displacement shrinks the large arc substantially, but final points curve rightward away from the actual cup. Step-equals-frame remains too high at the end.",
+  "fixed_bottle": "One-third displacement shrinks the large arc and approaches the bottle better, but rightward displacement and timing differ. Step-equals-frame remains substantially too high/right.",
+  "oracle_cup": "Smaller oracle and cross-scene scales keep the forecast near the actual cup longer, but residual trajectory direction and endpoint errors remain; these scales used future data.",
+  "CASE_AUGE_cup_pilot": "Actual recalibration reduces the arc visibly versus baseline. It still overshoots. One-third correction brings middle positions closer while the final arc remains off the object.",
+  "CASE_NOK_cup_pilot": "The raw forecast changes from a broad rightward arc to a more direct upward lift. One-third correction stays much closer to the actual moving cup in the reviewed frames.",
+  "CASE_H1_cup_pilot": "The complete actual 8x32 output makes a large placing arc toward the right prematurely; t0-only conditioning does not resolve mismatch during the observed lift phase.",
+  "decision": "Expand both CASE-AUGE and CASE-NOK to all fixed 24 IDs in both scenes. Both visual pilot effects are substantive. Full runs are in progress sequentially.",
+  "limitations": ["First-eight-point visual inspection does not establish coherence of all 24 predictions.", "Only sampled contact-sheet frames reviewed so far; decode/review the complete movies before final claims.", "Metrics are secondary, and future-fitted oracle scales are diagnostics."]
+}

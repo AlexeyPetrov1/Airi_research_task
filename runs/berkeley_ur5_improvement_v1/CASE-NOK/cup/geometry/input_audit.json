@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "future_used": false,
+  "selected_points": 24,
+  "group_payload_audit": {
+    "group_count": 3,
+    "group_names": [
+      "group_00",
+      "group_01",
+      "group_02"
+    ],
+    "selected_point_ids": [
+      67,
+      46,
+      41,
+      91,
+      94,
+      40,
+      10,
+      17,
+      53,
+      44,
+      42,
+      28,
+      83,
+      72,
+      13,
+      19,
+      85,
+      33,
+      69,
+      58,
+      78,
+      73,
+      37,
+      89
+    ],
+    "all_group_payloads_equal_canonical_history": true
+  },
+  "source_indices": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "history_indices": [
+    61,
+    62,
+    63
+  ],
+  "mask_area_px": 4034,
+  "mask_valid_depth_fraction_t0": 0.8351512146752603,
+  "selected_H3_depth_range_m": [
+    0.5398764610290527,
+    0.6368253827095032
+  ],
+  "selected_H3_smoothing_displacement_m_max": 0.03572263568639755,
+  "ray_preservation_max_reprojection_error_px": 3.0517578125e-05,
+  "background_median_displacement_px_max": 0.09418660402297974,
+  "depth_is_native_array_exactly": true,
+  "visual_mask_review_required": "Root separately inspects saved mask_overlay.png before inference"
+}

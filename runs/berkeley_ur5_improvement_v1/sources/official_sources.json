@@ -1,0 +1,36 @@
+{
+  "auge_commit": "0added8b6645fef1c7de2ad5d5bd7e9c1bde0d2e",
+  "delta_commit": "3367cda1c74d19e73296165f9826b213211678dd",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/BerkeleyAutomation/AugE-Toolkit/0added8b6645fef1c7de2ad5d5bd7e9c1bde0d2e/config.py",
+      "sha256": "98d312c4d4a1f65f89044e4bc9686b40869d04f8ff639295b1ab4ad22b8d9bfc",
+      "bytes": 21033,
+      "path": "auge_config.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snap-research/DELTA_densetrack3d/3367cda1c74d19e73296165f9826b213211678dd/densetrack3d/models/predictor/predictor.py",
+      "sha256": "762b4d4ccc4c19f9bddd280f62e9880b014ce7609095aae041cd4e0748c926d6",
+      "bytes": 9563,
+      "path": "delta/densetrack3d/models/predictor/predictor.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snap-research/DELTA_densetrack3d/3367cda1c74d19e73296165f9826b213211678dd/README.md",
+      "sha256": "f2aff5e8301fa0f499036f411764bbd48a1fc856ae3574bbf311bb431887542c",
+      "bytes": 9128,
+      "path": "delta/README.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snap-research/DELTA_densetrack3d/3367cda1c74d19e73296165f9826b213211678dd/densetrack3d/models/geometry_utils.py",
+      "sha256": "3edf7626a39d467dc71caee478df2ec2e4f643c3bf5d6742798fc16758080180",
+      "bytes": 8189,
+      "path": "delta/densetrack3d/models/geometry_utils.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snap-research/DELTA_densetrack3d/3367cda1c74d19e73296165f9826b213211678dd/densetrack3d/models/model_utils.py",
+      "sha256": "2acf8b93bf5457201163ecdaf8609bfece21943db39c08f48d74b993f30d24de",
+      "bytes": 21953,
+      "path": "delta/densetrack3d/models/model_utils.py"
+    }
+  ]
+}

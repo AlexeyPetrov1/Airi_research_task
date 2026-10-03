@@ -1,0 +1,4426 @@
+{
+  "source": "https://huggingface.co/datasets/BAAI/ShareRobot/resolve/3266d92902b038ce40e7fb8aac5bfd9287eb3e45/trajectory/trajectory.json",
+  "rows_examined": 6870,
+  "berkeley_rows": [
+    {
+      "row_index": 3476,
+      "row": {
+        "id": 3476,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_0/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left side of the table",
+        "trajectory": [
+          [
+            267.7008310249308,
+            255.29085872576178
+          ],
+          [
+            171.9667590027701,
+            271.2465373961219
+          ],
+          [
+            125.87257617728534,
+            299.612188365651
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3477,
+      "row": {
+        "id": 3477,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_11/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth across the table",
+        "trajectory": [
+          [
+            287.202216066482,
+            239.33518005540168
+          ],
+          [
+            193.2409972299169,
+            265.9279778393352
+          ],
+          [
+            131.19113573407202,
+            299.612188365651
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3478,
+      "row": {
+        "id": 3478,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_19/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            416.6204986149584,
+            195.0138504155125
+          ],
+          [
+            393.5734072022161,
+            214.5152354570637
+          ],
+          [
+            382.93628808864264,
+            232.2437673130194
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3479,
+      "row": {
+        "id": 3479,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_19/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            306.70360110803324,
+            260.6094182825485
+          ],
+          [
+            218.06094182825487,
+            296.0664819944598
+          ],
+          [
+            177.2853185595568,
+            342.1606648199446
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3480,
+      "row": {
+        "id": 3480,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_23/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lower towards the pot",
+        "trajectory": [
+          [
+            345.7063711911357,
+            248.1994459833795
+          ],
+          [
+            168.42105263157893,
+            274.79224376731304
+          ],
+          [
+            120.55401662049863,
+            297.8393351800554
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3481,
+      "row": {
+        "id": 3481,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_26/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the bottle towards the pot",
+        "trajectory": [
+          [
+            338.61495844875344,
+            196.78670360110806
+          ],
+          [
+            287.202216066482,
+            225.15235457063716
+          ],
+          [
+            274.79224376731304,
+            258.8365650969529
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3482,
+      "row": {
+        "id": 3482,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_32/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the object towards the second container",
+        "trajectory": [
+          [
+            365.20775623268696,
+            203.87811634349032
+          ],
+          [
+            290.74792243767314,
+            242.8808864265928
+          ],
+          [
+            237.56232686980613,
+            280.1108033240997
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3483,
+      "row": {
+        "id": 3483,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_34/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            329.7506925207756,
+            221.60664819944594
+          ],
+          [
+            310.2493074792244,
+            258.8365650969529
+          ],
+          [
+            319.11357340720224,
+            290.74792243767314
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3484,
+      "row": {
+        "id": 3484,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_38/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            345.7063711911357,
+            248.1994459833795
+          ],
+          [
+            207.42382271468145,
+            312.02216066482
+          ],
+          [
+            179.05817174515235,
+            338.61495844875344
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3485,
+      "row": {
+        "id": 3485,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_44/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the ranch bottle over the pot",
+        "trajectory": [
+          [
+            326.2049861495845,
+            202.10526315789474
+          ],
+          [
+            292.5207756232687,
+            221.60664819944594
+          ],
+          [
+            292.5207756232687,
+            260.6094182825485
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3486,
+      "row": {
+        "id": 3486,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_48/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the brown cup",
+        "trajectory": [
+          [
+            335.0692520775623,
+            244.65373961218836
+          ],
+          [
+            234.01662049861497,
+            216.2880886426593
+          ],
+          [
+            179.05817174515235,
+            237.5623268698061
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3487,
+      "row": {
+        "id": 3487,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_48/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            193.2409972299169,
+            207.42382271468142
+          ],
+          [
+            239.33518005540165,
+            207.42382271468142
+          ],
+          [
+            260.6094182825485,
+            230.4709141274238
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3488,
+      "row": {
+        "id": 3488,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_54/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left",
+        "trajectory": [
+          [
+            306.70360110803324,
+            251.74515235457065
+          ],
+          [
+            216.2880886426593,
+            269.4736842105263
+          ],
+          [
+            184.37673130193906,
+            308.47645429362876
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3489,
+      "row": {
+        "id": 3489,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_59/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the object in the first container",
+        "trajectory": [
+          [
+            349.5828159014441,
+            239.8863864514659
+          ],
+          [
+            284.9902815734571,
+            238.0668784422268
+          ],
+          [
+            240.41233534709994,
+            252.6229425161394
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3490,
+      "row": {
+        "id": 3490,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_83/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            340.3878116343491,
+            237.5623268698061
+          ],
+          [
+            228.69806094182823,
+            257.0637119113573
+          ],
+          [
+            173.73961218836564,
+            276.5650969529086
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3491,
+      "row": {
+        "id": 3491,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_104/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            363.43490304709144,
+            264.15512465373956
+          ],
+          [
+            273.0193905817174,
+            218.06094182825484
+          ],
+          [
+            237.56232686980613,
+            230.4709141274238
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3492,
+      "row": {
+        "id": 3492,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_107/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            331.52354570637124,
+            230.4709141274238
+          ],
+          [
+            196.78670360110806,
+            260.6094182825485
+          ],
+          [
+            138.28254847645428,
+            292.52077562326866
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3493,
+      "row": {
+        "id": 3493,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_110/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            324.432132963989,
+            260.6094182825485
+          ],
+          [
+            292.5207756232687,
+            237.5623268698061
+          ],
+          [
+            287.202216066482,
+            221.60664819944594
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3494,
+      "row": {
+        "id": 3494,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_118/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the object over the second container",
+        "trajectory": [
+          [
+            301.38504155124656,
+            203.87811634349032
+          ],
+          [
+            218.06094182825487,
+            223.37950138504158
+          ],
+          [
+            202.10526315789474,
+            287.202216066482
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3495,
+      "row": {
+        "id": 3495,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_121/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the item over the second container",
+        "trajectory": [
+          [
+            319.11357340720224,
+            200.33240997229916
+          ],
+          [
+            232.24376731301933,
+            267.7008310249308
+          ],
+          [
+            246.42659279778388,
+            352.7977839335179
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3496,
+      "row": {
+        "id": 3496,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_137/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            338.61495844875344,
+            171.9667590027701
+          ],
+          [
+            274.79224376731304,
+            184.37673130193906
+          ],
+          [
+            258.8365650969529,
+            214.5152354570637
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3497,
+      "row": {
+        "id": 3497,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_145/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the bottle",
+        "trajectory": [
+          [
+            345.7063711911357,
+            242.8808864265928
+          ],
+          [
+            249.97229916897504,
+            319.11357340720224
+          ],
+          [
+            248.19944598337952,
+            352.7977839335179
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3498,
+      "row": {
+        "id": 3498,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_152/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left",
+        "trajectory": [
+          [
+            296.0664819944599,
+            312.02216066482
+          ],
+          [
+            191.46814404432132,
+            308.47645429362876
+          ],
+          [
+            140.05540166204983,
+            372.2991689750693
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3499,
+      "row": {
+        "id": 3499,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_168/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "release the pot",
+        "trajectory": [
+          [
+            345.7063711911357,
+            246.4265927977839
+          ],
+          [
+            230.4709141274238,
+            281.8836565096953
+          ],
+          [
+            200.33240997229916,
+            312.02216066482
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3500,
+      "row": {
+        "id": 3500,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_168/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "place a bottle in a pot",
+        "trajectory": [
+          [
+            228.69806094182823,
+            234.01662049861497
+          ],
+          [
+            267.7008310249308,
+            239.33518005540168
+          ],
+          [
+            285.42936288088646,
+            262.38227146814404
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3501,
+      "row": {
+        "id": 3501,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_169/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            359.8891966759002,
+            212.74238227146813
+          ],
+          [
+            326.2049861495845,
+            203.87811634349032
+          ],
+          [
+            312.02216066482,
+            221.60664819944594
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3502,
+      "row": {
+        "id": 3502,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_169/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left",
+        "trajectory": [
+          [
+            241.10803324099726,
+            264.15512465373956
+          ],
+          [
+            147.14681440443212,
+            285.4293628808864
+          ],
+          [
+            104.59833795013851,
+            312.02216066482
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3503,
+      "row": {
+        "id": 3503,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_184/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            343.9335180055402,
+            242.8808864265928
+          ],
+          [
+            205.65096952908584,
+            246.4265927977839
+          ],
+          [
+            157.78393351800554,
+            258.8365650969529
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3504,
+      "row": {
+        "id": 3504,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_199/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            377.61772853185596,
+            200.33240997229916
+          ],
+          [
+            340.3878116343491,
+            237.5623268698061
+          ],
+          [
+            310.2493074792244,
+            232.2437673130194
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3505,
+      "row": {
+        "id": 3505,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_224/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "stack the blue cup in the brown cup",
+        "trajectory": [
+          [
+            366.98060941828254,
+            168.42105263157893
+          ],
+          [
+            262.38227146814404,
+            214.5152354570637
+          ],
+          [
+            228.69806094182823,
+            248.1994459833795
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3506,
+      "row": {
+        "id": 3506,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_231/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            349.25207756232686,
+            195.0138504155125
+          ],
+          [
+            338.61495844875344,
+            225.15235457063716
+          ],
+          [
+            363.43490304709144,
+            234.01662049861497
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3507,
+      "row": {
+        "id": 3507,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_231/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            297.8393351800554,
+            283.6565096952909
+          ],
+          [
+            205.65096952908584,
+            297.8393351800554
+          ],
+          [
+            154.23822714681444,
+            347.4792243767313
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3508,
+      "row": {
+        "id": 3508,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_233/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            324.432132963989,
+            179.05817174515235
+          ],
+          [
+            327.97783933518,
+            232.2437673130194
+          ],
+          [
+            352.797783933518,
+            244.65373961218836
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3509,
+      "row": {
+        "id": 3509,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_250/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the object in the first container",
+        "trajectory": [
+          [
+            347.4792243767313,
+            248.1994459833795
+          ],
+          [
+            244.65373961218836,
+            260.6094182825485
+          ],
+          [
+            184.37673130193906,
+            287.202216066482
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3510,
+      "row": {
+        "id": 3510,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_252/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "approach the cloth",
+        "trajectory": [
+          [
+            377.61772853185596,
+            313.7950138504155
+          ],
+          [
+            338.61495844875344,
+            251.74515235457065
+          ],
+          [
+            356.3434903047092,
+            230.4709141274238
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3511,
+      "row": {
+        "id": 3511,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_252/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            336.84210526315786,
+            241.1080332409972
+          ],
+          [
+            228.69806094182823,
+            281.8836565096953
+          ],
+          [
+            157.78393351800554,
+            338.61495844875344
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3512,
+      "row": {
+        "id": 3512,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_255/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the bottle towards the pot",
+        "trajectory": [
+          [
+            381.1634349030471,
+            223.37950138504158
+          ],
+          [
+            306.70360110803324,
+            234.01662049861497
+          ],
+          [
+            285.42936288088646,
+            264.15512465373956
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3513,
+      "row": {
+        "id": 3513,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_256/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "pick up the cloth",
+        "trajectory": [
+          [
+            359.8891966759002,
+            186.14958448753464
+          ],
+          [
+            349.25207756232686,
+            234.01662049861497
+          ],
+          [
+            329.7506925207756,
+            249.97229916897507
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3514,
+      "row": {
+        "id": 3514,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_256/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left side of the table",
+        "trajectory": [
+          [
+            248.19944598337952,
+            296.0664819944598
+          ],
+          [
+            180.83102493074796,
+            304.9307479224377
+          ],
+          [
+            145.37396121883657,
+            345.70637119113576
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3515,
+      "row": {
+        "id": 3515,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_257/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            320.88642659279776,
+            177.2853185595568
+          ],
+          [
+            333.2963988919668,
+            226.92520775623268
+          ],
+          [
+            363.43490304709144,
+            248.1994459833795
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3516,
+      "row": {
+        "id": 3516,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_257/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            260.6094182825485,
+            274.79224376731304
+          ],
+          [
+            189.69529085872574,
+            296.0664819944598
+          ],
+          [
+            117.00831024930748,
+            299.612188365651
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3517,
+      "row": {
+        "id": 3517,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_258/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the bottle towards the pot",
+        "trajectory": [
+          [
+            296.0664819944599,
+            200.33240997229916
+          ],
+          [
+            273.0193905817174,
+            232.2437673130194
+          ],
+          [
+            280.11080332409966,
+            269.4736842105263
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3518,
+      "row": {
+        "id": 3518,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_269/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            352.797783933518,
+            216.2880886426593
+          ],
+          [
+            342.1606648199446,
+            248.1994459833795
+          ],
+          [
+            363.43490304709144,
+            269.4736842105263
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3519,
+      "row": {
+        "id": 3519,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_272/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            361.6620498614959,
+            244.65373961218836
+          ],
+          [
+            324.432132963989,
+            260.6094182825485
+          ],
+          [
+            317.3407202216066,
+            288.9750692520776
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3520,
+      "row": {
+        "id": 3520,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_285/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lower the pot towards the bottle",
+        "trajectory": [
+          [
+            343.9335180055401,
+            242.88088642659278
+          ],
+          [
+            228.69806094182823,
+            313.7950138504155
+          ],
+          [
+            207.42382271468142,
+            354.57063711911354
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3521,
+      "row": {
+        "id": 3521,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_286/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the object in the first container",
+        "trajectory": [
+          [
+            347.4792243767313,
+            237.5623268698061
+          ],
+          [
+            273.0193905817174,
+            278.33795013850414
+          ],
+          [
+            269.4736842105263,
+            313.7950138504155
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3522,
+      "row": {
+        "id": 3522,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_286/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the object towards the second container",
+        "trajectory": [
+          [
+            336.84210526315786,
+            163.10249307479222
+          ],
+          [
+            326.2049861495845,
+            195.0138504155125
+          ],
+          [
+            352.797783933518,
+            223.37950138504158
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3523,
+      "row": {
+        "id": 3523,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_294/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth left",
+        "trajectory": [
+          [
+            246.42659279778388,
+            249.97229916897507
+          ],
+          [
+            157.78393351800554,
+            283.6565096952909
+          ],
+          [
+            111.68975069252079,
+            313.7950138504155
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3524,
+      "row": {
+        "id": 3524,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_310/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "pick up the bottle",
+        "trajectory": [
+          [
+            345.7063711911357,
+            248.1994459833795
+          ],
+          [
+            398.8919667590028,
+            248.1994459833795
+          ],
+          [
+            409.52908587257616,
+            234.01662049861497
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3525,
+      "row": {
+        "id": 3525,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_310/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the bottle towards the pot",
+        "trajectory": [
+          [
+            391.80055401662054,
+            219.83379501385042
+          ],
+          [
+            317.3407202216066,
+            226.92520775623268
+          ],
+          [
+            287.202216066482,
+            258.8365650969529
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3526,
+      "row": {
+        "id": 3526,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_312/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the brown cup",
+        "trajectory": [
+          [
+            335.0692520775623,
+            242.8808864265928
+          ],
+          [
+            265.92797783933514,
+            210.9695290858726
+          ],
+          [
+            226.9252077562327,
+            205.6509695290859
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3527,
+      "row": {
+        "id": 3527,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_317/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            349.25207756232686,
+            235.7894736842105
+          ],
+          [
+            228.69806094182823,
+            319.11357340720224
+          ],
+          [
+            205.65096952908584,
+            347.4792243767313
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3528,
+      "row": {
+        "id": 3528,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_330/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            374.0720221606648,
+            255.29085872576178
+          ],
+          [
+            301.38504155124656,
+            251.74515235457065
+          ],
+          [
+            296.0664819944599,
+            226.92520775623268
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3529,
+      "row": {
+        "id": 3529,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_330/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            209.19667590027703,
+            269.4736842105263
+          ],
+          [
+            136.5096952908587,
+            288.9750692520776
+          ],
+          [
+            101.05263157894737,
+            310.2493074792244
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3530,
+      "row": {
+        "id": 3530,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_331/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the item towards the second container",
+        "trajectory": [
+          [
+            349.25207756232686,
+            191.46814404432135
+          ],
+          [
+            218.06094182825487,
+            276.5650969529086
+          ],
+          [
+            200.33240997229916,
+            345.70637119113576
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3531,
+      "row": {
+        "id": 3531,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_335/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the smaller cup",
+        "trajectory": [
+          [
+            358.1163434903047,
+            228.69806094182826
+          ],
+          [
+            372.2991689750693,
+            225.15235457063716
+          ],
+          [
+            391.80055401662054,
+            237.5623268698061
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3532,
+      "row": {
+        "id": 3532,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_348/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the item in the first container",
+        "trajectory": [
+          [
+            351.0249307479224,
+            241.1080332409972
+          ],
+          [
+            251.74515235457068,
+            246.4265927977839
+          ],
+          [
+            214.5152354570637,
+            278.33795013850414
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3533,
+      "row": {
+        "id": 3533,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_357/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "stack the blue cup in the brown cup",
+        "trajectory": [
+          [
+            327.97783933518,
+            131.19113573407202
+          ],
+          [
+            320.88642659279776,
+            203.87811634349032
+          ],
+          [
+            351.0249307479224,
+            239.33518005540168
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3534,
+      "row": {
+        "id": 3534,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_363/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lift the pot",
+        "trajectory": [
+          [
+            345.7063711911357,
+            242.8808864265928
+          ],
+          [
+            216.2880886426593,
+            326.20498614958444
+          ],
+          [
+            175.5124653739612,
+            363.43490304709144
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3535,
+      "row": {
+        "id": 3535,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_363/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "place the bottle into the pot",
+        "trajectory": [
+          [
+            196.78670360110806,
+            317.34072022160666
+          ],
+          [
+            294.29362880886424,
+            292.52077562326866
+          ],
+          [
+            292.5207756232687,
+            257.0637119113573
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3536,
+      "row": {
+        "id": 3536,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_364/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            354.5706371191136,
+            319.11357340720224
+          ],
+          [
+            310.2493074792244,
+            249.97229916897507
+          ],
+          [
+            327.97783933518,
+            218.06094182825484
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3537,
+      "row": {
+        "id": 3537,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_372/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the object towards the second container",
+        "trajectory": [
+          [
+            368.7534626038781,
+            198.55955678670358
+          ],
+          [
+            280.11080332409966,
+            223.37950138504158
+          ],
+          [
+            253.5180055401662,
+            262.38227146814404
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3538,
+      "row": {
+        "id": 3538,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_375/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the object towards the second container",
+        "trajectory": [
+          [
+            296.0664819944599,
+            200.33240997229916
+          ],
+          [
+            195.01385041551245,
+            285.4293628808864
+          ],
+          [
+            184.37673130193906,
+            338.61495844875344
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3539,
+      "row": {
+        "id": 3539,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_377/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the bottle",
+        "trajectory": [
+          [
+            338.61495844875344,
+            241.1080332409972
+          ],
+          [
+            239.33518005540165,
+            290.74792243767314
+          ],
+          [
+            228.69806094182823,
+            326.20498614958444
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3540,
+      "row": {
+        "id": 3540,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_382/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left side of the table",
+        "trajectory": [
+          [
+            347.4792243767313,
+            235.7894736842105
+          ],
+          [
+            205.65096952908584,
+            283.6565096952909
+          ],
+          [
+            147.14681440443212,
+            340.3878116343491
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3541,
+      "row": {
+        "id": 3541,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_383/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the item in the first container",
+        "trajectory": [
+          [
+            349.25207756232686,
+            239.33518005540168
+          ],
+          [
+            239.33518005540165,
+            257.0637119113573
+          ],
+          [
+            221.606648199446,
+            281.8836565096953
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3542,
+      "row": {
+        "id": 3542,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_393/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            377.61772853185596,
+            171.9667590027701
+          ],
+          [
+            342.1606648199446,
+            198.55955678670358
+          ],
+          [
+            329.7506925207756,
+            228.69806094182826
+          ],
+          [
+            354.5706371191136,
+            221.60664819944594
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3543,
+      "row": {
+        "id": 3543,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_393/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            273.0193905817174,
+            253.5180055401662
+          ],
+          [
+            179.05817174515235,
+            273.01939058171746
+          ],
+          [
+            109.91689750692521,
+            306.70360110803324
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3544,
+      "row": {
+        "id": 3544,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_397/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "approach the cloth",
+        "trajectory": [
+          [
+            347.4792243767313,
+            164.8753462603878
+          ],
+          [
+            329.7506925207756,
+            209.19667590027703
+          ],
+          [
+            356.3434903047092,
+            234.01662049861497
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3545,
+      "row": {
+        "id": 3545,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_397/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left",
+        "trajectory": [
+          [
+            290.74792243767314,
+            249.97229916897507
+          ],
+          [
+            171.9667590027701,
+            278.33795013850414
+          ],
+          [
+            109.91689750692521,
+            312.02216066482
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3546,
+      "row": {
+        "id": 3546,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_402/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the brown cup",
+        "trajectory": [
+          [
+            354.5706371191136,
+            219.83379501385042
+          ],
+          [
+            312.02216066482,
+            258.8365650969529
+          ],
+          [
+            292.5207756232687,
+            280.1108033240997
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3547,
+      "row": {
+        "id": 3547,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_411/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            356.3434903047092,
+            203.87811634349032
+          ],
+          [
+            296.0664819944599,
+            219.83379501385042
+          ],
+          [
+            285.42936288088646,
+            264.15512465373956
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3548,
+      "row": {
+        "id": 3548,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_418/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the object in the first container",
+        "trajectory": [
+          [
+            345.7063711911357,
+            246.4265927977839
+          ],
+          [
+            303.1578947368421,
+            230.4709141274238
+          ],
+          [
+            281.8836565096953,
+            242.8808864265928
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3549,
+      "row": {
+        "id": 3549,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_423/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the object in the first container",
+        "trajectory": [
+          [
+            372.65757620858136,
+            223.89016659534875
+          ],
+          [
+            289.597035586818,
+            245.9062135071415
+          ],
+          [
+            261.5766122445363,
+            259.9164251782824
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3550,
+      "row": {
+        "id": 3550,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_427/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            294.29362880886424,
+            244.65373961218836
+          ],
+          [
+            269.4736842105263,
+            297.8393351800554
+          ],
+          [
+            175.5124653739612,
+            315.5678670360111
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3551,
+      "row": {
+        "id": 3551,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_430/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            340.3878116343491,
+            244.65373961218836
+          ],
+          [
+            239.33518005540165,
+            312.02216066482
+          ],
+          [
+            226.9252077562327,
+            359.8891966759002
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3552,
+      "row": {
+        "id": 3552,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_434/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the item in the first container",
+        "trajectory": [
+          [
+            352.797783933518,
+            228.69806094182826
+          ],
+          [
+            297.8393351800554,
+            242.8808864265928
+          ],
+          [
+            255.29085872576178,
+            273.01939058171746
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3553,
+      "row": {
+        "id": 3553,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_436/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            331.52354570637124,
+            198.55955678670358
+          ],
+          [
+            354.5706371191136,
+            216.2880886426593
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3554,
+      "row": {
+        "id": 3554,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_440/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            343.9335180055402,
+            225.15235457063716
+          ],
+          [
+            278.33795013850414,
+            207.42382271468142
+          ],
+          [
+            235.7894736842105,
+            228.69806094182826
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3555,
+      "row": {
+        "id": 3555,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_441/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            342.1606648199446,
+            219.83379501385042
+          ],
+          [
+            352.797783933518,
+            255.29085872576178
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3556,
+      "row": {
+        "id": 3556,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_443/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            345.7063711911357,
+            251.74515235457065
+          ],
+          [
+            267.7008310249308,
+            248.1994459833795
+          ],
+          [
+            195.01385041551245,
+            290.74792243767314
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3557,
+      "row": {
+        "id": 3557,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_449/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lift the pot",
+        "trajectory": [
+          [
+            336.84210526315786,
+            234.01662049861497
+          ],
+          [
+            249.97229916897504,
+            230.4709141274238
+          ],
+          [
+            166.6481994459834,
+            273.01939058171746
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3558,
+      "row": {
+        "id": 3558,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_449/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the pot towards the bottle",
+        "trajectory": [
+          [
+            161.32963988919667,
+            265.9279778393352
+          ],
+          [
+            221.606648199446,
+            239.33518005540168
+          ],
+          [
+            280.11080332409966,
+            257.0637119113573
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3559,
+      "row": {
+        "id": 3559,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_460/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "sweep the cloth across the table to the left",
+        "trajectory": [
+          [
+            299.612188365651,
+            283.6565096952909
+          ],
+          [
+            239.33518005540165,
+            280.1108033240997
+          ],
+          [
+            180.83102493074796,
+            354.5706371191136
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3560,
+      "row": {
+        "id": 3560,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_463/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            276.56509695290856,
+            267.7008310249308
+          ],
+          [
+            182.60387811634348,
+            285.4293628808864
+          ],
+          [
+            145.37396121883657,
+            326.20498614958444
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3561,
+      "row": {
+        "id": 3561,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_468/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            352.797783933518,
+            212.74238227146813
+          ],
+          [
+            315.5678670360111,
+            195.0138504155125
+          ],
+          [
+            303.1578947368421,
+            218.06094182825484
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3562,
+      "row": {
+        "id": 3562,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_470/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the object in the first container",
+        "trajectory": [
+          [
+            351.0249307479224,
+            232.2437673130194
+          ],
+          [
+            297.8393351800554,
+            235.7894736842105
+          ],
+          [
+            235.7894736842105,
+            276.5650969529086
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3563,
+      "row": {
+        "id": 3563,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_471/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "pick up the bottle",
+        "trajectory": [
+          [
+            345.7063711911357,
+            223.37950138504158
+          ],
+          [
+            342.1606648199446,
+            198.55955678670358
+          ],
+          [
+            296.0664819944599,
+            198.55955678670358
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3564,
+      "row": {
+        "id": 3564,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_471/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the bottle towards the pot",
+        "trajectory": [
+          [
+            297.8393351800554,
+            212.74238227146813
+          ],
+          [
+            264.1551246537396,
+            234.01662049861497
+          ],
+          [
+            276.56509695290856,
+            262.38227146814404
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3565,
+      "row": {
+        "id": 3565,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_475/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left",
+        "trajectory": [
+          [
+            326.2049861495845,
+            296.0664819944598
+          ],
+          [
+            248.19944598337952,
+            304.9307479224377
+          ],
+          [
+            184.37673130193906,
+            388.2548476454294
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3566,
+      "row": {
+        "id": 3566,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_478/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            343.9335180055402,
+            257.0637119113573
+          ],
+          [
+            306.70360110803324,
+            232.2437673130194
+          ],
+          [
+            274.79224376731304,
+            216.2880886426593
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3567,
+      "row": {
+        "id": 3567,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_479/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "sweep the cloth across the table to the left",
+        "trajectory": [
+          [
+            329.7506925207756,
+            274.79224376731304
+          ],
+          [
+            257.06371191135736,
+            281.8836565096953
+          ],
+          [
+            203.87811634349032,
+            361.6620498614959
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3568,
+      "row": {
+        "id": 3568,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_483/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the tiger towards the grey bowl",
+        "trajectory": [
+          [
+            317.3407202216066,
+            230.4709141274238
+          ],
+          [
+            253.5180055401662,
+            273.01939058171746
+          ],
+          [
+            249.97229916897504,
+            313.7950138504155
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3569,
+      "row": {
+        "id": 3569,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_487/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            356.3434903047092,
+            230.4709141274238
+          ],
+          [
+            320.88642659279776,
+            225.15235457063716
+          ],
+          [
+            315.5678670360111,
+            258.8365650969529
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3570,
+      "row": {
+        "id": 3570,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_487/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left",
+        "trajectory": [
+          [
+            246.42659279778388,
+            303.1578947368421
+          ],
+          [
+            184.37673130193906,
+            296.0664819944598
+          ],
+          [
+            143.601108033241,
+            349.25207756232686
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3571,
+      "row": {
+        "id": 3571,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_488/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            363.43490304709144,
+            198.55955678670358
+          ],
+          [
+            413.0747922437674,
+            216.2880886426593
+          ],
+          [
+            418.39335180055406,
+            248.1994459833795
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3572,
+      "row": {
+        "id": 3572,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_490/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left side of the table",
+        "trajectory": [
+          [
+            327.97783933518,
+            258.8365650969529
+          ],
+          [
+            242.88088642659278,
+            257.0637119113573
+          ],
+          [
+            168.42105263157893,
+            317.34072022160666
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3573,
+      "row": {
+        "id": 3573,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_492/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "grip the cloth",
+        "trajectory": [
+          [
+            402.43767313019384,
+            212.74238227146813
+          ],
+          [
+            377.61772853185596,
+            223.37950138504158
+          ],
+          [
+            363.43490304709144,
+            255.29085872576178
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3574,
+      "row": {
+        "id": 3574,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_492/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth towards the left edge of the table",
+        "trajectory": [
+          [
+            267.7008310249308,
+            304.9307479224377
+          ],
+          [
+            189.69529085872574,
+            301.38504155124656
+          ],
+          [
+            154.23822714681444,
+            345.70637119113576
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3575,
+      "row": {
+        "id": 3575,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_498/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            345.7063711911357,
+            228.69806094182826
+          ],
+          [
+            262.38227146814404,
+            320.8864265927977
+          ],
+          [
+            234.01662049861497,
+            356.3434903047092
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3576,
+      "row": {
+        "id": 3576,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_503/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "place the bottle into the pot",
+        "trajectory": [
+          [
+            336.84210526315786,
+            187.9224376731302
+          ],
+          [
+            290.74792243767314,
+            198.55955678670358
+          ],
+          [
+            288.9750692520776,
+            257.0637119113573
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3577,
+      "row": {
+        "id": 3577,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_506/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            356.3434903047092,
+            244.65373961218836
+          ],
+          [
+            187.9224376731302,
+            239.33518005540168
+          ],
+          [
+            117.00831024930748,
+            244.65373961218836
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3578,
+      "row": {
+        "id": 3578,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_510/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the item in the first container",
+        "trajectory": [
+          [
+            349.25207756232686,
+            219.83379501385042
+          ],
+          [
+            269.4736842105263,
+            218.06094182825484
+          ],
+          [
+            198.55955678670358,
+            248.1994459833795
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3579,
+      "row": {
+        "id": 3579,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_516/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            333.2963988919668,
+            170.19390581717454
+          ],
+          [
+            303.1578947368421,
+            225.15235457063716
+          ],
+          [
+            345.7063711911357,
+            221.60664819944594
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3580,
+      "row": {
+        "id": 3580,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_524/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left",
+        "trajectory": [
+          [
+            312.02216066482,
+            267.7008310249308
+          ],
+          [
+            207.42382271468145,
+            304.9307479224377
+          ],
+          [
+            186.14958448753464,
+            359.8891966759002
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3581,
+      "row": {
+        "id": 3581,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_532/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            310.2493074792244,
+            198.55955678670358
+          ],
+          [
+            315.5678670360111,
+            244.65373961218836
+          ],
+          [
+            359.8891966759002,
+            242.8808864265928
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3582,
+      "row": {
+        "id": 3582,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_532/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left",
+        "trajectory": [
+          [
+            265.92797783933514,
+            285.4293628808864
+          ],
+          [
+            198.55955678670358,
+            313.7950138504155
+          ],
+          [
+            184.37673130193906,
+            335.06925207756234
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3583,
+      "row": {
+        "id": 3583,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_541/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the brown cup",
+        "trajectory": [
+          [
+            345.7063711911357,
+            232.2437673130194
+          ],
+          [
+            296.0664819944599,
+            281.8836565096953
+          ],
+          [
+            294.29362880886424,
+            308.47645429362876
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3584,
+      "row": {
+        "id": 3584,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_543/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            340.3878116343491,
+            253.5180055401662
+          ],
+          [
+            218.06094182825487,
+            301.38504155124656
+          ],
+          [
+            168.42105263157893,
+            365.20775623268696
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3585,
+      "row": {
+        "id": 3585,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_547/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the item in the first container",
+        "trajectory": [
+          [
+            347.4792243767313,
+            241.1080332409972
+          ],
+          [
+            248.19944598337952,
+            235.7894736842105
+          ],
+          [
+            187.9224376731302,
+            251.74515235457065
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3586,
+      "row": {
+        "id": 3586,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_551/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the item in the first container",
+        "trajectory": [
+          [
+            351.0249307479224,
+            223.37950138504158
+          ],
+          [
+            257.06371191135736,
+            280.1108033240997
+          ],
+          [
+            189.69529085872574,
+            329.7506925207756
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3587,
+      "row": {
+        "id": 3587,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_555/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "pick up the cloth",
+        "trajectory": [
+          [
+            386.4819944598338,
+            195.0138504155125
+          ],
+          [
+            342.1606648199446,
+            200.33240997229916
+          ],
+          [
+            338.61495844875344,
+            214.5152354570637
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3588,
+      "row": {
+        "id": 3588,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_555/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            287.202216066482,
+            271.2465373961219
+          ],
+          [
+            212.74238227146816,
+            287.202216066482
+          ],
+          [
+            164.8753462603878,
+            317.34072022160666
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3589,
+      "row": {
+        "id": 3589,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_560/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the item in the first container",
+        "trajectory": [
+          [
+            349.3476746944834,
+            245.18332233069032
+          ],
+          [
+            331.37404005154195,
+            213.85784481013553
+          ],
+          [
+            308.2650812249032,
+            203.58719644274052
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3590,
+      "row": {
+        "id": 3590,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_565/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            345.7063711911357,
+            210.9695290858726
+          ],
+          [
+            294.29362880886424,
+            219.83379501385042
+          ],
+          [
+            283.6565096952908,
+            249.97229916897507
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3591,
+      "row": {
+        "id": 3591,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_566/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the marker",
+        "trajectory": [
+          [
+            329.7506925207756,
+            241.1080332409972
+          ],
+          [
+            249.97229916897504,
+            237.5623268698061
+          ],
+          [
+            205.65096952908584,
+            253.5180055401662
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3592,
+      "row": {
+        "id": 3592,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_566/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the bowl",
+        "trajectory": [
+          [
+            225.15235457063716,
+            239.33518005540168
+          ],
+          [
+            255.29085872576178,
+            219.83379501385042
+          ],
+          [
+            288.9750692520776,
+            210.9695290858726
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3593,
+      "row": {
+        "id": 3593,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_571/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "approach the cloth",
+        "trajectory": [
+          [
+            381.1634349030471,
+            310.2493074792244
+          ],
+          [
+            324.432132963989,
+            265.9279778393352
+          ],
+          [
+            347.4792243767313,
+            226.92520775623268
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3594,
+      "row": {
+        "id": 3594,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_571/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left",
+        "trajectory": [
+          [
+            315.5678670360111,
+            230.4709141274238
+          ],
+          [
+            221.606648199446,
+            257.0637119113573
+          ],
+          [
+            163.10249307479225,
+            294.2936288088643
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3595,
+      "row": {
+        "id": 3595,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_579/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            349.25207756232686,
+            205.6509695290859
+          ],
+          [
+            306.70360110803324,
+            214.5152354570637
+          ],
+          [
+            292.5207756232687,
+            239.33518005540168
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3596,
+      "row": {
+        "id": 3596,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_585/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            354.5706371191136,
+            207.42382271468142
+          ],
+          [
+            315.5678670360111,
+            218.06094182825484
+          ],
+          [
+            285.42936288088646,
+            198.55955678670358
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3597,
+      "row": {
+        "id": 3597,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_605/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the bottle",
+        "trajectory": [
+          [
+            340.3878116343491,
+            244.65373961218836
+          ],
+          [
+            230.4709141274238,
+            306.70360110803324
+          ],
+          [
+            193.2409972299169,
+            358.1163434903047
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3598,
+      "row": {
+        "id": 3598,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_606/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            319.11357340720224,
+            241.1080332409972
+          ],
+          [
+            257.06371191135736,
+            242.8808864265928
+          ],
+          [
+            244.65373961218836,
+            218.06094182825484
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3599,
+      "row": {
+        "id": 3599,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_614/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            338.61495844875344,
+            264.15512465373956
+          ],
+          [
+            218.06094182825487,
+            312.02216066482
+          ],
+          [
+            205.65096952908584,
+            381.163434903047
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3600,
+      "row": {
+        "id": 3600,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_615/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach towards the blue cup",
+        "trajectory": [
+          [
+            374.0720221606648,
+            264.15512465373956
+          ],
+          [
+            273.0193905817174,
+            257.0637119113573
+          ],
+          [
+            239.33518005540165,
+            281.8836565096953
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3601,
+      "row": {
+        "id": 3601,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_617/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "approach the cloth",
+        "trajectory": [
+          [
+            326.2049861495845,
+            200.33240997229916
+          ],
+          [
+            290.74792243767314,
+            244.65373961218836
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3602,
+      "row": {
+        "id": 3602,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_620/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            407.75623268698064,
+            171.9667590027701
+          ],
+          [
+            349.25207756232686,
+            200.33240997229916
+          ],
+          [
+            351.0249307479224,
+            232.2437673130194
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3603,
+      "row": {
+        "id": 3603,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_620/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left edge of the table",
+        "trajectory": [
+          [
+            290.74792243767314,
+            267.7008310249308
+          ],
+          [
+            189.69529085872574,
+            281.8836565096953
+          ],
+          [
+            157.78393351800554,
+            317.34072022160666
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3604,
+      "row": {
+        "id": 3604,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_623/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the bottle towards the pot",
+        "trajectory": [
+          [
+            354.5706371191136,
+            225.15235457063716
+          ],
+          [
+            292.5207756232687,
+            219.83379501385042
+          ],
+          [
+            283.6565096952908,
+            264.15512465373956
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3605,
+      "row": {
+        "id": 3605,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_625/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the item in the first container",
+        "trajectory": [
+          [
+            347.8499085585852,
+            246.26542432636626
+          ],
+          [
+            252.0801044922867,
+            269.3822735837486
+          ],
+          [
+            245.47529041874884,
+            313.4143674073341
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3606,
+      "row": {
+        "id": 3606,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_627/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            352.797783933518,
+            179.05817174515235
+          ],
+          [
+            322.65927977839334,
+            205.6509695290859
+          ],
+          [
+            347.4792243767313,
+            226.92520775623268
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3607,
+      "row": {
+        "id": 3607,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_630/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lower towards the bottle",
+        "trajectory": [
+          [
+            347.4792243767313,
+            249.97229916897507
+          ],
+          [
+            258.8365650969529,
+            296.0664819944598
+          ],
+          [
+            218.06094182825487,
+            338.61495844875344
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3608,
+      "row": {
+        "id": 3608,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_637/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            342.1606648199446,
+            251.74515235457065
+          ],
+          [
+            264.1551246537396,
+            299.612188365651
+          ],
+          [
+            242.88088642659278,
+            345.70637119113576
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3609,
+      "row": {
+        "id": 3609,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_641/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the object over the second container",
+        "trajectory": [
+          [
+            276.56509695290856,
+            209.19667590027703
+          ],
+          [
+            207.42382271468145,
+            216.2880886426593
+          ],
+          [
+            218.06094182825487,
+            264.15512465373956
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3610,
+      "row": {
+        "id": 3610,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_657/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            338.61495844875344,
+            244.65373961218836
+          ],
+          [
+            223.37950138504158,
+            315.5678670360111
+          ],
+          [
+            170.19390581717454,
+            354.5706371191136
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3611,
+      "row": {
+        "id": 3611,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_660/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            273.0193905817174,
+            235.7894736842105
+          ],
+          [
+            203.87811634349032,
+            269.4736842105263
+          ],
+          [
+            156.01108033241,
+            301.38504155124656
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3612,
+      "row": {
+        "id": 3612,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_667/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the item in the first container",
+        "trajectory": [
+          [
+            349.9098799651845,
+            246.64292280029582
+          ],
+          [
+            264.847880533258,
+            256.6502168511107
+          ],
+          [
+            169.7785870505166,
+            304.68522829502217
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3613,
+      "row": {
+        "id": 3613,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_669/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            262.38227146814404,
+            242.8808864265928
+          ],
+          [
+            180.83102493074796,
+            278.33795013850414
+          ],
+          [
+            141.8282548476454,
+            306.70360110803324
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3614,
+      "row": {
+        "id": 3614,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_709/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            374.0720221606648,
+            195.0138504155125
+          ],
+          [
+            294.29362880886424,
+            210.9695290858726
+          ],
+          [
+            255.29085872576178,
+            228.69806094182826
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3615,
+      "row": {
+        "id": 3615,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_709/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "stack the blue cup in the brown cup",
+        "trajectory": [
+          [
+            221.606648199446,
+            171.9667590027701
+          ],
+          [
+            299.612188365651,
+            209.19667590027703
+          ],
+          [
+            297.8393351800554,
+            257.0637119113573
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3616,
+      "row": {
+        "id": 3616,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_721/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the object in the first container",
+        "trajectory": [
+          [
+            347.4233036175753,
+            245.232676583969
+          ],
+          [
+            227.33577500779668,
+            276.25528814149516
+          ],
+          [
+            170.2941989181519,
+            297.2706056482064
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3617,
+      "row": {
+        "id": 3617,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_726/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the item towards the second container",
+        "trajectory": [
+          [
+            315.5678670360111,
+            246.4265927977839
+          ],
+          [
+            248.19944598337952,
+            244.65373961218836
+          ],
+          [
+            228.69806094182823,
+            315.5678670360111
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3618,
+      "row": {
+        "id": 3618,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_730/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the object in the first container",
+        "trajectory": [
+          [
+            350.5833280151651,
+            242.20796335805525
+          ],
+          [
+            297.9529310537044,
+            221.9076673872061
+          ],
+          [
+            231.78900344501096,
+            236.94492366190917
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3619,
+      "row": {
+        "id": 3619,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_733/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the blue cup towards the brown cup",
+        "trajectory": [
+          [
+            281.8836565096953,
+            202.10526315789474
+          ],
+          [
+            271.2465373961219,
+            251.74515235457065
+          ],
+          [
+            313.7950138504155,
+            253.5180055401662
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3620,
+      "row": {
+        "id": 3620,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_735/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the item in the first container",
+        "trajectory": [
+          [
+            348.1454839708583,
+            245.19452949030958
+          ],
+          [
+            321.679912927381,
+            246.8486276805269
+          ],
+          [
+            297.69548916922963,
+            248.50272587074426
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3621,
+      "row": {
+        "id": 3621,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_737/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the cloth to the left",
+        "trajectory": [
+          [
+            271.2465373961219,
+            292.52077562326866
+          ],
+          [
+            189.69529085872574,
+            308.47645429362876
+          ],
+          [
+            170.19390581717454,
+            365.20775623268696
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3622,
+      "row": {
+        "id": 3622,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_738/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the cloth",
+        "trajectory": [
+          [
+            338.61495844875344,
+            168.42105263157893
+          ],
+          [
+            331.52354570637124,
+            219.83379501385042
+          ],
+          [
+            366.98060941828254,
+            232.2437673130194
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3623,
+      "row": {
+        "id": 3623,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_738/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            281.8836565096953,
+            249.97229916897507
+          ],
+          [
+            189.69529085872574,
+            271.2465373961219
+          ],
+          [
+            134.73684210526315,
+            335.06925207756234
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3624,
+      "row": {
+        "id": 3624,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_739/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "release the bottle into the pot",
+        "trajectory": [
+          [
+            345.7063711911357,
+            179.05817174515235
+          ],
+          [
+            290.74792243767314,
+            214.5152354570637
+          ],
+          [
+            280.11080332409966,
+            262.38227146814404
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3625,
+      "row": {
+        "id": 3625,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_772/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lift the pot",
+        "trajectory": [
+          [
+            343.9335180055402,
+            237.5623268698061
+          ],
+          [
+            218.06094182825487,
+            301.38504155124656
+          ],
+          [
+            156.01108033241,
+            347.4792243767313
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3626,
+      "row": {
+        "id": 3626,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_774/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            333.2963988919668,
+            203.87811634349032
+          ],
+          [
+            317.3407202216066,
+            260.6094182825485
+          ],
+          [
+            340.3878116343491,
+            271.2465373961219
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3627,
+      "row": {
+        "id": 3627,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_780/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            304.9307479224377,
+            269.4736842105263
+          ],
+          [
+            223.37950138504158,
+            288.9750692520776
+          ],
+          [
+            163.10249307479225,
+            326.20498614958444
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3628,
+      "row": {
+        "id": 3628,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_787/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the item in the first container",
+        "trajectory": [
+          [
+            347.8142755866584,
+            236.10950995014372
+          ],
+          [
+            284.8483814189312,
+            240.9530402707382
+          ],
+          [
+            233.99131305268995,
+            274.857752514899
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3629,
+      "row": {
+        "id": 3629,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_793/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move towards the blue cup",
+        "trajectory": [
+          [
+            310.2493074792244,
+            223.37950138504158
+          ],
+          [
+            226.9252077562327,
+            223.37950138504158
+          ],
+          [
+            173.73961218836564,
+            246.4265927977839
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3630,
+      "row": {
+        "id": 3630,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_802/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "approach the cloth",
+        "trajectory": [
+          [
+            413.0747922437674,
+            255.29085872576178
+          ],
+          [
+            336.84210526315786,
+            287.202216066482
+          ],
+          [
+            336.84210526315786,
+            244.65373961218836
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3631,
+      "row": {
+        "id": 3631,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_812/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            342.1606648199446,
+            258.8365650969529
+          ],
+          [
+            273.0193905817174,
+            239.33518005540168
+          ],
+          [
+            265.92797783933514,
+            195.0138504155125
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3632,
+      "row": {
+        "id": 3632,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_823/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lower the pot",
+        "trajectory": [
+          [
+            343.9335180055402,
+            241.1080332409972
+          ],
+          [
+            223.37950138504158,
+            292.52077562326866
+          ],
+          [
+            168.42105263157893,
+            347.4792243767313
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3633,
+      "row": {
+        "id": 3633,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_826/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "move the object over the second container",
+        "trajectory": [
+          [
+            335.0692520775623,
+            193.24099722991687
+          ],
+          [
+            292.5207756232687,
+            255.29085872576178
+          ],
+          [
+            246.42659279778388,
+            258.8365650969529
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3634,
+      "row": {
+        "id": 3634,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_867/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            343.9335180055402,
+            219.83379501385042
+          ],
+          [
+            260.6094182825485,
+            228.69806094182826
+          ],
+          [
+            232.24376731301933,
+            207.42382271468142
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3635,
+      "row": {
+        "id": 3635,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_873/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "sweep the cloth to the left",
+        "trajectory": [
+          [
+            313.7950138504155,
+            244.65373961218836
+          ],
+          [
+            226.9252077562327,
+            264.15512465373956
+          ],
+          [
+            187.9224376731302,
+            310.2493074792244
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3636,
+      "row": {
+        "id": 3636,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_879/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the bottle",
+        "trajectory": [
+          [
+            340.3878116343491,
+            226.92520775623268
+          ],
+          [
+            216.2880886426593,
+            271.2465373961219
+          ],
+          [
+            182.60387811634348,
+            312.02216066482
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3637,
+      "row": {
+        "id": 3637,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_881/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "reach for the blue cup",
+        "trajectory": [
+          [
+            379.3905817174515,
+            219.83379501385042
+          ],
+          [
+            313.7950138504155,
+            214.5152354570637
+          ],
+          [
+            264.1551246537396,
+            234.01662049861497
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3638,
+      "row": {
+        "id": 3638,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_885/frame_15.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "drag the cloth to the left side of the table",
+        "trajectory": [
+          [
+            274.79224376731304,
+            288.9750692520776
+          ],
+          [
+            202.10526315789474,
+            301.38504155124656
+          ],
+          [
+            186.14958448753464,
+            349.25207756232686
+          ]
+        ]
+      }
+    },
+    {
+      "row_index": 3639,
+      "row": {
+        "id": 3639,
+        "image_path": "rtx_frames_success_20/43_berkeley_autolab_ur5#episode_891/frame_0.png",
+        "meta_data": {
+          "original_dataset": "berkeley_autolab_ur5",
+          "original_width": 640,
+          "original_height": 480
+        },
+        "instruction": "lower towards the bottle",
+        "trajectory": [
+          [
+            342.1606648199446,
+            237.5623268698061
+          ],
+          [
+            244.65373961218836,
+            306.70360110803324
+          ],
+          [
+            223.37950138504158,
+            359.8891966759002
+          ]
+        ]
+      }
+    }
+  ]
+}

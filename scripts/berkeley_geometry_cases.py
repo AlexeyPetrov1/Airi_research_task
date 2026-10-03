@@ -1,0 +1,130 @@
+"""Observed-only controlled geometry cases with frozen Berkeley point identities.
+
+CASE-AUGE isolates ray calibration; native depth and author-smoothed Z stay fixed.
+CASE-NOK estimates rays from genuine MoGe-2 RGB inference with fov_x=None,
+then uses those rays with the same measured sensor Z. No K/FOV is supplied.
+DELTA default calibration is audited separately, since it hardcodes f=W.
+"""
+from __future__ import annotations
+import argparse
+import hashlib
+import json
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import numpy as np
+
+ROOT=Path(__file__).resolve().parents[1]
+BASE=ROOT/'runs/berkeley_ur5_molmomotion'
+OUT=ROOT/'runs/berkeley_ur5_improvement_v1'
+
+
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+def write(p,obj):
+    p.parent.mkdir(parents=True,exist_ok=True)
+    p.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+
+
+def prepare(name,case,K,receipt):
+    import torch
+    from berkeley_input_audit import audit
+    src=BASE/name; dst=OUT/case/name
+    if (dst/'geometry/case_provenance.json').exists():
+        raise FileExistsError(f'Prepared case already exists: {dst}')
+    dst.mkdir(parents=True,exist_ok=True)
+    for folder in ('observed','geometry','groups'):
+        shutil.copytree(src/folder,dst/folder,dirs_exist_ok=True)
+    shutil.copy2(src/'metadata.json',dst/'metadata.json')
+    (dst/'viz').mkdir(exist_ok=True)
+    oldK=np.load(src/'geometry/K_median.npy')
+    change=np.linalg.inv(K)@oldK
+    for filename in ('points_3d_raw.npy','points_3d_filtered.npy'):
+        values=np.load(src/'geometry'/filename)
+        new=(values@change.T).astype(np.float32)
+        if not np.allclose(new[...,2],values[...,2],atol=1e-7,equal_nan=True):
+            raise ValueError('Measured/smoothed sensor Z changed')
+        np.save(dst/'geometry'/filename,new)
+    filtered=np.load(dst/'geometry/points_3d_filtered.npy')
+    ids=np.load(src/'observed/selected_point_ids.npy')
+    hist=filtered[-3:,ids]
+    np.save(dst/'observed/points_3d_history.npy',hist)
+    np.save(dst/'geometry/K_median.npy',K.astype(np.float32))
+    np.save(dst/'geometry/K_per_frame.npy',np.repeat(K[None],len(filtered),axis=0).astype(np.float32))
+    for i in range(3):
+        group=dst/f'groups/group_{i:02d}'
+        values=hist[:,i*8:(i+1)*8]
+        np.save(group/'points_3d_history.npy',values)
+        torch.save(torch.from_numpy(values),group/'points_3d_history.pt')
+    meta=json.loads((dst/'metadata.json').read_text())
+    meta['K_source']=receipt['K_source'];meta['geometry_case']=case
+    meta['warnings']=list(meta.get('warnings',[]))+[receipt['limitation']]
+    write(dst/'metadata.json',meta)
+    depth=json.loads((dst/'geometry/depth_source.json').read_text())
+    depth['K_source']=receipt['K_source'];write(dst/'geometry/depth_source.json',depth)
+    provenance=dict(**receipt,K=K.tolist(),future_used=False,
+        baseline='../../../../berkeley_ur5_molmomotion',selected_point_ids=ids.tolist(),
+        only_ray_basis_changed=True,author_filter_not_reexecuted=True,
+        observed_sensor_depth_sha256=sha(dst/'observed/native_depth.npy'),
+        unchanged=['RGB','mask','2D tracks','all 24 point IDs','sensor depth','smoothed Z','camera poses','instruction'])
+    # Stale UniDepth estimates are retained only as historical source evidence.
+    audit(dst)
+    write(dst/'geometry/case_provenance.json',provenance)
+    print(json.dumps(dict(scene=name,case=case,success=True,K=K.tolist())),flush=True)
+
+
+def main():
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--case',choices=['CASE-AUGE','CASE-NOK','CASE-H1'],required=True)
+    p.add_argument('--scenes',nargs='+',default=['cup'],choices=['cup','bottle']);a=p.parse_args()
+    if a.case=='CASE-AUGE':
+        config=OUT/'sources/auge_config.py'
+        # Parse the source as text; do not execute third-party configuration.
+        text=config.read_text(); start=text.index('"berkeley_autolab_ur5":'); part=text[start:start+1500]
+        import re
+        fov=float(re.search(r'"camera_fov":\s*([0-9.]+)',part).group(1))
+        focal=480/2/np.tan(np.radians(fov)/2)
+        K=np.array([[focal,0,320],[0,focal,240],[0,0,1]],float)
+        receipt=dict(K_source='OXE-AugE Berkeley tuned simulation vertical FOV; centered pinhole derived at 640x480',
+            fov_y_deg=fov,formula='f=H/(2*tan(fovy/2)), cx=W/2, cy=H/2',
+            source_commit='0added8b6645fef1c7de2ad5d5bd7e9c1bde0d2e',source_config_sha256=sha(config),
+            limitation='AugE tuned simulation camera is a candidate prior, not measured sensor calibration.')
+        for n in a.scenes:prepare(n,a.case,K,receipt)
+    elif a.case=='CASE-H1':
+        for n in a.scenes:
+            K=np.load(BASE/n/'geometry/K_median.npy').astype(float)
+            prepare(n,a.case,K,dict(K_source='Same frozen BASELINE-U UniDepth intrinsics',
+                limitation='H1 changes both history conditioning and checkpoint; it is a control, not a causal isolation of FPS.'))
+    else:
+        import torch
+        sys.path.insert(0,str(ROOT.parent/'third_party/MoGe'))
+        from moge.model.v2 import MoGeModel
+        modelpath=ROOT.parent/'models/moge-2-vitl/model.pt'
+        expected='3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5'
+        if sha(modelpath)!=expected:raise ValueError('Unexpected MoGe-2 checkpoint')
+        model=MoGeModel.from_pretrained(modelpath).cuda().eval()
+        for n in a.scenes:
+            rgb=np.load(BASE/n/'observed/rgb.npy')
+            matrices=[];depths=[]
+            started=__import__('time').monotonic()
+            for index,frame in enumerate(rgb):
+                tensor=torch.from_numpy(frame.copy()).permute(2,0,1).cuda().float()/255
+                with torch.inference_mode():
+                    output=model.infer(tensor,num_tokens=1200,use_fp16=True,apply_mask=False,fov_x=None)
+                K=output['intrinsics'].float().cpu().numpy()
+                K[0]*=640;K[1]*=480
+                matrices.append(K);depths.append(output['depth'].float().cpu().numpy())
+                print('MoGe no supplied FOV',n,index,float(K[0,0]),flush=True)
+            K=np.median(np.stack(matrices),axis=0)
+            receipt=dict(K_source='MoGe-2 independently inferred camera rays from observed RGB; no supplied K or FOV',
+                supplied_intrinsics=None,supplied_fov=None,checkpoint_sha256=expected,
+                source_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT.parent/'third_party/MoGe',text=True).strip(),
+                model_calls=len(rgb),runtime_s=__import__('time').monotonic()-started,
+                limitation='Learned focal estimate from RGB; sensor metric Z retained. Independent geometry, not calibration ground truth.')
+            prepare(n,a.case,K,receipt)
+            np.savez_compressed(OUT/a.case/n/'geometry/moge_observed_outputs.npz',
+                intrinsics_per_frame=np.stack(matrices),model_depth=np.stack(depths))
+
+
+if __name__=='__main__':main()

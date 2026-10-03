@@ -1,0 +1,24 @@
+{
+  "depth_source": "RealSense measured aligned metric depth",
+  "geometry_source": "measured-depth_estimated-intrinsics",
+  "K_source": "OXE-AugE Berkeley tuned simulation vertical FOV; centered pinhole derived at 640x480",
+  "checkpoint": "/mnt/f/AIRI_task/models/unidepth-v2-vits14",
+  "source_indices": [
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "future_used": false,
+  "depth_patch_window_px": 5,
+  "runtime_seconds": 3.9086719910001193,
+  "peak_gpu_memory_gib": 0.39598608016967773,
+  "native_depth_used": true,
+  "no_metric_scale_fit": true,
+  "checkpoint_sha256": "93705cb3295dd7476b44911b8a55f5215bf74e8d5eccd27cecdb1b338270a648",
+  "checkpoint_revision": "038c238f06c87b6c2f5b3749fd51fbf442b1f218"
+}
