@@ -23171,16 +23171,129 @@
           "bytes": 1073741824,
           "sha256": "b28b25900a9b8fac11773d548b16b10aa705a8b55b509dd648d415e2b00e8a53",
           "id": 607814695
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part002",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part002",
+          "bytes": 1073741824,
+          "sha256": "366161028ffa903c41e0ab140ea941ed31aef0766d88142de1ab949170edcbf8",
+          "id": 607825941
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part003",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part003",
+          "bytes": 1073741824,
+          "sha256": "36e24045ee6bd9db883f53430a47c5ce05a3720bf75974b529cb6839f2683a0c",
+          "id": 607830747
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part004",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part004",
+          "bytes": 1073741824,
+          "sha256": "ff850ee215c1434ee7b88bfd12e72719f4c2f0eec4f78ed0884def9944b95f29",
+          "id": 607830855
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part005",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part005",
+          "bytes": 1073741824,
+          "sha256": "1a5b552ced51ac0f844b2af9bf0287c3064b4076b426df93def07108cb6e635c",
+          "id": 607841165
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part006",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part006",
+          "bytes": 1073741824,
+          "sha256": "9d98f98cce2b10152c0fedfb2fa28c27fd1bf3321269fbeac2fdd70819604f72",
+          "id": 607842203
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part007",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part007",
+          "bytes": 1073741824,
+          "sha256": "128e50cefeaf9597f60fd43e9d640417c45c78a7a26075d5fb5b94b27ce310f3",
+          "id": 607843023
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part008",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part008",
+          "bytes": 1073741824,
+          "sha256": "3bfe0e2f3a69c6be393b4702204937b6224da8c72c28aab4103f4607e89c6f47",
+          "id": 607858077
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part009",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part009",
+          "bytes": 1073741824,
+          "sha256": "338c02fae5e9e83e95e653c34e3374338ab2c029b3a0020551fbf2ab0c048fb4",
+          "id": 607858079
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part010",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part010",
+          "bytes": 1073741824,
+          "sha256": "29cb9625e63d74bbd49172d053b6c8364da26848dbaffc4e54cd9ce83faeda35",
+          "id": 607858081
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part011",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part011",
+          "bytes": 1073741824,
+          "sha256": "51c625ae69619d3f76d2ce93414f217790072d221d58de6994e4d2245165c814",
+          "id": 607858076
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part012",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part012",
+          "bytes": 1073741824,
+          "sha256": "af645a3c936dfa9d596dc5ec5a8a55058496178dbfee087f1907d290527bd000",
+          "id": 607858080
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part013",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part013",
+          "bytes": 1073741824,
+          "sha256": "4e21d6ee7b6ddafe86bbd7759247d9feaec2798f8d55c65ec6df8a02647a9068",
+          "id": 607858083
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part014",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part014",
+          "bytes": 1073741824,
+          "sha256": "a688f31fe2a2e0262e809d32a75be5a153f49ed00e067f89c430d20228846d56",
+          "id": 607877818
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part015",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part015",
+          "bytes": 1073741824,
+          "sha256": "12831d12ec0f512fb24538425d8ba6408fb51661ff10eb7b47a9bcbe4c0d1ec5",
+          "id": 607877957
+        },
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part016",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H1-F32__model.pt.part016",
+          "bytes": 668025241,
+          "sha256": "ad418a8f05fe9c4a2c35f7193fb591c89fa5c24a14ccc284eaa246d4d54bf94e",
+          "id": 607878160
         }
       ],
-      "complete": false
+      "complete": true
     },
     {
       "path": "data/checkpoints/MolmoMotion-4B-H3-F30/model.pt",
       "bytes": 17847894425,
       "sha256": "506beccd01e9edd4d3ebf0bf88fec00b83530eec525571168187c7c4888ee205",
       "asset_prefix": "data__checkpoints__MolmoMotion-4B-H3-F30__model.pt",
-      "parts": [],
+      "parts": [
+        {
+          "name": "data__checkpoints__MolmoMotion-4B-H3-F30__model.pt.part002",
+          "url": "https://github.com/AlexeyPetrov1/Airi_research_task/releases/download/research-local-assets-2026-10-03/data__checkpoints__MolmoMotion-4B-H3-F30__model.pt.part002",
+          "bytes": 1073741824,
+          "sha256": "92490cf09c88a88808ff4e36d5293b3ec41ae5fef0d6126bf6f3242e2528a394",
+          "id": 607880775
+        }
+      ],
       "complete": false
     }
   ],

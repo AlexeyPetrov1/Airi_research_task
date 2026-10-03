@@ -109,6 +109,20 @@ def main():
         if existing:
             api(f"/releases/assets/{existing['id']}", method="DELETE")
         for attempt in range(3):
+            if attempt:
+                current = next((asset for asset in api(f"/releases/{release['id']}/assets?per_page=100")
+                                if asset["name"] == name), None)
+                if current and current["state"] == "uploaded" and current["size"] == size:
+                    reader = SliceReader(path, offset, size)
+                    try:
+                        while reader.read(4 * 1024**2):
+                            pass
+                        save(current, reader.digest.hexdigest())
+                        return
+                    finally:
+                        reader.close()
+                if current:
+                    api(f"/releases/assets/{current['id']}", method="DELETE")
             reader = SliceReader(path, offset, size)
             url = urllib.parse.urlsplit(upload_root + "?name=" + urllib.parse.quote(name))
             conn = http.client.HTTPSConnection(url.hostname, timeout=1200, blocksize=1024**2)
