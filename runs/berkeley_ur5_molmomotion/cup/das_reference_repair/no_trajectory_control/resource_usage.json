@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "stage": "complete",
+  "started_utc": "2026-10-03T15:08:34Z",
+  "peak_process_rss_bytes": 22696972288,
+  "peak_system_ram_used_bytes": 23128924160,
+  "peak_cuda_allocated_bytes": 10399045632,
+  "peak_cuda_reserved_bytes": 12207521792,
+  "wall_seconds": 448.017046142,
+  "output_sha256": "b14f0c4eeb93b6daee88d937f7eca084b8d18a5681aad31d35675a367307cce5"
+}

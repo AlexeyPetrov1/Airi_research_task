@@ -1,0 +1,16 @@
+﻿{
+    "accepted":  true,
+    "reviewed_utc":  "2026-10-03T14:29:15.3873368Z",
+    "reviewer":  "Codex; actual tool-view inspection of RGB guide and dense control at 0,0.5,1,1.5,2 s",
+    "guide_sha256":  "142e1d678d48a8274f2200a6c66aae1a7dc3c81c2b36942e2fd5e8a6abf2b80a",
+    "control_sha256":  "78e14b6bd26c1aa251656c814137db7ad7fb0f541fa1ab7f110aab91f3320521",
+    "source_endpoint_verified":  true,
+    "initial_object_position_verified":  true,
+    "stationary_background_verified":  true,
+    "partial_transparency_rejected_and_corrected":  true,
+    "known_limitations":  [
+                              "2D image-space robot approximation, not calibrated 3D IK",
+                              "Endpoint crossfade can change wrist details; diffusion must resolve this",
+                              "Future endpoint makes this reference-assisted synthesis, not causal prediction"
+                          ]
+}

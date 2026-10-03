@@ -1,0 +1,8 @@
+{
+  "chosen_variant": "guided_endpoint_background",
+  "future_endpoint_used": true,
+  "causal_prediction_claim": false,
+  "old_common_cup_ADE_px": 46.8520634186523,
+  "new_common_cup_ADE_px": 6.679952575582395,
+  "verification_checks": 65
+}

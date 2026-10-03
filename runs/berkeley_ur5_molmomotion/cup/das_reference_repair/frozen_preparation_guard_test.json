@@ -1,0 +1,9 @@
+﻿{
+    "status":  "PASS",
+    "attempted_command":  "das_reference_prepare.py --output-subdir refined_background --background endpoint --replace-prepared",
+    "expected_exit_code":  1,
+    "observed_exit_code":  1,
+    "observed_error":  "Cannot change conditioning consumed by an existing generation",
+    "full_verification_after_guard":  "PASS: 65 checks, including frozen input hashes",
+    "source_change":  "Protect preparation directories referenced by existing generation configs; no numeric or model change"
+}

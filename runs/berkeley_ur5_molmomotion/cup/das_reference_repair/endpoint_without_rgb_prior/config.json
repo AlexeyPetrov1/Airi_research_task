@@ -1,0 +1,41 @@
+{
+  "model": "alibaba-pai/Wan2.1-Fun-V1.1-1.3B-Control",
+  "checkpoint_revision": "a116c52b08182f7a5916eae7a47fcd61a9467a04",
+  "das_commit": "47dcaf13f78fe3cafd2a4aed20df1e059917599a",
+  "research_branch": "codex/das-reference-repair-20261003-1642",
+  "dtype": "bfloat16",
+  "seed": 42,
+  "num_inference_steps": 30,
+  "num_frames": 49,
+  "resolution": [
+    720,
+    480
+  ],
+  "fps": 8,
+  "GPU": "NVIDIA GeForce RTX 4070",
+  "VRAM_bytes": 12878086144,
+  "RAM_bytes": 25198505984,
+  "RAM_scope": "WSL limit; host has 32 GiB",
+  "offload": "official sequential CPU offload",
+  "guidance_scale": 5.0,
+  "teacache": false,
+  "persistent_reference": "initial-only; ref_image=None",
+  "photographic_guide_strength": 0,
+  "initial_latent_strength": 0,
+  "guide_noise_seed": 42,
+  "prompt": "A realistic fixed-camera laboratory video. A UR5 robot gripper firmly holds exactly one light-blue paper cup with a white cartoon face. The robot lifts this same cup smoothly upwards a short distance on the left side of the wooden table. The gripper and cup move together and retain their solid shapes. The brown cup stays on the table. The vacated original cup location shows empty wood. Detailed natural surfaces, consistent lighting, stationary background.",
+  "future_used": true,
+  "future_information": "RGB frame 73 (2 s endpoint), SAM masks and dense 2D correspondence; no intermediate future RGB in generation",
+  "causal_MolmoMotion_benchmark": false,
+  "native_DaS_unmodified_inference": false,
+  "postprocessed_RGB": false,
+  "preparation_sha256": "346ce0e9b32c85e00a597b36ccce3eb4bd44108fc0c9f0d3a7a13c76d860139f",
+  "guide_sha256": "142e1d678d48a8274f2200a6c66aae1a7dc3c81c2b36942e2fd5e8a6abf2b80a",
+  "control_sha256": "78e14b6bd26c1aa251656c814137db7ad7fb0f541fa1ab7f110aab91f3320521",
+  "command": [
+    "/mnt/f/AIRI_task/das_reference_repair_20261003/scripts/das_reference_generate.py",
+    "--name",
+    "endpoint_without_rgb_prior",
+    "--no-prior"
+  ]
+}

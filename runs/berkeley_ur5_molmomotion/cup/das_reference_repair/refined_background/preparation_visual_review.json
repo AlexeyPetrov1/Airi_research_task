@@ -1,0 +1,15 @@
+﻿{
+    "accepted":  true,
+    "reviewed_utc":  "2026-10-03T14:49:55.7256381Z",
+    "reviewer":  "Codex; actual view of refined RGB guide and dense control at 0,0.5,1,1.5,2 s",
+    "guide_sha256":  "1668d5c37fe7eeb46ed34286c8a3b7496714b511f5000625bafbcf6f5056ce8d",
+    "control_sha256":  "78e14b6bd26c1aa251656c814137db7ad7fb0f541fa1ab7f110aab91f3320521",
+    "same_control_as_no_prior_ablation":  true,
+    "original_cup_shadow_cleared_in_guide":  true,
+    "endpoint_RGB_background_used":  true,
+    "known_limitations":  [
+                              "Approximate 2D robot lift",
+                              "Endpoint-assisted reconstruction, not causal prediction",
+                              "Old clean plate fills background hidden in both endpoints"
+                          ]
+}

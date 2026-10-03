@@ -1,0 +1,29 @@
+{
+  "future_used": true,
+  "endpoint_source_index": 73,
+  "t0_source_index": 63,
+  "intermediate_future_frames_used": false,
+  "source_fps": 5,
+  "output_fps": 8,
+  "output_frames": 49,
+  "forecast_horizon_s": 2,
+  "motion": "Endpoint RGB dense correspondence; monotone progress from original MolmoMotion centroid arc length; endpoint held after 2 s.",
+  "NOT_causal_MolmoMotion_prediction": true,
+  "forecast_geometry_changed": true,
+  "cup_shift_px": [
+    -10.467605628654127,
+    -78.77229292945447
+  ],
+  "new_image_editing_used": false,
+  "background_overlap_source": "Reuse existing clean_reference_640x480.png from prior published experiment",
+  "background_mode": "endpoint",
+  "output_subdir": "refined_background",
+  "input_sha256": {
+    "observed/frame_000063.png": "d4cad33c9e6604ae092ba93d60b916f9fbc7ad04ab6166008783980588e4ff40",
+    "evaluation/frame_000073.png": "84bc3a95be9d76b9484c4cf628f16a0312d675793cd92e8b7279321da6bb22af",
+    "predictions/future_3d.npy": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+    "das_robot_cup/observed/clean_reference_640x480.png": "d7ad4e9c95d3d78bb82eee1e97aaf0a5a9c902f53bdfe6713c3cde5c31a3ed12"
+  },
+  "guide_sha256": "1668d5c37fe7eeb46ed34286c8a3b7496714b511f5000625bafbcf6f5056ce8d",
+  "control_sha256": "78e14b6bd26c1aa251656c814137db7ad7fb0f541fa1ab7f110aab91f3320521"
+}
