@@ -4,6 +4,7 @@ Wait for the already-running H3, measure it, then generate/measure H1 and an
 optional matched no-control run. Completed diffusion outputs are never replaced.
 """
 import json
+import argparse
 from pathlib import Path
 import subprocess
 import time
@@ -12,6 +13,9 @@ from das_prepare_control import write_json
 
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--generation-script',type=Path,default=ROOT/'scripts/das_full_motion_generate.py')
+    args=parser.parse_args()
     generation='/mnt/f/AIRI_task/.venv-das/bin/python'
     analysis='/mnt/f/AIRI_task/.venv/bin/python'
     deadline=time.monotonic()+1800
@@ -36,7 +40,7 @@ def main():
         out=OUT/name
         if not (out/'generated_seed42.mp4').exists():
             free_gpu()
-            subprocess.run([generation,str(ROOT/'scripts/das_full_motion_generate.py'),
+            subprocess.run([generation,str(args.generation_script),
                 '--name',name,'--preparation-subdir',preparation,*flags],check=True)
         else:
             assert json.loads((out/'resource_usage.json').read_text())['success']

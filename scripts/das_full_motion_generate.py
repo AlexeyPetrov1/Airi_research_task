@@ -45,9 +45,11 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--name',required=True)
     p.add_argument('--strength',type=float,default=.25);p.add_argument('--steps',type=int,default=30)
     p.add_argument('--preparation-subdir',default='group00_stretched_6s')
+    p.add_argument('--cached-guide-from',default=None)
     p.add_argument('--no-prior',action='store_true');p.add_argument('--no-control',action='store_true');a=p.parse_args()
     if not 0<a.strength<.9:p.error('Use a partial guide strength in (0, .9)')
     if a.no_control and not a.no_prior:p.error('Uncontrolled ablation must also disable the photographic motion guide')
+    if a.cached_guide_from and a.no_prior:p.error('A cached guide is only used with the prior')
     out=(OUT/a.name).resolve();assert out.is_relative_to(OUT.resolve()),'Output must remain inside this experiment'
     out.mkdir(exist_ok=True);output=out/'generated_seed42.mp4'
     if output.exists():raise FileExistsError('Refusing to overwrite actual output')
@@ -111,6 +113,8 @@ def main():
             'native_DaS_sampler_without_latent_prior':a.no_prior,'postprocessed_RGB':False,
             'trajectory_method':prep['method'],'timing':prep['timing'],'physical_timing_preserved':prep['timing']=='physical_2s',
             'real_future_read_guard':True,
+            'cached_guide_from':a.cached_guide_from,
+            'release_unused_VAE_cache_before_text_encoding':not a.no_prior,
             'preparation_root':str(prep_root),'background_mode':prep.get('background_mode','initial'),
             'preparation_sha256':sha256(prep_root/'preparation.json'),'guide_sha256':None if a.no_prior else prep['guide_sha256'],
             'control_sha256':None if a.no_control else prep['control_sha256'],'trajectory_control':not a.no_control,
@@ -128,11 +132,25 @@ def main():
             if a.no_control:kwargs['control_video']=None
             kwargs['negative_prompt']='Duplicate cups, two blue cups, stationary ghost cup, transparent cup, broken gripper, distorted robot, deformed object, flicker, low quality, grainy texture, watermark.'
             if not a.no_prior:
-                stage('encode_photographic_guide')
-                guide=np.load(prep_root/'guide_720x480.npz')['frames']
-                tensor=torch.from_numpy(guide.copy()).permute(3,0,1,2)[None].to('cuda',torch.bfloat16)/127.5-1
-                guide_latents=self.vae.encode(tensor)[0].mode().detach()
-                del tensor,guide
+                if a.cached_guide_from:
+                    cache=(OUT/a.cached_guide_from/'photographic_guide_latents.pt').resolve()
+                    assert cache.is_relative_to(OUT.resolve())
+                    stage('load_frozen_photographic_guide')
+                    saved=torch.load(cache,map_location='cpu',weights_only=False)
+                    assert saved['guide_sha256']==prep['guide_sha256']
+                    guide_latents=saved['latents'].to('cuda',torch.bfloat16)
+                    config['cached_guide_latents_sha256']=sha256(cache)
+                    write_json(out/'config.json',config)
+                else:
+                    stage('encode_photographic_guide')
+                    guide=np.load(prep_root/'guide_720x480.npz')['frames']
+                    tensor=torch.from_numpy(guide.copy()).permute(3,0,1,2)[None].contiguous().to('cuda',torch.bfloat16)/127.5-1
+                    guide_latents=self.vae.encode(tensor)[0].mode().detach()
+                    del tensor,guide
+                # The following text encoder offloads large layers to CUDA.
+                # Retaining the unused VAE allocation pool can trigger WDDM
+                # shared-memory paging despite very small live guide latents.
+                torch.cuda.empty_cache()
                 assert guide_latents.shape==(1,16,13,60,90)
                 torch.save({'latents':guide_latents.cpu(),'guide_sha256':prep['guide_sha256']},out/'photographic_guide_latents.pt')
                 mask=torch.from_numpy(np.load(prep_root/'prior_masks.npz')['weights'])[None,None].float()

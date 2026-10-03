@@ -33,6 +33,14 @@ def main():
         report['matched_prior']={'interpretation':'Same trajectory, time, seed, prompt and sampler; common target/track visibility.',
             'common_pairs':int(common.sum()),'variants':{
                 names[1]:metrics(target,native['generated_xy'],common),prior:metrics(target,guided['generated_xy'],common)}}
+    uncontrolled='H4_no_trajectory_control'
+    if (OUT/uncontrolled/'motion_measurements.npz').exists():
+        native=data[names[1]];other=np.load(OUT/uncontrolled/'motion_measurements.npz')
+        target=native['raw_forecast_xy']
+        common=valid(target)&native['generated_visibility']&other['generated_visibility']
+        report['matched_control']={'interpretation':'Same seed, prompt, initial image and native sampler; no prior in either; control_video=None in H4.',
+            'common_pairs':int(common.sum()),'variants':{names[1]:metrics(target,native['generated_xy'],common),
+                uncontrolled:metrics(target,other['generated_xy'],common)}}
     videos={name:np.array([cv2.resize(frame,(640,480)) for frame in frames(OUT/name/'generated_seed42.mp4')]) for name in names}
     phaseclip=[]
     for i in range(17):

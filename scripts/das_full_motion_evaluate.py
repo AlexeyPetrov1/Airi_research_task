@@ -64,6 +64,7 @@ def main():
         expected=valid(target)
         available=vis&expected
         desc={'video_sha256':sha256(path),'future_used_in_generation':False,'timing':config['timing'],
+            'trajectory_control_passed_to_model':config['trajectory_control'],
             'coordinate_system':'native 640x480 pixels; generated image stretch is undone',
             'raw_forecast_to_rigid_control':metrics(target,rigid,np.ones_like(expected)),
             'generated_to_raw_forecast':metrics(target,xy,available),
@@ -87,7 +88,17 @@ def main():
             lo=np.floor(times*8).astype(int);hi=np.ceil(times*8).astype(int)
             mask=vis[lo]&vis[hi]&real['visibility'][1:,:8]&valid(sampled)
             desc['generated_to_real_physical_2s']=metrics(real['tracks'][1:,:8],sampled,mask)
+            raw_sample=interpolate(rawuv,np.arange(31)/15,times)
+            desc['raw_forecast_to_real_full_reference']=metrics(real['tracks'][1:,:8],raw_sample,real['visibility'][1:,:8])
+            desc['raw_forecast_to_real_shared_with_generation']=metrics(real['tracks'][1:,:8],raw_sample,mask)
             desc['real_comparison_scope']='evaluation only; physical 0.2..2.0s; no stretched timing compared to real 6s'
+            future=np.load(SCENE/'evaluation/future_rgb.npy')
+            compared=[]
+            for j,time in enumerate(times):
+                index=int(round(time*8))
+                compared.append(np.concatenate([labeled(video[index],f'Generated physical: sampled {index/8:.3f}s'),
+                    labeled(future[j],f'Real future: {time:.3f}s')],axis=1))
+            save_video(OUT/'physical_generated_vs_real_2s.mp4',compared,fps=5)
         overlay=[]
         for i,frame in enumerate(video):
             view=frame.copy()
