@@ -1,0 +1,10 @@
+{
+  "generation_conditioning": "Observed t0 RGB/masks/depth/intrinsics, t0-only synthetic clean plate and the frozen MolmoMotion forecast; no ground-truth future RGB/poses.",
+  "episode_selection": "Inherited episode 10, t0 frame 63. Original scene metadata explicitly records future screening during the earlier episode/t0 selection, before model inputs were formed.",
+  "blind_dataset_benchmark": false,
+  "future_screening_repeated_in_this_task": false,
+  "group_selection": "User explicitly selected the saved group_00 arc shown in the left comparison column; group_01/02 are retained as differing forecasts.",
+  "legacy_config_field": "causal_MolmoMotion_benchmark=true describes the current run's conditioning. It does not establish blind episode selection or a representative dataset benchmark.",
+  "evaluation_future": "Permitted only after all generation, for the physical 2s variant. Stretched variants have no corresponding real 6s reference in this experiment.",
+  "interpretation": "One previously selected scene and one seed. Compare generation with its forecast; do not claim dataset-wide robot accuracy or statistical model improvement."
+}
