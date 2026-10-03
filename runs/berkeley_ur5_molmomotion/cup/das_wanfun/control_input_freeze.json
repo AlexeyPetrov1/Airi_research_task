@@ -1,0 +1,31 @@
+{
+  "future_used": false,
+  "sha256": {
+    "predictions/future_3d.npy": "b1732211d0cb7b9785c891200bcb8ff0f07375927332552ca56bb2a469e289de",
+    "predictions/model_run.json": "ce536dc431e0090ec8e3ce39add0b198233d7753a94bbcb05c1cc767aa7f8690",
+    "observed/points_3d_history.npy": "b74aa0489dc7e297ecedda528ff55a6585b9407a7b1ac41c079f635de2ef9040",
+    "observed/points_2d_history.npy": "02ff70af9f1602776093934c2e3257e6185fe006422cf3b59d5b5f5f269d70d0",
+    "observed/selected_point_ids.npy": "c16d7084ea005f061e9526546b3c9acbb097460b639bfe045f3f8273ed002632",
+    "observed/mask.png": "39299dc0ac6d7ada19d9c3c6d40586748c66170d41e5a6c21c6e60fc0f470348",
+    "observed/native_depth.npy": "bbf90bef2d47ac3d1efb9591df5be86d4a34f2b7eb32f2cf683e7c5b9b466778",
+    "observed/native_depth_metadata.json": "0b117f3588594041126a1911a5100c75ca8dfee43bf77b6ea0cf7315652f7984",
+    "geometry/K_median.npy": "ff3ee7f56cad0b9d83d7114a4041fcb56e82680cb7300aeb67da6669689d5ac6",
+    "observed/frame_000063.png": "d4cad33c9e6604ae092ba93d60b916f9fbc7ad04ab6166008783980588e4ff40",
+    "metadata.json": "cb1bd498599fc94e7f54b6758599ecb7851261f703e13e715020abf7c0116768",
+    "geometry/filter_metadata.json": "5efb6f4e113996e49ba4cd2d7edaa7b43f34ee7085348b15c1715907cda2d98e"
+  },
+  "allowed_inputs": [
+    "predictions/future_3d.npy",
+    "predictions/model_run.json",
+    "observed/points_3d_history.npy",
+    "observed/points_2d_history.npy",
+    "observed/selected_point_ids.npy",
+    "observed/mask.png",
+    "observed/native_depth.npy",
+    "observed/native_depth_metadata.json",
+    "geometry/K_median.npy",
+    "observed/frame_000063.png",
+    "metadata.json",
+    "geometry/filter_metadata.json"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "checks": {
+    "causal_inputs_unchanged": true,
+    "control_inputs_contain_no_evaluation": true,
+    "visual_control_approved": true,
+    "proper_rotations": true,
+    "initial_identity": true,
+    "final_pose_held": true,
+    "video_control_molmomotion_640x480.mp4": true,
+    "video_control_molmomotion_720x480.mp4": true,
+    "video_generated_molmomotion_seed42.mp4": true,
+    "video_triple_comparison.mp4": true,
+    "video_real_vs_generated.mp4": true,
+    "video_control_vs_generated.mp4": true,
+    "required_generation_artifacts": true,
+    "generation_success": true,
+    "four_quantitative_errors": true,
+    "evaluation_physical_times": true,
+    "generated_tracking_shape": true,
+    "generated_real_ADE_recomputed": true
+  },
+  "videos": {
+    "control_molmomotion_640x480.mp4": {
+      "frames": 49,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "d034ba70c79466f81525652a012d8fcc0c2e8abda30884e491ca536dc83decb6"
+    },
+    "control_molmomotion_720x480.mp4": {
+      "frames": 49,
+      "shape": [
+        480,
+        720,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "d7888ce897cd6123c87ebb078317c1204f3f0e9cf51946a5011fcaa7092b89be"
+    },
+    "generated_molmomotion_seed42.mp4": {
+      "frames": 49,
+      "shape": [
+        480,
+        720,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "7355a305a8173c954df994d00944253c3ba7875937ba5804256c7573d896b127"
+    },
+    "triple_comparison.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1920,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "ae77fea2d50cd9e8af55e4c660b4950190262a9d41ffd877b7a6a0b93dbc339c"
+    },
+    "real_vs_generated.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1280,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "faa95f29d7919d6ae9ffdcb195a7d2d24456b63e5c564660265b1190e42a4c7f"
+    },
+    "control_vs_generated.mp4": {
+      "frames": 17,
+      "shape": [
+        480,
+        1280,
+        3
+      ],
+      "fps": 8.0,
+      "sha256": "fa00d51b462dfe9652c66f544e83cf9876c692fab5a0360ab5ab471dbeffcfb9"
+    }
+  },
+  "status": "PASS",
+  "note": "PASS means pipeline deliverables verified, not that forecast or generated motion is accurate."
+}

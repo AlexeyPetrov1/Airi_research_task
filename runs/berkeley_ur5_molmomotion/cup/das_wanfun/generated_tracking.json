@@ -1,0 +1,19 @@
+{
+  "tracker": "official AllTracker Net(16)",
+  "iterations": 4,
+  "checkpoint_sha256": "ffd9ebcfb6d206d594b646999a150540f92c049cf9b2bf940facf7123f62aa1d",
+  "generated_sha256": "7355a305a8173c954df994d00944253c3ba7875937ba5804256c7573d896b127",
+  "reference_anchor": "real t0 followed by generated frame 0..16; discard extra real anchor index",
+  "future_real_frames_used_for_tracking": false,
+  "source_resolution": [
+    640,
+    480
+  ],
+  "tracker_resolution": [
+    512,
+    384
+  ],
+  "seconds": 2.881798665000133,
+  "peak_cuda_allocated_bytes": 2333317120,
+  "limitation": "Tracker cannot certify object identity if it deforms/disappears. Use visibility masks and visual audit."
+}

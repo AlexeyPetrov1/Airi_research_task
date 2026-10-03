@@ -1,0 +1,8 @@
+﻿{
+    "monitor_started_utc":  "2026-10-03T03:18:16.2641087Z",
+    "sample_period_seconds":  2,
+    "host_physical_ram_bytes":  34088603648,
+    "peak_host_physical_used_bytes":  33380044800,
+    "current_host_free_bytes":  3932405760,
+    "note":  "Whole Windows host, including other processes. Monitor started during first model load; WSL process monitoring covers the full generation."
+}

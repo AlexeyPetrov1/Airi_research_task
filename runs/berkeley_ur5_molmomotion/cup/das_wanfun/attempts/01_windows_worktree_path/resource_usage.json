@@ -1,0 +1,14 @@
+{
+  "stage": "waiting_for_gpu",
+  "success": false,
+  "started_utc": "2026-10-03T03:13:29Z",
+  "peak_process_rss_bytes": 590454784,
+  "peak_system_ram_used_bytes": 1823051776,
+  "peak_cuda_allocated_bytes": 0,
+  "peak_cuda_reserved_bytes": 0,
+  "peak_device_used_bytes": 0,
+  "wall_seconds": 0.2726238340001146,
+  "error_type": "CalledProcessError",
+  "error": "Command '['git', '-C', '/mnt/f/AIRI_task/das_wanfun_cup_20261003', 'branch', '--show-current']' returned non-zero exit status 128.",
+  "stack_trace": "Traceback (most recent call last):\n  File \"/mnt/f/AIRI_task/das_wanfun_cup_20261003/scripts/das_generate.py\", line 92, in main\n    'research_branch':subprocess.check_output(['git','-C',str(Path(__file__).resolve().parents[1]),'branch','--show-current'],text=True).strip(),\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/f/AIRI_task/.pythons/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/f/AIRI_task/.pythons/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', '-C', '/mnt/f/AIRI_task/das_wanfun_cup_20261003', 'branch', '--show-current']' returned non-zero exit status 128.\n"
+}
