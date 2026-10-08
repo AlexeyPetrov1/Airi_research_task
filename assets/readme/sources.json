@@ -139,5 +139,48 @@
       "note": "Replaces the report diagram whose footer contradicts the corrected narrative about the missed target. Trajectory is schematic.",
       "asset_sha256": "8327909b07c16f2e4356fff9beb0de42b759b554cf753585e3ad3ee9f60391aa"
     }
-  ]
+  ],
+  "localization": {
+    "language": "en",
+    "scope": "README.md images; Russian source assets retained for README_RU.md",
+    "prompt_file": "assets/readme/translation-prompts.json",
+    "assets": [
+      {
+        "asset": "assets/readme/cover-en.png",
+        "source_asset": "assets/readme/cover.png",
+        "source_sha256": "fa092d3c1fcdc6cd41d48d83cae83b0e2ca579b6af4c42f38f96f20dd31e24d9",
+        "asset_sha256": "ff73148ad1510450ff76e1510abecf674d9d27190b562023dc69b8963e5930e0",
+        "translation_tool": "built-in image_gen",
+        "size": [
+          2172,
+          724
+        ]
+      },
+      {
+        "asset": "assets/readme/berkeley-pipeline-en.png",
+        "source_asset": "assets/readme/berkeley-pipeline.jpg",
+        "source_sha256": "1ff8c5ea8494d095b6e4ede70b44f30e0f9b39f9ba95f662bf22f1b8ea54bcac",
+        "asset_sha256": "8d1e22eb3c47179c9cb498d50010612dde76a17dc0bed6dc0bfd07307f99d928",
+        "translation_tool": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ]
+      },
+      {
+        "asset": "assets/readme/das-pipeline-en.png",
+        "source_asset": "assets/readme/das-pipeline.svg",
+        "source_sha256": "8327909b07c16f2e4356fff9beb0de42b759b554cf753585e3ad3ee9f60391aa",
+        "source_file": "DaS_H5_pipeline_en.png",
+        "asset_sha256": "e86029e5514459e80a72aab2dd1274e513dfed93c803e52f27f99715c6cb8d65",
+        "translation_tool": "user-provided English PNG diagram",
+        "size": [
+          1600,
+          660
+        ]
+      }
+    ],
+    "source_archive": "AIRI_README_English_images.zip",
+    "source_archive_sha256": "c8ce10b98616d857733fbd91b631b3f9f15e7347a9a5d09987ef70c9ec993df2"
+  }
 }

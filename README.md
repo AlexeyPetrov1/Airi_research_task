@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/cover.png" alt="Diffusion video generation for robotic scenes: neural 3D geometry estimation, trajectory prediction, and video synthesis" width="1200">
+  <img src="assets/readme/cover-en.png" alt="Diffusion video generation for robotic scenes: neural 3D geometry estimation, trajectory prediction, and video synthesis" width="1200">
 </p>
 
 <h1 align="center"><a href="README_RU.md">Прочитать на русском языке</a></h1>
@@ -33,7 +33,7 @@ I used **Berkeley Autolab UR5 robotic scenes from ShareRobot**, reconstructed 3D
 In Berkeley, I selected a bottle transfer, **episode 9, t₀ = 47**, and a cup transfer, **episode 10, t₀ = 63**. I prepared the inputs using frames up to t₀. In TFDS, I found RealSense depth aligned with RGB; I **estimated the camera intrinsics K with UniDepthV2**. I checked that the camera was stationary using the background.
 
 <p align="center">
-  <img src="assets/readme/berkeley-pipeline.jpg" alt="Berkeley: RGB-D, neural estimation of camera parameters, MolmoPoint, SAM 2.1, AllTracker, and preparation of the 3D history" width="1100">
+  <img src="assets/readme/berkeley-pipeline-en.png" alt="Berkeley: RGB-D, neural estimation of camera parameters, MolmoPoint, SAM 2.1, AllTracker, and preparation of the 3D history" width="1100">
 </p>
 
 Input preparation:
@@ -89,7 +89,7 @@ Pink indicates the original prediction, and light blue indicates the input histo
 I used **DaS from the Wanfun branch with Wan2.1-Fun 1.3B Control**. DaS takes frame t₀ and a control video constructed from the saved MolmoMotion prediction. In H5, I used future RGB frames only for evaluation after generation.
 
 <p align="center">
-  <img src="assets/readme/das-pipeline.svg" alt="MolmoMotion → control video → DaS H5: preparation, generation, and result" width="1100">
+  <img src="assets/readme/das-pipeline-en.png" alt="MolmoMotion → control video → DaS H5: preparation, generation, and result" width="1100">
 </p>
 
 For control, I selected the **first group of eight points** because its trajectories were more consistent with the motion of a single rigid body. I kept each point's color consistent across frames. I extended the duration of the original spatial trajectory from **2 to 6 seconds**.

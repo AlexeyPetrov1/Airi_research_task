@@ -1,0 +1,48 @@
+{
+  "description": "English localization of the three README images containing Russian labels.",
+  "tools": {
+    "cover": "built-in image_gen",
+    "berkeley_pipeline": "built-in image_gen",
+    "das_pipeline": "direct SVG text replacement"
+  },
+  "assets": [
+    {
+      "source": "assets/readme/cover.png",
+      "output": "assets/readme/cover-en.png",
+      "prompt": "Use case: text-localization.\nAsset type: GitHub README hero banner, English-language version.\nInput image: the referenced PNG is the edit target. Localize ALL Russian text into English. Preserve the existing wide 3:1 aspect ratio, composition, dark blue background, realistic robot and cup on the right, point-cloud robot on the left, wireframe robot and trajectory in the center, inset frames, arrows, colors, gradients, line weights, and every non-text element. Do not redesign or add anything. This is a conceptual project illustration.\nExact replacements:\nKeep \"MolmoMotion × DaS\" unchanged.\nReplace the large two-line heading \"ДИФФУЗИОННОЕ ВИДЕО\" / \"ДЛЯ РОБОТОТЕХНИКИ\" with \"DIFFUSION VIDEO\" / \"FOR ROBOTICS\". Keep the first line white and the second line in the same cyan-to-purple gradient; fit both centered lines cleanly.\nReplace \"3D-геометрия\" with \"3D geometry\".\nReplace \"Прогноз траекторий\" with \"Trajectory prediction\".\nReplace \"Генерация видео\" with \"Video generation\".\nReplace the footer with exactly \"AIRI · Alexey Petrov · @aapetrov23\".\nOnly change the lettering. Preserve positions and the typography style. All remaining labels must be English or model names. No Cyrillic characters. Do not crop any part of the banner. Output a crisp high-resolution image preserving the original 2172×724 composition."
+    },
+    {
+      "source": "assets/readme/berkeley-pipeline.jpg",
+      "output": "assets/readme/berkeley-pipeline-en.png",
+      "prompt": "Use case: text-localization.\nAsset type: GitHub README educational pipeline illustration, English-language version.\nInput image: the referenced JPG is the edit target. Translate ALL Russian labels into English with the exact replacements below. Preserve the six-panel 1600×900 layout, panel order 1→2→3→4→5→6, arrows, numbering, original robot/cup imagery, masks, point colors, depth maps, camera, point cloud, icons, white and pale blue backgrounds, borders, fonts and navy-blue text. Change only lettering and minimally adjust font sizes for fitting. Do not modify technical content, images, dots, or diagrams.\nText replacements:\nTop title: \"Berkeley: data preparation and MolmoMotion inference\"\nTop subtitle: \"Cup scene · three observed frames\"\nPanel 1 heading: \"Input frames\"\n\"RGB + глубина\" → \"RGB + depth\"\n\"Кадры до начала прогноза\" → \"Frames before prediction\"\nEvery occurrence of \"Глубина\" → \"Depth\"; \"Далеко\" → \"Far\"; \"Близко\" → \"Near\".\nPanel 2: keep \"MolmoPoint\"; \"Найти целевой предмет\" → \"Locate the target object\".\nPanel 3: keep \"SAM 2.1\"; \"Выделить маску стакана\" → \"Segment the cup\".\nPanel 4: keep \"AllTracker\"; \"Отследить точки в истории\" → \"Track points through the history\"; \"24 выбранные точки\" → \"24 selected points\".\nPanel 5 heading: \"Prepare 3D history\"; \"Пиксели + глубина + K\" → \"Pixels + depth + K\"; \"Медиана глубины в окне 5 × 5\" → \"Median depth in a 5 × 5 window\"; \"Проверка геометрии\" → \"Geometry check\".\nPanel 6 heading: \"Run MolmoMotion\"\n\"3 кадра + 3D-история + текст задачи\" → \"3 frames + 3D history + task text\"\nUnder the three input icons, use \"3 frames\", \"3D history\", and \"Action description\".\nKeep \"MolmoMotion-4B-H3-F30\" unchanged.\n\"8 точек за вызов · 3 вызова\" → \"8 points per call · 3 calls\"\n\"Горизонт: 30 будущих шагов\" → \"Horizon: 30 future steps\".\nDo not leave any Cyrillic text. Render every replacement sharply and readably without overlap. Preserve the 16:9 aspect ratio and all panel margins. Preserve model names and all numbers exactly. Do not invent new text."
+    },
+    {
+      "source": "assets/readme/das-pipeline.svg",
+      "output": "assets/readme/das-pipeline-en.svg",
+      "replacements": {
+        "MolmoMotion → DaS H5: прогноз, управление и генерация": "MolmoMotion → DaS H5: prediction, control, and generation",
+        "История Berkeley UR5 до кадра 63 используется для прогноза. Первая группа из восьми точек задаёт дугу, растянутую с двух до шести секунд. DaS воспроизводит дугу и движение манипулятора; стакан не попадает в цель.": "Berkeley UR5 history through frame 63 is used for prediction. The first group of eight points defines an arc stretched from two to six seconds. DaS reproduces the arc and robot arm motion; the cup misses the target.",
+        "От прогноза 3D-точек к видео": "From 3D point prediction to video",
+        "Berkeley UR5 · эпизод 10 · t₀ = 63 · итоговый вариант H5": "Berkeley UR5 · episode 10 · t₀ = 63 · final H5 variant",
+        "1. История → MolmoMotion": "1. History → MolmoMotion",
+        "2. Управляющее видео": "2. Control video",
+        "3. Генерация DaS": "3. DaS generation",
+        "RGB: кадры 61, 62, 63": "RGB: frames 61, 62, 63",
+        "XYZ-история + текст задачи": "XYZ history + task description",
+        "24 точки · три запуска по 8": "24 points · three calls of 8",
+        "Первая группа: 8 точек": "First group: 8 points",
+        "Та же дуга: 2 с → 6 с": "Same arc: 2 s → 6 s",
+        "Маски стакана и звеньев UR5": "Cup and UR5 link masks",
+        "49 кадров · seed 42 · 30 шагов": "49 frames · seed 42 · 30 steps",
+        "Ограничение внешнего вида: 0,25": "Appearance constraint: 0.25",
+        "BF16 · 30 будущих шагов": "BF16 · 30 future steps",
+        "Схематичное изображение управляющей дуги": "Control arc (schematic)",
+        "Стакан, захват, плечо, предплечье": "Cup, gripper, upper arm, forearm",
+        "движутся; основание неподвижно": "move; the base stays stationary",
+        "Дуга воспроизведена. Стакан выше и правее цели; задача не выполнена.": "Arc reproduced. Cup above and to the right of the target; task not completed.",
+        "Будущие RGB-кадры в H5 используются только для оценки после генерации.": "In H5, future RGB frames are used only for evaluation after generation.",
+        "Схема по авторскому отчёту, стр. 16–22. Траектория нарисована условно; результаты показаны в GIF и таблицах README.": "Based on the author's report, pp. 16–22. The trajectory is schematic; results are shown in the README GIFs and tables."
+      }
+    }
+  ]
+}
