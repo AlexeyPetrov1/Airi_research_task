@@ -2,8 +2,6 @@
   <img src="assets/readme/cover.png" alt="Диффузионная генерация видео для робототехнических сцен: нейросетевая 3D-геометрия, прогноз траекторий и видеосинтез" width="1200">
 </p>
 
-<h1 align="center"><a href="README_RU.md">ПРОЧИТАТЬ НА РУССКОМ</a></h1>
-
 # Диффузионная генерация видео для робототехнических сцен
 
 **MolmoMotion × Diffusion as Shader · AIRI · Петров Алексей [@aapetrov23](https://t.me/aapetrov23)**
