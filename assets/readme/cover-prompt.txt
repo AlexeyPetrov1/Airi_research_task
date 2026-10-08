@@ -1,0 +1,13 @@
+Generated with the built-in image_gen tool. Conceptual cover illustration, not an experimental result.
+
++Create a polished landscape GitHub README cover, approximately 3:1 aspect ratio, for a robotics research project. Main theme: diffusion video generation for robotic scenes, supported by neural 3D geometry reconstruction and 3D trajectory prediction. This is a conceptual editorial illustration, not an experimental result.
+
+Design a visually striking but disciplined research cover on deep navy. Show a silver UR5 robotic arm handling a small blue patterned cup on a wooden lab table, consistent with a robotics manipulation video. Across the composition, depict a single meaningful flow: on the left a translucent neural depth/point-cloud reconstruction of the arm, cup and scene; in the middle precise colored 3D trajectory curves and query points; on the right crisp realistic video frames of the robot, with a small transition from diffusion noise to a clean frame. Keep the same arm and cup recognizable through the visual stages. Use subtle cyan, teal and warm violet accents, cinematic studio lighting, fine grid geometry and clean negative space. Avoid generic sci-fi scenery, excessive glow, human characters, fake charts or numerical performance claims.
+
+Typography must be highly legible at README banner size and use exactly these words:
+small project label: "MolmoMotion × DaS"
+large main title on two lines: "ДИФФУЗИОННОЕ ВИДЕО" and "ДЛЯ РОБОТОТЕХНИКИ"
+three concise stage labels: "3D-геометрия", "Прогноз траекторий", "Генерация видео"
+small author footer: "AIRI · Петров Алексей · @aapetrov23"
+
+Compose the text as a cohesive graphic with generous spacing, modern sans-serif typography, strong title hierarchy. Put enough emphasis on the realistic final robotic video scene that diffusion video generation reads as the main outcome. No watermarks or invented logos.
