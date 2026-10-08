@@ -2,7 +2,7 @@
   <img src="assets/readme/cover.png" alt="Diffusion video generation for robotic scenes: neural 3D geometry estimation, trajectory prediction, and video synthesis" width="1200">
 </p>
 
-<h1 align="center"><a href="README_RU.md">READ IN RUSSIAN</a></h1>
+<h1 align="center"><a href="README_RU.md">Прочитать на русском языке</a></h1>
 
 # Diffusion Video Generation for Robotic Scenes
 
