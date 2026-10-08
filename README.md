@@ -1,633 +1,398 @@
-<div align="center">
-  <h1>MolmoMotion</h1>
-  <h3>Forecasting Point Trajectories in 3D with Language Instruction</h3>
-</div>
+<p align="center">
+  <img src="assets/readme/cover.png" alt="MolmoMotion: от прогноза 3D-точек к видео. Исследовательское задание AIRI, Петров Алексей." width="1200">
+</p>
 
-> **AIRI test task:** [setup](README_SETUP.md) · [DAVIS F=30 experiment and reproducible commands](report/author_davis.md) · [saved predictions, metrics and visuals](runs/author_davis_bmx_trees_f30/) · [data sources](DATA_SOURCES.md) · [assignment](docs/Тестовое%20задание%20MolmoMotion.docx). This work builds on the [Ai2 MolmoMotion repository](https://github.com/allenai/molmo-motion) at `61f5b21b694ad8f854ec7ecd2400005acc73f685`.
+# MolmoMotion: история экспериментов
+
+**Тестовое задание AIRI · Петров Алексей [@aapetrov23](https://t.me/aapetrov23)**
+
+Три дня работы и один день оформления.
+
+Проверил прогноз движения 3D-точек на авторском видео DAVIS, применил модель к робототехническим данным ShareRobot и использовал предсказанную траекторию для генерации видео с помощью Diffusion as Shader (DaS).
+
+Основная сложность возникла при восстановлении 3D-координат. RGB и глубины оказалось недостаточно: пришлось искать исходные записи, проверять калибровку камеры, масштаб глубины и совмещение изображения с картой глубины.
+
+| Модель | Вход → прогноз | Оборудование | Среда |
+|---|---|---|---|
+| MolmoMotion-4B-H3-F30 | 3 кадра → 30 шагов | RTX 4070, 12 ГБ VRAM · 32 ГБ RAM | Linux / WSL · BF16 |
+
+[Результаты](#results) · [DAVIS](#davis) · [FMB](#fmb) · [DobbE](#dobbe) · [Berkeley](#berkeley) · [DaS](#das) · [Воспроизведение](#reproduce) · [Выводы](#lessons)
+
+### Реальное движение и итоговая генерация
+
+| Реальная запись Berkeley UR5 | DaS, итоговый вариант H5 |
+|:---:|:---:|
+| [![Реальное продолжение эпизода 10 Berkeley UR5](assets/readme/berkeley-real.gif)][video-real] | [![DaS H5: стакан, захват, плечо и предплечье движутся](assets/readme/das-final.gif)][video-h5] |
+| Продолжение от кадра 63; воспроизведение замедлено в 3 раза. | Исходная дуга MolmoMotion растянута с 2 до 6 секунд. |
+
+В H5 движутся стакан, захват, плечо и предплечье; основание остаётся неподвижным. Стакан заканчивает движение выше и правее цели, поэтому задача переноса внутрь целевого стакана **не выполнена**. Генерация воспроизводит выбранную дугу, но это само по себе не подтверждает успешность действия.
+
+*GIF открываются по клику как исходные MP4. Схемы и графики взяты из моего отчёта; происхождение файлов и параметры конвертации сохранены в [assets/readme/sources.json](assets/readme/sources.json).*
+
+<a id="results"></a>
+## Что получилось
+
+| Часть задания | Работа | Результат |
+|---|---|---|
+| **1. Авторское видео** | DAVIS `bmx-trees`, 8 точек, полный прогноз F=30 | На одном эпизоде MolmoMotion точнее неподвижности и постоянной скорости по ADE/FDE. Входные 3D-координаты предоставлены авторами. |
+| **2. ShareRobot** | Восстановление записей FMB, DobbE и Berkeley; пять подходов к геометрии и коррекция смещения | На FMB и DobbE прогноз существенно расходится с видео. На Berkeley движение визуально правдоподобнее, но постоянная скорость точнее по ADE/FDE. |
+| **3. Генерация видео** | DaS / Wan2.1-Fun 1.3B Control, исправление дубликата и добавление движения манипулятора | H5 следует заданной дуге; стакан узнаваем, рисунок меняется. В цель он не попадает. |
+| **4. Воспроизводимость** | Общий CLI, семь конфигураций, сохранённые входы, прогнозы и проверки | Шесть успешных запусков повторены; седьмой пример проверяет остановку при несогласованной геометрии. |
 
 <p align="center">
-  <a href="https://github.com/allenai/molmo-motion/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/license-Apache_2.0-blue.svg">
-  </a>
-  <a href="https://arxiv.org/abs/2606.18558">
-    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2606.18558-b31b1b.svg">
-  </a>
-  <a href="https://allenai.org/blog/molmo-motion">
-    <img alt="Blog" src="https://img.shields.io/badge/MolmoMotion-blog-F0529C">
-  </a>
-  <a href="https://huggingface.co/collections/allenai/molmomotion">
-    <img alt="Models" src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-Models-yellow">
-  </a>
-  <a href="https://huggingface.co/datasets/allenai/molmo-motion-1m">
-    <img alt="MolmoMotion-1M Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-MolmoMotion--1M-yellow">
-  </a>
-  <a href="https://huggingface.co/datasets/allenai/PointMotionBench">
-    <img alt="PointMotionBench" src="https://img.shields.io/badge/%F0%9F%A4%97%20HF-PointMotionBench-yellow">
+  <img src="assets/readme/data-sources.jpg" alt="Связь ShareRobot с исходными данными FMB, DobbE и Berkeley UR5" width="1000">
+</p>
+
+### Как устроен эксперимент
+
+MolmoMotion получает три RGB-кадра, историю координат выбранных 3D-точек и текстовое описание действия. За один запуск предсказывает движение восьми точек на 30 шагов; для 24 точек выполнял три запуска. Модель не дообучал. Проверял полноту ответа: все точки, все шаги и конечность координат.
+
+В FMB v2 и Berkeley использовал общий конвейер: **MolmoPoint → SAM 2.1 → AllTracker → 3D-история → MolmoMotion**. Из 100 кандидатов выбирал 24 точки, прошедшие проверку. Глубину брал как медиану окна 5 × 5 пикселей; при сглаживании менял глубину, сохраняя положение точки на изображении. Доступа к SAM 3 не было.
+
+**Метрики.** ADE измеряет среднее расстояние между прогнозом и эталоном по доступным парам «точка / кадр». FDE измеряет ошибку на последнем шаге прогноза. Методы сравнивал на общих доступных парах; выход за границы изображения также учитывал в ошибке. Покрытие эталоном указывал отдельно.
+
+Обозначение **3D_est** означает оценку с приближённой геометрией. Она зависит от ошибок трекинга, глубины и калибровки. В ShareRobot ориентировался прежде всего на 2D-ошибку и просмотр траекторий; точность в реальных 3D-координатах этими оценками не подтверждена.
+
+<a id="davis"></a>
+## 1. DAVIS: авторское видео и аудит координат
+
+Выбрал `bmx-trees`: велосипедист едет между деревьями. На вход подал кадры **0, 1, 2** и восемь точек; прогноз охватывает кадры **3–32**. При исходной частоте 24 кадра/с это 1,25 секунды. Здесь входные данные уже подготовлены авторами; их конвейер перевода 2D → 3D отдельно не воспроизводил.
+
+<p align="center">
+  <img src="assets/readme/davis-pipeline.jpg" alt="DAVIS: входные кадры, запуск MolmoMotion, сравнение с продолжением и проверка проекции" width="1100">
+</p>
+
+[![DAVIS: реальное продолжение с авторской 2D-разметкой](assets/readme/davis.gif)][video-davis]
+
+*В GIF показано реальное видео с авторскими 2D-соответствиями. Сравнение 3D-прогноза с разметкой приведено на графике ниже; эти точки в GIF не являются проекцией прогноза.*
+
+| Метод | ADE 3D, м ↓ | FDE 3D, м ↓ |
+|---|---:|---:|
+| **MolmoMotion** | **0,376** | **0,724** |
+| Без движения | 1,949 | 3,707 |
+| Постоянная скорость | 0,573 | 1,089 |
+
+Эталон доступен для **215/240 пар (89,58%)**; на последнем кадре видны все восемь точек. Результат относится к одному эпизоду. По сведениям авторов, 3D-разметка получена с помощью ViPE; её точность независимо не подтверждена.
+
+<p align="center">
+  <img src="assets/readme/davis-tracks.jpg" alt="Траектории всех восьми точек DAVIS: история, прогноз MolmoMotion и доступный эталон" width="1100">
+</p>
+
+Перед прогнозом проверил проекции точек на трёх входных кадрах. При проекции только через K ошибка достигала **52,91 px**. Зафиксировав K, оценил R и t с помощью PnP; на использованных 2D–3D-соответствиях ошибка составила около **0,23 px**. Это проверка согласованности проекции с разметкой. Сохранённый прогноз DAVIS не переинтерпретировал как прогноз после исправления геометрии.
+
+В дополнительном эпизоде WorldTrack перевод одной и той же истории из мировой системы в систему камеры t₀ снизил ADE 3D с **0,074 до 0,054 м**. Система координат влияет на результат.
+
+Подробности: [эксперимент DAVIS](report/author_davis.md) · [аудит координат](report/author_davis_coordinate_audit.md) · [WorldTrack](report/second_episode_geometry.md).
+
+<a id="fmb"></a>
+## 2. ShareRobot: восстановление геометрии
+
+### FMB: исходная запись, глубина и калибровка
+
+Для ShareRobot `episode_5201` нашёл исходный FMB `1_M_L_3_vertical_n_2.npy`: **148 шагов, четыре RGB-D камеры и состояния робота**. Кадры ShareRobot 0 и 15 соответствуют шагам FMB 0 и 74. При выгрузке BGR был интерпретирован как RGB; исправил каналы и продолжил работу с исходной последовательностью.
+
+В FMB проверил обратную проекцию по RGB-D, калибровку по CAD, MoGe-2/3, UniDepthV2 и COLMAP. Надёжную геометрию получить не удалось: после приведения RGB к 256 × 256 границы изображения и глубины расходились на **4–13 px**, а K оставалась неустойчивой.
+
+| FMB n2 | FMB n3 |
+|:---:|:---:|
+| [![FMB n2: прогноз и наблюдаемое движение](assets/readme/fmb-n2.gif)][video-fmb-n2] | [![FMB n3: прогноз и наблюдаемое движение](assets/readme/fmb-n3.gif)][video-fmb-n3] |
+
+*В обеих сценах сохранялось значительное расхождение с наблюдаемым движением. Вклад калибровки отделить от других факторов не удалось.*
+
+<p align="center">
+  <img src="assets/readme/fmb-depth.jpg" alt="FMB: завышение глубины MoGe и UniDepth и ADE первых экспериментов" width="1100">
+</p>
+
+<details>
+<summary><b>Что проверил при восстановлении геометрии FMB</b></summary>
+
+| Подход | Наблюдение |
+|---|---|
+| RGB-D + K | Масштаб 0,0001 м/отсчёт согласуется с движением робота, но совмещение RGB/depth и K недостаточно надёжны. |
+| CAD / PnP | Размер детали 40,32 × 25,92 × 150 мм. Лучший вариант расходился с глубиной датчика на 4–5 мм, но при ошибке разметки 2 px оценка fx менялась от 134 до 225 px. |
+| Калибровка по плате | Ошибка проекции снизилась с 0,82 до 0,66 px, а ошибка Z выросла с 6,73 до 38,14 мм. Новую K не принял. |
+| MoGe-2, MoGe-3, UniDepthV2 | Все завышали глубину. Изменение соотношения сторон и угла обзора уменьшало расхождение, но не устраняло его. |
+| Масштабирование MoGe-2 | Ошибка Z снизилась с 24,69 до 11,66 мм в первом окне и со 139,17 до 9,48 мм во втором. Межкадровая нестабильность глубины сохранилась. |
+| COLMAP на FMB | Внутренняя ошибка репроекции 0,68 px; глубина платы расходилась с датчиком на 233 мм. Независимая проверка не пройдена. |
+
+Калибровка по захвату, аффинное совмещение RGB/depth и триангуляция по двум камерам также не дали надёжной оценки.
+
+В FMB v1 вручную выбирал восемь точек, использовал номинальную K и ECC для 2D-эталона. В v2 одновременно исправил цвет, изменил выбор точек, трекер и геометрию. Поэтому разницу между версиями нельзя приписать одному изменению.
+
+</details>
+
+### Чувствительность прогноза FMB
+
+Выполнил **26 прогнозов**, меняя текст, историю, масштаб XYZ, фокусное расстояние и порядок точек. Ниже показаны отдельные варианты на n2 относительно исходной ADE **124,14 px**.
+
+| Изменение | ADE 2D, px ↓ | Наблюдение |
+|---|---:|---|
+| Перефразировать ту же задачу | 122,37 | Ошибка почти не изменилась. |
+| Трижды повторить последний RGB-кадр и XYZ | 41,14 | Предсказанное движение почти исчезло. |
+| Умножить все XYZ на 0,9 | 59,40 | Ошибка снизилась. |
+| Переставить точки, сохранив первую опорную | 58,88 | Прогноз изменился. |
+
+Низкая ADE при почти неподвижном прогнозе не означает, что модель решила задачу. Эти прогоны проверяют чувствительность входа; переносимость найденных изменений отдельно не подтверждена.
+
+Материалы: [восстановление FMB](report/sharerobot_fmb_episode_5201.md) · [CAD](report/fmb_cad_metric_depth_experiment.md) · [калибровка K](report/fmb_effective_k_256_calibration.md) · [альтернативные методы](report/fmb_alternative_calibration_abc.md) · [геометрия и абляции](report/fmb_geometry_forecast_study.md) · [конвейер v2](report/fmb_v2_berkeley_matched.md).
+
+<a id="dobbe"></a>
+### DobbE: COLMAP, ViPE и проверка входа
+
+Для ShareRobot `episode_3651` нашёл исходную сцену со стаканом, но метаданных Record3D `.r3d` с калибровкой не хватало. COLMAP обработал все **96 кадров** с внутренней ошибкой **1,21 px**; независимая проверка по точкам фона дала **25,52 px**. Такая реконструкция проверку не прошла.
+
+С ViPE проверил три сцены: **A, стакан; B, рулон ленты; C, ящик**. Для подготовки входа использовал только кадры до t₀. Из 100 точек оставил восемь. Заранее задал пороги ошибки проекции статического фона: медиана ≤ 4 px, P90 ≤ 10 px.
+
+| Геометрия | Медиана / P90, px | Решение |
+|---|---:|---|
+| A, ViPE без VideoDepthAnything | 5,92 / 24,74 | Проверка не пройдена. |
+| B, ViPE без VideoDepthAnything | 7,25 / 22,43 | Проверка не пройдена; глубина завышена в 2,95 раза. |
+| C, ViPE без VideoDepthAnything | 1,35 / 3,07 | Вход прошёл проверку. |
+| C, сенсорная глубина с прежними K и позами | 5,52 / 7,84 | Проверка не пройдена; inference не запускал. |
+
+В сцене B Small VideoDepthAnything поместилась в 12 ГБ VRAM, но ошибки выросли до **8,31 / 23,05 px**.
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/dobbe_pure_vipe/media/legacy_comparison.mp4">
+    <img src="assets/readme/dobbe.gif" alt="DobbE C: реальное закрытие ящика и прогноз, включая точки вне изображения" width="620">
   </a>
 </p>
 
-<div align="center">
-  <img src="assets/teaser.png" alt="MolmoMotion teaser" width="1200">
-</div>
+В сцене C получен полный прогноз, но **ADE/FDE = 488,85/1267,45 px**; у неподвижности **168,26/556,14 px**. Оценка доступна для **152/240 пар**, на последнем кадре размечены четыре из восьми точек. Параметры камеры будущих кадров ненадёжны, поэтому ошибка прогноза и ошибка проекции здесь не разделены.
 
-<br>
+Подробности: [исходные DobbE данные](report/dobbe_episode_3651_recovery.md) · [COLMAP](report/dobbe_colmap_official_baseline.md) · [ViPE](report/dobbe_vipe_v1.md).
 
-MolmoMotion is a 4B vision-language model that **forecasts 3D point
-trajectories** under natural-language action instructions. Given a short
-RGB observation history, a set of user-specified 2D query points with their
-initial 3D positions, and a language description of the intended action,
-the model predicts each query point's 3D trajectory for up to ~2 seconds
-in the camera-frame-at-`t₀` coordinate frame. We show that the learned
-motion prior transfers to robotics planning and to motion-guided video
-generation.
+<a id="berkeley"></a>
+## 3. Berkeley UR5: измеренная глубина и коррекция смещения
 
-This repository covers the **autoregressive (AR) variant** from the paper,
-together with the [MolmoMotion-1M](https://huggingface.co/datasets/allenai/molmo-motion-1m)
-training corpus and the [PointMotionBench](https://huggingface.co/datasets/allenai/PointMotionBench)
-evaluation suite. See the [paper](https://arxiv.org/abs/2606.18558) or the
-[blog post](https://allenai.org/blog/molmo-motion) for the full
-methodology and results.
+Выбрал перенос бутылки, **эпизод 9, t₀ = 47**, и стакана, **эпизод 10, t₀ = 63**. В TFDS нашёл измеренную глубину RealSense, совмещённую с RGB; поле глубины LeRobot оказалось цветным видео. K оценил через UniDepthV2 на кадрах до t₀, неподвижность камеры проверил по фону.
 
-## Table of Contents
-- [Setup](#setup)
-  - [Installation](#installation)
-  - [Downloading the Dataset and Benchmark](#downloading-the-dataset-and-benchmark)
-  - [Downloading Released Models](#downloading-released-models)
-    - [Backbone init for training from scratch](#backbone-init-for-training-from-scratch)
-- [Quick Start](#quick-start)
-- [Data and benchmark construction](#data-and-benchmark-construction)
-- [Training](#training)
-  - [Stage 1 — Pretrain (P=8, H=3, F=8, 40K steps)](#stage-1--pretrain-p8-h3-f8-40k-steps)
-  - [Stage 2 — Long-horizon finetune (10K steps)](#stage-2--long-horizon-finetune-10k-steps)
-- [Evaluation](#evaluation)
-  - [PointMotionBench benchmark eval](#pointmotionbench-benchmark-eval)
-  - [Metric definitions (ADE / FDE / PWT)](#metric-definitions-ade--fde--pwt)
-- [HuggingFace Conversion](#huggingface-conversion)
-- [Robotics: MolmoBot finetuning](#robotics-molmobot-finetuning)
-- [Citation](#citation)
-- [License](#license)
+<p align="center">
+  <img src="assets/readme/berkeley-pipeline.jpg" alt="Berkeley: RGB-D, MolmoPoint, SAM 2.1, AllTracker, подготовка 3D-истории и прогноз" width="1100">
+</p>
 
-# Setup
+Исходная запись имеет частоту **5 кадров/с**, модель рассчитана на **15 кадров/с**. Для оценки взял шаги прогноза 3, 6, …, 30, соответствующие 0,2, 0,4, …, 2,0 с. Три входных кадра сохранил с интервалом 0,2 с. Влияние различия частот отдельно не проверял.
 
-## Installation
+| Бутылка | Стакан |
+|:---:|:---:|
+| [![Berkeley, бутылка: прогноз и наблюдаемое движение](assets/readme/berkeley-bottle.gif)][video-bottle] | [![Berkeley, стакан: прогноз и наблюдаемое движение](assets/readme/berkeley-cup.gif)][video-cup] |
 
-```bash
-git clone https://github.com/allenai/molmo-motion.git
-cd molmo-motion
-conda create -n molmo-motion python=3.11 -y
-conda activate molmo-motion
-pip install -e .[viz]
-```
+Модель предсказывала слишком большое перемещение. Проверил уменьшение смещения относительно t₀ в три раза. Для бутылки в итоговом наборе сохранён вариант `late_036_lift005`; строка «после коррекции» ниже относится к нему. Для стакана показана поправка ×1/3. Коррекцию выбирал на уже просмотренных сценах; для дальнейшего DaS-эксперимента со стаканом сохранил **исходный прогноз**.
 
-> **GPU / driver note.** `pip install` pulls the default PyTorch wheels,
-> which target the newest CUDA runtime and may not match an older driver
-> (`torch.cuda.is_available()` then returns `False`). If so, install a torch
-> build matching your driver from the PyTorch index, e.g. for a CUDA 12.8
-> driver:
-> ```bash
-> pip install "torch==2.9.1" torchvision "torchcodec==0.9.*" \
->     --index-url https://download.pytorch.org/whl/cu128
-> ```
-> `torchcodec` must match the torch minor version (0.9.x ↔ torch 2.9). The
-> video decoder also needs FFmpeg shared libraries on the system
-> (`conda install -c conda-forge ffmpeg`); the bundled training/eval recipes
-> decode with OpenCV and do not require it, but the `torchcodec_exact` path
-> does.
+| Сцена | Метод | ADE 2D, px ↓ | FDE 2D, px ↓ | ADE 3D_est, мм ↓ |
+|---|---|---:|---:|---:|
+| Бутылка | Исходный H3 | 218,39 | 201,40 | 266,49 |
+| Бутылка | После коррекции, `late_036_lift005` | 45,69 | 33,58 | 58,91 |
+| Бутылка | **Постоянная скорость** | **11,05** | **11,93** | **42,62** |
+| Стакан | Исходный H3 | 193,57 | 224,48 | 222,20 |
+| Стакан | Смещение ×1/3 | 46,92 | 69,21 | 58,52 |
+| Стакан | **Постоянная скорость** | **2,91** | **7,37** | **14,29** |
 
-Installation registers three console scripts:
+Постоянная скорость точнее по ADE/FDE в обеих сценах. Эти метрики не учитывают столкновения: пригодность траектории для действия нужно проверять отдельно. Для 2D доступны **240/240 пар** в каждой сцене; для 3D_est **235/240** у бутылки и **238/240** у стакана.
 
-| Command | Purpose |
-|---|---|
-| `molmo-motion-train` | torchrun-compatible YAML-config training driver (the released recipes use `torchrun launch_scripts/sft.py` directly — see [Training](#training)) |
-| `molmo-motion-eval` | torchrun-compatible YAML-config evaluation driver |
-| `molmo-motion-convert-hf` | OLMo-native → HuggingFace checkpoint converter |
+<details>
+<summary><b>Исходные траектории и результат коррекции</b></summary>
 
-## Downloading the Dataset and Benchmark
+![Исходные предсказанные траектории Berkeley](assets/readme/berkeley-original.jpg)
 
-Training and evaluation read two separate corpora from HuggingFace:
+![Прогноз Berkeley после уменьшения смещения в три раза](assets/readme/berkeley-scaled.jpg)
 
-| Path | Used for | HF repo |
+В исходном рисунке розовым показан прогноз, голубым обозначена входная история. В документации итоговой ветки основным вариантом бутылки выбран `late_036_lift005`, а стакана `original_physical`.
+
+</details>
+
+Материалы: [история Berkeley](runs/berkeley_ur5_molmomotion/research_story.md) · [итоговые варианты](https://github.com/AlexeyPetrov1/Airi_research_task/blob/f7403e5e5685fe8d235ad7565d8315804b4e0e11/docs/experiments.md) · [ограничения](https://github.com/AlexeyPetrov1/Airi_research_task/blob/f7403e5e5685fe8d235ad7565d8315804b4e0e11/docs/experiment_scope.md).
+
+<a id="das"></a>
+## 4. MolmoMotion → DaS: от первой генерации к H5
+
+Для сцены со стаканом использовал **DaS из ветки Wanfun и Wan2.1-Fun 1.3B Control**. На RTX 4070 запускал BF16 с переносом частей модели в RAM. В MolmoMotion подал кадры **61, 62, 63** эпизода Berkeley 10 и соответствующую 3D-историю; DaS получила кадр t₀ и управляющее видео по сохранённому прогнозу.
+
+<p align="center">
+  <img src="assets/readme/das-pipeline.svg" alt="MolmoMotion → управляющее видео → DaS H5: дуга воспроизведена, стакан не попадает в цель" width="1100">
+</p>
+
+### Управление и первая попытка
+
+| Управляющее видео для H5 | Первая генерация |
+|:---:|:---:|
+| [![Управление H5: движение стакана и звеньев манипулятора](assets/readme/das-control.gif)][video-control] | [![Первая генерация DaS: дубликат стакана и неподвижный захват](assets/readme/das-first.gif)][video-first] |
+
+В первой генерации исходный стакан оставался на месте, а по заданной траектории двигалась его копия. Стакан деформировался, двигался отдельно от захвата и проходил сквозь манипулятор. Ошибка относительно реального продолжения выглядела небольшой: трекер следил за рисунком исходного стакана. Поэтому оценивал результат также просмотром видео.
+
+Для устранения дубликата восстанавливал фон на исходном месте стакана, менял опорное изображение и после каждого шага генерации ограничивал освобождённую область изображением пустого фона. Движущийся стакан защищал от этого ограничения.
+
+| v6: устранение постоянного дубликата | F: синтез с известным конечным кадром |
+|:---:|:---:|
+| [![DaS v6: постоянный дубликат исчезает, внешний вид стакана меняется](assets/readme/das-v6.gif)][video-v6] | [![DaS F: интерполяция с использованием реального будущего кадра](assets/readme/das-f.gif)][video-f] |
+
+**Вариант F использует реальный будущий кадр 73.** В нём исходную пространственную дугу заменил переходом между известными видами; MolmoMotion задаёт степень продвижения. Это отдельная проверка синтеза. В остальных описанных вариантах будущие RGB-кадры использовал только для оценки после генерации.
+
+<details>
+<summary><b>Как менялись варианты устранения дубликата v1–v6</b></summary>
+
+| Вариант | Изменение | Результат |
 |---|---|---|
-| `MOLMO_MOTION_1M_ROOT` | Training | [`allenai/molmo-motion-1m`](https://huggingface.co/datasets/allenai/molmo-motion-1m) |
-| `POINTMOTIONBENCH_ROOT` | Evaluation | [`allenai/PointMotionBench`](https://huggingface.co/datasets/allenai/PointMotionBench) |
+| v1 | Восстановил скрытый фон управляющего видео. | Неподвижный стакан сохранился. |
+| v2 | Отключил отдельное `ref_image`, сохранил начальный кадр и CLIP-условие. | Неподвижный стакан сохранился. |
+| v3 | Передал в `ref_image` фон без стакана. | Неподвижный стакан сохранился. |
+| v4 | Добавил ограничение пустой области после каждого шага генерации. | Остался полупрозрачный силуэт. |
+| v5 | Расширил маску на 24 px с защитой движущегося объекта. | Основная часть дубликата исчезла; края ещё сохранялись. |
+| v6 | Убрал тёмно-синий край стакана из маски защиты захвата. | С 0,5 с постоянный дубликат исчез; внешний вид стакана меняется. |
 
-Export both before running anything in this README. The two roots must
-point at **new directories outside this repo** — they will be populated
-by `hf download` below. Do not point them at
-[`dataset_recipes/`](dataset_recipes/) or
-[`pointmotionbench/`](pointmotionbench/), which only hold recipes and
-documentation.
+В серии фиксировал прогноз, 24 точки, движение жёсткого тела, seed 42 и 25 шагов генерации. Эти номера v1–v6 относятся к DaS; FMB v2 обозначает другой конвейер.
 
-```bash
-export MOLMO_MOTION_1M_ROOT=/your/path/to/molmo-motion-1m
-export POINTMOTIONBENCH_ROOT=/your/path/to/PointMotionBench
+</details>
+
+### H1–H5: сохранение дуги и движение манипулятора
+
+Прогнозы трёх групп по восемь точек были несогласованы. Для H1–H5 использовал первую группу: её траектории лучше соответствовали движению одного жёсткого тела. Цвет каждой точки сохранял во всех кадрах управления.
+
+| Вариант | Что изменил | Наблюдение |
+|---|---|---|
+| [H1][video-h1] | Дуга за 2 с, затем удержание до 6 с; без ограничения внешнего вида. | Стакан и захват теряли форму. |
+| [H2][video-h2] | Ту же дугу растянул на 6 с. | Стакан и захват движутся; плечо и предплечье неподвижны. |
+| [H3][video-h3] | К H2 добавил ограничение внешнего вида из t₀, коэффициент 0,25. | Форма и рисунок сохраняются лучше; ADE к управляющей траектории снизилась с 7,92 до 4,09 px. |
+| [H4][video-h4] | Отключил управление траекторией относительно H2. | Требуемая дуга не воспроизвелась; стакан потерял форму. |
+| [H5][video-h5] | Добавил движение плеча и предплечья и восстановил скрытый фон; ограничение 0,25. | Движется весь манипулятор, кроме основания; стакан не попадает в цель. |
+
+*H1–H5 здесь обозначают номера DaS-экспериментов. В названии модели MolmoMotion-4B-H3-F30 H3 означает три входных кадра.*
+
+| H2: плечо и предплечье неподвижны | H4: управление траекторией отключено |
+|:---:|:---:|
+| [![DaS H2: стакан и захват движутся, плечо и предплечье остаются на месте](assets/readme/das-h2.gif)][video-h2] | [![DaS H4: без управления требуемая дуга не воспроизводится](assets/readme/das-h4.gif)][video-h4] |
+
+В H5 восстановил приближённое движение звеньев UR5 по состояниям суставов до t₀. Пространственную дугу стакана и захвата сохранил; движение растянул с 2 до 6 секунд, получив 49 кадров. Опорное видео из t₀ использовал после каждого шага генерации с коэффициентом 0,25.
+
+<p align="center">
+  <img src="assets/readme/das-comparison.jpg" alt="Кадры H5 на 0, 2, 4 и 6 секундах в сравнении с H2 и H4" width="1100">
+</p>
+
+| Проверка на общих видимых парах | ADE, px | Пары |
+|---|---:|---:|
+| Ограничение внешнего вида: H2 → H3 | 7,92 → 4,09 | 252 |
+| Отключение управления: H2 → H4 | 7,21 → 199,91 | 225 |
+| Точки плеча и предплечья: H3 / H5 | 17,03 / 0,90 | 133 |
+
+В H5 ошибка относительно **выбранного прогноза**, а не реального продолжения, составляет **ADE 4,31 px / FDE 5,06 px** на **281/392 парах (71,68%)**. Потерянные трекером точки в оценку не входят. Просмотрел все 49 кадров: стакан узнаваем, но рисунок меняется. Приближённая геометрия манипулятора не подходит для управления реальным роботом.
+
+Генерация H5 заняла **507,4 с** при **seed 42 и 30 шагах**; пик выделенной VRAM **9,88 GiB**, памяти процесса **21,14 GiB**.
+
+Материалы DaS: [первая генерация][report-das-first] · [устранение дубликата][report-das-dedup] · [серия H1–H5 и команды][report-das-h] · [вариант F][report-das-f].
+
+<a id="reproduce"></a>
+## 5. Воспроизведение
+
+Ветка **[`molmo-motion-packaged`](https://github.com/AlexeyPetrov1/Airi_research_task/tree/molmo-motion-packaged)** содержит общий CLI, фиксированные входы, эталоны и сохранённые прогнозы. Исходные алгоритмы модели при упаковке не менял. Код DaS находится отдельно, в **[`codex/das-full-motion-20261003`](https://github.com/AlexeyPetrov1/Airi_research_task/tree/codex/das-full-motion-20261003)**: ему требуется другая среда.
+
+```text
+Airi_research_task/             # ветка molmo-motion-packaged
+├── src/
+│   ├── molmo_motion/           # модель
+│   └── motion_experiments/     # запуск, метрики, визуализация
+├── configs/                   # семь фиксированных примеров
+├── fixtures/                  # входы, эталоны, сохранённые прогнозы
+├── tests/                     # проверки
+├── tools/                     # итоговая проверка экспериментов
+├── docs/                      # отчёты и происхождение данных
+└── pyproject.toml
 ```
 
-Download:
-
-```bash
-# Training corpus.
-hf download allenai/molmo-motion-1m \
-    --repo-type dataset --local-dir $MOLMO_MOTION_1M_ROOT
-
-# Evaluation benchmark — only needed for `launch_scripts/eval_pointmotionbench.py`.
-hf download allenai/PointMotionBench \
-    --repo-type dataset --local-dir $POINTMOTIONBENCH_ROOT
-```
-
-Layout after download:
-
-```
-$MOLMO_MOTION_1M_ROOT/
-├── egodex/         annotations/  tracks/  camera/
-├── ytvis/          annotations/  tracks/  camera/
-├── hdepic/         annotations/  tracks/  camera/
-├── xperience/      annotations/  tracks/
-├── stereo4d/       annotations/  track_index/
-├── droid/          annotations/  tracks/  camera/    # robot teleop, NOT used by the default recipe
-└── molmospaces/    annotations/  tracks/  camera/  videos/    # sim, NOT used by the default recipe
-
-$POINTMOTIONBENCH_ROOT/
-├── hot3d/
-├── worldtrack/
-└── davis/
-```
-
-The five datasets above the line are the ones the public training recipe
-uses (see [Training](#training)). DROID and MolmoSpaces ship under the same
-root for users who want to extend the recipe, but the bundled recipe does
-not touch them.
-
-Most datasets ship annotations + tracks + per-frame camera; the raw videos
-(and, per dataset, some derived signals) are license-restricted and are
-reconstructed locally from each subset's original source. Each dataset
-directory on HuggingFace includes its own `README.md` and reconstruction
-script — see [Data and benchmark construction](#data-and-benchmark-construction).
-
-## Downloading Released Models
-
-All released checkpoints are the **autoregressive (AR) variant** of
-MolmoMotion. 
-
-| Model | History H | Future F | HuggingFace |
-|---|---:|---:|---|
-| **MolmoMotion-4B-H3-F30** | 3 | 30 | [allenai/MolmoMotion-4B-H3-F30](https://huggingface.co/allenai/MolmoMotion-4B-H3-F30) |
-| **MolmoMotion-4B-H1-F32** | 1 | 32 | [allenai/MolmoMotion-4B-H1-F32](https://huggingface.co/allenai/MolmoMotion-4B-H1-F32) |
-
-```bash
-hf download allenai/MolmoMotion-4B-H3-F30 \
-    --local-dir checkpoints/MolmoMotion-4B-H3-F30
-```
-
-Pick H=3 / F=30 for typical video use (3 history frames, predict 2 seconds at
-15 fps). Pick H=1 / F=32 when only a single query keyframe is available.
-
-### Backbone init for training from scratch
-
-Stage-1 training (see [Training](#training)) starts from the
-**`Molmo2-4B-Pretrain`** checkpoint — the pretrain stage of
-[Molmo2](https://github.com/allenai/molmo2), released by Ai2
-alongside the Molmo2 codebase. Download URL is published in the Molmo2 README's
-[Checkpoints table](https://github.com/allenai/molmo2#checkpoints):
-
-```bash
-wget https://storage.googleapis.com/oe-training-public/Molmo2-1225/Molmo2-4B-Pretrain.tar
-tar -xvf Molmo2-4B-Pretrain.tar
-# The extracted folder is what `/path/to/Molmo2-4B-Pretrain` refers to in Stage 1.
-```
-`oe-training-public` is an unauthenticated GCS bucket, so the `wget`
-above works without any `gcloud` credentials.
-
-
-
-# Quick Start
-
-Below we run a single forward pass on a bundled clip and read the
-`(P, F, 3)` future trajectory. Expected wall-clock on a single 80 GB A100:
-~110 s for checkpoint load + ~40 s for `predict_trajectory()`.
-
-For the full runnable script — including rendering the prediction as a 2D-track
-MP4 over the `t₀` frame — see [`examples/01_quickstart.py`](examples/01_quickstart.py)
-(`python examples/01_quickstart.py`, or `--from-prediction` to render from a
-bundled prediction with no GPU). Details in [`examples/README.md`](examples/README.md).
-
-```python
-import torch
-from PIL import Image
-
-from molmo_motion import MolmoMotion, MolmoMotionProcessor
-
-CKPT = "allenai/MolmoMotion-4B-H3-F30"
-
-# 1. Load model + matching processor.
-processor = MolmoMotionProcessor.from_pretrained(CKPT)
-model = MolmoMotion.from_pretrained(CKPT)
-model._internal = model._internal.to(torch.bfloat16).cuda()  # 4B params
-
-# 2. Build one inference example. With the H=3 model:
-#       history_frames        — three PIL images,  ordered earliest → t₀
-#       points_2d_at_t0       — (P, 2) tensor of pixel coords at t₀
-#       points_3d_history     — (H, P, 3) tensor in camera-frame-at-t₀
-#       action                — short action description
-#       future_horizon        — number of future frames to predict
-EXAMPLE_DIR = "examples/data/davis_bmx_trees"
-history_frames = [
-    Image.open(f"{EXAMPLE_DIR}/frame_t-2.jpg").convert("RGB"),
-    Image.open(f"{EXAMPLE_DIR}/frame_t-1.jpg").convert("RGB"),
-    Image.open(f"{EXAMPLE_DIR}/frame_t+0.jpg").convert("RGB"),
-]
-points_2d_at_t0   = torch.load(f"{EXAMPLE_DIR}/points_2d_at_t0.pt")
-points_3d_history = torch.load(f"{EXAMPLE_DIR}/points_3d_history.pt")
-action = open(f"{EXAMPLE_DIR}/caption.txt").read().strip()
-
-inputs = processor(
-    history_frames=history_frames,
-    points_2d_at_t0=points_2d_at_t0,
-    points_3d_history=points_3d_history,
-    action=action,
-    future_horizon=30,
-)
-inputs = {k: v.cuda() if torch.is_tensor(v) else v for k, v in inputs.items()}
-
-# 3. Forward.
-with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
-    out = model.predict_trajectory(**inputs)
-
-# 4. `out.future_3d` is the decoded prediction: a (P=8, F=30, 3) tensor of
-#    absolute camera-frame XYZ coordinates in meters, one row per future
-#    frame, for each of the 8 query points (no further parsing needed —
-#    `predict_trajectory` already turned the raw `<tracks>` block into
-#    floats and added the anchor back).
-future_3d = out.future_3d.cpu().numpy()          # (8, 30, 3), meters
-print(f"future_3d.shape: {future_3d.shape}")
-
-# Per-point predicted positions at the first future frame (= t₀ + 1):
-for pi in range(future_3d.shape[0]):
-    x, y, z = future_3d[pi, 0]
-    print(f"  point {pi}: (x={x:+.3f}, y={y:+.3f}, z={z:+.3f}) m")
-
-# Point 0's full predicted trajectory across all 30 future frames:
-print(f"point 0 trajectory (F=30): {future_3d[0].round(3).tolist()}")
-
-# 5. Visualize straight from the prediction with `render_trajectory_mp4`
-#    (defined in examples/01_quickstart.py): a 2D track over the t₀ frame.
-render_trajectory_mp4(
-    out.future_3d,
-    t0_image=history_frames[-1],
-    intrinsics=torch.load(f"{EXAMPLE_DIR}/intrinsics_K.pt"),
-    points_2d_at_t0=points_2d_at_t0,
-    output_path="davis_bmx_trees_2d.mp4",
-)
-```
-
-# Data and benchmark construction
-
-`MOLMO_MOTION_1M_ROOT` and `POINTMOTIONBENCH_ROOT` only land annotations,
-tracks, and (for most datasets) camera when downloaded — the raw videos and
-a few derived signals are license-restricted and rebuilt locally. The
-recipes live in three places; each per-dataset `README.md` is
-**authoritative**.
-
-| Where | What it provides |
+| Конфигурация | Пример |
 |---|---|
-| [`allenai/molmo-motion-1m`](https://huggingface.co/datasets/allenai/molmo-motion-1m) (HF) | Per-dataset reconstruction for `MOLMO_MOTION_1M_ROOT` — each `<dataset>/` ships its `README.md` + `reconstruct_*.py` alongside the annotations (EgoDex, YT-VIS, HD-EPIC, Xperience, Stereo4D, DROID, MolmoSpaces). See [`dataset_recipes/`](dataset_recipes/) for the pointer. |
-| [`pointmotionbench/`](pointmotionbench/) | Per-subset reconstruction for `POINTMOTIONBENCH_ROOT` (DAVIS / HOT3D / WorldTrack) |
-| [`data_generation/`](data_generation/) | The pipeline code that annotates new raw videos with the same 3D track annotation schema |
+| `author_davis` | DAVIS `bmx-trees`, 8 точек, H3/F30 |
+| `fmb_wrist_1`, `fmb_wrist_2` | Две камеры FMB; выбранная кинематика и ограниченная поправка MolmoMotion |
+| `berkeley_bottle` | Сохранённые варианты бутылки, основной `late_036_lift005` |
+| `berkeley_cup` | Исходный физический прогноз стакана, `original_physical` |
+| `dobbe` | DobbE C, `pure_vipe`, условная 2D-диагностика |
+| `dobbe_blocked` | Ожидаемая остановка до inference при несогласованной геометрии |
 
-After following the per-dataset READMEs (reconstruction adds `videos/`
-and, per dataset, the remaining derived signals), the two roots look like:
-
-```
-$MOLMO_MOTION_1M_ROOT/
-├── egodex/         annotations/  tracks/  camera/  videos/
-├── ytvis/          ...
-├── hdepic/         ...
-├── xperience/      ...
-├── stereo4d/       ...
-├── droid/          ...
-└── molmospaces/    ...
-
-$POINTMOTIONBENCH_ROOT/
-├── davis/
-├── hot3d/
-└── worldtrack/
-```
-
-Training reads from `$MOLMO_MOTION_1M_ROOT`; eval reads from
-`$POINTMOTIONBENCH_ROOT`. No glue beyond setting the env vars.
-
-> **Stereo4D heads-up.** The HuggingFace download ships only a `track_index/`
-> for Stereo4D; `tracks/` and `camera/` are both rebuilt locally. Run
-> `$MOLMO_MOTION_1M_ROOT/stereo4d/reconstruct_tracks.py` (per
-> `stereo4d/README.md`) before `scripts/build_track_keys_cache.py`,
-> otherwise the cache builder reports all 23,011 Stereo4D entries as
-> missing NPZs.
-
-# Training
-
-MolmoMotion is trained in **two stages**. Both stages share the public
-training mix — the five human-video datasets in MolmoMotion-1M
-(EgoDex, YT-VIS, HD-EPIC, Xperience, Stereo4D); DROID and MolmoSpaces are
-excluded by default. Both stages start from a **Molmo2-4B-Pretrain**
-checkpoint as the VLM backbone.
-
-We assume the corpus is downloaded as described in
-[Downloading the Dataset and Benchmark](#downloading-the-dataset-and-benchmark)
-and the env vars are exported.
+### Установка в Linux / WSL
 
 ```bash
-export MOLMO_MOTION_1M_ROOT=/your/path/to/molmo-motion-1m
-export POINTMOTIONBENCH_ROOT=/your/path/to/PointMotionBench
+git clone --single-branch --branch molmo-motion-packaged \
+  https://github.com/AlexeyPetrov1/Airi_research_task.git
+cd Airi_research_task
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install torch==2.9.1 torchvision==0.24.1 \
+  --index-url https://download.pytorch.org/whl/cu128
+pip install torchcodec==0.9.1 \
+  --index-url https://download.pytorch.org/whl/cpu --no-deps
+pip install '.[dev]'
+hf download allenai/MolmoMotion-4B-H3-F30 config.yaml model.pt \
+  --revision 3f5e790a511ff2cdf21c8d2a14cb4d8409c94629 \
+  --local-dir data/checkpoints/MolmoMotion-4B-H3-F30
 ```
 
-Before the first run, build the track-keys cache (a one-time scan that
-lets the loader drop split entries whose NPZ keys diverged upstream):
+Нужны системные библиотеки FFmpeg для TorchCodec. Веса занимают около 18 ГБ. [Полная инструкция установки](https://github.com/AlexeyPetrov1/Airi_research_task/blob/f7403e5e5685fe8d235ad7565d8315804b4e0e11/README.md) и [снимок зависимостей](https://github.com/AlexeyPetrov1/Airi_research_task/blob/f7403e5e5685fe8d235ad7565d8315804b4e0e11/configs/installed-packages-wsl.txt) относятся к готовой ветке; [README_SETUP.md](README_SETUP.md) описывает раннюю подготовку первого запуска.
+
+### Новый прогноз или воспроизведение сохранённого
 
 ```bash
-python scripts/build_track_keys_cache.py
+# Новый inference
+molmo-motion-experiment --config configs/author_davis.json \
+  --checkpoint "$PWD/data/checkpoints/MolmoMotion-4B-H3-F30"
+
+# Replay сохранённого прогноза с расчётом метрик и визуализацией
+molmo-motion-experiment --config configs/author_davis.json --mode replay \
+  --checkpoint "$PWD/data/checkpoints/MolmoMotion-4B-H3-F30"
 ```
 
-The training recipes log to [Weights & Biases](https://wandb.ai), so export
-your project and entity before launching (the run aborts with an error if
-either is unset):
+Меняется конфигурация, расчёт метрик и визуализация остаются общими. Результаты сохраняются в `outputs/<run_id>/`: прогнозы, метрики, графики и видео собраны на странице `index.html`. Шесть успешных экспериментов повторены; результаты упаковки совпали с исследовательскими прогонами. Отдельная отрицательная проверка останавливает несогласованный вход до запуска модели.
 
-```bash
-export WANDB_PROJECT=molmo-motion
-export WANDB_ENTITY=<your-wandb-entity>
-# or disable logging entirely:  export WANDB_MODE=disabled
-```
+[Итоговая проверка](https://github.com/AlexeyPetrov1/Airi_research_task/blob/f7403e5e5685fe8d235ad7565d8315804b4e0e11/docs/final_verification.md) · [конфигурации](https://github.com/AlexeyPetrov1/Airi_research_task/tree/f7403e5e5685fe8d235ad7565d8315804b4e0e11/configs) · [история исследования на main](report/) · [источники данных](DATA_SOURCES.md).
 
-## Stage 1 — Pretrain (P=8, H=3, F=8, 40K steps)
+<a id="lessons"></a>
+## Что вынес из работы
 
-Train on the five human-video datasets with sqrt-frequency mixing
-(`p_i ∝ √N_i`) — this is the recipe the released `H3-Pretrain` model uses.
+- Низкие ADE/FDE не гарантируют выполнение задачи. Метрики не штрафуют столкновения и сами по себе не проверяют попадание в цель.
+- Геометрию нужно проверять независимо. Малая внутренняя ошибка COLMAP или PnP ещё не подтверждает верный масштаб глубины и устойчивую калибровку.
+- Перед восстановлением 3D стоит проверить неподвижность камеры; для движущейся камеры нужны покадровые R и t.
+- Текст, история, масштаб координат и порядок точек могут существенно менять прогноз. В FMB понижение ADE иногда сопровождалось исчезновением движения.
+- Текстура стакана Berkeley могла помогать трекингу, а однотонные детали FMB могли мешать. Это гипотеза, влияние текстуры отдельно не проверял.
+- Управление траекторией и ограничение внешнего вида улучшили DaS в этой сцене. H5 следует исходной дуге, но стакан не попадает в целевой стакан.
 
-```bash
-torchrun --nproc-per-node=8 launch_scripts/sft.py \
-    /path/to/Molmo2-4B-Pretrain \
-    trajectory_3d_human_p8_h3_f8 \
-    --save_folder=checkpoints/MolmoMotion-Stage1 \
-    --model.mm_preprocessor.video.max_frames=3 \
-    --model.mm_preprocessor.image.max_crops=1 \
-    --seq_len=2560 \
-    --model.llm.max_sequence_length=2560 \
-    --device_batch_size=2 \
-    --max_duration=40000 \
-    --save_interval=2000 \
-    --eval_interval=5000
-```
+<details>
+<summary><b>Сравнение подходов к геометрии и коррекции</b></summary>
 
-Recipe summary:
+| Подход | Что требуется | Практическое ограничение | Результат |
+|---|---|---|---|
+| RGB-D + K | Глубина, K, совмещение с RGB | Надёжный масштаб и калибровка | FMB остаётся приближённым; Berkeley имеет более надёжную глубину. |
+| CAD / PnP | Размеры детали и её контур | Видимые соответствия и разные ракурсы | Глубина близка к датчику, K неустойчива. |
+| MoGe / UniDepth | RGB до t₀ | Ошибка масштаба и межкадровая нестабильность | Масштабирование глубины не дало устойчивого улучшения прогноза. |
+| COLMAP | Видео с различимыми деталями | Движущиеся объекты, почти неподвижная камера | Все кадры обработаны, независимая проверка не пройдена. |
+| ViPE | Видео до t₀ | Отдельный контроль геометрии; точного 3D-эталона нет | Вход DobbE C прошёл проверку, прогноз расходится с видео. |
+| Коррекция смещения | Готовый H3-прогноз | Подбор на уже просмотренных сценах | Berkeley точнее исходного прогноза, но уступает постоянной скорости. |
 
-| Field | Value |
-|---|---|
-| Backbone init | `Molmo2-4B-Pretrain` |
-| Dataset name | `trajectory_3d_human_p8_h3_f8` |
-| Datasets in mix | egodex, ytvis, hepic, xperience, stereo4d |
-| Mixing | sqrt-frequency |
-| Points P | 8 |
-| History H | 3 |
-| Future F | 8 |
-| Steps | 40,000 |
-| Compute (released) | 16 GPUs (2 nodes × 8 GPUs) |
-| Seq-len | 2560 |
-| Precision | bf16 + FSDP2 |
+Metric3D, DepthAnythingV2, DUSt3R, MASt3R и VGGT рассматривал, но не запускал. VideoDepthAnything проверял в составе ViPE.
 
-The `_human` token expands to the 5-dataset mix above. To train on a custom
-subset, list datasets explicitly:
+</details>
 
-```bash
-# egodex only
-trajectory_3d_egodex_p8_h3_f8
-# 3-dataset ablation
-trajectory_3d_egodex_xperience_hepic_p8_h3_f8
-```
+### Источники и авторство
 
-## Stage 2 — Long-horizon finetune (10K steps)
+Работа основана на [MolmoMotion от Ai2](https://github.com/allenai/molmo-motion), исходный commit `61f5b21b694ad8f854ec7ecd2400005acc73f685`. Исследовательские отчёты и эксперименты в этом репозитории выполнены Петровым Алексеем. Модель и исходный код принадлежат их авторам.
 
-Continue from the Stage-1 checkpoint with a longer future horizon. Two
-flavors are released, differing only in the history length:
+[Статья MolmoMotion](https://arxiv.org/abs/2606.18558) · [веса H3-F30](https://huggingface.co/allenai/MolmoMotion-4B-H3-F30) · [исходный README модели](https://github.com/allenai/molmo-motion/blob/61f5b21b694ad8f854ec7ecd2400005acc73f685/README.md) · [лицензия Apache 2.0](LICENSE).
 
-```bash
-# H=3, F=30 (typical 3-frame video setting)
-torchrun --nproc-per-node=8 launch_scripts/sft.py \
-    checkpoints/MolmoMotion-Stage1/step40000 \
-    trajectory_3d_human_p8_h3_f30 \
-    --save_folder=checkpoints/MolmoMotion-H3-F30 \
-    --model.mm_preprocessor.video.max_frames=3 \
-    --model.mm_preprocessor.image.max_crops=1 \
-    --seq_len=6144 \
-    --model.llm.max_sequence_length=6144 \
-    --device_batch_size=2 \
-    --max_duration=10000 \
-    --save_interval=1000 \
-    --eval_interval=2500
+Лицензии датасетов и сторонних компонентов указаны в [DATA_SOURCES.md](DATA_SOURCES.md) и [THIRD-PARTY-NOTICES](THIRD-PARTY-NOTICES). Их условия могут отличаться от лицензии основного кода.
 
-# H=1, F=32 (single-keyframe setting)
-torchrun --nproc-per-node=8 launch_scripts/sft.py \
-    checkpoints/MolmoMotion-Stage1/step40000 \
-    trajectory_3d_human_p8_h1_f32 \
-    --save_folder=checkpoints/MolmoMotion-H1-F32 \
-    --model.mm_preprocessor.video.max_frames=1 \
-    --model.mm_preprocessor.image.max_crops=1 \
-    --seq_len=6144 \
-    --model.llm.max_sequence_length=6144 \
-    --device_batch_size=2 \
-    --max_duration=10000 \
-    --save_interval=1000 \
-    --eval_interval=2500
-```
-
-Stage 2 uses the **same five-dataset mix** as Stage 1; only the future
-horizon F and (for the H=1 variant) the history length H change. Every
-annotated clip in the five datasets contributes to training — there is no
-held-out human-corpus split. Evaluation is run separately on
-[PointMotionBench](#evaluation), which never overlaps with training data.
-
-# Evaluation
-
-We evaluate on **PointMotionBench** (HOT3D + WorldTrack + DAVIS) following
-the same setup as the paper:
-
-- Predict future motion for up to **2 seconds at 15 fps** (F=30) — or F=32
-  for the H=1 release.
-- If the clip is shorter, evaluate only on the valid future frames.
-- Use **all annotated query points per clip** (not just 8): the model
-  predicts in `P=8` chunks, with metrics averaged across all points so
-  the comparison is fair across model sizes.
-- Best-of-1 deterministic decoding (greedy) by default; the paper reports
-  best-of-5 numbers, see `--n_samples=5` to reproduce.
-
-## PointMotionBench benchmark eval
-
-`launch_scripts/eval_pointmotionbench.py` is single-rank — its inner
-`full_rollout` driver does not shard configs across ranks. Run with
-`--nproc-per-node=1` and one inference GPU; one full run is ~9 GPU-hours
-total for both checkpoints across all three subsets at the default
-`--max_points_per_clip 24` recipe.
-
-```bash
-# H=3, F=30 model
-torchrun --nproc-per-node=1 launch_scripts/eval_pointmotionbench.py \
-    checkpoints/MolmoMotion-4B-H3-F30 \
-    --benchmarks hot3d,worldtrack,davis \
-    --all_points \
-    --fixed_t0 \
-    --history 3 --future 30 \
-    --output_dir eval_out/MolmoMotion-4B-H3-F30
-
-# H=1, F=32 model
-torchrun --nproc-per-node=1 launch_scripts/eval_pointmotionbench.py \
-    checkpoints/MolmoMotion-4B-H1-F32 \
-    --benchmarks hot3d,worldtrack,davis \
-    --all_points \
-    --fixed_t0 \
-    --history 1 --future 32 \
-    --output_dir eval_out/MolmoMotion-4B-H1-F32
-```
-
-Flag semantics:
-
-| Flag | Meaning |
-|---|---|
-| `--all_points` | Don't sub-sample 8 query points per clip — chunk every visible point into groups of P=8 and average the metric across chunks. |
-| `--max_points_per_clip 24` | Cap the per-clip visible-point pool *before* chunking, so each clip emits at most ⌈24 / P⌉ = 3 records. Matches the paper recipe; pass `0` to chunk every visible point (much slower; drifts from paper numbers). |
-| `--fixed_t0` | Pin the query frame at `t = H − 1` so eval is deterministic across runs. Without this, `t₀` is randomized per clip. |
-
-Output:
-
-```
-eval_out/MolmoMotion-4B-H3-F30/
-├── hot3d/
-│   ├── predictions.jsonl       # one JSON record per (video, obj, t0, batch) — gt_future_raw / pred_raw_combined / gt_future_vis / point_indices / caption / …
-│   └── metrics.json            # ADE / FDE / PWT aggregates
-├── worldtrack/…
-├── davis/…
-└── summary.json                # one-page rollup
-```
-
-`summary.json` reproduces the table format used in the paper:
-
-```json
-{
-  "hot3d":      {"ADE": 0.109, "FDE": 0.217, "PWT": 0.444, "n_clips": 2475},
-  "worldtrack": {"ADE": 0.143, "FDE": 0.261, "PWT": 0.445, "n_clips":  155},
-  "davis":      {"ADE": 1.227, "FDE": 2.108, "PWT": 0.153, "n_clips":   90}
-}
-```
-
-## Metric definitions (ADE / FDE / PWT)
-
-All three are computed in 3D camera-frame meters and restricted to
-visibility-masked frames (padded futures for short clips are excluded).
-
-- **ADE** (Average Displacement Error, ↓) — mean L2 error across all
-  visible query points and all predicted timesteps:
-  `ADE = mean_{n,t}( ||p̂_t^n − p_t^n||_2 )`
-- **FDE** (Final Displacement Error, ↓) — L2 error at the final
-  predicted timestep:
-  `FDE = mean_n( ||p̂_T^n − p_T^n||_2 )`
-- **PWT** (Points Within Threshold, ↑) — average fraction of predicted
-  points within `{0.01, 0.02, 0.05, 0.10, 0.20}` meters of ground truth,
-  averaged across thresholds:
-  `PWT = mean_{n,t,τ}( ||p̂_t^n − p_t^n||_2 ≤ τ )`
-
-<div align="center">
-  <img src="assets/qualitative_examples.png" alt="Qualitative trajectory predictions" width="1200">
-  <br>
-  <em>Predicted 3D point trajectories on PointMotionBench across diverse
-  motion patterns and language instructions. See Section 4 of the
-  <a href="https://arxiv.org/abs/2606.18558">paper</a> for the full quantitative
-  comparison.</em>
-</div>
-
-<br>
-
-# HuggingFace Conversion
-
-Convert an OLMo-native unsharded checkpoint into a
-`AutoModelForImageTextToText`-loadable HF directory:
-
-```bash
-molmo-motion-convert-hf \
-    checkpoints/MolmoMotion-H3-F30/step10000-unsharded \
-    hf_export/MolmoMotion-H3-F30 \
-    --use_bfloat16
-```
-
-This produces:
-
-```
-hf_export/MolmoMotion-H3-F30/
-├── config.json
-├── generation_config.json
-├── model-00001-of-00002.safetensors
-├── model-00002-of-00002.safetensors
-├── model.safetensors.index.json
-├── modeling_molmo_motion.py        # bundled for `trust_remote_code=True`
-├── configuration_molmo_motion.py
-├── processing_molmo_motion.py
-├── image_processing_molmo_motion.py
-├── video_processing_molmo_motion.py
-├── preprocessor_config.json
-├── tokenizer_config.json
-└── ...                              # tokenizer files
-```
-
-Push:
-
-```bash
-hf upload allenai/MolmoMotion-4B-H3-F30 \
-    hf_export/MolmoMotion-H3-F30 .
-```
-
-# Robotics: MolmoBot finetuning
-
-Use a MolmoMotion checkpoint as the initialization for a
-[MolmoBot](https://github.com/allenai/molmobot) manipulation policy and
-evaluate it on the
-[MolmoSpaces](https://github.com/allenai/molmospaces) Franka pick-and-
-place benchmark. The [`robotics/`](robotics/) subdirectory contains the
-recipe.
-See [`robotics/README.md`](robotics/README.md) for the full walkthrough.
-
-# Acknowledgements
-
-MolmoMotion is trained on [MolmoMotion-1M](https://huggingface.co/datasets/allenai/molmo-motion-1m),
-which includes data derived from the
-[Xperience](https://huggingface.co/datasets/ropedia-ai/xperience-10m) dataset. We thank
-[Ropedia](https://huggingface.co/ropedia-ai) for Xperience.
-
-**Disclaimer:** The Xperience-derived data is subject to Ropedia's terms and conditions.
-Users who access or reconstruct that portion of the data must review and comply with the
-terms on the [Xperience dataset page](https://huggingface.co/datasets/ropedia-ai/xperience-10m).
-
-# Citation
-
-```bibtex
-@article{zhang2026molmomotion,
-    title         = {MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction},
-    author        = {Zhang, Jianing and Zheng, Chenhao and Yang, Yajun and Argus, Max and Soraki, Rustin and Han, Winson and Anderson, Taira and Li, Chun-Liang and Liu, Shuo and Duan, Jiafei and Ren, Zhongzheng and Zhang, Jieyu and Krishna, Ranjay},
-    journal       = {arXiv preprint arXiv:2606.18558},
-    year          = {2026},
-    archivePrefix = {arXiv},
-    eprint        = {2606.18558},
-    primaryClass  = {cs.CV},
-    url           = {https://arxiv.org/abs/2606.18558},
-}
-```
-
-# License
-
-Code: Apache 2.0. Trained model weights: Apache 2.0. Datasets carry
-their respective upstream licenses — see the per-dataset README inside
-[allenai/molmo-motion-1m](https://huggingface.co/datasets/allenai/molmo-motion-1m)
-and [allenai/PointMotionBench](https://huggingface.co/datasets/allenai/PointMotionBench).
-
-The vendored third-party models under
-[`data_generation/third_party/`](data_generation/third_party/) carry their
-own licenses, which are **not** all Apache 2.0: SAM 3 ships under Meta's
-SAM License, and ViPE's dependency stack includes UniDepth under
-CC BY-NC 4.0 (non-commercial). See the LICENSE / THIRD_PARTY_LICENSES
-files in each vendored directory before commercial use of the
-data-generation pipeline.
+[video-real]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/sources/videos/chunk-000/observation.images.image/episode_000010.mp4
+[video-h5]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H5_group00_6s_whole_robot_prior025/generated_seed42.mp4
+[video-davis]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/davis_bmx_trees/media/legacy_comparison.mp4
+[video-fmb-n2]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/a2981b2fdcd0bf1bb9d50ecbe65c743e633b840b/runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126/study_media_v1/forecast_vs_observed.mp4
+[video-fmb-n3]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/a2981b2fdcd0bf1bb9d50ecbe65c743e633b840b/runs/fmb_second_example_1_M_L_3_vertical_n_3/quantitative_2d_sensor_t130/study_media_v1/forecast_vs_observed.mp4
+[video-bottle]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/berkeley_bottle/media/legacy_comparison.mp4
+[video-cup]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/berkeley_cup/media/legacy_comparison.mp4
+[video-control]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/group00_stretched_6s_whole_robot_v1/control_720x480.mp4
+[video-first]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_wanfun/generated_molmomotion_seed42.mp4
+[video-v6]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/clean_reference_mask_v6/generated_molmomotion_seed42.mp4
+[video-f]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_reference_repair/guided_endpoint_background/generated_seed42.mp4
+[video-h1]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H1_group00_2s_no_prior/generated_seed42.mp4
+[video-h2]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H2_group00_6s_no_prior/generated_seed42.mp4
+[video-h3]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H3_group00_6s_prior025/generated_seed42.mp4
+[video-h4]: https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H4_no_trajectory_control/generated_seed42.mp4
+[report-das-first]: https://github.com/AlexeyPetrov1/Airi_research_task/blob/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/report/das_wanfun_cup.md
+[report-das-dedup]: https://github.com/AlexeyPetrov1/Airi_research_task/blob/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/report/das_cup_dedup.md
+[report-das-h]: https://github.com/AlexeyPetrov1/Airi_research_task/blob/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/README.md
+[report-das-f]: https://github.com/AlexeyPetrov1/Airi_research_task/blob/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_reference_repair/README.md

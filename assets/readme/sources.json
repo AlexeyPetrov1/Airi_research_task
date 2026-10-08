@@ -1,0 +1,330 @@
+{
+  "description": "GIF excerpts of the exact videos linked in the author report; figures extracted from the supplied PDF.",
+  "source_pdf": "AIRI_MolmoMotion_Petrov_исправленный (1).docx.pdf",
+  "source_pdf_sha256": "c75eb75589fc10b22123424f90cce0004d18618003e10939fc3b6bfb8da0d606",
+  "videos": [
+    {
+      "name": "das-final",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H5_group00_6s_whole_robot_prior025/generated_seed42.mp4",
+      "source_sha256": "db8ea0ebd8c56520aed7c01672d68edcd55306736d1ec006f4b0c1cfe8a720f3",
+      "bytes": 238977,
+      "asset": "assets/readme/das-final.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.13,
+      "playback_time_multiplier": 1,
+      "fps": 8,
+      "size": [
+        540,
+        360
+      ],
+      "frames": 49,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "11a9a17934bf0c5326563b4c97be69058e749acf4cb93c3fcfddaa4585e2857f"
+    },
+    {
+      "name": "berkeley-real",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/sources/videos/chunk-000/observation.images.image/episode_000010.mp4",
+      "source_sha256": "0331794ed344fa7b17c11fe722ac5a47038483037d4b4cbdc0f125226ab011ef",
+      "bytes": 2127857,
+      "asset": "assets/readme/berkeley-real.gif",
+      "trim_start_seconds": 12.6,
+      "trim_duration_seconds": 2.2,
+      "playback_time_multiplier": 3,
+      "fps": 8,
+      "size": [
+        540,
+        405
+      ],
+      "frames": 53,
+      "filter": "setpts=3*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "5ddb27c0024ad57abc69f9ed98be0b4f77b9d486570fd50aab4f839203959698"
+    },
+    {
+      "name": "davis",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/davis_bmx_trees/media/legacy_comparison.mp4",
+      "source_sha256": "09a04a65b8bcbf21de58c6cac702278b393f2eb55aa23155367f735113bb9e59",
+      "bytes": 2367074,
+      "asset": "assets/readme/davis.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 1.38,
+      "playback_time_multiplier": 1,
+      "fps": 6,
+      "size": [
+        840,
+        511
+      ],
+      "frames": 8,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=6,scale=840:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "89cf55f0bd4064712522d0672101d685919489e0affa71c7d5356e03c82b9b0c"
+    },
+    {
+      "name": "fmb-n2",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/a2981b2fdcd0bf1bb9d50ecbe65c743e633b840b/runs/sharerobot_fmb_episode_5201/quantitative_2d_sensor_t126/study_media_v1/forecast_vs_observed.mp4",
+      "source_sha256": "19e4a197a396453ed640400df8e536ef3b4803029e5bd5f36747da04bdeeb326",
+      "bytes": 344217,
+      "asset": "assets/readme/fmb-n2.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.0,
+      "playback_time_multiplier": 1,
+      "fps": 6,
+      "size": [
+        840,
+        840
+      ],
+      "frames": 36,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=6,scale=840:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "391aaea88a529c6fef699aa002795557b9770949b74f8968358ad5226b42800c"
+    },
+    {
+      "name": "fmb-n3",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/a2981b2fdcd0bf1bb9d50ecbe65c743e633b840b/runs/fmb_second_example_1_M_L_3_vertical_n_3/quantitative_2d_sensor_t130/study_media_v1/forecast_vs_observed.mp4",
+      "source_sha256": "a195f83c62c7c58a62f0d0f22a3ae6031c7210da9061ed003e3bfc26908d7a02",
+      "bytes": 312302,
+      "asset": "assets/readme/fmb-n3.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.0,
+      "playback_time_multiplier": 1,
+      "fps": 6,
+      "size": [
+        840,
+        840
+      ],
+      "frames": 36,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=6,scale=840:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "b061ccc6ea4d058d2a2a0760a3b177306d066373757e900c2b0dc1733559f11a"
+    },
+    {
+      "name": "dobbe",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/dobbe_pure_vipe/media/legacy_comparison.mp4",
+      "source_sha256": "209ea60fde770fdad5669bc00ca14aa35b0cad0d1b59467cba91875bb504ae61",
+      "bytes": 367852,
+      "asset": "assets/readme/dobbe.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 2.0,
+      "playback_time_multiplier": 1,
+      "fps": 6,
+      "size": [
+        700,
+        777
+      ],
+      "frames": 12,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=6,scale=700:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "7f9f33bcbe01a0e2563e0af3b96788a786788b62fec76311973f246015b6b64f"
+    },
+    {
+      "name": "berkeley-bottle",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/berkeley_bottle/media/legacy_comparison.mp4",
+      "source_sha256": "93f62cbb34d72a2ace83e40a2dcd4798e2928a4cf3792dd3f2c3c63516891e88",
+      "bytes": 1835913,
+      "asset": "assets/readme/berkeley-bottle.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 2.0,
+      "playback_time_multiplier": 1,
+      "fps": 6,
+      "size": [
+        840,
+        210
+      ],
+      "frames": 12,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=6,scale=840:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "73accd7e89379eb3de30730bc9ce198a9808dbaf988b12ef59c68a7147823120"
+    },
+    {
+      "name": "berkeley-cup",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/f7403e5e5685fe8d235ad7565d8315804b4e0e11/fixtures/berkeley_cup/media/legacy_comparison.mp4",
+      "source_sha256": "c300bbd98d59ce1d2c11c060b4e1e87d936e02553a21e24ca74b2c0493290cca",
+      "bytes": 1804908,
+      "asset": "assets/readme/berkeley-cup.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 2.0,
+      "playback_time_multiplier": 1,
+      "fps": 6,
+      "size": [
+        840,
+        210
+      ],
+      "frames": 12,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=6,scale=840:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "60579de26004c148ba70bd84b81b77bf01a4e6c1d86b9130ddfb1982d5ee6e91"
+    },
+    {
+      "name": "das-control",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/group00_stretched_6s_whole_robot_v1/control_720x480.mp4",
+      "source_sha256": "0de0c5ae270122d7ed303720adbefd70884748c96b630a98b8410a203d65f5e9",
+      "bytes": 539545,
+      "asset": "assets/readme/das-control.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.13,
+      "playback_time_multiplier": 1,
+      "fps": 8,
+      "size": [
+        540,
+        360
+      ],
+      "frames": 49,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "84b1f53523c2ced8b39675c1ab15c739363d33bf7e4e27030c1474e97b178ae3"
+    },
+    {
+      "name": "das-first",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_wanfun/generated_molmomotion_seed42.mp4",
+      "source_sha256": "7355a305a8173c954df994d00944253c3ba7875937ba5804256c7573d896b127",
+      "bytes": 178818,
+      "asset": "assets/readme/das-first.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.13,
+      "playback_time_multiplier": 1,
+      "fps": 8,
+      "size": [
+        540,
+        360
+      ],
+      "frames": 49,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "b7549a1820f41d1c030f9a8740e2f23e8c51387c97945c9b46cce118803f1f91"
+    },
+    {
+      "name": "das-h2",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H2_group00_6s_no_prior/generated_seed42.mp4",
+      "source_sha256": "12c627f2b186bc67e6aa77782dc465814309ac8febe4228b936f1a8d408d22bd",
+      "bytes": 210046,
+      "asset": "assets/readme/das-h2.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.13,
+      "playback_time_multiplier": 1,
+      "fps": 8,
+      "size": [
+        540,
+        360
+      ],
+      "frames": 49,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "1171f7d493fddf049e0ce06dd719e71f97328a4f202f139947ff27bfed8d272c"
+    },
+    {
+      "name": "das-h4",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_full_motion/H4_no_trajectory_control/generated_seed42.mp4",
+      "source_sha256": "6a71c4c74a9db7e72956fbc4702b15113d239f7a5b09ad2fb0c5d3e779d524ea",
+      "bytes": 432161,
+      "asset": "assets/readme/das-h4.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.13,
+      "playback_time_multiplier": 1,
+      "fps": 8,
+      "size": [
+        540,
+        360
+      ],
+      "frames": 49,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "8dbd1cbc7ce37891f544b28a01fd87c00129e2f192075f9e55bb2bc85494268a"
+    },
+    {
+      "name": "das-v6",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_wanfun/variants/clean_reference_mask_v6/generated_molmomotion_seed42.mp4",
+      "source_sha256": "38574b596572400a6609a281195058e5abf7c0fb63890659fa01c83c09636255",
+      "bytes": 192276,
+      "asset": "assets/readme/das-v6.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.13,
+      "playback_time_multiplier": 1,
+      "fps": 8,
+      "size": [
+        540,
+        360
+      ],
+      "frames": 49,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "d508fcb250f66476eb4f1d045fa50baba65c6d600e0e02b018d9f8d85b646302"
+    },
+    {
+      "name": "das-f",
+      "source_url": "https://raw.githubusercontent.com/AlexeyPetrov1/Airi_research_task/eb3a5240140386b021b5555b8e0b3bde3ee60b0f/runs/berkeley_ur5_molmomotion/cup/das_reference_repair/guided_endpoint_background/generated_seed42.mp4",
+      "source_sha256": "52b4f4b482adfe5d20c843df2049ad39f6d5f6d7ba6249bc5e56148f1732905f",
+      "bytes": 171187,
+      "asset": "assets/readme/das-f.gif",
+      "trim_start_seconds": 0,
+      "trim_duration_seconds": 6.13,
+      "playback_time_multiplier": 1,
+      "fps": 8,
+      "size": [
+        540,
+        360
+      ],
+      "frames": 49,
+      "filter": "setpts=1*(PTS-STARTPTS),fps=8,scale=540:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128:reserve_transparent=0[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3",
+      "asset_sha256": "66a2df5da20a20ff3a02cebe14c977652aa087aef47eb844ed89d1638fb406b7"
+    }
+  ],
+  "figures": [
+    {
+      "asset": "assets/readme/davis-pipeline.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 3,
+      "pdf_image_xref": 19,
+      "asset_sha256": "042c7d32e82ff13c6192125e8b6fcb12c50fe4acf27cb5cc1af8151d6d5e1b6f"
+    },
+    {
+      "asset": "assets/readme/davis-tracks.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 4,
+      "pdf_image_xref": 25,
+      "asset_sha256": "61a69976497e56a771e21e2f184e1fa82b4b3e7e5733ad0af064cb27b8331cad"
+    },
+    {
+      "asset": "assets/readme/data-sources.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 5,
+      "pdf_image_xref": 31,
+      "asset_sha256": "608c53ce2f47fba9fa456f62ab44144178e9e910c3d9abb1c2f1f09753a42513"
+    },
+    {
+      "asset": "assets/readme/fmb-depth.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 7,
+      "pdf_image_xref": 42,
+      "asset_sha256": "632417c1d11db95072e96f7550820bf62d557ce3d13e0fc77c16dd8de8a77170"
+    },
+    {
+      "asset": "assets/readme/berkeley-pipeline.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 12,
+      "pdf_image_xref": 66,
+      "asset_sha256": "1ff8c5ea8494d095b6e4ede70b44f30e0f9b39f9ba95f662bf22f1b8ea54bcac"
+    },
+    {
+      "asset": "assets/readme/berkeley-original.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 14,
+      "pdf_image_xref": 77,
+      "asset_sha256": "eaa3209ec86dbec8cd12042aa7ce91401c34f7ca16a9c8a2052551894035ce9e"
+    },
+    {
+      "asset": "assets/readme/berkeley-scaled.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 14,
+      "pdf_image_xref": 78,
+      "asset_sha256": "a3451dc8b9a8b602da59547bf2a09de48bc1ef139e044777289042465101feed"
+    },
+    {
+      "asset": "assets/readme/das-comparison.jpg",
+      "source": "user-provided PDF",
+      "pdf_page": 21,
+      "pdf_image_xref": 129,
+      "asset_sha256": "b8f3860fa8bcced28599bf603ac0adf486de8097d2f004455e75d51706910234"
+    }
+  ],
+  "cover": {
+    "asset": "assets/readme/cover.png",
+    "image_source": "das-final.mp4 at 4 seconds",
+    "trajectory_decoration": "schematic, not measured data"
+  },
+  "diagrams": [
+    {
+      "asset": "assets/readme/das-pipeline.svg",
+      "source": "Author report, pages 16-22",
+      "note": "Replaces the report diagram whose footer contradicts the corrected narrative about the missed target. Trajectory is schematic.",
+      "asset_sha256": "8327909b07c16f2e4356fff9beb0de42b759b554cf753585e3ad3ee9f60391aa"
+    }
+  ]
+}

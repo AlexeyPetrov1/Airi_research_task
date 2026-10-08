@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="660" viewBox="0 0 1600 660" role="img" aria-labelledby="title desc">
+  <title id="title">MolmoMotion → DaS H5: прогноз, управление и генерация</title>
+  <desc id="desc">История Berkeley UR5 до кадра 63 используется для прогноза. Первая группа из восьми точек задаёт дугу, растянутую с двух до шести секунд. DaS воспроизводит дугу и движение манипулятора; стакан не попадает в цель.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#4479aa"/></marker>
+  </defs>
+  <rect width="1600" height="660" rx="24" fill="#f3f7fc"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="48" y="60" fill="#12253d" font-size="38" font-weight="700">От прогноза 3D-точек к видео</text>
+    <text x="48" y="100" fill="#596c82" font-size="25">Berkeley UR5 · эпизод 10 · t₀ = 63 · итоговый вариант H5</text>
+    <g fill="white" stroke="#b9ccdf" stroke-width="2">
+      <rect x="48" y="135" width="462" height="355" rx="18"/>
+      <rect x="568" y="135" width="462" height="355" rx="18"/>
+      <rect x="1088" y="135" width="464" height="355" rx="18"/>
+    </g>
+    <g fill="#163c67" font-size="30" font-weight="700">
+      <text x="76" y="182">1. История → MolmoMotion</text>
+      <text x="596" y="182">2. Управляющее видео</text>
+      <text x="1116" y="182">3. Генерация DaS</text>
+    </g>
+    <g stroke="#4479aa" stroke-width="4" marker-end="url(#arrow)">
+      <path d="M518 313 H555"/><path d="M1038 313 H1075"/>
+    </g>
+    <g fill="#263c54" font-size="25">
+      <text x="76" y="235">RGB: кадры 61, 62, 63</text>
+      <text x="76" y="271">XYZ-история + текст задачи</text>
+      <text x="76" y="307">24 точки · три запуска по 8</text>
+      <text x="596" y="235">Первая группа: 8 точек</text>
+      <text x="596" y="271">Та же дуга: 2 с → 6 с</text>
+      <text x="596" y="307">Маски стакана и звеньев UR5</text>
+      <text x="1116" y="235">Wan2.1-Fun 1.3B Control</text>
+      <text x="1116" y="271">49 кадров · seed 42 · 30 шагов</text>
+      <text x="1116" y="307">Ограничение внешнего вида: 0,25</text>
+    </g>
+    <rect x="76" y="346" width="406" height="108" rx="12" fill="#edf3fc"/>
+    <text x="100" y="385" fill="#163c67" font-size="24" font-weight="700">MolmoMotion-4B-H3-F30</text>
+    <text x="100" y="425" fill="#596c82" font-size="23">BF16 · 30 будущих шагов</text>
+    <path d="M612 427 Q698 326 782 373 T982 389" fill="none" stroke="#299788" stroke-width="4" stroke-dasharray="8 6"/>
+    <g fill="#299788"><circle cx="612" cy="427" r="7"/><circle cx="669" cy="376" r="7"/><circle cx="729" cy="362" r="7"/><circle cx="782" cy="373" r="7"/><circle cx="849" cy="400" r="7"/><circle cx="916" cy="407" r="7"/><circle cx="982" cy="389" r="7"/></g>
+    <text x="615" y="461" fill="#596c82" font-size="18">Схематичное изображение управляющей дуги</text>
+    <rect x="1116" y="346" width="408" height="108" rx="12" fill="#edf8f4"/>
+    <text x="1140" y="385" fill="#166355" font-size="22" font-weight="700">Стакан, захват, плечо, предплечье</text>
+    <text x="1140" y="425" fill="#396a61" font-size="23">движутся; основание неподвижно</text>
+    <rect x="48" y="516" width="1504" height="96" rx="14" fill="#fff2d9" stroke="#dfc28a"/>
+    <text x="76" y="553" fill="#704b0a" font-size="27" font-weight="700">Дуга воспроизведена. Стакан выше и правее цели; задача не выполнена.</text>
+    <text x="76" y="589" fill="#765c32" font-size="23">Будущие RGB-кадры в H5 используются только для оценки после генерации.</text>
+    <text x="48" y="645" fill="#6a7d91" font-size="19">Схема по авторскому отчёту, стр. 16–22. Траектория нарисована условно; результаты показаны в GIF и таблицах README.</text>
+  </g>
+</svg>
